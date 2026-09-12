@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "scenario_id": "scenario-1",
+  "version": "1.0.0",
+  "title": "Home espresso equipment",
+  "status": "frozen",
+  "publication_status": "public_release",
+  "phase": "fixed scenario data only",
+  "collection_started_at": "2026-09-12T20:04:57.825Z",
+  "collection_finished_at": "2026-09-12T20:07:21.282Z",
+  "public_context_file": "public_context.json",
+  "hidden_user_preferences_file": "private/user_preferences.json",
+  "hidden_preferences_visibility": "buyer_and_evaluator_only_in_future_actor_inputs",
+  "recommendation_sets": {
+    "bing": {
+      "file": "recommendations/bing.json",
+      "dataset_id": "bing-2026-09-12-v1",
+      "batches": 5,
+      "records": 279,
+      "main_records": 177,
+      "sponsored_records": 102,
+      "captured_occurrences": 452
+    },
+    "google": {
+      "file": "recommendations/google.json",
+      "dataset_id": "google-2026-09-12-v1",
+      "batches": 3,
+      "records": 186,
+      "main_records": 140,
+      "sponsored_records": 46,
+      "captured_occurrences": 451
+    }
+  },
+  "analysis_conditions": null,
+  "analyses": [],
+  "source_claim_status": "observed_search_cards_not_independently_adjudicated",
+  "immutability": "Reuse these files unchanged for later analyses. Recollection or changed preferences require a new scenario version.",
+  "checksum_file": "manifest.sha256"
+}

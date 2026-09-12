@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "scenario_id": "scenario-1",
+  "title": "Home espresso equipment",
+  "market": "US",
+  "currency_context": "USD",
+  "collection_query": "espresso machine grinder milk frother",
+  "recommendation_sets": ["bing", "google"],
+  "description": "Two separately captured fixed shopping recommendation sets for home espresso equipment. The initial query contains no buyer budget or named preferred product.",
+  "data_semantics": "Search-card observations, not a verified catalog of complete setups. Sponsored entries and potentially irrelevant, incomplete or over-budget offers are retained. Google cards may aggregate multiple merchant offers.",
+  "experiment_rules": null
+}
