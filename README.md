@@ -2,7 +2,7 @@
 
 Reproducible experiments in strategic interaction between buyer and recommender agents, using fixed recommendation datasets.
 
-This repository currently contains **Scenario 1: Home espresso equipment**, with two frozen recommendation sets and fixed hidden buyer preferences. It contains no game-theoretic analyses or agent-run results.
+This repository currently contains **Scenario 1: Home espresso equipment**, with two frozen recommendation sets and fixed hidden buyer preferences. The first analysis examines a buyer with oracle access to every frozen recommendation.
 
 | Recommendation set | Collection | Main records | Sponsored records | Total records |
 |---|---|---:|---:|---:|
@@ -12,6 +12,12 @@ This repository currently contains **Scenario 1: Home espresso equipment**, with
 Counts are distinct normalized **recommendation records**, not necessarily distinct products or merchants. Different offers, variants, prices, truncations or card descriptions remain separate. Page appearances and exact-repeat grouping are documented in the dataset files.
 
 The collection query for both providers was `espresso machine grinder milk frother`. The search contained no budget or preferred product. The scenario includes the original $800 total equipment ceiling and the complete fixed preference profile in a buyer/evaluator-only file. “Hidden” describes information supplied to an agent during a future experiment: the preferences are intentionally visible to repository readers.
+
+## Analyses
+
+- [Oracle access to complete recommendations](analyses/scenario-1/oracle-access/README.md): game-theoretic reasoning, exact prompts, CLI/model run manifests, ranked choices, and reproduction commands.
+
+The frozen Scenario 1 manifest remains a data-only snapshot. Analysis conditions and results are versioned separately under `analyses/`.
 
 ## Use the fixed data offline
 

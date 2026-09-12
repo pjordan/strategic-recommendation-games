@@ -4,3 +4,5 @@ __pycache__/
 .env
 .env.*
 raw-browser-captures/
+local-runs/
+analyses/**/runs/**/private/

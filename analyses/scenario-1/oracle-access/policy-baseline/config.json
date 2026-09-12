@@ -1,0 +1,30 @@
+{
+  "analysis_id": "scenario-1-oracle-access",
+  "version": "1.0.0",
+  "scenario_version": "1.1.0",
+  "scenario_manifest_sha256": "623603b321759c470e5facaa6308c47f7334dc57f2eb3c551904be6d8d102f56",
+  "providers": [
+    "bing",
+    "google"
+  ],
+  "provider_treatment": "Separate games; no cross-provider union.",
+  "oracle_access": "Buyer receives every frozen record of the selected provider before choosing, independent of recommender filtering or ordering.",
+  "oracle_scope": "Recommendation-card information only; no oracle for true suitability, merchant stock, or transaction prices.",
+  "buyer_choice_set": "Decline or any credibly complete setup assembled from that provider, including records the recommender omitted.",
+  "costs": "Zero oracle lookup, attention and deliberation costs; displayed prices fixed; taxes and shipping excluded.",
+  "budget_cents": 80000,
+  "budget_source": "scenario-1/private/user_preferences.md; analysis transcription, not a replacement preference profile.",
+  "recommender_objective": "Maximize total displayed purchase value; zero for decline; credit any simulated purchase from the provider even if omitted from its response.",
+  "recommender_controls": [
+    "query_text_over_fixed_dataset",
+    "added_prose",
+    "record_order",
+    "record_removal"
+  ],
+  "recommender_limitations": "Cannot change frozen records, buyer oracle, prices, purchase availability, or externally fixed evidence judgments. Prose is not new verified product evidence.",
+  "evidence_policy_file": "evidence-policy.md",
+  "assessment_type": "Conservative analyst assessment; not a live multi-agent experiment or product verification.",
+  "selected_outcome_status": "Conditional on explicit evidence policy; a unique real product winner is not identified by full-list access alone.",
+  "new_network_product_information": false,
+  "scenario_files_modified": false
+}
