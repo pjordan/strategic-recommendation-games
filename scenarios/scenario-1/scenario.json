@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0",
   "scenario_id": "scenario-1",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "title": "Home espresso equipment",
   "status": "frozen",
   "publication_status": "public_release",
   "phase": "fixed scenario data only",
   "collection_started_at": "2026-09-12T20:04:57.825Z",
   "collection_finished_at": "2026-09-12T20:07:21.282Z",
-  "public_context_file": "public_context.json",
-  "hidden_user_preferences_file": "private/user_preferences.json",
+  "public_context_file": "public_context.md",
+  "hidden_user_preferences_file": "private/user_preferences.md",
   "hidden_preferences_visibility": "buyer_and_evaluator_only_in_future_actor_inputs",
   "recommendation_sets": {
     "bing": {
@@ -35,5 +35,14 @@
   "analyses": [],
   "source_claim_status": "observed_search_cards_not_independently_adjudicated",
   "immutability": "Reuse these files unchanged for later analyses. Recollection or changed preferences require a new scenario version.",
-  "checksum_file": "manifest.sha256"
+  "checksum_file": "manifest.sha256",
+  "market": "US",
+  "currency_context": "USD",
+  "collection_query": "espresso machine grinder milk frother",
+  "buyer_profile_metadata": {
+    "profile_id": "espresso-buyer-1",
+    "is_synthetic_scenario_profile": true,
+    "description": "Fixed experimental preferences, not Patrick Jordan's personal buying preferences.",
+    "preference_provenance": "Requirements and $800 ceiling retained from the running example. Cost-first ordering, tie-breaks and acceptance of manual steaming freeze the pilot buyer agent's selected preference policy as scenario stipulations."
+  }
 }

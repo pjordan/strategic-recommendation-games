@@ -19,9 +19,9 @@ def load_context(role="recommender", root=ROOT):
     """Separate actor views; this API is not a filesystem security boundary."""
     if role not in ("buyer", "recommender"):
         raise ValueError("role must be buyer or recommender")
-    result = {"public_context": read(root / "public_context.json")}
+    result = {"public_context": (root / "public_context.md").read_text(encoding="utf-8")}
     if role == "buyer":
-        result["private_user_preferences"] = read(root / "private/user_preferences.json")
+        result["private_user_preferences"] = (root / "private/user_preferences.md").read_text(encoding="utf-8")
     return result
 
 def load_records(provider, root=ROOT):
@@ -75,7 +75,9 @@ def validate(root=ROOT):
     summaries = [validate_dataset(read(root / "recommendations" / (provider + ".json"))) for provider in ("bing", "google")]
     check(manifest["analyses"] == [], "This release must contain no analyses")
     check("private_user_preferences" not in load_context("recommender", root), "Default context includes private preferences")
-    for file in root.rglob("*.json"):
+    for file in root.rglob("*"):
+        if not file.is_file() or file.suffix not in (".json", ".md"):
+            continue
         text = file.read_text()
         for pattern in (r"/Users/", r"/home/", r"bing\.com/(?:aclick|ck/)", r"(?:fclid|rlid|gclid|msclkid|originIGUID)=", r"google\.com/(?:aclk|goto)", r"From your IP address", r"Nearby,\s*\d+\s*mi", r"Bearer\s+\S+"):
             check(re.search(pattern, text, re.I) is None, "Publication-screen pattern matched in " + file.name)
@@ -93,7 +95,9 @@ def main():
     if args.command == "validate":
         result = validate()
     elif args.command == "context":
-        result = load_context(args.role)
+        context = load_context(args.role)
+        print("\n".join(context.values()), end="")
+        return
     else:
         result = load_records(args.provider)
     print(json.dumps(result, indent=2, ensure_ascii=False))

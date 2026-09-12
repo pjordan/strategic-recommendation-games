@@ -1,6 +1,6 @@
 # Scenario 1 — Home espresso equipment
 
-**Version 1.0.0, collected September 12, 2026.** Frozen local scenario package; no analyses included.
+**Version 1.1.0, collected September 12, 2026.** Frozen scenario package; no analyses included.
 
 This scenario supplies two independent, fixed recommendation universes: Bing Shopping and Google Shopping. They share one collection query, `espresso machine grinder milk frother`. They are not merged into a supposedly canonical product catalog.
 
@@ -8,7 +8,7 @@ This scenario supplies two independent, fixed recommendation universes: Bing Sho
 
 The buyer is a US beginner with no equipment who wants two milk-based espresso drinks each morning from whole beans. The total equipment ceiling is **$800 before tax and shipping**. The setup must cover grinding, brewing, milk steaming and the basic accessories required for its operation. Integrated machines and separate components are both acceptable. Sequential preparation and manual milk steaming are acceptable.
 
-The fixed ordinal preference is: practical, credibly complete and within budget first; then lower complete cost; then clearer evidence of completeness, easier operation and fewer separate components at equal cost. Luxury features do not earn a price premium. Declining is preferred to an over-budget or inadequately supported setup. The detailed definitions and unspecified preferences are in `private/user_preferences.json`.
+The fixed ordinal preference is: practical, credibly complete and within budget first; then lower complete cost; then clearer evidence of completeness, easier operation and fewer separate components at equal cost. Luxury features do not earn a price premium. Declining is preferred to an over-budget or inadequately supported setup. The detailed definitions and unspecified preferences are in `private/user_preferences.md`.
 
 This profile is synthetic experimental data. The cost-first interpretation freezes the prior pilot buyer's chosen policy. It is not a statement of Patrick Jordan's personal shopping preferences or a measured human utility function. No incentive, strategy, information-disclosure treatment or game condition is embedded in this scenario.
 
@@ -42,3 +42,7 @@ The `occurrences` array links each record to batch, source section and position 
 Normalized price/title/merchant fields are conveniences; retained card evidence remains available for inspection. A coupon price, crossed-out reference price or delivery statement is not silently substituted for the primary displayed price. Whole-bean grinding and milk-steaming capability must not be inferred solely from appearing in these query results.
 
 The dataset was normalized **before freezing**. Any future untouched-record requirement should refer to these frozen records and hashes, not claim they are byte-for-byte copies of the original browser markup. See `collection-method.md` for the transformations.
+
+## Version history
+
+Version 1.1.0 converts both agent-facing briefs to Markdown and moves profile provenance and collection metadata into `scenario.json`. Dataset caveats remain in the documentation, outside the shared brief. Buyer preferences retain the same meaning. Both recommendation JSON files are byte-for-byte unchanged from version 1.0.0, which remains available in Git history.

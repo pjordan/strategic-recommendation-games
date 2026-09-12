@@ -26,15 +26,15 @@ python3 tools/scenario.py context --role buyer
 python3 -m unittest discover -s tests
 ```
 
-The default context contains only public scenario information. Loading recommendation records is a separate action. The buyer context explicitly adds private preferences; it does not automatically receive either complete recommendation set. The loader is a convenience for constructing inputs, not a filesystem security boundary.
+Agent-facing briefs are Markdown. The context command prints those briefs as plain text; the Python loader returns their unchanged text in separate fields. The default context contains only public scenario information. Loading recommendation records is a separate action. The buyer context explicitly adds private preferences; it does not automatically receive either complete recommendation set. The loader is a convenience for constructing inputs, not a filesystem security boundary.
 
 ## Scenario files
 
 ```text
 scenarios/scenario-1/
   scenario.json
-  public_context.json
-  private/user_preferences.json
+  public_context.md
+  private/user_preferences.md
   recommendations/bing.json
   recommendations/google.json
   README.md
