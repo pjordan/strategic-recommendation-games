@@ -22,8 +22,10 @@ def verify():
                 raise ValueError('Hash mismatch in '+directory.name+'/'+name)
         if (directory/'input.md').read_text() != runner.build_prompt(manifest['provider']):
             raise ValueError('Run input differs from the versioned prompt and frozen scenario')
-        if hashlib.sha256((HERE/'output-schema.json').read_bytes()).hexdigest() != manifest['output_schema_sha256']:
+        if hashlib.sha256(runner.schema_path(manifest['provider']).read_bytes()).hexdigest() != manifest['output_schema_sha256']:
             raise ValueError('Output schema differs from recorded run')
+        if hashlib.sha256(runner.prompt_path(manifest['provider']).read_bytes()).hexdigest() != manifest['prompt_template_sha256']:
+            raise ValueError('Prompt template differs from recorded run')
         row = {key:manifest[key] for key in ['run_id','harness','harness_version','model_requested','reasoning_effort_requested','provider','status']}
         if 'postprocessor_sha256' in manifest and hashlib.sha256((HERE/'recover_export.py').read_bytes()).hexdigest() != manifest['postprocessor_sha256']:
             raise ValueError('Postprocessor differs from recorded recovery')

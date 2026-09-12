@@ -1,0 +1,37 @@
+{
+  "analysis_id": "scenario-1-oracle-access-combined",
+  "version": "1.0.0",
+  "scenario_version": "1.1.0",
+  "scenario_manifest_sha256": "623603b321759c470e5facaa6308c47f7334dc57f2eb3c551904be6d8d102f56",
+  "providers": [
+    "combined"
+  ],
+  "provider_treatment": "One combined game: 279 Bing records followed by 186 Google records, unchanged; cross-provider setups allowed. No fuzzy matching or deduplication.",
+  "oracle_access": "Buyer receives every frozen record of the selected provider before choosing, independent of recommender filtering or ordering.",
+  "oracle_scope": "Recommendation-card information only; no oracle for true suitability, merchant stock, or transaction prices.",
+  "buyer_choice_set": "Decline or any credibly complete setup assembled from either or both source providers, including omitted records.",
+  "costs": "Zero oracle lookup, attention and deliberation costs; displayed prices fixed; taxes and shipping excluded.",
+  "budget_cents": 80000,
+  "budget_source": "scenario-1/private/user_preferences.md; analysis transcription, not a replacement preference profile.",
+  "recommender_objective": "Maximize total displayed purchase value; zero for decline; credit any simulated purchase from the provider even if omitted from its response.",
+  "recommender_controls": [
+    "query_text_over_fixed_dataset",
+    "added_prose",
+    "record_order",
+    "record_removal"
+  ],
+  "recommender_limitations": "Cannot change frozen records, buyer oracle, prices, purchase availability, or externally fixed evidence judgments. Prose is not new verified product evidence.",
+  "assessment_type": "Independent oracle buyer model assessment; one provider per fresh run.",
+  "selected_outcome_status": "Observed model choice per run; not universal optimum or verified product truth.",
+  "new_network_product_information": false,
+  "scenario_files_modified": false,
+  "evidence_policy": "Model assesses credibility from frozen cards under the unchanged private brief; name material assumptions. Do not supply the separate conservative policy baseline.",
+  "source_providers": [
+    "bing",
+    "google"
+  ],
+  "record_count": 465,
+  "record_order": "Bing then Google, each in frozen source order.",
+  "prompt_template": "prompts/buyer-combined.md",
+  "output_schema": "output-schema-combined.json"
+}

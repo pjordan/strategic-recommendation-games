@@ -2,11 +2,11 @@
 
 The buyer can inspect and choose from the complete fixed recommendation set, independently of the recommender's query, shortlist, or ordering. This removes the recommender's control over which offers are accessible. It does not make incomplete product-card claims into verified specifications.
 
-Bing and Google are separate games. The buyer sees 279 Bing records or 186 Google records, plus the same Markdown user brief. Oracle lookup and deliberation are costless. The recommender seeks the total displayed purchase value, with zero for decline. It receives credit for any simulated purchase from the selected provider, including an offer absent from its own response. Prices and available records cannot change. These assumptions are fixed in `config.json`.
+The original Bing and Google treatments are separate games: the buyer sees 279 Bing records or 186 Google records, plus the same Markdown user brief. The added `combined` treatment supplies all 465 records and permits cross-provider component combinations. Oracle lookup and deliberation are costless. The recommender seeks the total displayed purchase value, with zero for decline. It receives credit for any simulated purchase from the selected provider, including an offer absent from its own response. Prices and available records cannot change. These assumptions are fixed in `config.json`.
 
 ## Observed results
 
-Codex CLI 0.154.0 with requested `gpt-6-astra` / `medium` declined on Bing and selected the $332.49 VEVOR offer on Google. The Google decision relies on a stated US-compatibility inference. Read [the outcome analysis and limitations](outcomes.md) before treating these as a comparison.
+Codex CLI 0.154.0 with requested `gpt-6-astra` / `medium` declined on the Bing-only and combined inputs, and selected the $332.49 VEVOR offer on the Google-only input. The Google decision relies on a stated US-compatibility inference that the combined run did not accept. Read [the outcome analysis and limitations](outcomes.md) before treating these as a comparison.
 
 ## What the game implies
 
@@ -22,7 +22,7 @@ This is a conditional optimal-choice argument. It assumes the buyer evaluates th
 
 Each recorded model run is one fresh **buyer decision under full access**, with a compact ranked candidate set and a public explanation of the strategic consequences. It is not a two-agent conversation or an empirical test of every possible recommender message. The independent model receives no previous conversation, analyst-selected product, conservative assessment ledger, or expected answer.
 
-The same task prompt, private brief, public brief, schema, and source records are used across harnesses for a given provider. Native harness system prompts and reasoning controls are not identical across products, so the unit of comparison is the **harness + exact version + requested/resolved model + reasoning setting + prompt/input hashes + tool policy** combination. Equal labels such as “medium” do not imply equal computation across harnesses. Do not label an unreported resolved snapshot as known.
+The same task prompt, private brief, public brief, schema, and source records are used across harnesses for a given provider treatment. Native harness system prompts and reasoning controls are not identical across products, so the unit of comparison is the **harness + exact version + requested/resolved model + reasoning setting + prompt/input hashes + tool policy** combination. Equal labels such as “medium” do not imply equal computation across harnesses. Do not label an unreported resolved snapshot as known.
 
 - Task prompt: [`prompts/buyer.md`](prompts/buyer.md).
 - Output contract: [`output-schema.json`](output-schema.json).
@@ -48,6 +48,18 @@ bash analyses/scenario-1/oracle-access/run.sh \
   --provider google --run-id codex-astra-medium-google-repeat-001 \
   --output-dir local-runs/codex-astra-medium-google-repeat-001
 ```
+
+The combined condition uses the same harness settings:
+
+```bash
+bash analyses/scenario-1/oracle-access/run.sh \
+  --harness codex --codex-version 0.154.0 \
+  --model gpt-6-astra --effort medium \
+  --provider combined --run-id codex-astra-medium-combined-repeat-001 \
+  --output-dir local-runs/codex-astra-medium-combined-repeat-001
+```
+
+See [`combined-config.json`](combined-config.json) and the exact [`combined buyer prompt`](prompts/buyer-combined.md). It concatenates all Bing records, then all Google records, retaining original record IDs, hashes, prices and provider fields. It performs no cross-provider deduplication or inferred product matching: 465 records can represent fewer physical products. Compatible components may come from either source; any reasoning that links product evidence across records must state its basis. The original single-provider prompts and schemas are preserved unchanged. Record ordering is fixed, not randomized, and has not been counterbalanced.
 
 The wrapper invokes `codex exec` with explicit model and reasoning effort, structured output, JSON events, a fresh empty working directory, ignored user configuration, and disabled tools/plugins/memory where supported. It supplies the complete prompt on stdin. The public manifest records argv with symbolic file paths. [Codex non-interactive documentation](https://learn.chatgpt.com/docs/non-interactive-mode) describes stdin prompts, event output and structured responses; [CLI options](https://learn.chatgpt.com/docs/developer-commands?surface=cli) document configuration isolation.
 

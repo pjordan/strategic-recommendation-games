@@ -1,0 +1,122 @@
+{
+  "type": "object",
+  "properties": {
+    "provider": {
+      "type": "string",
+      "enum": [
+        "combined"
+      ]
+    },
+    "selected_action": {
+      "type": "string",
+      "enum": [
+        "purchase",
+        "decline"
+      ]
+    },
+    "selected_record_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "purchase_value_cents": {
+      "type": "integer"
+    },
+    "evidence_threshold": {
+      "type": "string"
+    },
+    "material_assumptions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "properties": {
+          "candidate_id": {
+            "type": "string"
+          },
+          "action": {
+            "type": "string",
+            "enum": [
+              "purchase",
+              "decline"
+            ]
+          },
+          "record_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "displayed_total_cents": {
+            "type": "integer"
+          },
+          "preference_rank": {
+            "type": "integer"
+          },
+          "qualification": {
+            "type": "string",
+            "enum": [
+              "qualifies",
+              "unestablished",
+              "fails",
+              "outside_option"
+            ]
+          },
+          "evidence_and_reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "candidate_id",
+          "action",
+          "record_ids",
+          "displayed_total_cents",
+          "preference_rank",
+          "qualification",
+          "evidence_and_reason"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "selected_outcome_reason": {
+      "type": "string"
+    },
+    "cheaper_alternatives_review": {
+      "type": "string"
+    },
+    "component_combinations_review": {
+      "type": "string"
+    },
+    "recommender_best_response_analysis": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "provider",
+    "selected_action",
+    "selected_record_ids",
+    "purchase_value_cents",
+    "evidence_threshold",
+    "material_assumptions",
+    "candidates",
+    "selected_outcome_reason",
+    "cheaper_alternatives_review",
+    "component_combinations_review",
+    "recommender_best_response_analysis",
+    "limitations"
+  ],
+  "additionalProperties": false
+}

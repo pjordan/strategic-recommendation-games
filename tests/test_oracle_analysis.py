@@ -21,6 +21,29 @@ class OracleAnalysisChecks(unittest.TestCase):
             self.assertIn((runner.SCENARIO / 'private/user_preferences.md').read_text(), prompt)
             self.assertNotIn('none of the 408', prompt)
 
+    def test_combined_universe_preserves_every_record(self):
+        expected = runner.scenario.load_records('bing') + runner.scenario.load_records('google')
+        prompt = runner.build_prompt('combined')
+        data = json.loads(prompt.split('## Complete frozen recommendation records\n\n', 1)[1])
+        self.assertEqual(data['records'], expected)
+        self.assertEqual(data['record_count'], 465)
+        self.assertEqual(len({r['record_id'] for r in data['records']}), 465)
+        self.assertIn('components may come from either provider', prompt)
+        self.assertNotIn('do not use products from the other provider', prompt)
+        self.assertEqual(json.loads(runner.schema_path('combined').read_text())['properties']['provider']['enum'], ['combined'])
+
+    def test_cross_provider_choice_allowed_only_in_combined(self):
+        result = self.decision()
+        bing = runner.scenario.load_records('bing')[0]
+        google = min(runner.scenario.load_records('google'), key=lambda r:r['displayed_price_cents'])
+        result['provider'] = 'combined'
+        result['candidates'][1]['record_ids'] = [bing['record_id'], google['record_id']]
+        result['candidates'][1]['displayed_total_cents'] = bing['displayed_price_cents'] + google['displayed_price_cents']
+        runner.validate_decision(result, 'combined')
+        result['provider'] = 'bing'
+        with self.assertRaisesRegex(ValueError, 'record IDs'):
+            runner.validate_decision(result, 'bing')
+
     def decision(self):
         records = runner.scenario.load_records('bing')[:4]
         candidates = [{'candidate_id':'decline','action':'decline','record_ids':[], 'displayed_total_cents':0,'preference_rank':1}]

@@ -1,0 +1,96 @@
+{
+  "provider": "combined",
+  "selected_action": "decline",
+  "selected_record_ids": [],
+  "purchase_value_cents": 0,
+  "evidence_threshold": "Require credible card evidence for espresso-suitable grinding, espresso brewing, steam-based milk preparation, basic operating accessories or built-in equivalents, and US electrical compatibility within $800. Explicit functional descriptions support reasonable inferences; product names, ratings, US-dollar prices, and merchant names alone do not establish accessory inclusion or electrical compatibility. Missing evidence means unestablished, not necessarily unsuitable.",
+  "material_assumptions": [
+    "A fully automatic espresso machine with an integrated grinder can reasonably provide internal brewing and tamping equivalents.",
+    "An automatic milk frother with a milk reservoir on a fully automatic espresso machine reasonably supports milk-drink preparation without a separate pitcher.",
+    "Two sequential drinks do not require dual boilers or simultaneous brewing and steaming.",
+    "US retail placement alone is insufficient to establish the electrical version supplied where the cards give no voltage or US configuration."
+  ],
+  "candidates": [
+    {
+      "candidate_id": "decline",
+      "action": "decline",
+      "record_ids": [],
+      "displayed_total_cents": 0,
+      "preference_rank": 1,
+      "qualification": "outside_option",
+      "evidence_and_reason": "No setup establishes credible completeness across all requirements. A qualifying purchase would be preferred to this outcome."
+    },
+    {
+      "candidate_id": "vevor_automatic",
+      "action": "purchase",
+      "record_ids": ["google-ceb6c802131f2c0a0c32"],
+      "displayed_total_cents": 33249,
+      "preference_rank": 2,
+      "qualification": "unestablished",
+      "evidence_and_reason": "Strongest completeness evidence: fully automatic espresso, 15-level grinder, automatic milk frother and removable milk reservoir. Internal brewing/tamping equivalents are reasonable, but the supplied electrical version is not established."
+    },
+    {
+      "candidate_id": "garvee_120v",
+      "action": "purchase",
+      "record_ids": ["google-be23c2f4af300537b351"],
+      "displayed_total_cents": 31799,
+      "preference_rank": 2,
+      "qualification": "unestablished",
+      "evidence_and_reason": "Explicit 120V, 1450W, espresso machine, grinder and steam wand provide unusually strong electrical and functional evidence. Portafilter, baskets, tamper and milk vessel inclusion remain unestablished; no exact model link supports importing a kit from another Garvee offer."
+    },
+    {
+      "candidate_id": "explicit_us_configuration",
+      "action": "purchase",
+      "record_ids": ["bing-9376c46c5715455a89a8"],
+      "displayed_total_cents": 42699,
+      "preference_rank": 2,
+      "qualification": "unestablished",
+      "evidence_and_reason": "The title specifies WHITE / US and espresso machine with grinder and milk frother. US configuration is useful evidence, but steaming method and necessary accessories or automatic equivalents are insufficiently described."
+    },
+    {
+      "candidate_id": "yesurprise_low_cost",
+      "action": "purchase",
+      "record_ids": ["bing-da2ad966a94911e550e6"],
+      "displayed_total_cents": 14999,
+      "preference_rank": 2,
+      "qualification": "unestablished",
+      "evidence_and_reason": "Explicit integrated grinder, espresso brewing, adjustable shots and milk-frother steam wand. This inexpensive offer is relevant, but neither electrical configuration nor the basic accessory package is established."
+    },
+    {
+      "candidate_id": "espressoworks_set",
+      "action": "purchase",
+      "record_ids": ["google-da6c9f300bfd52910b07"],
+      "displayed_total_cents": 9800,
+      "preference_rank": 2,
+      "qualification": "unestablished",
+      "evidence_and_reason": "A seven-piece all-in-one espresso and milk-frother set suggests accessories, but the pieces are not enumerated. Espresso-suitable grinding, steam preparation and US compatibility cannot be established from the set name."
+    },
+    {
+      "candidate_id": "lowest_displayed_offer",
+      "action": "purchase",
+      "record_ids": ["bing-16f171fcd3e63a99145c"],
+      "displayed_total_cents": 302,
+      "preference_rank": 2,
+      "qualification": "unestablished",
+      "evidence_and_reason": "The $3.02 card claims espresso, grinder and milk frother. It does not establish the supplied configuration, steaming method or accessories. Rejection rests on these evidence gaps, not a minimum acceptable price."
+    },
+    {
+      "candidate_id": "220v_machine",
+      "action": "purchase",
+      "record_ids": ["bing-7aa21957e08734827957"],
+      "displayed_total_cents": 14900,
+      "preference_rank": 3,
+      "qualification": "fails",
+      "evidence_and_reason": "Explicit 220V/2800W configuration does not support ordinary US household outlet operation; no supported electrical conversion setup is supplied."
+    }
+  ],
+  "selected_outcome_reason": "Decline because no credibly complete, US-compatible setup is established by the supplied cards. The $332.49 VEVOR automatic comes closest on functional completeness, while the $317.99 Garvee supplies explicit 120V evidence but lacks accessory-package evidence. Their strengths cannot be transferred between different products.",
+  "cheaper_alternatives_review": "Reviewed the full 279 Bing and 186 Google records, including the $3.02 offer, Alibaba offers starting at $29.50, the $91.16 Temu machine, $98 EspressoWorks sets, $129 amzchef, $139.99 Kicctian, $146.99 Justsmart, $149.99 Yesurprise and $156 Lifeimpree. Several explicitly claim the required core functions; none establishes the remaining electrical and accessory requirements. The $93.45 foreign-price Bambino also leaves US compatibility unresolved. Higher prices and familiar brands do not cure these gaps.",
+  "component_combinations_review": "The universe supplies no standalone grinder, basic accessory kit or milk vessel with sufficient specifications to assemble a supported complete setup. Machine-only offers therefore cannot be completed with a documented separate espresso grinder. Buying another integrated machine or an unspecified seven-/ten-piece set would not establish transferable accessories or compatibility. Duplicate and similar offers were treated as alternative offers, never additional hardware; no cross-record specifications were merged.",
+  "recommender_best_response_analysis": "Against this assessment and unrestricted access to the same frozen universe, query changes, omissions, ordering and unsupported persuasion cannot improve the recommender's payoff: the choice remains decline and payoff zero. They cannot supply missing product evidence or change prices. This is conditional on this buyer assessment, not a claim that other models agree or that one run proves an equilibrium.",
+  "limitations": [
+    "The cards are unverified claims, often abbreviated; unestablished products may actually be suitable.",
+    "Explicit US electrical and accessory documentation could change the result, but external verification is outside this task.",
+    "Unestablished purchases share a rank because none is acceptable on present evidence; their order is not a willingness to pay."
+  ]
+}
