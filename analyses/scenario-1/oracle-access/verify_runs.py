@@ -17,18 +17,25 @@ def verify():
         if not manifest_file.exists():
             raise ValueError('Run is unfinished: ' + directory.name)
         manifest = json.loads(manifest_file.read_text())
+        buyer_policy = manifest.get('buyer_policy', 'cost-first')
+        if manifest['scenario_version'] != runner.scenario_version(buyer_policy):
+            raise ValueError('Scenario version differs from buyer policy')
+        if manifest['scenario_manifest_sha256'] != runner.sha(runner.scenario_manifest_path(buyer_policy).read_bytes()):
+            raise ValueError('Scenario manifest differs from recorded run')
         evidence_policy = manifest.get('evidence_policy', 'card-evidence')
         for name, key in [('input.md','input_sha256'),('runner-source.py','runner_sha256')]:
             if hashlib.sha256((directory/name).read_bytes()).hexdigest() != manifest[key]:
                 raise ValueError('Hash mismatch in '+directory.name+'/'+name)
-        if (directory/'input.md').read_text() != runner.build_prompt(manifest['provider'], evidence_policy):
+        if (directory/'input.md').read_text() != runner.build_prompt(manifest['provider'], evidence_policy, buyer_policy):
             raise ValueError('Run input differs from the versioned prompt and frozen scenario')
         if hashlib.sha256(runner.schema_path(manifest['provider']).read_bytes()).hexdigest() != manifest['output_schema_sha256']:
             raise ValueError('Output schema differs from recorded run')
-        if hashlib.sha256(runner.prompt_path(manifest['provider'], evidence_policy).read_bytes()).hexdigest() != manifest['prompt_template_sha256']:
+        if hashlib.sha256(runner.prompt_path(manifest['provider'], evidence_policy, buyer_policy).read_bytes()).hexdigest() != manifest['prompt_template_sha256']:
             raise ValueError('Prompt template differs from recorded run')
         row = {key:manifest[key] for key in ['run_id','harness','harness_version','model_requested','reasoning_effort_requested','provider','status']}
         row['evidence_policy'] = evidence_policy
+        row['buyer_policy'] = buyer_policy
+        row['scenario_version'] = manifest['scenario_version']
         if 'postprocessor_sha256' in manifest and hashlib.sha256((HERE/'recover_export.py').read_bytes()).hexdigest() != manifest['postprocessor_sha256']:
             raise ValueError('Postprocessor differs from recorded recovery')
         if manifest['status'] == 'completed':

@@ -32,6 +32,22 @@ class ScenarioChecks(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "File checksum mismatch"):
                 scenario.validate(root)
 
+    def test_revised_actor_views_and_inherited_records(self):
+        self.assertEqual([r['records'] for r in scenario.validate_version('1.2.0')], [279, 186])
+        public = scenario.load_context('recommender', version='1.2.0')
+        self.assertEqual(public, scenario.load_context('recommender'))
+        self.assertNotIn('$800', str(public))
+        private = scenario.load_context('buyer', version='1.2.0')['private_user_preferences']
+        self.assertIn('greatest expected satisfaction', private)
+        self.assertIn('$800', private)
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / 'scenario'
+            shutil.copytree(scenario.ROOT, root)
+            brief = root / 'versions/1.2.0/private/user_preferences.md'
+            brief.write_text(brief.read_text().replace('$800', '$900'))
+            with self.assertRaisesRegex(ValueError, 'Version file checksum mismatch'):
+                scenario.validate_version('1.2.0', root)
+
     def test_changed_record_is_detected(self):
         data = copy.deepcopy(scenario.read(scenario.ROOT / "recommendations/bing.json"))
         data["records"][0]["displayed_price_cents"] += 1

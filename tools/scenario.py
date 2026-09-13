@@ -15,13 +15,16 @@ def read(path):
 def digest(value):
     return hashlib.sha256(json.dumps(value, sort_keys=True, ensure_ascii=False, separators=(",", ":")).encode()).hexdigest()
 
-def load_context(role="recommender", root=ROOT):
+def load_context(role="recommender", root=ROOT, version="1.1.0"):
     """Separate actor views; this API is not a filesystem security boundary."""
     if role not in ("buyer", "recommender"):
         raise ValueError("role must be buyer or recommender")
+    if version not in ("1.1.0", "1.2.0"):
+        raise ValueError("Unknown scenario version")
+    profile_root = root if version == "1.1.0" else root / "versions" / version
     result = {"public_context": (root / "public_context.md").read_text(encoding="utf-8")}
     if role == "buyer":
-        result["private_user_preferences"] = (root / "private/user_preferences.md").read_text(encoding="utf-8")
+        result["private_user_preferences"] = (profile_root / "private/user_preferences.md").read_text(encoding="utf-8")
     return result
 
 def load_records(provider, root=ROOT):
@@ -83,19 +86,41 @@ def validate(root=ROOT):
             check(re.search(pattern, text, re.I) is None, "Publication-screen pattern matched in " + file.name)
     return summaries
 
+def validate_version(version="1.1.0", root=ROOT):
+    summaries = validate(root)
+    if version == "1.1.0":
+        return summaries
+    check(version == "1.2.0", "Unknown scenario version")
+    version_root = root / "versions" / version
+    for line in (version_root / "manifest.sha256").read_text().splitlines():
+        expected, relative = line.split("  ", 1)
+        path = (version_root / relative).resolve()
+        check(path.is_relative_to(version_root.resolve()), "Version manifest path escapes scenario")
+        check(hashlib.sha256(path.read_bytes()).hexdigest() == expected, "Version file checksum mismatch: " + relative)
+    meta = read(version_root / "scenario.json")
+    check(meta["version"] == version, "Version metadata mismatch")
+    check(meta["base_scenario_manifest_sha256"] == hashlib.sha256((root / "manifest.sha256").read_bytes()).hexdigest(), "Base scenario checksum mismatch")
+    check(meta["public_context_file"] == "../../public_context.md", "Unexpected public context source")
+    check(meta["hidden_user_preferences_file"] == "private/user_preferences.md", "Unexpected profile source")
+    check(meta["recommendation_files"] == {p: "../../recommendations/" + p + ".json" for p in ("bing", "google")}, "Unexpected recommendation source")
+    return summaries
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest="command", required=True)
-    sub.add_parser("validate")
+    validation = sub.add_parser("validate")
+    validation.add_argument("--version", choices=("1.1.0", "1.2.0"), default="1.1.0")
     contexts = sub.add_parser("context")
+    contexts.add_argument("--version", choices=("1.1.0", "1.2.0"), default="1.1.0")
     contexts.add_argument("--role", choices=("buyer", "recommender"), default="recommender")
     records = sub.add_parser("records")
     records.add_argument("--provider", choices=("bing", "google"), required=True)
     args = parser.parse_args()
     if args.command == "validate":
-        result = validate()
+        result = validate_version(args.version)
     elif args.command == "context":
-        context = load_context(args.role)
+        context = load_context(args.role, version=args.version)
         print("\n".join(context.values()), end="")
         return
     else:

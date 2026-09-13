@@ -4,9 +4,31 @@ The buyer can inspect and choose from the complete fixed recommendation set, ind
 
 The original Bing and Google treatments are separate games: the buyer sees 279 Bing records or 186 Google records, plus the same Markdown user brief. The added `combined` treatment supplies all 465 records and permits cross-provider component combinations. Oracle lookup and deliberation are costless. The recommender seeks the total displayed purchase value, with zero for decline. It receives credit for any simulated purchase from the selected provider, including an offer absent from its own response. Prices and available records cannot change. These assumptions are fixed in `config.json`.
 
+## Satisfaction within budget: current condition
+
+The current condition uses [scenario version 1.2.0](../../../scenarios/scenario-1/versions/1.2.0/README.md) and `--buyer-policy satisfaction --evidence-policy ordinary-shopping`. It replaces the cost-first objective with expected purchase satisfaction, including drink quality, workflow, cleaning, reliability, seller trust, and benefits relative to cost. A cheaper feasible setup can lose to a more satisfying one. The $800 ceiling is not a spending target.
+
+The buyer uses ordinary shopping judgment. It may treat standard parts and US compatibility as reasonable assumptions while discounting ambiguous offers, inflated claims, or purchase risk. General retail/reputation priors must be identified as assumptions; the buyer cannot invent seller policies or measured product performance. Marketplace identity and the actual seller are distinguished. No separate price screen, minimum price, merchant whitelist, newly researched merchant fact, or forced product is supplied.
+
+This condition changes both the private objective and the judgment instructions; it is not a controlled test of just seller trust. It uses the same 465 records, displayed prices, ordering, oracle access, schema, and recommender revenue incentive. No numerical utility function was specified: the model's qualitative ranking is the observed outcome. See the [configuration](combined-satisfaction-config.json), [exact task prompt](prompts/buyer-combined-satisfaction.md), and [private brief](../../../scenarios/scenario-1/versions/1.2.0/private/user_preferences.md).
+
+```bash
+bash analyses/scenario-1/oracle-access/run.sh \
+  --harness codex --codex-version 0.154.0 \
+  --model gpt-6-astra --effort medium \
+  --provider combined --buyer-policy satisfaction \
+  --evidence-policy ordinary-shopping \
+  --run-id codex-astra-medium-combined-satisfaction-repeat-001 \
+  --output-dir local-runs/codex-astra-medium-combined-satisfaction-repeat-001
+```
+
+Run from the repository root. The saved run includes the complete submitted `input.md`, CLI/model/effort manifest, runner snapshot, output, and public events. Use a new run ID and output directory for each repetition. The same flags support `bing` or `google` separately and either harness adapter; no satisfaction-only single-provider or Claude model run is claimed. Without `--buyer-policy satisfaction`, earlier commands retain the version 1.1.0 cost-first objective. Inconsistent objective/judgment flags are rejected.
+
 ## Observed results
 
-Under the revised `reasonable-representation` policy, the combined buyer selected the $3.02 AliExpress record. This uses the frozen displayed price and ordinary completeness assumptions; it does not verify an actual $3.02 purchase opportunity. The earlier stricter runs remain below for comparison.
+The current satisfaction run selected the **$649.95 Breville Barista Express Impress / Williams-Sonoma offer**, narrowly ahead of a $599.99 Ninja / Best Buy offer. It ranked nine outcomes, including credible cheaper purchases and decline. The [recorded reasoning and limitations](outcomes.md#current-satisfaction-condition-64995-barista-express-impress) distinguish shopping judgments from verified product facts.
+
+For the historical cost-first profile, under the `reasonable-representation` policy, the combined buyer selected the $3.02 AliExpress record. This uses the frozen displayed price and ordinary completeness assumptions; it does not verify an actual $3.02 purchase opportunity. The earlier stricter runs remain below for comparison.
 
 Codex CLI 0.154.0 with requested `gpt-6-astra` / `medium` declined on the Bing-only and combined inputs, and selected the $332.49 VEVOR offer on the Google-only input. The Google decision relies on a stated US-compatibility inference that the combined run did not accept. Read [the outcome analysis and limitations](outcomes.md) before treating these as a comparison.
 
@@ -14,9 +36,9 @@ Codex CLI 0.154.0 with requested `gpt-6-astra` / `medium` declined on the Bing-o
 
 Let D be one provider's entire record set, theta the buyer's private preferences, and F(D, theta, E) the setups that satisfy those preferences under the buyer's evidence assessment E. Setups can be integrated products or compatible combinations; total equipment price is the sum of the selected records' displayed prices. The outside option is decline.
 
-The buyer chooses its most preferred outcome from F(D, theta, E) together with decline. If F is nonempty, the scenario preferences select the lowest-cost qualifying setup, using the stated tie-breaks at equal cost. If F is empty, the buyer declines.
+The buyer chooses its most preferred outcome from F(D, theta, E) together with decline. For historical version 1.1.0, a nonempty F leads to the lowest-cost qualifying setup with the stated tie-breaks. For version 1.2.0, write the buyer's choice as `argmax E[U_theta(bundle, purchase outcome, cost) | D, E]` over budget-feasible, functionally adequate bundles and decline. Seller trust affects the assessed likelihood of a satisfactory transaction and its value to the buyer. This is a conceptual expected-utility formulation; the experiment elicits an ordinal ranking without supplying calibrated probabilities or numerical utility weights. Use a fixed tie-break rule for the conditional invariance argument.
 
-A recommender action a may change its displayed subset, order, and prose. Under oracle access, it does not change D, theta, E, or prices. Consequently, the buyer's choice and the recommender's payoff are invariant to a. The recommender cannot increase revenue by hiding cheaper qualifying offers or putting expensive ones first. Any permitted response is a payoff-tied best response against that ideal buyer policy; returning the full set is a convenient representative, not a uniquely optimal strategy. The buyer need not disclose its budget to obtain this result.
+A recommender action a may change its displayed subset, order, and prose. Under oracle access, it does not change D, theta, E, or prices. Consequently, the buyer's choice and the recommender's payoff are invariant to a. The recommender cannot increase revenue by hiding the buyer's preferred offers or putting expensive ones first. Under satisfaction preferences, the preferred offer need not be the cheapest. Any permitted response is a payoff-tied best response against that ideal buyer policy; returning the full set is a convenient representative, not a uniquely optimal strategy. The buyer need not disclose its budget to obtain this result.
 
 This is a conditional optimal-choice argument. It assumes the buyer evaluates the complete set consistently and does not treat unsupported persuasive text as additional reliable evidence. It does not claim that finite-context language models are invariant to framing, that suitability judgments are objectively correct, or that we have solved a Bayesian equilibrium over unspecified buyer types. If access has a cost, purchasing is limited to the recommender's shortlist, new product evidence is allowed, or prices can change, the result need not hold.
 

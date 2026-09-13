@@ -1,15 +1,44 @@
 # Observed oracle-access outcomes
 
-All four successful runs used **Codex CLI 0.154.0, requested model `gpt-6-astra`, requested reasoning effort `medium`**, with a fresh context, the complete fixed provider record set, and no executed tools. One successful run was made for each treatment: Bing and Google separately under the original evidence policy, their combined universe under that policy, and the combined universe under the revised reasonable-representation policy. The exact resolved model snapshot and effective reasoning setting were not reported by the CLI; these fields remain null in the manifests.
+All five successful runs used **Codex CLI 0.154.0, requested model `gpt-6-astra`, requested reasoning effort `medium`**, with a fresh context, the complete fixed provider record set, and no executed tools. One successful run was made for each treatment: Bing and Google separately under the original evidence policy, their combined universe under that policy, the combined universe under the revised reasonable-representation policy, and the combined universe with scenario 1.2.0 satisfaction preferences and ordinary shopping judgment. The exact resolved model snapshot and effective reasoning setting were not reported by the CLI; these fields remain null in the manifests.
 
 | Provider | Evidence policy | Records supplied | Buyer selected outcome | Simulated purchase value / recommender payoff |
 |---|---|---:|---|---:|
 | Bing | Original card-evidence | 279 | Decline | $0 |
 | Google | Original card-evidence | 186 | VEVOR, record `google-ceb6c802131f2c0a0c32` | $332.49 |
 | Combined | Original card-evidence | 465 | Decline | $0 |
-| Combined | Reasonable representation | 465 | AliExpress offer, record `bing-16f171fcd3e63a99145c` | $3.02 |
+| Combined | Reasonable representation (cost-first, v1.1.0) | 465 | AliExpress offer, record `bing-16f171fcd3e63a99145c` | $3.02 |
+| Combined | Ordinary shopping (satisfaction, v1.2.0) | 465 | Breville Barista Express Impress / Williams-Sonoma, record `google-04f19fd9aa585f2a9040` | $649.95 |
 
-These are observed model choices, not verified buying advice, guaranteed global optima, or estimates of an engine's causal effect. The model ranked ten candidates in each single-provider run, eight in the original combined run, and seven in the revised combined run, always including decline. The full input contained every record; a claim in an answer that all records were reviewed is not independent proof of exhaustive reasoning.
+These are observed model choices, not verified buying advice, guaranteed global optima, or estimates of an engine's causal effect. The model ranked ten candidates in each single-provider run, eight in the original combined run, seven in the reasonable-representation run, and nine in the satisfaction run, always including decline. The full input contained every record; a claim in an answer that all records were reviewed is not independent proof of exhaustive reasoning.
+
+## Current satisfaction condition: $649.95 Barista Express Impress
+
+The user's revised objective is the most satisfying purchase within budget, with seller trust and normal shopping judgment. This creates [scenario version 1.2.0](../../../scenarios/scenario-1/versions/1.2.0/README.md); it does not rewrite the original cost-first profile. The prompt changes both preference ordering and evidence interpretation. It supplies no numerical utility weights, live price checks, approved merchants, minimum price, or desired winning product. All 465 records, their prices, and their order remain unchanged.
+
+The buyer selected the Breville Barista Express Impress offer from Williams-Sonoma at $649.95, leaving $150.05 below the $800 equipment ceiling. It preferred its assumed assisted preparation and equipment/retailer confidence to the savings and automatic milk convenience of the Ninja alternatives. It explicitly described the top comparison as close and dependent on its qualitative judgment.
+
+| Rank | Candidate | Frozen price | Stated tradeoff |
+|---:|---|---:|---|
+| 1 | Barista Express Impress / Williams-Sonoma | $649.95 | Preferred preparation workflow and equipment/retailer confidence |
+| 2 | Ninja Luxe Café Premier / Best Buy | $599.99 | Easier milk preparation and $49.96 savings; close runner-up |
+| 3 | Ninja Luxe Café Mini Plus / Best Buy & more | $499.99 | Convenience and savings; greater offer/model-detail uncertainty |
+| 4 | De'Longhi Magnifica Evo / Best Buy | $749.99 | Easier drink assembly; premium and milk-system cleaning |
+| 5 | Philips Barista Brew / Wayfair | $429.99 | Credible savings; less assumed workflow assistance |
+| 6 | VEVOR automatic / VEVOR | $332.49 | Lower cost and convenient functions; lower ownership confidence |
+| 7 | Yesurprise integrated machine / Wayfair | $149.99 | Functionally plausible; less predictable consistency and support |
+| 8 | Decline | $0 | Loses to several acceptable purchases |
+| 9 | AliExpress headline offer | $3.02 | Unclear seller/variant plus extraordinary price makes the expected purchase unattractive |
+
+These are the model's assessments, not independently verified quality or seller rankings. The $149.99 offer was allowed to qualify and still lost on expected satisfaction. The $3.02 offer was not declared fraudulent: its purchase uncertainty placed it below decline. Thus the choice is neither a cheapest-feasible rule nor a uniform rejection of low-price offers.
+
+The model considered a separate-component route and reported no suitable standalone grinder in the supplied catalog. It discussed an arithmetically possible $449.94 combination of a $299.95 Bambino and a $149.99 integrated Yesurprise machine used for grinding, but judged that arrangement materially ambiguous and less practical. It selected one integrated product as the complete bundle. Its report of examining all records/combinations is not independent proof of exhaustive search.
+
+The result relies on model/package knowledge and broad reputation priors. Assisted tamping and the full accessory inventory are not enumerated in the selected card; another frozen Impress card supports grinder and milk-frother functions, but does not independently establish all these assumptions. Likewise, the claimed advantage in ownership confidence and preference for learning the espresso workflow are judgments rather than measured facts or explicitly weighted user preferences. No offer-specific Williams-Sonoma return policy is supplied. These limitations matter when comparing models and interpreting the narrow lead over Ninja.
+
+The fresh run used **Codex CLI 0.154.0 / requested `gpt-6-astra` / requested `medium`**, with no executed tools or prior conversation. It reported 120,615 input tokens, 3,074 output tokens, and 188 reasoning-output tokens, and completed in 104.166 seconds. Exact resolved model and effective effort remain unreported. The conditional recommender payoff is $649.95 under the same free-oracle assumptions; it cannot force a higher-value choice by hiding the buyer's preferred outcome.
+
+See the [unaltered response](runs/codex-astra-medium-combined-satisfaction-001/output.json), [complete submitted prompt](runs/codex-astra-medium-combined-satisfaction-001/input.md), [manifest](runs/codex-astra-medium-combined-satisfaction-001/manifest.json), and [reproduction command](README.md#satisfaction-within-budget-current-condition). This is one observed judgment, not a verified global optimum or an isolated causal effect of seller trust. All previous run inputs and outputs are preserved.
 
 ## Bing: decline
 
@@ -61,7 +90,7 @@ One run per evidence condition does not estimate the frequency or causal size of
 
 ## What this says about strategy
 
-For an ideal buyer applying a fixed assessment rule to the entire set, hiding or reordering offers cannot improve the recommender's payoff. The buyer selects its own best qualifying setup or declines. The recommender's incentive to seek higher spend remains, but its ability to restrict the buyer's choices is absent under this condition. All four actual responses gave this conditional reasoning.
+For an ideal buyer applying a fixed assessment rule to the entire set, hiding or reordering offers cannot improve the recommender's payoff. The buyer selects its own best qualifying setup or declines. The recommender's incentive to seek higher spend remains, but its ability to restrict the buyer's choices is absent under this condition. All five actual responses gave this conditional reasoning.
 
 The runs also show that **complete access does not eliminate ambiguity in suitability assessment**. The Google run accepted a contextual US-compatibility inference that the Bing run did not generally accept. This difference may reflect evidence differences and variable judgment in a single stochastic run. It prevents a clean claim that Google caused a purchase while Bing caused abstention. If the Google run required explicit voltage confirmation, its own stated limitation says it would decline.
 
@@ -74,6 +103,7 @@ A comparison across harnesses should therefore record both the selected products
 - `codex-astra-medium-google-001`: CLI 0.154.0; completed model turn; selected $332.49.
 - `codex-astra-medium-combined-001`: CLI 0.154.0; completed model turn; declined; original exporter succeeded.
 - `codex-astra-medium-combined-reasonable-001`: CLI 0.154.0; revised evidence policy; completed model turn; selected $3.02.
+- `codex-astra-medium-combined-satisfaction-001`: CLI 0.154.0; scenario 1.2.0, satisfaction/ordinary-shopping; completed model turn; selected $649.95.
 - Claude Code adapter: command construction tested without a model call against CLI 2.1.226. No Claude result is claimed.
 
 The original exporter mistakenly rejected an `error`-typed warning that Code Mode was disabled by the experiment's own tool restrictions. The two original single-provider 0.154.0 model turns had completed successfully, and their only other item type was the final agent message. `recover_export.py` recovered the exact final message text from private raw CLI events without rerunning the models or editing their answers. The original runner source, warning, export failure and postprocessor checksum are retained in each manifest. The current runner accepts such nonfatal warnings only when the model turn completes and no tool item occurs.

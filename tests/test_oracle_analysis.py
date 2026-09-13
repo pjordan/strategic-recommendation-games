@@ -57,6 +57,23 @@ class OracleAnalysisChecks(unittest.TestCase):
             self.assertIn('recommendation-system results accurately represent', differences[0][1])
             self.assertEqual(original.split('## Shared background',1)[1], revised.split('## Shared background',1)[1])
 
+    def test_satisfaction_uses_new_profile_and_unchanged_catalog(self):
+        for provider in ('bing', 'google', 'combined'):
+            prompt = runner.build_prompt(provider, 'ordinary-shopping', 'satisfaction')
+            data = json.loads(prompt.split('## Complete frozen recommendation records\n\n', 1)[1])
+            self.assertEqual(data['records'], runner.load_universe(provider))
+            brief = (runner.SCENARIO / 'versions/1.2.0/private/user_preferences.md').read_text()
+            self.assertIn(brief, prompt)
+            self.assertIn('trust in the seller', prompt)
+            self.assertNotIn('Among setups that qualify, I prefer the lowest', prompt)
+            self.assertNotIn('a low price alone is not evidence', prompt)
+            self.assertIn('No numerical utility weights were specified', prompt)
+
+    def test_inconsistent_objective_and_judgment_policies_rejected(self):
+        for buyer, evidence in [('satisfaction', 'card-evidence'), ('cost-first', 'ordinary-shopping')]:
+            with self.assertRaisesRegex(ValueError, 'Satisfaction uses'):
+                runner.build_prompt('combined', evidence, buyer)
+
     def decision(self):
         records = runner.scenario.load_records('bing')[:4]
         candidates = [{'candidate_id':'decline','action':'decline','record_ids':[], 'displayed_total_cents':0,'preference_rank':1}]

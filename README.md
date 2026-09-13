@@ -13,6 +13,15 @@ Counts are distinct normalized **recommendation records**, not necessarily disti
 
 The collection query for both providers was `espresso machine grinder milk frother`. The search contained no budget or preferred product. The scenario includes the original $800 total equipment ceiling and the complete fixed preference profile in a buyer/evaluator-only file. “Hidden” describes information supplied to an agent during a future experiment: the preferences are intentionally visible to repository readers.
 
+## Current buyer preferences
+
+[Scenario 1 version 1.2.0](scenarios/scenario-1/versions/1.2.0/README.md) maximizes expected purchase satisfaction within the $800 budget, including seller trust and value for money. It inherits all 465 unchanged records and the original public context. The [new private brief](scenarios/scenario-1/versions/1.2.0/private/user_preferences.md) is Markdown. Version 1.1.0 and its cost-first results remain available for comparison; old commands retain their meaning.
+
+```bash
+python3 tools/scenario.py validate --version 1.2.0
+python3 tools/scenario.py context --role buyer --version 1.2.0
+```
+
 ## Analyses
 
 - [Oracle access to complete recommendations](analyses/scenario-1/oracle-access/README.md): game-theoretic reasoning, exact prompts, CLI/model run manifests, ranked choices, and reproduction commands.

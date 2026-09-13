@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "scenario_id": "scenario-1",
+  "version": "1.2.0",
+  "status": "frozen",
+  "version_type": "preference_revision_with_inherited_recommendations",
+  "base_scenario_version": "1.1.0",
+  "base_scenario_manifest_sha256": "623603b321759c470e5facaa6308c47f7334dc57f2eb3c551904be6d8d102f56",
+  "public_context_file": "../../public_context.md",
+  "recommendation_files": {
+    "bing": "../../recommendations/bing.json",
+    "google": "../../recommendations/google.json"
+  },
+  "hidden_user_preferences_file": "private/user_preferences.md",
+  "hidden_preferences_visibility": "buyer_and_evaluator_only_in_actor_inputs",
+  "buyer_profile_is_synthetic": true,
+  "buyer_objective": "Maximize expected purchase satisfaction subject to the total equipment budget; seller trust and value for money enter preferences.",
+  "budget_cents": 80000,
+  "preference_provenance": "User requested satisfaction and value within budget, standard purchasing behavior, and seller trust. Quality, workflow, maintenance, reliability, and recourse articulate that objective for the existing beginner morning-drink use case; no numerical utility weights were supplied.",
+  "change_from_base": "Replaces cost-first preference ordering with satisfaction and seller trust. Retains $800 ceiling, required functions, public context, all recommendation records and prices.",
+  "checksum_file": "manifest.sha256"
+}
