@@ -1,0 +1,11 @@
+{
+  "source_id": "src-9d6008293813b013c0d1fd88",
+  "url": "https://www.breville.com/en-us/product/bes880",
+  "retrieved_at": "2026-09-13T10:49:08.759262+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "f386b29274fc45acaaea6c595be2e6723de4da836aa73b10a4fc8bdb8b0b8e35",
+  "hash_scope": "original response bytes",
+  "source_kind": "manufacturer_product_page",
+  "page_title": "the Barista TouchTM"
+}

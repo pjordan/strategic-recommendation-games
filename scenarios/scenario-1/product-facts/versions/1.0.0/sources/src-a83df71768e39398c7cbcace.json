@@ -1,0 +1,11 @@
+{
+  "source_id": "src-a83df71768e39398c7cbcace",
+  "url": "https://www.bestbuy.com/product/ninja-luxe-cafe-premier-series-3-in-1-espresso-coffee-and-cold-brew-machine-with-grinder-and-scale-and-hands-free-frother-cyberspace/JXJVXL2C48/sku/6644057",
+  "retrieved_at": "2026-09-13T10:50:57.491Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "4a6ed5bea178943c3e1791a7463d15bb716b15e474c0b0f0e649268fe5128eea",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Ninja - Luxe Café Premier Series 3-in-1 Espresso, Coffee, and Cold Brew Machine with Grinder and Scale, and Hands-Free Frother - Cyberspace"
+}

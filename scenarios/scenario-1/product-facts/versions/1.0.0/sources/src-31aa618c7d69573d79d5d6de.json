@@ -1,0 +1,11 @@
+{
+  "source_id": "src-31aa618c7d69573d79d5d6de",
+  "url": "https://www.target.com/p/-/A-90266377",
+  "retrieved_at": "2026-09-13T10:55:27.364Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "31134ddd305ddd92c400c1618b17e8442b0aa60d5966576a37021c10a5587272",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Garvee 15 Bar Semi-Automatic Espresso Machine Coffee Maker with Grinder & Milk Steamer"
+}

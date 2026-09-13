@@ -1,0 +1,11 @@
+{
+  "source_id": "src-8ab7e8908561c1bb3822c8cf",
+  "url": "https://www.walmart.com/ip/Kenmore-Elite-Automatic-Tamp-Espresso-Machine-With-Grinder-Frother/12313568793",
+  "retrieved_at": "2026-09-13T10:55:45.201Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "03676f07d17580610dd8166f1cce12c8f616ee95a50cc945db4e538426dab8ef",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Kenmore Espresso Machine With Grinder & Milk Frother, Stainless Steel"
+}

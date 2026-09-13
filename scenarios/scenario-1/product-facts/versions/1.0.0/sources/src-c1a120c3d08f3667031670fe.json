@@ -1,0 +1,11 @@
+{
+  "source_id": "src-c1a120c3d08f3667031670fe",
+  "url": "https://www.kohls.com/product/prd-8150404/20-bar-semi-automatic-espresso-machine-with-milk-frother-95-oz-large-water-tank.jsp?color=Black+And+Grey",
+  "retrieved_at": "2026-09-13T10:51:15.626Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "406f69681ae2938569c251f5aeaefe8ec8cf16f02dbd5fd4efd068be3945b75d",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "20 Bar Semi-Automatic Espresso Machine with Milk Frother, 95oz Large Water Tank"
+}

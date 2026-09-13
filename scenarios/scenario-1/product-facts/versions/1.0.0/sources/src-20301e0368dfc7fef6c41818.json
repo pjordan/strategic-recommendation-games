@@ -1,0 +1,11 @@
+{
+  "source_id": "src-20301e0368dfc7fef6c41818",
+  "url": "https://www.walmart.com/ip/19056514562",
+  "retrieved_at": "2026-09-13T10:55:27.482Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "4515faf24ef385f006c7aa89cd8a3fc72f3434072801856ce96ffc4a85203c14",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Bluebow 20-Bar Espresso Machine with Grinder and Milk Frother, All-in-One Automatic Coffee Maker for Latte Cappuccino, Home&Office"
+}

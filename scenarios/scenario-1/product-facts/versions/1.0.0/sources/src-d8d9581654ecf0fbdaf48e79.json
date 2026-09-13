@@ -1,0 +1,11 @@
+{
+  "source_id": "src-d8d9581654ecf0fbdaf48e79",
+  "url": "https://www.bing.com/shop/productdetails?goid=389756912676",
+  "retrieved_at": "2026-09-13T10:37:53.109397+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "28e7a594b0d6a72e432dae7e82f8d60364c88bda5997dba056162b4e047b6738",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Semi-Automatic Espresso & Coffee Machine With Manual Milk Frother For Latte, Cappuccino, Built-In Grinder, 850W Coffee Maker"
+}

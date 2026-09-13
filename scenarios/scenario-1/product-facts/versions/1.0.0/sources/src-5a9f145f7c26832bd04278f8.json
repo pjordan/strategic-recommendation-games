@@ -1,0 +1,11 @@
+{
+  "source_id": "src-5a9f145f7c26832bd04278f8",
+  "url": "https://www.walmart.com/ip/18926916350",
+  "retrieved_at": "2026-09-13T10:56:06.976Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "f3264d5c66430767727bc72bb1a6322f9bf8a11f90d367dc721e99f75b1e0d00",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Soonbuy 20 Bar Pressure Espresso Machine, with Grinder & Milk Frother, 1.5L Removable Tank, Adjustable Shot Volume, Professional Stainless Steel Coffee Maker, for Home and Office"
+}

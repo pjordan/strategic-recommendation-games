@@ -1,0 +1,11 @@
+{
+  "source_id": "src-142ceb4bef9571da8a3efab9",
+  "url": "https://www.surlatable.com/product/philips-3300-series-fully-automatic-espresso-machine-with-lattego-milk-frother/8675084",
+  "retrieved_at": "2026-09-13T10:51:20.601Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "a9983ed0694238df138a4d6d63fe456f6ae6e28f469f458a1407bcace9494de5",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Philips 3300 Series Fully Automatic Espresso Machine with LatteGo Milk Frother"
+}

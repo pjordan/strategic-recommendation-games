@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-e9eb8fe30b1ea9d40fd8",
+  "provider": "google",
+  "frozen_record_sha256": "e9eb8fe30b1ea9d40fd86d6ef70ae8911d7f21b4709944e7bd6f8857bef33d53",
+  "frozen_title": "Breville Barista Touch Impress Espresso Machine",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "the Barista TouchTM Impress",
+    "product_url": "https://www.breville.com/en-us/product/bes881",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "identity",
+      "name": "sku",
+      "value": "BES881",
+      "evidence": [
+        {
+          "source_id": "src-4dcba62850f4c206630a69bb",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.sku"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "cold_brew_mode",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-abc82f6472142c0869ffa913",
+          "locator": "web text line 126"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "heat_up_time",
+      "value": "3",
+      "evidence": [
+        {
+          "source_id": "src-abc82f6472142c0869ffa913",
+          "locator": "web text line 145"
+        }
+      ],
+      "unit": "s"
+    },
+    {
+      "category": "grinding",
+      "name": "burr_type",
+      "value": "conical",
+      "evidence": [
+        {
+          "source_id": "src-abc82f6472142c0869ffa913",
+          "locator": "web text line 151"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "priceCurrency": "USD"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-4dcba62850f4c206630a69bb",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[0]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Breville Barista Touch Impress Espresso Machine",
+      "domain_filter": "breville.com",
+      "retrieved_at": "2026-09-13T10:40:07.265Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.breville.com/en-us/product/bes881",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:09.114555+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.breville.com/en-us/product/bes881",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:59.694Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source_id": "src-846d89e88ecba9e9fc0dc437",
+  "url": "https://www.breville.com/en-us/product/bes500",
+  "retrieved_at": "2026-09-13T10:50:59.784Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "3655116d03186bce6c1eba12c4f8f1e847fd845d334255c8b3bdb91b0923725b",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "manufacturer_product_page",
+  "page_title": "the Bambino® Plus"
+}

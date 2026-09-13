@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-1dd392a01e715db007bd",
+  "provider": "bing",
+  "frozen_record_sha256": "1dd392a01e715db007bd6e12649c417b28ae79c610c4049bb0a92b9611ed6a73",
+  "frozen_title": "QDMECH 220V Automatic Bean To Cup Coffee Maker With Grinder Milk Frother Multifunction Cappuccino Latte Coffee Machine",
+  "resolution": {
+    "status": "unavailable",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.alibaba.com/pla/QDMECH+220V+Automatic+Bean+to+Cup+Coffee+Maker+with+Grinder+Milk+Frother+Multifunction+Cappuccino+Latte+Coffee+Machine_1601583585042.html?product_id=1601583585042",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ]
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=428610624817",
+      "retrieved_at": "2026-09-13T10:37:56.144324+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/QDMECH+220V+Automatic+Bean+to+Cup+Coffee+Maker+with+Grinder+Milk+Frother+Multifunction+Cappuccino+Latte+Coffee+Machine_1601583585042.html?product_id=1601583585042",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:31.998142+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/QDMECH+220V+Automatic+Bean+to+Cup+Coffee+Maker+with+Grinder+Milk+Frother+Multifunction+Cappuccino+Latte+Coffee+Machine_1601583585042.html?product_id=1601583585042",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:45.756Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

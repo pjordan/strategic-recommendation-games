@@ -1,0 +1,11 @@
+{
+  "source_id": "src-06eb65590be404fd05450519",
+  "url": "https://www.bestbuy.com/product/zulay-kitchen-automatic-espresso-machine-with-grinder-milk-frother-fully-automatic-coffee-machine-with-touch-screen-black-silver/JJGJR5XC9K/sku/10154531",
+  "retrieved_at": "2026-09-13T10:50:58.870Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "ce960c180133fc0d92e72f000be4b8cc6d5db0084440cc7dfa8c8b5c3d21bfa0",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Zulay Kitchen - Automatic Espresso Machine with Grinder & Milk Frother - Fully Automatic Coffee Machine with Touch Screen - Black Silver"
+}

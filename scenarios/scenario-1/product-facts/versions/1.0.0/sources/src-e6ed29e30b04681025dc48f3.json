@@ -1,0 +1,11 @@
+{
+  "source_id": "src-e6ed29e30b04681025dc48f3",
+  "url": "https://www.tanga.com/deals/0c836d9b9f0e/krups-precision-espresso-coffee-machine-with-grinder-latte-cappuccino-maker",
+  "retrieved_at": "2026-09-13T10:51:22.180Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "fbf259bcb6a339e6464bc32f670d97442161356aff5af0d008264c75176b4f4b",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "KRUPS Precision Espresso Coffee Machine with Grinder, Latte & Cappuccino Maker"
+}

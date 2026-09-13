@@ -1,0 +1,12 @@
+{
+  "source_id": "src-1862a15ccb6bd2b37dad5c24",
+  "url": "https://www.walmart.com/ip/20214812272",
+  "retrieved_at": "2026-09-13T11:13:25.029Z",
+  "method": "web.search matched-URL product document",
+  "representation": "indexed_product_document_text",
+  "content_sha256": "11ed0d89536751d8e2d648a507fd3a462fe3032247b0346e41d46a08d844f7f9",
+  "hash_scope": "UTF-8 numbered primary document representation extracted from a search-tool response",
+  "source_kind": "merchant_product_page",
+  "page_title": "Espresso Machine with Grinder & Milk Frother,20 Bar Professional Espresso Coffee Maker with Removable Water Tank,Steam Wand,for Home Use,Latte,Espresso,Cappuccino,Silver",
+  "parent_response_sha256": "ddf3acf22737b5033b36588a4f0cd51bb6f0b02c4080425a839a19b53d4b8cd2"
+}

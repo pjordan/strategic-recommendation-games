@@ -1,0 +1,11 @@
+{
+  "source_id": "src-1ebbc3664dda8892b6bf1cb0",
+  "url": "https://www.target.com/p/breville-stainless-steel-barista-express-espresso-machine-light-silver-bes870xl/-/A-88306830",
+  "retrieved_at": "2026-09-13T10:56:02.396Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "9326ab92edfc740985c2dda8dd5a17cb7e7892bd4c206078a488860bb66eaeac",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Breville Stainless Steel Barista Express Espresso Machine Light Silver BES870XL: 15 Bars Pressure, Milk Frother, Grinder : Target"
+}

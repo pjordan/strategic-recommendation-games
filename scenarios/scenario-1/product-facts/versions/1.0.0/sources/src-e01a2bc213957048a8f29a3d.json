@@ -1,0 +1,12 @@
+{
+  "source_id": "src-e01a2bc213957048a8f29a3d",
+  "url": "https://www.bedbathandbeyond.com/Home-Garden/20-Bar-Automatic-Espresso-Coffee-Machine-with-Milk-Frother-and-Grinder-17.3-x-7.4-x-12.5/43154746/product.html",
+  "retrieved_at": "2026-09-13T10:59:02.853Z",
+  "method": "web.search exact-URL product document",
+  "representation": "indexed_product_document_text",
+  "content_sha256": "5a54f5019cdf91b3a3407fe69bc406518317626b7dfb9b07f09e0edc5b8d69a9",
+  "hash_scope": "UTF-8 numbered primary document representation extracted from a search-tool response",
+  "source_kind": "merchant_product_page",
+  "page_title": "20 Bar Automatic Espresso Coffee Machine with Milk Frother and Grinder - 17.3” x 7.4” x 12.5”",
+  "parent_response_sha256": "f90c8aab48277f3691bb22e120f3a846adc900d714e431bbc5fe1f07161df18b"
+}

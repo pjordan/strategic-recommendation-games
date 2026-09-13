@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-13191f97f3925dc64a75",
+  "provider": "google",
+  "frozen_record_sha256": "13191f97f3925dc64a7540ee25a5b0960ea9c7f1cb84b06e7e817579285df3da",
+  "frozen_title": "Loheer - Espresso Machine with Grinder 15 Bar Semi-Automatic Coffee Maker with Milk Frother Steam Wand PID Control - Silver",
+  "resolution": {
+    "status": "unresolved",
+    "method": "title_and_merchant_search",
+    "reasons": [
+      "Search returns SIMZLIFE, not the frozen Loheer-branded listing."
+    ]
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Loheer - Espresso Machine with Grinder 15 Bar Semi-Automatic Coffee Maker with Milk Frother Steam Wand PID Control - Silver",
+      "domain_filter": "bestbuy.com",
+      "retrieved_at": "2026-09-13T10:42:02.176Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

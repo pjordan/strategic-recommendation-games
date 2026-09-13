@@ -1,0 +1,11 @@
+{
+  "source_id": "src-7e89fd5496420f080554acda",
+  "url": "https://www.walmart.com/ip/18561120524",
+  "retrieved_at": "2026-09-13T10:55:45.327Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "a7461cc9f4b581413b5f4d8c707b7a56c2c4b913906de2b7ce54a9d11f310368",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "COZONY Espresso Machine with Built-in Grinder, 15-Bar Pump, Milk Frother, PID & LCD, Semi-Automatic Stainless Steel"
+}

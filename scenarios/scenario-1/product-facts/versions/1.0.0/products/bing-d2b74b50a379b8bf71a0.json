@@ -1,0 +1,345 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-d2b74b50a379b8bf71a0",
+  "provider": "bing",
+  "frozen_record_sha256": "d2b74b50a379b8bf71a01e506a5614197c10ae698b8afa5fe599c32cb64832ac",
+  "frozen_title": "Breville Barista Express Impress Stainless Steel Espresso Maker BES876BSS1BNA1: 15 Bars Pressure, Milk Frother, Grinder",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "Breville Barista Express Impress Stainless Steel Espresso Maker BES876BSS1BNA1: 15 Bars Pressure, Milk Frother, Grinder : Target",
+    "product_url": "https://www.target.com/p/breville-barista-express-impress-stainless-steel-espresso-maker-bes876bss1bna1/-/A-90673372",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-bb67df07a249b5060af6d832",
+          "locator": "web text line 73"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "burr_type",
+      "value": "conical",
+      "evidence": [
+        {
+          "source_id": "src-bb67df07a249b5060af6d832",
+          "locator": "web text line 73"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "25",
+      "evidence": [
+        {
+          "source_id": "src-bb67df07a249b5060af6d832",
+          "locator": "web text line 73"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "portafilter_diameter",
+      "value": "54",
+      "evidence": [
+        {
+          "source_id": "src-bb67df07a249b5060af6d832",
+          "locator": "web text line 77"
+        }
+      ],
+      "unit": "mm"
+    },
+    {
+      "category": "brewing",
+      "name": "extraction_pressure_bar",
+      "value": "9",
+      "evidence": [
+        {
+          "source_id": "src-bb67df07a249b5060af6d832",
+          "locator": "web text line 78"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "9",
+      "evidence": [
+        {
+          "source_id": "src-bb67df07a249b5060af6d832",
+          "locator": "web text line 78"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "brewing",
+      "name": "pump_pressure_bar",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-bb67df07a249b5060af6d832",
+          "locator": "web text line 78"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "brewing",
+      "name": "pid_temperature_control",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-bb67df07a249b5060af6d832",
+          "locator": "web text line 80"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "dimensions",
+      "value": "16.1 Inches (H) x 12.9 Inches (W) x 14.9 Inches (D)",
+      "evidence": [
+        {
+          "source_id": "src-bb67df07a249b5060af6d832",
+          "locator": "web text line 90"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-bb67df07a249b5060af6d832",
+          "locator": "web text line 98"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "removable_water_tank",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-bb67df07a249b5060af6d832",
+          "locator": "web text line 98"
+        }
+      ]
+    },
+    {
+      "category": "electrical",
+      "name": "power",
+      "value": "1750",
+      "evidence": [
+        {
+          "source_id": "src-bb67df07a249b5060af6d832",
+          "locator": "web text line 125"
+        }
+      ],
+      "unit": "W"
+    },
+    {
+      "category": "brewing",
+      "name": "cold_brew_mode",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-bb67df07a249b5060af6d832",
+          "locator": "web text line 242"
+        }
+      ]
+    },
+    {
+      "category": "electrical",
+      "name": "voltage",
+      "value": "120",
+      "evidence": [
+        {
+          "source_id": "src-bb67df07a249b5060af6d832",
+          "locator": "web text line 271"
+        }
+      ],
+      "unit": "V"
+    },
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "15 bar",
+      "evidence": [
+        {
+          "source_id": "src-a168d695aa82e696dfc555d9",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Milk Frothing Pitcher",
+      "evidence": [
+        {
+          "source_id": "src-a168d695aa82e696dfc555d9",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Water Tank Capacity",
+      "value": "67.6 fl oz",
+      "evidence": [
+        {
+          "source_id": "src-a168d695aa82e696dfc555d9",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Power",
+      "value": "1750 W",
+      "evidence": [
+        {
+          "source_id": "src-a168d695aa82e696dfc555d9",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Material",
+      "value": "Stainless Steel",
+      "evidence": [
+        {
+          "source_id": "src-a168d695aa82e696dfc555d9",
+          "locator": "#gpdp-ps li:nth-of-type(5)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Dimensions",
+      "value": "16.1 in. x 12.9 in. x 14.9 in.",
+      "evidence": [
+        {
+          "source_id": "src-a168d695aa82e696dfc555d9",
+          "locator": "#gpdp-ps li:nth-of-type(6)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Weight",
+      "value": "24.2 lbs",
+      "evidence": [
+        {
+          "source_id": "src-a168d695aa82e696dfc555d9",
+          "locator": "#gpdp-ps li:nth-of-type(7)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Milk Frother",
+      "evidence": [
+        {
+          "source_id": "src-a168d695aa82e696dfc555d9",
+          "locator": "#gpdp-ps li:nth-of-type(8)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Brand",
+      "value": "Breville",
+      "evidence": [
+        {
+          "source_id": "src-a168d695aa82e696dfc555d9",
+          "locator": "#gpdp-ps li:nth-of-type(9)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Model",
+      "value": "Barista Express Impress",
+      "evidence": [
+        {
+          "source_id": "src-a168d695aa82e696dfc555d9",
+          "locator": "#gpdp-ps li:nth-of-type(10)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Warranty",
+      "value": "2 Year",
+      "evidence": [
+        {
+          "source_id": "src-a168d695aa82e696dfc555d9",
+          "locator": "#gpdp-ps li:nth-of-type(11)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Model Number",
+      "value": "BES876BSS1BNA1",
+      "evidence": [
+        {
+          "source_id": "src-a168d695aa82e696dfc555d9",
+          "locator": "#gpdp-ps li:nth-of-type(12)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "included_items",
+    "maintenance"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=179589685455",
+      "retrieved_at": "2026-09-13T10:37:39.312137+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.target.com/p/breville-barista-express-impress-stainless-steel-espresso-maker-bes876bss1bna1/-/A-90673372",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:13.814637+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.target.com/p/breville-barista-express-impress-stainless-steel-espresso-maker-bes876bss1bna1/-/A-90673372",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:55:46.946Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source_id": "src-840465bd5d507476b2334fed",
+  "url": "https://www.bing.com/shop/productdetails?goid=460849082936",
+  "retrieved_at": "2026-09-13T10:37:33.598536+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "8ec2a2edb09f815e9b794612a1d3cc529f443cf9884523b8f7c0a1fd88ce0a79",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Ninja - Autobarista Fully Automatic Espresso Machine & Frother, 10 Drink Presets, Built-In Grinder - Stainless Steel"
+}

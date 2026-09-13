@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-0b96e3357c507c052986",
+  "provider": "google",
+  "frozen_record_sha256": "0b96e3357c507c0529860f3150e3b3d77c7d042aed38d29b96deb96f9b881b4e",
+  "frozen_title": "20 Bar Professional Coffee Maker / Anti-Clog Grinder & Stainless Steel Milk Frother - Barista-Style Lattes & Cappuccinos, Home/Office Use Yesurprise",
+  "resolution": {
+    "status": "unavailable",
+    "method": "title_and_merchant_search_candidate",
+    "candidate_url": "https://www.wayfair.com/kitchen-tabletop/pdp/yesurprise-20-bar-professional-coffee-maker-anti-clog-grinder-stainless-steel-milk-frother-barista-style-lattes-cappuccinos-homeoffice-use-csur9178.html",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ]
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "20 Bar Professional Coffee Maker / Anti-Clog Grinder & Stainless Steel Milk Frother - Barista-Style Lattes & Cappuccinos, Home/Office Use Yesurprise",
+      "domain_filter": "wayfair.com",
+      "retrieved_at": "2026-09-13T10:41:56.967Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.wayfair.com/kitchen-tabletop/pdp/yesurprise-20-bar-professional-coffee-maker-anti-clog-grinder-stainless-steel-milk-frother-barista-style-lattes-cappuccinos-homeoffice-use-csur9178.html",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:21.271459+00:00",
+      "status": "unavailable",
+      "error_type": "HTTPError"
+    },
+    {
+      "url": "https://www.wayfair.com/kitchen-tabletop/pdp/yesurprise-20-bar-professional-coffee-maker-anti-clog-grinder-stainless-steel-milk-frother-barista-style-lattes-cappuccinos-homeoffice-use-csur9178.html",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:52:19.617Z",
+      "status": "page_text_returned"
+    },
+    {
+      "url": "https://www.wayfair.com/kitchen-tabletop/pdp/yesurprise-20-bar-professional-coffee-maker-anti-clog-grinder-stainless-steel-milk-frother-barista-style-lattes-cappuccinos-homeoffice-use-csur9178.html",
+      "method": "web.search exact-URL product document",
+      "retrieved_at": "2026-09-13T10:59:01.554Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

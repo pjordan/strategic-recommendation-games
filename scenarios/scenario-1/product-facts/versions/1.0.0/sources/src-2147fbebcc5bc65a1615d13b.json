@@ -1,0 +1,12 @@
+{
+  "source_id": "src-2147fbebcc5bc65a1615d13b",
+  "url": "https://www.bedbathandbeyond.com/Home-Garden/Professional-Espresso-Machine-with-Grinder-20-Bar-Pressure-and-Milk-Frother/44137326/product.html",
+  "retrieved_at": "2026-09-13T10:59:11.116Z",
+  "method": "web.search exact-URL product document",
+  "representation": "indexed_product_document_text",
+  "content_sha256": "82103831c3f48b86fcbbc0488d0e5456f986f949dc00e750d0930161b6b7735f",
+  "hash_scope": "UTF-8 numbered primary document representation extracted from a search-tool response",
+  "source_kind": "merchant_product_page",
+  "page_title": "Professional Espresso Machine with Grinder, 20 Bar Pressure, and Milk Frother",
+  "parent_response_sha256": "b1bdb289d24dcc302e55de102049e03ef573ea3a589b1898cb313d479d9b2138"
+}

@@ -1,0 +1,11 @@
+{
+  "source_id": "src-ec803ef46c18a9c828926c6f",
+  "url": "https://clivecoffee.com/collections/ecm/products/ecm-mechanika-slim-pid-espresso-machine",
+  "retrieved_at": "2026-09-13T10:55:42.589Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "ef04026d10628d54e1d7f739473070a0681c12caa46e93469f41b31a9bb7ed06",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "ECM Mechanika Slim PID Espresso Machine"
+}

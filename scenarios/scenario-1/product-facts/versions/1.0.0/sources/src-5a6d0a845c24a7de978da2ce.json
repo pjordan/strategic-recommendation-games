@@ -1,0 +1,11 @@
+{
+  "source_id": "src-5a6d0a845c24a7de978da2ce",
+  "url": "https://www.bing.com/shop/productdetails?goid=456170316486",
+  "retrieved_at": "2026-09-13T10:37:37.362524+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "4ef795d324ddf74204f71949b301ed8a41c2705a2a19abd494e91b6702482618",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Garvee Upgraded One-Touch Coffee Maker, Automatic Espresso Coffee Machine With Built-In Grinder & Milk Frother, Silver"
+}

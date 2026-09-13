@@ -1,0 +1,11 @@
+{
+  "source_id": "src-cace17242b348e67cfc63e59",
+  "url": "https://www.encalife.com/products/20-bar-one-touch-espresso-machine",
+  "retrieved_at": "2026-09-13T10:51:08.038Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "f090b96b597c19626483f2141d7c7b8816e95e97a91c7523917d9f952c64e3ae",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "manufacturer_product_page",
+  "page_title": "20 Bar Espresso Machine with Grinder & Frother"
+}

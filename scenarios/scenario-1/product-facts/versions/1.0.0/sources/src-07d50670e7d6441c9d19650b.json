@@ -1,0 +1,11 @@
+{
+  "source_id": "src-07d50670e7d6441c9d19650b",
+  "url": "https://www.ebay.com/itm/146541864106",
+  "retrieved_at": "2026-09-13T10:51:05.866Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "717041b7bbe26e17ff7e8fe700d7894b86d526f1343223de111c4077323e5cd4",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Automatic Espresso Machine with Milk Frother & Grinder - Touch Screen 1.5L"
+}

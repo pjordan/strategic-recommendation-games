@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-cb2691cc12932a344507",
+  "provider": "bing",
+  "frozen_record_sha256": "cb2691cc12932a344507431487a2c9e78958c4d665b60024ced0235449cb6b6f",
+  "frozen_title": "Super Automatic Espresso Maker With Milk Frother & Grinder - 19 Recipes, 7\" Screen, Self-Clean - Silver Garveehome",
+  "resolution": {
+    "status": "provider_page_only",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.wayfair.com/GarveeHome--Super-Automatic-Espresso-Maker-with-Milk-Frother-and-Grinder-%E2%80%93-19-Recipes-7%E2%80%9D-Screen-SelfClean-%E2%80%93-Silver-b9qiV3eU9RwHV28u3lsu9owMo317-L896-K~GGVF8062.html",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ],
+    "merchant_resolution": {
+      "status": "unavailable",
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "candidate_url": "https://www.wayfair.com/GarveeHome--Super-Automatic-Espresso-Maker-with-Milk-Frother-and-Grinder-%E2%80%93-19-Recipes-7%E2%80%9D-Screen-SelfClean-%E2%80%93-Silver-b9qiV3eU9RwHV28u3lsu9owMo317-L896-K~GGVF8062.html",
+      "reasons": [
+        "Product page could not be retrieved with usable, scoped product details."
+      ]
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=450035167501",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Type",
+      "value": "Super-Automatic",
+      "evidence": [
+        {
+          "source_id": "src-c00d27dc9ccaef9f9ef8973f",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Milk Frothing Pitcher",
+      "evidence": [
+        {
+          "source_id": "src-c00d27dc9ccaef9f9ef8973f",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Milk Frother",
+      "evidence": [
+        {
+          "source_id": "src-c00d27dc9ccaef9f9ef8973f",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Color",
+      "value": "Silver",
+      "evidence": [
+        {
+          "source_id": "src-c00d27dc9ccaef9f9ef8973f",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Brand",
+      "value": "Garvee",
+      "evidence": [
+        {
+          "source_id": "src-c00d27dc9ccaef9f9ef8973f",
+          "locator": "#gpdp-ps li:nth-of-type(5)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=450035167501",
+      "retrieved_at": "2026-09-13T10:37:39.004746+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.wayfair.com/GarveeHome--Super-Automatic-Espresso-Maker-with-Milk-Frother-and-Grinder-%E2%80%93-19-Recipes-7%E2%80%9D-Screen-SelfClean-%E2%80%93-Silver-b9qiV3eU9RwHV28u3lsu9owMo317-L896-K~GGVF8062.html",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:20.612630+00:00",
+      "status": "unavailable",
+      "error_type": "HTTPError"
+    },
+    {
+      "url": "https://www.wayfair.com/GarveeHome--Super-Automatic-Espresso-Maker-with-Milk-Frother-and-Grinder-%E2%80%93-19-Recipes-7%E2%80%9D-Screen-SelfClean-%E2%80%93-Silver-b9qiV3eU9RwHV28u3lsu9owMo317-L896-K~GGVF8062.html",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:52:13.038Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

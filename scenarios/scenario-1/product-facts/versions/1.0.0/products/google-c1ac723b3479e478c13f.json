@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-c1ac723b3479e478c13f",
+  "provider": "google",
+  "frozen_record_sha256": "c1ac723b3479e478c13fe78a9945ed46a6045f45c0890f9e90b3992a2a884607",
+  "frozen_title": "Ninja Luxe Caf Mini Espresso Machine & Drip Coffee Maker with Built-in Grinder",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 0.8,
+    "reasons": [],
+    "method": "reviewed_search_resolution",
+    "page_title": "Ninja Luxe Café Mini Espresso Machine & Drip Coffee Maker with Built-in Grinder, Precision Scale & Manual Steam Wand for Lattes, Cappuccinos & More, ES301 Black",
+    "product_url": "https://www.walmart.com/ip/19258703085",
+    "note": "Exact model/product landing page found in targeted search."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-b1e6a91a1287179b75386d49",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-b1e6a91a1287179b75386d49",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "manual_frothing_explicit",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-b1e6a91a1287179b75386d49",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "drip_coffee_mode",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-b1e6a91a1287179b75386d49",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "integrated_scale",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-b1e6a91a1287179b75386d49",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "automatic_frothing_explicit",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-b1e6a91a1287179b75386d49",
+          "locator": "web text line 300"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "burr_type",
+      "value": "conical",
+      "evidence": [
+        {
+          "source_id": "src-b1e6a91a1287179b75386d49",
+          "locator": "web text line 304"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [
+    {
+      "topic": "milk_system",
+      "note": "Source text describes both manual and automatic frothing. This may indicate dual capability or inconsistent copy; automatic operation is not resolved by these claims alone."
+    }
+  ],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Ninja Luxe Caf Mini Espresso Machine & Drip Coffee Maker with Built-in Grinder",
+      "domain_filter": "walmart.com",
+      "retrieved_at": "2026-09-13T10:40:15.147Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.walmart.com/ip/19258703085",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:55:36.440Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

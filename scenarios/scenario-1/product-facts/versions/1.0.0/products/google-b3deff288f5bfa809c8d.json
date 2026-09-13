@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-b3deff288f5bfa809c8d",
+  "provider": "google",
+  "frozen_record_sha256": "b3deff288f5bfa809c8d25fb0d4304a4a810f88775416febd048435640f20e81",
+  "frozen_title": "Zulay Kitchen Magia Espresso Machine 15 Bar with Grinder Milk Frother 2L Removable Tank x003iudz61",
+  "resolution": {
+    "status": "ambiguous",
+    "token_overlap": 0.4,
+    "reasons": [
+      "Insufficient title agreement for an exact listing match."
+    ],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "Zulay Kitchen Manual Stainless steel Espresso Machine with Drip Tray ( Black/Silver )",
+    "candidate_url": "https://www.lowes.com/pd/Zulay-Kitchen-20-Cup-Black-Silver-Commercial-Residential-Combination-Coffee-Maker/5015053405"
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Zulay Kitchen Magia Espresso Machine 15 Bar with Grinder Milk Frother 2L Removable Tank x003iudz61",
+      "domain_filter": "lowes.com",
+      "retrieved_at": "2026-09-13T10:41:07.162Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.lowes.com/pd/Zulay-Kitchen-20-Cup-Black-Silver-Commercial-Residential-Combination-Coffee-Maker/5015053405",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:11.430210+00:00",
+      "status": "unavailable",
+      "error_type": "HTTPError"
+    },
+    {
+      "url": "https://www.lowes.com/pd/Zulay-Kitchen-20-Cup-Black-Silver-Commercial-Residential-Combination-Coffee-Maker/5015053405",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:51:18.322Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source_id": "src-75317ef31fe0a5dd5730ab16",
+  "url": "https://www.kohls.com/product/prd-8157718/20-bar-espresso-coffee-machine-with-built-in-grinder-28l-removable-tank.jsp",
+  "retrieved_at": "2026-09-13T10:51:15.826Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "bb0645093613e5b748e090d8dc840febec2ee3a543a92d80aa507041be80fef7",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "20-Bar Espresso Coffee Machine with Built-In Grinder, 2.8L Removable Tank"
+}

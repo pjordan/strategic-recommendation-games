@@ -1,0 +1,11 @@
+{
+  "source_id": "src-b26db6e8c59b5492418515af",
+  "url": "https://www.target.com/p/-/A-93317349",
+  "retrieved_at": "2026-09-13T10:51:29.715Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "534a8aa44b023a1032438c165bfcc8d33a0e411e7b4d017515ae71a2a4402e9b",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Espresso Machine with Grinder, Milk Frother Wand, 1450W, 20 Bar Professional Espresso Maker with Barista Kit"
+}

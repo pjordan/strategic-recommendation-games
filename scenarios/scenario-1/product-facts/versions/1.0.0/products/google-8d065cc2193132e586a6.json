@@ -1,0 +1,201 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-8d065cc2193132e586a6",
+  "provider": "google",
+  "frozen_record_sha256": "8d065cc2193132e586a618fbc7ef813218715e5625d706d5bdcaf807da1de94d",
+  "frozen_title": "Towallmark All-In-One Espresso Machine with Milk Frother & Grinder 15 Bar Automatic Coffee Maker with Italian Ulka Pump",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "Towallmark All-In-One Espresso Machine with Milk Frother & Grinder - 15 Bar Automatic Coffee Maker with Italian ULKA Pump, 2.5L Water Tank, Brushed Stainless Steel for Home and Office",
+    "product_url": "https://business.walmart.com/ip/Towallmark-All-In-One-Espresso-Machine-Milk-Frother-Grinder-15-Bar-Automatic-Coffee-Maker-Italian-ULKA-Pump-2-5L-Water-Tank-Brushed-Stainless-Steel-H/5396345034",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-3e21f0e3edc983ac47fb9a3f",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "physical",
+      "name": "water_tank_capacity",
+      "value": "2.5",
+      "evidence": [
+        {
+          "source_id": "src-3e21f0e3edc983ac47fb9a3f",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        }
+      ],
+      "unit": "L"
+    },
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-3e21f0e3edc983ac47fb9a3f",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "pid_temperature_control",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-3e21f0e3edc983ac47fb9a3f",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        }
+      ]
+    },
+    {
+      "category": "included_items",
+      "name": "tamper",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-3e21f0e3edc983ac47fb9a3f",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        }
+      ]
+    },
+    {
+      "category": "included_items",
+      "name": "milk_pitcher",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-3e21f0e3edc983ac47fb9a3f",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        }
+      ]
+    },
+    {
+      "category": "included_items",
+      "name": "cleaning_brush",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-3e21f0e3edc983ac47fb9a3f",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        }
+      ]
+    },
+    {
+      "category": "included_items",
+      "name": "single_shot_basket",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-3e21f0e3edc983ac47fb9a3f",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        }
+      ]
+    },
+    {
+      "category": "included_items",
+      "name": "double_shot_basket",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-3e21f0e3edc983ac47fb9a3f",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        }
+      ]
+    },
+    {
+      "category": "included_items",
+      "name": "portafilter",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-3e21f0e3edc983ac47fb9a3f",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "model",
+      "value": "Towallmark All-In-One Espresso Machine",
+      "evidence": [
+        {
+          "source_id": "src-3e21f0e3edc983ac47fb9a3f",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.model"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "sku",
+      "value": "5396345034",
+      "evidence": [
+        {
+          "source_id": "src-3e21f0e3edc983ac47fb9a3f",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.sku"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "price": 191.28,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-3e21f0e3edc983ac47fb9a3f",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[0]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "maintenance",
+    "milk"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Towallmark All-In-One Espresso Machine with Milk Frother & Grinder 15 Bar Automatic Coffee Maker with Italian Ulka Pump",
+      "domain_filter": "walmart.com",
+      "retrieved_at": "2026-09-13T10:41:59.119Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://business.walmart.com/ip/Towallmark-All-In-One-Espresso-Machine-Milk-Frother-Grinder-15-Bar-Automatic-Coffee-Maker-Italian-ULKA-Pump-2-5L-Water-Tank-Brushed-Stainless-Steel-H/5396345034",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:27.609763+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://business.walmart.com/ip/Towallmark-All-In-One-Espresso-Machine-Milk-Frother-Grinder-15-Bar-Automatic-Coffee-Maker-Italian-ULKA-Pump-2-5L-Water-Tank-Brushed-Stainless-Steel-H/5396345034",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:55:36.475Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-e2ea8284664c99f1318a",
+  "provider": "bing",
+  "frozen_record_sha256": "e2ea8284664c99f1318aad93cb9ae5d377c4f29ec2b41df12654bf2602743cd2",
+  "frozen_title": "Breville Barista Touch Stainless Steel Espresso Maker BES880BSS1BUS1: 15 Bars Pressure, Milk Frother, Grinder, 67Oz Capacity",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "Breville Barista Touch Stainless Steel Espresso Maker BES880BSS1BUS1: 15 Bars Pressure, Milk Frother, Grinder, 67oz Capacity : Target",
+    "product_url": "https://www.target.com/p/breville-barista-touch-stainless-steel-espresso-maker-bes880bss1bus1/-/A-90673370",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "brewing",
+      "name": "heat_up_time",
+      "value": "3",
+      "evidence": [
+        {
+          "source_id": "src-bbeb44f6171ca19e6478e7fe",
+          "locator": "web text line 73"
+        }
+      ],
+      "unit": "s"
+    },
+    {
+      "category": "grinding",
+      "name": "burr_type",
+      "value": "conical",
+      "evidence": [
+        {
+          "source_id": "src-bbeb44f6171ca19e6478e7fe",
+          "locator": "web text line 74"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "30",
+      "evidence": [
+        {
+          "source_id": "src-bbeb44f6171ca19e6478e7fe",
+          "locator": "web text line 74"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-bbeb44f6171ca19e6478e7fe",
+          "locator": "web text line 75"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "portafilter_diameter",
+      "value": "54",
+      "evidence": [
+        {
+          "source_id": "src-bbeb44f6171ca19e6478e7fe",
+          "locator": "web text line 76"
+        }
+      ],
+      "unit": "mm"
+    },
+    {
+      "category": "brewing",
+      "name": "extraction_pressure_bar",
+      "value": "9",
+      "evidence": [
+        {
+          "source_id": "src-bbeb44f6171ca19e6478e7fe",
+          "locator": "web text line 77"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "9",
+      "evidence": [
+        {
+          "source_id": "src-bbeb44f6171ca19e6478e7fe",
+          "locator": "web text line 77"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "brewing",
+      "name": "pump_pressure_bar",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-bbeb44f6171ca19e6478e7fe",
+          "locator": "web text line 77"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-bbeb44f6171ca19e6478e7fe",
+          "locator": "web text line 83"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "automatic_frothing_explicit",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-bbeb44f6171ca19e6478e7fe",
+          "locator": "web text line 83"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "dimensions",
+      "value": "16 Inches (H) x 12.5 Inches (W) x 12.7 Inches (D)",
+      "evidence": [
+        {
+          "source_id": "src-bbeb44f6171ca19e6478e7fe",
+          "locator": "web text line 86"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "removable_water_tank",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-bbeb44f6171ca19e6478e7fe",
+          "locator": "web text line 94"
+        }
+      ]
+    },
+    {
+      "category": "electrical",
+      "name": "power",
+      "value": "1680",
+      "evidence": [
+        {
+          "source_id": "src-bbeb44f6171ca19e6478e7fe",
+          "locator": "web text line 120"
+        }
+      ],
+      "unit": "W"
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "included_items",
+    "maintenance"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=179420781509",
+      "retrieved_at": "2026-09-13T10:37:56.046919+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.target.com/p/breville-barista-touch-stainless-steel-espresso-maker-bes880bss1bus1/-/A-90673370",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:13.835398+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.target.com/p/breville-barista-touch-stainless-steel-espresso-maker-bes880bss1bus1/-/A-90673370",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:56:12.274Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-403d0092fc323bd2b014",
+  "provider": "google",
+  "frozen_record_sha256": "403d0092fc323bd2b0147b8afe818e46b92d77b2d19d898b2b0c56e0a2ecda8d",
+  "frozen_title": "COWSAR 2-Cup 20-Bar PID Control Semi-Automatic Espresso Machine with Built-in Grinder and Milk Frother",
+  "resolution": {
+    "status": "unavailable",
+    "method": "title_and_merchant_search_candidate",
+    "candidate_url": "https://www.homedepot.com/p/342318027",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ]
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "COWSAR 2-Cup 20-Bar PID Control Semi-Automatic Espresso Machine with Built-in Grinder and Milk Frother",
+      "domain_filter": "homedepot.com",
+      "retrieved_at": "2026-09-13T10:41:20.782Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.homedepot.com/p/342318027",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:10.704371+00:00",
+      "status": "unavailable",
+      "error_type": "HTTPError"
+    },
+    {
+      "url": "https://www.homedepot.com/p/342318027",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:51:13.248Z",
+      "status": "page_text_returned"
+    },
+    {
+      "url": "https://www.homedepot.com/p/342318027",
+      "method": "web.search matched-URL product document",
+      "retrieved_at": "2026-09-13T11:13:42.894Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

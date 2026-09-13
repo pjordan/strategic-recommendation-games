@@ -1,0 +1,11 @@
+{
+  "source_id": "src-4cf40d4c3612905ef3446f7b",
+  "url": "https://www.delonghi.com/en-us/p/magnifica-evo-magnifica-evo-espresso-machine--automatic-milk-frother/ECAM29084SB.html",
+  "retrieved_at": "2026-09-13T10:51:05.020Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "27996dd237fe592a4cf74f1b4a8c5f1e5602e5da981564463713617f727caaf2",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "manufacturer_product_page",
+  "page_title": "Magnifica Evo with LatteCrema System"
+}

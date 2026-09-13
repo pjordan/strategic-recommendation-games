@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-ae16f17e37b151e3a9fd",
+  "provider": "google",
+  "frozen_record_sha256": "ae16f17e37b151e3a9fdfe91ffd12856d2f2f0d13d1422fe208c743f7d585970",
+  "frozen_title": "Breville Barista Express Espresso Machine Impress",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "Breville BES876BSS1BNA1 Barista Express Impress",
+    "product_url": "https://www.wholelattelove.com/products/breville-bes876bss1bna1-barista-express-impress",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "burr_type",
+      "value": "conical",
+      "evidence": [
+        {
+          "source_id": "src-7e89ba72a92f0533dfcd72bd",
+          "locator": "web text line 467"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "25",
+      "evidence": [
+        {
+          "source_id": "src-7e89ba72a92f0533dfcd72bd",
+          "locator": "web text line 467"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-7e89ba72a92f0533dfcd72bd",
+          "locator": "web text line 468"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "water_tank_capacity",
+      "value": "2",
+      "evidence": [
+        {
+          "source_id": "src-7e89ba72a92f0533dfcd72bd",
+          "locator": "web text line 468"
+        }
+      ],
+      "unit": "L"
+    },
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-7e89ba72a92f0533dfcd72bd",
+          "locator": "web text line 476"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "pid_temperature_control",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-7e89ba72a92f0533dfcd72bd",
+          "locator": "web text line 481"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "manual_frothing_explicit",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-7e89ba72a92f0533dfcd72bd",
+          "locator": "web text line 485"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Breville Barista Express Espresso Machine Impress",
+      "domain_filter": "wholelattelove.com",
+      "retrieved_at": "2026-09-13T10:40:12.837Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.wholelattelove.com/products/breville-bes876bss1bna1-barista-express-impress",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:21.438849+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.wholelattelove.com/products/breville-bes876bss1bna1-barista-express-impress",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:52:20.956Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

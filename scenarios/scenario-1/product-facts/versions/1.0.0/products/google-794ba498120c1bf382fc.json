@@ -1,0 +1,187 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-794ba498120c1bf382fc",
+  "provider": "google",
+  "frozen_record_sha256": "794ba498120c1bf382fce130f50adeffe5b5b4392f2a3687fc946344c784cf7f",
+  "frozen_title": "Gevi 20 Bar Espresso Machine with Grinder & Milk Frother",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "Gevi 20-Bar Espresso Machine with Grinder and Milk Frother, Espresso and Latte Maker for Home, Silver",
+    "product_url": "https://household.gevi.com/products/gevi-20-bar-espresso-machine-with-grinder-and-milk-frother-espresso-and-latte-maker-for-home-silver",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-fda79dd3a83e12d6362d2a95",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        },
+        {
+          "source_id": "src-a15114ec385a69eebac1a109",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "extraction_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-fda79dd3a83e12d6362d2a95",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        },
+        {
+          "source_id": "src-a15114ec385a69eebac1a109",
+          "locator": "page title"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "grinding",
+      "name": "burr_type",
+      "value": "conical",
+      "evidence": [
+        {
+          "source_id": "src-fda79dd3a83e12d6362d2a95",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        },
+        {
+          "source_id": "src-a15114ec385a69eebac1a109",
+          "locator": "web text line 46"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-fda79dd3a83e12d6362d2a95",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        },
+        {
+          "source_id": "src-a15114ec385a69eebac1a109",
+          "locator": "web text line 75"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "pid_temperature_control",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-fda79dd3a83e12d6362d2a95",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        },
+        {
+          "source_id": "src-a15114ec385a69eebac1a109",
+          "locator": "web text line 77"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "30",
+      "evidence": [
+        {
+          "source_id": "src-fda79dd3a83e12d6362d2a95",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        },
+        {
+          "source_id": "src-a15114ec385a69eebac1a109",
+          "locator": "web text line 46"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-fda79dd3a83e12d6362d2a95",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        },
+        {
+          "source_id": "src-a15114ec385a69eebac1a109",
+          "locator": "web text line 46"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "identity",
+      "name": "sku",
+      "value": "ECM-5431ULSS",
+      "evidence": [
+        {
+          "source_id": "src-fda79dd3a83e12d6362d2a95",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.sku"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "price": "559.99",
+        "priceCurrency": "USD",
+        "availability": "http://schema.org/InStock",
+        "itemCondition": "http://schema.org/NewCondition",
+        "sku": "ECM-5431ULSS"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-fda79dd3a83e12d6362d2a95",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[0]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Gevi 20 Bar Espresso Machine with Grinder & Milk Frother",
+      "domain_filter": "gevi.com",
+      "retrieved_at": "2026-09-13T10:41:05.952Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://household.gevi.com/products/gevi-20-bar-espresso-machine-with-grinder-and-milk-frother-espresso-and-latte-maker-for-home-silver",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:28.644895+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://household.gevi.com/products/gevi-20-bar-espresso-machine-with-grinder-and-milk-frother-espresso-and-latte-maker-for-home-silver",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:21.190Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

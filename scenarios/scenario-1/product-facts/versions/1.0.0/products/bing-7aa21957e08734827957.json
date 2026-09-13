@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-7aa21957e08734827957",
+  "provider": "bing",
+  "frozen_record_sha256": "7aa21957e08734827957398bc4bb4a696a5ddafcefae3932879131669a6b39e6",
+  "frozen_title": "With 250G Grinder Maker 220V 2800W Milk Frother Steamer Making Cappuccino Espresso Coffee Machine",
+  "resolution": {
+    "status": "unavailable",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.alibaba.com/pla/With+%32%35%30G+Grinder+Maker+%32%32%30V+%32%38%30%30W+Milk+Frother+Steamer+Making+Cappuccino+Espresso+Coffee+Machine_1600945962629.html?product_id=1600945962629",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ]
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=319441269148",
+      "retrieved_at": "2026-09-13T10:37:52.081920+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/With+%32%35%30G+Grinder+Maker+%32%32%30V+%32%38%30%30W+Milk+Frother+Steamer+Making+Cappuccino+Espresso+Coffee+Machine_1600945962629.html?product_id=1600945962629",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:32.249568+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/With+%32%35%30G+Grinder+Maker+%32%32%30V+%32%38%30%30W+Milk+Frother+Steamer+Making+Cappuccino+Espresso+Coffee+Machine_1600945962629.html?product_id=1600945962629",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:47.407Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

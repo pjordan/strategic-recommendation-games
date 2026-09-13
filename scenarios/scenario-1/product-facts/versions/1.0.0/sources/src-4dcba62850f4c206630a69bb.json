@@ -1,0 +1,11 @@
+{
+  "source_id": "src-4dcba62850f4c206630a69bb",
+  "url": "https://www.breville.com/en-us/product/bes881",
+  "retrieved_at": "2026-09-13T10:49:09.114555+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "e0fa73ee6a8e0cdf75ebfbce46a95f097f32dc6fa2fef21ee15a5537b200c896",
+  "hash_scope": "original response bytes",
+  "source_kind": "manufacturer_product_page",
+  "page_title": "the Barista TouchTM Impress"
+}

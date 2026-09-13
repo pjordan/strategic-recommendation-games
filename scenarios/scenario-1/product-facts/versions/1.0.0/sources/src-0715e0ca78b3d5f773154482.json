@@ -1,0 +1,11 @@
+{
+  "source_id": "src-0715e0ca78b3d5f773154482",
+  "url": "https://www.dunecoffee.com/products/breville-barista-touch",
+  "retrieved_at": "2026-09-13T10:49:09.627192+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "e5f68c641aec2c9bda8751d745cfd885150e0fabb5429384325222fd22c3efa2",
+  "hash_scope": "original response bytes",
+  "source_kind": "merchant_product_page",
+  "page_title": "Breville Barista Touch"
+}

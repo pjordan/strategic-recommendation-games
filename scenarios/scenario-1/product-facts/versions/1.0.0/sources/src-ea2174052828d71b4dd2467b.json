@@ -1,0 +1,12 @@
+{
+  "source_id": "src-ea2174052828d71b4dd2467b",
+  "url": "https://www.bestbuy.com/product/delonghi-rivelia-fully-automatic-espresso-machine-integrated-grinder-2-removable-bean-hoppers-automatic-milk-frother-sand-beige/J7G8Z84YT3/sku/6685395",
+  "retrieved_at": "2026-09-13T10:59:39.302Z",
+  "method": "web.search exact-URL product document",
+  "representation": "indexed_product_document_text",
+  "content_sha256": "ff15daf24fa9e83c4698579086a15759821dfc33b976b099b0373e7a2b810d2c",
+  "hash_scope": "UTF-8 numbered primary document representation extracted from a search-tool response",
+  "source_kind": "merchant_product_page",
+  "page_title": "De'Longhi - Rivelia Fully Automatic Espresso Machine, Integrated Grinder, 2 Removable Bean Hoppers, Automatic Milk Frother - Sand Beige",
+  "parent_response_sha256": "e248b723195e8e895074cdbb627f7714f21b86ffe9dc2764d35b6135a28cd483"
+}

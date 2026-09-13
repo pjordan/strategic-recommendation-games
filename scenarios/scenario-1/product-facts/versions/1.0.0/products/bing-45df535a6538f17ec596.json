@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-45df535a6538f17ec596",
+  "provider": "bing",
+  "frozen_record_sha256": "45df535a6538f17ec5961e9e9660484e8523476c53005b0f7f200d53b5ed2613",
+  "frozen_title": "Fully Automatic Espresso Machine With Grinder - 20 Bar, Milk Frother, Adjustable Grinding, Touch Control & Auto Self-Cleaning, For Cappuccino &",
+  "resolution": {
+    "status": "provider_page_only",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.temu.com/fully-automatic-espresso-machine-with-grinder-20-bar-milk-frother-adjustable-grinding-touch-control-auto-self-cleaning-for-cappuccino-latte-g-605957539104747.html",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ],
+    "merchant_resolution": {
+      "status": "unavailable",
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "candidate_url": "https://www.temu.com/fully-automatic-espresso-machine-with-grinder-20-bar-milk-frother-adjustable-grinding-touch-control-auto-self-cleaning-for-cappuccino-latte-g-605957539104747.html",
+      "reasons": [
+        "Product page could not be retrieved with usable, scoped product details."
+      ]
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=449782566992",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "20 bar",
+      "evidence": [
+        {
+          "source_id": "src-44fe6f392efe10163ba01400",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Type",
+      "value": "Automatic",
+      "evidence": [
+        {
+          "source_id": "src-44fe6f392efe10163ba01400",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Milk Frothing Pitcher",
+      "evidence": [
+        {
+          "source_id": "src-44fe6f392efe10163ba01400",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=449782566992",
+      "retrieved_at": "2026-09-13T10:37:47.713708+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.temu.com/fully-automatic-espresso-machine-with-grinder-20-bar-milk-frother-adjustable-grinding-touch-control-auto-self-cleaning-for-cappuccino-latte-g-605957539104747.html",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:14.761492+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.temu.com/fully-automatic-espresso-machine-with-grinder-20-bar-milk-frother-adjustable-grinding-touch-control-auto-self-cleaning-for-cappuccino-latte-g-605957539104747.html",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:51:34.553Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

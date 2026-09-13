@@ -1,0 +1,11 @@
+{
+  "source_id": "src-199496c5c093111cf4afdd64",
+  "url": "https://www.breville.com/en-us/product/bes985",
+  "retrieved_at": "2026-09-13T10:50:59.901Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "4e2ff1fcedbd7cac598368529119648747400fbab60bd5fb6c4391394eadbde2",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "manufacturer_product_page",
+  "page_title": "the Oracle® Jet"
+}

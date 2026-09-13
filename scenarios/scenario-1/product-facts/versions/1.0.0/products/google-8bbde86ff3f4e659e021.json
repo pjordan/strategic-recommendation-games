@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-8bbde86ff3f4e659e021",
+  "provider": "google",
+  "frozen_record_sha256": "8bbde86ff3f4e659e021ac080624e35f55f2f7778a19356fec91bebb3e4f0b02",
+  "frozen_title": "Turin Gallatin V HX Espresso Machine with PID",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "Turin Gallatin V HX Espresso Machine with PID",
+    "product_url": "https://espressooutlet.com/collections/prosumer-espresso-machines/products/turin-gallatin-hx-espresso-machine-with-pid",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "brewing",
+      "name": "pid_temperature_control",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-fef37f61dd4295dad9c2b90d",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        },
+        {
+          "source_id": "src-fd9343e2e7ba2acd3cf64eed",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "dual_boiler_claim",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-fef37f61dd4295dad9c2b90d",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        }
+      ]
+    },
+    {
+      "category": "electrical",
+      "name": "voltage",
+      "value": "120",
+      "evidence": [
+        {
+          "source_id": "src-fef37f61dd4295dad9c2b90d",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        },
+        {
+          "source_id": "src-fd9343e2e7ba2acd3cf64eed",
+          "locator": "web text line 415"
+        }
+      ],
+      "unit": "V"
+    },
+    {
+      "category": "physical",
+      "name": "water_tank_capacity",
+      "value": "1.7",
+      "evidence": [
+        {
+          "source_id": "src-fef37f61dd4295dad9c2b90d",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        },
+        {
+          "source_id": "src-fd9343e2e7ba2acd3cf64eed",
+          "locator": "web text line 445"
+        }
+      ],
+      "unit": "L"
+    },
+    {
+      "category": "brewing",
+      "name": "portafilter_diameter",
+      "value": "58",
+      "evidence": [
+        {
+          "source_id": "src-fef37f61dd4295dad9c2b90d",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        },
+        {
+          "source_id": "src-fd9343e2e7ba2acd3cf64eed",
+          "locator": "web text line 517"
+        }
+      ],
+      "unit": "mm"
+    },
+    {
+      "category": "identity",
+      "name": "sku",
+      "value": "TCRM3035SS-440",
+      "evidence": [
+        {
+          "source_id": "src-fef37f61dd4295dad9c2b90d",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.sku"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "price": 1249.0,
+        "priceCurrency": "USD",
+        "availability": "http://schema.org/OutOfStock"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-fef37f61dd4295dad9c2b90d",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[0]"
+    },
+    {
+      "observations": {
+        "price": 1299.0,
+        "priceCurrency": "USD",
+        "availability": "http://schema.org/InStock",
+        "sku": "TCRM3035SS-440"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-fef37f61dd4295dad9c2b90d",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[1]"
+    },
+    {
+      "observations": {
+        "price": 1249.0,
+        "priceCurrency": "USD",
+        "availability": "http://schema.org/InStock"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-fef37f61dd4295dad9c2b90d",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[2]"
+    },
+    {
+      "observations": {
+        "price": 1299.0,
+        "priceCurrency": "USD",
+        "availability": "http://schema.org/InStock"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-fef37f61dd4295dad9c2b90d",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[3]"
+    },
+    {
+      "observations": {
+        "price": 1249.0,
+        "priceCurrency": "USD",
+        "availability": "http://schema.org/OutOfStock"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-fef37f61dd4295dad9c2b90d",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[4]"
+    },
+    {
+      "observations": {
+        "price": 1299.0,
+        "priceCurrency": "USD",
+        "availability": "http://schema.org/InStock"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-fef37f61dd4295dad9c2b90d",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[5]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "included_items",
+    "maintenance",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Turin Gallatin V HX Espresso Machine with PID",
+      "domain_filter": "espressooutlet.com",
+      "retrieved_at": "2026-09-13T10:40:11.349Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://espressooutlet.com/collections/prosumer-espresso-machines/products/turin-gallatin-hx-espresso-machine-with-pid",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:28.046502+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://espressooutlet.com/collections/prosumer-espresso-machines/products/turin-gallatin-hx-espresso-machine-with-pid",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:55:45.091Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

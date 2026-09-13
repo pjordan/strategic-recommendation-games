@@ -1,0 +1,11 @@
+{
+  "source_id": "src-741033fe63ee08732731fae5",
+  "url": "https://espresso-works.com/pages/help-aew-3000-guide",
+  "retrieved_at": "2026-09-13T10:50:17.210Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "e19f9ac0f9fc14ea2ad5602ad6d1f440d53de2c33cf55a1bb2552e9b75567aff",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "product_specific_manufacturer_guide",
+  "page_title": " Setup & How-To Guide - 10-Piece 19-Bar Espresso & Cappuccino Machine"
+}

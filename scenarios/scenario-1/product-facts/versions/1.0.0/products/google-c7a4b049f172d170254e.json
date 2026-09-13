@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-c7a4b049f172d170254e",
+  "provider": "google",
+  "frozen_record_sha256": "c7a4b049f172d170254ecf78024500db7ae03fbfcc4046d9cae08b67d0a853fb",
+  "frozen_title": "Manual Espresso Coffee Machine with Grinder – Retro-Style",
+  "resolution": {
+    "status": "unresolved",
+    "method": "title_and_merchant_search",
+    "reasons": [
+      "Multiple SMEG colors and manual models; frozen title lacks a distinguishing model."
+    ]
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Manual Espresso Coffee Machine with Grinder – Retro-Style",
+      "domain_filter": "crateandbarrel.com",
+      "retrieved_at": "2026-09-13T10:41:20.443Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

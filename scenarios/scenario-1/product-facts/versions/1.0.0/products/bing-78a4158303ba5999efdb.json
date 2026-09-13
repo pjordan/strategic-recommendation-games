@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-78a4158303ba5999efdb",
+  "provider": "bing",
+  "frozen_record_sha256": "78a4158303ba5999efdb97ddcd8ed94bd061e21045cf9560deaac398b334982e",
+  "frozen_title": "VEVOR Fully Automatic Espresso Machine - With Automatic Milk Frother 20 Bar Super-Automatic Cappuccino Latte Machine With Tft Touch Screen Grinder 15",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "VEVOR Fully Automatic Espresso Machine - with Automatic Milk Frother, 20 Bar Super-Automatic Cappuccino Latte Machine with TFT Touch Screen, Grinder, 15 Grinding Levels, and Removable Milk Reservoir",
+    "product_url": "https://www.vevor.com/coffee-makers-c_13271/fully-automatic-espresso-machine-20-bar-with-auto-milk-frother-grinder-p_010613123540",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "milk",
+      "name": "automatic_frothing_explicit",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-622adf1e3a6e139279113c3e",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-622adf1e3a6e139279113c3e",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-622adf1e3a6e139279113c3e",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "identity",
+      "name": "sku",
+      "value": "QZDYSKFJQZDDHQILBV1",
+      "evidence": [
+        {
+          "source_id": "src-622adf1e3a6e139279113c3e",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.sku"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "mpn",
+      "value": "QZDYSKFJQZDDHQILBV1",
+      "evidence": [
+        {
+          "source_id": "src-622adf1e3a6e139279113c3e",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.mpn"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "price": "376.90",
+        "priceCurrency": "USD",
+        "availability": "http://schema.org/InStock",
+        "itemCondition": "http://schema.org/NewCondition",
+        "seller": "Vevor"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-622adf1e3a6e139279113c3e",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[0]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=330630706056",
+      "retrieved_at": "2026-09-13T10:37:37.892889+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.vevor.com/coffee-makers-c_13271/fully-automatic-espresso-machine-20-bar-with-auto-milk-frother-grinder-p_010613123540",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:15.007288+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.vevor.com/coffee-makers-c_13271/fully-automatic-espresso-machine-20-bar-with-auto-milk-frother-grinder-p_010613123540",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:51:36.624Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

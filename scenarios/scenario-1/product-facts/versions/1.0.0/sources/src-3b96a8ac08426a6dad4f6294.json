@@ -1,0 +1,11 @@
+{
+  "source_id": "src-3b96a8ac08426a6dad4f6294",
+  "url": "https://www.bing.com/shop/productdetails?goid=468923597396",
+  "retrieved_at": "2026-09-13T10:37:48.339466+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "34c6929c4dec4cd3638b4739a27b3c863f22de50d519511673e53e4bd2150298",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Fully Automatic Espresso Machine 20 Bar With Auto Milk Frother & Grinder"
+}

@@ -1,0 +1,12 @@
+{
+  "source_id": "src-1962e600a727ebfbfd0d5af8",
+  "url": "https://www.walmart.com/ip/EastVita-Machine-with-Grinder-Cappuccino-and-Latte-Maker-with-Powerful-Milk-Frother-for-Home-Barista-LCD-Display-Stainless-Steel-Coffee-Maker/15400518600",
+  "retrieved_at": "2026-09-13T10:58:39.736Z",
+  "method": "web.search exact-URL product document",
+  "representation": "indexed_product_document_text",
+  "content_sha256": "d4e5efb00848e25b36da9f449fb1350d0c656d2fe8bce3ce2f66ccc40ad25a72",
+  "hash_scope": "UTF-8 numbered primary document representation extracted from a search-tool response",
+  "source_kind": "merchant_product_page",
+  "page_title": "EastVita Machine with Grinder Cappuccino and Latte Maker with Powerful Milk Frother for Home Barista, LCD Display,Stainless Steel Coffee Maker",
+  "parent_response_sha256": "da59a8e0b08dc65e311722899fa7fb2caf972ac8a937e4a03315f973ce4e54aa"
+}

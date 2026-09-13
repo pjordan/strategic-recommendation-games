@@ -1,0 +1,11 @@
+{
+  "source_id": "src-5130cd5e3a6f2814024471ec",
+  "url": "https://www.bestbuy.com/product/delonghi-magnifica-evo-espresso-machine-with-automatic-milk-frother-for-hot-and-iced-lattes-coffee-and-more-silver/6513285",
+  "retrieved_at": "2026-09-13T10:55:38.815Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "69b6f82adce07de4cb2e512826d893629623f3e8a08293fe72f6c637778c7cb6",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "De'Longhi - Magnifica Evo Espresso Machine with Automatic Milk Frother for Hot and Iced Lattes, Coffee and More - Silver"
+}

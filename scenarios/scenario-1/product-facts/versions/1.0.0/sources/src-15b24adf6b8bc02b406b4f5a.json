@@ -1,0 +1,12 @@
+{
+  "source_id": "src-15b24adf6b8bc02b406b4f5a",
+  "url": "https://www.kohls.com/product/prd-8327446/15-bar-espresso-machine-with-built-in-conical-burr-grinder-milk-frother.jsp",
+  "retrieved_at": "2026-09-13T10:59:11.116Z",
+  "method": "web.search exact-URL product document",
+  "representation": "indexed_product_document_text",
+  "content_sha256": "22276b9effc5ca227fc8a61621184f587a65574a614f397aa7796e6f77f7c1b0",
+  "hash_scope": "UTF-8 numbered primary document representation extracted from a search-tool response",
+  "source_kind": "merchant_product_page",
+  "page_title": "15 Bar Espresso Machine with Built-in Conical Burr Grinder & Milk Frother",
+  "parent_response_sha256": "59d600cf4a2fffbb16464c024b88fdcb279df5cc66d37e154fa1935fcb40a4fb"
+}

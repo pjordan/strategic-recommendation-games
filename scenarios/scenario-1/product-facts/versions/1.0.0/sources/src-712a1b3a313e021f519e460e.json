@@ -1,0 +1,12 @@
+{
+  "source_id": "src-712a1b3a313e021f519e460e",
+  "url": "https://www.ebay.com/itm/136994196190",
+  "retrieved_at": "2026-09-13T11:13:25.029Z",
+  "method": "web.search matched-URL product document",
+  "representation": "indexed_product_document_text",
+  "content_sha256": "9fb9a94b9a0f5cc2706f19ab1ddd4831eb69944648a8ff8b4cf744c65de7da89",
+  "hash_scope": "UTF-8 numbered primary document representation extracted from a search-tool response",
+  "source_kind": "merchant_product_page",
+  "page_title": "Stainless Steel Espresso Machine w/ Milk Frother & Grinder for Home Kitchen",
+  "parent_response_sha256": "d1a011119e02cf43ad997be85770da1e3bf08b8cc7e3af3f2227a5a3cd27ea05"
+}

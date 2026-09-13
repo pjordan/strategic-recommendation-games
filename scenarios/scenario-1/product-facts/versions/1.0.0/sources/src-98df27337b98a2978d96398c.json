@@ -1,0 +1,11 @@
+{
+  "source_id": "src-98df27337b98a2978d96398c",
+  "url": "https://www.walmart.com/ip/18598472349",
+  "retrieved_at": "2026-09-13T10:55:52.211Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "127e931dbfa3d5e130e3a0d9a71966ceaa53777c9872b94aa5581263815310b5",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Professional Espresso Machine with Integrated Grinder & Auto Milk Frother, 20 Bar Pump for Lattes and Cappuccinos at Home"
+}

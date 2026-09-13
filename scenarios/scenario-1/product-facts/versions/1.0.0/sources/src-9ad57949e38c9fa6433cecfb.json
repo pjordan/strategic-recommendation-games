@@ -1,0 +1,12 @@
+{
+  "source_id": "src-9ad57949e38c9fa6433cecfb",
+  "url": "https://www.walmart.com/ip/18096016350",
+  "retrieved_at": "2026-09-13T11:13:27.683Z",
+  "method": "web.search matched-URL product document",
+  "representation": "indexed_product_document_text",
+  "content_sha256": "eb6a42812781ee3cfadf154df15bf476a3bba2cd2ad523de138c115824b24763",
+  "hash_scope": "UTF-8 numbered primary document representation extracted from a search-tool response",
+  "source_kind": "merchant_product_page",
+  "page_title": "FREE VILLAGE Coffee Maker with Grinder, 20 Bar Expresso Coffee Machines with Milk Frother Steam Wand,Professional Espresso Maker with Removable Water Tank,Cappuccino & Latte Machine for Home",
+  "parent_response_sha256": "5bb29a11618158df8927fda9e4876abbbb9e5ca8e523f510ee9b943369f24710"
+}

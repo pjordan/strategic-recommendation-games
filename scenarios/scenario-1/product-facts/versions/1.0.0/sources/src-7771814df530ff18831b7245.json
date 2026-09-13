@@ -1,0 +1,11 @@
+{
+  "source_id": "src-7771814df530ff18831b7245",
+  "url": "https://www.kohls.com/product/prd-8091633/20-bar-steel-espresso-machine-with-grinder-15l-removable-water-tank-milk-frother-steam-wand.jsp",
+  "retrieved_at": "2026-09-13T10:51:15.303Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "696526ae86b0874f3dbbbc17cbecf8af1f555d351a0946b5d8dc27fbb2f0f76e",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "20 Bar Steel Espresso Machine with Grinder, 1.5L Removable Water Tank, Milk Frother Steam Wand"
+}

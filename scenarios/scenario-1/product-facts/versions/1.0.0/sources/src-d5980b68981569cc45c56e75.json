@@ -1,0 +1,11 @@
+{
+  "source_id": "src-d5980b68981569cc45c56e75",
+  "url": "https://www.kohls.com/product/prd-6921332/kenmore-espresso-machine-with-grinder-milk-frother.jsp",
+  "retrieved_at": "2026-09-13T10:51:14.419Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "397a0995ed135312ad56f620cfb250b8ffa96b02d66bd01d579508404d92a146",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Kenmore Espresso Machine With Grinder & Milk Frother"
+}

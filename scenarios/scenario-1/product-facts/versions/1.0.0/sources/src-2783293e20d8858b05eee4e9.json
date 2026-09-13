@@ -1,0 +1,11 @@
+{
+  "source_id": "src-2783293e20d8858b05eee4e9",
+  "url": "https://www.bing.com/shop/productdetails?goid=449093307874",
+  "retrieved_at": "2026-09-13T10:37:35.916553+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "1a33f813186b6d6d36bda86b14f00bd8068523460106b0b20e2c72db1aff6534",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Stainless Steel Espresso Machine - 15 Bar Coffee Maker With Grinder Milk Frother And 2.5L Water Tank For Home And Office - Silver"
+}

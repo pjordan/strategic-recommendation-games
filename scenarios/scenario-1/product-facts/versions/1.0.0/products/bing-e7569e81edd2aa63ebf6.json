@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-e7569e81edd2aa63ebf6",
+  "provider": "bing",
+  "frozen_record_sha256": "e7569e81edd2aa63ebf67cc980ed4f5653d974e1521f264927a2259b730674ad",
+  "frozen_title": "CASABREWS Espresso Machine With Grinder, Professional Espresso Maker With Milk Frother Steam Wand, 20 Bar Barista Cappuccino Machine With LCD Display For Lattes, Gift For Dad Mom Wife Or Coffee Lover",
+  "resolution": {
+    "status": "provider_page_only",
+    "token_overlap": 0.4,
+    "reasons": [
+      "Insufficient title agreement for an exact listing match."
+    ],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "CASABREWS Espresso Machine with Grinder, Professional Espresso Maker with Milk Frother Steam Wand, 20 Bar Barista Cappuccino Machine with LCD Display",
+    "candidate_url": "https://www.retailmarket.net/products/casabrews-espresso-machine-with-grinder-professional-espresso-maker-with-milk-frother-steam-wand-20-bar-barista-cappuccino-machine-with-lcd-display-for-lattes-gift-for-dad-mom-wife-or-coffee-lover/",
+    "merchant_resolution": {
+      "status": "ambiguous",
+      "token_overlap": 0.4,
+      "reasons": [
+        "Insufficient title agreement for an exact listing match."
+      ],
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "page_title": "CASABREWS Espresso Machine with Grinder, Professional Espresso Maker with Milk Frother Steam Wand, 20 Bar Barista Cappuccino Machine with LCD Display",
+      "candidate_url": "https://www.retailmarket.net/products/casabrews-espresso-machine-with-grinder-professional-espresso-maker-with-milk-frother-steam-wand-20-bar-barista-cappuccino-machine-with-lcd-display-for-lattes-gift-for-dad-mom-wife-or-coffee-lover/"
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=238571778211",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "20 bar",
+      "evidence": [
+        {
+          "source_id": "src-65b0d40df143e60b108ad83b",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Steam Wand",
+      "evidence": [
+        {
+          "source_id": "src-65b0d40df143e60b108ad83b",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Power",
+      "value": "1500 watts",
+      "evidence": [
+        {
+          "source_id": "src-65b0d40df143e60b108ad83b",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Material",
+      "value": "Stainless Steel",
+      "evidence": [
+        {
+          "source_id": "src-65b0d40df143e60b108ad83b",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Built-in Grinder",
+      "evidence": [
+        {
+          "source_id": "src-65b0d40df143e60b108ad83b",
+          "locator": "#gpdp-ps li:nth-of-type(5)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Color",
+      "value": "Black Silver",
+      "evidence": [
+        {
+          "source_id": "src-65b0d40df143e60b108ad83b",
+          "locator": "#gpdp-ps li:nth-of-type(6)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Brand",
+      "value": "Casabrews",
+      "evidence": [
+        {
+          "source_id": "src-65b0d40df143e60b108ad83b",
+          "locator": "#gpdp-ps li:nth-of-type(7)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=238571778211",
+      "retrieved_at": "2026-09-13T10:37:46.134809+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.retailmarket.net/products/casabrews-espresso-machine-with-grinder-professional-espresso-maker-with-milk-frother-steam-wand-20-bar-barista-cappuccino-machine-with-lcd-display-for-lattes-gift-for-dad-mom-wife-or-coffee-lover/",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:11.576176+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.retailmarket.net/products/casabrews-espresso-machine-with-grinder-professional-espresso-maker-with-milk-frother-steam-wand-20-bar-barista-cappuccino-machine-with-lcd-display-for-lattes-gift-for-dad-mom-wife-or-coffee-lover/",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:51:19.274Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

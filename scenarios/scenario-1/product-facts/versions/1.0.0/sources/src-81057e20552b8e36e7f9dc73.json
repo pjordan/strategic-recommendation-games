@@ -1,0 +1,11 @@
+{
+  "source_id": "src-81057e20552b8e36e7f9dc73",
+  "url": "https://www.bing.com/shop/productdetails?goid=445999993987",
+  "retrieved_at": "2026-09-13T10:37:35.927209+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "041bb249081187c222c6643e8f29f2cf7c7b059d235ebfabb33ea514bdabc15f",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "15 Bar Espresso Machine With Grinder & Milk Frother - 58mm Portafilter, 15 Adjustable Grind Levels, 2.3L Water Tank Garveehome"
+}

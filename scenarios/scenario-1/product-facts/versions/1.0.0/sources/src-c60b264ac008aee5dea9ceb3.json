@@ -1,0 +1,11 @@
+{
+  "source_id": "src-c60b264ac008aee5dea9ceb3",
+  "url": "https://www.walmart.com/ip/19904252564",
+  "retrieved_at": "2026-09-13T10:55:30.900Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "516d5b8f2a9c564f9cc64afaa6291fd4bebec0bd00c65b63920f61ec5f47432a",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "LifeImpree Espresso Machine with Grinder, 20 Bar Coffee Machine for Home with Powerful Milk Frother Steam Wand, 30 Grind Settings, 1550W Coffee Maker with Portafilter for Capsules"
+}

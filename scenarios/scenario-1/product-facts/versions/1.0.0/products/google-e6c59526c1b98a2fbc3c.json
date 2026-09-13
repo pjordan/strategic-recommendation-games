@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-e6c59526c1b98a2fbc3c",
+  "provider": "google",
+  "frozen_record_sha256": "e6c59526c1b98a2fbc3cd5cbe3c8b1b70db832d4423d6799c0929dfec793c28b",
+  "frozen_title": "Breville the Bambino Espresso Machine",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "Breville The Bambino Espresso Machine - Brushed Stainless Steel",
+    "product_url": "https://www.pcrichard.com/breville-the-bambino-espresso-machine-brushed-stainless-steel/BES450BSS1BU.html",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "brewing",
+      "name": "extraction_pressure_bar",
+      "value": "9",
+      "evidence": [
+        {
+          "source_id": "src-471b7a98793fe22eb0d4a7aa",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "9",
+      "evidence": [
+        {
+          "source_id": "src-471b7a98793fe22eb0d4a7aa",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "brewing",
+      "name": "pump_pressure_bar",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-471b7a98793fe22eb0d4a7aa",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "brewing",
+      "name": "portafilter_diameter",
+      "value": "54",
+      "evidence": [
+        {
+          "source_id": "src-471b7a98793fe22eb0d4a7aa",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        }
+      ],
+      "unit": "mm"
+    },
+    {
+      "category": "brewing",
+      "name": "heat_up_time",
+      "value": "3",
+      "evidence": [
+        {
+          "source_id": "src-471b7a98793fe22eb0d4a7aa",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        }
+      ],
+      "unit": "s"
+    },
+    {
+      "category": "physical",
+      "name": "dimensions",
+      "value": "</span> </h6>7.70 Inches x 12.20 Inches x 12.60 Inches</li> <li > <h6 class=\" \" style=\"font-siz",
+      "evidence": [
+        {
+          "source_id": "src-471b7a98793fe22eb0d4a7aa",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "sku",
+      "value": "BES450BSS1BU",
+      "evidence": [
+        {
+          "source_id": "src-471b7a98793fe22eb0d4a7aa",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.sku"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "mpn",
+      "value": "BES450BSS1BU",
+      "evidence": [
+        {
+          "source_id": "src-471b7a98793fe22eb0d4a7aa",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.mpn"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "price": "299.95",
+        "priceCurrency": "USD",
+        "availability": "http://schema.org/InStock",
+        "seller": "P.C. Richard & Son"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-471b7a98793fe22eb0d4a7aa",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[0]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Breville the Bambino Espresso Machine",
+      "domain_filter": "pcrichard.com",
+      "retrieved_at": "2026-09-13T10:40:11.544Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.pcrichard.com/breville-the-bambino-espresso-machine-brushed-stainless-steel/BES450BSS1BU.html",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:11.567979+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.pcrichard.com/breville-the-bambino-espresso-machine-brushed-stainless-steel/BES450BSS1BU.html",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:55:51.898Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source_id": "src-c901523d581a78095e75e1ce",
+  "url": "https://www.bestbuy.com/product/ninja-autobarista-fully-automatic-espresso-machine-frother-10-drink-presets-built-in-grinder-stainless-steel/JXJVXLCJ9J/sku/6680064",
+  "retrieved_at": "2026-09-13T10:50:55.507Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "89a556a7663cf771c7fd86c80f9578d72323ffdf823a1d93be0e237841f59e77",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Ninja - AutoBarista Fully Automatic Espresso Machine & Frother, 10 Drink Presets, Built-In Grinder - Stainless Steel"
+}

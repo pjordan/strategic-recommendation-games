@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-b9240794f87414ac9b52",
+  "provider": "google",
+  "frozen_record_sha256": "b9240794f87414ac9b5294f828bde7abcfb222389bc3ea3b4c8403b911f73bbb",
+  "frozen_title": "Bluebow Espresso Machine with Grinder 20Bar Semi-Automatic Coffee Maker with Milk Frother",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "Bluebow Espresso Machine with Grinder, 20Bar Semi-Automatic Coffee Maker with Milk Frother, Professional Cappuccino Latte Machine for Home, Office",
+    "product_url": "https://www.walmart.com/ip/5901913217",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-b9604d140de0d2627a81bcaa",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-b9604d140de0d2627a81bcaa",
+          "locator": "page title"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-b9604d140de0d2627a81bcaa",
+          "locator": "web text line 307"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "cold_brew_mode",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-b9604d140de0d2627a81bcaa",
+          "locator": "web text line 308"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "water_tank_capacity",
+      "value": "1.5",
+      "evidence": [
+        {
+          "source_id": "src-b9604d140de0d2627a81bcaa",
+          "locator": "web text line 312"
+        }
+      ],
+      "unit": "L"
+    },
+    {
+      "category": "physical",
+      "name": "water_tank_capacity",
+      "value": "50.73",
+      "evidence": [
+        {
+          "source_id": "src-b9604d140de0d2627a81bcaa",
+          "locator": "web text line 312"
+        }
+      ],
+      "unit": "fl oz"
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "milk"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Bluebow Espresso Machine with Grinder 20Bar Semi-Automatic Coffee Maker with Milk Frother",
+      "domain_filter": "walmart.com",
+      "retrieved_at": "2026-09-13T10:41:08.581Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.walmart.com/ip/5901913217",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:18.830814+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.walmart.com/ip/5901913217",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:55:39.813Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

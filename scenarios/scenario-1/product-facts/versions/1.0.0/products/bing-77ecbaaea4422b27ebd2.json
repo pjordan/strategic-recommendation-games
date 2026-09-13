@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-77ecbaaea4422b27ebd2",
+  "provider": "bing",
+  "frozen_record_sha256": "77ecbaaea4422b27ebd23557a142d7f23a9d252bb8c84f3df9fd1d739dac31fa",
+  "frozen_title": "Professional Espresso Machine With Grinder & Milk Frother 20 Bar Pressure",
+  "resolution": {
+    "status": "provider_page_only",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://accessoryz.com/products/professional-espresso-machine-with-grinder-milk-frother-20-bar-pressure-fef1906501b12631d588ab74cab6e9ad654c2bc7",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ],
+    "merchant_resolution": {
+      "status": "unavailable",
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "candidate_url": "https://accessoryz.com/products/professional-espresso-machine-with-grinder-milk-frother-20-bar-pressure-fef1906501b12631d588ab74cab6e9ad654c2bc7",
+      "reasons": [
+        "Product page could not be retrieved with usable, scoped product details."
+      ]
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=467876603433",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "20 bar",
+      "evidence": [
+        {
+          "source_id": "src-9f5f76b02579ab0636838c7c",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Milk Frothing Pitcher",
+      "evidence": [
+        {
+          "source_id": "src-9f5f76b02579ab0636838c7c",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Milk Frother",
+      "evidence": [
+        {
+          "source_id": "src-9f5f76b02579ab0636838c7c",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=467876603433",
+      "retrieved_at": "2026-09-13T10:37:47.162910+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://accessoryz.com/products/professional-espresso-machine-with-grinder-milk-frother-20-bar-pressure-fef1906501b12631d588ab74cab6e9ad654c2bc7",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:25.893784+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://accessoryz.com/products/professional-espresso-machine-with-grinder-milk-frother-20-bar-pressure-fef1906501b12631d588ab74cab6e9ad654c2bc7",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:11.043Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source_id": "src-526c6423dfe8deaa4a13ce2e",
+  "url": "https://www.bestbuy.com/product/-/6680064",
+  "retrieved_at": "2026-09-13T10:55:41.340Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "580e4acfde410bee3bbab8c7d76037ee61d7e937d767a931d7781d426f2b2b01",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Ninja - AutoBarista Fully Automatic Espresso Machine & Frother, 10 Drink Presets, Built-In Grinder - Stainless Steel"
+}

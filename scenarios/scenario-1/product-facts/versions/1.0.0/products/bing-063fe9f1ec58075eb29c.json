@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-063fe9f1ec58075eb29c",
+  "provider": "bing",
+  "frozen_record_sha256": "063fe9f1ec58075eb29cf4e2fa071516c0d57c8cb124e63422dc102db60c0596",
+  "frozen_title": "20 Bar Espresso Machines With Grinder With Steam Milk Frother Steam Wand",
+  "resolution": {
+    "status": "unavailable",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://accessoryz.com/products/20-bar-espresso-machines-with-grinder-with-steam-milk-frother-steam-wand-7dcc633d215f5666954bdebd42a4cd138312362a",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ]
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=468922570910",
+      "retrieved_at": "2026-09-13T10:37:49.588064+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://accessoryz.com/products/20-bar-espresso-machines-with-grinder-with-steam-milk-frother-steam-wand-7dcc633d215f5666954bdebd42a4cd138312362a",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:25.893270+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://accessoryz.com/products/20-bar-espresso-machines-with-grinder-with-steam-milk-frother-steam-wand-7dcc633d215f5666954bdebd42a4cd138312362a",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:09.432Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

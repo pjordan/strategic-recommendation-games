@@ -1,0 +1,11 @@
+{
+  "source_id": "src-2b7524486de0cd615b0ffe2e",
+  "url": "https://www.bing.com/shop/productdetails?goid=437119124069",
+  "retrieved_at": "2026-09-13T10:37:46.626702+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "9364ddd9f9152cde0c236498de0430f167f8342896566df216b5cc662a182e38",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Espresso Machine With Burr Grinder And 20 Bar Pressure, Milk Frother Steam Wand, Stainless Steel Home Coffee Maker For Cappuccino, Latte, Americano, C"
+}

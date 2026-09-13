@@ -1,0 +1,11 @@
+{
+  "source_id": "src-acc962f4a74a834ad8347b9c",
+  "url": "https://www.bestbuy.com/product/simzlife-15-bar-espresso-machine-with-grinder-coffee-maker-w-milk-frother-steamer-wand-removable-water-tank-silver/J37CY7L7QZ",
+  "retrieved_at": "2026-09-13T10:55:44.260Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "575f8d6f2d9969c209eea33627420f11908b01d3abefbe00f8b75390c448f3fd",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "SIMZLIFE - 4 in 1 Espresso Machine with Grinder ,15 Bar- Coffee Maker w/Milk Frother Steamer Wand & Removable Water Tank - Silver"
+}

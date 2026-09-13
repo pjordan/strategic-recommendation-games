@@ -1,0 +1,11 @@
+{
+  "source_id": "src-e8407e54f3c40777a9037be6",
+  "url": "https://www.ebay.com/itm/136994194836",
+  "retrieved_at": "2026-09-13T10:51:04.694Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "b13390652cc6e44404d4a4da1e19f59bb5c7c424d592af9ba39a7ffe77a10fa5",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "4️⃣ Compact Espresso Maker with Grinder & Milk Frother, Stainless Steel Design"
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-125fd27d92958fe5d564",
+  "provider": "google",
+  "frozen_record_sha256": "125fd27d92958fe5d5645d344a4a61b27977f226100f89b77b42e2f5bd5963e9",
+  "frozen_title": "GARVEE 15-Bar All-in-One Espresso Machine with Built-in Grinder",
+  "resolution": {
+    "status": "unresolved",
+    "method": "title_and_merchant_search",
+    "reasons": [
+      "Search finds different GarveeHome configurations; exact 15-bar listing not established."
+    ]
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "GARVEE 15-Bar All-in-One Espresso Machine with Built-in Grinder",
+      "domain_filter": "wayfair.com",
+      "retrieved_at": "2026-09-13T10:42:33.690Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

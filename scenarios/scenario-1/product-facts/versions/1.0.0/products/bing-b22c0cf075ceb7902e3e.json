@@ -1,0 +1,238 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-b22c0cf075ceb7902e3e",
+  "provider": "bing",
+  "frozen_record_sha256": "b22c0cf075ceb7902e3e87a7a10500977c84432b98ef47a375ac9d1718fbd566",
+  "frozen_title": "20 Bar Espresso Machine With Built-In Anti-Clog Grinder, Milk Frother And Tamping Tools For Latte Art, Barista-Grade Home Coffee Maker With Jam-Free G",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 0.889,
+    "reasons": [],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "20 Bar Espresso Machine With Built-In Anti-Clog Grinder, Milk Frother And Tamping Tools For Latte Art, Barista-Grade Home Coffee Maker With Jam-Free Grinding And Turbo Chute For Mess-Free Shots",
+    "product_url": "https://vxb.com/products/20-bar-espresso-machine-with-built-in-anti-clog-gr",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "brewing",
+      "name": "extraction_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-2acfa929f6f178c2e79c10dc",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        },
+        {
+          "source_id": "src-011a45f397830522e88774b6",
+          "locator": "page title"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-2acfa929f6f178c2e79c10dc",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        },
+        {
+          "source_id": "src-011a45f397830522e88774b6",
+          "locator": "web text line 131"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-2acfa929f6f178c2e79c10dc",
+          "locator": ".product__description"
+        },
+        {
+          "source_id": "src-011a45f397830522e88774b6",
+          "locator": "web text line 140"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-2acfa929f6f178c2e79c10dc",
+          "locator": ".product__description"
+        },
+        {
+          "source_id": "src-011a45f397830522e88774b6",
+          "locator": "web text line 145"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "removable_water_tank",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-2acfa929f6f178c2e79c10dc",
+          "locator": ".product__description"
+        },
+        {
+          "source_id": "src-011a45f397830522e88774b6",
+          "locator": "web text line 136"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "water_tank_capacity",
+      "value": "2.3",
+      "evidence": [
+        {
+          "source_id": "src-2acfa929f6f178c2e79c10dc",
+          "locator": ".product__description"
+        },
+        {
+          "source_id": "src-011a45f397830522e88774b6",
+          "locator": "web text line 136"
+        }
+      ],
+      "unit": "L"
+    },
+    {
+      "category": "identity",
+      "name": "sku",
+      "value": "VXB0G2C1T637",
+      "evidence": [
+        {
+          "source_id": "src-2acfa929f6f178c2e79c10dc",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.sku"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "mpn",
+      "value": "VXB0G2C1T637",
+      "evidence": [
+        {
+          "source_id": "src-2acfa929f6f178c2e79c10dc",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.mpn"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "weight",
+      "value": "24.74lb",
+      "evidence": [
+        {
+          "source_id": "src-2acfa929f6f178c2e79c10dc",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.weight"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "20 bar",
+      "evidence": [
+        {
+          "source_id": "src-705b741a39e24e1af2a05aa5",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Milk Frothing Pitcher",
+      "evidence": [
+        {
+          "source_id": "src-705b741a39e24e1af2a05aa5",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Water Tank Capacity",
+      "value": "77.77 fl oz",
+      "evidence": [
+        {
+          "source_id": "src-705b741a39e24e1af2a05aa5",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Title",
+      "value": "Default Title",
+      "evidence": [
+        {
+          "source_id": "src-705b741a39e24e1af2a05aa5",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "price": "414.88",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "sku": "VXB0G2C1T637",
+        "seller": "Nationskander VXB.com Bearings"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-2acfa929f6f178c2e79c10dc",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[0]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=429644983593",
+      "retrieved_at": "2026-09-13T10:37:53.022253+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://vxb.com/products/20-bar-espresso-machine-with-built-in-anti-clog-gr",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:29.683696+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://vxb.com/products/20-bar-espresso-machine-with-built-in-anti-clog-gr",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:25.173Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

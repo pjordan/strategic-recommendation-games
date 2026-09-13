@@ -1,0 +1,11 @@
+{
+  "source_id": "src-bfe816cd19bebbbc3a9bdc2f",
+  "url": "https://www.target.com/p/-/A-1003101323",
+  "retrieved_at": "2026-09-13T10:55:32.830Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "631016f417185f7b917690320b923727129acaf12f66979b2211d9fbfca98722",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "20 Bar Espresso Machine with Conical Burr Grinder & Steam Wand, Stainless Steel All-in-One Coffee Maker for Latte, Cappuccino & Cold Brew, 1500W"
+}

@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-c38b56839ad995d22f18",
+  "provider": "bing",
+  "frozen_record_sha256": "c38b56839ad995d22f18ee19e520d5af623e46f95f0f3c8c7b68ad0212390dcf",
+  "frozen_title": "De'longhi Magnifica Start Automatic Espresso Machine, Milk Frother, Black",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "De'Longhi Magnifica Start Automatic Espresso Machine, Milk Frother, Black",
+    "product_url": "https://us.findthedeal.org/p/B0D96XT9BF",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "identity",
+      "name": "sku",
+      "value": "B0D96XT9BF",
+      "evidence": [
+        {
+          "source_id": "src-3c7d3181775e28eb55b96f4c",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.@graph[0].sku"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "mpn",
+      "value": "ECAM22022B",
+      "evidence": [
+        {
+          "source_id": "src-3c7d3181775e28eb55b96f4c",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.@graph[0].mpn"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "gtin",
+      "value": "0044387710220",
+      "evidence": [
+        {
+          "source_id": "src-3c7d3181775e28eb55b96f4c",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.@graph[0].gtin"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Type",
+      "value": "Automatic",
+      "evidence": [
+        {
+          "source_id": "src-40a7f6135ead45c1aa37c72c",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Manual Frother",
+      "evidence": [
+        {
+          "source_id": "src-40a7f6135ead45c1aa37c72c",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Brand",
+      "value": "De'Longhi",
+      "evidence": [
+        {
+          "source_id": "src-40a7f6135ead45c1aa37c72c",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Built-in Grinder",
+      "evidence": [
+        {
+          "source_id": "src-40a7f6135ead45c1aa37c72c",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Model",
+      "value": "Magnifica Start",
+      "evidence": [
+        {
+          "source_id": "src-40a7f6135ead45c1aa37c72c",
+          "locator": "#gpdp-ps li:nth-of-type(5)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "priceCurrency": "EUR"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-3c7d3181775e28eb55b96f4c",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.@graph[0].offers[0]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=422644671776",
+      "retrieved_at": "2026-09-13T10:37:44.897382+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://us.findthedeal.org/p/B0D96XT9BF",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:29.679978+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://us.findthedeal.org/p/B0D96XT9BF",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:24.675Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

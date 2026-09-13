@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-f71f913730a4213addaa",
+  "provider": "google",
+  "frozen_record_sha256": "f71f913730a4213addaa0f6773a214d87e7e201329df7d1ae73b5a6508ba589f",
+  "frozen_title": "Chefman CaféMaster Pro Espresso Machine, Brew Single or Double Shots Coffee Maker with Built-In Milk Frother for Cappuccino & Latte",
+  "resolution": {
+    "status": "ambiguous",
+    "token_overlap": 0.6,
+    "reasons": [
+      "Frozen brand not established by landing-page title.",
+      "Insufficient title agreement for an exact listing match."
+    ],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "CaféMaster Pro Espresso Machine, Brew Single Double Shots, Coffee Maker with Built-In Milk Frother f Cappuccino & Latte, XL 1.8 Liter Removable Water Reservoir - Stainless Steel",
+    "candidate_url": "https://www.walmart.com/ip/20007505290"
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Chefman CaféMaster Pro Espresso Machine, Brew Single or Double Shots Coffee Maker with Built-In Milk Frother for Cappuccino & Latte",
+      "domain_filter": "walmart.com",
+      "retrieved_at": "2026-09-13T10:41:12.200Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.walmart.com/ip/20007505290",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:17.762551+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.walmart.com/ip/20007505290",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:51:49.188Z",
+      "status": "unavailable"
+    },
+    {
+      "url": "https://www.walmart.com/ip/20007505290",
+      "method": "web.search matched-URL product document",
+      "retrieved_at": "2026-09-13T11:13:16.882Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

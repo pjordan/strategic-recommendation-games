@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-a38daf4ec239b5de91f2",
+  "provider": "bing",
+  "frozen_record_sha256": "a38daf4ec239b5de91f2c13d001f445a3ceb585c7f9c7da855cd746fcc2c2324",
+  "frozen_title": "Espresso Machine With Burr Grinder And 20 Bar Pressure, Milk Frother Steam Wand, Stainless Steel Home Coffee Maker For Cappuccino, Latte, Americano, C",
+  "resolution": {
+    "status": "provider_page_only",
+    "token_overlap": 0.5,
+    "reasons": [
+      "Insufficient title agreement for an exact listing match."
+    ],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "Espresso Machine With Burr Grinder And 20 Bar Pressure, Milk Frother Steam Wand, Stainless Steel Home Coffee Maker For Cappuccino, Latte, Americano, Cold Brew Iced Coffee, Single Or Double Shot, Perfect For Home Barista",
+    "candidate_url": "https://vxb.com/products/espresso-machine-with-burr-grinder-and-20-bar-pres",
+    "merchant_resolution": {
+      "status": "ambiguous",
+      "token_overlap": 0.5,
+      "reasons": [
+        "Insufficient title agreement for an exact listing match."
+      ],
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "page_title": "Espresso Machine With Burr Grinder And 20 Bar Pressure, Milk Frother Steam Wand, Stainless Steel Home Coffee Maker For Cappuccino, Latte, Americano, Cold Brew Iced Coffee, Single Or Double Shot, Perfect For Home Barista",
+      "candidate_url": "https://vxb.com/products/espresso-machine-with-burr-grinder-and-20-bar-pres"
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=437119124069",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "20 bar",
+      "evidence": [
+        {
+          "source_id": "src-2b7524486de0cd615b0ffe2e",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Steam Wand",
+      "evidence": [
+        {
+          "source_id": "src-2b7524486de0cd615b0ffe2e",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Grinder",
+      "value": "Burr Grinder",
+      "evidence": [
+        {
+          "source_id": "src-2b7524486de0cd615b0ffe2e",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Power",
+      "value": "1350 W",
+      "evidence": [
+        {
+          "source_id": "src-2b7524486de0cd615b0ffe2e",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Material",
+      "value": "Stainless Steel",
+      "evidence": [
+        {
+          "source_id": "src-2b7524486de0cd615b0ffe2e",
+          "locator": "#gpdp-ps li:nth-of-type(5)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Title",
+      "value": "Default Title",
+      "evidence": [
+        {
+          "source_id": "src-2b7524486de0cd615b0ffe2e",
+          "locator": "#gpdp-ps li:nth-of-type(6)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=437119124069",
+      "retrieved_at": "2026-09-13T10:37:46.626702+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://vxb.com/products/espresso-machine-with-burr-grinder-and-20-bar-pres",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:30.319189+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://vxb.com/products/espresso-machine-with-burr-grinder-and-20-bar-pres",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:28.506Z",
+      "status": "page_text_returned"
+    },
+    {
+      "url": "https://vxb.com/products/espresso-machine-with-burr-grinder-and-20-bar-pres",
+      "method": "web.search exact-URL product document",
+      "retrieved_at": "2026-09-13T10:59:39.302Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

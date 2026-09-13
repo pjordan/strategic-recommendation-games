@@ -1,0 +1,11 @@
+{
+  "source_id": "src-1107642ad3933338e40af6ab",
+  "url": "https://www.bing.com/shop/productdetails?goid=436641819649",
+  "retrieved_at": "2026-09-13T10:37:35.363311+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "2f5155f6bc6231e63dccc1a0ed34f84c8da0e62c8b854559babdb8152f7f13b5",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Espresso Machine With Grinder & Milk Frother, 20 Bar Coffee And Espresso Maker Combo"
+}

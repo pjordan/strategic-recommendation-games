@@ -1,0 +1,179 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-73d649a23e17eb409d3e",
+  "provider": "google",
+  "frozen_record_sha256": "73d649a23e17eb409d3e7b3ac29262e15a0fd9b832a47ca4fd1e52324b442027",
+  "frozen_title": "Chefman Crema Supreme Espresso Machine",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "Chefman Crema Supreme Espresso Machine Stainless Steel : Target",
+    "product_url": "https://www.target.com/p/-/A-95054106",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-8d0f2f8a610a7f7d34b7c936",
+          "locator": "web text line 58"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "burr_type",
+      "value": "conical",
+      "evidence": [
+        {
+          "source_id": "src-8d0f2f8a610a7f7d34b7c936",
+          "locator": "web text line 58"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "pump_pressure_bar",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-8d0f2f8a610a7f7d34b7c936",
+          "locator": "web text line 59"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "brewing",
+      "name": "portafilter_diameter",
+      "value": "58",
+      "evidence": [
+        {
+          "source_id": "src-8d0f2f8a610a7f7d34b7c936",
+          "locator": "web text line 61"
+        }
+      ],
+      "unit": "mm"
+    },
+    {
+      "category": "physical",
+      "name": "water_tank_capacity",
+      "value": "3",
+      "evidence": [
+        {
+          "source_id": "src-8d0f2f8a610a7f7d34b7c936",
+          "locator": "web text line 64"
+        }
+      ],
+      "unit": "L"
+    },
+    {
+      "category": "included_items",
+      "name": "tamper",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-8d0f2f8a610a7f7d34b7c936",
+          "locator": "web text line 65"
+        }
+      ]
+    },
+    {
+      "category": "included_items",
+      "name": "milk_pitcher",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-8d0f2f8a610a7f7d34b7c936",
+          "locator": "web text line 65"
+        }
+      ]
+    },
+    {
+      "category": "electrical",
+      "name": "voltage",
+      "value": "120",
+      "evidence": [
+        {
+          "source_id": "src-8d0f2f8a610a7f7d34b7c936",
+          "locator": "web text line 67"
+        }
+      ],
+      "unit": "V"
+    },
+    {
+      "category": "electrical",
+      "name": "power",
+      "value": "1450",
+      "evidence": [
+        {
+          "source_id": "src-8d0f2f8a610a7f7d34b7c936",
+          "locator": "web text line 67"
+        }
+      ],
+      "unit": "W"
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-8d0f2f8a610a7f7d34b7c936",
+          "locator": "web text line 69"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "dimensions",
+      "value": "16.34 Inches (H) x 16.14 Inches (W) x 13.39 Inches (D)",
+      "evidence": [
+        {
+          "source_id": "src-8d0f2f8a610a7f7d34b7c936",
+          "locator": "web text line 74"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "maintenance"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Chefman Crema Supreme Espresso Machine",
+      "domain_filter": "target.com",
+      "retrieved_at": "2026-09-13T10:42:49.125Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.target.com/p/-/A-95054106",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:13.473479+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.target.com/p/-/A-95054106",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:55:42.398Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

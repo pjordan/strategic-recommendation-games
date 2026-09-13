@@ -1,0 +1,11 @@
+{
+  "source_id": "src-3501f78a66a51adb390c5d24",
+  "url": "https://business.walmart.com/ip/AIRMSEN-Express-Espresso-Machine-with-Grinder-Brushed-Stainless-Steel-Coffee-Maker/15397921265",
+  "retrieved_at": "2026-09-13T10:55:52.910Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "3ac170fb36947c23605e368c566afe2ca1af231da4e1ba9d0daafb8df58ed791",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "AIRMSEN Espresso Machine with Grinder, Espresso Coffee Machine with Customized Grind Amount & Coffee Volume, Cold Brew Coffee Maker for Cappuccino Latte Americano, Brushed Stainless Steel"
+}

@@ -1,0 +1,12 @@
+{
+  "source_id": "src-7bfc0b3c6cd3b232bc770fdc",
+  "url": "https://www.walmart.com/ip/20590357883",
+  "retrieved_at": "2026-09-13T11:13:26.159Z",
+  "method": "web.search matched-URL product document",
+  "representation": "indexed_product_document_text",
+  "content_sha256": "14e5a98893e7fa716aed4c0685097b6836198a66170eba5eb84e9ba1f37e43cf",
+  "hash_scope": "UTF-8 numbered primary document representation extracted from a search-tool response",
+  "source_kind": "merchant_product_page",
+  "page_title": "BouPower Semi-Automatic Espresso Machine with Built-In Grinder, Powerful Milk Frother,Stainless Steel Single Double Cup Coffee Maker for Latte Cappuccino Macchiato Home Barista",
+  "parent_response_sha256": "6b4581db5534c61983cd59746e5cf67cbb0af04a2272d414e5fe29dd27101b94"
+}

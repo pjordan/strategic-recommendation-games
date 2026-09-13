@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-bbbd53043c8ed53733ef",
+  "provider": "google",
+  "frozen_record_sha256": "bbbd53043c8ed53733ef56b0854699624be74043368bf53285be2a0839b21136",
+  "frozen_title": "Breville Bambino Plus Espresso Machine",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "the Bambino® Plus",
+    "product_url": "https://www.breville.com/en-us/product/bes500",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-46823ba6b864d4dcbee02259",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        },
+        {
+          "source_id": "src-846d89e88ecba9e9fc0dc437",
+          "locator": "web text line 93"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "portafilter_diameter",
+      "value": "54",
+      "evidence": [
+        {
+          "source_id": "src-46823ba6b864d4dcbee02259",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        },
+        {
+          "source_id": "src-846d89e88ecba9e9fc0dc437",
+          "locator": "web text line 93"
+        }
+      ],
+      "unit": "mm"
+    },
+    {
+      "category": "identity",
+      "name": "sku",
+      "value": "BES500",
+      "evidence": [
+        {
+          "source_id": "src-46823ba6b864d4dcbee02259",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.sku"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "heat_up_time",
+      "value": "3",
+      "evidence": [
+        {
+          "source_id": "src-846d89e88ecba9e9fc0dc437",
+          "locator": "web text line 108"
+        }
+      ],
+      "unit": "s"
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "9",
+      "evidence": [
+        {
+          "source_id": "src-846d89e88ecba9e9fc0dc437",
+          "locator": "web text line 125"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "brewing",
+      "name": "pump_pressure_bar",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-846d89e88ecba9e9fc0dc437",
+          "locator": "web text line 125"
+        }
+      ],
+      "unit": "bar"
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "priceCurrency": "USD"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-46823ba6b864d4dcbee02259",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[0]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Breville Bambino Plus Espresso Machine",
+      "domain_filter": "breville.com",
+      "retrieved_at": "2026-09-13T10:40:12.733Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.breville.com/en-us/product/bes500",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:08.755416+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.breville.com/en-us/product/bes500",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:59.784Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

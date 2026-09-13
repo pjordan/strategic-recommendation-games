@@ -1,0 +1,11 @@
+{
+  "source_id": "src-1bb66f3e8def42cb5d0038de",
+  "url": "https://www.bing.com/shop/productdetails?goid=347311409581",
+  "retrieved_at": "2026-09-13T10:37:34.438122+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "d76a5d04d8adaf5456d543c65becc208664b6322f005d15f571bc7ac0b8e95fc",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Kenmore Espresso Machine with Grinder and Milk Frother"
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-add4d25806a810d8974a",
+  "provider": "google",
+  "frozen_record_sha256": "add4d25806a810d8974af68ed396998a6a1e5f38e094ad8490c20b8e7e77758f",
+  "frozen_title": "Philips 5500 Series Fully Automatic Espresso Machine with LatteGo",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "Philips 5500 Series Fully Automatic Espresso Machine with LatteGo Milk Frother",
+    "product_url": "https://www.surlatable.com/product/philips-5500-series-fully-automatic-espresso-machine-with-lattego-milk-frother/9596339",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "milk",
+      "name": "automatic_frothing_explicit",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-b2124bad82a88d7fa25cc569",
+          "locator": "page title"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Philips 5500 Series Fully Automatic Espresso Machine with LatteGo",
+      "domain_filter": "surlatable.com",
+      "retrieved_at": "2026-09-13T10:40:07.701Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.surlatable.com/product/philips-5500-series-fully-automatic-espresso-machine-with-lattego-milk-frother/9596339",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:11.969389+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.surlatable.com/product/philips-5500-series-fully-automatic-espresso-machine-with-lattego-milk-frother/9596339",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:51:21.591Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

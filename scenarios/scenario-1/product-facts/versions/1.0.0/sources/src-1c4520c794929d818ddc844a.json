@@ -1,0 +1,11 @@
+{
+  "source_id": "src-1c4520c794929d818ddc844a",
+  "url": "https://www.bing.com/shop/productdetails?goid=443264510977",
+  "retrieved_at": "2026-09-13T10:37:35.163705+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "8612d3ecfeffa6acd76274fd79aa084df9a22a37556c5ad3890a113293ffec6b",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "20 Bar Espresso Machine With Grinder & Milk Frother - Professional Espresso Maker With 96Oz Removable Water Tank - Stainless Steel Coffee Machine For Home Café, Cappuccino & Latte Qeetex"
+}

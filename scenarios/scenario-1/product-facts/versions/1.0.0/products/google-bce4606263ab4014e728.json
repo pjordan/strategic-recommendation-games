@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-bce4606263ab4014e728",
+  "provider": "google",
+  "frozen_record_sha256": "bce4606263ab4014e72838ed6e5fa473c737d4614874d2829d893ad2236be81e",
+  "frozen_title": "15 Bar Semi-Automatic Espresso Machine with Built-in Grinder",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "15 Bar Semi-Automatic Espresso Machine with Built-in Grinder",
+    "product_url": "https://www.kohls.com/product/prd-8327404/15-bar-semi-automatic-espresso-machine-with-built-in-grinder.jsp",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-65acb7f8527c900c5e7840d3",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-65acb7f8527c900c5e7840d3",
+          "locator": "page title"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-65acb7f8527c900c5e7840d3",
+          "locator": "web text line 53"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "water_tank_capacity",
+      "value": "2.5",
+      "evidence": [
+        {
+          "source_id": "src-65acb7f8527c900c5e7840d3",
+          "locator": "web text line 53"
+        }
+      ],
+      "unit": "L"
+    },
+    {
+      "category": "brewing",
+      "name": "pump_pressure_bar",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-65acb7f8527c900c5e7840d3",
+          "locator": "web text line 57"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "physical",
+      "name": "water_tank_capacity",
+      "value": "77",
+      "evidence": [
+        {
+          "source_id": "src-65acb7f8527c900c5e7840d3",
+          "locator": "web text line 57"
+        }
+      ],
+      "unit": "fl oz"
+    },
+    {
+      "category": "maintenance",
+      "name": "self_cleaning_claim",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-65acb7f8527c900c5e7840d3",
+          "locator": "web text line 58"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "burr_type",
+      "value": "conical",
+      "evidence": [
+        {
+          "source_id": "src-65acb7f8527c900c5e7840d3",
+          "locator": "web text line 59"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-65acb7f8527c900c5e7840d3",
+          "locator": "web text line 59"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "dimensions",
+      "value": "12.4\"D x 12.5\"W x 13.5\"H",
+      "evidence": [
+        {
+          "source_id": "src-65acb7f8527c900c5e7840d3",
+          "locator": "web text line 61"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "15 Bar Semi-Automatic Espresso Machine with Built-in Grinder",
+      "domain_filter": "kohls.com",
+      "retrieved_at": "2026-09-13T10:42:42.263Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.kohls.com/product/prd-8327404/15-bar-semi-automatic-espresso-machine-with-built-in-grinder.jsp",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:11.118345+00:00",
+      "status": "unavailable",
+      "error_type": "HTTPError"
+    },
+    {
+      "url": "https://www.kohls.com/product/prd-8327404/15-bar-semi-automatic-espresso-machine-with-built-in-grinder.jsp",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:51:15.303Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

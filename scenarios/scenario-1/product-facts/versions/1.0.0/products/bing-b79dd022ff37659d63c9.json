@@ -1,0 +1,227 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-b79dd022ff37659d63c9",
+  "provider": "bing",
+  "frozen_record_sha256": "b79dd022ff37659d63c9cc316eb7803d8877c182a027493b57b7e0e5e5ae757a",
+  "frozen_title": "Cusimax 20Bar Espresso Machine With Builtin Grinder & Milk Frother Professionalgrade Cappuccino & Latte Maker With Large Removable Water Tank For Home",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "CUSIMAX 20‑Bar Espresso Machine with Built‑in Grinder & Milk Frother — Professional‑Grade Cappuccino & Latte Maker with Large Removable Water Tank for Home Baristas",
+    "product_url": "https://www.walmart.com/ip/CUSIMAX-20-Bar-Espresso-Machine-Built-In-Grinder-Milk-Frother-Professional-Grade-Cappuccino-Latte-Maker-Large-Removable-Water-Tank-Home-Baristas/18780713993",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "physical",
+      "name": "removable_water_tank",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-58a865b9955abfde5e4a0045",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-58a865b9955abfde5e4a0045",
+          "locator": "web text line 35"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "grinding",
+      "name": "burr_type",
+      "value": "conical",
+      "evidence": [
+        {
+          "source_id": "src-58a865b9955abfde5e4a0045",
+          "locator": "web text line 36"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-58a865b9955abfde5e4a0045",
+          "locator": "web text line 36"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-58a865b9955abfde5e4a0045",
+          "locator": "web text line 37"
+        }
+      ]
+    },
+    {
+      "category": "electrical",
+      "name": "power",
+      "value": "1350",
+      "evidence": [
+        {
+          "source_id": "src-58a865b9955abfde5e4a0045",
+          "locator": "web text line 40"
+        }
+      ],
+      "unit": "W"
+    },
+    {
+      "category": "physical",
+      "name": "water_tank_capacity",
+      "value": "1.8",
+      "evidence": [
+        {
+          "source_id": "src-58a865b9955abfde5e4a0045",
+          "locator": "web text line 41"
+        }
+      ],
+      "unit": "L"
+    },
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "20 bar",
+      "evidence": [
+        {
+          "source_id": "src-cd6ac0064412aa8e8a57479d",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Milk Frothing Pitcher",
+      "evidence": [
+        {
+          "source_id": "src-cd6ac0064412aa8e8a57479d",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Water Tank Capacity",
+      "value": "60.87 fl oz",
+      "evidence": [
+        {
+          "source_id": "src-cd6ac0064412aa8e8a57479d",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Power",
+      "value": "1350 W",
+      "evidence": [
+        {
+          "source_id": "src-cd6ac0064412aa8e8a57479d",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Height",
+      "value": "11.22 in.",
+      "evidence": [
+        {
+          "source_id": "src-cd6ac0064412aa8e8a57479d",
+          "locator": "#gpdp-ps li:nth-of-type(5)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Built-in Grinder",
+      "evidence": [
+        {
+          "source_id": "src-cd6ac0064412aa8e8a57479d",
+          "locator": "#gpdp-ps li:nth-of-type(6)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Color",
+      "value": "Black",
+      "evidence": [
+        {
+          "source_id": "src-cd6ac0064412aa8e8a57479d",
+          "locator": "#gpdp-ps li:nth-of-type(7)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Brand",
+      "value": "Cusimax",
+      "evidence": [
+        {
+          "source_id": "src-cd6ac0064412aa8e8a57479d",
+          "locator": "#gpdp-ps li:nth-of-type(8)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "included_items",
+    "maintenance"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=399871394826",
+      "retrieved_at": "2026-09-13T10:37:38.433821+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.walmart.com/ip/CUSIMAX-20-Bar-Espresso-Machine-Built-In-Grinder-Milk-Frother-Professional-Grade-Cappuccino-Latte-Maker-Large-Removable-Water-Tank-Home-Baristas/18780713993",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:18.966792+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.walmart.com/ip/CUSIMAX-20-Bar-Espresso-Machine-Built-In-Grinder-Milk-Frother-Professional-Grade-Cappuccino-Latte-Maker-Large-Removable-Water-Tank-Home-Baristas/18780713993",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:52:03.452Z",
+      "status": "unavailable"
+    },
+    {
+      "url": "https://www.walmart.com/ip/CUSIMAX-20-Bar-Espresso-Machine-Built-In-Grinder-Milk-Frother-Professional-Grade-Cappuccino-Latte-Maker-Large-Removable-Water-Tank-Home-Baristas/18780713993",
+      "method": "web.search exact-URL product document",
+      "retrieved_at": "2026-09-13T10:59:17.759Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

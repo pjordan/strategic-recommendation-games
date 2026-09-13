@@ -1,0 +1,11 @@
+{
+  "source_id": "src-b3d13103d802f0d0b97c4aca",
+  "url": "https://www.jcpenney.com/p/kenmore-espresso-machine-with-grinder-milk-frother/ppr5008443922",
+  "retrieved_at": "2026-09-13T10:49:10.831789+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "c02d16beacf07d6d758f7e0f8ded48cc6082e65e2e85b603c7019628833bccac",
+  "hash_scope": "original response bytes",
+  "source_kind": "merchant_product_page",
+  "page_title": "Kenmore Espresso Machine With Grinder & Milk Frother"
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-05d3c61841495e6c0a82",
+  "provider": "google",
+  "frozen_record_sha256": "05d3c61841495e6c0a827a355cc027106bb0c2953cf75ceb69b36c534beebd33",
+  "frozen_title": "Espresso Machine with Built-In Grinder and Milk Frother - 20 Bar Professional Espresso Maker for Crafting Lattes, Cappuccinos, and Macchiatos,",
+  "resolution": {
+    "status": "ambiguous",
+    "token_overlap": 0.5,
+    "reasons": [
+      "Insufficient title agreement for an exact listing match."
+    ],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "Espresso Machine with Grinder, Milk Frother Wand, 1450W, 20 Bar Professional Espresso Maker with Barista Kit, 2.8L Water Tank for Cappuccinos or Macchiatos",
+    "candidate_url": "https://www.walmart.com/ip/5322634714"
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Espresso Machine with Built-In Grinder and Milk Frother - 20 Bar Professional Espresso Maker for Crafting Lattes, Cappuccinos, and Macchiatos,",
+      "domain_filter": "walmart.com",
+      "retrieved_at": "2026-09-13T10:42:42.409Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.walmart.com/ip/5322634714",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:18.438713+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.walmart.com/ip/5322634714",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:56:06.891Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

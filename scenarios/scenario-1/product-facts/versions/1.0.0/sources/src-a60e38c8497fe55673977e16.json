@@ -1,0 +1,11 @@
+{
+  "source_id": "src-a60e38c8497fe55673977e16",
+  "url": "https://www.bing.com/shop/productdetails?goid=238571778204",
+  "retrieved_at": "2026-09-13T10:37:49.490058+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "f102ed5261efbb45735efcbb1d3c60fbf1361587e12831fe2fd2e811f645f1a3",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "CASABREWS Espresso Machine With Grinder, Professional Espresso Maker With Milk Frother Steam Wand, Barista Latte Machine With Removable Water Tank For Cappuccinos Or Macchiatos, Gift For Mom Dad"
+}

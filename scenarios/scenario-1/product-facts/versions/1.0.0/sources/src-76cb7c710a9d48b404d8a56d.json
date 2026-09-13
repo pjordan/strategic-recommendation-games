@@ -1,0 +1,11 @@
+{
+  "source_id": "src-76cb7c710a9d48b404d8a56d",
+  "url": "https://www.bing.com/shop/productdetails?goid=467876604929",
+  "retrieved_at": "2026-09-13T10:37:45.077733+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "fab2cf418363837a620675b5bea7b094709a0832c2c4c63de9ef34cbe093245e",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "20 Bar Espresso Machine With Grinder & Milk Frother - Home & Professional Use"
+}

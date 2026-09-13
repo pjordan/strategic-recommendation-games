@@ -6,3 +6,7 @@ __pycache__/
 raw-browser-captures/
 local-runs/
 analyses/**/runs/**/private/
+
+# Private recollection caches and local environments
+.cache/
+.venv/

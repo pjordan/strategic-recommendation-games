@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-f12e169290a9c9b84123",
+  "provider": "bing",
+  "frozen_record_sha256": "f12e169290a9c9b84123b186e7a28a33dab1945fadd61c2817c33b4299f74e67",
+  "frozen_title": "Fully Automatic Espresso Machine 20 Bar With Auto Milk Frother & Grinder Stellweilan Tessberg",
+  "resolution": {
+    "status": "provider_page_only",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.wayfair.com/Stellweilan-Tessberg--Fully-Automatic-Espresso-Machine-20-Bar-with-Auto-Milk-Frother-and-Grinder-QZDYSKFJQZDDHQILBV1%40DAN-L914-K~SEKL9304.html",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ],
+    "merchant_resolution": {
+      "status": "unavailable",
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "candidate_url": "https://www.wayfair.com/Stellweilan-Tessberg--Fully-Automatic-Espresso-Machine-20-Bar-with-Auto-Milk-Frother-and-Grinder-QZDYSKFJQZDDHQILBV1%40DAN-L914-K~SEKL9304.html",
+      "reasons": [
+        "Product page could not be retrieved with usable, scoped product details."
+      ]
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=415427175817",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "20 bar",
+      "evidence": [
+        {
+          "source_id": "src-fabae98c19241980ac9dcc17",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Type",
+      "value": "Automatic",
+      "evidence": [
+        {
+          "source_id": "src-fabae98c19241980ac9dcc17",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Automatic Frother",
+      "evidence": [
+        {
+          "source_id": "src-fabae98c19241980ac9dcc17",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Material",
+      "value": "Plastic",
+      "evidence": [
+        {
+          "source_id": "src-fabae98c19241980ac9dcc17",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Built-in Grinder",
+      "evidence": [
+        {
+          "source_id": "src-fabae98c19241980ac9dcc17",
+          "locator": "#gpdp-ps li:nth-of-type(5)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Brand",
+      "value": "Stelton",
+      "evidence": [
+        {
+          "source_id": "src-fabae98c19241980ac9dcc17",
+          "locator": "#gpdp-ps li:nth-of-type(6)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=415427175817",
+      "retrieved_at": "2026-09-13T10:37:37.916212+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.wayfair.com/Stellweilan-Tessberg--Fully-Automatic-Espresso-Machine-20-Bar-with-Auto-Milk-Frother-and-Grinder-QZDYSKFJQZDDHQILBV1%40DAN-L914-K~SEKL9304.html",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:21.009644+00:00",
+      "status": "unavailable",
+      "error_type": "HTTPError"
+    },
+    {
+      "url": "https://www.wayfair.com/Stellweilan-Tessberg--Fully-Automatic-Espresso-Machine-20-Bar-with-Auto-Milk-Frother-and-Grinder-QZDYSKFJQZDDHQILBV1%40DAN-L914-K~SEKL9304.html",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:52:14.729Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

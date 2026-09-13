@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-b546aa5fcf249468f3a9",
+  "provider": "bing",
+  "frozen_record_sha256": "b546aa5fcf249468f3a95ae51cbec689edc14028cb13e5807e439594c042de26",
+  "frozen_title": "Pioneerworks 20 Bar Espresso Machine With Grinder Professional Barista Latte Espresso Maker With Milk Frother Steam Wand 28L Removable Water Tank Sem",
+  "resolution": {
+    "status": "provider_page_only",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.alumigogo.com/product_detail.php?id=SKUB0D7GQY1HH",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ],
+    "merchant_resolution": {
+      "status": "unavailable",
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "candidate_url": "https://www.alumigogo.com/product_detail.php?id=SKUB0D7GQY1HH",
+      "reasons": [
+        "Product page could not be retrieved with usable, scoped product details."
+      ]
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=236977163768",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "20 bar",
+      "evidence": [
+        {
+          "source_id": "src-f4e3023346853265b620ffbe",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Type",
+      "value": "Semi-Automatic",
+      "evidence": [
+        {
+          "source_id": "src-f4e3023346853265b620ffbe",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Steam Wand",
+      "evidence": [
+        {
+          "source_id": "src-f4e3023346853265b620ffbe",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Power",
+      "value": "1450 W",
+      "evidence": [
+        {
+          "source_id": "src-f4e3023346853265b620ffbe",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Material",
+      "value": "Stainless Steel",
+      "evidence": [
+        {
+          "source_id": "src-f4e3023346853265b620ffbe",
+          "locator": "#gpdp-ps li:nth-of-type(5)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Milk Frother",
+      "evidence": [
+        {
+          "source_id": "src-f4e3023346853265b620ffbe",
+          "locator": "#gpdp-ps li:nth-of-type(6)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=236977163768",
+      "retrieved_at": "2026-09-13T10:37:44.294386+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alumigogo.com/product_detail.php?id=SKUB0D7GQY1HH",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:32.275480+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alumigogo.com/product_detail.php?id=SKUB0D7GQY1HH",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:47.434Z",
+      "status": "page_text_returned"
+    },
+    {
+      "url": "https://www.alumigogo.com/product_detail.php?id=SKUB0D7GQY1HH",
+      "method": "web.search matched-URL product document",
+      "retrieved_at": "2026-09-13T11:13:11.936Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

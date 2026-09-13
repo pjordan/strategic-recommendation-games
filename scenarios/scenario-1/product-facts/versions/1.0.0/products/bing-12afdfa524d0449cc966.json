@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-12afdfa524d0449cc966",
+  "provider": "bing",
+  "frozen_record_sha256": "12afdfa524d0449cc966cc9e51882bbe27d6b53f6c681ed36f536b646292b60e",
+  "frozen_title": "15 Bar Espresso Machine With Grinder & Milk Frother - 58mm Portafilter, 15 Adjustable Grind Levels, 2.3L Water Tank Garveehome",
+  "resolution": {
+    "status": "provider_page_only",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.wayfair.com/GarveeHome--15-Bar-Espresso-Machine-with-Grinder-and-Milk-Frother-%E2%80%93-58mm-Portafilter-15-Adjustable-Grind-Levels-2.3L-Water-Tank-b9qS3I1rcY9Tdq74Vv1o317-L896-K~GGVF8063.html",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ],
+    "merchant_resolution": {
+      "status": "unavailable",
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "candidate_url": "https://www.wayfair.com/GarveeHome--15-Bar-Espresso-Machine-with-Grinder-and-Milk-Frother-%E2%80%93-58mm-Portafilter-15-Adjustable-Grind-Levels-2.3L-Water-Tank-b9qS3I1rcY9Tdq74Vv1o317-L896-K~GGVF8063.html",
+      "reasons": [
+        "Product page could not be retrieved with usable, scoped product details."
+      ]
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=445999993987",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "15 bar",
+      "evidence": [
+        {
+          "source_id": "src-81057e20552b8e36e7f9dc73",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Milk Frothing Pitcher",
+      "evidence": [
+        {
+          "source_id": "src-81057e20552b8e36e7f9dc73",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Water Tank Capacity",
+      "value": "77.77 fl oz",
+      "evidence": [
+        {
+          "source_id": "src-81057e20552b8e36e7f9dc73",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Brand",
+      "value": "Garvee",
+      "evidence": [
+        {
+          "source_id": "src-81057e20552b8e36e7f9dc73",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Material",
+      "value": "Stainless Steel",
+      "evidence": [
+        {
+          "source_id": "src-81057e20552b8e36e7f9dc73",
+          "locator": "#gpdp-ps li:nth-of-type(5)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Milk Frother",
+      "evidence": [
+        {
+          "source_id": "src-81057e20552b8e36e7f9dc73",
+          "locator": "#gpdp-ps li:nth-of-type(6)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=445999993987",
+      "retrieved_at": "2026-09-13T10:37:35.927209+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.wayfair.com/GarveeHome--15-Bar-Espresso-Machine-with-Grinder-and-Milk-Frother-%E2%80%93-58mm-Portafilter-15-Adjustable-Grind-Levels-2.3L-Water-Tank-b9qS3I1rcY9Tdq74Vv1o317-L896-K~GGVF8063.html",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:20.487081+00:00",
+      "status": "unavailable",
+      "error_type": "HTTPError"
+    },
+    {
+      "url": "https://www.wayfair.com/GarveeHome--15-Bar-Espresso-Machine-with-Grinder-and-Milk-Frother-%E2%80%93-58mm-Portafilter-15-Adjustable-Grind-Levels-2.3L-Water-Tank-b9qS3I1rcY9Tdq74Vv1o317-L896-K~GGVF8063.html",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:52:11.021Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

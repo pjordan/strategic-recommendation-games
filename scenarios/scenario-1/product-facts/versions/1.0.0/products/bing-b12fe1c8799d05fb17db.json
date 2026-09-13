@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-b12fe1c8799d05fb17db",
+  "provider": "bing",
+  "frozen_record_sha256": "b12fe1c8799d05fb17dbda3404378cf98297c55581991c89d28b6650ff5f12e7",
+  "frozen_title": "20 Bar Espresso Machine With Built-In Grinder - Stainless Steel Coffee Maker With 2.8L Removable Water Tank, Adjustable Shot Volume & Milk Frother Steam Wand For Latte & Cappuccino - Home & Office Use (Black) Yesurprise Color/Finish: Black",
+  "resolution": {
+    "status": "provider_page_only",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.wayfair.com/Yesurprise--20-Bar-Espresso-Machine-with-Builtin-Grinder%C2%A0%E2%80%93-Stainless-Steel-Coffee-Maker-with-2.8L-Removable-Water-Tank-Adjustable-Shot-Volume-and-Milk-Frother-Steam-Wand-for-Latte-and-Cappuccino-%E2%80%93-Home-and-Office-Use-Black--PHO_34YP-L896-K~CSUR8942.html",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ],
+    "merchant_resolution": {
+      "status": "unavailable",
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "candidate_url": "https://www.wayfair.com/Yesurprise--20-Bar-Espresso-Machine-with-Builtin-Grinder%C2%A0%E2%80%93-Stainless-Steel-Coffee-Maker-with-2.8L-Removable-Water-Tank-Adjustable-Shot-Volume-and-Milk-Frother-Steam-Wand-for-Latte-and-Cappuccino-%E2%80%93-Home-and-Office-Use-Black--PHO_34YP-L896-K~CSUR8942.html",
+      "reasons": [
+        "Product page could not be retrieved with usable, scoped product details."
+      ]
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=405866957106",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "20 bar",
+      "evidence": [
+        {
+          "source_id": "src-c3738a696a3da5cb73000e45",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Steam Wand",
+      "evidence": [
+        {
+          "source_id": "src-c3738a696a3da5cb73000e45",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Water Tank Capacity",
+      "value": "94.68 fl oz",
+      "evidence": [
+        {
+          "source_id": "src-c3738a696a3da5cb73000e45",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Material",
+      "value": "Stainless Steel",
+      "evidence": [
+        {
+          "source_id": "src-c3738a696a3da5cb73000e45",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Built-in Grinder",
+      "evidence": [
+        {
+          "source_id": "src-c3738a696a3da5cb73000e45",
+          "locator": "#gpdp-ps li:nth-of-type(5)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Color",
+      "value": "Black",
+      "evidence": [
+        {
+          "source_id": "src-c3738a696a3da5cb73000e45",
+          "locator": "#gpdp-ps li:nth-of-type(6)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=405866957106",
+      "retrieved_at": "2026-09-13T10:37:40.442109+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.wayfair.com/Yesurprise--20-Bar-Espresso-Machine-with-Builtin-Grinder%C2%A0%E2%80%93-Stainless-Steel-Coffee-Maker-with-2.8L-Removable-Water-Tank-Adjustable-Shot-Volume-and-Milk-Frother-Steam-Wand-for-Latte-and-Cappuccino-%E2%80%93-Home-and-Office-Use-Black--PHO_34YP-L896-K~CSUR8942.html",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:21.018462+00:00",
+      "status": "unavailable",
+      "error_type": "HTTPError"
+    },
+    {
+      "url": "https://www.wayfair.com/Yesurprise--20-Bar-Espresso-Machine-with-Builtin-Grinder%C2%A0%E2%80%93-Stainless-Steel-Coffee-Maker-with-2.8L-Removable-Water-Tank-Adjustable-Shot-Volume-and-Milk-Frother-Steam-Wand-for-Latte-and-Cappuccino-%E2%80%93-Home-and-Office-Use-Black--PHO_34YP-L896-K~CSUR8942.html",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:52:15.378Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

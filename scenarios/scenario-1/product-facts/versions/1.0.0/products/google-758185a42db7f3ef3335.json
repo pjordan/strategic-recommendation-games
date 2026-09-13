@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-758185a42db7f3ef3335",
+  "provider": "google",
+  "frozen_record_sha256": "758185a42db7f3ef33350b137af541635f3d9ffb4a8f58fdceca988dc3c3a31d",
+  "frozen_title": "Automatic Italian coffee Machine with Built-in Grinder & Milk Frother – One-Touch Operation",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "Automatic Italian coffee Machine with Built-in Grinder & Milk Frother – One-Touch Operation, Adjustable Grind",
+    "product_url": "https://www.bedbathandbeyond.com/Home-Garden/Automatic-Italian-coffee-Machine-with-Built-in-Grinder-Milk-Frother-One-Touch-Operation-Adjustable-Grind/44137321/product.html",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-589ccdf1063ac8f8b4ef0bb9",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-589ccdf1063ac8f8b4ef0bb9",
+          "locator": "web text line 77"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "grinding",
+      "name": "burr_type",
+      "value": "conical",
+      "evidence": [
+        {
+          "source_id": "src-589ccdf1063ac8f8b4ef0bb9",
+          "locator": "web text line 79"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-589ccdf1063ac8f8b4ef0bb9",
+          "locator": "web text line 79"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "automatic_frothing_explicit",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-589ccdf1063ac8f8b4ef0bb9",
+          "locator": "web text line 81"
+        }
+      ]
+    },
+    {
+      "category": "maintenance",
+      "name": "self_cleaning_claim",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-589ccdf1063ac8f8b4ef0bb9",
+          "locator": "web text line 85"
+        }
+      ]
+    },
+    {
+      "category": "maintenance",
+      "name": "removable_brew_unit",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-589ccdf1063ac8f8b4ef0bb9",
+          "locator": "web text line 85"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "physical"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Automatic Italian coffee Machine with Built-in Grinder & Milk Frother – One-Touch Operation",
+      "domain_filter": "bedbathandbeyond.com",
+      "retrieved_at": "2026-09-13T10:42:02.096Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.bedbathandbeyond.com/Home-Garden/Automatic-Italian-coffee-Machine-with-Built-in-Grinder-Milk-Frother-One-Touch-Operation-Adjustable-Grind/44137321/product.html",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:32.295963+00:00",
+      "status": "unavailable",
+      "error_type": "HTTPError"
+    },
+    {
+      "url": "https://www.bedbathandbeyond.com/Home-Garden/Automatic-Italian-coffee-Machine-with-Built-in-Grinder-Milk-Frother-One-Touch-Operation-Adjustable-Grind/44137321/product.html",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:56:02.342Z",
+      "status": "page_text_returned"
+    },
+    {
+      "url": "https://www.bedbathandbeyond.com/Home-Garden/Automatic-Italian-coffee-Machine-with-Built-in-Grinder-Milk-Frother-One-Touch-Operation-Adjustable-Grind/44137321/product.html",
+      "method": "web.search exact-URL product document",
+      "retrieved_at": "2026-09-13T10:58:51.706Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

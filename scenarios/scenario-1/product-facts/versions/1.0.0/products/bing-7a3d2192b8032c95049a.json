@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-7a3d2192b8032c95049a",
+  "provider": "bing",
+  "frozen_record_sha256": "7a3d2192b8032c95049add279b7e9c162d44df9d43407d50a4e6d71d1c0f7748",
+  "frozen_title": "Home Kitchen Espresso Machine Stainless Steel W/ Milk Frother & Grinder",
+  "resolution": {
+    "status": "unavailable",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.ebay.com/itm/397547994041",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ]
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=487354445735",
+      "retrieved_at": "2026-09-13T10:37:52.770371+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.ebay.com/itm/397547994041",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:09.848397+00:00",
+      "status": "unavailable",
+      "error_type": "HTTPError"
+    },
+    {
+      "url": "https://www.ebay.com/itm/397547994041",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:51:05.984Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

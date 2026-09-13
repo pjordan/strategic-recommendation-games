@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-b68a44ab2e6dce9505e4",
+  "provider": "bing",
+  "frozen_record_sha256": "b68a44ab2e6dce9505e41f93ec3a9d94db34d45aa1aef5a01a1794f10f71ac03",
+  "frozen_title": "Italian Household Professional Automatic Multi Function Grinder Espresso Coffee Machine With Milk Frother",
+  "resolution": {
+    "status": "provider_page_only",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.alibaba.com/pla/Italian+household+professional+automatic+multi+function+grinder+espresso+coffee+machine+with+milk+frother_1600890978095.html?product_id=1600890978095",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ],
+    "merchant_resolution": {
+      "status": "unavailable",
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "candidate_url": "https://www.alibaba.com/pla/Italian+household+professional+automatic+multi+function+grinder+espresso+coffee+machine+with+milk+frother_1600890978095.html?product_id=1600890978095",
+      "reasons": [
+        "Product page could not be retrieved with usable, scoped product details."
+      ]
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=287058742568",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Milk Frothing Pitcher",
+      "evidence": [
+        {
+          "source_id": "src-f9218e21bef8fa414286ba70",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Milk Frother",
+      "evidence": [
+        {
+          "source_id": "src-f9218e21bef8fa414286ba70",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Country",
+      "value": "Italian",
+      "evidence": [
+        {
+          "source_id": "src-f9218e21bef8fa414286ba70",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=287058742568",
+      "retrieved_at": "2026-09-13T10:37:46.828670+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/Italian+household+professional+automatic+multi+function+grinder+espresso+coffee+machine+with+milk+frother_1600890978095.html?product_id=1600890978095",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:31.769615+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/Italian+household+professional+automatic+multi+function+grinder+espresso+coffee+machine+with+milk+frother_1600890978095.html?product_id=1600890978095",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:43.103Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

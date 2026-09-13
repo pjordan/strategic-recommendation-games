@@ -1,0 +1,222 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-795763ee62a6dc87d9e3",
+  "provider": "bing",
+  "frozen_record_sha256": "795763ee62a6dc87d9e312fd8f4f6eeaa20500682fc794adb9d44d74a29a8fdf",
+  "frozen_title": "Kenmore Espresso Machine With Grinder & Milk Frother, Stainless Steel",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "Kenmore Espresso Machine With Grinder & Milk Frother, Stainless Steel",
+    "product_url": "https://www.walmart.com/ip/Kenmore-Elite-Automatic-Tamp-Espresso-Machine-With-Grinder-Frother/12313568793",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-8ab7e8908561c1bb3822c8cf",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "burr_type",
+      "value": "conical",
+      "evidence": [
+        {
+          "source_id": "src-8ab7e8908561c1bb3822c8cf",
+          "locator": "web text line 295"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "pump_pressure_bar",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-8ab7e8908561c1bb3822c8cf",
+          "locator": "web text line 296"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "brewing",
+      "name": "portafilter_diameter",
+      "value": "54",
+      "evidence": [
+        {
+          "source_id": "src-8ab7e8908561c1bb3822c8cf",
+          "locator": "web text line 299"
+        }
+      ],
+      "unit": "mm"
+    },
+    {
+      "category": "included_items",
+      "name": "tamper",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-8ab7e8908561c1bb3822c8cf",
+          "locator": "web text line 299"
+        }
+      ]
+    },
+    {
+      "category": "included_items",
+      "name": "milk_pitcher",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-8ab7e8908561c1bb3822c8cf",
+          "locator": "web text line 299"
+        }
+      ]
+    },
+    {
+      "category": "included_items",
+      "name": "portafilter",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-8ab7e8908561c1bb3822c8cf",
+          "locator": "web text line 299"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "15 bar",
+      "evidence": [
+        {
+          "source_id": "src-e90ae43894afe296bed14b66",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Type",
+      "value": "Semi-Automatic",
+      "evidence": [
+        {
+          "source_id": "src-e90ae43894afe296bed14b66",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Milk Frothing Pitcher",
+      "evidence": [
+        {
+          "source_id": "src-e90ae43894afe296bed14b66",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Material",
+      "value": "Stainless Steel",
+      "evidence": [
+        {
+          "source_id": "src-e90ae43894afe296bed14b66",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Height",
+      "value": "17.2 in.",
+      "evidence": [
+        {
+          "source_id": "src-e90ae43894afe296bed14b66",
+          "locator": "#gpdp-ps li:nth-of-type(5)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Milk Frother",
+      "evidence": [
+        {
+          "source_id": "src-e90ae43894afe296bed14b66",
+          "locator": "#gpdp-ps li:nth-of-type(6)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Color",
+      "value": "Stainless Steel",
+      "evidence": [
+        {
+          "source_id": "src-e90ae43894afe296bed14b66",
+          "locator": "#gpdp-ps li:nth-of-type(7)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Brand",
+      "value": "Kenmore",
+      "evidence": [
+        {
+          "source_id": "src-e90ae43894afe296bed14b66",
+          "locator": "#gpdp-ps li:nth-of-type(8)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "maintenance",
+    "physical",
+    "milk"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=403637285250",
+      "retrieved_at": "2026-09-13T10:37:35.792040+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.walmart.com/ip/Kenmore-Elite-Automatic-Tamp-Espresso-Machine-With-Grinder-Frother/12313568793",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:19.237405+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.walmart.com/ip/Kenmore-Elite-Automatic-Tamp-Espresso-Machine-With-Grinder-Frother/12313568793",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:55:45.201Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

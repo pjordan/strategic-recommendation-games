@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-d5e12a594869aa3d85ed",
+  "provider": "google",
+  "frozen_record_sha256": "d5e12a594869aa3d85ed230620942d0efc62289e2b75949dca2a52bcd0c46c8a",
+  "frozen_title": "Breville Barista Touch",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "Breville Barista Touch",
+    "product_url": "https://www.dunecoffee.com/products/breville-barista-touch",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "milk",
+      "name": "automatic_frothing_explicit",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-0715e0ca78b3d5f773154482",
+          "locator": "script[type=\"application/ld+json\"] index 1; $.description"
+        },
+        {
+          "source_id": "src-15886b0e5ff889cc3e815fbc",
+          "locator": "web text line 69"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "sku",
+      "value": "BES880BSS",
+      "evidence": [
+        {
+          "source_id": "src-0715e0ca78b3d5f773154482",
+          "locator": "script[type=\"application/ld+json\"] index 1; $.sku"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "price": 999.95,
+        "priceCurrency": "USD",
+        "availability": "http://schema.org/InStock",
+        "sku": "BES880BSS"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-0715e0ca78b3d5f773154482",
+      "locator": "script[type=\"application/ld+json\"] index 1; $.offers[0]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Breville Barista Touch",
+      "domain_filter": "dunecoffee.com",
+      "retrieved_at": "2026-09-13T10:40:10.235Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.dunecoffee.com/products/breville-barista-touch",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:09.627192+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.dunecoffee.com/products/breville-barista-touch",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:51:04.582Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

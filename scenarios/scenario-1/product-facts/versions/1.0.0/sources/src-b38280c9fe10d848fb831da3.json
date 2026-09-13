@@ -1,0 +1,11 @@
+{
+  "source_id": "src-b38280c9fe10d848fb831da3",
+  "url": "https://www.target.com/p/-/A-94618320",
+  "retrieved_at": "2026-09-13T10:56:08.409Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "eac9fdd7b2b1e7e077cf31bde295b69f6d479663e21307dbfdd7549b64840d30",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "DeLonghi Magnifica Evo Next Fully Automatic Espresso Machine"
+}

@@ -1,0 +1,11 @@
+{
+  "source_id": "src-04d65cf4dfbc1545ea88659e",
+  "url": "https://business.walmart.com/ip/Philips-Baristina-Automatic-Espresso-Machine-and-Milk-Frother-Bundle-Black/18626471592",
+  "retrieved_at": "2026-09-13T10:55:30.075Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "eefc695fd9e94aa7a5e61d26e167f2330ebe6b02c699f4f3a08da39150e66951",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Philips Baristina Automatic Espresso Machine and Milk Frother Bundle, Black"
+}

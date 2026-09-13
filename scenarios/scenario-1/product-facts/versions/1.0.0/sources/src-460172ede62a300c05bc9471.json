@@ -1,0 +1,11 @@
+{
+  "source_id": "src-460172ede62a300c05bc9471",
+  "url": "https://www.walmart.com/ip/5432178006",
+  "retrieved_at": "2026-09-13T10:55:52.046Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "e47560453b4987336a5cab06521da057758e252cd182f460e8c6de8f9f85533e",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Bluebow 6-in-1 Espresso Machine, 20 BAR Cappuccino & Latte Machine with Built-In Milk Frother, One-Touch Single/Double Shot, 1350W, Stainless Steel"
+}

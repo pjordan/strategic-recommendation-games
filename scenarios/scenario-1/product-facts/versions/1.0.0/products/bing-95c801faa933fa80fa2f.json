@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-95c801faa933fa80fa2f",
+  "provider": "bing",
+  "frozen_record_sha256": "95c801faa933fa80fa2f728971e166199f8e93be08fac0567685808b9679d2ec",
+  "frozen_title": "Espresso Machine With Grinder, 15 Bar Semi-Automatic Espresso Coffee Maker With Milk Frother Steam Wand, Removable Water Tank & Pressure Gauge For Cappuccino, Latte, Machiato, PID Control System",
+  "resolution": {
+    "status": "unavailable",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.weguy.com/products/espresso-machine-with-grinder-15-bar-semi-automatic-espresso-coffee-maker-with-milk-frother-steam-wand-removable-water-tank-pressure-gauge-for-cappuccino-latte-machiato-pid-control-system?variant=d273b991-0163-454a-8d55-639bc48c0bab",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ]
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=418907769761",
+      "retrieved_at": "2026-09-13T10:37:45.177566+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.weguy.com/products/espresso-machine-with-grinder-15-bar-semi-automatic-espresso-coffee-maker-with-milk-frother-steam-wand-removable-water-tank-pressure-gauge-for-cappuccino-latte-machiato-pid-control-system?variant=d273b991-0163-454a-8d55-639bc48c0bab",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:21.320477+00:00",
+      "status": "unavailable",
+      "error_type": "HTTPError"
+    },
+    {
+      "url": "https://www.weguy.com/products/espresso-machine-with-grinder-15-bar-semi-automatic-espresso-coffee-maker-with-milk-frother-steam-wand-removable-water-tank-pressure-gauge-for-cappuccino-latte-machiato-pid-control-system?variant=d273b991-0163-454a-8d55-639bc48c0bab",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:52:18.796Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

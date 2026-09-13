@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-433d82ce40e1ab37058d",
+  "provider": "bing",
+  "frozen_record_sha256": "433d82ce40e1ab37058df807f3d3cf6e53a9c2dac4ee93c4c2f1d5858226684a",
+  "frozen_title": "Tip And Glow CUSIMAX Espresso Machine With Grinder, 20 Bar Professional Expresso Coffee Machines With Milk Frother Steam Wand, Espresso Maker With 60O",
+  "resolution": {
+    "status": "unavailable",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://shop.app/products/8047500984438",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ]
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=488585068744",
+      "retrieved_at": "2026-09-13T10:37:42.470836+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://shop.app/products/8047500984438",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:28.951397+00:00",
+      "status": "unavailable",
+      "error_type": "HTTPError"
+    },
+    {
+      "url": "https://shop.app/products/8047500984438",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:22.024Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

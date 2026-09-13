@@ -1,0 +1,11 @@
+{
+  "source_id": "src-eed88181e1991970c26bba2f",
+  "url": "https://www.bing.com/shop/productdetails?goid=429640107855",
+  "retrieved_at": "2026-09-13T10:37:54.562675+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "a913166f7c6c33ccf4f6694295cd9902fb51e7056271673b158b922d913b1e6f",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Barista-Grade All In One Espresso Machine With Built In Grinder Milk Frother And Steamer Auto Tamper Descaler Color Touch Display And One Touch Drinks"
+}

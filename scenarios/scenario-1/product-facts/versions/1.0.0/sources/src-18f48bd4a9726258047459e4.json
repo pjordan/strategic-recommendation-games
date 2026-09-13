@@ -1,0 +1,12 @@
+{
+  "source_id": "src-18f48bd4a9726258047459e4",
+  "url": "https://www.bedbathandbeyond.com/Home-Garden/Espresso-Machine-3-in-1-Coffee-Maker-with-Built-in-Grinder-and-Milk-Frother-20-Bar-Latte/44137330/product.html",
+  "retrieved_at": "2026-09-13T10:59:37.898Z",
+  "method": "web.search exact-URL product document",
+  "representation": "indexed_product_document_text",
+  "content_sha256": "8b366fbf9efaed982eec8c56012eb284e4ba64ba8aa3445992726d959961448e",
+  "hash_scope": "UTF-8 numbered primary document representation extracted from a search-tool response",
+  "source_kind": "merchant_product_page",
+  "page_title": "Espresso Machine, 3-in-1 Coffee Maker with Built-in Grinder and Milk Frother, 20 Bar Latte",
+  "parent_response_sha256": "69a6e8ca8584badaa341f23bebef37e2062582a50e0677882faceca3e1852063"
+}

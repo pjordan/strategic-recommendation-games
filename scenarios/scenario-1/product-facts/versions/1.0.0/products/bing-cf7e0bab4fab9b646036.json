@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-cf7e0bab4fab9b646036",
+  "provider": "bing",
+  "frozen_record_sha256": "cf7e0bab4fab9b64603641be724c790eff0017497f7eebf8e99eb8707f1ff600",
+  "frozen_title": "De'longhi La Specialista Arte Evo 15-Bar Espresso Machine With Cold Brew And Built-In Grinder De'longhi",
+  "resolution": {
+    "status": "provider_page_only",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.wayfair.com/DeLonghi--DeLonghi-La-Specialista-Arte-Evo-15Bar-Espresso-Machine-with-Cold-Brew-and-BuiltIn-Grinder-EC9250M-L914-K~DLG10118.html",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ],
+    "merchant_resolution": {
+      "status": "unavailable",
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "candidate_url": "https://www.wayfair.com/DeLonghi--DeLonghi-La-Specialista-Arte-Evo-15Bar-Espresso-Machine-with-Cold-Brew-and-BuiltIn-Grinder-EC9250M-L914-K~DLG10118.html",
+      "reasons": [
+        "Product page could not be retrieved with usable, scoped product details."
+      ]
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=453256952928",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "15 bar",
+      "evidence": [
+        {
+          "source_id": "src-a5e26819ca15d172c6827e68",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Brand",
+      "value": "De'Longhi",
+      "evidence": [
+        {
+          "source_id": "src-a5e26819ca15d172c6827e68",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Built-in Grinder",
+      "evidence": [
+        {
+          "source_id": "src-a5e26819ca15d172c6827e68",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=453256952928",
+      "retrieved_at": "2026-09-13T10:37:35.111545+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.wayfair.com/DeLonghi--DeLonghi-La-Specialista-Arte-Evo-15Bar-Espresso-Machine-with-Cold-Brew-and-BuiltIn-Grinder-EC9250M-L914-K~DLG10118.html",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:19.637180+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.wayfair.com/DeLonghi--DeLonghi-La-Specialista-Arte-Evo-15Bar-Espresso-Machine-with-Cold-Brew-and-BuiltIn-Grinder-EC9250M-L914-K~DLG10118.html",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:52:09.484Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

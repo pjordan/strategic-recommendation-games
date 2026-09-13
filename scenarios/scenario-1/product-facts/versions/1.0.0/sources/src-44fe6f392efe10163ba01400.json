@@ -1,0 +1,11 @@
+{
+  "source_id": "src-44fe6f392efe10163ba01400",
+  "url": "https://www.bing.com/shop/productdetails?goid=449782566992",
+  "retrieved_at": "2026-09-13T10:37:47.713708+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "82a27803173f99605d707230f16f3f634e22c3c4d5d0adab52f5d0717a9b6e47",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Fully Automatic Espresso Machine With Grinder - 20 Bar, Milk Frother, Adjustable Grinding, Touch Control & Auto Self-Cleaning, For Cappuccino &"
+}

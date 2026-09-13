@@ -1,0 +1,11 @@
+{
+  "source_id": "src-5fe5a5dcda281893326476ad",
+  "url": "https://www.walmart.com/ip/11149564187",
+  "retrieved_at": "2026-09-13T10:55:54.057Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "fa7f64a8de4a9433d00d05b1e3a24cd4ae1a5076c27dc701ed9aab166bd15d9b",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "De'Longhi La Specialista Maestro Espresso Machine, Silver"
+}

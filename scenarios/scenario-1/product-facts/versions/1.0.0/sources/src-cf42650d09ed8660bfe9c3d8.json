@@ -1,0 +1,12 @@
+{
+  "source_id": "src-cf42650d09ed8660bfe9c3d8",
+  "url": "https://www.garvee.com/products/espresso-coffee-machine-pho-11bbplam",
+  "retrieved_at": "2026-09-13T10:58:39.736Z",
+  "method": "web.search exact-URL product document",
+  "representation": "indexed_product_document_text",
+  "content_sha256": "8cb77c53812569e597780e61b159bfd508cc07b2e058aaa138bd9319225258be",
+  "hash_scope": "UTF-8 numbered primary document representation extracted from a search-tool response",
+  "source_kind": "manufacturer_product_page",
+  "page_title": "Garvee 1450W 120V 20 Bar Espresso Machine with Steam Wand, Fast Heat,Built-In Bean Grinder,for Home Barista, Gifts for Dad,Mom,Coffee Lover- Gray",
+  "parent_response_sha256": "dbe2a5e64df4ea966ab567f02bfd834955c567a4e3567c655825f786f4d0bd8d"
+}

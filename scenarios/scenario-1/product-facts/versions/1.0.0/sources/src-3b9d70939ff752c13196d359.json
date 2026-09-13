@@ -1,0 +1,11 @@
+{
+  "source_id": "src-3b9d70939ff752c13196d359",
+  "url": "https://www.bestbuy.com/product/airmsen-espresso-machine-with-burr-grinder-cold-brew-coffee-machine-for-cappuccino-latte-americano-stainless-steel/CPSSPCKWRC/sku/10433606",
+  "retrieved_at": "2026-09-13T10:50:53.377Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "734d8555b0f3251aabf1681d71256de81ff6bab5dc1369d06f10a476658fdbba",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "AIRMSEN - Espresso Machine with Burr Grinder, Cold Brew Coffee Machine for Cappuccino Latte Americano - Stainless Steel"
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-90f95eb7a3aaf756914d",
+  "provider": "google",
+  "frozen_record_sha256": "90f95eb7a3aaf756914dcfa2d1e3780220b395d3c356310ffce350c68a336891",
+  "frozen_title": "De'Longhi Magnifica Start Espresso & Coffee Machine with Automatic Milk Frother",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "De'Longhi Magnifica Start Fully Automatic Espresso Machine with Automatic Milk Frother - Silver",
+    "product_url": "https://www.walmart.com/ip/5887122786",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "milk",
+      "name": "automatic_frothing_explicit",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-9a13e8a18def6341d9f1c285",
+          "locator": "page title"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "De'Longhi Magnifica Start Espresso & Coffee Machine with Automatic Milk Frother",
+      "domain_filter": "walmart.com",
+      "retrieved_at": "2026-09-13T10:40:16.944Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.walmart.com/ip/5887122786",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:18.815993+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.walmart.com/ip/5887122786",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:55:36.935Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

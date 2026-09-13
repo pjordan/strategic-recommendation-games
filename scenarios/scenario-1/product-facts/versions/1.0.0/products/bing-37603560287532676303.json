@@ -1,0 +1,308 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-37603560287532676303",
+  "provider": "bing",
+  "frozen_record_sha256": "37603560287532676303965a8c92fab38ce66778edf8fcea1b56f5e106046e93",
+  "frozen_title": "All-In-One Espresso Machine With 15 Bar Pressure, Built-In Bean Grinder, Milk Frother And Steam Wand, 70 Oz Removable Water Tank, Lightweight ABS Shel",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 0.667,
+    "reasons": [],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "All-In-One Espresso Machine With 15 Bar Pressure, Built-In Bean Grinder, Milk Frother And Steam Wand, 70 Oz Removable Water Tank, Lightweight ABS Shell, Easy Home Barista-Style Coffee Maker For Lattes And Cappuccinos",
+    "product_url": "https://vxb.com/products/all-in-one-espresso-machine-with-15-bar-pressure-b",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-8894c0685c12baf44175b891",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        },
+        {
+          "source_id": "src-d4129cf0c753d325bcf86d0b",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "removable_water_tank",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-8894c0685c12baf44175b891",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        },
+        {
+          "source_id": "src-d4129cf0c753d325bcf86d0b",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-8894c0685c12baf44175b891",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        },
+        {
+          "source_id": "src-d4129cf0c753d325bcf86d0b",
+          "locator": "page title"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "physical",
+      "name": "water_tank_capacity",
+      "value": "70",
+      "evidence": [
+        {
+          "source_id": "src-8894c0685c12baf44175b891",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        },
+        {
+          "source_id": "src-d4129cf0c753d325bcf86d0b",
+          "locator": "page title"
+        }
+      ],
+      "unit": "fl oz"
+    },
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-8894c0685c12baf44175b891",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        },
+        {
+          "source_id": "src-d4129cf0c753d325bcf86d0b",
+          "locator": "web text line 135"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "pid_temperature_control",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-8894c0685c12baf44175b891",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        },
+        {
+          "source_id": "src-d4129cf0c753d325bcf86d0b",
+          "locator": "web text line 136"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "burr_type",
+      "value": "conical",
+      "evidence": [
+        {
+          "source_id": "src-8894c0685c12baf44175b891",
+          "locator": ".product__description"
+        },
+        {
+          "source_id": "src-d4129cf0c753d325bcf86d0b",
+          "locator": "web text line 139"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "manual_frothing_explicit",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-8894c0685c12baf44175b891",
+          "locator": ".product__description"
+        },
+        {
+          "source_id": "src-d4129cf0c753d325bcf86d0b",
+          "locator": "web text line 142"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-8894c0685c12baf44175b891",
+          "locator": ".product__description"
+        },
+        {
+          "source_id": "src-d4129cf0c753d325bcf86d0b",
+          "locator": "web text line 139"
+        }
+      ]
+    },
+    {
+      "category": "electrical",
+      "name": "power",
+      "value": "1450",
+      "evidence": [
+        {
+          "source_id": "src-8894c0685c12baf44175b891",
+          "locator": ".product__description"
+        },
+        {
+          "source_id": "src-d4129cf0c753d325bcf86d0b",
+          "locator": "web text line 138"
+        }
+      ],
+      "unit": "W"
+    },
+    {
+      "category": "identity",
+      "name": "sku",
+      "value": "VXB0C5GPNSTY",
+      "evidence": [
+        {
+          "source_id": "src-8894c0685c12baf44175b891",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.sku"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "mpn",
+      "value": "VXB0C5GPNSTY",
+      "evidence": [
+        {
+          "source_id": "src-8894c0685c12baf44175b891",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.mpn"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "weight",
+      "value": "18.3lb",
+      "evidence": [
+        {
+          "source_id": "src-8894c0685c12baf44175b891",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.weight"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "15 bar",
+      "evidence": [
+        {
+          "source_id": "src-aea259f6a74f9a9f84b5930f",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Milk Frothing Pitcher",
+      "evidence": [
+        {
+          "source_id": "src-aea259f6a74f9a9f84b5930f",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Power",
+      "value": "1450 W",
+      "evidence": [
+        {
+          "source_id": "src-aea259f6a74f9a9f84b5930f",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Built-in Grinder",
+      "evidence": [
+        {
+          "source_id": "src-aea259f6a74f9a9f84b5930f",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Title",
+      "value": "Default Title",
+      "evidence": [
+        {
+          "source_id": "src-aea259f6a74f9a9f84b5930f",
+          "locator": "#gpdp-ps li:nth-of-type(5)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "price": "494.88",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "sku": "VXB0C5GPNSTY",
+        "seller": "Nationskander VXB.com Bearings"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-8894c0685c12baf44175b891",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[0]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "included_items",
+    "maintenance"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=429646218321",
+      "retrieved_at": "2026-09-13T10:37:47.724386+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://vxb.com/products/all-in-one-espresso-machine-with-15-bar-pressure-b",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:29.706675+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://vxb.com/products/all-in-one-espresso-machine-with-15-bar-pressure-b",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:26.037Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

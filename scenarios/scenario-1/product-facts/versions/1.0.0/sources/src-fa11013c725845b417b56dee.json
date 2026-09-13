@@ -1,0 +1,11 @@
+{
+  "source_id": "src-fa11013c725845b417b56dee",
+  "url": "https://www.bing.com/shop/productdetails?goid=389626441340",
+  "retrieved_at": "2026-09-13T10:37:41.651655+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "1031796643875bb963ea42266ed76a160a285e81969b9fab2edd8854fbd13350",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Simzlife Espresso Machine With Grinder, 15 Bar Coffee Maker With Milk Frother Steamer Wand, Removable Water Tank, Silver Simzlife"
+}

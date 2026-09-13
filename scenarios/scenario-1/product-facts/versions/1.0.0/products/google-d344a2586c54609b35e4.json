@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-d344a2586c54609b35e4",
+  "provider": "google",
+  "frozen_record_sha256": "d344a2586c54609b35e4882287a9b4307c95f0de5a21e739809be84d3e0de9ca",
+  "frozen_title": "Philips Baristina Automatic Espresso Machine & Milk Frother Bundle",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "Philips Baristina Automatic Espresso Machine and Milk Frother Bundle, Black",
+    "product_url": "https://business.walmart.com/ip/Philips-Baristina-Automatic-Espresso-Machine-and-Milk-Frother-Bundle-Black/18626471592",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "identity",
+      "name": "model",
+      "value": "BAR303/60",
+      "evidence": [
+        {
+          "source_id": "src-33cf60c9d9efdf78f5541ab5",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.model"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "sku",
+      "value": "18626471592",
+      "evidence": [
+        {
+          "source_id": "src-33cf60c9d9efdf78f5541ab5",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.sku"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "gtin13",
+      "value": "196592000884",
+      "evidence": [
+        {
+          "source_id": "src-33cf60c9d9efdf78f5541ab5",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.gtin13"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "16",
+      "evidence": [
+        {
+          "source_id": "src-04d65cf4dfbc1545ea88659e",
+          "locator": "web text line 59"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "9",
+      "evidence": [
+        {
+          "source_id": "src-04d65cf4dfbc1545ea88659e",
+          "locator": "web text line 75"
+        }
+      ],
+      "unit": "bar"
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "price": 344.49,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-33cf60c9d9efdf78f5541ab5",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[0]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Philips Baristina Automatic Espresso Machine & Milk Frother Bundle",
+      "domain_filter": "walmart.com",
+      "retrieved_at": "2026-09-13T10:41:05.536Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://business.walmart.com/ip/Philips-Baristina-Automatic-Espresso-Machine-and-Milk-Frother-Bundle-Black/18626471592",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:27.592960+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://business.walmart.com/ip/Philips-Baristina-Automatic-Espresso-Machine-and-Milk-Frother-Bundle-Black/18626471592",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:55:30.075Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source_id": "src-de535182fae111d014895dec",
+  "url": "https://www.bing.com/shop/productdetails?goid=361354978863",
+  "retrieved_at": "2026-09-13T10:37:51.147732+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "f7dce26eaed0321d83374529b01961bcaec67065b1f9436c57fff12bddb40238",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Espresso Machine With Grinder 20 Bar Electric Coffee Maker With Milk Frother Steam Wand For Home"
+}

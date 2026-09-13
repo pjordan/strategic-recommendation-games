@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-e6c2cc116062e346f461",
+  "provider": "google",
+  "frozen_record_sha256": "e6c2cc116062e346f461bc511ca2c8c983b2d14350fe2de20c4562ed961b8aad",
+  "frozen_title": "Chaolink Machine with Grinder Cappuccino and Latte Maker with Powerful Milk Frother for Home Barista",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "ChaoLink Machine with Grinder Cappuccino and Latte Maker with Powerful Milk Frother for Home Barista, LCD Display,Stainless Steel Coffee MakerGray",
+    "product_url": "https://www.walmart.com/ip/18160300338",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-96dff01f85fcb308a1beb8fe",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "pid_temperature_control",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-96dff01f85fcb308a1beb8fe",
+          "locator": "web text line 309"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "burr_type",
+      "value": "conical",
+      "evidence": [
+        {
+          "source_id": "src-96dff01f85fcb308a1beb8fe",
+          "locator": "web text line 311"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-96dff01f85fcb308a1beb8fe",
+          "locator": "web text line 311"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-96dff01f85fcb308a1beb8fe",
+          "locator": "web text line 312"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Chaolink Machine with Grinder Cappuccino and Latte Maker with Powerful Milk Frother for Home Barista",
+      "domain_filter": "walmart.com",
+      "retrieved_at": "2026-09-13T10:42:35.489Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.walmart.com/ip/18160300338",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:16.470540+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.walmart.com/ip/18160300338",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:55:41.019Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

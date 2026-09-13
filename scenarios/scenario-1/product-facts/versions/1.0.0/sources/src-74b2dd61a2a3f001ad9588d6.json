@@ -1,0 +1,11 @@
+{
+  "source_id": "src-74b2dd61a2a3f001ad9588d6",
+  "url": "https://www.bing.com/shop/productdetails?goid=449833790725",
+  "retrieved_at": "2026-09-13T10:37:36.821080+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "f5216e1e58d8fc644b030f49e0efff9ec4577a09e3dcc89f404d3662bf8cb17c",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "SIMZLIFE - 4 in 1 Espresso Machine With Grinder ,15 Bar- Coffee Maker W/Milk Frother Steamer Wand & Removable Water Tank - Silver"
+}

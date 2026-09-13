@@ -1,0 +1,11 @@
+{
+  "source_id": "src-79f90456f4132918a31588f6",
+  "url": "https://www.bing.com/shop/productdetails?goid=296724702054",
+  "retrieved_at": "2026-09-13T10:37:37.173609+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "13ee128b3a67648c27480bfa57388c7e231c9b346df45acb435b784e0da63a4a",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Yesurprise Espresso Machine with Grinder, Milk Frother and LCD Display"
+}

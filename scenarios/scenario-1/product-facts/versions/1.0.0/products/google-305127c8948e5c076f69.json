@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-305127c8948e5c076f69",
+  "provider": "google",
+  "frozen_record_sha256": "305127c8948e5c076f69a28006965b9347680aa638b5074ec1546db2c2cecd63",
+  "frozen_title": "20 Bar Espresso Machine with Built-in Grinder",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "20-Bar Espresso Coffee Machine with Built-In Grinder, 2.8L Removable Tank",
+    "product_url": "https://www.kohls.com/product/prd-8157718/20-bar-espresso-coffee-machine-with-built-in-grinder-28l-removable-tank.jsp",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-75317ef31fe0a5dd5730ab16",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "removable_water_tank",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-75317ef31fe0a5dd5730ab16",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "extraction_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-75317ef31fe0a5dd5730ab16",
+          "locator": "page title"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "physical",
+      "name": "water_tank_capacity",
+      "value": "2.8",
+      "evidence": [
+        {
+          "source_id": "src-75317ef31fe0a5dd5730ab16",
+          "locator": "page title"
+        }
+      ],
+      "unit": "L"
+    },
+    {
+      "category": "brewing",
+      "name": "pump_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-75317ef31fe0a5dd5730ab16",
+          "locator": "web text line 89"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "electrical",
+      "name": "power",
+      "value": "1400",
+      "evidence": [
+        {
+          "source_id": "src-75317ef31fe0a5dd5730ab16",
+          "locator": "web text line 89"
+        }
+      ],
+      "unit": "W"
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "30",
+      "evidence": [
+        {
+          "source_id": "src-75317ef31fe0a5dd5730ab16",
+          "locator": "web text line 90"
+        }
+      ]
+    },
+    {
+      "category": "electrical",
+      "name": "voltage",
+      "value": "120",
+      "evidence": [
+        {
+          "source_id": "src-75317ef31fe0a5dd5730ab16",
+          "locator": "web text line 93"
+        }
+      ],
+      "unit": "V"
+    },
+    {
+      "category": "electrical",
+      "name": "power",
+      "value": "1450",
+      "evidence": [
+        {
+          "source_id": "src-75317ef31fe0a5dd5730ab16",
+          "locator": "web text line 93"
+        }
+      ],
+      "unit": "W"
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [
+    {
+      "topic": "electrical.power",
+      "note": "Multiple values appear in the scoped evidence; they may describe different operating settings, variants, or inconsistent copy.",
+      "values": [
+        "1400",
+        "1450"
+      ],
+      "unit": "W"
+    }
+  ],
+  "not_established_categories": [
+    "included_items",
+    "maintenance",
+    "milk"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "20 Bar Espresso Machine with Built-in Grinder",
+      "domain_filter": "kohls.com",
+      "retrieved_at": "2026-09-13T10:42:10.292Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.kohls.com/product/prd-8157718/20-bar-espresso-coffee-machine-with-built-in-grinder-28l-removable-tank.jsp",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:11.091062+00:00",
+      "status": "unavailable",
+      "error_type": "HTTPError"
+    },
+    {
+      "url": "https://www.kohls.com/product/prd-8157718/20-bar-espresso-coffee-machine-with-built-in-grinder-28l-removable-tank.jsp",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:51:15.826Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

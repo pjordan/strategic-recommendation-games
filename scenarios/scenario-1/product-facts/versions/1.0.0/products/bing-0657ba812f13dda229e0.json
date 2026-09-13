@@ -1,0 +1,199 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-0657ba812f13dda229e0",
+  "provider": "bing",
+  "frozen_record_sha256": "0657ba812f13dda229e08b76edb83889f1b2e18c4a54368268e978b7c3b373df",
+  "frozen_title": "Fully Automatic Espresso Machine With Built In Grinder And Milk Frother 13 One Touch Recipes No Fuss All In One Programmable Coffee Maker For Espresso",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "Fully Automatic Espresso Machine With Built In Grinder And Milk Frother 13 One Touch Recipes No Fuss All In One Programmable Coffee Maker For Espresso Latte Cappuccino Americanos Tea And More",
+    "product_url": "https://vxb.com/products/fully-automatic-espresso-machine-with-built-in-gri-3752",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-e9f799d8cc052dc8830a9a07",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "automatic_frothing_explicit",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-e9f799d8cc052dc8830a9a07",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        }
+      ]
+    },
+    {
+      "category": "maintenance",
+      "name": "self_cleaning_claim",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-e9f799d8cc052dc8830a9a07",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "burr_type",
+      "value": "conical",
+      "evidence": [
+        {
+          "source_id": "src-e9f799d8cc052dc8830a9a07",
+          "locator": ".product__description"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "13",
+      "evidence": [
+        {
+          "source_id": "src-e9f799d8cc052dc8830a9a07",
+          "locator": ".product__description"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "sku",
+      "value": "VXB0DT2SBX2S",
+      "evidence": [
+        {
+          "source_id": "src-e9f799d8cc052dc8830a9a07",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.sku"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "mpn",
+      "value": "VXB0DT2SBX2S",
+      "evidence": [
+        {
+          "source_id": "src-e9f799d8cc052dc8830a9a07",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.mpn"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "weight",
+      "value": "26.3lb",
+      "evidence": [
+        {
+          "source_id": "src-e9f799d8cc052dc8830a9a07",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.weight"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Type",
+      "value": "Automatic",
+      "evidence": [
+        {
+          "source_id": "src-9b406f74d36f799ba042aff8",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Milk Frothing Pitcher",
+      "evidence": [
+        {
+          "source_id": "src-9b406f74d36f799ba042aff8",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Built-in Grinder",
+      "evidence": [
+        {
+          "source_id": "src-9b406f74d36f799ba042aff8",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Title",
+      "value": "Default Title",
+      "evidence": [
+        {
+          "source_id": "src-9b406f74d36f799ba042aff8",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "price": "1084.88",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "sku": "VXB0DT2SBX2S",
+        "seller": "Nationskander VXB.com Bearings"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-e9f799d8cc052dc8830a9a07",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[0]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=440104416159",
+      "retrieved_at": "2026-09-13T10:37:50.335557+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://vxb.com/products/fully-automatic-espresso-machine-with-built-in-gri-3752",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:30.395220+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://vxb.com/products/fully-automatic-espresso-machine-with-built-in-gri-3752",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:30.207Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-f7b8756b0d864f1aa445",
+  "provider": "bing",
+  "frozen_record_sha256": "f7b8756b0d864f1aa445482456a5fd2aaca28f154ccd92a514984186968e2881",
+  "frozen_title": "Semi-Automatic Espresso & Coffee Machine With Manual Milk Frother For Latte, Cappuccino, Built-In Grinder, 850W Coffee Maker",
+  "resolution": {
+    "status": "provider_page_only",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.alibaba.com/pla/Semi-automatic+Espresso+%26+Coffee+Machine+with+Manual+Milk+Frother+for+Latte%2C+Cappuccino%2C+Built-in+Grinder%2C+850W+Coffee+Maker_1601351603172.html?product_id=1601351603172",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ],
+    "merchant_resolution": {
+      "status": "unavailable",
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "candidate_url": "https://www.alibaba.com/pla/Semi-automatic+Espresso+%26+Coffee+Machine+with+Manual+Milk+Frother+for+Latte%2C+Cappuccino%2C+Built-in+Grinder%2C+850W+Coffee+Maker_1601351603172.html?product_id=1601351603172",
+      "reasons": [
+        "Product page could not be retrieved with usable, scoped product details."
+      ]
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=389756912676",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Manual Frother",
+      "evidence": [
+        {
+          "source_id": "src-d8d9581654ecf0fbdaf48e79",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Power Consumption",
+      "value": "850 W",
+      "evidence": [
+        {
+          "source_id": "src-d8d9581654ecf0fbdaf48e79",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Built-in Grinder",
+      "evidence": [
+        {
+          "source_id": "src-d8d9581654ecf0fbdaf48e79",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=389756912676",
+      "retrieved_at": "2026-09-13T10:37:53.109397+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/Semi-automatic+Espresso+%26+Coffee+Machine+with+Manual+Milk+Frother+for+Latte%2C+Cappuccino%2C+Built-in+Grinder%2C+850W+Coffee+Maker_1601351603172.html?product_id=1601351603172",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:32.020983+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/Semi-automatic+Espresso+%26+Coffee+Machine+with+Manual+Milk+Frother+for+Latte%2C+Cappuccino%2C+Built-in+Grinder%2C+850W+Coffee+Maker_1601351603172.html?product_id=1601351603172",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:45.574Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

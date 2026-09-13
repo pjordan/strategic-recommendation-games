@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-7a4dd894626cdd1838bb",
+  "provider": "bing",
+  "frozen_record_sha256": "7a4dd894626cdd1838bb1325192d44a5abc6d8c753839c5817976d04f7a5f12a",
+  "frozen_title": "20 Bar Steel Espresso Machine With Grinder, 1.5L Removable Water Tank, Milk Frother Steam Wand, Silver",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "20 Bar Steel Espresso Machine with Grinder, 1.5L Removable Water Tank, Milk Frother Steam Wand",
+    "product_url": "https://www.kohls.com/product/prd-8091633/20-bar-steel-espresso-machine-with-grinder-15l-removable-water-tank-milk-frother-steam-wand.jsp",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-7771814df530ff18831b7245",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-7771814df530ff18831b7245",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "removable_water_tank",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-7771814df530ff18831b7245",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-7771814df530ff18831b7245",
+          "locator": "page title"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "physical",
+      "name": "water_tank_capacity",
+      "value": "1.5",
+      "evidence": [
+        {
+          "source_id": "src-7771814df530ff18831b7245",
+          "locator": "page title"
+        }
+      ],
+      "unit": "L"
+    },
+    {
+      "category": "electrical",
+      "name": "power",
+      "value": "1350",
+      "evidence": [
+        {
+          "source_id": "src-7771814df530ff18831b7245",
+          "locator": "web text line 78"
+        }
+      ],
+      "unit": "W"
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "30",
+      "evidence": [
+        {
+          "source_id": "src-7771814df530ff18831b7245",
+          "locator": "web text line 79"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "20 bar",
+      "evidence": [
+        {
+          "source_id": "src-1caae6c7228a5e9be3730d70",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Steam Wand",
+      "evidence": [
+        {
+          "source_id": "src-1caae6c7228a5e9be3730d70",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Water Tank Capacity",
+      "value": "50.72 fl oz",
+      "evidence": [
+        {
+          "source_id": "src-1caae6c7228a5e9be3730d70",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Power",
+      "value": "1350 W",
+      "evidence": [
+        {
+          "source_id": "src-1caae6c7228a5e9be3730d70",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Material",
+      "value": "Stainless Steel",
+      "evidence": [
+        {
+          "source_id": "src-1caae6c7228a5e9be3730d70",
+          "locator": "#gpdp-ps li:nth-of-type(5)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Milk Frother",
+      "evidence": [
+        {
+          "source_id": "src-1caae6c7228a5e9be3730d70",
+          "locator": "#gpdp-ps li:nth-of-type(6)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Color",
+      "value": "Silver",
+      "evidence": [
+        {
+          "source_id": "src-1caae6c7228a5e9be3730d70",
+          "locator": "#gpdp-ps li:nth-of-type(7)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "included_items",
+    "maintenance"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=399658311616",
+      "retrieved_at": "2026-09-13T10:37:35.151249+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.kohls.com/product/prd-8091633/20-bar-steel-espresso-machine-with-grinder-15l-removable-water-tank-milk-frother-steam-wand.jsp",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:10.929000+00:00",
+      "status": "unavailable",
+      "error_type": "HTTPError"
+    },
+    {
+      "url": "https://www.kohls.com/product/prd-8091633/20-bar-steel-espresso-machine-with-grinder-15l-removable-water-tank-milk-frother-steam-wand.jsp",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:51:15.303Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

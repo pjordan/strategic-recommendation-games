@@ -1,0 +1,2236 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_count": 317,
+  "source_count": 269,
+  "coverage": {
+    "matched_listing": 150,
+    "provider_page_only": 55,
+    "unresolved": 20,
+    "ambiguous": 19,
+    "unavailable": 72,
+    "matched_page_without_extracted_specs": 1
+  },
+  "products": [
+    {
+      "record_id": "bing-306ad71c318b0d82c61b",
+      "file": "products/bing-306ad71c318b0d82c61b.json",
+      "status": "matched_listing",
+      "fact_count": 14,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-18c5254095648822242f",
+      "file": "products/bing-18c5254095648822242f.json",
+      "status": "matched_listing",
+      "fact_count": 13,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-af3bf359615054d01c62",
+      "file": "products/bing-af3bf359615054d01c62.json",
+      "status": "matched_listing",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-cd11aaaefd5c25f214f5",
+      "file": "products/bing-cd11aaaefd5c25f214f5.json",
+      "status": "matched_listing",
+      "fact_count": 23,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-c3b5a1e881e3c5f9abdf",
+      "file": "products/bing-c3b5a1e881e3c5f9abdf.json",
+      "status": "provider_page_only",
+      "fact_count": 4,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-72438b29a66055ffa38c",
+      "file": "products/bing-72438b29a66055ffa38c.json",
+      "status": "matched_listing",
+      "fact_count": 18,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-57ea26bbc60418c5fcca",
+      "file": "products/bing-57ea26bbc60418c5fcca.json",
+      "status": "matched_listing",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-3a767fdb1b27d5f6e581",
+      "file": "products/bing-3a767fdb1b27d5f6e581.json",
+      "status": "matched_listing",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-0226c96ea747e414d014",
+      "file": "products/bing-0226c96ea747e414d014.json",
+      "status": "unresolved",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-cf7e0bab4fab9b646036",
+      "file": "products/bing-cf7e0bab4fab9b646036.json",
+      "status": "provider_page_only",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-7a4dd894626cdd1838bb",
+      "file": "products/bing-7a4dd894626cdd1838bb.json",
+      "status": "matched_listing",
+      "fact_count": 14,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-4aee767a3edd2388f496",
+      "file": "products/bing-4aee767a3edd2388f496.json",
+      "status": "provider_page_only",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-637dfaa955608edee186",
+      "file": "products/bing-637dfaa955608edee186.json",
+      "status": "provider_page_only",
+      "fact_count": 4,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-489bd0a3c698912610b5",
+      "file": "products/bing-489bd0a3c698912610b5.json",
+      "status": "ambiguous",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-795763ee62a6dc87d9e3",
+      "file": "products/bing-795763ee62a6dc87d9e3.json",
+      "status": "matched_listing",
+      "fact_count": 15,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-7f3f111cbee269ee207a",
+      "file": "products/bing-7f3f111cbee269ee207a.json",
+      "status": "provider_page_only",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-12afdfa524d0449cc966",
+      "file": "products/bing-12afdfa524d0449cc966.json",
+      "status": "provider_page_only",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-f3362249ad9b2fc5a85f",
+      "file": "products/bing-f3362249ad9b2fc5a85f.json",
+      "status": "matched_listing",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-e141ee676b2d57374c79",
+      "file": "products/bing-e141ee676b2d57374c79.json",
+      "status": "matched_listing",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-8769c23a94c64e5e2c67",
+      "file": "products/bing-8769c23a94c64e5e2c67.json",
+      "status": "provider_page_only",
+      "fact_count": 5,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-411e912414f5df20244c",
+      "file": "products/bing-411e912414f5df20244c.json",
+      "status": "matched_listing",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-ac43c805e3f355ff97dc",
+      "file": "products/bing-ac43c805e3f355ff97dc.json",
+      "status": "matched_listing",
+      "fact_count": 13,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-49780aca1fc849f7c953",
+      "file": "products/bing-49780aca1fc849f7c953.json",
+      "status": "matched_listing",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-c51b817a2f4f21e410ac",
+      "file": "products/bing-c51b817a2f4f21e410ac.json",
+      "status": "provider_page_only",
+      "fact_count": 10,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-53824f476ba2160bfcc7",
+      "file": "products/bing-53824f476ba2160bfcc7.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-88be3fcf832ba81e5557",
+      "file": "products/bing-88be3fcf832ba81e5557.json",
+      "status": "provider_page_only",
+      "fact_count": 4,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-b957b9125e5d4f40d253",
+      "file": "products/bing-b957b9125e5d4f40d253.json",
+      "status": "unresolved",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-78ab0dec86e6470f5227",
+      "file": "products/bing-78ab0dec86e6470f5227.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-78a4158303ba5999efdb",
+      "file": "products/bing-78a4158303ba5999efdb.json",
+      "status": "matched_listing",
+      "fact_count": 5,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-f12e169290a9c9b84123",
+      "file": "products/bing-f12e169290a9c9b84123.json",
+      "status": "provider_page_only",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-8d114b228c5020df8efd",
+      "file": "products/bing-8d114b228c5020df8efd.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-c6bdaa0d1469b8604073",
+      "file": "products/bing-c6bdaa0d1469b8604073.json",
+      "status": "provider_page_only",
+      "fact_count": 7,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-716096b1835e7feacc70",
+      "file": "products/bing-716096b1835e7feacc70.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-b79dd022ff37659d63c9",
+      "file": "products/bing-b79dd022ff37659d63c9.json",
+      "status": "matched_listing",
+      "fact_count": 15,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-a15d1f38b1dc51ed7985",
+      "file": "products/bing-a15d1f38b1dc51ed7985.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-c47ac48a6480f94b7fe3",
+      "file": "products/bing-c47ac48a6480f94b7fe3.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-2533308e2e98b121aa7c",
+      "file": "products/bing-2533308e2e98b121aa7c.json",
+      "status": "provider_page_only",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-cb2691cc12932a344507",
+      "file": "products/bing-cb2691cc12932a344507.json",
+      "status": "provider_page_only",
+      "fact_count": 5,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-8f10d51014cf65585106",
+      "file": "products/bing-8f10d51014cf65585106.json",
+      "status": "provider_page_only",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-da2ad966a94911e550e6",
+      "file": "products/bing-da2ad966a94911e550e6.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-d2b74b50a379b8bf71a0",
+      "file": "products/bing-d2b74b50a379b8bf71a0.json",
+      "status": "matched_listing",
+      "fact_count": 26,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-642b3aa66942aa92919f",
+      "file": "products/bing-642b3aa66942aa92919f.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-fa4b67e72a20363a3a83",
+      "file": "products/bing-fa4b67e72a20363a3a83.json",
+      "status": "provider_page_only",
+      "fact_count": 4,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-279eae4c2ca43329b99d",
+      "file": "products/bing-279eae4c2ca43329b99d.json",
+      "status": "ambiguous",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-fccd193ca26cd84354d0",
+      "file": "products/bing-fccd193ca26cd84354d0.json",
+      "status": "provider_page_only",
+      "fact_count": 7,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-b12fe1c8799d05fb17db",
+      "file": "products/bing-b12fe1c8799d05fb17db.json",
+      "status": "provider_page_only",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-598a25770e0646e11052",
+      "file": "products/bing-598a25770e0646e11052.json",
+      "status": "provider_page_only",
+      "fact_count": 5,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-7cfc23a4d72ab8cddc12",
+      "file": "products/bing-7cfc23a4d72ab8cddc12.json",
+      "status": "provider_page_only",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-de5815903f1a66c03dd8",
+      "file": "products/bing-de5815903f1a66c03dd8.json",
+      "status": "matched_listing",
+      "fact_count": 19,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-06ecaee9987908e939f7",
+      "file": "products/bing-06ecaee9987908e939f7.json",
+      "status": "unresolved",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-0ad455c532a1a56440eb",
+      "file": "products/bing-0ad455c532a1a56440eb.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-2253f3f1a1db82e39a09",
+      "file": "products/bing-2253f3f1a1db82e39a09.json",
+      "status": "provider_page_only",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-6ef1889ee70cba19d8b6",
+      "file": "products/bing-6ef1889ee70cba19d8b6.json",
+      "status": "unresolved",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-66be295b3b74afa89027",
+      "file": "products/bing-66be295b3b74afa89027.json",
+      "status": "matched_listing",
+      "fact_count": 7,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-2c2f1fbf5b6cb7437e5f",
+      "file": "products/bing-2c2f1fbf5b6cb7437e5f.json",
+      "status": "provider_page_only",
+      "fact_count": 5,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-891bc38dc8624017a975",
+      "file": "products/bing-891bc38dc8624017a975.json",
+      "status": "matched_listing",
+      "fact_count": 34,
+      "conflict_count": 5
+    },
+    {
+      "record_id": "bing-d07c4f63d528c13b73b4",
+      "file": "products/bing-d07c4f63d528c13b73b4.json",
+      "status": "matched_listing",
+      "fact_count": 16,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-43d976648909711515b7",
+      "file": "products/bing-43d976648909711515b7.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-8fa3d2e2f68153f6ceb7",
+      "file": "products/bing-8fa3d2e2f68153f6ceb7.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-c6fb2f544f58efa54ddf",
+      "file": "products/bing-c6fb2f544f58efa54ddf.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-aec05e7b187dcd09b99b",
+      "file": "products/bing-aec05e7b187dcd09b99b.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-433d82ce40e1ab37058d",
+      "file": "products/bing-433d82ce40e1ab37058d.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-8442d35127d53d9e6023",
+      "file": "products/bing-8442d35127d53d9e6023.json",
+      "status": "provider_page_only",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-12c11efcac9385635a63",
+      "file": "products/bing-12c11efcac9385635a63.json",
+      "status": "ambiguous",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-0d72a0b33c2281fdb579",
+      "file": "products/bing-0d72a0b33c2281fdb579.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-1d87ad748e0d8087a595",
+      "file": "products/bing-1d87ad748e0d8087a595.json",
+      "status": "provider_page_only",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-149398435225d78bbcdf",
+      "file": "products/bing-149398435225d78bbcdf.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-ae7d0b6a74c258277a6b",
+      "file": "products/bing-ae7d0b6a74c258277a6b.json",
+      "status": "matched_listing",
+      "fact_count": 4,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-6f3c8429d6f8100d9502",
+      "file": "products/bing-6f3c8429d6f8100d9502.json",
+      "status": "provider_page_only",
+      "fact_count": 4,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-f98873611a65ecad76e9",
+      "file": "products/bing-f98873611a65ecad76e9.json",
+      "status": "matched_listing",
+      "fact_count": 15,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-21f0df6edf908a377e97",
+      "file": "products/bing-21f0df6edf908a377e97.json",
+      "status": "provider_page_only",
+      "fact_count": 11,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-bed8b9364df3756f1388",
+      "file": "products/bing-bed8b9364df3756f1388.json",
+      "status": "matched_listing",
+      "fact_count": 9,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-b546aa5fcf249468f3a9",
+      "file": "products/bing-b546aa5fcf249468f3a9.json",
+      "status": "provider_page_only",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-1645eae370aa2faace49",
+      "file": "products/bing-1645eae370aa2faace49.json",
+      "status": "ambiguous",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-62318854f139fa1c490b",
+      "file": "products/bing-62318854f139fa1c490b.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-daeae43d27e5dd10228b",
+      "file": "products/bing-daeae43d27e5dd10228b.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-c38b56839ad995d22f18",
+      "file": "products/bing-c38b56839ad995d22f18.json",
+      "status": "matched_listing",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-ca5eefefe326fb47e3c5",
+      "file": "products/bing-ca5eefefe326fb47e3c5.json",
+      "status": "provider_page_only",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-659c2419f68e515b5ea1",
+      "file": "products/bing-659c2419f68e515b5ea1.json",
+      "status": "matched_listing",
+      "fact_count": 9,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-95c801faa933fa80fa2f",
+      "file": "products/bing-95c801faa933fa80fa2f.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-9376c46c5715455a89a8",
+      "file": "products/bing-9376c46c5715455a89a8.json",
+      "status": "provider_page_only",
+      "fact_count": 5,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-c9e92de32f7c005c9063",
+      "file": "products/bing-c9e92de32f7c005c9063.json",
+      "status": "provider_page_only",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-84504958dc45121db337",
+      "file": "products/bing-84504958dc45121db337.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-484346c6e71773b55ed8",
+      "file": "products/bing-484346c6e71773b55ed8.json",
+      "status": "provider_page_only",
+      "fact_count": 4,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-b9ca4f144966ffa80d50",
+      "file": "products/bing-b9ca4f144966ffa80d50.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-69d809365143dac63ce7",
+      "file": "products/bing-69d809365143dac63ce7.json",
+      "status": "matched_listing",
+      "fact_count": 11,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-e7569e81edd2aa63ebf6",
+      "file": "products/bing-e7569e81edd2aa63ebf6.json",
+      "status": "provider_page_only",
+      "fact_count": 7,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-e5e65f383212602c134a",
+      "file": "products/bing-e5e65f383212602c134a.json",
+      "status": "provider_page_only",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-16f171fcd3e63a99145c",
+      "file": "products/bing-16f171fcd3e63a99145c.json",
+      "status": "provider_page_only",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-a38daf4ec239b5de91f2",
+      "file": "products/bing-a38daf4ec239b5de91f2.json",
+      "status": "provider_page_only",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-d3b82fcfff13c8b299ec",
+      "file": "products/bing-d3b82fcfff13c8b299ec.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-b68a44ab2e6dce9505e4",
+      "file": "products/bing-b68a44ab2e6dce9505e4.json",
+      "status": "provider_page_only",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-77ecbaaea4422b27ebd2",
+      "file": "products/bing-77ecbaaea4422b27ebd2.json",
+      "status": "provider_page_only",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-650e72bfbd0529a0fad9",
+      "file": "products/bing-650e72bfbd0529a0fad9.json",
+      "status": "matched_listing",
+      "fact_count": 15,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-5c573e151a5e130f2b17",
+      "file": "products/bing-5c573e151a5e130f2b17.json",
+      "status": "matched_listing",
+      "fact_count": 18,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-62c55277afa7c9def0ae",
+      "file": "products/bing-62c55277afa7c9def0ae.json",
+      "status": "matched_listing",
+      "fact_count": 14,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-d5c054cfa057e1200cec",
+      "file": "products/bing-d5c054cfa057e1200cec.json",
+      "status": "matched_listing",
+      "fact_count": 9,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-45df535a6538f17ec596",
+      "file": "products/bing-45df535a6538f17ec596.json",
+      "status": "provider_page_only",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-37603560287532676303",
+      "file": "products/bing-37603560287532676303.json",
+      "status": "matched_listing",
+      "fact_count": 18,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-2c7fd72b67d02a9c40b7",
+      "file": "products/bing-2c7fd72b67d02a9c40b7.json",
+      "status": "matched_listing",
+      "fact_count": 17,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-9528fae1057b8fcddbe4",
+      "file": "products/bing-9528fae1057b8fcddbe4.json",
+      "status": "matched_listing",
+      "fact_count": 18,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-48d85206b2f6bb0f46b5",
+      "file": "products/bing-48d85206b2f6bb0f46b5.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-055cbff8c048a4c9d7eb",
+      "file": "products/bing-055cbff8c048a4c9d7eb.json",
+      "status": "provider_page_only",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-5b426604604b64a6f45e",
+      "file": "products/bing-5b426604604b64a6f45e.json",
+      "status": "provider_page_only",
+      "fact_count": 4,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-b3eaacf0d2a9b00129d7",
+      "file": "products/bing-b3eaacf0d2a9b00129d7.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-2e1992678e4b3cc397cf",
+      "file": "products/bing-2e1992678e4b3cc397cf.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-9f57bf365379aa49271a",
+      "file": "products/bing-9f57bf365379aa49271a.json",
+      "status": "matched_listing",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-7cf8e25d54f8f13837ea",
+      "file": "products/bing-7cf8e25d54f8f13837ea.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-21f4507db4524b6f110d",
+      "file": "products/bing-21f4507db4524b6f110d.json",
+      "status": "provider_page_only",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-d4cc2e178191b45a9ffe",
+      "file": "products/bing-d4cc2e178191b45a9ffe.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-7f074fd7f5098da55a2f",
+      "file": "products/bing-7f074fd7f5098da55a2f.json",
+      "status": "matched_listing",
+      "fact_count": 14,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-fd799ec559b96859a907",
+      "file": "products/bing-fd799ec559b96859a907.json",
+      "status": "matched_listing",
+      "fact_count": 17,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-063fe9f1ec58075eb29c",
+      "file": "products/bing-063fe9f1ec58075eb29c.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-4d52fe1ce90459ddb944",
+      "file": "products/bing-4d52fe1ce90459ddb944.json",
+      "status": "matched_listing",
+      "fact_count": 18,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-88b2fb0f8fa23d2b30c3",
+      "file": "products/bing-88b2fb0f8fa23d2b30c3.json",
+      "status": "provider_page_only",
+      "fact_count": 7,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-d85a73186ce60874f478",
+      "file": "products/bing-d85a73186ce60874f478.json",
+      "status": "provider_page_only",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-48aa0b988a723cf4bff5",
+      "file": "products/bing-48aa0b988a723cf4bff5.json",
+      "status": "provider_page_only",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-0657ba812f13dda229e0",
+      "file": "products/bing-0657ba812f13dda229e0.json",
+      "status": "matched_listing",
+      "fact_count": 12,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-d076fdd636743915cbcb",
+      "file": "products/bing-d076fdd636743915cbcb.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-d637fc26697e448504ca",
+      "file": "products/bing-d637fc26697e448504ca.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-1cf942e72c88bb4c26ae",
+      "file": "products/bing-1cf942e72c88bb4c26ae.json",
+      "status": "provider_page_only",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-2c114e374a5d97e62a03",
+      "file": "products/bing-2c114e374a5d97e62a03.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-b8ae01aae604a45b6ba4",
+      "file": "products/bing-b8ae01aae604a45b6ba4.json",
+      "status": "matched_listing",
+      "fact_count": 14,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-9540b9727223649767ed",
+      "file": "products/bing-9540b9727223649767ed.json",
+      "status": "provider_page_only",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-950a0876d102784230a9",
+      "file": "products/bing-950a0876d102784230a9.json",
+      "status": "provider_page_only",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-eea802e12ca612532ff1",
+      "file": "products/bing-eea802e12ca612532ff1.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-fffb6c340707640b02d2",
+      "file": "products/bing-fffb6c340707640b02d2.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-0cdfc3ea9e21a6cae8ad",
+      "file": "products/bing-0cdfc3ea9e21a6cae8ad.json",
+      "status": "matched_listing",
+      "fact_count": 20,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-0627f04cacb99efe0ae1",
+      "file": "products/bing-0627f04cacb99efe0ae1.json",
+      "status": "unresolved",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-7aa21957e08734827957",
+      "file": "products/bing-7aa21957e08734827957.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-480ee1adf2ad41cddecf",
+      "file": "products/bing-480ee1adf2ad41cddecf.json",
+      "status": "provider_page_only",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-0f2e29dd363a3f45ad19",
+      "file": "products/bing-0f2e29dd363a3f45ad19.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-55c2201c9265b3990a9b",
+      "file": "products/bing-55c2201c9265b3990a9b.json",
+      "status": "provider_page_only",
+      "fact_count": 4,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-01e7324cb0bb9043b927",
+      "file": "products/bing-01e7324cb0bb9043b927.json",
+      "status": "provider_page_only",
+      "fact_count": 4,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-7a3d2192b8032c95049a",
+      "file": "products/bing-7a3d2192b8032c95049a.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-768274d734cd0e80217a",
+      "file": "products/bing-768274d734cd0e80217a.json",
+      "status": "provider_page_only",
+      "fact_count": 4,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-b22c0cf075ceb7902e3e",
+      "file": "products/bing-b22c0cf075ceb7902e3e.json",
+      "status": "matched_listing",
+      "fact_count": 13,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-f7b8756b0d864f1aa445",
+      "file": "products/bing-f7b8756b0d864f1aa445.json",
+      "status": "provider_page_only",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-9c2c445fa8a7570fa3de",
+      "file": "products/bing-9c2c445fa8a7570fa3de.json",
+      "status": "matched_page_without_extracted_specs",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-b60cfc5370f4347502b9",
+      "file": "products/bing-b60cfc5370f4347502b9.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-a7f2abfe67183aabe0c9",
+      "file": "products/bing-a7f2abfe67183aabe0c9.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-f3b9a48a7b8e5ca3692c",
+      "file": "products/bing-f3b9a48a7b8e5ca3692c.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-37bf52a3e8952cd57186",
+      "file": "products/bing-37bf52a3e8952cd57186.json",
+      "status": "matched_listing",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-77ffa67c181d6c3612d6",
+      "file": "products/bing-77ffa67c181d6c3612d6.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-9b1ab71c68cd0c12e329",
+      "file": "products/bing-9b1ab71c68cd0c12e329.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-6d0d1484fc4370a3a462",
+      "file": "products/bing-6d0d1484fc4370a3a462.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-28efb932a72fcd5a1556",
+      "file": "products/bing-28efb932a72fcd5a1556.json",
+      "status": "provider_page_only",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-4a0ad7ee5eae1072ce3f",
+      "file": "products/bing-4a0ad7ee5eae1072ce3f.json",
+      "status": "matched_listing",
+      "fact_count": 14,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-a47a42f3da93ecb1520c",
+      "file": "products/bing-a47a42f3da93ecb1520c.json",
+      "status": "matched_listing",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-589afb42f21f096c2b0e",
+      "file": "products/bing-589afb42f21f096c2b0e.json",
+      "status": "ambiguous",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-91b7b103c412c519e3a7",
+      "file": "products/bing-91b7b103c412c519e3a7.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-c7a752a6e40d3bcbf661",
+      "file": "products/bing-c7a752a6e40d3bcbf661.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-047e8070cc2bbd724ae2",
+      "file": "products/bing-047e8070cc2bbd724ae2.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-208365445dc00b4cbbf6",
+      "file": "products/bing-208365445dc00b4cbbf6.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-61decbbb528fa464f8d3",
+      "file": "products/bing-61decbbb528fa464f8d3.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-c8b8dcf2d074b0dcb9ed",
+      "file": "products/bing-c8b8dcf2d074b0dcb9ed.json",
+      "status": "matched_listing",
+      "fact_count": 11,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-63dbd0a2a3fd2deec19f",
+      "file": "products/bing-63dbd0a2a3fd2deec19f.json",
+      "status": "ambiguous",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-e2ea8284664c99f1318a",
+      "file": "products/bing-e2ea8284664c99f1318a.json",
+      "status": "matched_listing",
+      "fact_count": 13,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-d3aaab6bb9bdbb0ba72a",
+      "file": "products/bing-d3aaab6bb9bdbb0ba72a.json",
+      "status": "matched_listing",
+      "fact_count": 7,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-1dd392a01e715db007bd",
+      "file": "products/bing-1dd392a01e715db007bd.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-86b37371ef27345c4dcc",
+      "file": "products/bing-86b37371ef27345c4dcc.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-7887b55a520e19949fb3",
+      "file": "products/bing-7887b55a520e19949fb3.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-624710342e578c8452a3",
+      "file": "products/bing-624710342e578c8452a3.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-0dbc94609b804b9bc78c",
+      "file": "products/bing-0dbc94609b804b9bc78c.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-1319fc13b8a8ec4632a0",
+      "file": "products/bing-1319fc13b8a8ec4632a0.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-6682bbef1dd893115088",
+      "file": "products/bing-6682bbef1dd893115088.json",
+      "status": "matched_listing",
+      "fact_count": 19,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-4dc5b8e2ee15522d6952",
+      "file": "products/bing-4dc5b8e2ee15522d6952.json",
+      "status": "provider_page_only",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-7d6530ba5a01aa92c129",
+      "file": "products/bing-7d6530ba5a01aa92c129.json",
+      "status": "provider_page_only",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-b4c7ed14dbba8b6d550c",
+      "file": "products/bing-b4c7ed14dbba8b6d550c.json",
+      "status": "provider_page_only",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-4ed87dfed4540f3f409c",
+      "file": "products/bing-4ed87dfed4540f3f409c.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-43de8e4359ad1784cba0",
+      "file": "products/bing-43de8e4359ad1784cba0.json",
+      "status": "matched_listing",
+      "fact_count": 9,
+      "conflict_count": 1
+    },
+    {
+      "record_id": "bing-5963e05d24b87ba08d9e",
+      "file": "products/bing-5963e05d24b87ba08d9e.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-555c889123cc8589e9f1",
+      "file": "products/bing-555c889123cc8589e9f1.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-46aeeb9c07398184ea88",
+      "file": "products/bing-46aeeb9c07398184ea88.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-ce34330d6ac085f4326c",
+      "file": "products/bing-ce34330d6ac085f4326c.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-4d8b5ffd6453f1c28447",
+      "file": "products/bing-4d8b5ffd6453f1c28447.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "bing-a75dd746990e219179ad",
+      "file": "products/bing-a75dd746990e219179ad.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-04442529dc01aab8c0a5",
+      "file": "products/google-04442529dc01aab8c0a5.json",
+      "status": "matched_listing",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-70d858d19fd46fafb853",
+      "file": "products/google-70d858d19fd46fafb853.json",
+      "status": "ambiguous",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-f672799d4177b5d361e3",
+      "file": "products/google-f672799d4177b5d361e3.json",
+      "status": "matched_listing",
+      "fact_count": 9,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-e7d412d7eeea2e97dd30",
+      "file": "products/google-e7d412d7eeea2e97dd30.json",
+      "status": "ambiguous",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-2fb2d250ff7b3427abbb",
+      "file": "products/google-2fb2d250ff7b3427abbb.json",
+      "status": "matched_listing",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-e9eb8fe30b1ea9d40fd8",
+      "file": "products/google-e9eb8fe30b1ea9d40fd8.json",
+      "status": "matched_listing",
+      "fact_count": 4,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-71336ad308e6154992c2",
+      "file": "products/google-71336ad308e6154992c2.json",
+      "status": "matched_listing",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-add4d25806a810d8974a",
+      "file": "products/google-add4d25806a810d8974a.json",
+      "status": "matched_listing",
+      "fact_count": 1,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-d5e12a594869aa3d85ed",
+      "file": "products/google-d5e12a594869aa3d85ed.json",
+      "status": "matched_listing",
+      "fact_count": 2,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-9083303fcc2e5fd2dd1d",
+      "file": "products/google-9083303fcc2e5fd2dd1d.json",
+      "status": "matched_listing",
+      "fact_count": 11,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-977666da80b52a214754",
+      "file": "products/google-977666da80b52a214754.json",
+      "status": "matched_listing",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-c0a29ed9e49032b51060",
+      "file": "products/google-c0a29ed9e49032b51060.json",
+      "status": "matched_listing",
+      "fact_count": 8,
+      "conflict_count": 1
+    },
+    {
+      "record_id": "google-8bbde86ff3f4e659e021",
+      "file": "products/google-8bbde86ff3f4e659e021.json",
+      "status": "matched_listing",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-e6c59526c1b98a2fbc3c",
+      "file": "products/google-e6c59526c1b98a2fbc3c.json",
+      "status": "matched_listing",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-df929791eeb4aa842e70",
+      "file": "products/google-df929791eeb4aa842e70.json",
+      "status": "matched_listing",
+      "fact_count": 4,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-f9ceba2e59999d43cab5",
+      "file": "products/google-f9ceba2e59999d43cab5.json",
+      "status": "matched_listing",
+      "fact_count": 9,
+      "conflict_count": 1
+    },
+    {
+      "record_id": "google-3b66cec49c3013bc150d",
+      "file": "products/google-3b66cec49c3013bc150d.json",
+      "status": "unresolved",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-ae16f17e37b151e3a9fd",
+      "file": "products/google-ae16f17e37b151e3a9fd.json",
+      "status": "matched_listing",
+      "fact_count": 7,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-dc0d04709783b322616b",
+      "file": "products/google-dc0d04709783b322616b.json",
+      "status": "matched_listing",
+      "fact_count": 4,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-bbbd53043c8ed53733ef",
+      "file": "products/google-bbbd53043c8ed53733ef.json",
+      "status": "matched_listing",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-73d649a23e17eb409d3e",
+      "file": "products/google-73d649a23e17eb409d3e.json",
+      "status": "matched_listing",
+      "fact_count": 11,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-e330ec1bb31d6723d074",
+      "file": "products/google-e330ec1bb31d6723d074.json",
+      "status": "matched_listing",
+      "fact_count": 10,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-c1ac723b3479e478c13f",
+      "file": "products/google-c1ac723b3479e478c13f.json",
+      "status": "matched_listing",
+      "fact_count": 7,
+      "conflict_count": 1
+    },
+    {
+      "record_id": "google-9a80fa64810512850360",
+      "file": "products/google-9a80fa64810512850360.json",
+      "status": "matched_listing",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-685be5d79a31ad7bf48c",
+      "file": "products/google-685be5d79a31ad7bf48c.json",
+      "status": "matched_listing",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-1fb95f4aec8a1d774f47",
+      "file": "products/google-1fb95f4aec8a1d774f47.json",
+      "status": "matched_listing",
+      "fact_count": 13,
+      "conflict_count": 1
+    },
+    {
+      "record_id": "google-90f95eb7a3aaf756914d",
+      "file": "products/google-90f95eb7a3aaf756914d.json",
+      "status": "matched_listing",
+      "fact_count": 1,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-2f0e3fe6ce9327efd599",
+      "file": "products/google-2f0e3fe6ce9327efd599.json",
+      "status": "matched_listing",
+      "fact_count": 7,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-e405f9c71a7f83b9074e",
+      "file": "products/google-e405f9c71a7f83b9074e.json",
+      "status": "matched_listing",
+      "fact_count": 5,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-cafe28979b07d09cdb70",
+      "file": "products/google-cafe28979b07d09cdb70.json",
+      "status": "matched_listing",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-08d47bfb07f6fca45197",
+      "file": "products/google-08d47bfb07f6fca45197.json",
+      "status": "matched_listing",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-e0afe7f59d7d0969257e",
+      "file": "products/google-e0afe7f59d7d0969257e.json",
+      "status": "matched_listing",
+      "fact_count": 4,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-b063db752a738d4653f3",
+      "file": "products/google-b063db752a738d4653f3.json",
+      "status": "matched_listing",
+      "fact_count": 5,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-858aadeff0460f696c46",
+      "file": "products/google-858aadeff0460f696c46.json",
+      "status": "matched_listing",
+      "fact_count": 10,
+      "conflict_count": 1
+    },
+    {
+      "record_id": "google-e6beb424762e82f2edc6",
+      "file": "products/google-e6beb424762e82f2edc6.json",
+      "status": "matched_listing",
+      "fact_count": 9,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-56ed4c5e9815df68a50f",
+      "file": "products/google-56ed4c5e9815df68a50f.json",
+      "status": "matched_listing",
+      "fact_count": 5,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-2e0bb75620d183cc5b2e",
+      "file": "products/google-2e0bb75620d183cc5b2e.json",
+      "status": "matched_listing",
+      "fact_count": 7,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-a6e2a72b78258271e2f3",
+      "file": "products/google-a6e2a72b78258271e2f3.json",
+      "status": "matched_listing",
+      "fact_count": 13,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-794ba498120c1bf382fc",
+      "file": "products/google-794ba498120c1bf382fc.json",
+      "status": "matched_listing",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-d344a2586c54609b35e4",
+      "file": "products/google-d344a2586c54609b35e4.json",
+      "status": "matched_listing",
+      "fact_count": 5,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-b3deff288f5bfa809c8d",
+      "file": "products/google-b3deff288f5bfa809c8d.json",
+      "status": "ambiguous",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-e2be2135b7e0b258bf1b",
+      "file": "products/google-e2be2135b7e0b258bf1b.json",
+      "status": "matched_listing",
+      "fact_count": 9,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-4875e707ae51cf9708c5",
+      "file": "products/google-4875e707ae51cf9708c5.json",
+      "status": "unresolved",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-23e477c33645a2a7a715",
+      "file": "products/google-23e477c33645a2a7a715.json",
+      "status": "matched_listing",
+      "fact_count": 12,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-972d029bf0fe420d074f",
+      "file": "products/google-972d029bf0fe420d074f.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-22957896c23975498194",
+      "file": "products/google-22957896c23975498194.json",
+      "status": "matched_listing",
+      "fact_count": 2,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-a1fa77a9296a3fc86214",
+      "file": "products/google-a1fa77a9296a3fc86214.json",
+      "status": "unresolved",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-b9240794f87414ac9b52",
+      "file": "products/google-b9240794f87414ac9b52.json",
+      "status": "matched_listing",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-a4db3db5cf9c03fa2ab6",
+      "file": "products/google-a4db3db5cf9c03fa2ab6.json",
+      "status": "matched_listing",
+      "fact_count": 7,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-da6c9f300bfd52910b07",
+      "file": "products/google-da6c9f300bfd52910b07.json",
+      "status": "matched_listing",
+      "fact_count": 4,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-0a53a7c0d50dce8f24f0",
+      "file": "products/google-0a53a7c0d50dce8f24f0.json",
+      "status": "ambiguous",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-41cce1d48c4168bba830",
+      "file": "products/google-41cce1d48c4168bba830.json",
+      "status": "matched_listing",
+      "fact_count": 2,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-a51e3b69a8d18760592b",
+      "file": "products/google-a51e3b69a8d18760592b.json",
+      "status": "ambiguous",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-451240196901561c150d",
+      "file": "products/google-451240196901561c150d.json",
+      "status": "unresolved",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-418d55cd3381c3e302e5",
+      "file": "products/google-418d55cd3381c3e302e5.json",
+      "status": "matched_listing",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-f71f913730a4213addaa",
+      "file": "products/google-f71f913730a4213addaa.json",
+      "status": "ambiguous",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-688de6d8505cd7fa21e6",
+      "file": "products/google-688de6d8505cd7fa21e6.json",
+      "status": "matched_listing",
+      "fact_count": 11,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-31314cb71c4f522ca7e0",
+      "file": "products/google-31314cb71c4f522ca7e0.json",
+      "status": "matched_listing",
+      "fact_count": 5,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-2c141471a1b0d94b0198",
+      "file": "products/google-2c141471a1b0d94b0198.json",
+      "status": "matched_listing",
+      "fact_count": 12,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-124a65d4d5e878e3b744",
+      "file": "products/google-124a65d4d5e878e3b744.json",
+      "status": "matched_listing",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-5eae437f99f95c0cfab5",
+      "file": "products/google-5eae437f99f95c0cfab5.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-71c091bb59b20f9c0626",
+      "file": "products/google-71c091bb59b20f9c0626.json",
+      "status": "matched_listing",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-72e4a2730270bda181cf",
+      "file": "products/google-72e4a2730270bda181cf.json",
+      "status": "matched_listing",
+      "fact_count": 11,
+      "conflict_count": 1
+    },
+    {
+      "record_id": "google-ceb6c802131f2c0a0c32",
+      "file": "products/google-ceb6c802131f2c0a0c32.json",
+      "status": "matched_listing",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-27958e0bd30f2ca6b1cd",
+      "file": "products/google-27958e0bd30f2ca6b1cd.json",
+      "status": "matched_listing",
+      "fact_count": 14,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-9bf6797c08db52ba0330",
+      "file": "products/google-9bf6797c08db52ba0330.json",
+      "status": "unresolved",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-be23c2f4af300537b351",
+      "file": "products/google-be23c2f4af300537b351.json",
+      "status": "matched_listing",
+      "fact_count": 13,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-18c983a8c06618560292",
+      "file": "products/google-18c983a8c06618560292.json",
+      "status": "unresolved",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-6c04be305bc1c7a5efe4",
+      "file": "products/google-6c04be305bc1c7a5efe4.json",
+      "status": "matched_listing",
+      "fact_count": 10,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-c7a4b049f172d170254e",
+      "file": "products/google-c7a4b049f172d170254e.json",
+      "status": "unresolved",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-403d0092fc323bd2b014",
+      "file": "products/google-403d0092fc323bd2b014.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-2f01d4dd3d804ad5ef6d",
+      "file": "products/google-2f01d4dd3d804ad5ef6d.json",
+      "status": "unresolved",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-9a0106badacf87fa4004",
+      "file": "products/google-9a0106badacf87fa4004.json",
+      "status": "matched_listing",
+      "fact_count": 7,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-0b96e3357c507c052986",
+      "file": "products/google-0b96e3357c507c052986.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-d2a9f521b103ac780dec",
+      "file": "products/google-d2a9f521b103ac780dec.json",
+      "status": "matched_listing",
+      "fact_count": 12,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-684f55f0fd73e06c81a1",
+      "file": "products/google-684f55f0fd73e06c81a1.json",
+      "status": "matched_listing",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-8d065cc2193132e586a6",
+      "file": "products/google-8d065cc2193132e586a6.json",
+      "status": "matched_listing",
+      "fact_count": 12,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-83a39eb25e3b9596486c",
+      "file": "products/google-83a39eb25e3b9596486c.json",
+      "status": "ambiguous",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-3210de58f63aae1163cd",
+      "file": "products/google-3210de58f63aae1163cd.json",
+      "status": "matched_listing",
+      "fact_count": 2,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-13e3688e0b4cbee612d7",
+      "file": "products/google-13e3688e0b4cbee612d7.json",
+      "status": "matched_listing",
+      "fact_count": 5,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-516dc55f9a15f525e090",
+      "file": "products/google-516dc55f9a15f525e090.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-efeeee84cfdd60bb3f9e",
+      "file": "products/google-efeeee84cfdd60bb3f9e.json",
+      "status": "ambiguous",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-d018a57ee7ca110bb2df",
+      "file": "products/google-d018a57ee7ca110bb2df.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-675a9624b9e8b8f29da2",
+      "file": "products/google-675a9624b9e8b8f29da2.json",
+      "status": "matched_listing",
+      "fact_count": 10,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-586496d12e24aac97026",
+      "file": "products/google-586496d12e24aac97026.json",
+      "status": "matched_listing",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-758185a42db7f3ef3335",
+      "file": "products/google-758185a42db7f3ef3335.json",
+      "status": "matched_listing",
+      "fact_count": 7,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-13191f97f3925dc64a75",
+      "file": "products/google-13191f97f3925dc64a75.json",
+      "status": "unresolved",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-c624a8181e4b62588e55",
+      "file": "products/google-c624a8181e4b62588e55.json",
+      "status": "matched_listing",
+      "fact_count": 7,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-a342fef85d2a9edcf811",
+      "file": "products/google-a342fef85d2a9edcf811.json",
+      "status": "matched_listing",
+      "fact_count": 5,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-b281aff655c4587b1b31",
+      "file": "products/google-b281aff655c4587b1b31.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-c167547e5bf7ad542933",
+      "file": "products/google-c167547e5bf7ad542933.json",
+      "status": "matched_listing",
+      "fact_count": 12,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-d7f1bf907439cbc01ccb",
+      "file": "products/google-d7f1bf907439cbc01ccb.json",
+      "status": "ambiguous",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-2e4cfb87414d94720a62",
+      "file": "products/google-2e4cfb87414d94720a62.json",
+      "status": "unresolved",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-ce916892b069dd413070",
+      "file": "products/google-ce916892b069dd413070.json",
+      "status": "matched_listing",
+      "fact_count": 13,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-67d5a96ce48ce2def910",
+      "file": "products/google-67d5a96ce48ce2def910.json",
+      "status": "matched_listing",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-4900e7d2e07f01a8847e",
+      "file": "products/google-4900e7d2e07f01a8847e.json",
+      "status": "matched_listing",
+      "fact_count": 5,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-7350f2c0ce2972fc0201",
+      "file": "products/google-7350f2c0ce2972fc0201.json",
+      "status": "unresolved",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-f272439695d3d03d1fba",
+      "file": "products/google-f272439695d3d03d1fba.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-b617b7c5efb50c1dacfb",
+      "file": "products/google-b617b7c5efb50c1dacfb.json",
+      "status": "matched_listing",
+      "fact_count": 11,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-c2b477d15eab359948b3",
+      "file": "products/google-c2b477d15eab359948b3.json",
+      "status": "matched_listing",
+      "fact_count": 1,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-8538d051a8cf1187bb25",
+      "file": "products/google-8538d051a8cf1187bb25.json",
+      "status": "matched_listing",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-53de4cc1e21d2d3ada90",
+      "file": "products/google-53de4cc1e21d2d3ada90.json",
+      "status": "matched_listing",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-305127c8948e5c076f69",
+      "file": "products/google-305127c8948e5c076f69.json",
+      "status": "matched_listing",
+      "fact_count": 9,
+      "conflict_count": 1
+    },
+    {
+      "record_id": "google-9441eed81c779f9e1a1b",
+      "file": "products/google-9441eed81c779f9e1a1b.json",
+      "status": "matched_listing",
+      "fact_count": 9,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-932d74d84c2773131aca",
+      "file": "products/google-932d74d84c2773131aca.json",
+      "status": "matched_listing",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-09492f4f47529dc6ba33",
+      "file": "products/google-09492f4f47529dc6ba33.json",
+      "status": "ambiguous",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-84e7524f5c3aa8153a3d",
+      "file": "products/google-84e7524f5c3aa8153a3d.json",
+      "status": "matched_listing",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-be983c68fb5880d5406d",
+      "file": "products/google-be983c68fb5880d5406d.json",
+      "status": "matched_listing",
+      "fact_count": 7,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-125fd27d92958fe5d564",
+      "file": "products/google-125fd27d92958fe5d564.json",
+      "status": "unresolved",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-f6b357dd7fd5cc57da54",
+      "file": "products/google-f6b357dd7fd5cc57da54.json",
+      "status": "matched_listing",
+      "fact_count": 11,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-5b5a4baeb5e35f129567",
+      "file": "products/google-5b5a4baeb5e35f129567.json",
+      "status": "matched_listing",
+      "fact_count": 2,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-7bc17db230d1ef21398b",
+      "file": "products/google-7bc17db230d1ef21398b.json",
+      "status": "unresolved",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-b43381b54c6fbf2e4da3",
+      "file": "products/google-b43381b54c6fbf2e4da3.json",
+      "status": "matched_listing",
+      "fact_count": 5,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-e6c2cc116062e346f461",
+      "file": "products/google-e6c2cc116062e346f461.json",
+      "status": "matched_listing",
+      "fact_count": 5,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-01649c5aaee6ce640d89",
+      "file": "products/google-01649c5aaee6ce640d89.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-486eb9e5ef5e00a5796c",
+      "file": "products/google-486eb9e5ef5e00a5796c.json",
+      "status": "matched_listing",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-542b15fda49f4132dba1",
+      "file": "products/google-542b15fda49f4132dba1.json",
+      "status": "matched_listing",
+      "fact_count": 5,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-642b3bf41784b0490975",
+      "file": "products/google-642b3bf41784b0490975.json",
+      "status": "matched_listing",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-58a42e1783bebc9852a2",
+      "file": "products/google-58a42e1783bebc9852a2.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-c686262d94e93b579abf",
+      "file": "products/google-c686262d94e93b579abf.json",
+      "status": "matched_listing",
+      "fact_count": 7,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-ec64fc84795fb1a81c2b",
+      "file": "products/google-ec64fc84795fb1a81c2b.json",
+      "status": "matched_listing",
+      "fact_count": 3,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-f8c8696d4a46067f44bb",
+      "file": "products/google-f8c8696d4a46067f44bb.json",
+      "status": "ambiguous",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-08f258304079d5b45ff2",
+      "file": "products/google-08f258304079d5b45ff2.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-b42ae289c6bdeda83126",
+      "file": "products/google-b42ae289c6bdeda83126.json",
+      "status": "matched_listing",
+      "fact_count": 7,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-e9dba9582661875ea431",
+      "file": "products/google-e9dba9582661875ea431.json",
+      "status": "matched_listing",
+      "fact_count": 4,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-ac7541f48ebbffd59afa",
+      "file": "products/google-ac7541f48ebbffd59afa.json",
+      "status": "matched_listing",
+      "fact_count": 8,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-3b13253bf16a1b85dd55",
+      "file": "products/google-3b13253bf16a1b85dd55.json",
+      "status": "matched_listing",
+      "fact_count": 7,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-e7cacfa60a59a5ab65df",
+      "file": "products/google-e7cacfa60a59a5ab65df.json",
+      "status": "matched_listing",
+      "fact_count": 4,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-bce4606263ab4014e728",
+      "file": "products/google-bce4606263ab4014e728.json",
+      "status": "matched_listing",
+      "fact_count": 10,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-05d3c61841495e6c0a82",
+      "file": "products/google-05d3c61841495e6c0a82.json",
+      "status": "ambiguous",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-90cd25bcc5bf98680b0a",
+      "file": "products/google-90cd25bcc5bf98680b0a.json",
+      "status": "unresolved",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-a3f40ecb011a6c7eace8",
+      "file": "products/google-a3f40ecb011a6c7eace8.json",
+      "status": "matched_listing",
+      "fact_count": 9,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-fc437dae8208bd8953fc",
+      "file": "products/google-fc437dae8208bd8953fc.json",
+      "status": "unavailable",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-0572500f0732845cad88",
+      "file": "products/google-0572500f0732845cad88.json",
+      "status": "matched_listing",
+      "fact_count": 1,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-b20da021a0871fea91fd",
+      "file": "products/google-b20da021a0871fea91fd.json",
+      "status": "ambiguous",
+      "fact_count": 0,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-28d0317f932cec894c4b",
+      "file": "products/google-28d0317f932cec894c4b.json",
+      "status": "matched_listing",
+      "fact_count": 6,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-53fc3afe2050c60f7113",
+      "file": "products/google-53fc3afe2050c60f7113.json",
+      "status": "matched_listing",
+      "fact_count": 7,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-a59639f97302f46c9a8c",
+      "file": "products/google-a59639f97302f46c9a8c.json",
+      "status": "matched_listing",
+      "fact_count": 2,
+      "conflict_count": 0
+    },
+    {
+      "record_id": "google-01869a8682e69e653058",
+      "file": "products/google-01869a8682e69e653058.json",
+      "status": "matched_listing",
+      "fact_count": 17,
+      "conflict_count": 2
+    },
+    {
+      "record_id": "google-55cbde01fc5e866cb737",
+      "file": "products/google-55cbde01fc5e866cb737.json",
+      "status": "unresolved",
+      "fact_count": 0,
+      "conflict_count": 0
+    }
+  ]
+}

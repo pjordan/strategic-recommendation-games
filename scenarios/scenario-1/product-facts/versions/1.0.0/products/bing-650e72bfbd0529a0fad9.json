@@ -1,0 +1,268 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-650e72bfbd0529a0fad9",
+  "provider": "bing",
+  "frozen_record_sha256": "650e72bfbd0529a0fad9d2c7e041e3d11ac374dbd2c9dc55395767f85f106d7a",
+  "frozen_title": "Espresso Machine With Built In Grinder And Milk Frother 20 Bar Coffee Maker For Home Baristas Removable Water Tank Anti Clog Grinding System Latte And",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "Espresso Machine With Built In Grinder And Milk Frother 20 Bar Coffee Maker For Home Baristas Removable Water Tank Anti Clog Grinding System Latte And Cappuccino Maker For Barista Quality Shots",
+    "product_url": "https://vxb.com/products/espresso-machine-with-built-in-grinder-and-milk-fr",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-7007d66f5fc483fba1f6ebee",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        },
+        {
+          "source_id": "src-4f67a676d4ef9b5c66caf94b",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "removable_water_tank",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-7007d66f5fc483fba1f6ebee",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        },
+        {
+          "source_id": "src-4f67a676d4ef9b5c66caf94b",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-7007d66f5fc483fba1f6ebee",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        },
+        {
+          "source_id": "src-4f67a676d4ef9b5c66caf94b",
+          "locator": "page title"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "brewing",
+      "name": "pid_temperature_control",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-7007d66f5fc483fba1f6ebee",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        },
+        {
+          "source_id": "src-4f67a676d4ef9b5c66caf94b",
+          "locator": "web text line 136"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "pump_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-7007d66f5fc483fba1f6ebee",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        },
+        {
+          "source_id": "src-4f67a676d4ef9b5c66caf94b",
+          "locator": "web text line 136"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "brewing",
+      "name": "portafilter_diameter",
+      "value": "58",
+      "evidence": [
+        {
+          "source_id": "src-7007d66f5fc483fba1f6ebee",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        },
+        {
+          "source_id": "src-4f67a676d4ef9b5c66caf94b",
+          "locator": "web text line 136"
+        }
+      ],
+      "unit": "mm"
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-7007d66f5fc483fba1f6ebee",
+          "locator": ".product__description"
+        },
+        {
+          "source_id": "src-4f67a676d4ef9b5c66caf94b",
+          "locator": "web text line 143"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "cold_brew_mode",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-7007d66f5fc483fba1f6ebee",
+          "locator": ".product__description"
+        },
+        {
+          "source_id": "src-4f67a676d4ef9b5c66caf94b",
+          "locator": "web text line 140"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "sku",
+      "value": "VXB0FR4Y4D2H",
+      "evidence": [
+        {
+          "source_id": "src-7007d66f5fc483fba1f6ebee",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.sku"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "mpn",
+      "value": "VXB0FR4Y4D2H",
+      "evidence": [
+        {
+          "source_id": "src-7007d66f5fc483fba1f6ebee",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.mpn"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "weight",
+      "value": "25.0lb",
+      "evidence": [
+        {
+          "source_id": "src-7007d66f5fc483fba1f6ebee",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.weight"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "20 bar",
+      "evidence": [
+        {
+          "source_id": "src-7dc6e0ba98ab6ad0f0fedad6",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Milk Frothing Pitcher",
+      "evidence": [
+        {
+          "source_id": "src-7dc6e0ba98ab6ad0f0fedad6",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Built-in Grinder",
+      "evidence": [
+        {
+          "source_id": "src-7dc6e0ba98ab6ad0f0fedad6",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Title",
+      "value": "Default Title",
+      "evidence": [
+        {
+          "source_id": "src-7dc6e0ba98ab6ad0f0fedad6",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "price": "474.88",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "sku": "VXB0FR4Y4D2H",
+        "seller": "Nationskander VXB.com Bearings"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-7007d66f5fc483fba1f6ebee",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[0]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=429639265065",
+      "retrieved_at": "2026-09-13T10:37:47.165918+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://vxb.com/products/espresso-machine-with-built-in-grinder-and-milk-fr",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:30.301730+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://vxb.com/products/espresso-machine-with-built-in-grinder-and-milk-fr",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:27.752Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

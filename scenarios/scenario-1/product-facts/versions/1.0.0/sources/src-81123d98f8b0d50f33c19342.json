@@ -1,0 +1,11 @@
+{
+  "source_id": "src-81123d98f8b0d50f33c19342",
+  "url": "https://www.bestbuy.com/product/breville-the-barista-express-espresso-machine-with-15-bars-of-pressure-milk-frother-and-integrated-grinder-stainless-steel/J72668V6ZR/sku/6291169",
+  "retrieved_at": "2026-09-13T10:50:53.721Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "46e2cfbb722f03b8e71cff28b27a6f65aa74fedf65ac574b947293a8aab0fe9d",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Breville - the Barista Express Espresso Machine with 15 bars of pressure, Milk Frother and integrated grinder - Stainless Steel"
+}

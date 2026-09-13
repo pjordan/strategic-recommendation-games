@@ -1,0 +1,12 @@
+{
+  "source_id": "src-339dff25792261c5a7051d55",
+  "url": "https://www.walmart.com/ip/20798002903",
+  "retrieved_at": "2026-09-13T11:13:00.495Z",
+  "method": "web.search matched-URL product document",
+  "representation": "indexed_product_document_text",
+  "content_sha256": "b4c6f5572aa44892f3f0fc003a4d27d44deb956dc0aac9114d140c477090ee14",
+  "hash_scope": "UTF-8 numbered primary document representation extracted from a search-tool response",
+  "source_kind": "merchant_product_page",
+  "page_title": "Memoryfield 20 Bar Espresso Machine with Grinder, Milk Frother & LCD Display, Stainless Steel Coffee Maker, Single & Double Shot, Silver",
+  "parent_response_sha256": "305cdf923f854b044e5f5366f6e5ebb2fd01a3e08541802c9a79a01a0209fed1"
+}

@@ -1,0 +1,11 @@
+{
+  "source_id": "src-bf1392f81f9b3feedd415d51",
+  "url": "https://www.bing.com/shop/productdetails?goid=349348526419",
+  "retrieved_at": "2026-09-13T10:37:40.504798+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "44030a775f8ccf8b905cedd28faf4b2bd80ff9acf5cc57d66139b4dda2b130bc",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Stainless Steel Bean-To-Cup Espresso Machine With Silver Plating, Built-In Grinder & Milk Frother Yiimo"
+}

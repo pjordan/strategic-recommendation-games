@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-688de6d8505cd7fa21e6",
+  "provider": "google",
+  "frozen_record_sha256": "688de6d8505cd7fa21e673c5fd242e51f946f1ec1cc1ba9c6f41f27fa2267341",
+  "frozen_title": "Garvee Espresso Machine with Built in Bean Grinder Stainless Steel Automatic Pressure Espresso Maker with Steam Milk Frother Silver",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "Garvee Stainless Steel Espresso Machine with Grinder and 20 Bar Pressure 2.8L Removable Water Tank Milk Frother Steam Wand for Latte/Cappuccino - Adjustable Shot Volume - Silver",
+    "product_url": "https://www.lowes.com/pd/Garvee-Stainless-Steel-Espresso-Machine-with-Grinder-and-20-Bar-Pressure-2-8L-Removable-Water-Tank-Milk-Frother-Steam-Wand-for-Latte-Cappuccino-Adjustable-Shot-Volume-Silver/8985017",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-1ba57d930e402c6bc2f0dfbd",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-1ba57d930e402c6bc2f0dfbd",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "removable_water_tank",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-1ba57d930e402c6bc2f0dfbd",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-1ba57d930e402c6bc2f0dfbd",
+          "locator": "page title"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "physical",
+      "name": "water_tank_capacity",
+      "value": "2.8",
+      "evidence": [
+        {
+          "source_id": "src-1ba57d930e402c6bc2f0dfbd",
+          "locator": "page title"
+        }
+      ],
+      "unit": "L"
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "30",
+      "evidence": [
+        {
+          "source_id": "src-1ba57d930e402c6bc2f0dfbd",
+          "locator": "web text line 90"
+        }
+      ]
+    },
+    {
+      "category": "electrical",
+      "name": "voltage",
+      "value": "120",
+      "evidence": [
+        {
+          "source_id": "src-1ba57d930e402c6bc2f0dfbd",
+          "locator": "web text line 91"
+        }
+      ],
+      "unit": "V"
+    },
+    {
+      "category": "electrical",
+      "name": "power",
+      "value": "1450",
+      "evidence": [
+        {
+          "source_id": "src-1ba57d930e402c6bc2f0dfbd",
+          "locator": "web text line 91"
+        }
+      ],
+      "unit": "W"
+    },
+    {
+      "category": "physical",
+      "name": "depth",
+      "value": "15.67",
+      "evidence": [
+        {
+          "source_id": "src-1ba57d930e402c6bc2f0dfbd",
+          "locator": "web text lines 98-100"
+        }
+      ],
+      "unit": "in"
+    },
+    {
+      "category": "physical",
+      "name": "width",
+      "value": "16.61",
+      "evidence": [
+        {
+          "source_id": "src-1ba57d930e402c6bc2f0dfbd",
+          "locator": "web text lines 102-104"
+        }
+      ],
+      "unit": "in"
+    },
+    {
+      "category": "physical",
+      "name": "height",
+      "value": "18.86",
+      "evidence": [
+        {
+          "source_id": "src-1ba57d930e402c6bc2f0dfbd",
+          "locator": "web text lines 106-108"
+        }
+      ],
+      "unit": "in"
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "included_items",
+    "maintenance"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Garvee Espresso Machine with Built in Bean Grinder Stainless Steel Automatic Pressure Espresso Maker with Steam Milk Frother Silver",
+      "domain_filter": "lowes.com",
+      "retrieved_at": "2026-09-13T10:41:13.682Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.lowes.com/pd/Garvee-Stainless-Steel-Espresso-Machine-with-Grinder-and-20-Bar-Pressure-2-8L-Removable-Water-Tank-Milk-Frother-Steam-Wand-for-Latte-Cappuccino-Adjustable-Shot-Volume-Silver/8985017",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:11.380758+00:00",
+      "status": "unavailable",
+      "error_type": "HTTPError"
+    },
+    {
+      "url": "https://www.lowes.com/pd/Garvee-Stainless-Steel-Espresso-Machine-with-Grinder-and-20-Bar-Pressure-2-8L-Removable-Water-Tank-Milk-Frother-Steam-Wand-for-Latte-Cappuccino-Adjustable-Shot-Volume-Silver/8985017",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:51:18.454Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

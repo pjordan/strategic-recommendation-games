@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-055cbff8c048a4c9d7eb",
+  "provider": "bing",
+  "frozen_record_sha256": "055cbff8c048a4c9d7ebb28d2518235ff55eecbcd37385f37832cd5233f7a4e4",
+  "frozen_title": "Fully Automatic Espresso Machine 20 Bar With Auto Milk Frother & Grinder",
+  "resolution": {
+    "status": "provider_page_only",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://accessoryz.com/products/fully-automatic-espresso-machine-20-bar-with-auto-milk-frother-grinder-5b62ba9648a7c6170ba5f2abc86c1a72803e49e3",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ],
+    "merchant_resolution": {
+      "status": "unavailable",
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "candidate_url": "https://accessoryz.com/products/fully-automatic-espresso-machine-20-bar-with-auto-milk-frother-grinder-5b62ba9648a7c6170ba5f2abc86c1a72803e49e3",
+      "reasons": [
+        "Product page could not be retrieved with usable, scoped product details."
+      ]
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=468923597396",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "20 bar",
+      "evidence": [
+        {
+          "source_id": "src-3b96a8ac08426a6dad4f6294",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Type",
+      "value": "Automatic",
+      "evidence": [
+        {
+          "source_id": "src-3b96a8ac08426a6dad4f6294",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Automatic Frother",
+      "evidence": [
+        {
+          "source_id": "src-3b96a8ac08426a6dad4f6294",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=468923597396",
+      "retrieved_at": "2026-09-13T10:37:48.339466+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://accessoryz.com/products/fully-automatic-espresso-machine-20-bar-with-auto-milk-frother-grinder-5b62ba9648a7c6170ba5f2abc86c1a72803e49e3",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:25.893672+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://accessoryz.com/products/fully-automatic-espresso-machine-20-bar-with-auto-milk-frother-grinder-5b62ba9648a7c6170ba5f2abc86c1a72803e49e3",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:10.960Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

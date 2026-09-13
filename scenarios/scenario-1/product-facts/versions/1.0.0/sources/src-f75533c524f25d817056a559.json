@@ -1,0 +1,11 @@
+{
+  "source_id": "src-f75533c524f25d817056a559",
+  "url": "https://www.bing.com/shop/productdetails?goid=271423391563",
+  "retrieved_at": "2026-09-13T10:37:47.193758+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "c708dd6c164c424fb08f50ec09127cd60a708a0156ca8ca68f63436a4f8edff6",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Espresso Machine With Grinder, Milk Frother Wand, 1450W, 20 Bar Professional Espresso Maker With Barista Kit, 2.8L Water Tank For Cappuccinos Or Macchiatos"
+}

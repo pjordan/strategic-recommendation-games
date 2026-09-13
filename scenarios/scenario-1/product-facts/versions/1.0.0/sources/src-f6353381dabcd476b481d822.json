@@ -1,0 +1,11 @@
+{
+  "source_id": "src-f6353381dabcd476b481d822",
+  "url": "https://www.bing.com/shop/productdetails?goid=429646169552",
+  "retrieved_at": "2026-09-13T10:37:51.060727+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "431ee5f27f2a7f9172f8668fefea6683545b4ce3da4df56da2fbb45c821d41bf",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "All-In-One 58mm Espresso Machine With Built-In Grinder And Milk Steam Wand, 15 Bar, Stainless Steel, Anti-Static Grinder, Barista-Grade Home Cafe Capp"
+}

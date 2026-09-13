@@ -1,0 +1,11 @@
+{
+  "source_id": "src-cf34ba531cfba38c6e49077f",
+  "url": "https://www.bestbuy.com/product/breville-bambino-brushed-stainless-steel/J7266L5P3K",
+  "retrieved_at": "2026-09-13T10:55:29.960Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "ecfa3a870a9320b0dcd2fc70dfac2eec64933a1773b1dd0014c4c93891db3a3a",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Breville - Bambino - Brushed Stainless Steel"
+}

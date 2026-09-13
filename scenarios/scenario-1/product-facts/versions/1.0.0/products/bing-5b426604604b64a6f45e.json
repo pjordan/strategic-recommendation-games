@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-5b426604604b64a6f45e",
+  "provider": "bing",
+  "frozen_record_sha256": "5b426604604b64a6f45e71a13efe70b3f0fafe7e08f390f9b3b3a84f10138816",
+  "frozen_title": "Espresso Machine With Grinder, 15 Bar Semi-Automatic Espresso Coffee Maker With Milk Frother Steam Wand, Removable Water Tank & Pressure Gauge For",
+  "resolution": {
+    "status": "provider_page_only",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://delupe.com/redirect",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ],
+    "merchant_resolution": {
+      "status": "unavailable",
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "candidate_url": "https://delupe.com/redirect",
+      "reasons": [
+        "Product page could not be retrieved with usable, scoped product details."
+      ]
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=435333085204",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "15 bar",
+      "evidence": [
+        {
+          "source_id": "src-19df353446c64179bf1f6a4d",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Type",
+      "value": "Semi-Automatic",
+      "evidence": [
+        {
+          "source_id": "src-19df353446c64179bf1f6a4d",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Steam Wand",
+      "evidence": [
+        {
+          "source_id": "src-19df353446c64179bf1f6a4d",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Color",
+      "value": "Silver",
+      "evidence": [
+        {
+          "source_id": "src-19df353446c64179bf1f6a4d",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=435333085204",
+      "retrieved_at": "2026-09-13T10:37:48.461079+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://delupe.com/redirect",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:27.775392+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://delupe.com/redirect",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:13.790Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

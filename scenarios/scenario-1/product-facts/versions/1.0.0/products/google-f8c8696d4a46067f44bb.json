@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-f8c8696d4a46067f44bb",
+  "provider": "google",
+  "frozen_record_sha256": "f8c8696d4a46067f44bbc97d130b68d14fd257828378296be50b33379abaeadb",
+  "frozen_title": "Justsmart 20 Bar Espresso Machine with Built-in Grinder & Milk Frother Steam Wand, Stainless Steel Coffee Maker for Latte Cappuccino Home Office Use -",
+  "resolution": {
+    "status": "ambiguous",
+    "token_overlap": 0.5,
+    "reasons": [
+      "Frozen brand not established by landing-page title.",
+      "Insufficient title agreement for an exact listing match."
+    ],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "20 Bar Pressure Stainless Steel Espresso Machine with Grinder, Milk Frother Steam Wand for Latte/Cappuccino - Adjustable Shot Volume, Professional Home/Office Use",
+    "candidate_url": "https://www.walmart.com/ip/20085370026"
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Justsmart 20 Bar Espresso Machine with Built-in Grinder & Milk Frother Steam Wand, Stainless Steel Coffee Maker for Latte Cappuccino Home Office Use -",
+      "domain_filter": "walmart.com",
+      "retrieved_at": "2026-09-13T10:42:38.896Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.walmart.com/ip/20085370026",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:17.939272+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.walmart.com/ip/20085370026",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:55:27.482Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

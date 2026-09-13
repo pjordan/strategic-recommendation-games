@@ -1,0 +1,243 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-b8ae01aae604a45b6ba4",
+  "provider": "bing",
+  "frozen_record_sha256": "b8ae01aae604a45b6ba40389abbafaf2b6bc4e022ddb6445450bfe79612ccdc1",
+  "frozen_title": "All-In-One 58mm Espresso Machine With Built-In Grinder And Milk Steam Wand, 15 Bar, Stainless Steel, Anti-Static Grinder, Barista-Grade Home Cafe Capp",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 0.833,
+    "reasons": [],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "All-In-One 58mm Espresso Machine With Built-In Grinder And Milk Steam Wand, 15 Bar, Stainless Steel, Anti-Static Grinder, Barista-Grade Home Cafe Cappuccino And Latte Maker, 2026 Upgraded",
+    "product_url": "https://vxb.com/products/all-in-one-58mm-espresso-machine-with-built-in-gri",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-fcb877b5f9eeb62f639dcbe7",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        },
+        {
+          "source_id": "src-fa52125cb53d2ab4910c182c",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-fcb877b5f9eeb62f639dcbe7",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        },
+        {
+          "source_id": "src-fa52125cb53d2ab4910c182c",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-fcb877b5f9eeb62f639dcbe7",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        },
+        {
+          "source_id": "src-fa52125cb53d2ab4910c182c",
+          "locator": "page title"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "grinding",
+      "name": "burr_type",
+      "value": "conical",
+      "evidence": [
+        {
+          "source_id": "src-fcb877b5f9eeb62f639dcbe7",
+          "locator": ".product__description"
+        },
+        {
+          "source_id": "src-fa52125cb53d2ab4910c182c",
+          "locator": "web text line 139"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "30",
+      "evidence": [
+        {
+          "source_id": "src-fcb877b5f9eeb62f639dcbe7",
+          "locator": ".product__description"
+        },
+        {
+          "source_id": "src-fa52125cb53d2ab4910c182c",
+          "locator": "web text line 139"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "sku",
+      "value": "VXB0D2GZKMGX",
+      "evidence": [
+        {
+          "source_id": "src-fcb877b5f9eeb62f639dcbe7",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.sku"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "mpn",
+      "value": "VXB0D2GZKMGX",
+      "evidence": [
+        {
+          "source_id": "src-fcb877b5f9eeb62f639dcbe7",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.mpn"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "weight",
+      "value": "29.56lb",
+      "evidence": [
+        {
+          "source_id": "src-fcb877b5f9eeb62f639dcbe7",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.weight"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "15 bar",
+      "evidence": [
+        {
+          "source_id": "src-f6353381dabcd476b481d822",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Milk Frothing Pitcher",
+      "evidence": [
+        {
+          "source_id": "src-f6353381dabcd476b481d822",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Material",
+      "value": "Stainless Steel",
+      "evidence": [
+        {
+          "source_id": "src-f6353381dabcd476b481d822",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Built-in Grinder",
+      "evidence": [
+        {
+          "source_id": "src-f6353381dabcd476b481d822",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Color",
+      "value": "Pearl White",
+      "evidence": [
+        {
+          "source_id": "src-f6353381dabcd476b481d822",
+          "locator": "#gpdp-ps li:nth-of-type(5)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Title",
+      "value": "Default Title",
+      "evidence": [
+        {
+          "source_id": "src-f6353381dabcd476b481d822",
+          "locator": "#gpdp-ps li:nth-of-type(6)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "price": "564.88",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "sku": "VXB0D2GZKMGX",
+        "seller": "Nationskander VXB.com Bearings"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-fcb877b5f9eeb62f639dcbe7",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[0]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=429646169552",
+      "retrieved_at": "2026-09-13T10:37:51.060727+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://vxb.com/products/all-in-one-58mm-espresso-machine-with-built-in-gri",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:29.693912+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://vxb.com/products/all-in-one-58mm-espresso-machine-with-built-in-gri",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:24.973Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

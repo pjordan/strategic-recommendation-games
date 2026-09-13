@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-932d74d84c2773131aca",
+  "provider": "google",
+  "frozen_record_sha256": "932d74d84c2773131aca7e650a6dea195bece28be6f487d81200bcfa77d32be1",
+  "frozen_title": "Lifeimpree Espresso Machine with Grinder 20 Bar Coffee Machine for Home with Powerful Milk Frother Steam Wand",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "LifeImpree Espresso Machine with Grinder, 20 Bar Coffee Machine for Home with Powerful Milk Frother Steam Wand, 30 Grind Settings, 1550W Coffee Maker with Portafilter for Capsules",
+    "product_url": "https://www.walmart.com/ip/19904252564",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-c60b264ac008aee5dea9ceb3",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-c60b264ac008aee5dea9ceb3",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "30",
+      "evidence": [
+        {
+          "source_id": "src-c60b264ac008aee5dea9ceb3",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-c60b264ac008aee5dea9ceb3",
+          "locator": "page title"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "electrical",
+      "name": "power",
+      "value": "1550",
+      "evidence": [
+        {
+          "source_id": "src-c60b264ac008aee5dea9ceb3",
+          "locator": "page title"
+        }
+      ],
+      "unit": "W"
+    },
+    {
+      "category": "brewing",
+      "name": "cold_brew_mode",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-c60b264ac008aee5dea9ceb3",
+          "locator": "web text line 304"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "included_items",
+    "maintenance",
+    "physical"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Lifeimpree Espresso Machine with Grinder 20 Bar Coffee Machine for Home with Powerful Milk Frother Steam Wand",
+      "domain_filter": "walmart.com",
+      "retrieved_at": "2026-09-13T10:42:13.715Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.walmart.com/ip/19904252564",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:17.758858+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.walmart.com/ip/19904252564",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:55:30.900Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

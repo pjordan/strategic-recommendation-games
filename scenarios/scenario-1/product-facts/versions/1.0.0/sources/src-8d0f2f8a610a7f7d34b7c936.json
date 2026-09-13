@@ -1,0 +1,11 @@
+{
+  "source_id": "src-8d0f2f8a610a7f7d34b7c936",
+  "url": "https://www.target.com/p/-/A-95054106",
+  "retrieved_at": "2026-09-13T10:55:42.398Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "582f09573ed9690cd01098ae58bae9e29341f6c8adc96ce366517548e522fa4a",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Chefman Crema Supreme Espresso Machine Stainless Steel : Target"
+}

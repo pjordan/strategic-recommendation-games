@@ -1,0 +1,252 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-2c7fd72b67d02a9c40b7",
+  "provider": "bing",
+  "frozen_record_sha256": "2c7fd72b67d02a9c40b7a9fd65b8b8b82688574675d47945fe225ca5ec8c55ca",
+  "frozen_title": "Zulay Kitchen Magia Manual Espresso Machine With Built-In Grinder & Steam Wand - 15 Bar Pressure Espresso Maker, 2L Removable Water Tank, Milk Frother",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "Zulay Kitchen Magia Manual Espresso Machine with Built-In Grinder & Steam Wand - 15 Bar Pressure Espresso Maker, 2L Removable Water Tank, Milk Frother, Complete Home Barista Set, Black & Silver",
+    "product_url": "https://us.findthedeal.org/p/B0BL83DTMT",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-8f92f48fc025103d44c726d3",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.@graph[0].name"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-8f92f48fc025103d44c726d3",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.@graph[0].name"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "removable_water_tank",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-8f92f48fc025103d44c726d3",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.@graph[0].name"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-8f92f48fc025103d44c726d3",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.@graph[0].name"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "physical",
+      "name": "water_tank_capacity",
+      "value": "2",
+      "evidence": [
+        {
+          "source_id": "src-8f92f48fc025103d44c726d3",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.@graph[0].name"
+        }
+      ],
+      "unit": "L"
+    },
+    {
+      "category": "grinding",
+      "name": "burr_type",
+      "value": "conical",
+      "evidence": [
+        {
+          "source_id": "src-8f92f48fc025103d44c726d3",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.@graph[0].description"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "manual_frothing_explicit",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-8f92f48fc025103d44c726d3",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.@graph[0].description"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "sku",
+      "value": "B0BL83DTMT",
+      "evidence": [
+        {
+          "source_id": "src-8f92f48fc025103d44c726d3",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.@graph[0].sku"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "mpn",
+      "value": "Magia SOS100",
+      "evidence": [
+        {
+          "source_id": "src-8f92f48fc025103d44c726d3",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.@graph[0].mpn"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "gtin",
+      "value": "0195702016777",
+      "evidence": [
+        {
+          "source_id": "src-8f92f48fc025103d44c726d3",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.@graph[0].gtin"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "15 bar",
+      "evidence": [
+        {
+          "source_id": "src-6362e90ac75181334f97cba3",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Type",
+      "value": "Manual",
+      "evidence": [
+        {
+          "source_id": "src-6362e90ac75181334f97cba3",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Milk Frothing Pitcher",
+      "evidence": [
+        {
+          "source_id": "src-6362e90ac75181334f97cba3",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Water Tank Capacity",
+      "value": "67.63 fl oz",
+      "evidence": [
+        {
+          "source_id": "src-6362e90ac75181334f97cba3",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Brand",
+      "value": "Zulay",
+      "evidence": [
+        {
+          "source_id": "src-6362e90ac75181334f97cba3",
+          "locator": "#gpdp-ps li:nth-of-type(5)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Built-in Grinder",
+      "evidence": [
+        {
+          "source_id": "src-6362e90ac75181334f97cba3",
+          "locator": "#gpdp-ps li:nth-of-type(6)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Color",
+      "value": "Black Silver",
+      "evidence": [
+        {
+          "source_id": "src-6362e90ac75181334f97cba3",
+          "locator": "#gpdp-ps li:nth-of-type(7)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "priceCurrency": "EUR"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-8f92f48fc025103d44c726d3",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.@graph[0].offers[0]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=422355599121",
+      "retrieved_at": "2026-09-13T10:37:47.775004+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://us.findthedeal.org/p/B0BL83DTMT",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:29.674673+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://us.findthedeal.org/p/B0BL83DTMT",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:24.585Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

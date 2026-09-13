@@ -1,0 +1,11 @@
+{
+  "source_id": "src-6a45837c0de0fd32f0aeb7b6",
+  "url": "https://www.bing.com/shop/productdetails?goid=369726205302",
+  "retrieved_at": "2026-09-13T10:37:44.100075+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "c91041d0e10f288cebec6860be62a1f80263468c9ef279164d1215a0506322a4",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Cozony 15-Bar Semi-Automatic Espresso Machine with Grinder, Dual PID, Milk Frother, Self-Cleaning"
+}

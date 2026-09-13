@@ -1,0 +1,11 @@
+{
+  "source_id": "src-0a56a963e5923bd8292d5179",
+  "url": "https://www.macys.com/shop/product/breville-barista-express-impress-espresso-machine?ID=16532718",
+  "retrieved_at": "2026-09-13T10:55:49.257Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "152a062c4e932a77baa4dfff8013712f2f91256bac9c64316f49f2490e868e28",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": " Barista Express Impress Espresso Machine"
+}

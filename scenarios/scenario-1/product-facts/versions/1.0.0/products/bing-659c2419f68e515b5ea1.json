@@ -1,0 +1,176 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-659c2419f68e515b5ea1",
+  "provider": "bing",
+  "frozen_record_sha256": "659c2419f68e515b5ea1e0ec0ed7dfa6c183b14ea28166e0605ca16af00c31a2",
+  "frozen_title": "Italian Style Espresso Machine With Built In Grinder And Milk Frother, Auto Grind And Brew, 10-Stage Adjustable Grind, Home Use, Smooth Steam Milk Foa",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 0.8,
+    "reasons": [],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "Italian Style Espresso Machine With Built In Grinder And Milk Frother, Auto Grind And Brew, 10-Stage Adjustable Grind, Home Use, Smooth Steam Milk Foam, Quick Push To Grind, Consistent Extraction",
+    "product_url": "https://vxb.com/products/italian-style-espresso-machine-with-built-in-grind",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-12361ea74326df1de70cd1b2",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        },
+        {
+          "source_id": "src-c6e9b9c386a69f2050cb720e",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "10",
+      "evidence": [
+        {
+          "source_id": "src-12361ea74326df1de70cd1b2",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        },
+        {
+          "source_id": "src-c6e9b9c386a69f2050cb720e",
+          "locator": "web text line 128"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "sku",
+      "value": "VXB0F1XC9KQT",
+      "evidence": [
+        {
+          "source_id": "src-12361ea74326df1de70cd1b2",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.sku"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "mpn",
+      "value": "VXB0F1XC9KQT",
+      "evidence": [
+        {
+          "source_id": "src-12361ea74326df1de70cd1b2",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.mpn"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "weight",
+      "value": "11.02lb",
+      "evidence": [
+        {
+          "source_id": "src-12361ea74326df1de70cd1b2",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.weight"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Milk Frothing Pitcher",
+      "evidence": [
+        {
+          "source_id": "src-3de4cd86e6b3f070c7712818",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Material",
+      "value": "Stainless Steel",
+      "evidence": [
+        {
+          "source_id": "src-3de4cd86e6b3f070c7712818",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Built-in Grinder",
+      "evidence": [
+        {
+          "source_id": "src-3de4cd86e6b3f070c7712818",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Title",
+      "value": "Default Title",
+      "evidence": [
+        {
+          "source_id": "src-3de4cd86e6b3f070c7712818",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "price": "14043.40",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "sku": "VXB0F1XC9KQT",
+        "seller": "Nationskander VXB.com Bearings"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-12361ea74326df1de70cd1b2",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[0]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "milk"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=437123596481",
+      "retrieved_at": "2026-09-13T10:37:45.102556+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://vxb.com/products/italian-style-espresso-machine-with-built-in-grind",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:30.835240+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://vxb.com/products/italian-style-espresso-machine-with-built-in-grind",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:29.822Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

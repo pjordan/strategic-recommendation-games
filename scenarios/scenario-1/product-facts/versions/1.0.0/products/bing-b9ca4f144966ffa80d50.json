@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-b9ca4f144966ffa80d50",
+  "provider": "bing",
+  "frozen_record_sha256": "b9ca4f144966ffa80d50464505f87fa08543fa8c20831a1296fd1bc767094989",
+  "frozen_title": "Espresso Machine With Grinder 20 Bar Espresso Machine With Milk Frother Steam W",
+  "resolution": {
+    "status": "unavailable",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://accessoryz.com/products/espresso-machine-with-grinder-20-bar-espresso-machine-with-milk-frother-steam-w-ed82d3bea5485d5164493bda722f731178d5443a",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ]
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=468918270371",
+      "retrieved_at": "2026-09-13T10:37:46.101636+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://accessoryz.com/products/espresso-machine-with-grinder-20-bar-espresso-machine-with-milk-frother-steam-w-ed82d3bea5485d5164493bda722f731178d5443a",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:25.893404+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://accessoryz.com/products/espresso-machine-with-grinder-20-bar-espresso-machine-with-milk-frother-steam-w-ed82d3bea5485d5164493bda722f731178d5443a",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:09.802Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

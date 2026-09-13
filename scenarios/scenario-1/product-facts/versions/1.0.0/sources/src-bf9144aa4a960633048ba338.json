@@ -1,0 +1,11 @@
+{
+  "source_id": "src-bf9144aa4a960633048ba338",
+  "url": "https://www.bing.com/shop/productdetails?goid=465566361557",
+  "retrieved_at": "2026-09-13T10:37:50.923114+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "0e7b1858c51691a0d87d156c31e2ad45bfcd372c55e64538d434100a72ad13b4",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Magia Manual Espresso Machine With Grinder And Milk Frother - Latte Cappuccino Machine By Zulay Kitchen Zulay Kitchen"
+}

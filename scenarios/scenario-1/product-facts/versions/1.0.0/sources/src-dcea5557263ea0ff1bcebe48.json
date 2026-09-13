@@ -1,0 +1,12 @@
+{
+  "source_id": "src-dcea5557263ea0ff1bcebe48",
+  "url": "https://www.walmart.com/ip/19083107028",
+  "retrieved_at": "2026-09-13T11:13:22.224Z",
+  "method": "web.search matched-URL product document",
+  "representation": "indexed_product_document_text",
+  "content_sha256": "59f3bc76da63d81fbf5b5107cb69cd798e336f1514a063b20bcf3b2ef2fa774a",
+  "hash_scope": "UTF-8 numbered primary document representation extracted from a search-tool response",
+  "source_kind": "merchant_product_page",
+  "page_title": "15 Bar Espresso Machine with Built-in Grinder & Milk Frother – PID Temperature Control",
+  "parent_response_sha256": "2f5f6ceed314f6d54eabfbac2162808b172113e47db10992e90c46f1123f0747"
+}

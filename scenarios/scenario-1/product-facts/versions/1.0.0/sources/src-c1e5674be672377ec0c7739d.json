@@ -1,0 +1,11 @@
+{
+  "source_id": "src-c1e5674be672377ec0c7739d",
+  "url": "https://www.walmart.com/ip/18964916609",
+  "retrieved_at": "2026-09-13T10:55:54.356Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "52d50c386a7295e5942e89c1469de70d83b711683cce29e84c9ae06383824617",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Espresso Machines with Burr Grinder, 20 Bar, Milk Frother Steam Wand, Stainless Steel Coffee Maker for Home - Cappuccino Latte & ​​Cold Brew​​ Iced Coffee Maker"
+}

@@ -1,0 +1,11 @@
+{
+  "source_id": "src-891156a67d6791d913627c07",
+  "url": "https://www.bing.com/shop/productdetails?goid=437119170895",
+  "retrieved_at": "2026-09-13T10:37:47.657874+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "64a168208f76098b17e1e4176d35fcc85886f9abcf319443d387adb5067c59ec",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Super Automatic Espresso Machine With Built In Grinder And Milk Frother For Home Use, Create Latte Cappuccino Macchiato, Auto Wake Sleep, Customizable"
+}

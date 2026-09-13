@@ -1,0 +1,11 @@
+{
+  "source_id": "src-d212816475865c84eec92823",
+  "url": "https://www.seattlecoffeegear.com/pages/product-resources/breville-barista-touch-espresso-machines-product-guide",
+  "retrieved_at": "2026-09-13T10:51:20.457Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "4c97ab3033d00fa02ce1ad35fdf44c3f8a29087192d6c5a43e55d17dd7524768",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Breville Barista Touch Espresso Machine"
+}

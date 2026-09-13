@@ -1,0 +1,11 @@
+{
+  "source_id": "src-213234bd1ab3ff116b6a6f46",
+  "url": "https://www.walmart.com/ip/20215570711",
+  "retrieved_at": "2026-09-13T10:55:26.229Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "43e22e8c353cca05fa5874c944ff3cc5e474b7c0351ec66369cb5f2f2f0cb012",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Kicctian Coffee Maker, 20 Bar Espresso Machine with Grinder & Milk Frother, Adjustable Shot Volume, Stainless Steel Coffee Maker for Cappuccino & Latte, Silver Spray Paint"
+}

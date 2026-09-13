@@ -1,0 +1,11 @@
+{
+  "source_id": "src-5730cef489cb45f0ecce78e6",
+  "url": "https://www.bing.com/shop/productdetails?goid=447167031581",
+  "retrieved_at": "2026-09-13T10:37:51.856434+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "737e29ce43f5faab08107abaabeec7ee230176bc53483d31e7d6878c0e7e0664",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "4 Compact Espresso Maker With Grinder & Milk Frother, Stainless Steel Design"
+}

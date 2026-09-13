@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-af3bf359615054d01c62",
+  "provider": "bing",
+  "frozen_record_sha256": "af3bf359615054d01c6214783c6f40887b27896c59b39b02a1c2eead52bddec8",
+  "frozen_title": "Breville - The Barista Touch Espresso Machine With 9 Bars Of Pressure, Milk Frother And Integrated Grinder - Stainless Steel",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "Breville - the Barista Touch Espresso Machine with 9 bars of pressure, Milk Frother and integrated grinder - Stainless Steel",
+    "product_url": "https://www.bestbuy.com/product/breville-the-barista-touch-espresso-machine-with-9-bars-of-pressure-milk-frother-and-integrated-grinder-stainless-steel/J72668FC6X/sku/12833308",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-100553b32651026045ebd53b",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "automatic_frothing_explicit",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-100553b32651026045ebd53b",
+          "locator": "web text line 57"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-100553b32651026045ebd53b",
+          "locator": "web text line 58"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "heat_up_time",
+      "value": "3",
+      "evidence": [
+        {
+          "source_id": "src-100553b32651026045ebd53b",
+          "locator": "web text line 62"
+        }
+      ],
+      "unit": "s"
+    },
+    {
+      "category": "brewing",
+      "name": "pid_temperature_control",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-100553b32651026045ebd53b",
+          "locator": "web text line 65"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "burr_type",
+      "value": "conical",
+      "evidence": [
+        {
+          "source_id": "src-100553b32651026045ebd53b",
+          "locator": "web text line 69"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "30",
+      "evidence": [
+        {
+          "source_id": "src-100553b32651026045ebd53b",
+          "locator": "web text lines 91-93"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "9",
+      "evidence": [
+        {
+          "source_id": "src-100553b32651026045ebd53b",
+          "locator": "web text lines 94-96"
+        }
+      ],
+      "unit": "bar"
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=465275347856",
+      "retrieved_at": "2026-09-13T10:37:33.598673+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.bestbuy.com/product/breville-the-barista-touch-espresso-machine-with-9-bars-of-pressure-milk-frother-and-integrated-grinder-stainless-steel/J72668FC6X/sku/12833308",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:33.311184+00:00",
+      "status": "unavailable",
+      "error_type": "timeout"
+    },
+    {
+      "url": "https://www.bestbuy.com/product/breville-the-barista-touch-espresso-machine-with-9-bars-of-pressure-milk-frother-and-integrated-grinder-stainless-steel/J72668FC6X/sku/12833308",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:54.499Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

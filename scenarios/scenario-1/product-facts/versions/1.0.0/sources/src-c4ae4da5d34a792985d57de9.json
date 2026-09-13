@@ -1,0 +1,11 @@
+{
+  "source_id": "src-c4ae4da5d34a792985d57de9",
+  "url": "https://www.bing.com/shop/productdetails?goid=448711572107",
+  "retrieved_at": "2026-09-13T10:37:42.634790+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "cb0b9b7582763dda31794370b3a3b11c6271f14a80050c569cc9b2548560b435",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "De'longhi Delonghi La Specialista Maestro Espresso Machine With Grinder Auto Manual Milk Frother Beantocup Cold Brew Coffee With Cold Extra"
+}

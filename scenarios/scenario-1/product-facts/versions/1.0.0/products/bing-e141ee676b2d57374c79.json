@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-e141ee676b2d57374c79",
+  "provider": "bing",
+  "frozen_record_sha256": "e141ee676b2d57374c7985374435d56e4e78973942935bd3132c42c4c386622b",
+  "frozen_title": "Kffkff Semi-Automatic Espresso Maker With Grinder, 15 Bar, Includes Milk Frother Steam Wand, Detachable Water Tank & Pressure Gauge, For Cappuccino, L",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 0.8,
+    "reasons": [],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "KFFKFF Semi-Automatic Espresso Maker with Grinder, 15 Bar, Includes Milk Frother Steam Wand, Detachable Water Tank & Pressure Gauge, for Cappuccino, Latte, Machiato, with PID Temperature Control",
+    "product_url": "https://www.walmart.com/ip/SKYSHALO-Semi-Automatic-Espresso-Maker-Grinder-15-Bar-Includes-Milk-Frother-Steam-Wand-Detachable-Water-Tank-Pressure-Gauge-Cappuccino-Latte-Machiato/11012002546",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-a1a16a09f1571ef22ffc424e",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-a1a16a09f1571ef22ffc424e",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "pid_temperature_control",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-a1a16a09f1571ef22ffc424e",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-a1a16a09f1571ef22ffc424e",
+          "locator": "page title"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "30",
+      "evidence": [
+        {
+          "source_id": "src-a1a16a09f1571ef22ffc424e",
+          "locator": "web text line 37"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "extraction_pressure_bar",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-a1a16a09f1571ef22ffc424e",
+          "locator": "web text line 38"
+        }
+      ],
+      "unit": "bar"
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=321673589091",
+      "retrieved_at": "2026-09-13T10:37:36.380477+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.walmart.com/ip/SKYSHALO-Semi-Automatic-Espresso-Maker-Grinder-15-Bar-Includes-Milk-Frother-Steam-Wand-Detachable-Water-Tank-Pressure-Gauge-Cappuccino-Latte-Machiato/11012002546",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:19.260732+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.walmart.com/ip/SKYSHALO-Semi-Automatic-Espresso-Maker-Grinder-15-Bar-Includes-Milk-Frother-Steam-Wand-Detachable-Water-Tank-Pressure-Gauge-Cappuccino-Latte-Machiato/11012002546",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:52:06.803Z",
+      "status": "unavailable"
+    },
+    {
+      "url": "https://www.walmart.com/ip/SKYSHALO-Semi-Automatic-Espresso-Maker-Grinder-15-Bar-Includes-Milk-Frother-Steam-Wand-Detachable-Water-Tank-Pressure-Gauge-Cappuccino-Latte-Machiato/11012002546",
+      "method": "web.search exact-URL product document",
+      "retrieved_at": "2026-09-13T10:59:32.433Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

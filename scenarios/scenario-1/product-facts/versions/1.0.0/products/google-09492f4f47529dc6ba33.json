@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-09492f4f47529dc6ba33",
+  "provider": "google",
+  "frozen_record_sha256": "09492f4f47529dc6ba330ff62284290e4d64b20c380b85e82180ea54ca73ebcf",
+  "frozen_title": "IdealHouse 15 Bar Coffee Maker Machine with Built In Grinder and Milk Frother Stainless Steel Coffee Maker PID Temp Control Italian ULKA Pump",
+  "resolution": {
+    "status": "ambiguous",
+    "token_overlap": 0.667,
+    "reasons": [
+      "Insufficient title agreement for an exact listing match."
+    ],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "IdealHouse All In One Espresso Machine with Milk Frother and Grinder 15 Bar Automatic Coffee Maker with Italian ULKA Pump 2.5L Water Tank Brushed Stainless Steel for Home and Office",
+    "candidate_url": "https://www.lowes.com/pd/Idealhouse-All-In-One-Espresso-Machine-with-Milk-Frother-and-Grinder-15-Bar-Automatic-Coffee-Maker-with-Italian-ULKA-Pump-2-5L-Water-Tank-Brushed-Stainless-Steel-for-Home-and-Office/8710451"
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "IdealHouse 15 Bar Coffee Maker Machine with Built In Grinder and Milk Frother Stainless Steel Coffee Maker PID Temp Control Italian ULKA Pump",
+      "domain_filter": "lowes.com",
+      "retrieved_at": "2026-09-13T10:42:13.585Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.lowes.com/pd/Idealhouse-All-In-One-Espresso-Machine-with-Milk-Frother-and-Grinder-15-Bar-Automatic-Coffee-Maker-with-Italian-ULKA-Pump-2-5L-Water-Tank-Brushed-Stainless-Steel-for-Home-and-Office/8710451",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:11.417831+00:00",
+      "status": "unavailable",
+      "error_type": "HTTPError"
+    },
+    {
+      "url": "https://www.lowes.com/pd/Idealhouse-All-In-One-Espresso-Machine-with-Milk-Frother-and-Grinder-15-Bar-Automatic-Coffee-Maker-with-Italian-ULKA-Pump-2-5L-Water-Tank-Brushed-Stainless-Steel-for-Home-and-Office/8710451",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:51:18.023Z",
+      "status": "unavailable"
+    },
+    {
+      "url": "https://www.lowes.com/pd/Idealhouse-All-In-One-Espresso-Machine-with-Milk-Frother-and-Grinder-15-Bar-Automatic-Coffee-Maker-with-Italian-ULKA-Pump-2-5L-Water-Tank-Brushed-Stainless-Steel-for-Home-and-Office/8710451",
+      "method": "web.search exact-URL product document",
+      "retrieved_at": "2026-09-13T10:59:35.145Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

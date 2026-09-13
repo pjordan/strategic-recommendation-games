@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-950a0876d102784230a9",
+  "provider": "bing",
+  "frozen_record_sha256": "950a0876d102784230a9aefbcd8887b1319bf8bdb9b546b5c25c0f1b3424ebdd",
+  "frozen_title": "Commercial Espresso Coffee Maker With Grinder Automatic Milk Frother For Home Or Office Useespresso Machine Professional",
+  "resolution": {
+    "status": "provider_page_only",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.alibaba.com/pla/Commercial+Espresso+Coffee+Maker+with+Grinder+Automatic+Milk+Frother+for+Home+or+Office+UseEspresso+Machine+Professional_1601289109847.html?product_id=1601289109847",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ],
+    "merchant_resolution": {
+      "status": "unavailable",
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "candidate_url": "https://www.alibaba.com/pla/Commercial+Espresso+Coffee+Maker+with+Grinder+Automatic+Milk+Frother+for+Home+or+Office+UseEspresso+Machine+Professional_1601289109847.html?product_id=1601289109847",
+      "reasons": [
+        "Product page could not be retrieved with usable, scoped product details."
+      ]
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=389754323158",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Type",
+      "value": "Espresso Machine",
+      "evidence": [
+        {
+          "source_id": "src-d8bd199d7f74857e696a7245",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Automatic Frother",
+      "evidence": [
+        {
+          "source_id": "src-d8bd199d7f74857e696a7245",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Milk Frother",
+      "evidence": [
+        {
+          "source_id": "src-d8bd199d7f74857e696a7245",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=389754323158",
+      "retrieved_at": "2026-09-13T10:37:51.393545+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/Commercial+Espresso+Coffee+Maker+with+Grinder+Automatic+Milk+Frother+for+Home+or+Office+UseEspresso+Machine+Professional_1601289109847.html?product_id=1601289109847",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:31.473426+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/Commercial+Espresso+Coffee+Maker+with+Grinder+Automatic+Milk+Frother+for+Home+or+Office+UseEspresso+Machine+Professional_1601289109847.html?product_id=1601289109847",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:38.716Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

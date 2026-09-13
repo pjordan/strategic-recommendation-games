@@ -1,0 +1,11 @@
+{
+  "source_id": "src-91fa9e4598e69cb80754c36a",
+  "url": "https://espresso-works.com/products/7-piece-espresso-machine-set",
+  "retrieved_at": "2026-09-13T10:50:16.858Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "fbdfb607073cbb9871eda62b73bd70a48771f853653949d3b0e3d55ad9a9453b",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "manufacturer_product_page",
+  "page_title": "7-Piece Espresso Machine"
+}

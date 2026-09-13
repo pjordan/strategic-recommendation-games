@@ -1,0 +1,12 @@
+{
+  "source_id": "src-e921352605c150fbca830119",
+  "url": "https://www.walmart.com/ip/VEVOR-Espresso-Machine-Grinder-15-Bar-Semi-Automatic-Coffee-Maker-Milk-Frother-Steam-Wand-Removable-Water-Tank-Pressure-Gauge-Cappuccino-Latte-Machia/17178772987",
+  "retrieved_at": "2026-09-13T10:59:28.568Z",
+  "method": "web.search exact-URL product document",
+  "representation": "indexed_product_document_text",
+  "content_sha256": "f579d4418340838b091194e9201e6496ca52ea5ff90ad3b92e2c74642c8d3a12",
+  "hash_scope": "UTF-8 numbered primary document representation extracted from a search-tool response",
+  "source_kind": "merchant_product_page",
+  "page_title": "VEVOR Espresso Machine with Grinder, 15 Bar Semi-Automatic Espresso Coffee Maker with Milk Frother Steam Wand, Removable Water Tank & Pressure Gauge for Cappuccino,Latte,Machiato,PID Control System",
+  "parent_response_sha256": "12d314c1720dd11069f49e5445178c55f5afa7a158383ba90006b17a5a95b211"
+}

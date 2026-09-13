@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-2e1992678e4b3cc397cf",
+  "provider": "bing",
+  "frozen_record_sha256": "2e1992678e4b3cc397cf47f3a61248e66c24da825f2bffaf5aed850930fc9465",
+  "frozen_title": "15 Bar Espresso Machine With Coffee Grinder Milk Steam Frother Wand For Espresso And Latte",
+  "resolution": {
+    "status": "unavailable",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.alibaba.com/pla/%31%35+bar+Espresso+Machine+with+coffee+grinder+Milk+Steam+Frother+Wand+for+Espresso+and+Latte_1600741707508.html?product_id=1600741707508",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ]
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=287126612532",
+      "retrieved_at": "2026-09-13T10:37:48.785777+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/%31%35+bar+Espresso+Machine+with+coffee+grinder+Milk+Steam+Frother+Wand+for+Espresso+and+Latte_1600741707508.html?product_id=1600741707508",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:30.957105+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/%31%35+bar+Espresso+Machine+with+coffee+grinder+Milk+Steam+Frother+Wand+for+Espresso+and+Latte_1600741707508.html?product_id=1600741707508",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:31.072Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

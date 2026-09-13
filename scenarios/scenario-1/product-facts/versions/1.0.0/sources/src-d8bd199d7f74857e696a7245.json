@@ -1,0 +1,11 @@
+{
+  "source_id": "src-d8bd199d7f74857e696a7245",
+  "url": "https://www.bing.com/shop/productdetails?goid=389754323158",
+  "retrieved_at": "2026-09-13T10:37:51.393545+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "782c360afce61964a78da500adcb24c4364335f3424be26a32a5cb2596100cb4",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Commercial Espresso Coffee Maker With Grinder Automatic Milk Frother For Home Or Office Useespresso Machine Professional"
+}

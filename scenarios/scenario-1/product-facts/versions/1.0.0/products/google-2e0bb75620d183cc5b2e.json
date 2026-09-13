@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-2e0bb75620d183cc5b2e",
+  "provider": "google",
+  "frozen_record_sha256": "2e0bb75620d183cc5b2efbc8c06244d6c7fb69c4432a4cdda8bf5dfff8605944",
+  "frozen_title": "VEVOR 15 Bar Semi-automatic Espresso Machine with Built-in Grinder",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "VEVOR Espresso Machine with Grinder, 15 Bar Semi-Automatic Espresso Coffee Maker with Milk Frother Steam Wand, Removable Water Tank & Pressure Gauge for Cappuccino, Latte, Machiato, PID Control System",
+    "product_url": "https://www.vevor.com/coffee-makers-c_13076/vevor-espresso-machine-with-grinder-15-bar-semi-automatic-espresso-coffee-maker-with-milk-frother-steam-wand-removable-water-tank-pressure-gauge-for-cappuccino-latte-machiato-pid-control-system-p_010450660391",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-e74cff11799c502e16e62144",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-e74cff11799c502e16e62144",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "pid_temperature_control",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-e74cff11799c502e16e62144",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "removable_water_tank",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-e74cff11799c502e16e62144",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-e74cff11799c502e16e62144",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "identity",
+      "name": "sku",
+      "value": "BZDYSKFJYMKAH5JSRV1",
+      "evidence": [
+        {
+          "source_id": "src-e74cff11799c502e16e62144",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.sku"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "mpn",
+      "value": "BZDYSKFJYMKAH5JSRV1",
+      "evidence": [
+        {
+          "source_id": "src-e74cff11799c502e16e62144",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.mpn"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "price": "314.90",
+        "priceCurrency": "USD",
+        "availability": "http://schema.org/InStock",
+        "itemCondition": "http://schema.org/NewCondition",
+        "seller": "Vevor"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-e74cff11799c502e16e62144",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[0]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "VEVOR 15 Bar Semi-automatic Espresso Machine with Built-in Grinder",
+      "domain_filter": "vevor.com",
+      "retrieved_at": "2026-09-13T10:41:05.603Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.vevor.com/coffee-makers-c_13076/vevor-espresso-machine-with-grinder-15-bar-semi-automatic-espresso-coffee-maker-with-milk-frother-steam-wand-removable-water-tank-pressure-gauge-for-cappuccino-latte-machiato-pid-control-system-p_010450660391",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:14.966030+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.vevor.com/coffee-makers-c_13076/vevor-espresso-machine-with-grinder-15-bar-semi-automatic-espresso-coffee-maker-with-milk-frother-steam-wand-removable-water-tank-pressure-gauge-for-cappuccino-latte-machiato-pid-control-system-p_010450660391",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:51:35.761Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

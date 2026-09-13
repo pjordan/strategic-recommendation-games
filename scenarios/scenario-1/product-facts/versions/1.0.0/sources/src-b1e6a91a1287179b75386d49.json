@@ -1,0 +1,11 @@
+{
+  "source_id": "src-b1e6a91a1287179b75386d49",
+  "url": "https://www.walmart.com/ip/19258703085",
+  "retrieved_at": "2026-09-13T10:55:36.440Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "556222d61f8885568ec05f9b1883c62b89744a6252f706e747928ca08c409c14",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Ninja Luxe Café Mini Espresso Machine & Drip Coffee Maker with Built-in Grinder, Precision Scale & Manual Steam Wand for Lattes, Cappuccinos & More, ES301 Black"
+}

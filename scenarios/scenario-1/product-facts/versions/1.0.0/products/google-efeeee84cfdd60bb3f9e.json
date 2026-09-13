@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-efeeee84cfdd60bb3f9e",
+  "provider": "google",
+  "frozen_record_sha256": "efeeee84cfdd60bb3f9e7e7e598f6e975ac60ddf336518c3309d5c391891b9d6",
+  "frozen_title": "DEXSO 20 Bar Semi Auto Coffee Machine Grinder Milk Frother Silver one_size | ENCOREPHOBA8365",
+  "resolution": {
+    "status": "ambiguous",
+    "token_overlap": 0.5,
+    "reasons": [
+      "Insufficient title agreement for an exact listing match."
+    ],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "DEXSO 20 Bar Semi Auto Coffee Machine Grinder Milk Frother",
+    "candidate_url": "https://www.lowes.com/pd/DEXSO-20-Bar-Semi-Auto-Coffee-Machine-Grinder-Milk-Frother/9309310"
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "DEXSO 20 Bar Semi Auto Coffee Machine Grinder Milk Frother Silver one_size | ENCOREPHOBA8365",
+      "domain_filter": "lowes.com",
+      "retrieved_at": "2026-09-13T10:42:00.784Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.lowes.com/pd/DEXSO-20-Bar-Semi-Auto-Coffee-Machine-Grinder-Milk-Frother/9309310",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:11.249736+00:00",
+      "status": "unavailable",
+      "error_type": "HTTPError"
+    },
+    {
+      "url": "https://www.lowes.com/pd/DEXSO-20-Bar-Semi-Auto-Coffee-Machine-Grinder-Milk-Frother/9309310",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:51:16.546Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

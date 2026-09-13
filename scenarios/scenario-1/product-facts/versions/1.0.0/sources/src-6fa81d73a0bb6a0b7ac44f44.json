@@ -1,0 +1,11 @@
+{
+  "source_id": "src-6fa81d73a0bb6a0b7ac44f44",
+  "url": "https://www.bestbuy.com/product/simzlife-20-bar-coffee-espresso-machine-w-milk-frother-fully-automatic-dual-boiler-design-smart-touchscreen-auto-clean-black/J37CY7L7LP",
+  "retrieved_at": "2026-09-13T10:55:34.533Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "3abd1525944d702c85dce3a5d8166ebb84a9c14044a6d748b453949a2d247382",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "SIMZLIFE - 20 Bar Fully Automatic Coffee and Espresso Machine, Milk Frother & Smart Touchscreen, Auto-clean, Dual Boiler Design - Black"
+}

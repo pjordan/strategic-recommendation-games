@@ -4,10 +4,15 @@ Reproducible experiments in strategic interaction between buyer and recommender 
 
 This repository currently contains **Scenario 1: Home espresso equipment**, with two frozen recommendation sets and fixed hidden buyer preferences. The first analysis examines a buyer with oracle access to every frozen recommendation.
 
-| Recommendation set | Collection | Main records | Sponsored records | Total records |
-|---|---|---:|---:|---:|
-| Bing Shopping | Five numbered pages; main positions 1–177 | 177 | 102 | **279** |
-| Google Shopping | Three cumulative batches; 60 → 100 → 140 main cards | 140 | 46 | **186** |
+The current [Scenario 1.3.0](scenarios/scenario-1/versions/1.3.0/README.md) excludes sponsored results and has an opt-in [frozen product-fact release](scenarios/scenario-1/product-facts/README.md).
+
+| Recommendation set | Retained nonsponsored | Removed sponsored | Archived original |
+|---|---:|---:|---:|
+| Bing Shopping | **177** | 102 | 279 |
+| Google Shopping | **140** | 46 | 186 |
+| **Total** | **317** | **148** | **465** |
+
+Every retained record has a product-fact file. There are page-supported facts for 205 records; 112 explicitly record missing usable detail or an unresolved identity/URL. Source provenance distinguishes merchant, manufacturer and affiliate product pages from shopping-provider specifications and indexed page copies.
 
 Counts are distinct normalized **recommendation records**, not necessarily distinct products or merchants. Different offers, variants, prices, truncations or card descriptions remain separate. Page appearances and exact-repeat grouping are documented in the dataset files.
 
@@ -15,12 +20,16 @@ The collection query for both providers was `espresso machine grinder milk froth
 
 ## Current buyer preferences
 
-[Scenario 1 version 1.2.0](scenarios/scenario-1/versions/1.2.0/README.md) maximizes expected purchase satisfaction within the $800 budget, including seller trust and value for money. It inherits all 465 unchanged records and the original public context. The [new private brief](scenarios/scenario-1/versions/1.2.0/private/user_preferences.md) is Markdown. Version 1.1.0 and its cost-first results remain available for comparison; old commands retain their meaning.
+[Scenario 1.3.0](scenarios/scenario-1/versions/1.3.0/README.md) keeps the satisfaction-based Markdown preference brief from version 1.2.0, including the $800 equipment budget, seller trust and value for money. Its surviving cards and public context are unchanged. Versions 1.1.0 and 1.2.0 and all existing analysis traces retain their original 465-card inputs; old commands keep their meaning.
 
 ```bash
-python3 tools/scenario.py validate --version 1.2.0
-python3 tools/scenario.py context --role buyer --version 1.2.0
+python3 tools/scenario_current.py validate
+python3 tools/scenario_current.py context --role buyer
+python3 tools/scenario_current.py records --provider google
+python3 tools/scenario_current.py facts --provider google
 ```
+
+The fact files are optional inputs for new analyses. Adding them does not rerun or retroactively revise any strategic scenario.
 
 ## Comparative report
 
@@ -38,7 +47,7 @@ python3 tools/scenario.py context --role buyer --version 1.2.0
 
 The frozen Scenario 1 manifest remains a data-only snapshot. Analysis conditions and results are versioned separately under `analyses/`.
 
-## Use the fixed data offline
+## Use the archived fixed data offline
 
 Python 3.9+ is sufficient; there are no external dependencies or service calls.
 
@@ -71,4 +80,4 @@ Each recommendation file contains a fixed record catalog, every captured occurre
 
 Use these saved files to repeat work on the same recommendation universe. Repeating the live searches is a **new collection**: results, prices and sponsorship can change. Add any later analysis as a separate artifact referencing the scenario version and checksums; do not alter the frozen data to suit that analysis.
 
-Raw browser dumps, screenshots, account details and tracking links are excluded. The cards are evidence of what the search interfaces displayed at collection time. Product completeness, seller condition, availability, final checkout price and quality have not been adjudicated in this dataset phase.
+Raw browser dumps, screenshots, account details and tracking links are excluded. The cards are evidence of what the search interfaces displayed at collection time. The original cards remain unadjudicated. The separate product-fact release adds source-supported details with explicit limitations; it does not establish final checkout price, seller reliability or independently tested quality.

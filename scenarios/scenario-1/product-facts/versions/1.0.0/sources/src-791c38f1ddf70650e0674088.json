@@ -1,0 +1,12 @@
+{
+  "source_id": "src-791c38f1ddf70650e0674088",
+  "url": "https://www.walmart.com/ip/Espresso-Machine-Integrated-Grinder-Auto-Milk-Frother-20-Bar-Maker-Seconds-Heat-Up-Steam-Wand-Removable-Water-Tank-Home-Cappuccinos-Lattes-Coffee/17305711494",
+  "retrieved_at": "2026-09-13T11:13:51.843Z",
+  "method": "web.search matched-URL product document",
+  "representation": "indexed_product_document_text",
+  "content_sha256": "b2e86215b1328f7793fbed38eb18f43627bbe4ce470de5ee7cfc3dfd603cecb9",
+  "hash_scope": "UTF-8 numbered primary document representation extracted from a search-tool response",
+  "source_kind": "merchant_product_page",
+  "page_title": "Espresso Machine with Integrated Grinder and Auto Milk Frother,20 Bar Espresso Maker with Seconds Heat Up,Steam Wand,Removable Water Tank,Home Cappuccinos and Lattes Coffee Machine",
+  "parent_response_sha256": "c38a49fea55f05bb30e26e4931a0d0cda06f4d363919a9fc87c084ec2047eabe"
+}

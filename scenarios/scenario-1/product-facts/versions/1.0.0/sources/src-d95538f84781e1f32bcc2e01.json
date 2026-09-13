@@ -1,0 +1,11 @@
+{
+  "source_id": "src-d95538f84781e1f32bcc2e01",
+  "url": "https://www.walmart.com/ip/18780713993",
+  "retrieved_at": "2026-09-13T10:55:39.942Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "852d926d6c2e46821076f4ae5d7eb1b4e81f7fa3a0e7e32e9bfe9bc47d8547a9",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "CUSIMAX 20‑Bar Espresso Machine with Built‑in Grinder & Milk Frother — Professional‑Grade Cappuccino & Latte Maker with Large Removable Water Tank for Home Baristas"
+}

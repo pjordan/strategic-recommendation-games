@@ -1,0 +1,183 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Scenario 1 product-fact record",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "facts_version",
+    "scenario_version",
+    "record_id",
+    "provider",
+    "frozen_record_sha256",
+    "frozen_title",
+    "resolution",
+    "facts",
+    "offer_observations",
+    "conflicts",
+    "not_established_categories",
+    "attempts",
+    "limits"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "facts_version": {
+      "const": "1.0.0"
+    },
+    "scenario_version": {
+      "const": "1.3.0"
+    },
+    "record_id": {
+      "type": "string",
+      "pattern": "^(bing|google)-[0-9a-f]{20}$"
+    },
+    "provider": {
+      "enum": [
+        "bing",
+        "google"
+      ]
+    },
+    "frozen_record_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "frozen_title": {
+      "type": "string"
+    },
+    "resolution": {
+      "type": "object",
+      "required": [
+        "status",
+        "method",
+        "reasons"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "matched_listing",
+            "provider_page_only",
+            "unavailable",
+            "unresolved",
+            "ambiguous",
+            "matched_page_without_extracted_specs"
+          ]
+        },
+        "method": {
+          "type": "string"
+        },
+        "reasons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "facts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "category",
+          "name",
+          "value",
+          "evidence"
+        ],
+        "properties": {
+          "category": {
+            "enum": [
+              "identity",
+              "physical",
+              "electrical",
+              "grinding",
+              "milk",
+              "brewing",
+              "maintenance",
+              "included_items",
+              "provider_specification"
+            ]
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "value": {
+            "type": [
+              "string",
+              "number",
+              "boolean"
+            ]
+          },
+          "unit": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "source_id",
+                "locator"
+              ],
+              "properties": {
+                "source_id": {
+                  "type": "string",
+                  "pattern": "^src-[0-9a-f]{24}$"
+                },
+                "locator": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "offer_observations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "observations",
+          "scope",
+          "source_id",
+          "locator"
+        ]
+      }
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "topic",
+          "note"
+        ]
+      }
+    },
+    "not_established_categories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "attempts": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "limits": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

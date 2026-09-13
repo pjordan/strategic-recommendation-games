@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-71336ad308e6154992c2",
+  "provider": "google",
+  "frozen_record_sha256": "71336ad308e6154992c2fd869a2dcf840bdcf0541ba9fb2e6d3d3b4396253ee4",
+  "frozen_title": "De'Longhi Magnifica Evo Next Fully Automatic Espresso Machine",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "DeLonghi Magnifica Evo Next Fully Automatic Espresso Machine",
+    "product_url": "https://www.target.com/p/-/A-94618320",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-b38280c9fe10d848fb831da3",
+          "locator": "web text line 77"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "burr_type",
+      "value": "conical",
+      "evidence": [
+        {
+          "source_id": "src-b38280c9fe10d848fb831da3",
+          "locator": "web text line 77"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "13",
+      "evidence": [
+        {
+          "source_id": "src-b38280c9fe10d848fb831da3",
+          "locator": "web text line 77"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "automatic_frothing_explicit",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-b38280c9fe10d848fb831da3",
+          "locator": "web text line 78"
+        }
+      ]
+    },
+    {
+      "category": "maintenance",
+      "name": "self_cleaning_claim",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-b38280c9fe10d848fb831da3",
+          "locator": "web text line 86"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "dimensions",
+      "value": "14 Inches (H) x 9.5 Inches (W) x 17.5 Inches (D)",
+      "evidence": [
+        {
+          "source_id": "src-b38280c9fe10d848fb831da3",
+          "locator": "web text line 90"
+        }
+      ]
+    },
+    {
+      "category": "electrical",
+      "name": "power",
+      "value": "1250",
+      "evidence": [
+        {
+          "source_id": "src-b38280c9fe10d848fb831da3",
+          "locator": "web text line 118"
+        }
+      ],
+      "unit": "W"
+    },
+    {
+      "category": "brewing",
+      "name": "drip_coffee_mode",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-b38280c9fe10d848fb831da3",
+          "locator": "web text line 892"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "included_items"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "De'Longhi Magnifica Evo Next Fully Automatic Espresso Machine",
+      "domain_filter": "target.com",
+      "retrieved_at": "2026-09-13T10:40:07.426Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.target.com/p/-/A-94618320",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:13.356539+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.target.com/p/-/A-94618320",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:56:08.409Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source_id": "src-dbf6abea761806d54a3e65a6",
+  "url": "https://www.bing.com/shop/productdetails?goid=440104191218",
+  "retrieved_at": "2026-09-13T10:37:48.250034+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "cbf515891c1e0557963b38841db0b09f47e1fe160a5df89cb681123ac0e6a2ae",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Home Espresso Machine With Grinder And Milk Frother 20 Bar Pressure Barista Quality Espresso Coffee Maker With Removable 60 Ounce Water Tank Steam Wan"
+}

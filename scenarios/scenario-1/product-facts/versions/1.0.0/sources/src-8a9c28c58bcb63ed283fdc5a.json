@@ -1,0 +1,11 @@
+{
+  "source_id": "src-8a9c28c58bcb63ed283fdc5a",
+  "url": "https://www.bing.com/shop/productdetails?goid=381549865421",
+  "retrieved_at": "2026-09-13T10:37:39.152739+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "1e338831aed7c84b5dd8ceaac432d7e940aececa5e6767b38eaf6ee623707805",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "20Bar Espresso Coffee Maker With Milk Frother Steam Wand And Built-In Bean Grinder Combo Cappuccino"
+}

@@ -1,0 +1,11 @@
+{
+  "source_id": "src-62407d4f286ca05a6e53533b",
+  "url": "https://www.target.com/p/-/A-1007539049",
+  "retrieved_at": "2026-09-13T10:55:26.503Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "eaad7a99cdef1db0f79c81dbe739fe906784b611e2c2b4cba48ce6fe62f4b402",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "EUHOMY Espresso Machine with Grinder, 15 Bar Coffee Maker with Milk Frother Steamer Wand, Removable Water Tank, Silver : Target"
+}

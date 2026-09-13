@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-1d87ad748e0d8087a595",
+  "provider": "bing",
+  "frozen_record_sha256": "1d87ad748e0d8087a59578bb7ad9f0e932820e3ab1ab74d778db6d7d63385605",
+  "frozen_title": "All In One Espresso Maker & Espresso Machine With Grinder For Home Coffee Maker With Milk Frother Steam Wand",
+  "resolution": {
+    "status": "provider_page_only",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.alibaba.com/pla/All+in+One+Espresso+Maker+%26+Espresso+Machine+with+Grinder+for+Home+Coffee+Maker+With+Milk+Frother+Steam+Wand_1601214331097.html?product_id=1601214331097",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ],
+    "merchant_resolution": {
+      "status": "unavailable",
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "candidate_url": "https://www.alibaba.com/pla/All+in+One+Espresso+Maker+%26+Espresso+Machine+with+Grinder+for+Home+Coffee+Maker+With+Milk+Frother+Steam+Wand_1601214331097.html?product_id=1601214331097",
+      "reasons": [
+        "Product page could not be retrieved with usable, scoped product details."
+      ]
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=277418444367",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Type",
+      "value": "Espresso Machine",
+      "evidence": [
+        {
+          "source_id": "src-ac06a082099470d07048e8de",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Steam Wand",
+      "evidence": [
+        {
+          "source_id": "src-ac06a082099470d07048e8de",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Milk Frother",
+      "evidence": [
+        {
+          "source_id": "src-ac06a082099470d07048e8de",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=277418444367",
+      "retrieved_at": "2026-09-13T10:37:43.465640+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/All+in+One+Espresso+Maker+%26+Espresso+Machine+with+Grinder+for+Home+Coffee+Maker+With+Milk+Frother+Steam+Wand_1601214331097.html?product_id=1601214331097",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:31.351221+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/All+in+One+Espresso+Maker+%26+Espresso+Machine+with+Grinder+for+Home+Coffee+Maker+With+Milk+Frother+Steam+Wand_1601214331097.html?product_id=1601214331097",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:36.780Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

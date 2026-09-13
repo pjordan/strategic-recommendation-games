@@ -1,0 +1,11 @@
+{
+  "source_id": "src-bbeb44f6171ca19e6478e7fe",
+  "url": "https://www.target.com/p/breville-barista-touch-stainless-steel-espresso-maker-bes880bss1bus1/-/A-90673370",
+  "retrieved_at": "2026-09-13T10:56:12.274Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "b581aeccb6bd51d861340ae84cc89ddd80bf28345d1ba122a0099021cf1d9eeb",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Breville Barista Touch Stainless Steel Espresso Maker BES880BSS1BUS1: 15 Bars Pressure, Milk Frother, Grinder, 67oz Capacity : Target"
+}

@@ -1,0 +1,12 @@
+{
+  "source_id": "src-089819132e553974af587ec8",
+  "url": "https://www.walmart.com/ip/Espresso-Machine-Grinder-Milk-Frother-Steam-Wand-20-Bar-Coffee-Maker-95oz-Water-Tank-Professional-3-In-1-Cappuccino-Latte-1450w-Silver2/14240620560",
+  "retrieved_at": "2026-09-13T10:59:35.145Z",
+  "method": "web.search exact-URL product document",
+  "representation": "indexed_product_document_text",
+  "content_sha256": "fe84c0f446c0ba69956dc16e4d6ae8b80bab9acf00e0fbbcd7d32b22df99823c",
+  "hash_scope": "UTF-8 numbered primary document representation extracted from a search-tool response",
+  "source_kind": "merchant_product_page",
+  "page_title": "Espresso Machine with Grinder and Milk Frother Steam Wand, 20 Bar Coffee Maker with 95oz Water Tank, Professional 3 In 1 Espresso Maker for Cappuccino and Latte (1450w) - Silver2",
+  "parent_response_sha256": "4127f172c3863a8b7e32adfbd26ae66e3d876c4ef8d13616f8e54f81f7d36c16"
+}

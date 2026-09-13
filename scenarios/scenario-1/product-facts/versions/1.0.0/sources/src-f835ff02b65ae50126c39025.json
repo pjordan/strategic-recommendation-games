@@ -1,0 +1,11 @@
+{
+  "source_id": "src-f835ff02b65ae50126c39025",
+  "url": "https://www.lowes.com/pd/Garvee-20-Bar-Pressure-Stainless-Steel-Espresso-Machine-with-Grinder-1-5L-Removable-Water-Tank-Milk-Frother-Steam-Wand-Sliver/7891182",
+  "retrieved_at": "2026-09-13T10:51:17.282Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "12d9b74b75e875b1d736ccfd266723cde816dbe7fed713249165e8471151c346",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Garvee 20 Bar Pressure Stainless Steel Espresso Machine with Grinder 1.5L Removable Water Tank Milk Frother Steam Wand Sliver"
+}

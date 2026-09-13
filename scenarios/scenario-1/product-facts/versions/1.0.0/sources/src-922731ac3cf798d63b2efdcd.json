@@ -1,0 +1,11 @@
+{
+  "source_id": "src-922731ac3cf798d63b2efdcd",
+  "url": "https://www.bestbuy.com/product/casabrews-3700-essential-espresso-machine-20-bar-coffee-maker-with-pid-temperature-control-and-pre-infusion-cream/J3R85W3WQ6",
+  "retrieved_at": "2026-09-13T10:56:10.198Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "878a7ff3b6368399e4024861c350ad239ea637960eae488525837e372bd1c86c",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Casabrews - 3700 Essential Espresso Machine, 20 Bar Coffee Maker with PID Temperature Control and Pre-Infusion - Cream"
+}

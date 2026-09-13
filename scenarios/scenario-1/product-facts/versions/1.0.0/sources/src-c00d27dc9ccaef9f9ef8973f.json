@@ -1,0 +1,11 @@
+{
+  "source_id": "src-c00d27dc9ccaef9f9ef8973f",
+  "url": "https://www.bing.com/shop/productdetails?goid=450035167501",
+  "retrieved_at": "2026-09-13T10:37:39.004746+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "d16e781fe604e7814b5df27d8d4f90178a2cd1a6f399256d3edaa154c448da38",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Super Automatic Espresso Maker With Milk Frother & Grinder - 19 Recipes, 7\" Screen, Self-Clean - Silver Garveehome"
+}

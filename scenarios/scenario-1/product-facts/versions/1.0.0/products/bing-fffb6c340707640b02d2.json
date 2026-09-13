@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-fffb6c340707640b02d2",
+  "provider": "bing",
+  "frozen_record_sha256": "fffb6c340707640b02d2e56e93d8268446c37af6d63f2ad04956afa48e79c8b4",
+  "frozen_title": "Luxury Steam Milk Foam Multi Function 3In1 High Pressure 20Bar Italian Cappuccino Espresso Coffee Machine Maker With Grinder",
+  "resolution": {
+    "status": "unavailable",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.alibaba.com/pla/Luxury+Steam+Milk+Foam+Multi+Function+%33in%31+High+Pressure+%32%30bar+Italian+Cappuccino+Espresso+Coffee+Machine+Maker+With+Grinder_1600902037447.html?product_id=1600902037447",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ]
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=319484893642",
+      "retrieved_at": "2026-09-13T10:37:51.667341+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/Luxury+Steam+Milk+Foam+Multi+Function+%33in%31+High+Pressure+%32%30bar+Italian+Cappuccino+Espresso+Coffee+Machine+Maker+With+Grinder_1600902037447.html?product_id=1600902037447",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:31.795230+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/Luxury+Steam+Milk+Foam+Multi+Function+%33in%31+High+Pressure+%32%30bar+Italian+Cappuccino+Espresso+Coffee+Machine+Maker+With+Grinder_1600902037447.html?product_id=1600902037447",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:43.418Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

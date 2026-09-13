@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-9a0106badacf87fa4004",
+  "provider": "google",
+  "frozen_record_sha256": "9a0106badacf87fa400489d5d5600c9a04f18ff268f3ed67608a5d2072b90613",
+  "frozen_title": "Hausmojo Cm1620 Espresso Machine with Grinder and Frother",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "Hausmojo CM1620 Espresso Machine with Grinder and Frother, 20‐Bar Pump, Cold Brew, Latte & Cappuccino, Stainless Steel",
+    "product_url": "https://business.walmart.com/ip/Hausmojo-1620-Semi-Automatic-Espresso-Machine-with-Built-In-Grinder-20-Bar-Pressure-Milk-Frother-Compact-Coffee-Maker-for-Home/19487211896",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-34e51de081f18bba7f746a62",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "cold_brew_mode",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-34e51de081f18bba7f746a62",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "manual_frothing_explicit",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-34e51de081f18bba7f746a62",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "pump_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-34e51de081f18bba7f746a62",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "identity",
+      "name": "model",
+      "value": "1620",
+      "evidence": [
+        {
+          "source_id": "src-34e51de081f18bba7f746a62",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.model"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "sku",
+      "value": "19487211896",
+      "evidence": [
+        {
+          "source_id": "src-34e51de081f18bba7f746a62",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.sku"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "gtin13",
+      "value": "772224848538",
+      "evidence": [
+        {
+          "source_id": "src-34e51de081f18bba7f746a62",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.gtin13"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "price": 155.99,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-34e51de081f18bba7f746a62",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[0]"
+    },
+    {
+      "observations": {
+        "price": 144,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/UsedCondition"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-34e51de081f18bba7f746a62",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[1]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Hausmojo Cm1620 Espresso Machine with Grinder and Frother",
+      "domain_filter": "walmart.com",
+      "retrieved_at": "2026-09-13T10:41:56.835Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://business.walmart.com/ip/Hausmojo-1620-Semi-Automatic-Espresso-Machine-with-Built-In-Grinder-20-Bar-Pressure-Milk-Frother-Compact-Coffee-Maker-for-Home/19487211896",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:27.324046+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://business.walmart.com/ip/Hausmojo-1620-Semi-Automatic-Espresso-Machine-with-Built-In-Grinder-20-Bar-Pressure-Milk-Frother-Compact-Coffee-Maker-for-Home/19487211896",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:56:07.006Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

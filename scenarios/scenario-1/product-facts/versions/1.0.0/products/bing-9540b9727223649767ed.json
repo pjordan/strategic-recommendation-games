@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-9540b9727223649767ed",
+  "provider": "bing",
+  "frozen_record_sha256": "9540b9727223649767edc1e175be5848a6f1c9a6e52d5c630090909008072be7",
+  "frozen_title": "Espresso Machine With Grinder 20 Bar Electric Coffee Maker With Milk Frother Steam Wand For Home",
+  "resolution": {
+    "status": "provider_page_only",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.alibaba.com/pla/Espresso+Machine+With+Grinder+20+Bar+Electric+Coffee+Maker+With+Milk+Frother+Steam+Wand+for+Home_1601401984502.html?product_id=1601401984502",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ],
+    "merchant_resolution": {
+      "status": "unavailable",
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "candidate_url": "https://www.alibaba.com/pla/Espresso+Machine+With+Grinder+20+Bar+Electric+Coffee+Maker+With+Milk+Frother+Steam+Wand+for+Home_1601401984502.html?product_id=1601401984502",
+      "reasons": [
+        "Product page could not be retrieved with usable, scoped product details."
+      ]
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=361354978863",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Type",
+      "value": "Espresso Machine",
+      "evidence": [
+        {
+          "source_id": "src-de535182fae111d014895dec",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Steam Wand",
+      "evidence": [
+        {
+          "source_id": "src-de535182fae111d014895dec",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Milk Frother",
+      "evidence": [
+        {
+          "source_id": "src-de535182fae111d014895dec",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=361354978863",
+      "retrieved_at": "2026-09-13T10:37:51.147732+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/Espresso+Machine+With+Grinder+20+Bar+Electric+Coffee+Maker+With+Milk+Frother+Steam+Wand+for+Home_1601401984502.html?product_id=1601401984502",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:31.548335+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/Espresso+Machine+With+Grinder+20+Bar+Electric+Coffee+Maker+With+Milk+Frother+Steam+Wand+for+Home_1601401984502.html?product_id=1601401984502",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:40.559Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

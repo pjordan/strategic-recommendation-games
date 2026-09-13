@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-858aadeff0460f696c46",
+  "provider": "google",
+  "frozen_record_sha256": "858aadeff0460f696c46fa18992de0adf64b9860d7c5eac73a4ace6eb40fef0e",
+  "frozen_title": "EUHOMY Espresso Machine with Grinder 15 Bar Coffee Maker with Milk Frother Steamer Wand",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "EUHOMY Espresso Machine with Grinder, 15 Bar Coffee Maker with Milk Frother Steamer Wand, Removable Water Tank, Silver : Target",
+    "product_url": "https://www.target.com/p/-/A-1007539049",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-62407d4f286ca05a6e53533b",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-62407d4f286ca05a6e53533b",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "removable_water_tank",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-62407d4f286ca05a6e53533b",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-62407d4f286ca05a6e53533b",
+          "locator": "page title"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "30",
+      "evidence": [
+        {
+          "source_id": "src-62407d4f286ca05a6e53533b",
+          "locator": "web text line 107"
+        }
+      ]
+    },
+    {
+      "category": "electrical",
+      "name": "power",
+      "value": "1500",
+      "evidence": [
+        {
+          "source_id": "src-62407d4f286ca05a6e53533b",
+          "locator": "web text line 109"
+        }
+      ],
+      "unit": "W"
+    },
+    {
+      "category": "brewing",
+      "name": "pid_temperature_control",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-62407d4f286ca05a6e53533b",
+          "locator": "web text line 111"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "portafilter_diameter",
+      "value": "58",
+      "evidence": [
+        {
+          "source_id": "src-62407d4f286ca05a6e53533b",
+          "locator": "web text line 126"
+        }
+      ],
+      "unit": "mm"
+    },
+    {
+      "category": "physical",
+      "name": "dimensions",
+      "value": "16.14 inches (H) x 12.8 inches (W) x 12.8 inches (D)",
+      "evidence": [
+        {
+          "source_id": "src-62407d4f286ca05a6e53533b",
+          "locator": "web text line 130"
+        }
+      ]
+    },
+    {
+      "category": "electrical",
+      "name": "power",
+      "value": "1450",
+      "evidence": [
+        {
+          "source_id": "src-62407d4f286ca05a6e53533b",
+          "locator": "web text line 165"
+        }
+      ],
+      "unit": "W"
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [
+    {
+      "topic": "electrical.power",
+      "note": "Multiple values appear in the scoped evidence; they may describe different operating settings, variants, or inconsistent copy.",
+      "values": [
+        "1450",
+        "1500"
+      ],
+      "unit": "W"
+    }
+  ],
+  "not_established_categories": [
+    "included_items",
+    "maintenance"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "EUHOMY Espresso Machine with Grinder 15 Bar Coffee Maker with Milk Frother Steamer Wand",
+      "domain_filter": "target.com",
+      "retrieved_at": "2026-09-13T10:40:20.979Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.target.com/p/-/A-1007539049",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:13.217228+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.target.com/p/-/A-1007539049",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:55:26.503Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

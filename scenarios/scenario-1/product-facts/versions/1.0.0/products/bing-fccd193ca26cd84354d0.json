@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-fccd193ca26cd84354d0",
+  "provider": "bing",
+  "frozen_record_sha256": "fccd193ca26cd84354d09288351d0ee10c455bd212ef51c4e859dcea905a815f",
+  "frozen_title": "Electactic Espresso Machine With Grinder, 20 Bar Expresso Coffee Machines With Milk Frother Steam Wand, Professional Espresso Maker With Removable Water Tank, Cappuccino & Latte Machine For Home ELECTACTIC",
+  "resolution": {
+    "status": "provider_page_only",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.wayfair.com/ELECTACTIC--Electactic-Espresso-Machine-With-Grinder-20-Bar-Expresso-Coffee-Machines-With-Milk-Frother-Steam-Wand-Professional-Espresso-Maker-With-Removable-Water-Tank-Cappuccino-and-Latte-Machine-For-Home-WFBLLCM8031BLACK-L896-K~EECP1077.html",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ],
+    "merchant_resolution": {
+      "status": "unavailable",
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "candidate_url": "https://www.wayfair.com/ELECTACTIC--Electactic-Espresso-Machine-With-Grinder-20-Bar-Expresso-Coffee-Machines-With-Milk-Frother-Steam-Wand-Professional-Espresso-Maker-With-Removable-Water-Tank-Cappuccino-and-Latte-Machine-For-Home-WFBLLCM8031BLACK-L896-K~EECP1077.html",
+      "reasons": [
+        "Product page could not be retrieved with usable, scoped product details."
+      ]
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=341873049393",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "20 bar",
+      "evidence": [
+        {
+          "source_id": "src-b8a038caf7ae3e0e59a2b25b",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Steam Wand",
+      "evidence": [
+        {
+          "source_id": "src-b8a038caf7ae3e0e59a2b25b",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Grinder",
+      "value": "Conical Burr Grinder",
+      "evidence": [
+        {
+          "source_id": "src-b8a038caf7ae3e0e59a2b25b",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Water Tank Capacity",
+      "value": "94.68 fl oz",
+      "evidence": [
+        {
+          "source_id": "src-b8a038caf7ae3e0e59a2b25b",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Power",
+      "value": "1500 watts",
+      "evidence": [
+        {
+          "source_id": "src-b8a038caf7ae3e0e59a2b25b",
+          "locator": "#gpdp-ps li:nth-of-type(5)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Brand",
+      "value": "Electactic",
+      "evidence": [
+        {
+          "source_id": "src-b8a038caf7ae3e0e59a2b25b",
+          "locator": "#gpdp-ps li:nth-of-type(6)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Material",
+      "value": "Stainless Steel",
+      "evidence": [
+        {
+          "source_id": "src-b8a038caf7ae3e0e59a2b25b",
+          "locator": "#gpdp-ps li:nth-of-type(7)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=341873049393",
+      "retrieved_at": "2026-09-13T10:37:39.950608+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.wayfair.com/ELECTACTIC--Electactic-Espresso-Machine-With-Grinder-20-Bar-Expresso-Coffee-Machines-With-Milk-Frother-Steam-Wand-Professional-Espresso-Maker-With-Removable-Water-Tank-Cappuccino-and-Latte-Machine-For-Home-WFBLLCM8031BLACK-L896-K~EECP1077.html",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:19.754141+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.wayfair.com/ELECTACTIC--Electactic-Espresso-Machine-With-Grinder-20-Bar-Expresso-Coffee-Machines-With-Milk-Frother-Steam-Wand-Professional-Espresso-Maker-With-Removable-Water-Tank-Cappuccino-and-Latte-Machine-For-Home-WFBLLCM8031BLACK-L896-K~EECP1077.html",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:52:09.424Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

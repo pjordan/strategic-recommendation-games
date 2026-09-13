@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-53de4cc1e21d2d3ada90",
+  "provider": "google",
+  "frozen_record_sha256": "53de4cc1e21d2d3ada904fa6c2188fa792841b8c20adcea981369ae6dc95bbdf",
+  "frozen_title": "Espresso Machine with Grinder and Milk Frother Steam Wand 20 Bar Coffee Maker with 95oz Water Tank",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "Espresso Machine with Grinder and Milk Frother Steam Wand, 20 Bar Coffee Maker with 95oz Water Tank, Professional 3 In 1 Espresso Maker for Cappuccino and Latte (1450w) - Silver2",
+    "product_url": "https://www.walmart.com/ip/14240620560",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-da7810a09d30fa0d11ef8f8f",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-da7810a09d30fa0d11ef8f8f",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-da7810a09d30fa0d11ef8f8f",
+          "locator": "page title"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "electrical",
+      "name": "power",
+      "value": "1450",
+      "evidence": [
+        {
+          "source_id": "src-da7810a09d30fa0d11ef8f8f",
+          "locator": "page title"
+        }
+      ],
+      "unit": "W"
+    },
+    {
+      "category": "physical",
+      "name": "water_tank_capacity",
+      "value": "95",
+      "evidence": [
+        {
+          "source_id": "src-da7810a09d30fa0d11ef8f8f",
+          "locator": "page title"
+        }
+      ],
+      "unit": "fl oz"
+    },
+    {
+      "category": "brewing",
+      "name": "pid_temperature_control",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-da7810a09d30fa0d11ef8f8f",
+          "locator": "web text line 327"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "included_items",
+    "maintenance"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Espresso Machine with Grinder and Milk Frother Steam Wand 20 Bar Coffee Maker with 95oz Water Tank",
+      "domain_filter": "walmart.com",
+      "retrieved_at": "2026-09-13T10:42:10.391Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.walmart.com/ip/14240620560",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:15.414145+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.walmart.com/ip/14240620560",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:55:51.096Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

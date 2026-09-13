@@ -1,0 +1,12 @@
+{
+  "source_id": "src-c5419fc4264d59cebdfa0ceb",
+  "url": "https://business.walmart.com/ip/Thyme-Table-BaristaThyme-Espresso-Machine-Sand/13606101065",
+  "retrieved_at": "2026-09-13T10:59:36.438Z",
+  "method": "web.search exact-URL product document",
+  "representation": "indexed_product_document_text",
+  "content_sha256": "796bb70eb047e14e0172a7a2c1f998a91e0825f1a3288a50f07b64f30e54a724",
+  "hash_scope": "UTF-8 numbered primary document representation extracted from a search-tool response",
+  "source_kind": "merchant_product_page",
+  "page_title": "Thyme & Table Barista Grade 15-Bar Espresso Machine with Conical Burr Grinder",
+  "parent_response_sha256": "032294a5a98f454c263af53a1566ef12102611924c523bd3dfa1a905a7e77fc5"
+}

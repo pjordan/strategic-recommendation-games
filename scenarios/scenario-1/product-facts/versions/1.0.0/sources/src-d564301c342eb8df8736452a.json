@@ -1,0 +1,11 @@
+{
+  "source_id": "src-d564301c342eb8df8736452a",
+  "url": "https://www.bing.com/shop/productdetails?goid=377301976225",
+  "retrieved_at": "2026-09-13T10:37:57.134693+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "c0fede2e4dc4ac13d4b0bd6ee49ebec573e4d33c3b710d61123dead8c1fddc76",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Semi Automatic Espresso Machine With Grinder And Milk Frother 20 Bar Professional Pressure Large 95Oz Removable Water Tank"
+}

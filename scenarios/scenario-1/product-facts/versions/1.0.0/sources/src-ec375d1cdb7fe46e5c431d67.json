@@ -1,0 +1,11 @@
+{
+  "source_id": "src-ec375d1cdb7fe46e5c431d67",
+  "url": "https://www.vevor.com/coffee-makers-c_13271/fully-automatic-espresso-machine-20-bar-with-auto-milk-frother-grinder-p_010564171263",
+  "retrieved_at": "2026-09-13T10:51:34.699Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "6b2f669cdece4bb37e63c143efe40f68eece766d36796aba247caacc3d557c5e",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "manufacturer_product_page",
+  "page_title": "VEVOR Fully Automatic Espresso Machine - with Automatic Milk Frother, 20 Bar Super-Automatic Cappuccino Latte Machine with TFT Touch Screen, Grinder, 15 Grinding Levels, and Removable Milk Reservoir"
+}

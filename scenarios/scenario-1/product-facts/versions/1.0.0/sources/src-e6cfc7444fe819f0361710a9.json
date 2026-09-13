@@ -1,0 +1,11 @@
+{
+  "source_id": "src-e6cfc7444fe819f0361710a9",
+  "url": "https://www.bing.com/shop/productdetails?goid=437123138188",
+  "retrieved_at": "2026-09-13T10:37:47.210739+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "0b852fb21305a61f3f079c613d5ae78cacf1ea343d28f8b8a0457462b63c44db",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Espresso Machine With Grinder And Milk Frother For Home Use 20 Bar Pressure Vintage Cream Finishing Built In Grinder For Fresh Espresso Barista Qualit"
+}

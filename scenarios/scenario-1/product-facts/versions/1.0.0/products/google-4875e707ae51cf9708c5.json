@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-4875e707ae51cf9708c5",
+  "provider": "google",
+  "frozen_record_sha256": "4875e707ae51cf9708c5fb720726ef03794936d874afe50776586b55560448ba",
+  "frozen_title": "COWSAR 20 Bar Espresso Machine with Grinder Professional Espresso Maker",
+  "resolution": {
+    "status": "unresolved",
+    "method": "title_and_merchant_search",
+    "reasons": [
+      "Candidate results do not establish the frozen COWSAR brand and model."
+    ]
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "COWSAR 20 Bar Espresso Machine with Grinder Professional Espresso Maker",
+      "domain_filter": "target.com",
+      "retrieved_at": "2026-09-13T10:41:07.389Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

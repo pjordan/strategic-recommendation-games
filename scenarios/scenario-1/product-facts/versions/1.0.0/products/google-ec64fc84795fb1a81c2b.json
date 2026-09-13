@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-ec64fc84795fb1a81c2b",
+  "provider": "google",
+  "frozen_record_sha256": "ec64fc84795fb1a81c2b93f6a0e02da48c44dd9fb7a2a8e0ee8535b9d4a74e24",
+  "frozen_title": "20 Bar Espresso Machine with Milk Frother, Steam Wand & Pressure Gauge, Amumu Compact Stainless Steel Coffee Maker for Cappuccino & Latte, Silver",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "20 Bar Espresso Machine with Milk Frother, Steam Wand & Pressure Gauge, Amumu Compact Stainless Steel Coffee Maker for Cappuccino & Latte, Silver",
+    "product_url": "https://www.walmart.com/ip/20225859037",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-eb6cd11b2893b7ee64eb32b9",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "extraction_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-eb6cd11b2893b7ee64eb32b9",
+          "locator": "page title"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-eb6cd11b2893b7ee64eb32b9",
+          "locator": "web text line 302"
+        }
+      ],
+      "unit": "bar"
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "20 Bar Espresso Machine with Milk Frother, Steam Wand & Pressure Gauge, Amumu Compact Stainless Steel Coffee Maker for Cappuccino & Latte, Silver",
+      "domain_filter": "walmart.com",
+      "retrieved_at": "2026-09-13T10:42:38.786Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.walmart.com/ip/20225859037",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:18.210397+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.walmart.com/ip/20225859037",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:55:43.811Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

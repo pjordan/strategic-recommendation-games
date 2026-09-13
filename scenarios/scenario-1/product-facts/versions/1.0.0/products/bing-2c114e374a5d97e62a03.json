@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-2c114e374a5d97e62a03",
+  "provider": "bing",
+  "frozen_record_sha256": "2c114e374a5d97e62a03faf8419fa36a8a32c745063090d8c67f641f04bee673",
+  "frozen_title": "Spresso Machine With Grinder And Milk Frother Espiron Optimum",
+  "resolution": {
+    "status": "unavailable",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.wayfair.com/Espiron-Optimum--Spresso-Machine-With-Grinder-And-Milk-Frother-PST_02TZN2NUESQDD-L896-K~EGIR1279.html",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ]
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=287479024824",
+      "retrieved_at": "2026-09-13T10:37:50.971047+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.wayfair.com/Espiron-Optimum--Spresso-Machine-With-Grinder-And-Milk-Frother-PST_02TZN2NUESQDD-L896-K~EGIR1279.html",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:19.804529+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.wayfair.com/Espiron-Optimum--Spresso-Machine-With-Grinder-And-Milk-Frother-PST_02TZN2NUESQDD-L896-K~EGIR1279.html",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:52:10.922Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

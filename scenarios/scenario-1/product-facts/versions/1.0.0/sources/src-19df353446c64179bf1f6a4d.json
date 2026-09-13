@@ -1,0 +1,11 @@
+{
+  "source_id": "src-19df353446c64179bf1f6a4d",
+  "url": "https://www.bing.com/shop/productdetails?goid=435333085204",
+  "retrieved_at": "2026-09-13T10:37:48.461079+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "456b333cad40a84d46ae5153b1c84fb4ebfc1378bc2034dc2083b3d4545c1599",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Espresso Machine With Grinder, 15 Bar Semi-Automatic Espresso Coffee Maker With Milk Frother Steam Wand, Removable Water Tank & Pressure Gauge For"
+}

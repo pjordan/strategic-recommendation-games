@@ -1,0 +1,11 @@
+{
+  "source_id": "src-ad3574e60aa38b90bb4f55c1",
+  "url": "https://www.target.com/p/-/A-1007358218",
+  "retrieved_at": "2026-09-13T10:51:22.977Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "0b98fec088edbe5824d58307c3aee32c05646ced85287804e15cd68290ff0620",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "ZAFRO 20 Bar Espresso Machine with Grinder, Automatic Espresso Maker with PID Control & Milk Frother Steam Wand, Removable Water Tank : Target"
+}

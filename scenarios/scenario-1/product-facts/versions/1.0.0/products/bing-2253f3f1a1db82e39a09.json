@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-2253f3f1a1db82e39a09",
+  "provider": "bing",
+  "frozen_record_sha256": "2253f3f1a1db82e39a09925d1b19af64d0dab51bf2e0892c9197ebd46cb50f2c",
+  "frozen_title": "Stainless Steel Espresso Machine With Grinder & 20 Bar Pressure, 2.8L Removable Water Tank, Milk Frother Steam Wand For Latte/Cappuccino - Adjustable Shot Volume, Professional Home/Office Use Garveehome Color/Finish: Black",
+  "resolution": {
+    "status": "provider_page_only",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.wayfair.com/GarveeHome--Stainless-Steel-Machine-with-Grinder-and-20-Bar-Pressure-2.8L-Removable-Water-Tank-Milk-Frother-Steam-Wand-for-LatteCappuccino-Adjustable-Shot-Volume-Professional-HomeOffice-Use-PHO_34YP_35571_GXR-L896-K~GGVE5281.html",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ],
+    "merchant_resolution": {
+      "status": "unavailable",
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "candidate_url": "https://www.wayfair.com/GarveeHome--Stainless-Steel-Machine-with-Grinder-and-20-Bar-Pressure-2.8L-Removable-Water-Tank-Milk-Frother-Steam-Wand-for-LatteCappuccino-Adjustable-Shot-Volume-Professional-HomeOffice-Use-PHO_34YP_35571_GXR-L896-K~GGVE5281.html",
+      "reasons": [
+        "Product page could not be retrieved with usable, scoped product details."
+      ]
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=384768611866",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "20 bar",
+      "evidence": [
+        {
+          "source_id": "src-dc701049b98c709421cd4b60",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Steam Wand",
+      "evidence": [
+        {
+          "source_id": "src-dc701049b98c709421cd4b60",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Water Tank Capacity",
+      "value": "94.68 fl oz",
+      "evidence": [
+        {
+          "source_id": "src-dc701049b98c709421cd4b60",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Power",
+      "value": "1450 W",
+      "evidence": [
+        {
+          "source_id": "src-dc701049b98c709421cd4b60",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Material",
+      "value": "Stainless Steel",
+      "evidence": [
+        {
+          "source_id": "src-dc701049b98c709421cd4b60",
+          "locator": "#gpdp-ps li:nth-of-type(5)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Built-in Grinder",
+      "evidence": [
+        {
+          "source_id": "src-dc701049b98c709421cd4b60",
+          "locator": "#gpdp-ps li:nth-of-type(6)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Color",
+      "value": "Black",
+      "evidence": [
+        {
+          "source_id": "src-dc701049b98c709421cd4b60",
+          "locator": "#gpdp-ps li:nth-of-type(7)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Brand",
+      "value": "Garvee",
+      "evidence": [
+        {
+          "source_id": "src-dc701049b98c709421cd4b60",
+          "locator": "#gpdp-ps li:nth-of-type(8)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=384768611866",
+      "retrieved_at": "2026-09-13T10:37:41.186289+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.wayfair.com/GarveeHome--Stainless-Steel-Machine-with-Grinder-and-20-Bar-Pressure-2.8L-Removable-Water-Tank-Milk-Frother-Steam-Wand-for-LatteCappuccino-Adjustable-Shot-Volume-Professional-HomeOffice-Use-PHO_34YP_35571_GXR-L896-K~GGVE5281.html",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:20.565873+00:00",
+      "status": "unavailable",
+      "error_type": "HTTPError"
+    },
+    {
+      "url": "https://www.wayfair.com/GarveeHome--Stainless-Steel-Machine-with-Grinder-and-20-Bar-Pressure-2.8L-Removable-Water-Tank-Milk-Frother-Steam-Wand-for-LatteCappuccino-Adjustable-Shot-Volume-Professional-HomeOffice-Use-PHO_34YP_35571_GXR-L896-K~GGVE5281.html",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:52:11.101Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

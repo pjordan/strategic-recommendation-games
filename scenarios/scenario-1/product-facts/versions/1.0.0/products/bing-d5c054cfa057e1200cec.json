@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-d5c054cfa057e1200cec",
+  "provider": "bing",
+  "frozen_record_sha256": "d5c054cfa057e1200cec70e9f477730718ee5b685a58c893644a3149867f30db",
+  "frozen_title": "Super Automatic Espresso Machine With Built In Grinder And Milk Frother For Home Use, Create Latte Cappuccino Macchiato, Auto Wake Sleep, Customizable",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "Super Automatic Espresso Machine With Built In Grinder And Milk Frother For Home Use, Create Latte Cappuccino Macchiato, Auto Wake Sleep, Customizable Drinks, Barista Level Quality, Works With Plant Based Milks",
+    "product_url": "https://vxb.com/products/super-automatic-espresso-machine-with-built-in-gri",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-1e2b65ad3d40af7d0b39831a",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.name"
+        },
+        {
+          "source_id": "src-e8b3165ba4c0715ee9c030f2",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "maintenance",
+      "name": "self_cleaning_claim",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-1e2b65ad3d40af7d0b39831a",
+          "locator": ".product__description"
+        },
+        {
+          "source_id": "src-e8b3165ba4c0715ee9c030f2",
+          "locator": "web text line 132"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "sku",
+      "value": "VXB0GQK3HXJ1",
+      "evidence": [
+        {
+          "source_id": "src-1e2b65ad3d40af7d0b39831a",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.sku"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "mpn",
+      "value": "VXB0GQK3HXJ1",
+      "evidence": [
+        {
+          "source_id": "src-1e2b65ad3d40af7d0b39831a",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.mpn"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "weight",
+      "value": "32.3lb",
+      "evidence": [
+        {
+          "source_id": "src-1e2b65ad3d40af7d0b39831a",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.weight"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Type",
+      "value": "Super-Automatic",
+      "evidence": [
+        {
+          "source_id": "src-891156a67d6791d913627c07",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Milk Frothing Pitcher",
+      "evidence": [
+        {
+          "source_id": "src-891156a67d6791d913627c07",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Built-in Grinder",
+      "evidence": [
+        {
+          "source_id": "src-891156a67d6791d913627c07",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Title",
+      "value": "Default Title",
+      "evidence": [
+        {
+          "source_id": "src-891156a67d6791d913627c07",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "price": "1834.88",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "sku": "VXB0GQK3HXJ1",
+        "seller": "Nationskander VXB.com Bearings"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-1e2b65ad3d40af7d0b39831a",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[0]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "milk"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=437119170895",
+      "retrieved_at": "2026-09-13T10:37:47.657874+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://vxb.com/products/super-automatic-espresso-machine-with-built-in-gri",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:30.869546+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://vxb.com/products/super-automatic-espresso-machine-with-built-in-gri",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:31.438Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

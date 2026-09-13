@@ -1,0 +1,11 @@
+{
+  "source_id": "src-705b741a39e24e1af2a05aa5",
+  "url": "https://www.bing.com/shop/productdetails?goid=429644983593",
+  "retrieved_at": "2026-09-13T10:37:53.022253+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "f0183482e84b1c590793673796d25c969d5a49633206442df22238e0205dbaba",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "20 Bar Espresso Machine With Built-In Anti-Clog Grinder, Milk Frother And Tamping Tools For Latte Art, Barista-Grade Home Coffee Maker With Jam-Free G"
+}

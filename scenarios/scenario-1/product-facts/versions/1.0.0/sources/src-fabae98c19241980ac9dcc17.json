@@ -1,0 +1,11 @@
+{
+  "source_id": "src-fabae98c19241980ac9dcc17",
+  "url": "https://www.bing.com/shop/productdetails?goid=415427175817",
+  "retrieved_at": "2026-09-13T10:37:37.916212+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "57fcaa592a8d5d5b03240896d811a7bd86b7dd59beead54be3c122a92a6f9fcf",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Fully Automatic Espresso Machine 20 Bar With Auto Milk Frother & Grinder Stellweilan Tessberg"
+}

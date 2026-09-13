@@ -1,0 +1,11 @@
+{
+  "source_id": "src-1caae6c7228a5e9be3730d70",
+  "url": "https://www.bing.com/shop/productdetails?goid=399658311616",
+  "retrieved_at": "2026-09-13T10:37:35.151249+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "2bb39d5eb666213f547d71afc7377536c54638fac0ba074e8d55216e613121d6",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "20 Bar Steel Espresso Machine With Grinder, 1.5L Removable Water Tank, Milk Frother Steam Wand, Silver"
+}

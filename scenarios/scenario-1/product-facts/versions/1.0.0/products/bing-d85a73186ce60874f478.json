@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-d85a73186ce60874f478",
+  "provider": "bing",
+  "frozen_record_sha256": "d85a73186ce60874f478610311a4d243aba6efa4c3ebc916eff020014f391a2f",
+  "frozen_title": "Automatic Espresso Machine With Milk Frother & Grinder - Touch Screen 1.5L",
+  "resolution": {
+    "status": "provider_page_only",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "Automatic Espresso Machine with Milk Frother & Grinder - Touch Screen 1.5L",
+    "product_url": "https://www.bing.com/shop/productdetails?goid=447309562090",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved.",
+    "merchant_resolution": {
+      "status": "matched_page_without_extracted_specs",
+      "token_overlap": 1.0,
+      "reasons": [],
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "page_title": "Automatic Espresso Machine with Milk Frother & Grinder - Touch Screen 1.5L",
+      "product_url": "https://www.ebay.com/itm/146541864106",
+      "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+    }
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Type",
+      "value": "Automatic",
+      "evidence": [
+        {
+          "source_id": "src-e31446ea0ebeb79c7169d8e7",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Milk Frothing Pitcher",
+      "evidence": [
+        {
+          "source_id": "src-e31446ea0ebeb79c7169d8e7",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Water Tank Capacity",
+      "value": "50.72 fl oz",
+      "evidence": [
+        {
+          "source_id": "src-e31446ea0ebeb79c7169d8e7",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Weight",
+      "value": "22.6 lbs",
+      "evidence": [
+        {
+          "source_id": "src-e31446ea0ebeb79c7169d8e7",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Brand",
+      "value": "Unbranded",
+      "evidence": [
+        {
+          "source_id": "src-e31446ea0ebeb79c7169d8e7",
+          "locator": "#gpdp-ps li:nth-of-type(5)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Condition",
+      "value": "New",
+      "evidence": [
+        {
+          "source_id": "src-e31446ea0ebeb79c7169d8e7",
+          "locator": "#gpdp-ps li:nth-of-type(6)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Model",
+      "value": "fully automatic espresso machine",
+      "evidence": [
+        {
+          "source_id": "src-e31446ea0ebeb79c7169d8e7",
+          "locator": "#gpdp-ps li:nth-of-type(7)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Country",
+      "value": "China",
+      "evidence": [
+        {
+          "source_id": "src-e31446ea0ebeb79c7169d8e7",
+          "locator": "#gpdp-ps li:nth-of-type(8)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=447309562090",
+      "retrieved_at": "2026-09-13T10:37:50.271349+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.ebay.com/itm/146541864106",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:09.648173+00:00",
+      "status": "unavailable",
+      "error_type": "HTTPError"
+    },
+    {
+      "url": "https://www.ebay.com/itm/146541864106",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:51:05.866Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source_id": "src-fc5cc90cce5b803fa092e9de",
+  "url": "https://espresso-works.com/products/30-piece-coffee-and-espresso-machine-set",
+  "retrieved_at": "2026-09-13T10:50:16.650Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "30f66008804f7a8e01da48fd9e0cbab0c28c9b870f96905e1b0542761ae0b324",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "manufacturer_product_page",
+  "page_title": "30-Piece Espresso Machine"
+}

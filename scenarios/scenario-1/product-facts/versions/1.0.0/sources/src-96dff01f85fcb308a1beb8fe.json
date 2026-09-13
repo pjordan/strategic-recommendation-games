@@ -1,0 +1,11 @@
+{
+  "source_id": "src-96dff01f85fcb308a1beb8fe",
+  "url": "https://www.walmart.com/ip/18160300338",
+  "retrieved_at": "2026-09-13T10:55:41.019Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "956fb0dd7658d0dc85879eccc8626d85fac8c3f35466491c07e6a8f403f38516",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "ChaoLink Machine with Grinder Cappuccino and Latte Maker with Powerful Milk Frother for Home Barista, LCD Display,Stainless Steel Coffee MakerGray"
+}

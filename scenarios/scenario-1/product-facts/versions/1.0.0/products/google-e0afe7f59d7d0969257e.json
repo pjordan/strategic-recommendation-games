@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-e0afe7f59d7d0969257e",
+  "provider": "google",
+  "frozen_record_sha256": "e0afe7f59d7d0969257ec5b6d36ae55e9445786eabfee0a6b13eaf3fc68213fa",
+  "frozen_title": "De'Longhi Magnifica Evo Espresso Machine with LatteCrema System",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 0.75,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "De'Longhi - Magnifica Evo Espresso Machine with Automatic Milk Frother for Hot and Iced Lattes, Coffee and More - Silver",
+    "product_url": "https://www.bestbuy.com/product/delonghi-magnifica-evo-espresso-machine-with-automatic-milk-frother-for-hot-and-iced-lattes-coffee-and-more-silver/6513285",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "milk",
+      "name": "automatic_frothing_explicit",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-5130cd5e3a6f2814024471ec",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "burr_type",
+      "value": "conical",
+      "evidence": [
+        {
+          "source_id": "src-5130cd5e3a6f2814024471ec",
+          "locator": "web text line 1717"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "13",
+      "evidence": [
+        {
+          "source_id": "src-5130cd5e3a6f2814024471ec",
+          "locator": "web text line 1717"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-5130cd5e3a6f2814024471ec",
+          "locator": "web text lines 1756-1758"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "De'Longhi Magnifica Evo Espresso Machine with LatteCrema System",
+      "domain_filter": "bestbuy.com",
+      "retrieved_at": "2026-09-13T10:40:18.192Z",
+      "candidate_count": 11,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.bestbuy.com/product/delonghi-magnifica-evo-espresso-machine-with-automatic-milk-frother-for-hot-and-iced-lattes-coffee-and-more-silver/6513285",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:33.374819+00:00",
+      "status": "unavailable",
+      "error_type": "timeout"
+    },
+    {
+      "url": "https://www.bestbuy.com/product/delonghi-magnifica-evo-espresso-machine-with-automatic-milk-frother-for-hot-and-iced-lattes-coffee-and-more-silver/6513285",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:55:38.815Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

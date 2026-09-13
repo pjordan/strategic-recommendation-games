@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-01e7324cb0bb9043b927",
+  "provider": "bing",
+  "frozen_record_sha256": "01e7324cb0bb9043b9270193c4b01906eedf985809e80c7a52ec89888b0dc108",
+  "frozen_title": "Dual Boiler Espresso Machine With Grinder & Milk Frother, 58mm Machines, Stainless Steel Coffee Maker For Cappuccino And Latte, Perfect For Home",
+  "resolution": {
+    "status": "provider_page_only",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.temu.com/dual-boiler-espresso-machine-with-grinder-milk-frother-58mm--coffee-machines-stainless-steel-coffee-maker-for-cappuccino-and-latte--home-use-stainless-steel-g-605991898864736.html",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ],
+    "merchant_resolution": {
+      "status": "unavailable",
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "candidate_url": "https://www.temu.com/dual-boiler-espresso-machine-with-grinder-milk-frother-58mm--coffee-machines-stainless-steel-coffee-maker-for-cappuccino-and-latte--home-use-stainless-steel-g-605991898864736.html",
+      "reasons": [
+        "Product page could not be retrieved with usable, scoped product details."
+      ]
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=480269933539",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Material",
+      "value": "Stainless Steel",
+      "evidence": [
+        {
+          "source_id": "src-851639eb4668ad6eb094781b",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Voltage",
+      "value": "120 V",
+      "evidence": [
+        {
+          "source_id": "src-851639eb4668ad6eb094781b",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Color",
+      "value": "Silvery",
+      "evidence": [
+        {
+          "source_id": "src-851639eb4668ad6eb094781b",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Brand",
+      "value": "Aglucky",
+      "evidence": [
+        {
+          "source_id": "src-851639eb4668ad6eb094781b",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=480269933539",
+      "retrieved_at": "2026-09-13T10:37:52.571061+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.temu.com/dual-boiler-espresso-machine-with-grinder-milk-frother-58mm--coffee-machines-stainless-steel-coffee-maker-for-cappuccino-and-latte--home-use-stainless-steel-g-605991898864736.html",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:14.293017+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.temu.com/dual-boiler-espresso-machine-with-grinder-milk-frother-58mm--coffee-machines-stainless-steel-coffee-maker-for-cappuccino-and-latte--home-use-stainless-steel-g-605991898864736.html",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:51:32.599Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

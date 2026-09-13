@@ -1,0 +1,12 @@
+{
+  "source_id": "src-87217fed1ca3e9ea66b1bdab",
+  "url": "https://www.walmart.com/ip/5674202769",
+  "retrieved_at": "2026-09-13T10:59:40.720Z",
+  "method": "web.search exact-URL product document",
+  "representation": "indexed_product_document_text",
+  "content_sha256": "3f908e07e51ff3925eff3605b6acc0baf375a83e5402a653caca1b1fe0d0c703",
+  "hash_scope": "UTF-8 numbered primary document representation extracted from a search-tool response",
+  "source_kind": "merchant_product_page",
+  "page_title": "KitchenAid Metal Semi-Automatic Espresso Machine and Automatic Milk Frother Attachment",
+  "parent_response_sha256": "cbd27aaf8f0cc176cdf6d7c2b97c5d31cef298c4af664089d62ec3ef183f20f2"
+}

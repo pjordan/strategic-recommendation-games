@@ -1,0 +1,11 @@
+{
+  "source_id": "src-b6e0fba0051cfd9778a20992",
+  "url": "https://www.bing.com/shop/productdetails?goid=437123529780",
+  "retrieved_at": "2026-09-13T10:37:54.644223+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "9ace2b1fff9b94537879046fd5e1244a9cffe1ce7eea92c3af35dc831444fbd8",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Three-In-One Espresso Machine With Built-In Steel Conical Grinder, Auto Brew, And Milk Frother, 10 Grind Settings, Push-To-Grind Convenience, Barista-"
+}

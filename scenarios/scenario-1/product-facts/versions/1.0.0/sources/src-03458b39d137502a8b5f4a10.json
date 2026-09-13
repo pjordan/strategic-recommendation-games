@@ -1,0 +1,12 @@
+{
+  "source_id": "src-03458b39d137502a8b5f4a10",
+  "url": "https://www.walmart.com/ip/19081404556",
+  "retrieved_at": "2026-09-13T11:12:53.542Z",
+  "method": "web.search matched-URL product document",
+  "representation": "indexed_product_document_text",
+  "content_sha256": "06452cf4102bc7bca92aa645e21c3c89fa6f3f1f19da0222ea3dc82213ffe098",
+  "hash_scope": "UTF-8 numbered primary document representation extracted from a search-tool response",
+  "source_kind": "merchant_product_page",
+  "page_title": "Espresso Coffee Maker with Milk Frother - Removable Brewer/Grinder, Adjustable Coarseness/Flavor, 3-Level Coffee/Milk Volume for Home Baristas",
+  "parent_response_sha256": "eadd4246842caabfef8f61302f2fa03e55ddb3aabacf78d7aa5bb0da27cea736"
+}

@@ -1,0 +1,11 @@
+{
+  "source_id": "src-175effc93c51c859c1b2eb7f",
+  "url": "https://www.bing.com/shop/productdetails?goid=458043777173",
+  "retrieved_at": "2026-09-13T10:37:48.890491+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "75c5c1c26060ac77642df48f10fadc3ae7e1d4b4f7abdd0215086b33c0ffb7eb",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "De'longhi - Rivelia Fully Automatic Espresso Machine, Integrated Grinder, 2 Removable Bean Hoppers, Automatic Milk Frother - Sand Beige"
+}

@@ -1,0 +1,11 @@
+{
+  "source_id": "src-a168d695aa82e696dfc555d9",
+  "url": "https://www.bing.com/shop/productdetails?goid=179589685455",
+  "retrieved_at": "2026-09-13T10:37:39.312137+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "72275b3df5f1115219b9caee48d15e19ceba13fce0c5be120de1312e8d0a5e70",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Breville Barista Express Impress Stainless Steel Espresso Maker BES876BSS1BNA1: 15 Bars Pressure, Milk Frother, Grinder"
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-55cbde01fc5e866cb737",
+  "provider": "google",
+  "frozen_record_sha256": "55cbde01fc5e866cb737f4c0b62115ec27230e8c654a6a767915132803b29eca",
+  "frozen_title": "Espresso Machine with Grinder and Milk Frother 20 Bar Pressure 95 oz Removable Water Tank Home Coffee Maker for Latte Cappuccino",
+  "resolution": {
+    "status": "unresolved",
+    "method": "title_and_merchant_search",
+    "reasons": [
+      "Similar specifications are shared by multiple brands; exact IdealHouse listing not established."
+    ]
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Espresso Machine with Grinder and Milk Frother 20 Bar Pressure 95 oz Removable Water Tank Home Coffee Maker for Latte Cappuccino",
+      "domain_filter": "walmart.com",
+      "retrieved_at": "2026-09-13T10:42:46.213Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

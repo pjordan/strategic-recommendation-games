@@ -1,0 +1,11 @@
+{
+  "source_id": "src-ff1c463a50c861b6ba4a9e4b",
+  "url": "https://www.bestbuy.com/product/chefman-crema-deluxe-double-boiler-espresso-machine-conical-burr-grinder-and-steam-wand-black/J3GWS9R2CG",
+  "retrieved_at": "2026-09-13T10:55:35.465Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "16c2344fd55e68b211d750802616414c29d9f295f94d5b3064befe694f2f72cd",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Chefman - Crema Deluxe Double Boiler Espresso Machine, Conical Burr Grinder and Steam Wand - Black"
+}

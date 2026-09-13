@@ -1,0 +1,12 @@
+{
+  "source_id": "src-f0f23c2445ebc2f5912120d0",
+  "url": "https://www.bedbathandbeyond.com/Home-Garden/Espresso-Machine-with-Grinder-Milk-Frother-20-Bar-Coffee-and-Espresso-Maker-Combo/44137331/product.html",
+  "retrieved_at": "2026-09-13T10:58:56.314Z",
+  "method": "web.search exact-URL product document",
+  "representation": "indexed_product_document_text",
+  "content_sha256": "4750dce43287166b9a00690973243f4833b5e41126ec21b4ddeddd5c34693651",
+  "hash_scope": "UTF-8 numbered primary document representation extracted from a search-tool response",
+  "source_kind": "merchant_product_page",
+  "page_title": "Espresso Machine with Grinder & Milk Frother, 20 Bar Coffee and Espresso Maker Combo",
+  "parent_response_sha256": "e51da9f857bc589a87ce294ae5186c11a5f8a1a6b01712288d0b9c93ad523eb2"
+}

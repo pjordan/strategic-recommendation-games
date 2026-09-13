@@ -1,0 +1,11 @@
+{
+  "source_id": "src-2e6f6f09fe31c0b49f83fed2",
+  "url": "https://www.bing.com/shop/productdetails?goid=287038480674",
+  "retrieved_at": "2026-09-13T10:37:45.721079+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "16e5eb4f648315af7a45293930bf9061550046138f40b3f6ac4ce73d677a2b44",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Automatic Espresso & Coffee Machine With Manual Milk Frother For Latte, Cappuccino, Built-In Grinder, Silver Coffee Maker"
+}

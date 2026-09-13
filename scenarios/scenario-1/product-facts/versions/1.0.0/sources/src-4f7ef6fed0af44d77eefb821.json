@@ -1,0 +1,11 @@
+{
+  "source_id": "src-4f7ef6fed0af44d77eefb821",
+  "url": "https://factorypure.com/products/vevor-espresso-machine-15-bar-coffee-maker-with-grinder-milk-frother-steam-wand-new?variant=44358231982269",
+  "retrieved_at": "2026-09-13T10:55:26.296Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "a49e2e0a5dc2bd7333792fe773aac6f0fda7d2d4947e23bf68dc62c906036075",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Vevor Espresso Machine 15 Bar Coffee Maker with Grinder & Milk Frother Steam Wand New"
+}

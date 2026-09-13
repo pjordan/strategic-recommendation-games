@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-684f55f0fd73e06c81a1",
+  "provider": "google",
+  "frozen_record_sha256": "684f55f0fd73e06c81a17641e34875a5d3019863e613c2b0daa97f78b0ab47ff",
+  "frozen_title": "Gemilai Ele One Espresso Machine with Grinder & Cold Brew",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "Ele One G3828A Espresso Machine",
+    "product_url": "https://www.gemilai.com/products/ele-one-g3828a-espresso-machine",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "brewing",
+      "name": "pid_temperature_control",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-29327b7a0d80e4d4770f32b3",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        },
+        {
+          "source_id": "src-1163703b91a0ac1159bbeb84",
+          "locator": "web text line 142"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "cold_brew_mode",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-29327b7a0d80e4d4770f32b3",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        },
+        {
+          "source_id": "src-1163703b91a0ac1159bbeb84",
+          "locator": "web text line 144"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "portafilter_diameter",
+      "value": "58",
+      "evidence": [
+        {
+          "source_id": "src-29327b7a0d80e4d4770f32b3",
+          "locator": "script[type=\"application/ld+json\"] index 0; $.description"
+        },
+        {
+          "source_id": "src-1163703b91a0ac1159bbeb84",
+          "locator": "web text line 142"
+        }
+      ],
+      "unit": "mm"
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "price": 859.99,
+        "priceCurrency": "USD",
+        "availability": "http://schema.org/InStock"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-29327b7a0d80e4d4770f32b3",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[0]"
+    },
+    {
+      "observations": {
+        "price": 859.99,
+        "priceCurrency": "USD",
+        "availability": "http://schema.org/InStock"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-29327b7a0d80e4d4770f32b3",
+      "locator": "script[type=\"application/ld+json\"] index 0; $.offers[1]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Gemilai Ele One Espresso Machine with Grinder & Cold Brew",
+      "domain_filter": "gemilai.com",
+      "retrieved_at": "2026-09-13T10:41:56.819Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.gemilai.com/products/ele-one-g3828a-espresso-machine",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:10.146853+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.gemilai.com/products/ele-one-g3828a-espresso-machine",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:51:09.012Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source_id": "src-40a7f6135ead45c1aa37c72c",
+  "url": "https://www.bing.com/shop/productdetails?goid=422644671776",
+  "retrieved_at": "2026-09-13T10:37:44.897382+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "7d31ef28dd37ad1530352042c7e91e03525cd5e48020ef692d1ed64a88221479",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "De'longhi Magnifica Start Automatic Espresso Machine, Milk Frother, Black"
+}

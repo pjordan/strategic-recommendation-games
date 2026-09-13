@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-9b1ab71c68cd0c12e329",
+  "provider": "bing",
+  "frozen_record_sha256": "9b1ab71c68cd0c12e329d251354284b83eeb0c0d11abd061f51faf36574bc0ef",
+  "frozen_title": "15 Bar Espresso & Cappuccino Machine Bean Grinder Combo With Milk Frother & Steam Wand Grain Product Making Machine",
+  "resolution": {
+    "status": "unavailable",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.alibaba.com/pla/15+Bar+Espresso+%26+Cappuccino+Machine+Bean+Grinder+Combo+with+Milk+Frother+%26+Steam+Wand+Grain+Product+Making+Machine_1601392183573.html?product_id=1601392183573",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ]
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=361349562331",
+      "retrieved_at": "2026-09-13T10:37:54.129553+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/15+Bar+Espresso+%26+Cappuccino+Machine+Bean+Grinder+Combo+with+Milk+Frother+%26+Steam+Wand+Grain+Product+Making+Machine_1601392183573.html?product_id=1601392183573",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:31.014476+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/15+Bar+Espresso+%26+Cappuccino+Machine+Bean+Grinder+Combo+with+Milk+Frother+%26+Steam+Wand+Grain+Product+Making+Machine_1601392183573.html?product_id=1601392183573",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:35.974Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

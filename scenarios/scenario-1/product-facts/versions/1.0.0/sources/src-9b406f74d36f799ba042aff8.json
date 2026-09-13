@@ -1,0 +1,11 @@
+{
+  "source_id": "src-9b406f74d36f799ba042aff8",
+  "url": "https://www.bing.com/shop/productdetails?goid=440104416159",
+  "retrieved_at": "2026-09-13T10:37:50.335557+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "abec72d12ae4ed8b81be7f010bb96c202bb34cfba6cf87f09e3403800d64a7d5",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Fully Automatic Espresso Machine With Built In Grinder And Milk Frother 13 One Touch Recipes No Fuss All In One Programmable Coffee Maker For Espresso"
+}

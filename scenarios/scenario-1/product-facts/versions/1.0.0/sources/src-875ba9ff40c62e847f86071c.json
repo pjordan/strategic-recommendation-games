@@ -1,0 +1,11 @@
+{
+  "source_id": "src-875ba9ff40c62e847f86071c",
+  "url": "https://www.walmart.com/ip/11200474060",
+  "retrieved_at": "2026-09-13T10:49:15.045858+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "43ad88bc5d430f82f43502a5f2f0689c86a023233ccf490420efb08523138cc5",
+  "hash_scope": "original response bytes",
+  "source_kind": "merchant_product_page",
+  "page_title": "Espresso Coffee Machine with Grinder, 20 Bar Semi-Automatic Espresso Maker with Milk Frother Steamer Wand for Cappuccino, Latte, Macchiato, 2.8 L Water Tank, PID Temperature Control"
+}

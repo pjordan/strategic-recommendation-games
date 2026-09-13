@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-3210de58f63aae1163cd",
+  "provider": "google",
+  "frozen_record_sha256": "3210de58f63aae1163cd3beaa10cd35635700d7013b8cf5b2f6be4f7cf4b5140",
+  "frozen_title": "De'Longhi Magnifica Start Automatic Espresso Machine with Manual Milk Frother",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 0.75,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "De'Longhi - Magnifica Start Automatic Coffee & Espresso Machine with Milk Frother for Hot & Iced Lattes, Coffee, & More ECAM22022B - Black",
+    "product_url": "https://www.bestbuy.com/site/delonghi-magnifica-start-espresso-machine-with-manual-milk-frothing-black/6588878.p",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-57c2fabc5d86742497148fe3",
+          "locator": "web text line 1704"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "13",
+      "evidence": [
+        {
+          "source_id": "src-57c2fabc5d86742497148fe3",
+          "locator": "web text line 1704"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "De'Longhi Magnifica Start Automatic Espresso Machine with Manual Milk Frother",
+      "domain_filter": "bestbuy.com",
+      "retrieved_at": "2026-09-13T10:41:58.424Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.bestbuy.com/site/delonghi-magnifica-start-espresso-machine-with-manual-milk-frothing-black/6588878.p",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:08.742012+00:00",
+      "status": "unavailable",
+      "error_type": "timeout"
+    },
+    {
+      "url": "https://www.bestbuy.com/site/delonghi-magnifica-start-espresso-machine-with-manual-milk-frothing-black/6588878.p",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:55:32.726Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source_id": "src-100553b32651026045ebd53b",
+  "url": "https://www.bestbuy.com/product/breville-the-barista-touch-espresso-machine-with-9-bars-of-pressure-milk-frother-and-integrated-grinder-stainless-steel/J72668FC6X/sku/12833308",
+  "retrieved_at": "2026-09-13T10:50:54.499Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "ccc519a6ffd1c55094fdb0bf6ed600aab028add3c01a561aa7ef0225b088b843",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Breville - the Barista Touch Espresso Machine with 9 bars of pressure, Milk Frother and integrated grinder - Stainless Steel"
+}

@@ -1,0 +1,11 @@
+{
+  "source_id": "src-32f662d3521283f6e2bac667",
+  "url": "https://www.walmart.com/ip/20285112277",
+  "retrieved_at": "2026-09-13T10:55:50.279Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "66e5aeba2091494fbba104faf9ba47dddbbb8dd62e7ff52daee184c2251afebd",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Stainless Steel Espresso Machine with Grinder - 20 Bar Coffee Maker with Milk Frother Steam Wand and 2.8L Water Tank for Latte and Cappuccino"
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-d3b82fcfff13c8b299ec",
+  "provider": "bing",
+  "frozen_record_sha256": "d3b82fcfff13c8b299ec8cf83cd545c1517a86374cddd06378e6aebc9b74fac8",
+  "frozen_title": "Espresso Machine With Grinder 20 Bar Pressure Milk Frother Stainless Steel",
+  "resolution": {
+    "status": "unavailable",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://aisle-3.co/us/products/espresso-machine-with-grinder-20-bar-pressure-milk-frother-stainless-steel-22c5241763e11cab55ef26a3ab1cdc5f1a3888eb",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ]
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=474480650279",
+      "retrieved_at": "2026-09-13T10:37:46.641776+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://aisle-3.co/us/products/espresso-machine-with-grinder-20-bar-pressure-milk-frother-stainless-steel-22c5241763e11cab55ef26a3ab1cdc5f1a3888eb",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:25.893881+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://aisle-3.co/us/products/espresso-machine-with-grinder-20-bar-pressure-milk-frother-stainless-steel-22c5241763e11cab55ef26a3ab1cdc5f1a3888eb",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:12.904Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

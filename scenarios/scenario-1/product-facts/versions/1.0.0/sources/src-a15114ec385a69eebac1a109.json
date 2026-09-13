@@ -1,0 +1,11 @@
+{
+  "source_id": "src-a15114ec385a69eebac1a109",
+  "url": "https://household.gevi.com/products/gevi-20-bar-espresso-machine-with-grinder-and-milk-frother-espresso-and-latte-maker-for-home-silver",
+  "retrieved_at": "2026-09-13T10:50:21.190Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "492815f5b221e9d2575e88619edadca7dcc52e299cf532211a1938594e73be1f",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "manufacturer_product_page",
+  "page_title": "Gevi 20-Bar Espresso Machine with Grinder and Milk Frother, Espresso and Latte Maker for Home, Silver"
+}

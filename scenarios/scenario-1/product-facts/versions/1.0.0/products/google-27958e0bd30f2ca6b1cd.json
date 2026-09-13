@@ -1,0 +1,244 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-27958e0bd30f2ca6b1cd",
+  "provider": "google",
+  "frozen_record_sha256": "27958e0bd30f2ca6b1cde5232219fdb7f11f229d319aaed3f754e3ed8f27c170",
+  "frozen_title": "Expresso Coffee Machines With Grinder, Espresso Machine 20 Bar With 2.8 L Water Tank, Semi-Automatic Espresso Maker With Milk Frother Steamer Wand For",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "Espresso Coffee Machine with Grinder, 20 Bar Semi-Automatic Espresso Maker with Milk Frother Steamer Wand for Cappuccino, Latte, Macchiato, 2.8 L Water Tank, PID Temperature Control",
+    "product_url": "https://www.walmart.com/ip/11200474060",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-875ba9ff40c62e847f86071c",
+          "locator": "script[type=\"application/ld+json\"] index 1; $.name"
+        },
+        {
+          "source_id": "src-bd1b69f010ab91744a1783e0",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-875ba9ff40c62e847f86071c",
+          "locator": "script[type=\"application/ld+json\"] index 1; $.name"
+        },
+        {
+          "source_id": "src-bd1b69f010ab91744a1783e0",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "pid_temperature_control",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-875ba9ff40c62e847f86071c",
+          "locator": "script[type=\"application/ld+json\"] index 1; $.name"
+        },
+        {
+          "source_id": "src-bd1b69f010ab91744a1783e0",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-875ba9ff40c62e847f86071c",
+          "locator": "script[type=\"application/ld+json\"] index 1; $.name"
+        },
+        {
+          "source_id": "src-bd1b69f010ab91744a1783e0",
+          "locator": "page title"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "physical",
+      "name": "water_tank_capacity",
+      "value": "2.8",
+      "evidence": [
+        {
+          "source_id": "src-875ba9ff40c62e847f86071c",
+          "locator": "script[type=\"application/ld+json\"] index 1; $.name"
+        },
+        {
+          "source_id": "src-bd1b69f010ab91744a1783e0",
+          "locator": "page title"
+        }
+      ],
+      "unit": "L"
+    },
+    {
+      "category": "physical",
+      "name": "removable_water_tank",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-875ba9ff40c62e847f86071c",
+          "locator": "script[type=\"application/ld+json\"] index 1; $.description"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "dimensions",
+      "value": "12.59\"D x 12.59\"W x 13.5\"H",
+      "evidence": [
+        {
+          "source_id": "src-875ba9ff40c62e847f86071c",
+          "locator": "script[type=\"application/ld+json\"] index 1; $.description"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "model",
+      "value": "EZ06",
+      "evidence": [
+        {
+          "source_id": "src-875ba9ff40c62e847f86071c",
+          "locator": "script[type=\"application/ld+json\"] index 1; $.description"
+        },
+        {
+          "source_id": "src-875ba9ff40c62e847f86071c",
+          "locator": "script[type=\"application/ld+json\"] index 1; $.model"
+        }
+      ]
+    },
+    {
+      "category": "included_items",
+      "name": "tamper",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-875ba9ff40c62e847f86071c",
+          "locator": "script[type=\"application/ld+json\"] index 1; $.description"
+        }
+      ]
+    },
+    {
+      "category": "included_items",
+      "name": "milk_pitcher",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-875ba9ff40c62e847f86071c",
+          "locator": "script[type=\"application/ld+json\"] index 1; $.description"
+        }
+      ]
+    },
+    {
+      "category": "included_items",
+      "name": "cleaning_brush",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-875ba9ff40c62e847f86071c",
+          "locator": "script[type=\"application/ld+json\"] index 1; $.description"
+        }
+      ]
+    },
+    {
+      "category": "included_items",
+      "name": "single_shot_basket",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-875ba9ff40c62e847f86071c",
+          "locator": "script[type=\"application/ld+json\"] index 1; $.description"
+        }
+      ]
+    },
+    {
+      "category": "included_items",
+      "name": "double_shot_basket",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-875ba9ff40c62e847f86071c",
+          "locator": "script[type=\"application/ld+json\"] index 1; $.description"
+        }
+      ]
+    },
+    {
+      "category": "identity",
+      "name": "sku",
+      "value": "11200474060",
+      "evidence": [
+        {
+          "source_id": "src-875ba9ff40c62e847f86071c",
+          "locator": "script[type=\"application/ld+json\"] index 1; $.sku"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [
+    {
+      "observations": {
+        "availability": "https://schema.org/OutOfStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      },
+      "scope": "landing-page offer; may differ from original frozen seller/variant",
+      "source_id": "src-875ba9ff40c62e847f86071c",
+      "locator": "script[type=\"application/ld+json\"] index 1; $.offers[0]"
+    }
+  ],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "maintenance"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Expresso Coffee Machines With Grinder, Espresso Machine 20 Bar With 2.8 L Water Tank, Semi-Automatic Espresso Maker With Milk Frother Steamer Wand For",
+      "domain_filter": "walmart.com",
+      "retrieved_at": "2026-09-13T10:41:18.222Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.walmart.com/ip/11200474060",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:15.045858+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.walmart.com/ip/11200474060",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:51:38.024Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

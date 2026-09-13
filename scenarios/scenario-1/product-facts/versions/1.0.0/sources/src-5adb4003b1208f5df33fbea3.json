@@ -1,0 +1,11 @@
+{
+  "source_id": "src-5adb4003b1208f5df33fbea3",
+  "url": "https://www.target.com/p/-/A-1002945100",
+  "retrieved_at": "2026-09-13T10:56:12.732Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "78a44236aa4db90555c1cb27554d5eaeeb2e6e5f602ad8c786838ad22068770c",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Professional Espresso Machine with Automatic Milk Frothing, Adjustable Temperature, Steam Wandr — 20 Bar Pressure for Perfect Latte & Cappuccino"
+}

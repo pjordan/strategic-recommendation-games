@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-9376c46c5715455a89a8",
+  "provider": "bing",
+  "frozen_record_sha256": "9376c46c5715455a89a87b970ded13202941b0a54e44ae25cac5a4761f9d70e2",
+  "frozen_title": "3-In-1 Espresso Machine With Grinder Milk Frother 19Bar Professional WHITE / US",
+  "resolution": {
+    "status": "provider_page_only",
+    "token_overlap": 0.0,
+    "reasons": [
+      "Insufficient title agreement for an exact listing match."
+    ],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "3-in-1 Espresso Machine with Grinder Milk Frother 19bar Professional",
+    "candidate_url": "https://everythings.life/products/3-in-1-espresso-machine-with-grinder-milk-frother-19bar-professional-coffee-maker-for-home-removable-water-tank?variant=41857846804515",
+    "merchant_resolution": {
+      "status": "ambiguous",
+      "token_overlap": 0.0,
+      "reasons": [
+        "Insufficient title agreement for an exact listing match."
+      ],
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "page_title": "3-in-1 Espresso Machine with Grinder Milk Frother 19bar Professional",
+      "candidate_url": "https://everythings.life/products/3-in-1-espresso-machine-with-grinder-milk-frother-19bar-professional-coffee-maker-for-home-removable-water-tank?variant=41857846804515"
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=407854337473",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "19 bar",
+      "evidence": [
+        {
+          "source_id": "src-785ff8bf619d3abfa403052f",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Milk Frothing Pitcher",
+      "evidence": [
+        {
+          "source_id": "src-785ff8bf619d3abfa403052f",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Material",
+      "value": "Plastic",
+      "evidence": [
+        {
+          "source_id": "src-785ff8bf619d3abfa403052f",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Milk Frother",
+      "evidence": [
+        {
+          "source_id": "src-785ff8bf619d3abfa403052f",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Color",
+      "value": "White",
+      "evidence": [
+        {
+          "source_id": "src-785ff8bf619d3abfa403052f",
+          "locator": "#gpdp-ps li:nth-of-type(5)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=407854337473",
+      "retrieved_at": "2026-09-13T10:37:45.577981+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://everythings.life/products/3-in-1-espresso-machine-with-grinder-milk-frother-19bar-professional-coffee-maker-for-home-removable-water-tank?variant=41857846804515",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:28.224685+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://everythings.life/products/3-in-1-espresso-machine-with-grinder-milk-frother-19bar-professional-coffee-maker-for-home-removable-water-tank?variant=41857846804515",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:17.948Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

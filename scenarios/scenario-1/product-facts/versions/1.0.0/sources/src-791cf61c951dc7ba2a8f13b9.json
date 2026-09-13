@@ -1,0 +1,11 @@
+{
+  "source_id": "src-791cf61c951dc7ba2a8f13b9",
+  "url": "https://www.walmart.com/ip/17165105275",
+  "retrieved_at": "2026-09-13T10:55:46.969Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "e0f0d64561a89c39d51e0822ae62b5186d7d5d960e1226dbc539e308c025c9a2",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Espresso Machine with Milk Frother and Grinder, 15 Bar Automatic Espresso Coffee Machine All In One Coffee Maker with Italian ULKA Pump, 2.5L Water Tank, Brushed Stainless Steel for Home Office"
+}

@@ -1,0 +1,11 @@
+{
+  "source_id": "src-b2124bad82a88d7fa25cc569",
+  "url": "https://www.surlatable.com/product/philips-5500-series-fully-automatic-espresso-machine-with-lattego-milk-frother/9596339",
+  "retrieved_at": "2026-09-13T10:51:21.591Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "a6fe7902b2fc9c91a3fd344e8f6f5dcb413edf2b984686b0bad1a09a32616913",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Philips 5500 Series Fully Automatic Espresso Machine with LatteGo Milk Frother"
+}

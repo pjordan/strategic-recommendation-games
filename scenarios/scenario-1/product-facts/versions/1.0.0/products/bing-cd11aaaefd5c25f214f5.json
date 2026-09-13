@@ -1,0 +1,310 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-cd11aaaefd5c25f214f5",
+  "provider": "bing",
+  "frozen_record_sha256": "cd11aaaefd5c25f214f582d63fe5842c940061df4cb1b2c45dd550e8ef46b0d0",
+  "frozen_title": "Breville - The Barista Express Espresso Machine With 15 Bars Of Pressure, Milk Frother And Integrated Grinder - Stainless Steel",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "page_title": "Breville - the Barista Express Espresso Machine with 15 bars of pressure, Milk Frother and integrated grinder - Stainless Steel",
+    "product_url": "https://www.bestbuy.com/product/breville-the-barista-express-espresso-machine-with-15-bars-of-pressure-milk-frother-and-integrated-grinder-stainless-steel/J72668V6ZR/sku/6291169",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-81123d98f8b0d50f33c19342",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "pump_pressure_bar",
+      "value": "15",
+      "evidence": [
+        {
+          "source_id": "src-81123d98f8b0d50f33c19342",
+          "locator": "web text line 57"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-81123d98f8b0d50f33c19342",
+          "locator": "web text line 62"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "pid_temperature_control",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-81123d98f8b0d50f33c19342",
+          "locator": "web text line 69"
+        }
+      ]
+    },
+    {
+      "category": "grinding",
+      "name": "burr_type",
+      "value": "conical",
+      "evidence": [
+        {
+          "source_id": "src-81123d98f8b0d50f33c19342",
+          "locator": "web text line 75"
+        }
+      ]
+    },
+    {
+      "category": "physical",
+      "name": "water_tank_capacity",
+      "value": "67",
+      "evidence": [
+        {
+          "source_id": "src-81123d98f8b0d50f33c19342",
+          "locator": "web text line 79"
+        }
+      ],
+      "unit": "fl oz"
+    },
+    {
+      "category": "grinding",
+      "name": "grind_settings",
+      "value": "16",
+      "evidence": [
+        {
+          "source_id": "src-81123d98f8b0d50f33c19342",
+          "locator": "web text lines 113-115"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "9",
+      "evidence": [
+        {
+          "source_id": "src-81123d98f8b0d50f33c19342",
+          "locator": "web text lines 117-119"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "15 bar",
+      "evidence": [
+        {
+          "source_id": "src-7ec9a8102574a2535eb0e217",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Milk Frother",
+      "value": "Milk Frothing Pitcher",
+      "evidence": [
+        {
+          "source_id": "src-7ec9a8102574a2535eb0e217",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Water Tank Capacity",
+      "value": "67.63 fl oz",
+      "evidence": [
+        {
+          "source_id": "src-7ec9a8102574a2535eb0e217",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Power",
+      "value": "1600 watts",
+      "evidence": [
+        {
+          "source_id": "src-7ec9a8102574a2535eb0e217",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Brand",
+      "value": "Breville",
+      "evidence": [
+        {
+          "source_id": "src-7ec9a8102574a2535eb0e217",
+          "locator": "#gpdp-ps li:nth-of-type(5)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Material",
+      "value": "Stainless Steel",
+      "evidence": [
+        {
+          "source_id": "src-7ec9a8102574a2535eb0e217",
+          "locator": "#gpdp-ps li:nth-of-type(6)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Width",
+      "value": "12 in.",
+      "evidence": [
+        {
+          "source_id": "src-7ec9a8102574a2535eb0e217",
+          "locator": "#gpdp-ps li:nth-of-type(7)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Height",
+      "value": "13.5 in.",
+      "evidence": [
+        {
+          "source_id": "src-7ec9a8102574a2535eb0e217",
+          "locator": "#gpdp-ps li:nth-of-type(8)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Depth",
+      "value": "11 in.",
+      "evidence": [
+        {
+          "source_id": "src-7ec9a8102574a2535eb0e217",
+          "locator": "#gpdp-ps li:nth-of-type(9)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Weight",
+      "value": "22.9 lbs",
+      "evidence": [
+        {
+          "source_id": "src-7ec9a8102574a2535eb0e217",
+          "locator": "#gpdp-ps li:nth-of-type(10)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Voltage",
+      "value": "120 V",
+      "evidence": [
+        {
+          "source_id": "src-7ec9a8102574a2535eb0e217",
+          "locator": "#gpdp-ps li:nth-of-type(11)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Built-in Grinder",
+      "evidence": [
+        {
+          "source_id": "src-7ec9a8102574a2535eb0e217",
+          "locator": "#gpdp-ps li:nth-of-type(12)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Color",
+      "value": "Stainless Steel",
+      "evidence": [
+        {
+          "source_id": "src-7ec9a8102574a2535eb0e217",
+          "locator": "#gpdp-ps li:nth-of-type(13)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "UPC",
+      "value": "021614055514",
+      "evidence": [
+        {
+          "source_id": "src-7ec9a8102574a2535eb0e217",
+          "locator": "#gpdp-ps li:nth-of-type(14)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Model Number",
+      "value": "BES870XL",
+      "evidence": [
+        {
+          "source_id": "src-7ec9a8102574a2535eb0e217",
+          "locator": "#gpdp-ps li:nth-of-type(15)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=2989765026",
+      "retrieved_at": "2026-09-13T10:37:33.598781+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.bestbuy.com/product/breville-the-barista-express-espresso-machine-with-15-bars-of-pressure-milk-frother-and-integrated-grinder-stainless-steel/J72668V6ZR/sku/6291169",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:32.607756+00:00",
+      "status": "unavailable",
+      "error_type": "timeout"
+    },
+    {
+      "url": "https://www.bestbuy.com/product/breville-the-barista-express-espresso-machine-with-15-bars-of-pressure-milk-frother-and-integrated-grinder-stainless-steel/J72668V6ZR/sku/6291169",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:53.721Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-b43381b54c6fbf2e4da3",
+  "provider": "google",
+  "frozen_record_sha256": "b43381b54c6fbf2e4da30ba0c8bcb4ac25792c16cccbc3b965586a3e83776803",
+  "frozen_title": "Espresso Machine, 3-in-1 Coffee Maker with Built-in Grinder and Milk Frother",
+  "resolution": {
+    "status": "matched_listing",
+    "token_overlap": 1.0,
+    "reasons": [],
+    "method": "title_and_merchant_search_candidate",
+    "page_title": "Espresso Machine, 3-in-1 Coffee Maker with Built-in Grinder and Milk Frother, 20 Bar Latte",
+    "product_url": "https://www.bedbathandbeyond.com/Home-Garden/Espresso-Machine-3-in-1-Coffee-Maker-with-Built-in-Grinder-and-Milk-Frother-20-Bar-Latte/44137330/product.html",
+    "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity."
+  },
+  "facts": [
+    {
+      "category": "grinding",
+      "name": "integrated_grinder",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-18f48bd4a9726258047459e4",
+          "locator": "page title"
+        }
+      ]
+    },
+    {
+      "category": "brewing",
+      "name": "advertised_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-18f48bd4a9726258047459e4",
+          "locator": "page title"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "brewing",
+      "name": "pump_pressure_bar",
+      "value": "20",
+      "evidence": [
+        {
+          "source_id": "src-18f48bd4a9726258047459e4",
+          "locator": "web text line 75"
+        }
+      ],
+      "unit": "bar"
+    },
+    {
+      "category": "milk",
+      "name": "steam_wand_present",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-18f48bd4a9726258047459e4",
+          "locator": "web text line 77"
+        }
+      ]
+    },
+    {
+      "category": "milk",
+      "name": "automatic_frothing_explicit",
+      "value": true,
+      "evidence": [
+        {
+          "source_id": "src-18f48bd4a9726258047459e4",
+          "locator": "web text line 77"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Espresso Machine, 3-in-1 Coffee Maker with Built-in Grinder and Milk Frother",
+      "domain_filter": "bedbathandbeyond.com",
+      "retrieved_at": "2026-09-13T10:42:35.349Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    },
+    {
+      "url": "https://www.bedbathandbeyond.com/Home-Garden/Espresso-Machine-3-in-1-Coffee-Maker-with-Built-in-Grinder-and-Milk-Frother-20-Bar-Latte/44137330/product.html",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:32.413116+00:00",
+      "status": "unavailable",
+      "error_type": "HTTPError"
+    },
+    {
+      "url": "https://www.bedbathandbeyond.com/Home-Garden/Espresso-Machine-3-in-1-Coffee-Maker-with-Built-in-Grinder-and-Milk-Frother-20-Bar-Latte/44137330/product.html",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:55:45.963Z",
+      "status": "page_text_returned"
+    },
+    {
+      "url": "https://www.bedbathandbeyond.com/Home-Garden/Espresso-Machine-3-in-1-Coffee-Maker-with-Built-in-Grinder-and-Milk-Frother-20-Bar-Latte/44137330/product.html",
+      "method": "web.search exact-URL product document",
+      "retrieved_at": "2026-09-13T10:59:37.898Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

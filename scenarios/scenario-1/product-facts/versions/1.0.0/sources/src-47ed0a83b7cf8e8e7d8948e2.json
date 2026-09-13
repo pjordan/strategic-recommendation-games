@@ -1,0 +1,11 @@
+{
+  "source_id": "src-47ed0a83b7cf8e8e7d8948e2",
+  "url": "https://www.walmart.com/ip/20782357690",
+  "retrieved_at": "2026-09-13T10:55:30.858Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "78b2fa7b8244c47d5744ed21ddbedf58afa6714b6bfa328267cfb17331ae594f",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Mooye All-in-One Espresso Machine with Grinder, 20-Bar Espresso Maker with Milk Frother for Latte & Cappuccino, Black"
+}

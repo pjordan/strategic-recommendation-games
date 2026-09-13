@@ -1,0 +1,11 @@
+{
+  "source_id": "src-a5e26819ca15d172c6827e68",
+  "url": "https://www.bing.com/shop/productdetails?goid=453256952928",
+  "retrieved_at": "2026-09-13T10:37:35.111545+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "17e5777e506384834e7fd3e10a83709c867c7a0570dfa0c156352beffc7bad44",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "De'Longhi La Specialista Arte Evo Cold Brew Espresso Machine"
+}

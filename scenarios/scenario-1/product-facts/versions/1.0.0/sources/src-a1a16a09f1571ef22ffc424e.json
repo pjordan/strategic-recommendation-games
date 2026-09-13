@@ -1,0 +1,12 @@
+{
+  "source_id": "src-a1a16a09f1571ef22ffc424e",
+  "url": "https://www.walmart.com/ip/SKYSHALO-Semi-Automatic-Espresso-Maker-Grinder-15-Bar-Includes-Milk-Frother-Steam-Wand-Detachable-Water-Tank-Pressure-Gauge-Cappuccino-Latte-Machiato/11012002546",
+  "retrieved_at": "2026-09-13T10:59:32.433Z",
+  "method": "web.search exact-URL product document",
+  "representation": "indexed_product_document_text",
+  "content_sha256": "1c5c519723d54f1381a382caacf0dee7d01f6d17cc8b31c813775fcfef787106",
+  "hash_scope": "UTF-8 numbered primary document representation extracted from a search-tool response",
+  "source_kind": "merchant_product_page",
+  "page_title": "KFFKFF Semi-Automatic Espresso Maker with Grinder, 15 Bar, Includes Milk Frother Steam Wand, Detachable Water Tank & Pressure Gauge, for Cappuccino, Latte, Machiato, with PID Temperature Control",
+  "parent_response_sha256": "02237ec7806ccde09c74cefb64e769f2014e3aae8212d112def27da68acbcdc4"
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-48aa0b988a723cf4bff5",
+  "provider": "bing",
+  "frozen_record_sha256": "48aa0b988a723cf4bff5137caf1d3f695f895c0f7d9c5833c66f4e8910546156",
+  "frozen_title": "Commercial Espresso Machines With Grinder & LCD Display, 20 Bar Espresso Coffee Machines With Milk Frother, Coffee Espresso Machine & Cappuccino",
+  "resolution": {
+    "status": "provider_page_only",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.temu.com/kuiper/un9/shopping-gmc-a-psurl.html",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ],
+    "merchant_resolution": {
+      "status": "unavailable",
+      "method": "retained_bing_product_url_to_selected_merchant",
+      "candidate_url": "https://www.temu.com/kuiper/un9/shopping-gmc-a-psurl.html",
+      "reasons": [
+        "Product page could not be retrieved with usable, scoped product details."
+      ]
+    },
+    "product_url": "https://www.bing.com/shop/productdetails?goid=393726870960",
+    "note": "Only shopping-provider product-page specifications are established; merchant match or access remains unresolved."
+  },
+  "facts": [
+    {
+      "category": "provider_specification",
+      "name": "Pressure",
+      "value": "20 bar",
+      "evidence": [
+        {
+          "source_id": "src-8bb89b129242f109796a4156",
+          "locator": "#gpdp-ps li:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Type",
+      "value": "Semi-Automatic",
+      "evidence": [
+        {
+          "source_id": "src-8bb89b129242f109796a4156",
+          "locator": "#gpdp-ps li:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Water Tank Capacity",
+      "value": "64.25 fl oz",
+      "evidence": [
+        {
+          "source_id": "src-8bb89b129242f109796a4156",
+          "locator": "#gpdp-ps li:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Material",
+      "value": "Stainless Steel",
+      "evidence": [
+        {
+          "source_id": "src-8bb89b129242f109796a4156",
+          "locator": "#gpdp-ps li:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Voltage",
+      "value": "120 V",
+      "evidence": [
+        {
+          "source_id": "src-8bb89b129242f109796a4156",
+          "locator": "#gpdp-ps li:nth-of-type(5)"
+        }
+      ]
+    },
+    {
+      "category": "provider_specification",
+      "name": "Feature",
+      "value": "Built-in Grinder",
+      "evidence": [
+        {
+          "source_id": "src-8bb89b129242f109796a4156",
+          "locator": "#gpdp-ps li:nth-of-type(6)"
+        }
+      ]
+    }
+  ],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=393726870960",
+      "retrieved_at": "2026-09-13T10:37:50.274484+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.temu.com/kuiper/un9/shopping-gmc-a-psurl.html",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:49:14.810913+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.temu.com/kuiper/un9/shopping-gmc-a-psurl.html",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:51:34.505Z",
+      "status": "page_text_returned"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

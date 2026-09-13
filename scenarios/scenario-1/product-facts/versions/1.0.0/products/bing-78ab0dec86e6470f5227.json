@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "bing-78ab0dec86e6470f5227",
+  "provider": "bing",
+  "frozen_record_sha256": "78ab0dec86e6470f522769379d2ad1f3b673961353bbe9da3453e2d8f655bbd0",
+  "frozen_title": "2025 Smart Automatic Espresso Coffee Machine With Grinder And Milk Frother",
+  "resolution": {
+    "status": "unavailable",
+    "method": "retained_bing_product_url_to_selected_merchant",
+    "candidate_url": "https://www.alibaba.com/pla/2025+Smart+Automatic+Espresso+Coffee+Machine+with+Grinder+and+Milk+Frother_1601624184168.html?product_id=1601624184168",
+    "reasons": [
+      "Product page could not be retrieved with usable, scoped product details."
+    ]
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "url": "https://www.bing.com/shop/productdetails?goid=428586612679",
+      "retrieved_at": "2026-09-13T10:37:37.674867+00:00",
+      "method": "HTTP GET",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/2025+Smart+Automatic+Espresso+Coffee+Machine+with+Grinder+and+Milk+Frother_1601624184168.html?product_id=1601624184168",
+      "method": "HTTP GET",
+      "retrieved_at": "2026-09-13T10:48:31.116426+00:00",
+      "status": "retrieved",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.alibaba.com/pla/2025+Smart+Automatic+Espresso+Coffee+Machine+with+Grinder+and+Milk+Frother_1601624184168.html?product_id=1601624184168",
+      "method": "web.open",
+      "retrieved_at": "2026-09-13T10:50:35.864Z",
+      "status": "unavailable"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}

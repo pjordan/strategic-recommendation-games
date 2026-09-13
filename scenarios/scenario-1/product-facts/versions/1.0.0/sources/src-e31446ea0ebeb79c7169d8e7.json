@@ -1,0 +1,11 @@
+{
+  "source_id": "src-e31446ea0ebeb79c7169d8e7",
+  "url": "https://www.bing.com/shop/productdetails?goid=447309562090",
+  "retrieved_at": "2026-09-13T10:37:50.271349+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "2533716dccea02954399045e33f44b2d584d106cd4d4b50c468da7424cf4623c",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Automatic Espresso Machine With Milk Frother & Grinder - Touch Screen 1.5L"
+}

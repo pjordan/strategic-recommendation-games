@@ -1,0 +1,11 @@
+{
+  "source_id": "src-1782986d3c5f995e48282d4a",
+  "url": "https://www.bing.com/shop/productdetails?goid=428616549163",
+  "retrieved_at": "2026-09-13T10:37:52.128619+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "39caee46b3162b9442c47ee83281761864186f19afca5e0e104323d54c870603",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Professional Household Espresso Coffee Maker 15 Bar Pump Electric Coffee Machine With Grinder And Milk Frother"
+}

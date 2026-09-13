@@ -1,0 +1,11 @@
+{
+  "source_id": "src-ff2ce5835bee92ff744128d3",
+  "url": "https://www.bing.com/shop/productdetails?goid=377356055024",
+  "retrieved_at": "2026-09-13T10:37:54.513346+00:00",
+  "method": "HTTP GET",
+  "representation": "raw_http_html",
+  "content_sha256": "bd1918a8ea51c52f3f49084ad47aa1eef8614a4735cb4c7318e6bd9e2950aa38",
+  "hash_scope": "original response bytes",
+  "source_kind": "shopping_provider_product_page",
+  "page_title": "Espresso Machine With Grinder, Milk Frother, Steam Wand, 1.8L Water Tank, Digital Touch Screen, Cappuccino Latte Coffee Maker"
+}

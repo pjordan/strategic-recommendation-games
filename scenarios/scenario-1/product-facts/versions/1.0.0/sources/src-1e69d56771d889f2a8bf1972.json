@@ -1,0 +1,11 @@
+{
+  "source_id": "src-1e69d56771d889f2a8bf1972",
+  "url": "https://www.lowes.com/pd/Aoibox-Espresso-Machine-with-20-Bar-Pressure-Built-In-Burr-Grinder-and-Milk-Frother-Steam-Wand-for-Home-Coffee-Brewing/5020985405",
+  "retrieved_at": "2026-09-13T10:51:16.714Z",
+  "method": "web.open",
+  "representation": "web_tool_text",
+  "content_sha256": "deafa1fc7069faab46af66eaac9352f7e73cba2b1d2754ade70cbce7d592f869",
+  "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+  "source_kind": "merchant_product_page",
+  "page_title": "Aoibox Espresso Machine with 20 Bar Pressure Built In Burr Grinder and Milk Frother Steam Wand for Home Coffee Brewing"
+}

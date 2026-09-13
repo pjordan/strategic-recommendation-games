@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "facts_version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "record_id": "google-451240196901561c150d",
+  "provider": "google",
+  "frozen_record_sha256": "451240196901561c150d6873638bfb72b66554a57a131a24ca283f41e7364370",
+  "frozen_title": "Philips Baristina Latte Coffee & Espresso Machine with Smart Milk Frother",
+  "resolution": {
+    "status": "unresolved",
+    "method": "title_and_merchant_search",
+    "reasons": [
+      "Search resolves category pages and different Philips series; Baristina Latte bundle not established."
+    ]
+  },
+  "facts": [],
+  "offer_observations": [],
+  "conflicts": [],
+  "not_established_categories": [
+    "electrical",
+    "included_items",
+    "maintenance",
+    "physical",
+    "milk",
+    "grinding"
+  ],
+  "attempts": [
+    {
+      "method": "web.search title and merchant domain",
+      "query": "Philips Baristina Latte Coffee & Espresso Machine with Smart Milk Frother",
+      "domain_filter": "surlatable.com",
+      "retrieved_at": "2026-09-13T10:41:12.409Z",
+      "candidate_count": 12,
+      "status": "URL discovery only; no search snippet treated as a fact"
+    }
+  ],
+  "limits": [
+    "Page-supported claims, not independent physical testing.",
+    "Missing facts mean unknown, not absent.",
+    "Frozen price and merchant text remain in the recommendation record; current observations do not replace them."
+  ]
+}
