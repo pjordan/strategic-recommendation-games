@@ -12,7 +12,7 @@ HERE = Path(__file__).resolve().parent
 REPO = HERE.parents[2]
 
 
-def verify(directory):
+def verify(directory, *, script_relative=None):
     directory = directory.resolve()
     meta = json.loads((directory/'manifest.json').read_text())
     with tempfile.TemporaryDirectory(prefix='text-study-replay-') as temporary:
@@ -29,7 +29,10 @@ def verify(directory):
                 raise ValueError('Archived source hash mismatch')
             target = root/path; target.parent.mkdir(parents=True, exist_ok=True); target.write_bytes(data)
         shutil.copytree(REPO/'scenarios', root/'scenarios')
-        script = root/HERE.relative_to(REPO)/'run_study.py'
+        relative = Path(script_relative) if script_relative is not None else HERE.relative_to(REPO)/'run_study.py'
+        if relative.as_posix() not in meta['source_sha256']:
+            raise ValueError('Replay entry point is missing from source manifest')
+        script = root/relative
         result = subprocess.check_output([sys.executable, '-B', str(script), '--verify', str(directory)], text=True)
         return json.loads(result)
 

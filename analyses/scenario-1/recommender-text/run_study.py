@@ -217,8 +217,11 @@ def data_hashes():
     return {p.relative_to(REPO).as_posix(): sha(p.read_bytes()) for p in paths}
 
 
-def verify_current(directory):
+def verify_current(directory, *, config=CONFIG, game_type=Game, compare=comparison):
     meta = read(directory/'manifest.json')
+    plan_key = config.get('plan_key', 'pairs')
+    if meta.get('study_design', config) != config:
+        raise ValueError('Study configuration differs')
     scenario.validate(SCENARIO)
     if meta['data_manifest_sha256'] != data_hashes():
         raise ValueError('Frozen data manifests differ')
@@ -229,14 +232,14 @@ def verify_current(directory):
         if sha((directory/rel).read_bytes()) != digest:
             raise ValueError('Study artifact hash mismatch')
     comparisons = []
-    for pair in meta['pairs']:
+    for pair in meta[plan_key]:
         results = {}
         for mode in pair['arm_order']:
             arm = directory/pair['pair_id']/mode
             arm_meta = read(arm/'manifest.json')
             if arm_meta['status'] != 'completed':
                 continue
-            game = Game(pair, mode)
+            game = game_type(pair, mode)
             def replay(stage, role, prompt, schema):
                 path = arm/stage
                 m = read(path/'manifest.json')
@@ -256,14 +259,17 @@ def verify_current(directory):
                 if read(arm/name) != value:
                     raise ValueError('Game artifact does not replay')
                 if name == 'outcome.json': results[mode] = value
-        comparisons.append(comparison(pair, results))
-    if comparisons != read(directory/'comparisons.json'):
+        comparisons.append(compare(pair, results))
+    if comparisons != read(directory/config.get('summary_file', 'comparisons.json')):
         raise ValueError('Paired comparison differs')
-    return {'status': meta['status'], 'pairs': len(comparisons), 'completed_pairs': sum(c['status'] == 'completed' for c in comparisons)}
+    return {'status': meta['status'], plan_key: len(comparisons), 'completed_'+plan_key: sum(c['status'] == 'completed' for c in comparisons)}
 
 
-def main():
-    parser = argparse.ArgumentParser(description=__doc__)
+def main(*, config=CONFIG, game_type=Game, make_plan=plan, compare=comparison, get_sources=source_files):
+    """Execute a study definition while preserving each condition's explicit moves."""
+    plan_key = config.get('plan_key', 'pairs')
+    summary_file = config.get('summary_file', 'comparisons.json')
+    parser = argparse.ArgumentParser(description=config.get('description', __doc__))
     parser.add_argument('--verify', type=Path)
     parser.add_argument('--harness', choices=['codex', 'claude'])
     parser.add_argument('--model')
@@ -276,7 +282,7 @@ def main():
     parser.add_argument('--dry-run', action='store_true')
     args = parser.parse_args()
     if args.verify:
-        print(json.dumps(verify_current(args.verify.resolve()), indent=2)); return
+        print(json.dumps(verify_current(args.verify.resolve(), config=config, game_type=game_type, compare=compare), indent=2)); return
     if not all((args.harness, args.model, args.effort, args.run_id, args.output_dir)):
         parser.error('Provide harness, model, effort, run-id and output-dir')
     if not re.fullmatch(r'[A-Za-z0-9._-]+', args.run_id): parser.error('Use a portable run ID')
@@ -284,22 +290,22 @@ def main():
     if args.codex_version:
         if args.harness != 'codex' or not re.fullmatch(r'\d+\.\d+\.\d+', args.codex_version): parser.error('Use an exact Codex version')
         prefix = ['npx', '--yes', '--package', '@openai/codex@'+args.codex_version, 'codex']
-    pairs = plan(args.replicates, args.plan_seed)
+    pairs = make_plan(args.replicates, args.plan_seed)
     scenario.validate(SCENARIO)
     out = args.output_dir.resolve()
     if out.exists(): parser.error('Output exists; use a fresh study directory')
     version = None if args.dry_run else subprocess.check_output(prefix+['--version'], text=True).strip()
     out.mkdir(parents=True)
-    meta = {'analysis_id': CONFIG['analysis_id'], 'analysis_version': CONFIG['version'], 'run_id': args.run_id,
-            'scenario_version': CONFIG['scenario_version'], 'facts_version': CONFIG['facts_version'],
+    meta = {'analysis_id': config['analysis_id'], 'analysis_version': config['version'], 'run_id': args.run_id,
+            'scenario_version': config['scenario_version'], 'facts_version': config['facts_version'],
             'harness': args.harness, 'harness_version': version, 'model_requested': args.model,
             'reasoning_effort_requested': args.effort, 'codex_version_requested': args.codex_version,
-            'model_seed': None, 'temperature': None, 'plan_seed': args.plan_seed, 'pairs': pairs,
+            'model_seed': None, 'temperature': None, 'plan_seed': args.plan_seed, plan_key: pairs, 'study_design': config,
             'started_at': datetime.now(timezone.utc).isoformat(), 'python_version': platform.python_version(),
             'repository_commit_at_start': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=REPO, text=True).strip(),
             'repository_dirty_at_start': bool(subprocess.check_output(['git', 'status', '--porcelain'], cwd=REPO, text=True).strip()),
             'data_manifest_sha256': data_hashes(), 'source_sha256': {}, 'artifacts_sha256': {}, 'status': 'prepared'}
-    for file in source_files():
+    for file in get_sources():
         relative = file.relative_to(REPO).as_posix()
         target = out/'source'/relative; target.parent.mkdir(parents=True, exist_ok=True)
         target.write_bytes(file.read_bytes()); meta['source_sha256'][relative] = sha(file.read_bytes())
@@ -310,7 +316,7 @@ def main():
             results = {}
             for mode in pair['arm_order']:
                 arm = out/pair['pair_id']/mode; arm.mkdir(parents=True)
-                game = Game(pair, mode)
+                game = game_type(pair, mode)
                 arm_meta = {'pair_id': pair['pair_id'], 'mode': mode, 'status': 'prepared'}
                 write_json(arm/'manifest.json', arm_meta)
                 (arm/'schemas').mkdir()
@@ -346,8 +352,8 @@ def main():
                     print('Arm failed: '+failure, flush=True)
                 finally:
                     write_json(arm/'manifest.json', arm_meta)
-            comparisons.append(comparison(pair, results))
-            write_json(out/'comparisons.json', comparisons)
+            comparisons.append(compare(pair, results))
+            write_json(out/summary_file, comparisons)
         meta['status'] = ('dry_run_not_executed' if args.dry_run else
                           ('completed' if all(c['status'] == 'completed' for c in comparisons) else 'partial_failure'))
     except BaseException:
