@@ -1,0 +1,37 @@
+{
+  "records": 465,
+  "captured_occurrences": 903,
+  "exact_title_count": 455,
+  "normalized_title_count": 448,
+  "selected_list_coverage": {
+    "informed-recommender/codex-astra-medium-bing-002": 1,
+    "informed-recommender/codex-astra-medium-google-002": 1,
+    "competing-recommenders/codex-astra-medium-bing-first-002": 6,
+    "strategic-disclosure/codex-astra-medium-bing-first-001": 19,
+    "two-round-strategic-disclosure/codex-astra-medium-bing-first-001": 14
+  },
+  "ever_returned": 25,
+  "never_returned": 440,
+  "returned_within_budget": 25,
+  "never_returned_within_budget": 383,
+  "over_budget": 57,
+  "price_bands": {
+    "500_to_800": 78,
+    "100_to_below_300": 166,
+    "300_to_below_500": 148,
+    "above_800": 57,
+    "below_100": 16
+  },
+  "flags": {
+    "grinding_or_bean_to_cup_text": 316,
+    "milk_froth_or_steam_text": 292,
+    "pressure_marketing_15_or_20_bar": 216,
+    "title_truncated_flag": 99,
+    "merchant_aggregate_flag": 56,
+    "numeric_only_merchant_field": 2,
+    "alibaba_merchant_text": 38,
+    "sponsored": 148
+  },
+  "both_function_text": 254,
+  "never_returned_within_budget_both_function_text": 227
+}

@@ -96,6 +96,8 @@ All six main traces selected one machine. The lower spending in D and E does not
 
 The absence of additional items is partly a limitation of the opportunities presented. In E all 14 returned offers were machines, not complementary accessories or standalone grinders. The buyer assumed the selected integrated machine supplied required basics, and its prompt explicitly discouraged redundant machines or spending merely to exhaust the budget. The recommenders mainly tried to induce a more expensive replacement choice. These runs therefore provide little evidence about accessory cross-selling or expansion of a useful basket. Such a test would require complementary frozen offers and preferences that permit their incremental benefits to matter.
 
+A subsequent [catalog audit](../scenario-1-catalog-characterization/README.md) found that only 25 distinct records were ever returned across the five validated strategic games. Of the 440 never returned, 383 are within the budget on listed price. Small lists should therefore not be interpreted as proof that the rest of the catalog is irrelevant or inferior.
+
 ## Earlier evidence-policy experiments belong in a separate comparison
 
 Before the satisfaction brief, the buyer used a cost-first preference ordering. Changing its evidence policy produced large differences even without strategic recommender calls:

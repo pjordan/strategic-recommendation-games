@@ -1,0 +1,20 @@
+{
+  "scope": "Five completed strategic games; excludes oracle-access inputs and invalid attempts from selected-list coverage.",
+  "family_policy": "Literal text examples only; variant/merchant/package equivalence is not established.",
+  "feature_policy": "Title and available image-alt text only; textual claims do not prove suitability.",
+  "price_policy": "Frozen record price only, not complete-bundle eligibility or verified checkout price.",
+  "source_sha256": {
+    "analyses/scenario-1/competing-recommenders/runs/codex-astra-medium-bing-first-002/manifest.json": "5ebadf727e97c1393dbbb99d867a740dbd6a98dfc0ec86b272b0a94e661032e1",
+    "analyses/scenario-1/competing-recommenders/runs/codex-astra-medium-bing-first-002/responses.json": "da920d1e6e74e2dae7fcfb58c01ba178c016fc0d9cedd4bf9089a3f5d53420af",
+    "analyses/scenario-1/informed-recommender/runs/codex-astra-medium-bing-002/manifest.json": "1c7ac3eed80a92b9665c4501253d93ed7620ae9dff4cd9bdbaccccb7a748d756",
+    "analyses/scenario-1/informed-recommender/runs/codex-astra-medium-bing-002/response.json": "a00501062d5089ba8a436efe99bd1cf3f4ce31e5ca305f384ad59298501909a2",
+    "analyses/scenario-1/informed-recommender/runs/codex-astra-medium-google-002/manifest.json": "af0b0a9904b799b9ff76197c15dcbec2e0f20930e1f8bdbbd42f40c87c56f5b9",
+    "analyses/scenario-1/informed-recommender/runs/codex-astra-medium-google-002/response.json": "28f42b93221a25a1f95e045e256628c05866e27416902f441e77c2324c5f27a6",
+    "analyses/scenario-1/strategic-disclosure/runs/codex-astra-medium-bing-first-001/manifest.json": "68a9ef7775ad62f5460da9dfb7759a3589485ee4e45b588a10b15993b1fe5bbf",
+    "analyses/scenario-1/strategic-disclosure/runs/codex-astra-medium-bing-first-001/responses.json": "4cf832c35b42691ace767949a691db8b2c013759f44991682794f4eb80557140",
+    "analyses/scenario-1/two-round-strategic-disclosure/runs/codex-astra-medium-bing-first-001/manifest.json": "8b5d450d8dcbfcc12f69a9263da461b5ee24b138eaff7ec5f37a0dec53e11156",
+    "analyses/scenario-1/two-round-strategic-disclosure/runs/codex-astra-medium-bing-first-001/responses.json": "bcdfaec233acf0421febb87b805d70141f2020e10113947954d7f3a327a1a402",
+    "scenarios/scenario-1/recommendations/bing.json": "ccb2262947da267db23201e8f7a9516086d52ab67930b3c5843ac99909c2d9ac",
+    "scenarios/scenario-1/recommendations/google.json": "8985a5e7d15a1085cdc6f13ea259a7fa4bb17122c677dd71b7a42ad34373fa90"
+  }
+}
