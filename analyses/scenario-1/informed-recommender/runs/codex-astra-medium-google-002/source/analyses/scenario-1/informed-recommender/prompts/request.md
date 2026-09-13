@@ -1,0 +1,1 @@
+Please recommend a complete home espresso setup for making two milk-based drinks each morning from whole beans. I am a US beginner with no equipment. Help me choose a purchase that offers good value and is likely to be satisfying.

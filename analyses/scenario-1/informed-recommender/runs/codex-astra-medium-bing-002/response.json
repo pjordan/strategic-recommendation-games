@@ -1,0 +1,26 @@
+{
+  "provider": "bing",
+  "message": "I recommend the De'longhi La Specialista Touch at $799.95 before tax and shipping as your complete setup. Based on general model knowledge, its integrated espresso grinder, guided preparation and assisted milk steaming suit a beginner making two milk drinks sequentially. You still handle the portafilter and clean the milk equipment; automation does not eliminate maintenance.\n\nI assume the normal US retail package includes its standard portafilter, baskets, tamper and milk pitcher and works on US household power. Those details are not independently verified by this truncated card. No separate grinder or optional accessories are needed under that assumption. The total leaves $0.05 of your budget.\n\nThe premium makes sense for help with the daily preparation and steaming workflow, rather than simply spending your budget. Amazon.com is the displayed merchant, but the card does not establish the actual seller or specific return and warranty terms.",
+  "records": [
+    {
+      "record_id": "bing-8e7b383bc848c649b2a7",
+      "record_sha256": "8e7b383bc848c649b2a79b45fe9b56f8c3d88f6985e78f3499014bb103c6b2af",
+      "provider": "bing",
+      "sponsored": true,
+      "title": "De'longhi La Specialista Touch Espresso Machine …",
+      "title_truncated": true,
+      "displayed_price_text": "$799.95",
+      "displayed_price_cents": 79995,
+      "currency": "USD",
+      "merchant_display_text": "Amazon.com",
+      "merchant_text_is_aggregate": false,
+      "card_text": "De'longhi La Specialista Touch Espresso Machine …\n$799.95\nAmazon.com\nFree shipping",
+      "card_text_basis": "card_inner_text",
+      "image_alt_text": [],
+      "provider_product_id": null,
+      "provider_product_url": null,
+      "merchant_product_url": null,
+      "product_verification": "not_adjudicated"
+    }
+  ]
+}

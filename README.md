@@ -24,6 +24,7 @@ python3 tools/scenario.py context --role buyer --version 1.2.0
 
 ## Analyses
 
+- [Informed recommender with a restricted buyer](analyses/scenario-1/informed-recommender/README.md): separate Bing/Google sequential games, full preference knowledge, strategic response selection, and buyer purchase decisions.
 - [Oracle access to complete recommendations](analyses/scenario-1/oracle-access/README.md): game-theoretic reasoning, exact prompts, CLI/model run manifests, ranked choices, and reproduction commands.
 
 The frozen Scenario 1 manifest remains a data-only snapshot. Analysis conditions and results are versioned separately under `analyses/`.

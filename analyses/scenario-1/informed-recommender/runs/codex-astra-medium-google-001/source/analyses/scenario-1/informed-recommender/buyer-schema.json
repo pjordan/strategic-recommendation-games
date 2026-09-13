@@ -1,0 +1,108 @@
+{
+  "type": "object",
+  "properties": {
+    "selected_action": {
+      "type": "string",
+      "enum": [
+        "purchase",
+        "decline"
+      ]
+    },
+    "selected_record_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "purchase_value_cents": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "candidate_id": {
+            "type": "string"
+          },
+          "action": {
+            "type": "string",
+            "enum": [
+              "purchase",
+              "decline"
+            ]
+          },
+          "record_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "displayed_total_cents": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "preference_rank": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "qualification": {
+            "type": "string",
+            "enum": [
+              "qualifies",
+              "unestablished",
+              "fails",
+              "outside_option"
+            ]
+          },
+          "evidence_and_reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "candidate_id",
+          "action",
+          "record_ids",
+          "displayed_total_cents",
+          "preference_rank",
+          "qualification",
+          "evidence_and_reason"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "selected_outcome_reason": {
+      "type": "string"
+    },
+    "strategic_response": {
+      "type": "string"
+    },
+    "material_assumptions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "selected_action",
+    "selected_record_ids",
+    "purchase_value_cents",
+    "candidates",
+    "selected_outcome_reason",
+    "strategic_response",
+    "material_assumptions",
+    "limitations"
+  ],
+  "additionalProperties": false
+}

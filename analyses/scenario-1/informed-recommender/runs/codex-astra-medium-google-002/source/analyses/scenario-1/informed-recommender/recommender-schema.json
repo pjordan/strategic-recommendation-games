@@ -1,0 +1,80 @@
+{
+  "type": "object",
+  "properties": {
+    "selected_candidate_id": {
+      "type": "string"
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "properties": {
+          "candidate_id": {
+            "type": "string"
+          },
+          "ordered_record_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "message": {
+            "type": "string"
+          },
+          "predicted_buyer_action": {
+            "type": "string",
+            "enum": [
+              "purchase",
+              "decline"
+            ]
+          },
+          "predicted_purchased_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "predicted_purchase_value_cents": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "preference_rank": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "strategic_justification": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "candidate_id",
+          "ordered_record_ids",
+          "message",
+          "predicted_buyer_action",
+          "predicted_purchased_ids",
+          "predicted_purchase_value_cents",
+          "preference_rank",
+          "strategic_justification"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "selection_reason": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "selected_candidate_id",
+    "candidates",
+    "selection_reason",
+    "limitations"
+  ],
+  "additionalProperties": false
+}

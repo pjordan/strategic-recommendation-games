@@ -1,0 +1,38 @@
+{
+  "run_id": "codex-astra-medium-google-002",
+  "analysis_id": "scenario-1-informed-recommender",
+  "provider": "google",
+  "scenario_version": "1.2.0",
+  "scenario_manifest_sha256": "24dd1f5188bdb20006f36cad6a021985ba92a9d7f957e313a128bae4713cbb81",
+  "base_scenario_manifest_sha256": "623603b321759c470e5facaa6308c47f7334dc57f2eb3c551904be6d8d102f56",
+  "record_count": 186,
+  "status": "completed",
+  "harness": "codex",
+  "harness_version": "codex-cli 0.154.0",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort_requested": "medium",
+  "sampling_note": "No seed or temperature set; fresh samples need not reproduce choices.",
+  "started_at": "2026-09-13T05:11:30.026246+00:00",
+  "python_version": "3.9.6",
+  "os_family": "Darwin",
+  "buyer_access": "returned_list_only",
+  "repository_commit_at_start": "6d53fdf1406266eb7762909bb0efc908701a69e5",
+  "repository_dirty_at_start": true,
+  "source_sha256": {
+    "analyses/scenario-1/informed-recommender/run_game.py": "092a32f022c1f5f54a2d058ca571cc4dda29c716dbcf0a0962950e5d479a197d",
+    "analyses/scenario-1/oracle-access/run_model.py": "1d4ae87ce0e9fac52cee4cff1686152044552c9d1f358ae06929afdc8924eda9",
+    "tools/scenario.py": "4a849f382b775b8d67d85516c73312443dc4b63c7e6c29698e8775ccf2fa5525",
+    "analyses/scenario-1/informed-recommender/config.json": "5089519b2fbafd2dee3dc6b76c9d822134e1610a843fedf7bda56574172aa6a6",
+    "analyses/scenario-1/informed-recommender/recommender-schema.json": "002ca9a70ac0e68f199a46dfd85c040716f25571ec76de322af22fa79e31728d",
+    "analyses/scenario-1/informed-recommender/buyer-schema.json": "6dc454cb6104bd1f3ceecd071932a0b753dae92cff7b26ffe3467d85c3892ace",
+    "analyses/scenario-1/informed-recommender/prompts/buyer.md": "e105809bdd8e92eb62b96afcc47a64bdb72f2fcf045c937b45f5aa4afb26b32c",
+    "analyses/scenario-1/informed-recommender/prompts/recommender.md": "f8eb4f144bdad0fef75f3f6a3b03be9a25eb13dc7802e216fcfb5c5d3ea887ae",
+    "analyses/scenario-1/informed-recommender/prompts/request.md": "4b4ce176810f4aca16d17a22340e7fd63f0874a6ce30390965443271b9bfa874"
+  },
+  "artifacts_sha256": {
+    "response.json": "28f42b93221a25a1f95e045e256628c05866e27416902f441e77c2324c5f27a6",
+    "outcome.json": "eb691af96ca55f921beba53e29e2f4016d146c9ad89ed2003363b5922d2ae891",
+    "transcript.json": "5c0d4f419e28197763c64ca3c81cd37ca7f05f1b9b1cfcaf9ae680da3b12aa23"
+  },
+  "completed_at": "2026-09-13T05:12:53.649917+00:00"
+}

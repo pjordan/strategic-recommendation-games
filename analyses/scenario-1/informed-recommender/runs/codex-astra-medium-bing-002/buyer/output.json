@@ -1,0 +1,38 @@
+{
+  "selected_action": "purchase",
+  "selected_record_ids": ["bing-8e7b383bc848c649b2a7"],
+  "purchase_value_cents": 79995,
+  "candidates": [
+    {
+      "candidate_id": "la_specialista_touch",
+      "action": "purchase",
+      "record_ids": ["bing-8e7b383bc848c649b2a7"],
+      "displayed_total_cents": 79995,
+      "preference_rank": 1,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Under ordinary model and US-package assumptions, this integrated setup grinds beans for espresso, brews espresso and steams milk with the necessary basic accessories. Guided preparation and assisted steaming should make two sequential morning drinks approachable for a beginner, with a reasonable prospect of enjoyable, consistent results. Portafilter handling and milk-system cleaning remain necessary. The $799.95 total fits the budget. The sparse card and unidentified actual seller reduce confidence, but do not make this otherwise plausible offer unacceptable."
+    },
+    {
+      "candidate_id": "decline",
+      "action": "decline",
+      "record_ids": [],
+      "displayed_total_cents": 0,
+      "preference_rank": 2,
+      "qualification": "outside_option",
+      "evidence_and_reason": "Preserves $799.95 and avoids seller and equipment uncertainty, but leaves the user without a setup. The available purchase offers an acceptable prospect of satisfying the stated needs, so declining is less preferred."
+    }
+  ],
+  "selected_outcome_reason": "Purchase the La Specialista Touch. Its likely beginner-friendly workflow and complete functionality justify purchasing over having no setup, despite the substantial cost and incomplete seller information. This is the only available purchase; the evidence does not establish that its premium beats a cheaper alternative.",
+  "strategic_response": "The recommender supplied one sponsored, nearly budget-exhausting offer, preventing comparison with cheaper setups. I give no extra value to using the whole budget or to the sponsored placement. Its workflow argument is plausible under general model knowledge, but its message does not verify package contents or seller recourse. Amazon.com identifies the platform, not necessarily the seller; specific fulfillment, returns and warranty support remain unknown.",
+  "material_assumptions": [
+    "The truncated title identifies the standard De'Longhi La Specialista Touch, and the displayed price applies to that complete machine.",
+    "General model knowledge supports an integrated espresso-capable grinder, guided preparation and assisted milk steaming; these features are not independently established by the card.",
+    "The ordinary US retail package works on household power and includes its standard portafilter, baskets, tamping mechanism and milk pitcher.",
+    "General brand reputation provides some confidence in equipment dependability, but does not establish this unit's reliability or this seller's service."
+  ],
+  "limitations": [
+    "Only one product record is available; no alternative component bundle can be assembled.",
+    "The card provides no detailed specifications, actual seller identity, condition, return policy or warranty terms.",
+    "The budget margin is only five cents; the purchase depends on the standard package being complete."
+  ]
+}

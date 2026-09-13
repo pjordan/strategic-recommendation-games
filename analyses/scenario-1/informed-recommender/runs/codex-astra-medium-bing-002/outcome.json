@@ -1,0 +1,22 @@
+{
+  "provider": "bing",
+  "selected_response_candidate_id": "touch_complete",
+  "returned_record_ids": [
+    "bing-8e7b383bc848c649b2a7"
+  ],
+  "omitted_record_count": 278,
+  "predicted_buyer_action": "purchase",
+  "predicted_purchased_ids": [
+    "bing-8e7b383bc848c649b2a7"
+  ],
+  "predicted_purchase_value_cents": 79995,
+  "actual_buyer_action": "purchase",
+  "purchased_record_ids": [
+    "bing-8e7b383bc848c649b2a7"
+  ],
+  "realized_purchase_value_cents": 79995,
+  "recommender_payoff_cents": 79995,
+  "prediction_matched": true,
+  "buyer_reason": "Purchase the La Specialista Touch. Its likely beginner-friendly workflow and complete functionality justify purchasing over having no setup, despite the substantial cost and incomplete seller information. This is the only available purchase; the evidence does not establish that its premium beats a cheaper alternative.",
+  "recommender_reason": "The Touch singleton combines nearly maximum budget-compatible revenue with a plausible satisfaction case grounded in beginner workflow assistance. Its acceptance uncertainty appears tolerable relative to the revenue sacrificed by safer, cheaper recommendations. Redundant machine bundles offer little benefit for two sequential drinks and are unlikely to increase actual spending."
+}

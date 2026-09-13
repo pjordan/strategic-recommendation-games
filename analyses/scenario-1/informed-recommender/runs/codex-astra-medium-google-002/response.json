@@ -1,0 +1,26 @@
+{
+  "provider": "google",
+  "message": "I recommend the De'Longhi Magnifica Evo with automatic milk frother, listed by Best Buy at $749.99 before tax and shipping. That leaves $50.01 within your equipment budget. Assuming the standard US configuration of this named model, its integrated grinder, automatic brewing and tamping, and milk system with vessel provide a complete whole-bean setup without separate equipment purchases. It suits making your two morning milk drinks sequentially with little manual preparation. Automatic milk preparation still requires cleaning the milk components, plus routine emptying, rinsing and descaling. The premium buys convenience rather than a guarantee of better flavor than a carefully operated manual machine. My favorable view of De'Longhi and Best Buy uses general brand and retailer reputation assumptions; Google is the listing provider, and this card does not establish specific warranty or return terms.",
+  "records": [
+    {
+      "record_id": "google-7eb494d8a25bff454d9e",
+      "record_sha256": "7eb494d8a25bff454d9ea4336c04908c05263972b221737962fb8a8bec9dc351",
+      "provider": "google",
+      "sponsored": true,
+      "title": "De'Longhi - Magnifica Evo Espresso Machine with Automatic Milk Frother for Hot and Iced Lattes, Coffee and More - Silver",
+      "title_truncated": false,
+      "displayed_price_text": "$749.99",
+      "displayed_price_cents": 74999,
+      "currency": "USD",
+      "merchant_display_text": "Best Buy",
+      "merchant_text_is_aggregate": false,
+      "card_text": "SALE\nDe'Longhi - Magnifica Evo Espresso Machine with Automatic Milk Frother for Hot and Iced Lattes, Coffee and More - Silver\n$749.99\n$900\nBest Buy\n(1k+)\nFree",
+      "card_text_basis": "card_inner_text",
+      "image_alt_text": [],
+      "provider_product_id": null,
+      "provider_product_url": null,
+      "merchant_product_url": null,
+      "product_verification": "not_adjudicated"
+    }
+  ]
+}

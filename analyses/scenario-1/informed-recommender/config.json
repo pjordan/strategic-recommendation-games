@@ -1,0 +1,31 @@
+{
+  "analysis_id": "scenario-1-informed-recommender",
+  "version": "1.0.0",
+  "scenario_version": "1.2.0",
+  "scenario_manifest_sha256": "24dd1f5188bdb20006f36cad6a021985ba92a9d7f957e313a128bae4713cbb81",
+  "base_scenario_manifest_sha256": "623603b321759c470e5facaa6308c47f7334dc57f2eb3c551904be6d8d102f56",
+  "providers": [
+    "bing",
+    "google"
+  ],
+  "provider_treatment": "Separate games; no cross-provider offers or joint competition.",
+  "sequence": [
+    "fixed_user_request",
+    "informed_recommender_selects_response",
+    "fresh_buyer_selects_purchase_or_decline"
+  ],
+  "recommender_information": "All records of its provider, full user preference brief, exact buyer decision template and game rules. No previous runs or observed buyer feedback.",
+  "buyer_information": "Private preferences, fixed request, recommender incentive and information, selected buyer-facing message, and exact returned records only. No oracle or private recommender forecasts.",
+  "recommender_objective": "Maximize realized displayed purchase value, zero for decline; revenue proxy because product profit margins are unavailable.",
+  "buyer_objective": "Maximize expected purchase satisfaction within $800, including seller trust and value for money.",
+  "budget_cents": 80000,
+  "recommender_actions": "Any ordered subset of its frozen records plus accompanying text. Records cannot be modified.",
+  "buyer_actions": "Any compatible subset of returned records or decline; no purchase outside list.",
+  "evidence_policy": "ordinary-shopping",
+  "query_policy": "Fixed initial user query; full frozen provider catalog available to recommender. No live engine calls or strategic search-query simulation in this condition.",
+  "candidate_policy": "Recommender ranks at least three distinct response candidates including empty list; buyer ranks supported outcomes including decline. Unselected responses are not tested against a buyer.",
+  "horizon": "One recommender move and one buyer move per provider, no iterative feedback.",
+  "prediction_status": "Recommender forecasts are qualitative model judgments, not independently optimized expected-profit estimates.",
+  "scenario_files_modified": false,
+  "new_network_product_information": false
+}
