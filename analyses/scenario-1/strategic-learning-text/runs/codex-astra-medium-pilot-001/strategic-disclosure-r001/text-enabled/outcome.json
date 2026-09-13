@@ -1,0 +1,55 @@
+{
+  "buyer_action": "purchase",
+  "purchased_record_ids": [
+    "google-c1ac723b3479e478c13f"
+  ],
+  "purchase_value_cents": 44999,
+  "purchased_item_count": 1,
+  "provider_revenue_cents": {
+    "bing": 0,
+    "google": 44999
+  },
+  "unique_returned_count": 10,
+  "recommender_choices": [
+    {
+      "bing": {
+        "candidate_id": "balanced",
+        "ordered_record_ids": [
+          "bing-d2b74b50a379b8bf71a0",
+          "bing-43de8e4359ad1784cba0",
+          "bing-78a4158303ba5999efdb",
+          "bing-b79dd022ff37659d63c9"
+        ],
+        "message": "My leading choices are the $649.99 Breville Barista Express Impress at Target and the $599.99 Ninja Luxe Café Premier in Cyberspace at Best Buy. Buy one machine; these are alternative setups.\n\nThe Impress is the stronger choice if you want to learn espresso preparation and manual steaming. Its matched listing supports a 25-setting conical burr grinder, PID temperature control, a 54mm portafilter format, steam wand and 120V operation. These features support repeatable preparation, although enjoyable results still require dialing in your beans. The 15-bar pump and 9-bar extraction claims describe different things, not an inherent contradiction. Bing lists a two-year warranty; its terms and applicability are not established here.\n\nThe Ninja saves $50 and is particularly appealing for your morning workflow: its matched listing supports a 25-setting conical burr grinder and integrated scale, with hands-free frothing advertised. The copy also mentions manual frothing, which could indicate dual capability; the precise automatic operation is not fully resolved. Since manual steaming is acceptable to you, that uncertainty need not rule it out. I would expect similarly satisfying milk drinks for a beginner, with the scale helping dosing consistency; that is purchasing judgment, not a comparative performance test.\n\nFor larger savings, VEVOR's $349.99 fully automatic machine is listed by VEVOR itself, with 15 grind levels, automatic milk frothing and a removable milk reservoir supported by the matched page. The $189.99 CUSIMAX on Walmart has matched claims for a 20-setting conical burr grinder and steam wand. Both are plausible lower-cost routes, but equal consistency, durability and support to the leading choices are not established. Walmart identifies the marketplace here; the actual CUSIMAX seller is unknown.\n\nFor the leading retail kits, normal brewing accessories and a milk vessel are a reasonable standard-kit assumption, but the frozen evidence does not itemize their contents. US compatibility is explicit for the Impress and a reasonable US-retail assumption for the others. Each leaves budget headroom. Two drinks sequentially are a reasonable household-use expectation. Expect to clean milk-contact parts after use and perform periodic machine cleaning; automation does not eliminate that work. Exact seller identities and return terms are not independently established, including for the Target and Best Buy listings. My catalog contains no standalone grinder or accessory offers to add.",
+        "preference_rank": 1,
+        "strategic_justification": "Impress facts for PID, conical burr grinding and 120V support a credible higher-value sale; Ninja integrated_scale and burr_type support a strong $50-cheaper alternative despite qualified milk_system copy. VEVOR automatic_frothing_explicit and CUSIMAX burr_type provide fallback sales. This assortment trades some cannibalization for retention against plausible cheaper or easier rival setups; over-budget machines and weakly differentiated listings add little.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "bing-43de8e4359ad1784cba0"
+        ],
+        "predicted_own_revenue_cents": 59999
+      },
+      "google": {
+        "candidate_id": "balanced",
+        "ordered_record_ids": [
+          "google-ae16f17e37b151e3a9fd",
+          "google-c1ac723b3479e478c13f",
+          "google-0572500f0732845cad88",
+          "google-73d649a23e17eb409d3e",
+          "google-e6c59526c1b98a2fbc3c",
+          "google-bbbd53043c8ed53733ef"
+        ],
+        "message": "My leading choice is the $649.95 Breville Barista Express Impress. The matched Whole Latte Love page supports an integrated conical burr grinder with 25 settings, PID temperature control and manual steam wand. It covers grinding, brewing and steaming for sequential drinks. My preference for its espresso platform draws partly on general brand reputation, not comparative testing or a seller guarantee. Expect to learn grind adjustment and steaming, and to clean the coffee path and wipe/purge the wand.\n\nThe $449.99 Ninja Luxe Café Mini is the strongest less expensive alternative here: its matched ES301 page supports a conical burr grinder, integrated scale and manual steam wand. The scale should help repeat dosing. The page also claims automatic frothing, but that capability is unresolved; evaluate this offer as manual steaming. For your stated needs, it could provide similar satisfaction while saving $199.96.\n\nThe $329.99 Chefman Crema Supreme is a credible budget setup. Its matched page explicitly lists a conical burr grinder, steam wand, tamper, milk pitcher and 120V operation. Its basic accessory coverage is better documented here. I have less confidence in comparable long-term espresso consistency, based on broad reputation assumptions rather than evidence of a defect.\n\nFor automated preparation, the $729.95 Philips 3300 is an alternative: the matched Sur La Table page identifies LatteGo automatic milk frothing. Integrated bean-to-cup brewing is a general model-family assumption; the supplied details do not inventory its grinder or cleaning requirements. Automatic milk systems still require regular cleaning.\n\nComponent alternatives: the $299.95 Bambino from PC Richard & Son and $499.95 Bambino Plus are brewing/steaming machines requiring a separate espresso-suitable grinder. Their pages support 3-second heating claims; general model knowledge identifies automatic steaming as the Plus's useful upgrade. No standalone grinder is offered in my catalog, so these become complete setups only with compatible returned offers from the other provider, keeping the entire total under $800.\n\nThese are alternatives, not items to purchase together. Ordinary US retail compatibility and standard starter parts are reasonable assumptions for the mainstream machines, but exact accessory inventories are unconfirmed except where noted; a needed pitcher or other missing basic item must fit the complete budget. All listed merchant labels are aggregates: they do not establish the actual seller. The cards advertise 30-day returns for the Impress, Philips and both Bambinos, and 90-day returns for the Mini and Chefman; those are displayed claims, not independently verified recourse. Page matches likewise are not independent SKU verification.",
+        "preference_rank": 1,
+        "strategic_justification": "The Impress's integrated_grinder, grind_settings, pid_temperature_control and manual_frothing_explicit support a substantial acceptable sale. Mini integrated_scale and manual steaming preserve a competitive cheaper option despite unresolved automatic frothing. Chefman included tamper, milk_pitcher and voltage support a budget fallback. Bambino alternatives retain potential mixed-provider revenue; Philips automatic_frothing_explicit serves convenience preferences. This assortment trades some substitution risk for fewer lost purchases against plausible rival value or component offers.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "google-ae16f17e37b151e3a9fd"
+        ],
+        "predicted_own_revenue_cents": 64995
+      }
+    }
+  ],
+  "buyer_reason": "Choose the Ninja Mini for $449.99. Its supported grinding, dosing assistance and manual steaming best balance expected milk-drink satisfaction, beginner workflow and price. More expensive options offer potential convenience or confidence benefits, but the evidence does not justify their premiums for this user.",
+  "buyer_strategic_response": "Both recommenders led with an approximately $650 Impress, consistent with incentives to capture more purchase value, while also exposing cheaper alternatives. Their ordering does not establish user value. Google's Mini becomes the selected offer despite appearing second. No standalone grinder was returned, limiting useful cross-provider combinations; buying redundant integrated machines would not improve the supported outcome. The sealed replies provide no evidence of coordination or knowledge of rival offers, and omitted inventory cannot be assessed."
+}

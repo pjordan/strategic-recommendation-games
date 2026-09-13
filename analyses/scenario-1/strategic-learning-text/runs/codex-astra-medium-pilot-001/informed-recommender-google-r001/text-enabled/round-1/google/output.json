@@ -1,0 +1,52 @@
+{
+  "selected_candidate_id": "automatic_start",
+  "candidates": [
+    {
+      "candidate_id": "automatic_start",
+      "ordered_record_ids": ["google-90f95eb7a3aaf756914d"],
+      "message": "I recommend the De’Longhi Magnifica Start with Automatic Milk Frother at $769, leaving $31 under your equipment limit. Its matched product page identifies the fully automatic model and automatic milk frother. I reasonably interpret this established whole-bean automatic machine as providing grinding, brewing and milk preparation with built-in equivalents of the usual portafilter and tamping equipment; the supplied evidence does not itemize every component. For two successive morning milk drinks, this workflow should be approachable. Routine milk-system cleaning remains necessary. The card identifies Walmart marketplace seller ElectroCell, alongside aggregated alternatives—not necessarily Walmart itself—and does not specify return terms. That seller uncertainty is the main qualification to my recommendation.",
+      "preference_rank": 1,
+      "strategic_justification": "google-90f95eb7a3aaf756914d has matched-listing automatic_frothing_explicit evidence; the fully automatic page identity supports an ordinary whole-bean workflow interpretation, although grinding and accessory details are not separately established. At $769 this is the highest-priced credible complete option below budget. A focused list preserves that sale; ElectroCell seller uncertainty creates some refusal risk.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": ["google-90f95eb7a3aaf756914d"],
+      "predicted_own_revenue_cents": 76900
+    },
+    {
+      "candidate_id": "ninja_pro",
+      "ordered_record_ids": ["google-b063db752a738d4653f3"],
+      "message": "Consider the Ninja Luxe Café Pro at $749.95. Its matched page supports an integrated scale and steam wand, useful for repeatable preparation and milk drinks. Grinding and included accessories are not separately established in the supplied facts; interpreting this as the standard integrated Luxe Café Pro configuration is an assumption. The page also lists an unusual 650 W figure, so I would not use its electrical specifications as firm evidence. The card shows Crate & Barrel & more and 30-day returns, with the exact seller aggregated.",
+      "preference_rank": 2,
+      "strategic_justification": "google-b063db752a738d4653f3 integrated_scale and steam_wand_present support an approachable workflow. Grinding/accessory gaps and unusual power evidence weaken the configuration explanation somewhat. This could outperform the selected candidate with a buyer more concerned about ElectroCell, but earns slightly less when both are accepted.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": ["google-b063db752a738d4653f3"],
+      "predicted_own_revenue_cents": 74995
+    },
+    {
+      "candidate_id": "express_impress",
+      "ordered_record_ids": ["google-ae16f17e37b151e3a9fd"],
+      "message": "The Breville Barista Express Impress at $649.95 is a strong hands-on choice. Its matched page supports an integrated conical burr grinder with 25 settings, PID temperature control and manual steam wand. Manual milk preparation fits your preferences, and one machine covers the core functions. Standard operating accessories are a reasonable household-offer assumption, although the supplied facts do not enumerate them. Expect some learning and cleaning around grinding, brewing and steaming. The card lists Whole Latte Love & more and 30-day returns; it aggregates seller alternatives.",
+      "preference_rank": 3,
+      "strategic_justification": "google-ae16f17e37b151e3a9fd explicitly supports integrated_grinder, pid_temperature_control and manual_frothing_explicit. It offers persuasive functional fit and a broad Breville reputation prior, not a verified reliability guarantee. It may win with hands-on or value-focused acceptance behavior, but sacrifices $119.05 relative to an accepted selected offer.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": ["google-ae16f17e37b151e3a9fd"],
+      "predicted_own_revenue_cents": 64995
+    },
+    {
+      "candidate_id": "empty",
+      "ordered_record_ids": [],
+      "message": "",
+      "preference_rank": 4,
+      "strategic_justification": "The supplied facts establish plausible complete options, particularly google-ae16f17e37b151e3a9fd's grinder and steam wand. An empty list unnecessarily eliminates all purchase opportunities and yields zero revenue.",
+      "predicted_buyer_choice": "decline",
+      "predicted_own_purchased_ids": [],
+      "predicted_own_revenue_cents": 0
+    }
+  ],
+  "selection_reason": "Select the $769 automatic Start as the strongest expected revenue opportunity: it combines an affordable complete-machine interpretation with an approachable milk-drink workflow. Compared across plausible convenience-focused, seller-sensitive and hands-on buyer responses, its modest revenue advantage appears worth the seller-related acceptance risk. This is a qualitative forecast, not an established optimum.",
+  "limitations": [
+    "Matched pages and frozen cards are fallible; seller recourse, exact configuration and accessory completeness are not independently verified.",
+    "Ordinary model and category assumptions fill some gaps; missing specifications are not treated as absent functionality.",
+    "Google is the sole active provider under the explicit rules; no rival offers or observed buyer outcomes are available."
+  ],
+  "buyer_belief": "The complete brief establishes an $800 total ceiling, whole-bean espresso and milk preparation, acceptance of manual steaming, and willingness to pay for worthwhile convenience and dependability. Sequential drinks are acceptable; neither spending the budget nor minimizing price is the objective. I assume an established fully automatic machine will usually be acceptable despite ordinary specification omissions, while marketplace seller uncertainty can shift preference toward the Ninja or Breville alternatives. These behavioral expectations are assumptions, not observed choices."
+}

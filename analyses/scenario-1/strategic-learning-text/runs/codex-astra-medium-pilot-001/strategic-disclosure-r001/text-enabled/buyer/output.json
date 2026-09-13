@@ -1,0 +1,119 @@
+{
+  "selected_action": "purchase",
+  "selected_record_ids": ["google-c1ac723b3479e478c13f"],
+  "purchase_value_cents": 44999,
+  "candidates": [
+    {
+      "candidate_id": "ninja_mini",
+      "action": "purchase",
+      "record_ids": ["google-c1ac723b3479e478c13f"],
+      "displayed_total_cents": 44999,
+      "preference_rank": 1,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Reported matched-page claims support a conical burr grinder, integrated scale and manual steam wand. This offers an approachable, complete setup for sequential milk drinks at $449.99. Manual steaming is acceptable; automatic frothing is not assumed. Aggregate seller identity reduces confidence, but the available evidence supports an acceptable purchase."
+    },
+    {
+      "candidate_id": "ninja_premier",
+      "action": "purchase",
+      "record_ids": ["bing-43de8e4359ad1784cba0"],
+      "displayed_total_cents": 59999,
+      "preference_rank": 2,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Integrated grinding, scale and advertised hands-free frothing suit beginner workflow. The Best Buy label is less ambiguous than an aggregate, although the actual seller remains unverified. These advantages do not sufficiently justify $150 more than the Mini given unresolved automatic operation and no demonstrated drink-quality advantage."
+    },
+    {
+      "candidate_id": "impress_target",
+      "action": "purchase",
+      "record_ids": ["bing-d2b74b50a379b8bf71a0"],
+      "displayed_total_cents": 64999,
+      "preference_rank": 3,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Reported burr grinding, PID control, steam wand and explicit 120V support make a credible complete espresso setup. Broad espresso-brand reputation supports confidence, but superior results are not established. Its $200 premium over the Mini is not compelling for this beginner's milk drinks."
+    },
+    {
+      "candidate_id": "impress_aggregate",
+      "action": "purchase",
+      "record_ids": ["google-ae16f17e37b151e3a9fd"],
+      "displayed_total_cents": 64995,
+      "preference_rank": 4,
+      "qualification": "qualifies",
+      "evidence_and_reason": "A credible alternative listing for the Impress with similar expected functionality. Saving four cents does not offset the additional seller ambiguity of 'Whole Latte Love & more'; neither listing independently establishes recourse."
+    },
+    {
+      "candidate_id": "chefman",
+      "action": "purchase",
+      "record_ids": ["google-73d649a23e17eb409d3e"],
+      "displayed_total_cents": 32999,
+      "preference_rank": 5,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Reported page details explicitly cover burr grinding, steaming, tamper, pitcher and 120V operation. Strong budget value, but the Mini's scale offers useful dosing assistance, and broad reputation assumptions favor paying $120 more for it. Seller identity is unresolved."
+    },
+    {
+      "candidate_id": "philips",
+      "action": "purchase",
+      "record_ids": ["google-0572500f0732845cad88"],
+      "displayed_total_cents": 72995,
+      "preference_rank": 6,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Fully automatic brewing and reported LatteGo milk handling offer convenient preparation, assuming ordinary integrated bean grinding for this model family. At $279.96 above the Mini, convenience does not justify the premium for someone comfortable with manual steaming. Milk-system cleaning and aggregate seller uncertainty remain."
+    },
+    {
+      "candidate_id": "vevor",
+      "action": "purchase",
+      "record_ids": ["bing-78a4158303ba5999efdb"],
+      "displayed_total_cents": 34999,
+      "preference_rank": 7,
+      "qualification": "qualifies",
+      "evidence_and_reason": "The card and reported page support automatic grinding, brewing and milk preparation, with VEVOR named as merchant. Attractive convenience at a low price, but confidence in consistency, durability and support is weaker; these are uncertainties, not evidence of defects."
+    },
+    {
+      "candidate_id": "cusimax",
+      "action": "purchase",
+      "record_ids": ["bing-b79dd022ff37659d63c9"],
+      "displayed_total_cents": 18999,
+      "preference_rank": 8,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Integrated grinding and steaming are supported by the card and reported page. The exceptionally low price and unknown Walmart marketplace seller reduce expected purchase confidence without proving deception. Plausibly usable, but less attractive than paying for greater workflow and equipment confidence."
+    },
+    {
+      "candidate_id": "decline",
+      "action": "decline",
+      "record_ids": [],
+      "displayed_total_cents": 0,
+      "preference_rank": 9,
+      "qualification": "outside_option",
+      "evidence_and_reason": "Avoids expenditure and purchase risk, but several supported complete setups offer an acceptable prospect of satisfying the user's needs."
+    },
+    {
+      "candidate_id": "bambino_only",
+      "action": "purchase",
+      "record_ids": ["google-e6c59526c1b98a2fbc3c"],
+      "displayed_total_cents": 29995,
+      "preference_rank": 10,
+      "qualification": "fails",
+      "evidence_and_reason": "Brews and steams but lacks the required grinder. Neither provider returned a standalone grinder. Buying another complete machine solely to supply grinding adds redundant equipment without an established benefit."
+    },
+    {
+      "candidate_id": "bambino_plus_only",
+      "action": "purchase",
+      "record_ids": ["google-bbbd53043c8ed53733ef"],
+      "displayed_total_cents": 49995,
+      "preference_rank": 11,
+      "qualification": "fails",
+      "evidence_and_reason": "Automatic steaming may improve workflow, but this is still incomplete without espresso-suitable grinding. No supported standalone grinder is available, and pairing with another integrated machine has no established satisfaction advantage."
+    }
+  ],
+  "selected_outcome_reason": "Choose the Ninja Mini for $449.99. Its supported grinding, dosing assistance and manual steaming best balance expected milk-drink satisfaction, beginner workflow and price. More expensive options offer potential convenience or confidence benefits, but the evidence does not justify their premiums for this user.",
+  "strategic_response": "Both recommenders led with an approximately $650 Impress, consistent with incentives to capture more purchase value, while also exposing cheaper alternatives. Their ordering does not establish user value. Google's Mini becomes the selected offer despite appearing second. No standalone grinder was returned, limiting useful cross-provider combinations; buying redundant integrated machines would not improve the supported outcome. The sealed replies provide no evidence of coordination or knowledge of rival offers, and omitted inventory cannot be assessed.",
+  "material_assumptions": [
+    "Reported matched-page details are useful but fallible evidence, not independent verification.",
+    "Ordinary US household compatibility and standard starter accessories, including a milk vessel or built-in equivalent, are reasonable assumptions for these complete household offers unless explicitly supported already.",
+    "The Mini can prepare two drinks sequentially using manual steaming; unresolved automatic frothing contributes no assumed benefit.",
+    "Brand and retailer reputation inform qualitative confidence only; no product-specific durability advantage or seller guarantee is established."
+  ],
+  "limitations": [
+    "Actual sellers, exact variants, accessory inventories and applicable return terms are not fully established.",
+    "No comparative performance testing supports precise drink-quality or reliability differences.",
+    "The decision uses only returned offers and frozen displayed prices; no external verification or transaction occurred."
+  ]
+}

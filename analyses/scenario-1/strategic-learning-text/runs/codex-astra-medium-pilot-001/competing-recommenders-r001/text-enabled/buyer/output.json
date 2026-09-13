@@ -1,0 +1,73 @@
+{
+  "selected_action": "purchase",
+  "selected_record_ids": ["bing-d2b74b50a379b8bf71a0"],
+  "purchase_value_cents": 64999,
+  "candidates": [
+    {
+      "candidate_id": "breville_target",
+      "action": "purchase",
+      "record_ids": ["bing-d2b74b50a379b8bf71a0"],
+      "displayed_total_cents": 64999,
+      "preference_rank": 1,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Complete integrated espresso setup at $649.99. The card identifies a grinder and milk frother; the accompanying message reports PID control, a steam wand and 120 V operation. Expected espresso control and a broad Breville reputation prior justify the modest premium over the Ninja Premier. Manual steaming and grind adjustment require practice. The specific Target listing provides clearer seller attribution than the aggregated Breville offer."
+    },
+    {
+      "candidate_id": "breville_aggregated",
+      "action": "purchase",
+      "record_ids": ["google-ae16f17e37b151e3a9fd"],
+      "displayed_total_cents": 64995,
+      "preference_rank": 2,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Apparently the same core machine for $649.95, with reported page support for its grinder, PID control and steam wand. Expected drink quality and workflow are similar to the selected offer. Saving four cents does not compensate for the less definite seller attribution in 'Whole Latte Love & more'; the displayed return claim does not establish terms for an identified seller."
+    },
+    {
+      "candidate_id": "ninja_premier",
+      "action": "purchase",
+      "record_ids": ["bing-43de8e4359ad1784cba0"],
+      "displayed_total_cents": 59999,
+      "preference_rank": 3,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Strong value at $599.99 with a specifically named Best Buy listing. The grinder, scale and advertised hands-free frother promise an approachable morning workflow. Reported automatic/manual frothing ambiguity reduces confidence slightly without making the machine unsuitable. This is a close alternative, especially for convenience; I favor the Breville's expected espresso control and broad equipment reputation enough to pay $50 more."
+    },
+    {
+      "candidate_id": "philips_3300",
+      "action": "purchase",
+      "record_ids": ["google-0572500f0732845cad88"],
+      "displayed_total_cents": 72995,
+      "preference_rank": 4,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Fully automatic preparation and reported LatteGo milk handling offer convenient sequential drinks for $729.95. Whole-bean grinding and internal brewing accessories are reasonable format-based assumptions. Automation is useful, but its premium is less compelling when manual steaming is acceptable. Exact seller attribution and cleaning details remain uncertain."
+    },
+    {
+      "candidate_id": "ninja_pro",
+      "action": "purchase",
+      "record_ids": ["google-b063db752a738d4653f3"],
+      "displayed_total_cents": 74995,
+      "preference_rank": 5,
+      "qualification": "qualifies",
+      "evidence_and_reason": "A plausible complete setup at $749.95, relying on the reported scale and steam wand plus a model-format assumption of integrated grinding. No supplied evidence establishes a sufficiently valuable improvement over the $599.99 Premier for two morning milk drinks. Additional coffee modes have little demonstrated value here, and seller attribution is aggregated."
+    },
+    {
+      "candidate_id": "decline",
+      "action": "decline",
+      "record_ids": [],
+      "displayed_total_cents": 0,
+      "preference_rank": 6,
+      "qualification": "outside_option",
+      "evidence_and_reason": "Avoids spending but leaves the user without equipment despite several credible complete setups within budget."
+    }
+  ],
+  "selected_outcome_reason": "Select the $649.99 Target-listed Breville Impress, leaving $150.01 under budget. It offers the best expected balance of espresso capability, manageable beginner workflow, seller clarity and price. The cheaper Ninja Premier remains a close convenience-focused alternative.",
+  "strategic_response": "Both recommenders put a Breville first, which could steer spending above the cheaper Premier. Their agreement is not independent verification. Bing nevertheless exposes a credible cheaper option; Google's more expensive automation and Pro alternatives lack a decisive benefit for this user. Actual-seller clarity favors Bing's Breville offer over Google's four-cent saving. No returned cross-provider combination adds necessary capability: these are alternative complete machines, and every two-machine combination exceeds budget. Unseen omissions and alternative strategies cannot be assessed.",
+  "material_assumptions": [
+    "Credible US household offers include standard operating accessories and compatible electrical supply absent contrary evidence, including a milk vessel or built-in equivalent.",
+    "Breville's espresso-equipment reputation is a broad prior, not verified reliability or superior measured performance.",
+    "Fully automatic and familiar integrated-machine formats reasonably support the stated grinding and brewing assumptions.",
+    "Named retailers improve seller clarity but do not guarantee fulfillment or recourse."
+  ],
+  "limitations": [
+    "Cards are unverified; matched-page details are recommender-reported claims rather than independently inspected evidence.",
+    "Exact accessory inventories, seller-specific terms, durability and comparative drink performance are not established."
+  ]
+}

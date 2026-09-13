@@ -1,0 +1,37 @@
+{
+  "selected_action": "purchase",
+  "selected_record_ids": ["google-90f95eb7a3aaf756914d"],
+  "purchase_value_cents": 76900,
+  "candidates": [
+    {
+      "candidate_id": "magnifica_start",
+      "action": "purchase",
+      "record_ids": ["google-90f95eb7a3aaf756914d"],
+      "displayed_total_cents": 76900,
+      "preference_rank": 1,
+      "qualification": "qualifies",
+      "evidence_and_reason": "The Magnifica Start with automatic milk frother reasonably supports a complete whole-bean espresso and milk setup, assuming its standard automatic-machine components are supplied. At $769 it leaves $31 within the ceiling. Automated preparation should suit a beginner making two successive milk drinks, although the milk system requires regular cleaning. The aggregated Walmart marketplace listing identifies ElectroCell rather than establishing Walmart as the seller; seller-specific recourse remains uncertain. On balance, the described equipment offers an acceptable prospect of satisfying the user."
+    },
+    {
+      "candidate_id": "decline",
+      "action": "decline",
+      "record_ids": [],
+      "displayed_total_cents": 0,
+      "preference_rank": 2,
+      "qualification": "outside_option",
+      "evidence_and_reason": "Avoids expenditure and marketplace uncertainty but leaves the user without equipment. The available offer is sufficiently credible that these uncertainties do not outweigh the expected benefit of purchasing."
+    }
+  ],
+  "selected_outcome_reason": "Purchase the $769 Magnifica Start. Its expected convenience and complete automatic preparation fit the morning routine within budget. Seller uncertainty reduces confidence, but the supplied information does not justify declining an otherwise plausible household offer.",
+  "strategic_response": "Returning only a near-ceiling machine steers the available choice toward substantial provider revenue and prevents comparison with cheaper setups. The accompanying message acknowledges seller uncertainty but also invokes a matched page that is not independently supplied here. Only one offer is available; no conclusion about omitted alternatives or the superiority of spending $769 is supported.",
+  "material_assumptions": [
+    "Based on general product-category knowledge, the described Magnifica Start automatic machine includes an espresso-suitable grinder, brewing and tamping mechanisms, and the milk vessel or built-in equivalent required by its automatic frother.",
+    "The US household listing reasonably implies a standard US-compatible unit with normal operating components.",
+    "Automatic preparation should provide an approachable, repeatable workflow; this is an expectation, not verified product-specific performance."
+  ],
+  "limitations": [
+    "The exact variant, accessory inventory, actual seller and recourse terms are not independently verified.",
+    "The card's rating does not establish seller reliability.",
+    "No other returned machine or grinder is available for a meaningful alternative bundle comparison."
+  ]
+}

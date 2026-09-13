@@ -1,0 +1,46 @@
+{
+  "analysis_id": "scenario-1-two-round-strategic-disclosure",
+  "version": "1.0.0",
+  "scenario_version": "1.2.0",
+  "scenario_manifest_sha256": "24dd1f5188bdb20006f36cad6a021985ba92a9d7f957e313a128bae4713cbb81",
+  "base_scenario_manifest_sha256": "623603b321759c470e5facaa6308c47f7334dc57f2eb3c551904be6d8d102f56",
+  "providers": [
+    "bing",
+    "google"
+  ],
+  "provider_treatment": "Two competing providers; both replies committed before buyer observes each round. No within-round rival reply access.",
+  "sequence": [
+    "buyer_selects_separate_initial_messages",
+    "independent_round_1_recommender_replies",
+    "buyer_observes_both_and_selects_separate_followups",
+    "independent_round_2_recommender_replies",
+    "buyer_chooses_from_all_four_responses"
+  ],
+  "recommender_information": "Round 1: public scenario, generic rules, own catalog and addressed initial message. Round 2 adds own selected prior strategy/belief/response and addressed buyer follow-up with any buyer-selected unchanged first-round cards. Rival information only through that follow-up; no rival full catalog, private brief or rival round-2 reply.",
+  "buyer_information": "Initial planning: true brief and generic rules, no catalogs. Follow-up: true brief, selected initial plan and both round-1 public responses. Final: true brief, selected initial and follow-up plans and all four public responses.",
+  "recommender_objective": "Maximize own attributed purchase value under beliefs about the incompletely revealed buyer; no hidden-budget constraint is exposed through forecast validation.",
+  "buyer_objective": "Choose disclosures to improve expected user satisfaction, then choose a bundle by the unchanged true preferences and true $800 total budget. Disclosures do not replace or bind the private brief.",
+  "budget_cents": 80000,
+  "recommender_actions": "Each round, any ordered subset of own frozen records plus text. Round 2 may introduce previously omitted offers but cannot withdraw round-1 offers or change prices/records.",
+  "buyer_actions": "Truthful selective initial and follow-up messages, optional forwarding of observed first-round records, then any compatible subset of all returned lists or decline; true $800 total ceiling.",
+  "evidence_policy": "ordinary-shopping",
+  "query_policy": "Messages adapt catalog selection, not the underlying frozen search results. No live query or product verification.",
+  "candidate_policy": "Buyer ranks at least three initial plans and three follow-up plans; each recommender ranks at least three responses each round, including empty. Final buyer ranks purchase outcomes and decline.",
+  "horizon": "Two message/reply rounds, then one final purchase decision. Seven isolated model calls for three logical actors.",
+  "prediction_status": "Recommender forecasts are qualitative model judgments, not independently optimized expected-profit estimates.",
+  "scenario_files_modified": false,
+  "new_network_product_information": false,
+  "extends_analysis": "scenario-1-strategic-disclosure",
+  "payoff_attribution": "Sum frozen prices of selected records originating in each provider catalog. Selecting an offer credits only its originating provider; no duplicate credit for alternative listings of the same product.",
+  "duplicate_policy": "All four response lists preserved. Exact repeated record IDs deduplicated only for purchasing and payoff accounting, in first-appearance order. Different IDs remain alternative offers; no fuzzy product matching.",
+  "default_display_order": [
+    "bing",
+    "google"
+  ],
+  "display_order_policy": "Round 1 then round 2; within each round configurable Bing-first or Google-first provider blocks; original recommender ordering retained.",
+  "equilibrium_status": "One sampled disclosure/response/choice path; no calibrated beliefs, exhaustive deviations or Bayesian equilibrium claim.",
+  "disclosure_policy": "Truthful selective disclosure with separately addressed messages; may withhold budget or ask for nonbinding price tiers. No invented hard budget, needs, guarantees or competitor offers. Buyer may plan both messages jointly but recipients cannot see each other's message.",
+  "followup_policy": "Buyer may reveal additional true preferences and selectively share observed rival offers or accurately summarize rival messages. Optional shared_record_ids are materialized as unchanged observed round-1 cards. No fabricated quotes, commitments, hard constraints or seller evidence.",
+  "state_policy": "Fresh processes linked by explicitly selected prior state only. Recommenders receive own prior selected candidate, selection reason, belief and public response, not unselected plans. Buyer receives its selected plans/reasons and public history.",
+  "persistence_policy": "Every first-round offer remains available even if absent from round 2. Empty round-2 response does not withdraw previous offers; own forecasts may select previously returned own records."
+}

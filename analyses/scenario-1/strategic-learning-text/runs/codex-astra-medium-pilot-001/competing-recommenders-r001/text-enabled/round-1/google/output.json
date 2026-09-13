@@ -1,0 +1,52 @@
+{
+  "selected_candidate_id": "balanced",
+  "candidates": [
+    {
+      "candidate_id": "balanced",
+      "ordered_record_ids": [
+        "google-ae16f17e37b151e3a9fd",
+        "google-0572500f0732845cad88",
+        "google-b063db752a738d4653f3"
+      ],
+      "message": "My first choice is the $649.95 Breville Barista Express Impress: a complete core setup for whole-bean espresso and manually steamed milk, leaving $150.05 below your equipment limit. The matched Whole Latte Love page supports an integrated conical burr grinder with 25 settings, PID temperature control and a manual steam wand. Expect to learn grind adjustment and milk steaming, then prepare your two drinks sequentially. Standard operating accessories are a reasonable assumption for this household machine, although the supplied page evidence does not itemize them.\n\nThe $729.95 Philips 3300 is an alternative if you value more automation: its matched Sur La Table page identifies LatteGo automatic milk frothing. Its fully automatic format reasonably supports whole-bean preparation and built-in equivalents of manual brewing accessories; the supplied facts do not detail its grinder or cleaning routine.\n\nThe $749.95 Ninja Luxe Café Pro is another option. Its matched page supports an integrated scale and steam wand, plus drip coffee and cold brew. Those extras may help if you want broader coffee options, but do not alone justify paying more for your stated espresso routine. Its familiar model format supports an integrated-grinder assumption; the supplied facts do not establish its accessory inventory or automatic milk operation.\n\nBuy one of these alternatives. My preference for the Breville reflects its supported espresso features and price, with broad brand reputation used only as an assumption—not proof of durability. All three cards aggregate merchants, so the storefront names do not establish the actual seller or guarantee recourse. Page matches support the recommendations but are not independent verification of the exact offers.",
+      "preference_rank": 1,
+      "strategic_justification": "The Impress's integrated_grinder, PID and manual_frothing_explicit facts support a substantial acceptable sale. Philips 3300 automatic_frothing_explicit and Ninja Pro integrated_scale retain buyers who prioritize convenience. Cheaper Chefman Supreme has supported grinder, wand, tamper, pitcher and 120 V, but including it could displace the larger sale. Bambino lacks a grinder and this catalog offers no standalone grinder; premium machines exceed $800. This assortment balances acceptance against plausible rival value or convenience offers.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "google-ae16f17e37b151e3a9fd"
+      ],
+      "predicted_own_revenue_cents": 64995
+    },
+    {
+      "candidate_id": "premium_focus",
+      "ordered_record_ids": [
+        "google-b063db752a738d4653f3"
+      ],
+      "message": "Consider the Ninja Luxe Café Pro at $749.95. Its matched page supports an integrated scale, steam wand, drip coffee and cold brew. The scale may simplify repeatable dosing. An integrated grinder and ordinary operating accessories are reasonable model-format assumptions, although the supplied facts do not establish the grinder or accessory inventory. Automatic milk operation is also not established here. The card aggregates Crate & Barrel and other merchants; actual seller identity remains unresolved. This is a plausible complete household setup within $800, with useful versatility if you will use it.",
+      "preference_rank": 2,
+      "strategic_justification": "google-b063db752a738d4653f3 integrated_scale supports a workflow upgrade and a higher receipt. Its unusual 650 W page claim and unestablished grinding/accessory categories limit confidence without proving incompatibility. Omitting the Impress prevents internal substitution but risks losing the whole purchase to a rival's better-supported or cheaper setup.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "google-b063db752a738d4653f3"
+      ],
+      "predicted_own_revenue_cents": 74995
+    },
+    {
+      "candidate_id": "empty",
+      "ordered_record_ids": [],
+      "message": "",
+      "preference_rank": 3,
+      "strategic_justification": "Supported qualifying options exist, including the Impress and the Chefman Supreme with explicitly included tamper and pitcher. Withholding every offer sacrifices attainable revenue and likely sends this purchase-inclined buyer to the rival.",
+      "predicted_buyer_choice": "other_provider",
+      "predicted_own_purchased_ids": [],
+      "predicted_own_revenue_cents": 0
+    }
+  ],
+  "selection_reason": "The balanced assortment is my highest-ranked response: it preserves a credible $649.95 purchase and two larger alternatives across plausible rival strategies. The premium-only candidate earns more if accepted, but I expect its greater substitution and refusal risk to outweigh that advantage. These are qualitative expectations, not established counterfactual results.",
+  "limitations": [
+    "No rival catalog or response is visible; forecasts are uncertain.",
+    "Frozen page matches do not independently verify seller, exact variant, accessories or reliability.",
+    "Forecast revenue is the exact receipt for the predicted subset, not a probability-weighted estimate."
+  ],
+  "buyer_belief": "Evidence: $800 is a hard combined equipment cap; manual steaming and sequential drinks are acceptable. The buyer values consistency, approachable workflow, maintenance, dependability and seller confidence, and prefers lower cost when satisfaction is equivalent. Assumption: the Impress's supported features and broad reputation can justify its premium over budget machines. Rival behavior could emphasize low prices, automation or familiar equipment; none is observed."
+}

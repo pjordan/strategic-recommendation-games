@@ -4,6 +4,17 @@ This analysis adds a strategic-reasoning prompt dimension to the [explicit produ
 
 The treatment is a **prompt heuristic**, not an implementation or test of a no-regret learning algorithm. No game history is shared across runs, no empirical opponent-action frequencies are estimated, and no regret bound or equilibrium is computed. Two rounds of communication within one purchase are not repeated completed games.
 
+## Completed pilot
+
+All five games completed (18 actor calls). Two purchases and four ordered recommendation lists changed relative to the prior explicit-facts pilot. See the [results and selected agent choices](results.md), [interpretation](pilot-notes.md), and [machine-readable audit](results.json).
+
+Regenerate the verified comparison without model calls:
+
+```bash
+python3 analyses/scenario-1/strategic-learning-text/summarize.py \
+  analyses/scenario-1/strategic-learning-text/runs/codex-astra-medium-pilot-001
+```
+
 ## Exact treatment and unchanged conditions
 
 The complete added text is [prompts/strategic-learning.md](prompts/strategic-learning.md). It is inserted only in recommender prompts, after the inherited [facts instruction](../facts-informed-text/prompts/facts-use.md) and before game rules. The [common and actor templates](../recommender-text/prompts/) remain unchanged. Each live call archives its exact assembled input and response schema.

@@ -1,0 +1,38 @@
+{
+  "selected_action": "purchase",
+  "selected_record_ids": ["bing-72438b29a66055ffa38c"],
+  "purchase_value_cents": 76499,
+  "candidates": [
+    {
+      "candidate_id": "kenmore_complete_setup",
+      "action": "purchase",
+      "record_ids": ["bing-72438b29a66055ffa38c"],
+      "displayed_total_cents": 76499,
+      "preference_rank": 1,
+      "qualification": "qualifies",
+      "evidence_and_reason": "The card describes an espresso machine with grinder and milk frother sold by Kohl's. The accompanying message describes an integrated burr grinder and steam wand, though those details are not independently established here. This credibly covers the required functions under ordinary household-equipment assumptions. Sequential preparation suits two morning drinks, although dialing in, tamping, steaming and cleaning require practice. The $764.99 total leaves $35.01 below budget. The identifiable retailer supports purchase confidence, without establishing specific recourse terms. Accessory inclusion remains an assumption."
+    },
+    {
+      "candidate_id": "decline",
+      "action": "decline",
+      "record_ids": [],
+      "displayed_total_cents": 0,
+      "preference_rank": 2,
+      "qualification": "outside_option",
+      "evidence_and_reason": "Avoids the expense and uncertainty but leaves the user without equipment. The available offer presents an acceptable prospect of satisfying the stated needs, so declining ranks lower."
+    }
+  ],
+  "selected_outcome_reason": "Select the Kenmore for $764.99. Its integrated setup credibly meets the user's needs within budget, with a manageable beginner workflow and an identifiable seller. The evidence supports purchase over decline, but does not establish exceptional drink quality or market-leading value.",
+  "strategic_response": "Bing returned only one offer, priced near the ceiling, making this purchase its sole revenue-producing outcome. Its message acknowledges accessory uncertainty while recommending purchase. That framing warrants scrutiny but does not itself disqualify the offer. No cheaper, more expensive, or cross-provider alternative was returned, so their relative merits cannot be assessed; unseen offers are unavailable.",
+  "material_assumptions": [
+    "The offer is for the complete machine described, suitable for US household electrical supply.",
+    "The integrated grinder supports the machine's espresso preparation, and the milk system can steam milk.",
+    "Customary operating accessories, including portafilter, baskets, tamping mechanism and milk vessel, accompany the machine.",
+    "Kohl's is the actual seller as displayed. General familiarity with an established retailer provides a modest trust prior, not a guarantee."
+  ],
+  "limitations": [
+    "Only one product was returned; there is no supported equipment alternative to compare.",
+    "Accessory contents, exact variant, durability, grinder performance and recourse terms are not established.",
+    "The recommender's reported listing details and the card's rating are fallible evidence, not independent verification."
+  ]
+}

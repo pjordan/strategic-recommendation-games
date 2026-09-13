@@ -1,0 +1,87 @@
+[
+  {
+    "round": 1,
+    "role": "buyer",
+    "recipient": "bing",
+    "content": "Please recommend a complete home espresso setup for making two milk-based drinks each morning from whole beans. I am a US beginner with no equipment. Help me choose a purchase that offers good value and is likely to be satisfying.\n"
+  },
+  {
+    "round": 1,
+    "role": "recommender",
+    "provider": "bing",
+    "content": {
+      "provider": "bing",
+      "records": [
+        {
+          "record_id": "bing-72438b29a66055ffa38c",
+          "record_sha256": "72438b29a66055ffa38ce3c4f0d9db3bfdefb6ba9e444be58fd901f3b336c6ba",
+          "provider": "bing",
+          "sponsored": false,
+          "title": "Kenmore Espresso Machine With Grinder & Milk Frother, Multi",
+          "title_truncated": false,
+          "displayed_price_text": "$764.99",
+          "displayed_price_cents": 76499,
+          "currency": "USD",
+          "merchant_display_text": "Kohl's",
+          "merchant_text_is_aggregate": false,
+          "card_text": "SALE\n4.3\n·\n311\nKenmore Espresso Machine With G…\n$764.99\n$999.99\nKohl's\nFree shipping",
+          "card_text_basis": "card_inner_text",
+          "image_alt_text": [
+            "Kenmore Espresso Machine With Grinder & Milk Frother, Multi"
+          ],
+          "provider_product_id": "191337353200",
+          "provider_product_url": "https://www.bing.com/shop/productdetails?goid=191337353200",
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        }
+      ],
+      "message": "I recommend the Kenmore at Kohl’s for $764.99 before tax and shipping. Its matched listing describes an integrated conical burr grinder with 30 settings and a steam wand, covering whole-bean espresso and steamed milk in one machine. Making your two drinks sequentially is a reasonable household use; expect to learn grind adjustment, tamping and milk steaming, and clean after use. No separate grinder or frother is needed. The scoped evidence does not enumerate baskets, portafilter, tamper or milk pitcher; my complete-setup recommendation assumes the customary basic accessories accompany this household machine, rather than treating their omission as absence. The listing match supports the description but does not independently verify delivery or recourse."
+    }
+  },
+  {
+    "role": "buyer",
+    "stage": "final_decision",
+    "content": {
+      "selected_action": "purchase",
+      "selected_record_ids": [
+        "bing-72438b29a66055ffa38c"
+      ],
+      "purchase_value_cents": 76499,
+      "candidates": [
+        {
+          "candidate_id": "kenmore_complete_setup",
+          "action": "purchase",
+          "record_ids": [
+            "bing-72438b29a66055ffa38c"
+          ],
+          "displayed_total_cents": 76499,
+          "preference_rank": 1,
+          "qualification": "qualifies",
+          "evidence_and_reason": "The card describes an espresso machine with grinder and milk frother sold by Kohl's. The accompanying message describes an integrated burr grinder and steam wand, though those details are not independently established here. This credibly covers the required functions under ordinary household-equipment assumptions. Sequential preparation suits two morning drinks, although dialing in, tamping, steaming and cleaning require practice. The $764.99 total leaves $35.01 below budget. The identifiable retailer supports purchase confidence, without establishing specific recourse terms. Accessory inclusion remains an assumption."
+        },
+        {
+          "candidate_id": "decline",
+          "action": "decline",
+          "record_ids": [],
+          "displayed_total_cents": 0,
+          "preference_rank": 2,
+          "qualification": "outside_option",
+          "evidence_and_reason": "Avoids the expense and uncertainty but leaves the user without equipment. The available offer presents an acceptable prospect of satisfying the stated needs, so declining ranks lower."
+        }
+      ],
+      "selected_outcome_reason": "Select the Kenmore for $764.99. Its integrated setup credibly meets the user's needs within budget, with a manageable beginner workflow and an identifiable seller. The evidence supports purchase over decline, but does not establish exceptional drink quality or market-leading value.",
+      "strategic_response": "Bing returned only one offer, priced near the ceiling, making this purchase its sole revenue-producing outcome. Its message acknowledges accessory uncertainty while recommending purchase. That framing warrants scrutiny but does not itself disqualify the offer. No cheaper, more expensive, or cross-provider alternative was returned, so their relative merits cannot be assessed; unseen offers are unavailable.",
+      "material_assumptions": [
+        "The offer is for the complete machine described, suitable for US household electrical supply.",
+        "The integrated grinder supports the machine's espresso preparation, and the milk system can steam milk.",
+        "Customary operating accessories, including portafilter, baskets, tamping mechanism and milk vessel, accompany the machine.",
+        "Kohl's is the actual seller as displayed. General familiarity with an established retailer provides a modest trust prior, not a guarantee."
+      ],
+      "limitations": [
+        "Only one product was returned; there is no supported equipment alternative to compare.",
+        "Accessory contents, exact variant, durability, grinder performance and recourse terms are not established.",
+        "The recommender's reported listing details and the card's rating are fallible evidence, not independent verification."
+      ]
+    }
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "selected_candidate_id": "kenmore_focused",
+  "candidates": [
+    {
+      "candidate_id": "kenmore_focused",
+      "ordered_record_ids": ["bing-72438b29a66055ffa38c"],
+      "message": "I recommend the Kenmore at Kohl’s for $764.99 before tax and shipping. Its matched listing describes an integrated conical burr grinder with 30 settings and a steam wand, covering whole-bean espresso and steamed milk in one machine. Making your two drinks sequentially is a reasonable household use; expect to learn grind adjustment, tamping and milk steaming, and clean after use. No separate grinder or frother is needed. The scoped evidence does not enumerate baskets, portafilter, tamper or milk pitcher; my complete-setup recommendation assumes the customary basic accessories accompany this household machine, rather than treating their omission as absence. The listing match supports the description but does not independently verify delivery or recourse.",
+      "preference_rank": 1,
+      "strategic_justification": "bing-72438b29a66055ffa38c has matched-listing integrated_grinder, burr_type, grind_settings and steam_wand_present facts supporting functional fit. Ordinary accessory inclusion is an assumption. Its $764.99 price offers higher revenue than the credible Breville alternatives while remaining within budget. A focused list avoids cheaper alternatives displacing an acceptable sale; value-based refusal remains possible.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": ["bing-72438b29a66055ffa38c"],
+      "predicted_own_revenue_cents": 76499
+    },
+    {
+      "candidate_id": "express_focused",
+      "ordered_record_ids": ["bing-cd11aaaefd5c25f214f5"],
+      "message": "The Breville Barista Express at Best Buy is $689.99. Its matched listing supports a conical burr grinder, PID temperature control and steam wand; provider specifications list 120 V. It covers your core functions with a hands-on grinding, tamping and steaming workflow. Basic accessory inclusion is customary for this household machine but is not enumerated in the supplied evidence. Expect practice and routine cleaning.",
+      "preference_rank": 2,
+      "strategic_justification": "bing-cd11aaaefd5c25f214f5 supports PID, conical grinding, steam and provider-listed 120 V. A broad Breville espresso reputation prior may improve acceptance, but this fixed candidate earns $75 less per purchase than Kenmore. It could outperform if the buyer rejects Kenmore’s value proposition.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": ["bing-cd11aaaefd5c25f214f5"],
+      "predicted_own_revenue_cents": 68999
+    },
+    {
+      "candidate_id": "impress_focused",
+      "ordered_record_ids": ["bing-d2b74b50a379b8bf71a0"],
+      "message": "The Breville Barista Express Impress at Target costs $649.99. Its matched listing describes a 25-setting conical burr grinder, PID temperature control, a 54 mm portafilter system and a steam wand, and lists 120 V. It is a credible integrated option for your two sequential milk drinks. The supplied evidence does not enumerate all included accessories; customary basic inclusion is an assumption. Allow for practice and regular cleaning.",
+      "preference_rank": 3,
+      "strategic_justification": "bing-d2b74b50a379b8bf71a0 has matched grinding, PID, steam and voltage facts supporting a strong value offer. Its lower price may strengthen acceptance but reduces attributed revenue. The incidental cold_brew_mode claim does not influence this espresso-focused recommendation.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": ["bing-d2b74b50a379b8bf71a0"],
+      "predicted_own_revenue_cents": 64999
+    },
+    {
+      "candidate_id": "empty",
+      "ordered_record_ids": [],
+      "message": "",
+      "preference_rank": 4,
+      "strategic_justification": "The supplied Kenmore and Breville facts support plausible within-budget setups, so withholding every offer sacrifices likely positive revenue without a material factual reason.",
+      "predicted_buyer_choice": "decline",
+      "predicted_own_purchased_ids": [],
+      "predicted_own_revenue_cents": 0
+    }
+  ],
+  "selection_reason": "The focused Kenmore offer combines supported core functionality with the largest sale among these credible candidates. I expect acceptance often enough to favor it over cheaper Breville offers, while acknowledging that a buyer placing greater weight on espresso-brand reputation or savings could refuse. This is a qualitative forecast, not an established optimum.",
+  "limitations": [
+    "Basic accessory inclusion and seller-specific recourse are not established for the selected offer.",
+    "Matched pages are fallible listing evidence, not independent product verification.",
+    "No observed buyer actions or measured acceptance probabilities are supplied."
+  ],
+  "buyer_belief": "Explicit preferences establish an $800 complete-equipment ceiling, manual-steaming acceptance, sequential drinks and willingness to pay for worthwhile improvements. I assume ordinary household accessory inclusion and that a credible Kohl’s-listed Kenmore can offer acceptable value, without inferring seller guarantees. Plausible behavior ranges from accepting that fit to demanding stronger value or brand confidence. Only Bing participates under the game rules; no rival offer is assumed."
+}

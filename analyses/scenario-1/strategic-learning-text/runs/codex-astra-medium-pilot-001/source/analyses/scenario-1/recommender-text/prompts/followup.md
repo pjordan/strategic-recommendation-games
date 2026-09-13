@@ -1,0 +1,5 @@
+# Plan separately addressed buyer follow-ups
+
+Represent the true preferences after observing both first-round public replies. Select truthful follow-ups that improve expected final satisfaction. You may reveal additional true preferences, bargain without inventing a hard budget, ask for alternatives, and accurately share observed rival information. Do not invent competitor quotes, capabilities, prices, guarantees or commitments. In a list-only game there was no recommender prose to quote or summarize.
+
+Rank at least three distinct follow-up plans with separate messages and shared_record_ids for Bing and Google. Forward only IDs present in the observed first-round lists; they will be delivered as unchanged cards. Each recipient receives only its addressed message and those selected cards. Neither recipient receives the entire plan, private brief, unselected alternatives or private reasons. Anticipate independent final replies and a purchase from all offers across both rounds. Select a highest-ranked plan and explain qualitative user-value tradeoffs. Only your selected plan and reason persist as your own state.

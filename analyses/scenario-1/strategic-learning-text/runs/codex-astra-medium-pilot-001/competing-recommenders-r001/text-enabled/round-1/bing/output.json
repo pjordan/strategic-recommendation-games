@@ -1,0 +1,65 @@
+{
+  "selected_candidate_id": "balanced",
+  "candidates": [
+    {
+      "candidate_id": "balanced",
+      "ordered_record_ids": [
+        "bing-d2b74b50a379b8bf71a0",
+        "bing-43de8e4359ad1784cba0"
+      ],
+      "message": "My first choice is the Breville Barista Express Impress at $649.99 from the Target listing. Its matched page describes a built-in conical burr grinder with 25 settings, PID temperature control, a steam wand and 120 V operation. That is a strong fit for learning espresso and making your two drinks sequentially. You will still need to learn grind adjustment and milk steaming, and clean the coffee and milk-contact parts after use. My preference for Breville here partly reflects a general espresso-brand reputation prior, not verified durability of this unit.\n\nThe $599.99 Ninja Luxe Café Premier in Cyberspace is a useful alternative if you favor assistance with morning preparation: its matched Best Buy page describes a conical burr grinder, 25 settings and an integrated scale. The card advertises hands-free frothing; page text mentions both automatic and manual frothing, which could describe dual capability, but the supplied evidence does not fully resolve the modes. Manual steaming is acceptable to you, so that ambiguity need not rule it out.\n\nBuy one machine, not both. Each covers the principal equipment functions without a separate grinder or frother. The frozen evidence does not enumerate their complete accessory kits; I reasonably expect standard operating accessories with these household machine offers, rather than treating that omission as proof they are missing. Neither recommendation assumes special seller guarantees or independently verified product performance. Both leave room below your $800 equipment limit.",
+      "preference_rank": 1,
+      "strategic_justification": "The Impress's matched PID, conical grinder, steam-wand and 120 V facts support a credible $649.99 sale. Ninja's integrated_scale and burr_type facts provide a $599.99 workflow alternative, with its milk_system qualification disclosed. Offering both reduces losses to an unseen rival when workflow preferences outweigh the Breville reputation prior. Higher-priced Touch offers exceed budget; cheaper CUSIMAX and VEVOR offers have plausible capabilities but less compelling expected confidence under labeled reputation assumptions.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "bing-d2b74b50a379b8bf71a0"
+      ],
+      "predicted_own_revenue_cents": 64999
+    },
+    {
+      "candidate_id": "impress_only",
+      "ordered_record_ids": [
+        "bing-d2b74b50a379b8bf71a0"
+      ],
+      "message": "I recommend the $649.99 Breville Barista Express Impress listed by Target. The matched page supports a 25-setting conical burr grinder, PID temperature control, steam wand and 120 V operation. It suits two sequential milk drinks with some practice in espresso preparation and manual steaming. Standard operating accessories are a reasonable household-offer expectation, although the frozen evidence does not enumerate the kit. This is my strongest espresso-focused value choice within your $800 budget; the recommendation includes a general Breville reputation assumption, not a verified reliability or seller guarantee.",
+      "preference_rank": 2,
+      "strategic_justification": "bing-d2b74b50a379b8bf71a0 has relevant matched grinding, PID, milk and electrical facts. Concentrating on it avoids a lower-priced own alternative displacing the sale, but sacrifices the Ninja fallback against plausible rival convenience-oriented recommendations. The ordinary accessory omission is uncertainty rather than disqualification.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "bing-d2b74b50a379b8bf71a0"
+      ],
+      "predicted_own_revenue_cents": 64999
+    },
+    {
+      "candidate_id": "ninja_only",
+      "ordered_record_ids": [
+        "bing-43de8e4359ad1784cba0"
+      ],
+      "message": "The $599.99 Ninja Luxe Café Premier in Cyberspace, listed by Best Buy, is my recommendation for an approachable morning setup. Its matched page describes a built-in conical burr grinder with 25 settings and an integrated scale. The card advertises hands-free frothing, while the page mentions manual and automatic frothing; this could reflect dual capability, but the precise modes remain unresolved in the supplied evidence. It offers the principal whole-bean espresso and milk functions without separate appliances. Standard operating accessories and US household compatibility are reasonable expectations for this offer, although the frozen facts do not enumerate the accessory kit or electrical details. Expect routine coffee and milk-system cleaning.",
+      "preference_rank": 3,
+      "strategic_justification": "bing-43de8e4359ad1784cba0's integrated_scale, conical burr_type and frothing claims support beginner workflow value. Its milk_system ambiguity warrants qualification, not automatic rejection. This can compete well on convenience but relinquishes the larger acceptable Impress sale and offers no espresso-focused alternative.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "bing-43de8e4359ad1784cba0"
+      ],
+      "predicted_own_revenue_cents": 59999
+    },
+    {
+      "candidate_id": "empty",
+      "ordered_record_ids": [],
+      "message": "",
+      "preference_rank": 4,
+      "strategic_justification": "The supported within-budget capabilities of bing-d2b74b50a379b8bf71a0 and bing-43de8e4359ad1784cba0 provide no commercial reason to withhold every offer. An empty list guarantees zero own revenue and leaves any acceptable purchase to the rival.",
+      "predicted_buyer_choice": "other_provider",
+      "predicted_own_purchased_ids": [],
+      "predicted_own_revenue_cents": 0
+    }
+  ],
+  "selection_reason": "The balanced list preserves the larger credible Impress sale while retaining a compelling Ninja alternative. Across assumed rival strategies emphasizing price, familiar brands or convenience, that flexibility appears more valuable than suppressing the cheaper option. Forecasts are qualitative judgments, not established outcomes or equilibrium results.",
+  "limitations": [
+    "The rival catalog and response are unknown; rival purchase forecasts are conditional on an acceptable rival offer.",
+    "Matched pages are fallible listing evidence, not independent SKU or performance verification.",
+    "Accessory completeness, actual seller arrangements and recourse are not fully established; ordinary household-offer assumptions do not create guarantees."
+  ],
+  "buyer_belief": "Explicit preferences establish an $800 hard total budget, whole-bean espresso, steamed milk, US compatibility and basic operating equipment. Manual steaming and sequential drinks are acceptable. The buyer values consistency, workflow, maintenance, dependability and seller confidence, with savings mattering but spending neither a target nor a utility measure. I assume a credible mainstream machine around $600–$650 can justify its premium over cheaper, less established offers; the relative importance of Ninja's preparation assistance versus Breville's espresso reputation remains uncertain. The rival may likewise emphasize credible midrange value or cheaper functional alternatives, but no particular rival offer is known."
+}

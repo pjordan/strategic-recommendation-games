@@ -1,0 +1,123 @@
+[
+  {
+    "case_id": "informed-recommender-bing-r001",
+    "condition": "informed-recommender",
+    "providers": [
+      "bing"
+    ],
+    "replicate": 1,
+    "display_order": "bing-first",
+    "status": "completed",
+    "outcome": {
+      "buyer_action": "purchase",
+      "purchased_record_ids": [
+        "bing-72438b29a66055ffa38c"
+      ],
+      "purchase_value_cents": 76499,
+      "purchased_item_count": 1,
+      "provider_revenue_cents": {
+        "bing": 76499
+      },
+      "unique_returned_count": 1,
+      "buyer_reason": "Select the Kenmore for $764.99. Its integrated setup credibly meets the user's needs within budget, with a manageable beginner workflow and an identifiable seller. The evidence supports purchase over decline, but does not establish exceptional drink quality or market-leading value."
+    }
+  },
+  {
+    "case_id": "informed-recommender-google-r001",
+    "condition": "informed-recommender",
+    "providers": [
+      "google"
+    ],
+    "replicate": 1,
+    "display_order": "bing-first",
+    "status": "completed",
+    "outcome": {
+      "buyer_action": "purchase",
+      "purchased_record_ids": [
+        "google-90f95eb7a3aaf756914d"
+      ],
+      "purchase_value_cents": 76900,
+      "purchased_item_count": 1,
+      "provider_revenue_cents": {
+        "google": 76900
+      },
+      "unique_returned_count": 1,
+      "buyer_reason": "Purchase the $769 Magnifica Start. Its expected convenience and complete automatic preparation fit the morning routine within budget. Seller uncertainty reduces confidence, but the supplied information does not justify declining an otherwise plausible household offer."
+    }
+  },
+  {
+    "case_id": "competing-recommenders-r001",
+    "condition": "competing-recommenders",
+    "providers": [
+      "bing",
+      "google"
+    ],
+    "replicate": 1,
+    "display_order": "bing-first",
+    "status": "completed",
+    "outcome": {
+      "buyer_action": "purchase",
+      "purchased_record_ids": [
+        "bing-d2b74b50a379b8bf71a0"
+      ],
+      "purchase_value_cents": 64999,
+      "purchased_item_count": 1,
+      "provider_revenue_cents": {
+        "bing": 64999,
+        "google": 0
+      },
+      "unique_returned_count": 5,
+      "buyer_reason": "Select the $649.99 Target-listed Breville Impress, leaving $150.01 under budget. It offers the best expected balance of espresso capability, manageable beginner workflow, seller clarity and price. The cheaper Ninja Premier remains a close convenience-focused alternative."
+    }
+  },
+  {
+    "case_id": "strategic-disclosure-r001",
+    "condition": "strategic-disclosure",
+    "providers": [
+      "bing",
+      "google"
+    ],
+    "replicate": 1,
+    "display_order": "bing-first",
+    "status": "completed",
+    "outcome": {
+      "buyer_action": "purchase",
+      "purchased_record_ids": [
+        "google-c1ac723b3479e478c13f"
+      ],
+      "purchase_value_cents": 44999,
+      "purchased_item_count": 1,
+      "provider_revenue_cents": {
+        "bing": 0,
+        "google": 44999
+      },
+      "unique_returned_count": 10,
+      "buyer_reason": "Choose the Ninja Mini for $449.99. Its supported grinding, dosing assistance and manual steaming best balance expected milk-drink satisfaction, beginner workflow and price. More expensive options offer potential convenience or confidence benefits, but the evidence does not justify their premiums for this user."
+    }
+  },
+  {
+    "case_id": "two-round-strategic-disclosure-r001",
+    "condition": "two-round-strategic-disclosure",
+    "providers": [
+      "bing",
+      "google"
+    ],
+    "replicate": 1,
+    "display_order": "bing-first",
+    "status": "completed",
+    "outcome": {
+      "buyer_action": "purchase",
+      "purchased_record_ids": [
+        "google-c1ac723b3479e478c13f"
+      ],
+      "purchase_value_cents": 44999,
+      "purchased_item_count": 1,
+      "provider_revenue_cents": {
+        "bing": 0,
+        "google": 44999
+      },
+      "unique_returned_count": 15,
+      "buyer_reason": "Select the Ninja Mini for $449.99, leaving $350.01 below the ceiling. It offers a credible complete manual-steaming setup and integrated weighing that should make repeat dosing more approachable. That practical benefit narrowly justifies $120 over the well-documented Chefman Supreme. More expensive choices offer worthwhile controls or automation, but their likely benefits do not outweigh their premiums for this user's two sequential milk drinks."
+    }
+  }
+]
