@@ -1,0 +1,34 @@
+[
+  {
+    "round": 1,
+    "responses": [
+      {
+        "provider": "bing",
+        "records": [
+          {
+            "record_id": "bing-72438b29a66055ffa38c",
+            "record_sha256": "72438b29a66055ffa38ce3c4f0d9db3bfdefb6ba9e444be58fd901f3b336c6ba",
+            "provider": "bing",
+            "sponsored": false,
+            "title": "Kenmore Espresso Machine With Grinder & Milk Frother, Multi",
+            "title_truncated": false,
+            "displayed_price_text": "$764.99",
+            "displayed_price_cents": 76499,
+            "currency": "USD",
+            "merchant_display_text": "Kohl's",
+            "merchant_text_is_aggregate": false,
+            "card_text": "SALE\n4.3\n·\n311\nKenmore Espresso Machine With G…\n$764.99\n$999.99\nKohl's\nFree shipping",
+            "card_text_basis": "card_inner_text",
+            "image_alt_text": [
+              "Kenmore Espresso Machine With Grinder & Milk Frother, Multi"
+            ],
+            "provider_product_id": "191337353200",
+            "provider_product_url": "https://www.bing.com/shop/productdetails?goid=191337353200",
+            "merchant_product_url": null,
+            "product_verification": "not_adjudicated"
+          }
+        ]
+      }
+    ]
+  }
+]

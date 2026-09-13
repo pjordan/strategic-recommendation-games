@@ -1,0 +1,97 @@
+{
+  "type": "object",
+  "properties": {
+    "selected_candidate_id": {
+      "type": "string"
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "properties": {
+          "candidate_id": {
+            "type": "string"
+          },
+          "messages": {
+            "type": "object",
+            "properties": {
+              "bing": {
+                "type": "string"
+              },
+              "google": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "bing",
+              "google"
+            ],
+            "additionalProperties": false
+          },
+          "preference_rank": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "disclosure_and_withholding": {
+            "type": "string"
+          },
+          "anticipated_recommender_behavior": {
+            "type": "string"
+          },
+          "expected_user_value_tradeoff": {
+            "type": "string"
+          },
+          "shared_record_ids": {
+            "type": "object",
+            "properties": {
+              "bing": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "google": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "bing",
+              "google"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "candidate_id",
+          "messages",
+          "preference_rank",
+          "disclosure_and_withholding",
+          "anticipated_recommender_behavior",
+          "expected_user_value_tradeoff",
+          "shared_record_ids"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "selection_reason": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "selected_candidate_id",
+    "candidates",
+    "selection_reason",
+    "limitations"
+  ],
+  "additionalProperties": false
+}

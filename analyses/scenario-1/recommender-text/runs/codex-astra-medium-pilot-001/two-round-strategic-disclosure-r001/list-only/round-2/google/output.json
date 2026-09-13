@@ -1,0 +1,54 @@
+{
+  "selected_candidate_id": "google_r2_expand",
+  "candidates": [
+    {
+      "candidate_id": "google_r2_expand",
+      "ordered_record_ids": [
+        "google-18c983a8c06618560292",
+        "google-0572500f0732845cad88",
+        "google-ae16f17e37b151e3a9fd",
+        "google-3210de58f63aae1163cd",
+        "google-73d649a23e17eb409d3e"
+      ],
+      "preference_rank": 1,
+      "strategic_justification": "Adds the $499.99 Ninja Mini Plus with explicit AutoFroth wording, creating a plausible lower-cost competitor to Bing's Premier. Retains automatic and established integrated alternatives. Its exact configuration and included vessel remain uncertain.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "google-18c983a8c06618560292"
+      ],
+      "predicted_own_revenue_cents": 49999
+    },
+    {
+      "candidate_id": "google_r2_automatic_emphasis",
+      "ordered_record_ids": [
+        "google-0572500f0732845cad88",
+        "google-3210de58f63aae1163cd",
+        "google-ae16f17e37b151e3a9fd"
+      ],
+      "preference_rank": 2,
+      "strategic_justification": "Emphasizes the Philips automatic workflow and credible manual-steaming alternatives. A Philips purchase yields more revenue, but the premium over Bing's Premier and absence of meaningful new choices make conversion less likely.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "google-0572500f0732845cad88"
+      ],
+      "predicted_own_revenue_cents": 72995
+    },
+    {
+      "candidate_id": "google_r2_empty",
+      "ordered_record_ids": [],
+      "preference_rank": 3,
+      "strategic_justification": "Earlier Google offers remain purchasable, but an empty response adds no alternative to the explicitly described Bing Premier. Bing appears better positioned to capture the purchase.",
+      "predicted_buyer_choice": "other_provider",
+      "predicted_own_purchased_ids": [],
+      "predicted_own_revenue_cents": 0
+    }
+  ],
+  "selection_reason": "The expansion offers the strongest plausible purchase opportunity against the disclosed Bing alternatives. Its lower conditional revenue is offset by a more competitive price and explicit frothing language; this is a qualitative forecast, not an established outcome.",
+  "limitations": [
+    "The catalog contains no standalone grinder or standalone milk-vessel cards, so those requested additions cannot be supplied.",
+    "The Mini Plus card does not explicitly establish grinding or included accessories; the frozen page match failed on color variant.",
+    "Aggregate merchant labels and displayed return claims do not independently establish the actual seller or recourse.",
+    "Only the two rival cards disclosed in the follow-up are known; all first-round offers persist."
+  ],
+  "buyer_belief": "Evidence: the buyer values complete equipment, seller confidence, approachable milk-drink preparation and lower-cost alternatives within $800; extra coffee modes add no stated value. The follow-up favors clearer functionality and meaningful additions. Assumption: the Mini Plus family plausibly includes integrated grinding and a suitable frothing vessel, but this is not established by its frozen card. Broad brand familiarity may help, while unresolved configuration details may instead favor Bing's more explicit Premier offer."
+}

@@ -1,0 +1,36 @@
+{
+  "selected_action": "purchase",
+  "selected_record_ids": ["bing-72438b29a66055ffa38c"],
+  "purchase_value_cents": 76499,
+  "candidates": [
+    {
+      "candidate_id": "kenmore_setup",
+      "action": "purchase",
+      "record_ids": ["bing-72438b29a66055ffa38c"],
+      "displayed_total_cents": 76499,
+      "preference_rank": 1,
+      "qualification": "qualifies",
+      "evidence_and_reason": "The Kenmore listing at Kohl’s describes an espresso machine with a grinder and milk frother. The accompanying message reports a conical burr grinder and steam wand, supporting the required functions, although those details are not independently established. At $764.99, the integrated setup plausibly offers an approachable starting point for two sequential milk drinks, with practice and routine cleaning. Kohl’s is the displayed merchant, providing some seller-confidence benefit under a broad retailer reputation assumption. Evidence does not establish exceptional drink consistency or durability."
+    },
+    {
+      "candidate_id": "decline",
+      "action": "decline",
+      "record_ids": [],
+      "displayed_total_cents": 0,
+      "preference_rank": 2,
+      "qualification": "outside_option",
+      "evidence_and_reason": "Avoids spending and product uncertainty but leaves the user without equipment. The available household offer provides a sufficiently credible prospect of meeting the stated needs to prefer purchasing."
+    }
+  ],
+  "selected_outcome_reason": "Purchase the Kenmore setup for $764.99, leaving $35.01 below the ceiling. Its represented functions meet the needs under ordinary household-package assumptions, and the expected usefulness outweighs declining. This is the best supported available outcome, not an established market-wide best value.",
+  "strategic_response": "Bing returned only one offer near the budget ceiling, so a purchase attributes the entire $764.99 to its record. Its message emphasizes functional completeness and budget headroom, consistent with encouraging that purchase. The restricted selection prevents comparison with cheaper or higher-quality alternatives; no unseen offer can be assumed available or superior.",
+  "material_assumptions": [
+    "The integrated grinder is suitable for the machine’s espresso brewing, and the milk frother supports actual milk steaming as represented.",
+    "This US household offer includes standard operating accessories, including portafilter, baskets, tamping provision and milk vessel, and uses compatible US power. Ordinary omissions do not defeat qualification.",
+    "Kohl’s is the actual seller as the nonaggregate merchant field suggests. General retailer familiarity supports some confidence but does not establish a specific return policy or warranty."
+  ],
+  "limitations": [
+    "Only one record was returned; no distinct cheaper, more expensive or cross-provider setup is available for comparison.",
+    "Accessory contents, voltage, grinder adjustment quality, reliability and recourse terms are not explicitly established. The recommender’s page summary is a claim, not independent verification."
+  ]
+}

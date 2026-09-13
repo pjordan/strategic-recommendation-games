@@ -1,0 +1,53 @@
+{
+  "selected_candidate_id": "bing_r2_a",
+  "candidates": [
+    {
+      "candidate_id": "bing_r2_a",
+      "ordered_record_ids": [
+        "bing-43de8e4359ad1784cba0",
+        "bing-d2b74b50a379b8bf71a0"
+      ],
+      "preference_rank": 1,
+      "strategic_justification": "Emphasize the competitive Ninja workflow and retain the Impress alternative. No standalone grinder or accessory cards exist in this catalog to complete the addressed separate setups. These integrated offers provide the strongest plausible route to retaining the purchase.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "bing-43de8e4359ad1784cba0"
+      ],
+      "predicted_own_revenue_cents": 59999
+    },
+    {
+      "candidate_id": "bing_r2_b",
+      "ordered_record_ids": [
+        "bing-d2b74b50a379b8bf71a0",
+        "bing-43de8e4359ad1784cba0",
+        "bing-78a4158303ba5999efdb"
+      ],
+      "preference_rank": 2,
+      "strategic_justification": "Give the higher-value Impress first position while preserving Ninja and a cheaper automatic alternative. The buyer may still favor Ninja usability; the VEVOR offers savings but has less established dependability under a broad reputation assumption.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "bing-43de8e4359ad1784cba0"
+      ],
+      "predicted_own_revenue_cents": 59999
+    },
+    {
+      "candidate_id": "bing_r2_c",
+      "ordered_record_ids": [],
+      "preference_rank": 3,
+      "strategic_justification": "Adds no offers because the requested standalone components are unavailable. Prior integrated offers persist and could still win, but an empty response provides no renewed emphasis against Google's final alternatives.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "bing-43de8e4359ad1784cba0"
+      ],
+      "predicted_own_revenue_cents": 59999
+    }
+  ],
+  "selection_reason": "Candidate A most clearly emphasizes the integrated option likely to satisfy this beginner while retaining the higher-priced Impress. Its expected revenue advantage is qualitative and uncertain; list order may have little effect because earlier offers persist.",
+  "limitations": [
+    "Google's final response and remaining catalog are unknown; a suitable grinder could make its separate setups more attractive.",
+    "Included accessories and actual seller recourse are not exhaustively established. Marketplace identity alone does not establish the seller.",
+    "Ninja page claims describe both manual and automatic frothing; these claims alone do not resolve automatic operation.",
+    "Forecasts assume ordinary US retail compatibility and standard included equipment where credible, without treating those assumptions as verified listing facts."
+  ],
+  "buyer_belief": "Evidence: the buyer retains an $800 complete-setup ceiling, explicitly considers Ninja and Impress competitive, and requires separate components to justify additional workflow. Assumption: Ninja's advertised grinder, scale and hands-free frother make its $599.99 offer especially appealing for two morning milk drinks. Broad brand and retailer reputation priors favor the recognizable integrated alternatives, but the buyer's exact tradeoffs remain unknown."
+}

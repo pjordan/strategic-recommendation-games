@@ -1,0 +1,31 @@
+{
+  "buyer_action": "purchase",
+  "purchased_record_ids": [
+    "google-90f95eb7a3aaf756914d"
+  ],
+  "purchase_value_cents": 76900,
+  "purchased_item_count": 1,
+  "provider_revenue_cents": {
+    "google": 76900
+  },
+  "unique_returned_count": 1,
+  "recommender_choices": [
+    {
+      "google": {
+        "candidate_id": "google_r1_a",
+        "ordered_record_ids": [
+          "google-90f95eb7a3aaf756914d"
+        ],
+        "preference_rank": 1,
+        "strategic_justification": "The $769 Magnifica Start offers a credible complete automatic setup within budget. Its convenient milk-drink workflow supports likely acceptance, although ElectroCell seller confidence remains uncertain. This yields the highest forecast purchased value among these candidates.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "google-90f95eb7a3aaf756914d"
+        ],
+        "predicted_own_revenue_cents": 76900
+      }
+    }
+  ],
+  "buyer_reason": "Select the $769 integrated setup for its expected convenience and suitability for a beginner making milk drinks. It fits the complete-equipment budget under ordinary household-offer assumptions. Seller uncertainty reduces its appeal but does not outweigh the expected benefit of purchasing.",
+  "buyer_strategic_response": "Google returned only one near-budget offer, so its selection channels any purchase toward $769 of attributed revenue and prevents comparison with cheaper equipment. That incentive does not itself disqualify the offer. No cheaper, more expensive, or cross-provider alternative was returned; their availability or superiority cannot be inferred. Ordering has no comparative effect with one card."
+}

@@ -1,0 +1,60 @@
+{
+  "selected_candidate_id": "bing-round1-broad",
+  "candidates": [
+    {
+      "candidate_id": "bing-round1-broad",
+      "ordered_record_ids": [
+        "bing-d2b74b50a379b8bf71a0",
+        "bing-43de8e4359ad1784cba0",
+        "bing-cd11aaaefd5c25f214f5",
+        "bing-cf7e0bab4fab9b646036",
+        "bing-795763ee62a6dc87d9e3",
+        "bing-78a4158303ba5999efdb",
+        "bing-66be295b3b74afa89027",
+        "bing-49780aca1fc849f7c953",
+        "bing-b79dd022ff37659d63c9",
+        "bing-768274d734cd0e80217a"
+      ],
+      "preference_rank": 1,
+      "strategic_justification": "Offers credible integrated contenders alongside cheaper automatic and manual alternatives. The Impress leads with a competitive price and established-brand appeal; retaining the Ninja protects conversion among buyers prioritizing an approachable milk-drink workflow. Budget alternatives provide additional chances to retain the purchase.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "bing-43de8e4359ad1784cba0"
+      ],
+      "predicted_own_revenue_cents": 59999
+    },
+    {
+      "candidate_id": "bing-round1-focused",
+      "ordered_record_ids": [
+        "bing-d2b74b50a379b8bf71a0",
+        "bing-cd11aaaefd5c25f214f5",
+        "bing-cf7e0bab4fab9b646036"
+      ],
+      "preference_rank": 2,
+      "strategic_justification": "Concentrates attention on higher-value established-brand offers, with the $649.99 Impress the likely purchase. Its higher conditional revenue comes with greater risk of losing convenience-focused or cost-sensitive buyers to the unseen rival.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "bing-d2b74b50a379b8bf71a0"
+      ],
+      "predicted_own_revenue_cents": 64999
+    },
+    {
+      "candidate_id": "bing-round1-empty",
+      "ordered_record_ids": [],
+      "preference_rank": 3,
+      "strategic_justification": "Offers no opportunity for attributed revenue. A rival purchase is plausible if its list contains a suitable complete setup; otherwise the buyer may decline.",
+      "predicted_buyer_choice": "other_provider",
+      "predicted_own_purchased_ids": [],
+      "predicted_own_revenue_cents": 0
+    }
+  ],
+  "selection_reason": "The broad candidate offers the strongest expected revenue opportunity by retaining both leading integrated choices and useful budget alternatives. The focused candidate's larger forecast purchase does not establish greater expected revenue because purchase probability also matters.",
+  "limitations": [
+    "The rival catalog and response are unknown; destination and purchased subsets are qualitative forecasts, not established outcomes.",
+    "This catalog contains no standalone espresso grinders or accessory offers, limiting separate-equipment recommendations and accessory completion.",
+    "Standard accessory inclusion for the leading household machines is a purchasing assumption, not an exhaustively established frozen fact.",
+    "Marketplace names do not establish actual sellers or recourse. Listing matches and ratings are not independent verification.",
+    "Ninja milk-operation claims include manual and automatic descriptions; either method is acceptable to this buyer. The CASABREWS bundle's grinder suitability remains uncertain."
+  ],
+  "buyer_belief": "The addressed message establishes an $800 hard ceiling, a complete whole-bean espresso and steamed-milk setup, acceptance of sequential preparation, and concern for workflow, dependable equipment, seller confidence and value. I assume familiar household brands and recognizable retail offers receive favorable but fallible reputation priors. I expect the Ninja's displayed grinder, scale and hands-free frother to appeal strongly, while the Impress remains competitive for a buyer favoring traditional espresso preparation. No withheld preference or rival offer is treated as known."
+}

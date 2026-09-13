@@ -1,0 +1,90 @@
+{
+  "buyer_action": "purchase",
+  "purchased_record_ids": [
+    "bing-43de8e4359ad1784cba0"
+  ],
+  "purchase_value_cents": 59999,
+  "purchased_item_count": 1,
+  "provider_revenue_cents": {
+    "bing": 59999,
+    "google": 0
+  },
+  "unique_returned_count": 15,
+  "recommender_choices": [
+    {
+      "bing": {
+        "candidate_id": "bing_r1_a",
+        "ordered_record_ids": [
+          "bing-d2b74b50a379b8bf71a0",
+          "bing-43de8e4359ad1784cba0",
+          "bing-cd11aaaefd5c25f214f5",
+          "bing-78a4158303ba5999efdb",
+          "bing-768274d734cd0e80217a"
+        ],
+        "preference_rank": 1,
+        "strategic_justification": "Lead with the $649.99 Impress as a credible integrated choice, retaining Ninja convenience, a Best Buy Breville alternative, and cheaper options. This provides several ways to retain the purchase against an unknown rival offering separate components.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "bing-d2b74b50a379b8bf71a0"
+        ],
+        "predicted_own_revenue_cents": 64999
+      },
+      "google": {
+        "candidate_id": "google_r1_complete_options",
+        "ordered_record_ids": [
+          "google-0572500f0732845cad88",
+          "google-b063db752a738d4653f3",
+          "google-ae16f17e37b151e3a9fd",
+          "google-3210de58f63aae1163cd",
+          "google-c1ac723b3479e478c13f",
+          "google-2fb2d250ff7b3427abbb",
+          "google-bbbd53043c8ed53733ef",
+          "google-e6c59526c1b98a2fbc3c",
+          "google-73d649a23e17eb409d3e"
+        ],
+        "preference_rank": 1,
+        "strategic_justification": "Leads with an approachable automatic option from a named specialty retailer, followed by competitive integrated setups. Lower-cost alternatives and separate machines preserve opportunities to win purchases across differing workflow preferences and possible rival complements.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "google-0572500f0732845cad88"
+        ],
+        "predicted_own_revenue_cents": 72995
+      }
+    },
+    {
+      "bing": {
+        "candidate_id": "bing_r2_a",
+        "ordered_record_ids": [
+          "bing-43de8e4359ad1784cba0",
+          "bing-d2b74b50a379b8bf71a0"
+        ],
+        "preference_rank": 1,
+        "strategic_justification": "Emphasize the competitive Ninja workflow and retain the Impress alternative. No standalone grinder or accessory cards exist in this catalog to complete the addressed separate setups. These integrated offers provide the strongest plausible route to retaining the purchase.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "bing-43de8e4359ad1784cba0"
+        ],
+        "predicted_own_revenue_cents": 59999
+      },
+      "google": {
+        "candidate_id": "google_r2_expand",
+        "ordered_record_ids": [
+          "google-18c983a8c06618560292",
+          "google-0572500f0732845cad88",
+          "google-ae16f17e37b151e3a9fd",
+          "google-3210de58f63aae1163cd",
+          "google-73d649a23e17eb409d3e"
+        ],
+        "preference_rank": 1,
+        "strategic_justification": "Adds the $499.99 Ninja Mini Plus with explicit AutoFroth wording, creating a plausible lower-cost competitor to Bing's Premier. Retains automatic and established integrated alternatives. Its exact configuration and included vessel remain uncertain.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "google-18c983a8c06618560292"
+        ],
+        "predicted_own_revenue_cents": 49999
+      }
+    }
+  ],
+  "buyer_reason": "Select the Ninja Luxe Café Premier for $599.99, leaving $200.01 below the ceiling. Its explicit integrated grinding and hands-free milk workflow best match two beginner-made morning milk drinks. Cheaper offers carry greater functional or quality uncertainty; higher-priced offers do not establish enough additional satisfaction.",
+  "buyer_strategic_response": "Bing narrowed its final list to two integrated offers and placed Premier first. Google added a cheaper AutoFroth variant while retaining several integrated alternatives. These choices can keep revenue within each provider's own list. Neither supplied the requested standalone grinder or accessories, limiting useful cross-provider component bundles. First-round persistence preserved cheaper competitors despite later omissions. No hidden catalog availability or intention can be inferred, and ordering, repeated cards and ratings provide no independent confirmation. The selected simulated purchase attributes 59999 cents to Bing and zero to Google."
+}

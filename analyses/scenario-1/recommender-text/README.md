@@ -2,6 +2,8 @@
 
 This analysis reruns complete strategic games with recommender commentary **enabled** and **disabled**. Agents know which communication channel is available and can adapt their choices. Both arms start fresh: historical buyer decisions are not reused as controls, and product lists are not held fixed.
 
+The initial pilot is complete: [results and all choices](results.md), [interpretation of the changed outcome](pilot-notes.md), and [machine-readable comparisons](runs/codex-astra-medium-pilot-001/comparisons.json). All five pairs and 36 actor calls completed.
+
 ## What is paired
 
 Each pair holds fixed the scenario and fact releases, strategic condition, provider identities, provider display order, replicate number, role instructions other than the communication policy, and harness/model/effort. All agents receive only their own arm's information. Sampling is independent; no shared model seed or temperature is available. A planning seed sets a near-balanced, shuffled order of arm execution. Provider display order alternates across replicates and is identical within each pair.
@@ -19,6 +21,8 @@ One replicate runs five pairs, ten complete games and **36 isolated model calls*
 ## Treatment and information boundaries
 
 In `text-enabled`, the recommender selects an ordered subset of its own cards and an accompanying message. In `list-only`, its output schema has no message field; the public reply contains only provider identity and unchanged ordered cards, with round labels in the transcript. It can still select, omit and order products strategically. Internal forecasts, beliefs, ranking justifications and unselected candidates are recorded for evaluation but never forwarded as public commentary. Different private rationales do not make identical ordered lists distinct candidates in the list-only arm.
+
+In multi-provider games, both recommenders switch policy together. This measures market-wide text availability, not the marginal contribution of Bing's or Google's text while holding its rival fixed. Product-card titles and descriptions remain unchanged in both arms; list-only does not remove marketing language already present in a frozen card.
 
 Buyer-to-recommender messages remain available in both arms. A list-only buyer can discuss and forward observed cards, but receives no recommender prose to quote, summarize or carry into its follow-up state. Second-round recommenders see only their own selected prior state and the addressed buyer follow-up. The final buyer sees true preferences, its selected prior plans and every public reply from its own arm; no recommender private state or omitted catalog is supplied.
 
@@ -43,11 +47,11 @@ bash analyses/scenario-1/recommender-text/run.sh \
   --harness codex --codex-version 0.154.0 \
   --model gpt-6-astra --effort medium \
   --replicates 1 --plan-seed 0 \
-  --run-id codex-astra-medium-pilot-001 \
-  --output-dir analyses/scenario-1/recommender-text/runs/codex-astra-medium-pilot-001
+  --run-id codex-astra-medium-repeat-001 \
+  --output-dir local-runs/recommender-text-repeat-001
 ```
 
-Use a fresh run ID and output directory for each study. `--replicates 10` schedules 50 pairs and up to 360 actor calls. `--dry-run` prepares the schedule, schemas and initial inputs without calling a model or fabricating downstream replies. For a Claude comparison use `--harness claude --model EXACT_MODEL_ID --effort EFFORT` without `--codex-version`; no Claude study is implied by adapter support.
+The command writes a fresh repetition outside the archived pilot. Use a fresh run ID and output directory for each study. `--replicates 10` schedules 50 pairs and up to 360 actor calls. `--dry-run` prepares the schedule, schemas and initial inputs without calling a model or fabricating downstream replies. For a Claude comparison use `--harness claude --model EXACT_MODEL_ID --effort EFFORT` without `--codex-version`; no Claude study is implied by adapter support.
 
 ```bash
 python3 -m unittest discover -s tests

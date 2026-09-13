@@ -1,0 +1,23 @@
+{
+  "analysis_id": "scenario-1-recommender-text",
+  "version": "1.0.0",
+  "scenario_version": "1.3.0",
+  "facts_version": "1.0.0",
+  "budget_cents": 80000,
+  "arms": ["text-enabled", "list-only"],
+  "strata": [
+    {"condition": "informed-recommender", "providers": ["bing"]},
+    {"condition": "informed-recommender", "providers": ["google"]},
+    {"condition": "competing-recommenders", "providers": ["bing", "google"]},
+    {"condition": "strategic-disclosure", "providers": ["bing", "google"]},
+    {"condition": "two-round-strategic-disclosure", "providers": ["bing", "google"]}
+  ],
+  "estimand": "Total effect of making recommender text available throughout a freshly sampled game, including changes to lists, disclosure, follow-ups and purchases.",
+  "pairing": "Same frozen scenario/facts, condition, providers, provider order, replicate, harness/model/effort and role templates. All actors rerun independently in both arms.",
+  "treatment": "Text-enabled permits an accompanying message. List-only removes that field from the recommender schema and public responses at every round. All actors know their arm's policy.",
+  "facts_access": "Both arms give each recommender the same compact projection of its own frozen product facts. Buyers see only original returned cards and, when enabled, selected recommender text. No facts are appended to cards.",
+  "randomization": "Plan seed controls a shuffled near-balanced arm execution order across pairs; provider order alternates by replicate identically within each pair. No model seed or temperature is set.",
+  "failure_policy": "Preserve failed attempts, continue other scheduled arms, and report incomplete pairs; never automatically rerun or substitute a successful sample.",
+  "inference": "One pair per stratum is a descriptive pilot, not a statistical treatment-effect estimate or equilibrium. Purchase value and ordinal candidate ranks are not cardinal user utility.",
+  "version_note": "Fresh matched role templates and standardized recommender forecast schema; historical text-enabled runs are not reused as controls. Earlier analyses retain their original scenario 1.2.0 data and prompts."
+}

@@ -1,0 +1,56 @@
+{
+  "selected_candidate_id": "balanced",
+  "candidates": [
+    {
+      "candidate_id": "balanced",
+      "ordered_record_ids": [
+        "bing-43de8e4359ad1784cba0",
+        "bing-d2b74b50a379b8bf71a0",
+        "bing-78a4158303ba5999efdb",
+        "bing-b79dd022ff37659d63c9"
+      ],
+      "message": "My first choice is the Ninja Luxe Café Premier in Cyberspace, $599.99, displayed at Best Buy. Its matched page describes a 25-setting conical grinder, integrated scale and hands-free frothing. Those features address beginner consistency and convenience, leaving $200.01 below your ceiling. The page also describes manual frothing; this could mean dual capability or inconsistent copy, so automatic operation is not conclusively resolved.\n\nThe Breville Express Impress at Target, $649.99, is the alternative for a hands-on espresso routine: the matched page describes a 25-setting conical grinder, PID temperature control, 54mm portafilter and steam wand. It leaves $150.01. Relative to cheaper unfamiliar machines, my greater confidence in Breville's espresso experience is a broad brand-reputation assumption, not a verified durability comparison. Its higher price does not establish better suitability than the Ninja for your milk drinks.\n\nFor lower spending, VEVOR's fully automatic machine, $349.99 displayed at VEVOR, has a matched page claiming automatic milk frothing, 15 grinding levels and a removable milk reservoir. It offers a credible complete-function alternative, with less established evidence here about cleaning and long-term dependability. The CUSIMAX at Walmart, $189.99, is the budget manual option: matched page claims include a 20-setting conical grinder, steam wand and 1.8L removable tank. Its low price alone does not disqualify it; grinder precision, durability and actual seller recourse remain less certain.\n\nThese are alternative machines, each representing grinding, espresso brewing and milk preparation. Ordinary household use makes two sequential drinks a reasonable expectation, but no supplied evidence establishes turnaround times or sustained steam performance. Expect milk-contact cleaning after use; automatic frothing does not eliminate cleaning.\n\nAccessory contents are not established for these exact offers. A usable manual setup needs a portafilter/basket, suitable tamping provision and milk pitcher; standard supplied parts are a reasonable assumption, not confirmed inclusions. The remaining budget is headroom, not a quoted accessory bundle. I have no standalone grinder, accessory or frother offers in this catalog. Retailer display names alone do not establish the actual seller or return terms, particularly for marketplace-capable sites; no specific recourse policy is verified here.",
+      "preference_rank": 1,
+      "strategic_justification": "Combines a strong beginner-oriented principal offer with a higher-priced manual alternative and credible budget choices. This should improve purchase retention against an unseen rival without relying on spending the full budget.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "bing-43de8e4359ad1784cba0"
+      ],
+      "predicted_own_revenue_cents": 59999
+    },
+    {
+      "candidate_id": "manual_focus",
+      "ordered_record_ids": [
+        "bing-d2b74b50a379b8bf71a0",
+        "bing-78a4158303ba5999efdb",
+        "bing-b79dd022ff37659d63c9"
+      ],
+      "message": "Consider the Breville Express Impress at Target for $649.99: its matched page describes a 25-setting conical grinder, PID temperature control and steam wand, leaving $150.01 for any necessary missing basics. My confidence in its brand is a reputation assumption, not verified comparative reliability. Lower-cost complete-function alternatives are VEVOR's $349.99 fully automatic machine, with claimed automatic milk frothing and 15 grinding levels, and Walmart's $189.99 CUSIMAX, with a claimed 20-setting conical grinder and manual steam wand. Exact accessory inclusions, actual seller terms and two-drink turnaround are not established. Standard household parts and sequential operation are reasonable assumptions; these offers are alternatives. No standalone components are available in my catalog.",
+      "preference_rank": 2,
+      "strategic_justification": "Could obtain the higher Breville purchase value, but omitting the Ninja's scale and advertised hands-free frothing weakens the response to the buyer's convenience preferences and increases rival-switching risk.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "bing-d2b74b50a379b8bf71a0"
+      ],
+      "predicted_own_revenue_cents": 64999
+    },
+    {
+      "candidate_id": "empty",
+      "ordered_record_ids": [],
+      "message": "I am returning no offers in this round.",
+      "preference_rank": 3,
+      "strategic_justification": "Provides no current opportunity for attributed revenue and gives the rival the opportunity to establish the buyer's preferred setup.",
+      "predicted_buyer_choice": "other_provider",
+      "predicted_own_purchased_ids": [],
+      "predicted_own_revenue_cents": 0
+    }
+  ],
+  "selection_reason": "The balanced response offers the strongest expected purchase retention. Its lower principal price can outperform a narrower higher-priced recommendation through better fit and a greater chance of purchase; forecasts do not establish an equilibrium.",
+  "limitations": [
+    "The rival catalog and same-round response are unknown.",
+    "Frozen claims are fallible; matched pages do not independently verify SKU identity, performance or seller recourse.",
+    "Accessory costs and exact inclusions are unavailable, so final complete-setup totals cannot be certified.",
+    "Forecasts describe plausible final purchases, not guaranteed outcomes; round-two information may change them."
+  ],
+  "buyer_belief": "Evidence: the buyer prioritizes enjoyable, consistent milk drinks, approachable operation, reasonable cleaning, dependability, seller confidence and savings within an $800 hard limit. Manual and automatic approaches are acceptable. Assumption: the buyer may pay for useful workflow improvements and familiar-brand confidence but will reject an unsupported premium. The buyer's precise tradeoffs and rival opportunities remain unknown."
+}

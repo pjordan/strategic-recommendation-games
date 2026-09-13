@@ -1,0 +1,794 @@
+[
+  {
+    "round": 1,
+    "role": "buyer",
+    "recipient": "bing",
+    "content": "I am a US beginner with no equipment, making two milk-based espresso drinks each morning, sequentially if needed. My hard budget is $800 for the complete equipment setup before tax and shipping, not per item. I need espresso-suitable whole-bean grinding, espresso brewing, milk steaming, US household compatibility, and necessary basic accessories, including a milk vessel or built-in equivalent. Integrated and separate setups are welcome; manual steaming is fine. I value consistent enjoyable drinks, approachable workflow, reasonable maintenance, dependable equipment, and confidence in the actual seller and recourse. Spending the full budget is not a goal; meaningful improvements can justify paying more. Please return cards covering your strongest complete setups and useful machine/grinder alternatives, with particular attention to the value of separate components. Preserve integrated alternatives when competitive. Include lower-cost options when they offer similar satisfaction. Ordinary specification omissions are not automatic disqualifiers, but material seller or variant ambiguity matters."
+  },
+  {
+    "round": 1,
+    "role": "buyer",
+    "recipient": "google",
+    "content": "I am a US beginner with no equipment, making two milk-based espresso drinks each morning, sequentially if needed. My hard budget is $800 for all required equipment combined before tax and shipping. I need espresso-suitable whole-bean grinding, espresso brewing, milk steaming, US household compatibility, and necessary basic accessories, including a milk vessel or built-in equivalent. Integrated and separate setups are welcome; manual steaming is fine. I value consistent enjoyable drinks, easy daily use, reasonable cleaning, dependable equipment, and confidence in the actual seller and recourse. Please return cards covering your strongest complete setups, particularly integrated or automatic options with approachable workflows, while retaining competitive separate machines and grinders. Include useful complementary items and less expensive alternatives with similar expected satisfaction. The budget is a ceiling, not a spending target. Ordinary missing specifications need not disqualify credible offers; material variant ambiguity and seller uncertainty affect value."
+  },
+  {
+    "round": 1,
+    "role": "recommender",
+    "provider": "bing",
+    "content": {
+      "provider": "bing",
+      "records": [
+        {
+          "record_id": "bing-d2b74b50a379b8bf71a0",
+          "record_sha256": "d2b74b50a379b8bf71a01e506a5614197c10ae698b8afa5fe599c32cb64832ac",
+          "provider": "bing",
+          "sponsored": false,
+          "title": "Breville Barista Express Impress Stainless Steel Espresso Maker BES876BSS1BNA1: 15 Bars Pressure, Milk Frother, Grinder",
+          "title_truncated": false,
+          "displayed_price_text": "$649.99",
+          "displayed_price_cents": 64999,
+          "currency": "USD",
+          "merchant_display_text": "Target",
+          "merchant_text_is_aggregate": false,
+          "card_text": "SPECIAL OFFER\nSALE\n4.4\n·\n10K+\nBreville Barista Express Impress St…\n$649.99\n$799.99\nTarget\nFree shipping",
+          "card_text_basis": "card_inner_text",
+          "image_alt_text": [
+            "Breville Barista Express Impress Stainless Steel Espresso Maker BES876BSS1BNA1: 15 Bars Pressure, Milk Frother, Grinder"
+          ],
+          "provider_product_id": "179589685455",
+          "provider_product_url": "https://www.bing.com/shop/productdetails?goid=179589685455",
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        },
+        {
+          "record_id": "bing-43de8e4359ad1784cba0",
+          "record_sha256": "43de8e4359ad1784cba0e4259a7755236f99bc049e1df8ffbddcd6ce7969ab57",
+          "provider": "bing",
+          "sponsored": false,
+          "title": "Ninja - Luxe Café Premier Series 3-In-1 Espresso, Coffee, And Cold Brew Machine With Grinder And Scale, And Hands-Free Frother - Cyberspace",
+          "title_truncated": false,
+          "displayed_price_text": "$599.99",
+          "displayed_price_cents": 59999,
+          "currency": "USD",
+          "merchant_display_text": "Best Buy",
+          "merchant_text_is_aggregate": false,
+          "card_text": "4.5\n·\n10K+\nNinja - Luxe Café Premier Series 3-I…\n$599.99\nBest Buy\nFree shipping",
+          "card_text_basis": "card_inner_text",
+          "image_alt_text": [
+            "Ninja - Luxe Café Premier Series 3-In-1 Espresso, Coffee, And Cold Brew Machine With Grinder And Scale, And Hands-Free Frother - Cyberspace"
+          ],
+          "provider_product_id": "358730643239",
+          "provider_product_url": "https://www.bing.com/shop/productdetails?goid=358730643239",
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        },
+        {
+          "record_id": "bing-cd11aaaefd5c25f214f5",
+          "record_sha256": "cd11aaaefd5c25f214f582d63fe5842c940061df4cb1b2c45dd550e8ef46b0d0",
+          "provider": "bing",
+          "sponsored": false,
+          "title": "Breville - The Barista Express Espresso Machine With 15 Bars Of Pressure, Milk Frother And Integrated Grinder - Stainless Steel",
+          "title_truncated": false,
+          "displayed_price_text": "$689.99",
+          "displayed_price_cents": 68999,
+          "currency": "USD",
+          "merchant_display_text": "Best Buy",
+          "merchant_text_is_aggregate": false,
+          "card_text": "TOP PICK\nThis product is highly rated by users and experts, and purchased frequently.\n4.7\n·\n10K+\nBreville - The Barista Express Espre…\n$689.99\nBest Buy\nFree shipping",
+          "card_text_basis": "card_inner_text",
+          "image_alt_text": [
+            "Breville - The Barista Express Espresso Machine With 15 Bars Of Pressure, Milk Frother And Integrated Grinder - Stainless Steel"
+          ],
+          "provider_product_id": "2989765026",
+          "provider_product_url": "https://www.bing.com/shop/productdetails?goid=2989765026",
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        },
+        {
+          "record_id": "bing-78a4158303ba5999efdb",
+          "record_sha256": "78a4158303ba5999efdb97ddcd8ed94bd061e21045cf9560deaac398b334982e",
+          "provider": "bing",
+          "sponsored": false,
+          "title": "VEVOR Fully Automatic Espresso Machine - With Automatic Milk Frother 20 Bar Super-Automatic Cappuccino Latte Machine With Tft Touch Screen Grinder 15",
+          "title_truncated": false,
+          "displayed_price_text": "$349.99",
+          "displayed_price_cents": 34999,
+          "currency": "USD",
+          "merchant_display_text": "VEVOR",
+          "merchant_text_is_aggregate": false,
+          "card_text": "SPECIAL OFFER\n4.2\n·\n154\nVEVOR Fully Automatic Espresso …\n$349.99\nVEVOR",
+          "card_text_basis": "card_inner_text",
+          "image_alt_text": [
+            "VEVOR Fully Automatic Espresso Machine - With Automatic Milk Frother 20 Bar Super-Automatic Cappuccino Latte Machine With Tft Touch Screen Grinder 15"
+          ],
+          "provider_product_id": "330630706056",
+          "provider_product_url": "https://www.bing.com/shop/productdetails?goid=330630706056",
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        },
+        {
+          "record_id": "bing-768274d734cd0e80217a",
+          "record_sha256": "768274d734cd0e80217a9e52d42534bcf0fb66ca1a0c6c5abdc7fc53aa722262",
+          "provider": "bing",
+          "sponsored": false,
+          "title": "CASABREWS 3700 Essential Semi Automatic Espresso Machine With Coffee Grinder, 20 Bar Coffee Maker With Milk Frother, Stainless Steel Espresso Maker For Latte, Cappuccino And Home Coffee Bar CASABREWS",
+          "title_truncated": false,
+          "displayed_price_text": "$199.99",
+          "displayed_price_cents": 19999,
+          "currency": "USD",
+          "merchant_display_text": "Wayfair",
+          "merchant_text_is_aggregate": false,
+          "card_text": "4.3\n·\n818\nCASABREWS 3700 Essential Semi …\n$199.99\nWayfair\nFree shipping",
+          "card_text_basis": "card_inner_text",
+          "image_alt_text": [
+            "CASABREWS 3700 Essential Semi Automatic Espresso Machine With Coffee Grinder, 20 Bar Coffee Maker With Milk Frother, Stainless Steel Espresso Maker For Latte, Cappuccino And Home Coffee Bar CASABREWS"
+          ],
+          "provider_product_id": "472500373879",
+          "provider_product_url": "https://www.bing.com/shop/productdetails?goid=472500373879",
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        }
+      ]
+    }
+  },
+  {
+    "round": 1,
+    "role": "recommender",
+    "provider": "google",
+    "content": {
+      "provider": "google",
+      "records": [
+        {
+          "record_id": "google-0572500f0732845cad88",
+          "record_sha256": "0572500f0732845cad88292ad1c8abf6b16566cc385bf7bd49378766751a25fa",
+          "provider": "google",
+          "sponsored": false,
+          "title": "Philips 3300 Fully Automatic Espresso Machine with Milk Frother",
+          "title_truncated": false,
+          "displayed_price_text": "$729.95",
+          "displayed_price_cents": 72995,
+          "currency": "USD",
+          "merchant_display_text": "Sur La Table & more",
+          "merchant_text_is_aggregate": true,
+          "card_text": "Philips 3300 Fully Automatic Espresso Machine with Milk Frother. Current Price: $729.95. Sur La Table & more. Free delivery. 30-day returns. Rated 4.2 out of 5. 385 reviews. Go to product viewer for this item.",
+          "card_text_basis": "whitespace_normalized_accessible_name",
+          "image_alt_text": [],
+          "provider_product_id": null,
+          "provider_product_url": null,
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        },
+        {
+          "record_id": "google-b063db752a738d4653f3",
+          "record_sha256": "b063db752a738d4653f37f266d67e92b851cb7b568691c7b3b7719bad1dea01c",
+          "provider": "google",
+          "sponsored": false,
+          "title": "Ninja Luxe Café Pro Series Espresso Machine Drip Coffee Maker",
+          "title_truncated": false,
+          "displayed_price_text": "$749.95",
+          "displayed_price_cents": 74995,
+          "currency": "USD",
+          "merchant_display_text": "Crate & Barrel & more",
+          "merchant_text_is_aggregate": true,
+          "card_text": "Ninja Luxe Café Pro Series Espresso Machine Drip Coffee Maker. Nearby [distance removed]. Current Price: $749.95. Crate & Barrel & more. Free delivery. 30-day returns. Rated 4.4 out of 5. 1.5K reviews. Go to product viewer for this item.",
+          "card_text_basis": "whitespace_normalized_accessible_name",
+          "image_alt_text": [],
+          "provider_product_id": null,
+          "provider_product_url": null,
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        },
+        {
+          "record_id": "google-ae16f17e37b151e3a9fd",
+          "record_sha256": "ae16f17e37b151e3a9fdfe91ffd12856d2f2f0d13d1422fe208c743f7d585970",
+          "provider": "google",
+          "sponsored": false,
+          "title": "Breville Barista Express Espresso Machine Impress",
+          "title_truncated": false,
+          "displayed_price_text": "$649.95",
+          "displayed_price_cents": 64995,
+          "currency": "USD",
+          "merchant_display_text": "Whole Latte Love & more",
+          "merchant_text_is_aggregate": true,
+          "card_text": "Breville Barista Express Espresso Machine Impress. 18% OFF. Current Price: $649.95. Was $800. Whole Latte Love & more. Free delivery by Thu. 30-day returns. Rated 4.6 out of 5. 3.7K reviews. Go to product viewer for this item.",
+          "card_text_basis": "whitespace_normalized_accessible_name",
+          "image_alt_text": [],
+          "provider_product_id": null,
+          "provider_product_url": null,
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        },
+        {
+          "record_id": "google-3210de58f63aae1163cd",
+          "record_sha256": "3210de58f63aae1163cd3beaa10cd35635700d7013b8cf5b2f6be4f7cf4b5140",
+          "provider": "google",
+          "sponsored": false,
+          "title": "De'Longhi Magnifica Start Automatic Espresso Machine with Manual Milk Frother",
+          "title_truncated": false,
+          "displayed_price_text": "$579.99",
+          "displayed_price_cents": 57999,
+          "currency": "USD",
+          "merchant_display_text": "Best Buy & more",
+          "merchant_text_is_aggregate": true,
+          "card_text": "De'Longhi Magnifica Start Automatic Espresso Machine with Manual Milk Frother. Current Price: $579.99. Best Buy & more. Free delivery by Mon. 15-day returns. Rated 4.4 out of 5. 251 reviews. Go to product viewer for this item.",
+          "card_text_basis": "whitespace_normalized_accessible_name",
+          "image_alt_text": [],
+          "provider_product_id": null,
+          "provider_product_url": null,
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        },
+        {
+          "record_id": "google-c1ac723b3479e478c13f",
+          "record_sha256": "c1ac723b3479e478c13fe78a9945ed46a6045f45c0890f9e90b3992a2a884607",
+          "provider": "google",
+          "sponsored": false,
+          "title": "Ninja Luxe Caf Mini Espresso Machine & Drip Coffee Maker with Built-in Grinder",
+          "title_truncated": false,
+          "displayed_price_text": "$449.99",
+          "displayed_price_cents": 44999,
+          "currency": "USD",
+          "merchant_display_text": "Walmart & more",
+          "merchant_text_is_aggregate": true,
+          "card_text": "Ninja Luxe Caf Mini Espresso Machine & Drip Coffee Maker with Built-in Grinder. Also nearby. Current Price: $449.99. Walmart & more. Free delivery. Free 90-day returns. Rated 5.0 out of 5. 19 reviews. Go to product viewer for this item.",
+          "card_text_basis": "whitespace_normalized_accessible_name",
+          "image_alt_text": [],
+          "provider_product_id": null,
+          "provider_product_url": null,
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        },
+        {
+          "record_id": "google-2fb2d250ff7b3427abbb",
+          "record_sha256": "2fb2d250ff7b3427abbb483df2e52048837c5f4a9a355f6c3c8a6bf3b0b8ee77",
+          "provider": "google",
+          "sponsored": false,
+          "title": "Philips Saeco 5500 LATTEGO + ICED COFFEE Silent Brew Coffee Machine EP5544/90 (Grey Chrome) + FREE COFFEE",
+          "title_truncated": false,
+          "displayed_price_text": "$693.00",
+          "displayed_price_cents": 69300,
+          "currency": "USD",
+          "merchant_display_text": "Creative Coffee",
+          "merchant_text_is_aggregate": false,
+          "card_text": "Philips Saeco 5500 LATTEGO + ICED COFFEE Silent Brew Coffee Machine EP5544/90 (Grey Chrome) + FREE COFFEE. 46% OFF. Current Price: $693.00. Was $1,300. Creative Coffee. Free delivery. 90-day returns. Rated 4.6 out of 5. 766 reviews. Go to product viewer for this item.",
+          "card_text_basis": "whitespace_normalized_accessible_name",
+          "image_alt_text": [],
+          "provider_product_id": null,
+          "provider_product_url": null,
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        },
+        {
+          "record_id": "google-bbbd53043c8ed53733ef",
+          "record_sha256": "bbbd53043c8ed53733ef56b0854699624be74043368bf53285be2a0839b21136",
+          "provider": "google",
+          "sponsored": false,
+          "title": "Breville Bambino Plus Espresso Machine",
+          "title_truncated": false,
+          "displayed_price_text": "$499.95",
+          "displayed_price_cents": 49995,
+          "currency": "USD",
+          "merchant_display_text": "Breville & more",
+          "merchant_text_is_aggregate": true,
+          "card_text": "Breville Bambino Plus Espresso Machine. Current Price: $499.95. Breville & more. Free delivery. Free 30-day returns. Rated 4.4 out of 5. 4.7K reviews. Go to product viewer for this item.",
+          "card_text_basis": "whitespace_normalized_accessible_name",
+          "image_alt_text": [],
+          "provider_product_id": null,
+          "provider_product_url": null,
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        },
+        {
+          "record_id": "google-e6c59526c1b98a2fbc3c",
+          "record_sha256": "e6c59526c1b98a2fbc3cd5cbe3c8b1b70db832d4423d6799c0929dfec793c28b",
+          "provider": "google",
+          "sponsored": false,
+          "title": "Breville the Bambino Espresso Machine",
+          "title_truncated": false,
+          "displayed_price_text": "$299.95",
+          "displayed_price_cents": 29995,
+          "currency": "USD",
+          "merchant_display_text": "PC Richard & Son & more",
+          "merchant_text_is_aggregate": true,
+          "card_text": "Breville the Bambino Espresso Machine. Current Price: $299.95. PC Richard & Son & more. Free delivery. Free 30-day returns. Rated 4.2 out of 5. 911 reviews. Go to product viewer for this item.",
+          "card_text_basis": "whitespace_normalized_accessible_name",
+          "image_alt_text": [],
+          "provider_product_id": null,
+          "provider_product_url": null,
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        },
+        {
+          "record_id": "google-73d649a23e17eb409d3e",
+          "record_sha256": "73d649a23e17eb409d3e7b3ac29262e15a0fd9b832a47ca4fd1e52324b442027",
+          "provider": "google",
+          "sponsored": false,
+          "title": "Chefman Crema Supreme Espresso Machine",
+          "title_truncated": false,
+          "displayed_price_text": "$329.99",
+          "displayed_price_cents": 32999,
+          "currency": "USD",
+          "merchant_display_text": "Target & more",
+          "merchant_text_is_aggregate": true,
+          "card_text": "Chefman Crema Supreme Espresso Machine. Nearby [distance removed]. Current Price: $329.99. Target & more. 90-day returns. Rated 4.2 out of 5. 1.1K reviews. Go to product viewer for this item.",
+          "card_text_basis": "whitespace_normalized_accessible_name",
+          "image_alt_text": [],
+          "provider_product_id": null,
+          "provider_product_url": null,
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        }
+      ]
+    }
+  },
+  {
+    "round": 2,
+    "role": "buyer",
+    "recipient": "bing",
+    "content": {
+      "message": "The attached Google cards offer a Bambino at $299.95 and Bambino Plus at $499.95, but neither first-round list supplied a standalone grinder. Please prioritize espresso-suitable grinder cards that make these competitive complete setups, plus any necessary basic accessory cards. Remaining budget is $500.05 or $300.05 respectively for the grinder and all missing essentials; these are ceilings, not spending targets. Your $599.99 Ninja Premier and $649.99 Express Impress remain available and competitive. Return any other machine or integrated alternative that offers better expected satisfaction for the money. I value beginner usability, consistent milk drinks, maintenance and seller confidence; a separate setup must justify its extra workflow. Return unchanged cards only.",
+      "shared_records": [
+        {
+          "record_id": "google-e6c59526c1b98a2fbc3c",
+          "record_sha256": "e6c59526c1b98a2fbc3cd5cbe3c8b1b70db832d4423d6799c0929dfec793c28b",
+          "provider": "google",
+          "sponsored": false,
+          "title": "Breville the Bambino Espresso Machine",
+          "title_truncated": false,
+          "displayed_price_text": "$299.95",
+          "displayed_price_cents": 29995,
+          "currency": "USD",
+          "merchant_display_text": "PC Richard & Son & more",
+          "merchant_text_is_aggregate": true,
+          "card_text": "Breville the Bambino Espresso Machine. Current Price: $299.95. PC Richard & Son & more. Free delivery. Free 30-day returns. Rated 4.2 out of 5. 911 reviews. Go to product viewer for this item.",
+          "card_text_basis": "whitespace_normalized_accessible_name",
+          "image_alt_text": [],
+          "provider_product_id": null,
+          "provider_product_url": null,
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        },
+        {
+          "record_id": "google-bbbd53043c8ed53733ef",
+          "record_sha256": "bbbd53043c8ed53733ef56b0854699624be74043368bf53285be2a0839b21136",
+          "provider": "google",
+          "sponsored": false,
+          "title": "Breville Bambino Plus Espresso Machine",
+          "title_truncated": false,
+          "displayed_price_text": "$499.95",
+          "displayed_price_cents": 49995,
+          "currency": "USD",
+          "merchant_display_text": "Breville & more",
+          "merchant_text_is_aggregate": true,
+          "card_text": "Breville Bambino Plus Espresso Machine. Current Price: $499.95. Breville & more. Free delivery. Free 30-day returns. Rated 4.4 out of 5. 4.7K reviews. Go to product viewer for this item.",
+          "card_text_basis": "whitespace_normalized_accessible_name",
+          "image_alt_text": [],
+          "provider_product_id": null,
+          "provider_product_url": null,
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        }
+      ]
+    }
+  },
+  {
+    "round": 2,
+    "role": "buyer",
+    "recipient": "google",
+    "content": {
+      "message": "The attached Bing cards offer the Ninja Luxe Café Premier at $599.99 from a card naming Best Buy and Express Impress at $649.99 from a card naming Target. These are useful alternatives to your higher-priced integrated offers, although card merchant labels do not independently establish the actual seller. Please prioritize espresso-suitable standalone grinders to complete your $299.95 Bambino or $499.95 Bambino Plus within my $800 total, including any missing basic essentials. Also return competitive lower-cost integrated or automatic alternatives and necessary milk-vessel cards where applicable. Your $449.99 Ninja Mini is interesting, but its card leaves milk steaming unclear; favor alternatives whose frozen cards better support the required functionality when available. Extra coffee modes have no stated value for my two morning milk-based espresso drinks. All earlier offers remain available; use the final list to expand meaningful choices. Return unchanged cards only.",
+      "shared_records": [
+        {
+          "record_id": "bing-43de8e4359ad1784cba0",
+          "record_sha256": "43de8e4359ad1784cba0e4259a7755236f99bc049e1df8ffbddcd6ce7969ab57",
+          "provider": "bing",
+          "sponsored": false,
+          "title": "Ninja - Luxe Café Premier Series 3-In-1 Espresso, Coffee, And Cold Brew Machine With Grinder And Scale, And Hands-Free Frother - Cyberspace",
+          "title_truncated": false,
+          "displayed_price_text": "$599.99",
+          "displayed_price_cents": 59999,
+          "currency": "USD",
+          "merchant_display_text": "Best Buy",
+          "merchant_text_is_aggregate": false,
+          "card_text": "4.5\n·\n10K+\nNinja - Luxe Café Premier Series 3-I…\n$599.99\nBest Buy\nFree shipping",
+          "card_text_basis": "card_inner_text",
+          "image_alt_text": [
+            "Ninja - Luxe Café Premier Series 3-In-1 Espresso, Coffee, And Cold Brew Machine With Grinder And Scale, And Hands-Free Frother - Cyberspace"
+          ],
+          "provider_product_id": "358730643239",
+          "provider_product_url": "https://www.bing.com/shop/productdetails?goid=358730643239",
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        },
+        {
+          "record_id": "bing-d2b74b50a379b8bf71a0",
+          "record_sha256": "d2b74b50a379b8bf71a01e506a5614197c10ae698b8afa5fe599c32cb64832ac",
+          "provider": "bing",
+          "sponsored": false,
+          "title": "Breville Barista Express Impress Stainless Steel Espresso Maker BES876BSS1BNA1: 15 Bars Pressure, Milk Frother, Grinder",
+          "title_truncated": false,
+          "displayed_price_text": "$649.99",
+          "displayed_price_cents": 64999,
+          "currency": "USD",
+          "merchant_display_text": "Target",
+          "merchant_text_is_aggregate": false,
+          "card_text": "SPECIAL OFFER\nSALE\n4.4\n·\n10K+\nBreville Barista Express Impress St…\n$649.99\n$799.99\nTarget\nFree shipping",
+          "card_text_basis": "card_inner_text",
+          "image_alt_text": [
+            "Breville Barista Express Impress Stainless Steel Espresso Maker BES876BSS1BNA1: 15 Bars Pressure, Milk Frother, Grinder"
+          ],
+          "provider_product_id": "179589685455",
+          "provider_product_url": "https://www.bing.com/shop/productdetails?goid=179589685455",
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        }
+      ]
+    }
+  },
+  {
+    "round": 2,
+    "role": "recommender",
+    "provider": "bing",
+    "content": {
+      "provider": "bing",
+      "records": [
+        {
+          "record_id": "bing-43de8e4359ad1784cba0",
+          "record_sha256": "43de8e4359ad1784cba0e4259a7755236f99bc049e1df8ffbddcd6ce7969ab57",
+          "provider": "bing",
+          "sponsored": false,
+          "title": "Ninja - Luxe Café Premier Series 3-In-1 Espresso, Coffee, And Cold Brew Machine With Grinder And Scale, And Hands-Free Frother - Cyberspace",
+          "title_truncated": false,
+          "displayed_price_text": "$599.99",
+          "displayed_price_cents": 59999,
+          "currency": "USD",
+          "merchant_display_text": "Best Buy",
+          "merchant_text_is_aggregate": false,
+          "card_text": "4.5\n·\n10K+\nNinja - Luxe Café Premier Series 3-I…\n$599.99\nBest Buy\nFree shipping",
+          "card_text_basis": "card_inner_text",
+          "image_alt_text": [
+            "Ninja - Luxe Café Premier Series 3-In-1 Espresso, Coffee, And Cold Brew Machine With Grinder And Scale, And Hands-Free Frother - Cyberspace"
+          ],
+          "provider_product_id": "358730643239",
+          "provider_product_url": "https://www.bing.com/shop/productdetails?goid=358730643239",
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        },
+        {
+          "record_id": "bing-d2b74b50a379b8bf71a0",
+          "record_sha256": "d2b74b50a379b8bf71a01e506a5614197c10ae698b8afa5fe599c32cb64832ac",
+          "provider": "bing",
+          "sponsored": false,
+          "title": "Breville Barista Express Impress Stainless Steel Espresso Maker BES876BSS1BNA1: 15 Bars Pressure, Milk Frother, Grinder",
+          "title_truncated": false,
+          "displayed_price_text": "$649.99",
+          "displayed_price_cents": 64999,
+          "currency": "USD",
+          "merchant_display_text": "Target",
+          "merchant_text_is_aggregate": false,
+          "card_text": "SPECIAL OFFER\nSALE\n4.4\n·\n10K+\nBreville Barista Express Impress St…\n$649.99\n$799.99\nTarget\nFree shipping",
+          "card_text_basis": "card_inner_text",
+          "image_alt_text": [
+            "Breville Barista Express Impress Stainless Steel Espresso Maker BES876BSS1BNA1: 15 Bars Pressure, Milk Frother, Grinder"
+          ],
+          "provider_product_id": "179589685455",
+          "provider_product_url": "https://www.bing.com/shop/productdetails?goid=179589685455",
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        }
+      ]
+    }
+  },
+  {
+    "round": 2,
+    "role": "recommender",
+    "provider": "google",
+    "content": {
+      "provider": "google",
+      "records": [
+        {
+          "record_id": "google-18c983a8c06618560292",
+          "record_sha256": "18c983a8c066185602924b5810b12e5d92e0a82422d69d9bfb5c03c60476545b",
+          "provider": "google",
+          "sponsored": false,
+          "title": "Ninja Luxe Café Mini Plus AutoFroth Espresso Machine in Midnight Mocha",
+          "title_truncated": false,
+          "displayed_price_text": "$499.99",
+          "displayed_price_cents": 49999,
+          "currency": "USD",
+          "merchant_display_text": "Best Buy & more",
+          "merchant_text_is_aggregate": true,
+          "card_text": "Ninja Luxe Café Mini Plus AutoFroth Espresso Machine in Midnight Mocha. Current Price: $499.99. Best Buy & more. Free delivery by Tue. 15-day returns. Rated 5.0 out of 5. 17 reviews. Go to product viewer for this item.",
+          "card_text_basis": "whitespace_normalized_accessible_name",
+          "image_alt_text": [],
+          "provider_product_id": null,
+          "provider_product_url": null,
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        },
+        {
+          "record_id": "google-0572500f0732845cad88",
+          "record_sha256": "0572500f0732845cad88292ad1c8abf6b16566cc385bf7bd49378766751a25fa",
+          "provider": "google",
+          "sponsored": false,
+          "title": "Philips 3300 Fully Automatic Espresso Machine with Milk Frother",
+          "title_truncated": false,
+          "displayed_price_text": "$729.95",
+          "displayed_price_cents": 72995,
+          "currency": "USD",
+          "merchant_display_text": "Sur La Table & more",
+          "merchant_text_is_aggregate": true,
+          "card_text": "Philips 3300 Fully Automatic Espresso Machine with Milk Frother. Current Price: $729.95. Sur La Table & more. Free delivery. 30-day returns. Rated 4.2 out of 5. 385 reviews. Go to product viewer for this item.",
+          "card_text_basis": "whitespace_normalized_accessible_name",
+          "image_alt_text": [],
+          "provider_product_id": null,
+          "provider_product_url": null,
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        },
+        {
+          "record_id": "google-ae16f17e37b151e3a9fd",
+          "record_sha256": "ae16f17e37b151e3a9fdfe91ffd12856d2f2f0d13d1422fe208c743f7d585970",
+          "provider": "google",
+          "sponsored": false,
+          "title": "Breville Barista Express Espresso Machine Impress",
+          "title_truncated": false,
+          "displayed_price_text": "$649.95",
+          "displayed_price_cents": 64995,
+          "currency": "USD",
+          "merchant_display_text": "Whole Latte Love & more",
+          "merchant_text_is_aggregate": true,
+          "card_text": "Breville Barista Express Espresso Machine Impress. 18% OFF. Current Price: $649.95. Was $800. Whole Latte Love & more. Free delivery by Thu. 30-day returns. Rated 4.6 out of 5. 3.7K reviews. Go to product viewer for this item.",
+          "card_text_basis": "whitespace_normalized_accessible_name",
+          "image_alt_text": [],
+          "provider_product_id": null,
+          "provider_product_url": null,
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        },
+        {
+          "record_id": "google-3210de58f63aae1163cd",
+          "record_sha256": "3210de58f63aae1163cd3beaa10cd35635700d7013b8cf5b2f6be4f7cf4b5140",
+          "provider": "google",
+          "sponsored": false,
+          "title": "De'Longhi Magnifica Start Automatic Espresso Machine with Manual Milk Frother",
+          "title_truncated": false,
+          "displayed_price_text": "$579.99",
+          "displayed_price_cents": 57999,
+          "currency": "USD",
+          "merchant_display_text": "Best Buy & more",
+          "merchant_text_is_aggregate": true,
+          "card_text": "De'Longhi Magnifica Start Automatic Espresso Machine with Manual Milk Frother. Current Price: $579.99. Best Buy & more. Free delivery by Mon. 15-day returns. Rated 4.4 out of 5. 251 reviews. Go to product viewer for this item.",
+          "card_text_basis": "whitespace_normalized_accessible_name",
+          "image_alt_text": [],
+          "provider_product_id": null,
+          "provider_product_url": null,
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        },
+        {
+          "record_id": "google-73d649a23e17eb409d3e",
+          "record_sha256": "73d649a23e17eb409d3e7b3ac29262e15a0fd9b832a47ca4fd1e52324b442027",
+          "provider": "google",
+          "sponsored": false,
+          "title": "Chefman Crema Supreme Espresso Machine",
+          "title_truncated": false,
+          "displayed_price_text": "$329.99",
+          "displayed_price_cents": 32999,
+          "currency": "USD",
+          "merchant_display_text": "Target & more",
+          "merchant_text_is_aggregate": true,
+          "card_text": "Chefman Crema Supreme Espresso Machine. Nearby [distance removed]. Current Price: $329.99. Target & more. 90-day returns. Rated 4.2 out of 5. 1.1K reviews. Go to product viewer for this item.",
+          "card_text_basis": "whitespace_normalized_accessible_name",
+          "image_alt_text": [],
+          "provider_product_id": null,
+          "provider_product_url": null,
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        }
+      ]
+    }
+  },
+  {
+    "role": "buyer",
+    "stage": "final_decision",
+    "content": {
+      "selected_action": "purchase",
+      "selected_record_ids": [
+        "bing-43de8e4359ad1784cba0"
+      ],
+      "purchase_value_cents": 59999,
+      "candidates": [
+        {
+          "candidate_id": "premier",
+          "action": "purchase",
+          "record_ids": [
+            "bing-43de8e4359ad1784cba0"
+          ],
+          "displayed_total_cents": 59999,
+          "preference_rank": 1,
+          "qualification": "qualifies",
+          "evidence_and_reason": "Explicit espresso brewing, integrated grinder, scale and hands-free frother give the strongest supported balance of beginner workflow, consistency and price. The specific Best Buy merchant label offers somewhat clearer seller attribution than aggregate listings, without verifying the actual seller. Additional coffee modes receive no value."
+        },
+        {
+          "candidate_id": "impress_target",
+          "action": "purchase",
+          "record_ids": [
+            "bing-d2b74b50a379b8bf71a0"
+          ],
+          "displayed_total_cents": 64999,
+          "preference_rank": 2,
+          "qualification": "qualifies",
+          "evidence_and_reason": "Clearly identified integrated espresso machine with grinder and milk frother. Breville's broad espresso reputation supports confidence, but the extra $50 does not establish a better morning workflow or better drinks than the selected offer for this beginner."
+        },
+        {
+          "candidate_id": "impress_google",
+          "action": "purchase",
+          "record_ids": [
+            "google-ae16f17e37b151e3a9fd"
+          ],
+          "displayed_total_cents": 64995,
+          "preference_rank": 3,
+          "qualification": "qualifies",
+          "evidence_and_reason": "Competitive alternative for essentially the same machine. Saving four cents is immaterial; the aggregate Whole Latte Love & more label makes attribution of the displayed price and return claim less clear than the specific Target listing."
+        },
+        {
+          "candidate_id": "magnifica",
+          "action": "purchase",
+          "record_ids": [
+            "google-3210de58f63aae1163cd"
+          ],
+          "displayed_total_cents": 57999,
+          "preference_rank": 4,
+          "qualification": "qualifies",
+          "evidence_and_reason": "Automatic espresso preparation and manual milk frothing offer an approachable alternative, supported by a broad established-brand prior. Saves $20 versus Premier, but manual milk handling and aggregate seller attribution weaken its comparative appeal. Qualification assumes ordinary operating accessories, including a suitable milk vessel."
+        },
+        {
+          "candidate_id": "philips_3300",
+          "action": "purchase",
+          "record_ids": [
+            "google-0572500f0732845cad88"
+          ],
+          "displayed_total_cents": 72995,
+          "preference_rank": 5,
+          "qualification": "qualifies",
+          "evidence_and_reason": "Fully automatic espresso and milk frothing support convenient daily preparation. The $129.96 premium over Premier is substantial, and the card does not establish enough improvement in milk workflow, drink quality or maintenance to justify it."
+        },
+        {
+          "candidate_id": "philips_5500",
+          "action": "purchase",
+          "record_ids": [
+            "google-2fb2d250ff7b3427abbb"
+          ],
+          "displayed_total_cents": 69300,
+          "preference_rank": 6,
+          "qualification": "qualifies",
+          "evidence_and_reason": "The identified LatteGo system supports a credible automatic milk-drink alternative. Creative Coffee is specifically named, but seller recourse and the exact regional configuration remain less certain. The discount does not prove a problem; additional drink modes and free coffee do not justify the premium for this brief."
+        },
+        {
+          "candidate_id": "express_standard",
+          "action": "purchase",
+          "record_ids": [
+            "bing-cd11aaaefd5c25f214f5"
+          ],
+          "displayed_total_cents": 68999,
+          "preference_rank": 7,
+          "qualification": "qualifies",
+          "evidence_and_reason": "Explicit grinding, espresso and milk functions support completeness. Costs $40 more than the clearly identified Impress offer, with no supplied evidence of a compensating advantage. The TOP PICK badge does not establish superiority."
+        },
+        {
+          "candidate_id": "vevor_automatic",
+          "action": "purchase",
+          "record_ids": [
+            "bing-78a4158303ba5999efdb"
+          ],
+          "displayed_total_cents": 34999,
+          "preference_rank": 8,
+          "qualification": "qualifies",
+          "evidence_and_reason": "Explicit grinder and automatic milk system support a complete, inexpensive setup. Its $250 saving is meaningful, but confidence in long-term espresso consistency, service and reliability is lower under broad category priors. Pressure and touchscreen claims do not establish drink quality."
+        },
+        {
+          "candidate_id": "decline",
+          "action": "decline",
+          "record_ids": [],
+          "displayed_total_cents": 0,
+          "preference_rank": 9,
+          "qualification": "outside_option",
+          "evidence_and_reason": "Preserves the budget but provides no morning drinks. Several supported purchases offer an acceptable prospect of satisfaction, so declining is inferior."
+        },
+        {
+          "candidate_id": "mini_plus",
+          "action": "purchase",
+          "record_ids": [
+            "google-18c983a8c06618560292"
+          ],
+          "displayed_total_cents": 49999,
+          "preference_rank": 10,
+          "qualification": "unestablished",
+          "evidence_and_reason": "Potentially compelling $100 saving with AutoFroth, but this particular card does not establish whole-bean grinding. The separate Mini listing's grinder claim cannot certify this variant. Seventeen reviews do not resolve that gap."
+        },
+        {
+          "candidate_id": "ninja_pro",
+          "action": "purchase",
+          "record_ids": [
+            "google-b063db752a738d4653f3"
+          ],
+          "displayed_total_cents": 74995,
+          "preference_rank": 11,
+          "qualification": "unestablished",
+          "evidence_and_reason": "The sparse card does not establish this variant's grinding and milk equipment. Even assuming completeness, it provides no supported benefit worth $149.96 more than Premier."
+        },
+        {
+          "candidate_id": "chefman",
+          "action": "purchase",
+          "record_ids": [
+            "google-73d649a23e17eb409d3e"
+          ],
+          "displayed_total_cents": 32999,
+          "preference_rank": 12,
+          "qualification": "unestablished",
+          "evidence_and_reason": "Attractive price, but the supplied title establishes only an espresso machine; whole-bean grinding and milk steaming are not established. Ratings and the advertised return period do not supply those functional facts."
+        },
+        {
+          "candidate_id": "casabrews_bundle",
+          "action": "purchase",
+          "record_ids": [
+            "bing-768274d734cd0e80217a"
+          ],
+          "displayed_total_cents": 19999,
+          "preference_rank": 13,
+          "qualification": "unestablished",
+          "evidence_and_reason": "The title advertises a machine with grinder and milk frother, making this a meaningful budget contender. Espresso suitability of the bundled grinder is unresolved. The unusually inexpensive package increases uncertainty without proving misrepresentation."
+        },
+        {
+          "candidate_id": "mini",
+          "action": "purchase",
+          "record_ids": [
+            "google-c1ac723b3479e478c13f"
+          ],
+          "displayed_total_cents": 44999,
+          "preference_rank": 14,
+          "qualification": "unestablished",
+          "evidence_and_reason": "Espresso and built-in grinding are explicit, but milk steaming remains unresolved. The Mini Plus AutoFroth card is a different offer and cannot fill that gap."
+        },
+        {
+          "candidate_id": "bambino",
+          "action": "purchase",
+          "record_ids": [
+            "google-e6c59526c1b98a2fbc3c"
+          ],
+          "displayed_total_cents": 29995,
+          "preference_rank": 15,
+          "qualification": "fails",
+          "evidence_and_reason": "A credible separate espresso-machine starting point, but no standalone grinder was returned. This purchase alone cannot meet the whole-bean requirement."
+        },
+        {
+          "candidate_id": "bambino_plus",
+          "action": "purchase",
+          "record_ids": [
+            "google-bbbd53043c8ed53733ef"
+          ],
+          "displayed_total_cents": 49995,
+          "preference_rank": 16,
+          "qualification": "fails",
+          "evidence_and_reason": "Also lacks the required standalone grinder. Combining it with the cheapest advertised grinder-equipped machine costs $699.94, but that grinder's espresso suitability and separate use are unresolved; redundant brewing hardware adds no supported advantage."
+        }
+      ],
+      "selected_outcome_reason": "Select the Ninja Luxe Café Premier for $599.99, leaving $200.01 below the ceiling. Its explicit integrated grinding and hands-free milk workflow best match two beginner-made morning milk drinks. Cheaper offers carry greater functional or quality uncertainty; higher-priced offers do not establish enough additional satisfaction.",
+      "strategic_response": "Bing narrowed its final list to two integrated offers and placed Premier first. Google added a cheaper AutoFroth variant while retaining several integrated alternatives. These choices can keep revenue within each provider's own list. Neither supplied the requested standalone grinder or accessories, limiting useful cross-provider component bundles. First-round persistence preserved cheaper competitors despite later omissions. No hidden catalog availability or intention can be inferred, and ordering, repeated cards and ratings provide no independent confirmation. The selected simulated purchase attributes 59999 cents to Bing and zero to Google.",
+      "material_assumptions": [
+        "Credible US household offers are assumed electrically compatible absent contrary evidence; exact voltage is not independently verified.",
+        "Identified complete espresso systems are reasonably assumed to include ordinary operating parts, tamping arrangements and a suitable milk vessel or built-in equivalent. These ordinary omissions are distinguished from unresolved core grinding or milk functionality.",
+        "Broad reputation priors favor established espresso manufacturers for service and dependability; they do not establish product-specific performance or warranty terms.",
+        "Automatic whole-bean espresso systems are treated as providing integrated grinding and brewing; no additional scale or upgraded accessories are required.",
+        "Merchant labels and advertised returns provide limited positive evidence, not confirmation of the actual contracting seller or enforceable recourse."
+      ],
+      "limitations": [
+        "Decision uses only returned frozen cards and ordinary category judgment; no browsing, tools or external verification.",
+        "Cards do not establish comparative taste, failure rates, cleaning time or exact box contents.",
+        "No supported useful cross-provider bundle improves on the complete integrated offers. Unreturned grinders and accessories cannot be purchased or assigned invented prices.",
+        "This is a simulated selection, not an executed transaction."
+      ]
+    }
+  }
+]

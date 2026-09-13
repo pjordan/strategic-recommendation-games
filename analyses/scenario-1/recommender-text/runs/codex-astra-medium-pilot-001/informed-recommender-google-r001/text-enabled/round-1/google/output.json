@@ -1,0 +1,52 @@
+{
+  "selected_candidate_id": "automatic_start",
+  "candidates": [
+    {
+      "candidate_id": "automatic_start",
+      "ordered_record_ids": ["google-90f95eb7a3aaf756914d"],
+      "message": "I recommend the De'Longhi Magnifica Start with Automatic Milk Frother at $769.00, leaving $31.00 within your equipment budget. The card and matched listing identify the automatic milk version. Based on general knowledge of the Magnifica automatic-machine family, I expect integrated whole-bean grinding and brewing, with built-in equivalents for the usual espresso accessories; ordinary US household compatibility is a reasonable assumption. This should offer an approachable workflow for two successive morning milk drinks, although the milk system still needs cleaning. The merchant label names Walmart seller ElectroCell, not Walmart itself, and also aggregates other offers. Exact seller terms and accessory contents are not independently established. This is a credible complete-setup recommendation with some seller uncertainty.",
+      "preference_rank": 1,
+      "strategic_justification": "Offers the highest-priced credible complete setup within budget, with automatic milk preparation aligned with an approachable morning routine. A focused offer avoids substitution toward cheaper alternatives.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": ["google-90f95eb7a3aaf756914d"],
+      "predicted_own_revenue_cents": 76900
+    },
+    {
+      "candidate_id": "ninja_pro",
+      "ordered_record_ids": ["google-b063db752a738d4653f3"],
+      "message": "Consider the Ninja Luxe Café Pro at $749.95. Its matched page describes an integrated scale and steam wand. Based on general product-family knowledge, I expect integrated grinding and the standard operating accessories, making this a plausible complete setup. The card lists Crate & Barrel & more, free delivery and 30-day returns; these are listing claims, not independently verified seller terms. The scoped page does not establish the accessory inventory or grinding details, and its 650W power claim warrants caution about the page's accuracy.",
+      "preference_rank": 2,
+      "strategic_justification": "A credible premium beginner option near the budget ceiling, but incomplete scoped details introduce uncertainty and its purchase yields slightly less revenue.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": ["google-b063db752a738d4653f3"],
+      "predicted_own_revenue_cents": 74995
+    },
+    {
+      "candidate_id": "express_impress",
+      "ordered_record_ids": ["google-ae16f17e37b151e3a9fd"],
+      "message": "I recommend the Breville Barista Express Impress at $649.95 for a hands-on setup. Scoped listing facts support an integrated conical burr grinder with 25 settings, PID temperature control and manual milk steaming. General product-family knowledge supports assisted tamping and standard operating accessories, although the frozen facts do not enumerate the contents. Expect some practice adjusting the grind and steaming milk. The card identifies Whole Latte Love & more and advertises 30-day returns; the aggregate label does not establish the final seller.",
+      "preference_rank": 3,
+      "strategic_justification": "Strong functional support and a plausible value proposition make purchase likely, but the lower price limits attributed revenue.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": ["google-ae16f17e37b151e3a9fd"],
+      "predicted_own_revenue_cents": 64995
+    },
+    {
+      "candidate_id": "empty",
+      "ordered_record_ids": [],
+      "message": "",
+      "preference_rank": 4,
+      "strategic_justification": "With no prior offers and only one provider, an empty list produces no purchase opportunity or revenue.",
+      "predicted_buyer_choice": "decline",
+      "predicted_own_purchased_ids": [],
+      "predicted_own_revenue_cents": 0
+    }
+  ],
+  "selection_reason": "The $769 automatic Magnifica Start combines a plausible complete setup with the largest credible within-budget purchase value. I expect acceptance despite seller uncertainty; this forecast is not an established outcome.",
+  "limitations": [
+    "Frozen cards and matched pages are fallible representations, not independent verification.",
+    "Completeness and US compatibility partly rely on ordinary product-family assumptions.",
+    "Seller uncertainty could change acceptance and therefore the revenue ranking."
+  ],
+  "buyer_belief": "The complete brief establishes an $800 total equipment limit, whole-bean espresso and milk preparation, acceptance of manual steaming, and a preference for satisfying value over either minimum spending or exhausting the budget. I assume automatic preparation can improve morning convenience, while recognizing that seller confidence, cleaning effort and price can outweigh that benefit. Only Google participates under the supplied game rules."
+}

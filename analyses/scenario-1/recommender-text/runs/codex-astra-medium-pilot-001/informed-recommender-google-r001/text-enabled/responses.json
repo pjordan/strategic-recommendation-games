@@ -1,0 +1,33 @@
+[
+  {
+    "round": 1,
+    "responses": [
+      {
+        "provider": "google",
+        "records": [
+          {
+            "record_id": "google-90f95eb7a3aaf756914d",
+            "record_sha256": "90f95eb7a3aaf756914dcfa2d1e3780220b395d3c356310ffce350c68a336891",
+            "provider": "google",
+            "sponsored": false,
+            "title": "De'Longhi Magnifica Start Espresso & Coffee Machine with Automatic Milk Frother",
+            "title_truncated": false,
+            "displayed_price_text": "$769.00",
+            "displayed_price_cents": 76900,
+            "currency": "USD",
+            "merchant_display_text": "Walmart - ElectroCell & more",
+            "merchant_text_is_aggregate": true,
+            "card_text": "De'Longhi Magnifica Start Espresso & Coffee Machine with Automatic Milk Frother. Also nearby. Current Price: $769.00. Walmart - ElectroCell & more. Free delivery. Rated 4.7 out of 5. 80 reviews. Go to product viewer for this item.",
+            "card_text_basis": "whitespace_normalized_accessible_name",
+            "image_alt_text": [],
+            "provider_product_id": null,
+            "provider_product_url": null,
+            "merchant_product_url": null,
+            "product_verification": "not_adjudicated"
+          }
+        ],
+        "message": "I recommend the De'Longhi Magnifica Start with Automatic Milk Frother at $769.00, leaving $31.00 within your equipment budget. The card and matched listing identify the automatic milk version. Based on general knowledge of the Magnifica automatic-machine family, I expect integrated whole-bean grinding and brewing, with built-in equivalents for the usual espresso accessories; ordinary US household compatibility is a reasonable assumption. This should offer an approachable workflow for two successive morning milk drinks, although the milk system still needs cleaning. The merchant label names Walmart seller ElectroCell, not Walmart itself, and also aggregates other offers. Exact seller terms and accessory contents are not independently established. This is a credible complete-setup recommendation with some seller uncertainty."
+      }
+    ]
+  }
+]

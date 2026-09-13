@@ -1,0 +1,55 @@
+{
+  "selected_action": "purchase",
+  "selected_record_ids": ["bing-d2b74b50a379b8bf71a0"],
+  "purchase_value_cents": 64999,
+  "candidates": [
+    {
+      "candidate_id": "target_impress",
+      "action": "purchase",
+      "record_ids": ["bing-d2b74b50a379b8bf71a0"],
+      "displayed_total_cents": 64999,
+      "preference_rank": 1,
+      "qualification": "qualifies",
+      "evidence_and_reason": "The explicit Impress model, grinder and milk-frother description support a complete beginner espresso setup. Assisted tamping should make preparation more approachable, although dialing in and manual steaming still require practice. Target is identified without an aggregate seller label. That clearer attribution justifies four cents more than the comparable Google offer."
+    },
+    {
+      "candidate_id": "google_impress",
+      "action": "purchase",
+      "record_ids": ["google-ae16f17e37b151e3a9fd"],
+      "displayed_total_cents": 64995,
+      "preference_rank": 2,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Apparently the same equipment family and expected drink-making capability for four cents less. Whole Latte Love is a recognizable specialist, but '& more' leaves the seller associated with this price less clear. The advertised returns are useful evidence, not independently established terms."
+    },
+    {
+      "candidate_id": "ninja_pro",
+      "action": "purchase",
+      "record_ids": ["google-b063db752a738d4653f3"],
+      "displayed_total_cents": 74995,
+      "preference_rank": 3,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Interpreting this as the standard Luxe Café Pro configuration, integrated grinding and assisted milk preparation offer an approachable workflow. It costs $99.96 more than the selected Impress. Its broader coffee functionality is not requested, and the supplied evidence does not establish a sufficient improvement in drinks, reliability or maintenance to justify that premium. The aggregate merchant label also leaves seller attribution less clear."
+    },
+    {
+      "candidate_id": "decline",
+      "action": "decline",
+      "record_ids": [],
+      "displayed_total_cents": 0,
+      "preference_rank": 4,
+      "qualification": "outside_option",
+      "evidence_and_reason": "Preserves the budget but leaves the user without equipment. Supported complete setups offer an acceptable prospect of satisfying the stated needs."
+    }
+  ],
+  "selected_outcome_reason": "Choose the Target Impress for $649.99. It offers a credible complete setup, beginner assistance and clearer seller attribution while leaving $150.01 below the ceiling. The slightly cheaper comparable offer has greater seller ambiguity; the Ninja premium is not sufficiently justified.",
+  "strategic_response": "Bing returned only its Impress offer; Google placed a near-identical Impress before a more expensive Ninja. These selections concentrate attention on relatively high-value purchases, consistent with revenue incentives, but do not establish improper intent. Comparing both lists prevents provider order from deciding the purchase. Combining these alternatives would duplicate equipment and exceed the budget. No conclusion is possible about omitted inventory or whether another selection strategy would have performed better.",
+  "material_assumptions": [
+    "These are standard complete US-market configurations with ordinary included operating accessories and compatible household electrical requirements.",
+    "Model familiarity supports treating the Impress as an integrated grinder, espresso brewer and manual milk-steaming machine with assisted tamping, and the Luxe Café Pro as an integrated grinding, brewing and milk-preparation system.",
+    "Ordinary portafilters, baskets, tamping mechanisms and milk vessels are included as appropriate; separate optional accessories are unnecessary.",
+    "Recognizable retailer and specialist reputations provide broad trust priors, not guarantees of delivery or recourse."
+  ],
+  "limitations": [
+    "Only returned cards were available; exact contents, seller identity, condition and applicable return terms were not independently verified.",
+    "Ratings and marketing claims do not establish comparative drink quality or long-term reliability. The Ninja assessment relies more heavily on interpreting the named model's standard configuration."
+  ]
+}

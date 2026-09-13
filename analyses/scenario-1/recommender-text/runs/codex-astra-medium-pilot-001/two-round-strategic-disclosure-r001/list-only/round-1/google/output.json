@@ -1,0 +1,59 @@
+{
+  "selected_candidate_id": "google_r1_complete_options",
+  "candidates": [
+    {
+      "candidate_id": "google_r1_complete_options",
+      "ordered_record_ids": [
+        "google-0572500f0732845cad88",
+        "google-b063db752a738d4653f3",
+        "google-ae16f17e37b151e3a9fd",
+        "google-3210de58f63aae1163cd",
+        "google-c1ac723b3479e478c13f",
+        "google-2fb2d250ff7b3427abbb",
+        "google-bbbd53043c8ed53733ef",
+        "google-e6c59526c1b98a2fbc3c",
+        "google-73d649a23e17eb409d3e"
+      ],
+      "preference_rank": 1,
+      "strategic_justification": "Leads with an approachable automatic option from a named specialty retailer, followed by competitive integrated setups. Lower-cost alternatives and separate machines preserve opportunities to win purchases across differing workflow preferences and possible rival complements.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "google-0572500f0732845cad88"
+      ],
+      "predicted_own_revenue_cents": 72995
+    },
+    {
+      "candidate_id": "google_r1_focused_integrated",
+      "ordered_record_ids": [
+        "google-b063db752a738d4653f3",
+        "google-ae16f17e37b151e3a9fd",
+        "google-0572500f0732845cad88"
+      ],
+      "preference_rank": 2,
+      "strategic_justification": "Concentrates attention on higher-value integrated purchases. The Ninja could attract a buyer seeking assistance with daily preparation, but narrower coverage gives a rival more room to win on price and comparable satisfaction.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "google-b063db752a738d4653f3"
+      ],
+      "predicted_own_revenue_cents": 74995
+    },
+    {
+      "candidate_id": "google_r1_empty",
+      "ordered_record_ids": [],
+      "preference_rank": 3,
+      "strategic_justification": "Provides no first-round purchase opportunity or useful basis for follow-up. A rival with a credible complete setup would likely capture the purchase.",
+      "predicted_buyer_choice": "other_provider",
+      "predicted_own_purchased_ids": [],
+      "predicted_own_revenue_cents": 0
+    }
+  ],
+  "selection_reason": "The broad list offers the strongest balance of purchase likelihood and attributed value. Its automatic lead fits the stated morning routine, while alternatives reduce dependence on one offer. The narrower candidate's higher conditional purchase value does not establish higher expected revenue.",
+  "limitations": [
+    "The rival catalog, response and buyer's withheld preferences are unknown; forecasts are qualitative judgments, not established outcomes.",
+    "This catalog contains no standalone grinders or accessory offers. Separate machines require compatible complements from another returned list.",
+    "Included accessories are incompletely documented. Ordinary standard-kit assumptions support credible household offers, but exact milk-vessel inclusion remains unknown where unstated.",
+    "Aggregate merchant labels do not establish the actual seller. Creative Coffee's Canadian page introduces cross-border recourse uncertainty; the Ninja Mini's automatic frothing claims conflict with its manual-wand description.",
+    "Frozen page matches and card return claims are fallible representations, not independent verification."
+  ],
+  "buyer_belief": "Evidence: the buyer requires a complete setup within $800, welcomes automatic and integrated equipment, accepts manual steaming and sequential drinks, and values consistency, cleaning and seller confidence. Assumption: established espresso brands and recognizable specialty retailers receive favorable broad reputation priors, with meaningful convenience worth some additional cost. The buyer is expected to compare cheaper alternatives seriously and may combine providers; no particular rival offer is assumed."
+}

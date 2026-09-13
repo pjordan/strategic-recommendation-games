@@ -1,0 +1,42 @@
+{
+  "selected_candidate_id": "impress",
+  "candidates": [
+    {
+      "candidate_id": "impress",
+      "ordered_record_ids": ["bing-d2b74b50a379b8bf71a0"],
+      "message": "I recommend the Breville Barista Express Impress listed at Target for $649.99, leaving $150.01 within your equipment budget. Its matched listing describes an integrated conical burr grinder with 25 settings, PID temperature control, a steam wand and 120 V operation. It covers the core functions for whole-bean milk drinks; making two sequentially suits your brief. Expect to learn grind adjustment and milk steaming, and clean the coffee and milk-contact parts daily. My favorable view of Breville’s espresso experience is a general reputation assumption, not a reliability guarantee. Basic operating accessories are reasonably expected with this household machine, although the frozen evidence does not enumerate the box contents. No separate grinder, frother or scale is automatically needed.",
+      "preference_rank": 1,
+      "strategic_justification": "A credible, identifiable setup at a competitive price supports conversion and meaningful attributed revenue. Manual steaming is explicitly acceptable, making this a strong fit without paying for unnecessary automation.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": ["bing-d2b74b50a379b8bf71a0"],
+      "predicted_own_revenue_cents": 64999
+    },
+    {
+      "candidate_id": "ninja",
+      "ordered_record_ids": ["bing-43de8e4359ad1784cba0"],
+      "message": "Consider the Ninja Luxe Café Premier in Cyberspace, listed at Best Buy for $599.99. Its card includes a grinder, scale and hands-free frother; the matched page describes a conical burr grinder with 25 settings. This offers an appealing beginner workflow and leaves $200.01 within budget. The frozen page describes both manual and automatic frothing, so the precise automatic operation remains unresolved. Basic accessories and US household compatibility are reasonable expectations for this offer, though the frozen evidence does not enumerate them.",
+      "preference_rank": 2,
+      "strategic_justification": "The integrated scale and advertised frothing convenience could attract the beginner and compete well on value. Lower revenue and unresolved milk-operation copy make it a less attractive primary strategy.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": ["bing-43de8e4359ad1784cba0"],
+      "predicted_own_revenue_cents": 59999
+    },
+    {
+      "candidate_id": "empty",
+      "ordered_record_ids": [],
+      "message": "",
+      "preference_rank": 3,
+      "strategic_justification": "Returning nothing relinquishes potential revenue despite credible qualifying offers. A rival purchase is plausible because the buyer prefers a satisfying purchase to declining.",
+      "predicted_buyer_choice": "other_provider",
+      "predicted_own_purchased_ids": [],
+      "predicted_own_revenue_cents": 0
+    }
+  ],
+  "selection_reason": "The Impress balances purchase credibility, relevant functionality and attributed revenue. I expect its value proposition to compete effectively, but cannot establish the outcome without seeing rival offers.",
+  "limitations": [
+    "The rival catalog and response are unknown; all destination forecasts are tentative.",
+    "Matched listings are fallible representations, not independent SKU or performance verification.",
+    "Accessory completeness is an ordinary packaging assumption; actual seller identity and recourse are not fully established by retailer display names."
+  ],
+  "buyer_belief": "Evidence: the buyer has an $800 total limit, accepts manual steaming and sequential drinks, and values consistency, approachability, dependability and seller confidence alongside savings. Assumption: a credible Breville offer at $649.99 will justify its premium over less-established budget alternatives. No brand loyalty or preference for maximum spending is assumed."
+}

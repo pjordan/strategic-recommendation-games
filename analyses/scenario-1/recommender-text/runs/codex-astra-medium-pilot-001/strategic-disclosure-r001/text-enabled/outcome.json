@@ -1,0 +1,54 @@
+{
+  "buyer_action": "purchase",
+  "purchased_record_ids": [
+    "bing-43de8e4359ad1784cba0"
+  ],
+  "purchase_value_cents": 59999,
+  "purchased_item_count": 1,
+  "provider_revenue_cents": {
+    "bing": 59999,
+    "google": 0
+  },
+  "unique_returned_count": 9,
+  "recommender_choices": [
+    {
+      "bing": {
+        "candidate_id": "A",
+        "ordered_record_ids": [
+          "bing-43de8e4359ad1784cba0",
+          "bing-d2b74b50a379b8bf71a0",
+          "bing-78a4158303ba5999efdb",
+          "bing-b79dd022ff37659d63c9"
+        ],
+        "message": "My strongest fit is the Ninja Luxe Café Premier in Cyberspace at $599.99, displayed with Best Buy as merchant. Its matched listing describes a conical grinder with 25 settings, an integrated scale, and hands-free frothing: useful conveniences for consistent morning preparation. The frozen copy also mentions manual frothing, so the precise automatic/manual operation remains unresolved. Either preparation style fits your brief.\n\nThe Breville Barista Express Impress at $649.99, displayed with Target, is the strongest alternative for a more hands-on espresso routine. Frozen facts establish a 25-setting conical grinder, PID temperature control, and a steam wand. Breville's established home-espresso reputation is a broad prior supporting confidence, not evidence of this unit's longevity. Paying $50 more is most compelling if you value that platform and learning manual milk preparation; it does not establish better drinks for your preferences.\n\nLess expensive alternatives: VEVOR's fully automatic machine at $349.99, with VEVOR as the displayed merchant and a matched brand-site listing, claims automatic milk frothing, 15 grinding levels, and a removable milk reservoir. CUSIMAX at $189.99 on Walmart has matched claims of a 20-setting conical grinder and steam wand. Its actual seller is not established by the Walmart marketplace identity. Both offer substantial savings, with greater uncertainty about consistency, durability, and cleaning workflow. High advertised pressure does not establish better espresso.\n\nBuy one machine, not all four. Each covers grinding, brewing, and milk preparation. For the two leading household offers, I assume the normal basic operating kit, including portafilter/baskets, tamping equipment, and milk vessel; the frozen evidence does not enumerate box contents. I would not automatically add a separate grinder, frother, or optional upgrades. Basic accessory completeness is less certain for the budget alternatives. Sequential drinks are a reasonable household use assumption; exact preparation times are unknown. Expect milk-contact cleaning after use and periodic machine cleaning. My catalog contains no standalone grinder or machine-only offer I can confidently recommend as a separate component.",
+        "preference_rank": 1,
+        "strategic_justification": "Combines the strongest approachable complete offer with a credible higher-priced alternative and budget coverage. This should improve purchase retention against an unseen rival without relying on unsupported premium claims.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "bing-43de8e4359ad1784cba0"
+        ],
+        "predicted_own_revenue_cents": 59999
+      },
+      "google": {
+        "candidate_id": "balanced_complete_options",
+        "ordered_record_ids": [
+          "google-ae16f17e37b151e3a9fd",
+          "google-0572500f0732845cad88",
+          "google-c1ac723b3479e478c13f",
+          "google-73d649a23e17eb409d3e",
+          "google-977666da80b52a214754"
+        ],
+        "message": "My strongest overall choice is the Barista Express Impress at $649.95, listed through Whole Latte Love & more. Frozen page claims establish an integrated conical burr grinder with 25 settings, PID temperature control and manual steaming. It offers a credible complete route to two sequential milk drinks, with some learning and hands-on preparation. My preference over cheaper unfamiliar machines partly reflects a broad Breville reputation prior, not verified comparative testing.\n\nFor easier milk preparation, the Philips 3300 at $729.95 is the strongest automatic alternative here. Its matched Sur La Table page identifies LatteGo automatic frothing. Assuming the standard complete retail configuration, grinding, brewing and milk preparation are integrated. The extra $80 buys a different workflow; it does not establish better-tasting drinks. Automatic machines still require milk-system and brew-system cleaning.\n\nWorthwhile savings: the Ninja Luxe Café Mini at $449.99 has frozen claims for a conical grinder, integrated scale and steam wand. Treat it as manual steaming: its page also claims automatic frothing, leaving that functionality unresolved. The Chefman Crema Supreme at $329.99 offers a conical grinder and steam wand, with a tamper and milk pitcher explicitly included. It is a credible budget option; I have less confidence in its long-term consistency than in Breville, based on broad reputation assumptions rather than documented failures.\n\nFor a setup combined across providers, the $299.95 Bambino offers PID control and manual steaming but needs an espresso-capable grinder. There are no standalone grinders or accessory offers in my catalog. Standard retail portafilters, baskets and basic preparation accessories are assumed for the established complete kits where not itemized; exact contents remain unverified. No optional upgrades are recommended.\n\nThese are alternatives: buy one complete machine, or the Bambino with a compatible grinder within $800. Aggregate merchant labels identify listed channels, not a confirmed seller for every offer; marketplace hosting alone does not establish retailer fulfillment. Frozen page matches are useful claims, not independent certification.",
+        "preference_rank": 1,
+        "strategic_justification": "Combines a credible substantial purchase with automatic and budget alternatives, while retaining a standalone machine that could capture revenue in a mixed bundle. This breadth should improve purchase retention against an unseen rival.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "google-ae16f17e37b151e3a9fd"
+        ],
+        "predicted_own_revenue_cents": 64995
+      }
+    }
+  ],
+  "buyer_reason": "Choose the Ninja Luxe Café Premier for $599.99, leaving $200.01 below the ceiling. Its integrated preparation aids, credible complete household configuration and clearer displayed merchant offer the strongest expected balance of morning workflow, drinks, seller confidence and cost. Neither spending more nor taking the largest discount is inherently preferable.",
+  "buyer_strategic_response": "Both recommenders lead with relatively expensive integrated machines that retain all purchase attribution within their own lists, consistent with their revenue incentives. Both also expose meaningful cheaper alternatives. Google supplies a standalone Bambino, but no returned standalone grinder enables a useful separate-component bundle across providers. Ordering, ratings and recommendation language do not establish superiority. The selected Bing offer wins on the observed tradeoffs, not provider priority; unseen omissions and alternative strategies cannot be evaluated."
+}

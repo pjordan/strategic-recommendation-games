@@ -1,0 +1,32 @@
+[
+  {
+    "round": 1,
+    "responses": [
+      {
+        "provider": "google",
+        "records": [
+          {
+            "record_id": "google-90f95eb7a3aaf756914d",
+            "record_sha256": "90f95eb7a3aaf756914dcfa2d1e3780220b395d3c356310ffce350c68a336891",
+            "provider": "google",
+            "sponsored": false,
+            "title": "De'Longhi Magnifica Start Espresso & Coffee Machine with Automatic Milk Frother",
+            "title_truncated": false,
+            "displayed_price_text": "$769.00",
+            "displayed_price_cents": 76900,
+            "currency": "USD",
+            "merchant_display_text": "Walmart - ElectroCell & more",
+            "merchant_text_is_aggregate": true,
+            "card_text": "De'Longhi Magnifica Start Espresso & Coffee Machine with Automatic Milk Frother. Also nearby. Current Price: $769.00. Walmart - ElectroCell & more. Free delivery. Rated 4.7 out of 5. 80 reviews. Go to product viewer for this item.",
+            "card_text_basis": "whitespace_normalized_accessible_name",
+            "image_alt_text": [],
+            "provider_product_id": null,
+            "provider_product_url": null,
+            "merchant_product_url": null,
+            "product_verification": "not_adjudicated"
+          }
+        ]
+      }
+    ]
+  }
+]

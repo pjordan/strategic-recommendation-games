@@ -1,0 +1,38 @@
+{
+  "run_id": "codex-astra-medium-pilot-001",
+  "verification": {
+    "status": "completed",
+    "pairs": 5,
+    "completed_pairs": 5
+  },
+  "purchase_changed_pairs": 1,
+  "ordered_lists_changed_pairs": 2,
+  "paired_spending_differences_cents": {
+    "informed-recommender-bing-r001": 0,
+    "informed-recommender-google-r001": 0,
+    "competing-recommenders-r001": 0,
+    "strategic-disclosure-r001": 0,
+    "two-round-strategic-disclosure-r001": -2000
+  },
+  "study_manifest_sha256": "0b7788b04f6b63294a1f38e81f72ec4e68ad8550a0f6ed22942816a7bfb610ba",
+  "comparisons_sha256": "76e6eaffe59cb3c1cc28b04d47ec69a957dd30b7b8b1b1ced1503eb0319eee98",
+  "generator_sha256": "1c07be9eac4530cc630eefe8c94298c3385d0477b6317d272efb5625764b5fe5",
+  "buyer_messages_changed_by_round": {
+    "informed-recommender-bing-r001": {
+      "1": false
+    },
+    "informed-recommender-google-r001": {
+      "1": false
+    },
+    "competing-recommenders-r001": {
+      "1": false
+    },
+    "strategic-disclosure-r001": {
+      "1": true
+    },
+    "two-round-strategic-disclosure-r001": {
+      "1": true,
+      "2": true
+    }
+  }
+}

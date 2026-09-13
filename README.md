@@ -20,7 +20,7 @@ The collection query for both providers was `espresso machine grinder milk froth
 
 ## Current buyer preferences
 
-[Scenario 1.3.0](scenarios/scenario-1/versions/1.3.0/README.md) keeps the satisfaction-based Markdown preference brief from version 1.2.0, including the $800 equipment budget, seller trust and value for money. Its surviving cards and public context are unchanged. Versions 1.1.0 and 1.2.0 and all existing analysis traces retain their original 465-card inputs; old commands keep their meaning.
+[Scenario 1.3.0](scenarios/scenario-1/versions/1.3.0/README.md) keeps the satisfaction-based Markdown preference brief from version 1.2.0, including the $800 equipment budget, seller trust and value for money. Its surviving cards and public context are unchanged. Versions 1.1.0 and 1.2.0 and the earlier analysis traces retain their original 465-card inputs; their commands keep their meaning. The paired recommender-text study uses the current 317-card version and frozen facts in both arms.
 
 ```bash
 python3 tools/scenario_current.py validate
@@ -39,7 +39,7 @@ The fact files are optional inputs for new analyses. Adding them does not rerun 
 
 ## Analyses
 
-- [Paired whole-game study of recommender text](analyses/scenario-1/recommender-text/README.md): fresh text-enabled and list-only games across five strategic conditions, using Scenario 1.3.0 and frozen product facts.
+- [Paired whole-game study of recommender text](analyses/scenario-1/recommender-text/README.md): fresh text-enabled and list-only games across five strategic conditions, using Scenario 1.3.0 and frozen product facts. [Pilot results](analyses/scenario-1/recommender-text/results.md) and [interpretation](analyses/scenario-1/recommender-text/pilot-notes.md).
 - [Two rounds of strategic disclosure](analyses/scenario-1/two-round-strategic-disclosure/README.md): adaptive buyer follow-ups, selective sharing of rival offers, independent second replies, and a final choice from all four response lists.
 - [Strategic buyer disclosure](analyses/scenario-1/strategic-disclosure/README.md): separately addressed buyer context, competing replies under partial information, and a final decision using the true preferences.
 - [Competing recommenders, one shared buyer](analyses/scenario-1/competing-recommenders/README.md): independent informed Bing/Google responses, a buyer comparing both lists, and revenue attributed to purchased offers.
@@ -50,7 +50,7 @@ The frozen Scenario 1 manifest remains a data-only snapshot. Analysis conditions
 
 ## Analysis implementation and offline replay
 
-The four strategic game runners share [model execution and response validation](tools/analysis_runtime.py). Each condition still defines its own move sequence, information boundaries, prompt assembly and revenue attribution. Harness commands remain in the existing oracle adapter. This refactor preserves the prompt text, output schemas, $800 budget rule and version 1.2.0 inputs used by those games; it does not adopt the newer product-fact release or change model choices.
+The four original strategic game runners share [model execution and response validation](tools/analysis_runtime.py). Each condition still defines its own move sequence, information boundaries, prompt assembly and revenue attribution. Harness commands remain in the existing oracle adapter. This refactor preserves the prompt text, output schemas, $800 budget rule and version 1.2.0 inputs used by those games; it does not adopt the newer product-fact release or change model choices.
 
 Strategic run verifiers now load the run's archived runner and dependencies into a temporary repository copy, after checking their source hashes. They check the frozen scenario, exact actor inputs, response schemas, artifact hashes, selected cards, transcripts and reconstructed outcomes. Failed runs receive provenance checks but have no completed outcome to replay. Only use this feature with trusted repository archives: hash consistency does not make arbitrary Python safe to execute.
 

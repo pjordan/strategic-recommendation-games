@@ -1,0 +1,63 @@
+{
+  "selected_candidate_id": "google_r1_broad",
+  "candidates": [
+    {
+      "candidate_id": "google_r1_broad",
+      "ordered_record_ids": [
+        "google-ae16f17e37b151e3a9fd",
+        "google-b063db752a738d4653f3",
+        "google-0572500f0732845cad88",
+        "google-bbbd53043c8ed53733ef",
+        "google-e6c59526c1b98a2fbc3c",
+        "google-c1ac723b3479e478c13f",
+        "google-3210de58f63aae1163cd",
+        "google-2fb2d250ff7b3427abbb",
+        "google-73d649a23e17eb409d3e",
+        "google-794ba498120c1bf382fc",
+        "google-2e0bb75620d183cc5b2e",
+        "google-23e477c33645a2a7a715",
+        "google-418d55cd3381c3e302e5"
+      ],
+      "preference_rank": 1,
+      "strategic_justification": "Leads with the competitively priced Impress while retaining automatic, separate-machine and lower-cost alternatives. Breadth offers several ways to retain purchases if the rival supplies attractive complementary equipment. The forecast favors the Impress as a plausible balance of workflow, drink quality and seller confidence.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "google-ae16f17e37b151e3a9fd"
+      ],
+      "predicted_own_revenue_cents": 64995
+    },
+    {
+      "candidate_id": "google_r1_premium",
+      "ordered_record_ids": [
+        "google-b063db752a738d4653f3",
+        "google-0572500f0732845cad88",
+        "google-2fb2d250ff7b3427abbb"
+      ],
+      "preference_rank": 2,
+      "strategic_justification": "Emphasizes higher-value integrated purchases and forecasts the Philips 3300 for convenient milk drinks. Higher conditional revenue is offset by greater risk of losing to a better-value rival offer and weaker coverage of the requested alternatives.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "google-0572500f0732845cad88"
+      ],
+      "predicted_own_revenue_cents": 72995
+    },
+    {
+      "candidate_id": "google_r1_empty",
+      "ordered_record_ids": [],
+      "preference_rank": 3,
+      "strategic_justification": "Returning no offers guarantees zero attributed revenue. A rival purchase is plausible, although its available solutions are unknown.",
+      "predicted_buyer_choice": "other_provider",
+      "predicted_own_purchased_ids": [],
+      "predicted_own_revenue_cents": 0
+    }
+  ],
+  "selection_reason": "The broad list offers the strongest qualitative prospect of retaining revenue across uncertain buyer tradeoffs and rival offerings. Its leading $649.95 integrated option leaves budget headroom without requiring spending near the cap.",
+  "limitations": [
+    "The rival catalog and response are unseen; forecasts are conditional judgments, not established outcomes.",
+    "This catalog contains no standalone grinder or accessory offers. Separate machines require compatible complementary offers from the rival.",
+    "Standard kit completeness for the forecast Impress purchase is an ordinary purchasing assumption; the supplied facts do not enumerate its included accessories.",
+    "Aggregate merchant labels do not establish the actual seller. Frozen return claims and product-page matches are fallible.",
+    "The Ninja Mini has conflicting milk-operation claims, and the Creative Coffee listing has unresolved US recourse and electrical details."
+  ],
+  "buyer_belief": "Evidence: the buyer requires whole-bean espresso and steamed milk for two sequential drinks, with required basics inside $800, and values consistency, approachable operation, maintenance, dependability and actual-seller confidence. Lower spending is preferred when satisfaction is essentially equal. Assumptions: established espresso brands receive a favorable broad reputation prior, and assisted preparation may justify the Impress premium. The buyer's precise tradeoffs between automation, manual control and savings remain unknown."
+}

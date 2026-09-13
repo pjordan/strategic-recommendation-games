@@ -1,0 +1,49 @@
+{
+  "selected_candidate_id": "balanced_shortlist",
+  "candidates": [
+    {
+      "candidate_id": "balanced_shortlist",
+      "ordered_record_ids": [
+        "google-ae16f17e37b151e3a9fd",
+        "google-b063db752a738d4653f3"
+      ],
+      "message": "My recommendation is the $649.95 Breville Barista Express Impress. Its scoped listing describes an integrated conical burr grinder with 25 settings, PID temperature control and a manual steam wand: a good fit for whole-bean milk drinks when you are happy to learn manual steaming. It leaves $150.05 below your equipment ceiling. The card names Whole Latte Love & more and advertises 30-day returns; the aggregate label does not establish the actual seller. Ordinary operating accessories are a reasonable expectation for this household machine, although the supplied facts do not enumerate them.\n\nThe $749.95 Ninja Luxe Café Pro is an alternative if its workflow appeals more. Its scoped page identifies an integrated scale and steam wand. Treat it as a separate setup option, not an additional purchase. My expectation that this integrated product includes its usual grinder and operating accessories relies on general product-family knowledge rather than an exhaustive frozen parts list. Neither option needs a separate standalone frother. Both require routine cleaning, and the supplied evidence does not establish comparative durability.",
+      "preference_rank": 1,
+      "strategic_justification": "Combines a credible complete setup at a competitive price with a higher-priced alternative. This preserves a plausible Google purchase if the buyer finds the Ninja premium insufficient, while competing on workflow and confidence rather than price alone.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "google-ae16f17e37b151e3a9fd"
+      ],
+      "predicted_own_revenue_cents": 64995
+    },
+    {
+      "candidate_id": "premium_only",
+      "ordered_record_ids": [
+        "google-b063db752a738d4653f3"
+      ],
+      "message": "Consider the Ninja Luxe Café Pro at $749.95 as your single integrated setup. Its scoped page describes an integrated scale and steam wand, and the card advertises 30-day returns through Crate & Barrel & more. The actual seller is not resolved by that aggregate label. Its usual integrated grinding and basic operating kit are product-family assumptions; the frozen facts do not enumerate them. The scale may simplify repeatable preparation, but this evidence does not establish superior drink quality or durability.",
+      "preference_rank": 2,
+      "strategic_justification": "Offers greater revenue if purchased, but removing the stronger lower-priced fallback increases exposure to a rival's value-oriented setup. The premium has only limited support in the supplied comparative evidence.",
+      "predicted_buyer_choice": "other_provider",
+      "predicted_own_purchased_ids": [],
+      "predicted_own_revenue_cents": 0
+    },
+    {
+      "candidate_id": "empty",
+      "ordered_record_ids": [],
+      "message": "",
+      "preference_rank": 3,
+      "strategic_justification": "Guarantees no Google revenue despite credible within-budget offers. A rival purchase is plausible given the buyer's preference for a satisfying purchase over abstention.",
+      "predicted_buyer_choice": "other_provider",
+      "predicted_own_purchased_ids": [],
+      "predicted_own_revenue_cents": 0
+    }
+  ],
+  "selection_reason": "The balanced shortlist offers the strongest plausible combination of purchase probability and attributed value. The higher-priced singleton risks losing the purchase entirely; these forecasts are qualitative judgments, not an established equilibrium.",
+  "limitations": [
+    "Bing's catalog and response are unknown; no comparative price advantage is established.",
+    "Frozen page observations are fallible listing claims, not independent verification of seller, accessories or performance.",
+    "Ordinary US compatibility and standard operating accessories are reasonable assumptions for these household offers, not exhaustive certifications."
+  ],
+  "buyer_belief": "The complete brief establishes an $800 total equipment limit, willingness to steam manually, and priorities of drink consistency, approachable workflow, maintenance, dependability and seller confidence. I assume the buyer will accept ordinary accessory omissions and weigh credible equipment benefits against savings. No brand loyalty or preference to exhaust the budget is assumed."
+}

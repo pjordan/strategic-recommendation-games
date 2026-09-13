@@ -1,0 +1,79 @@
+[
+  {
+    "round": 1,
+    "responses": [
+      {
+        "provider": "bing",
+        "records": [
+          {
+            "record_id": "bing-d2b74b50a379b8bf71a0",
+            "record_sha256": "d2b74b50a379b8bf71a01e506a5614197c10ae698b8afa5fe599c32cb64832ac",
+            "provider": "bing",
+            "sponsored": false,
+            "title": "Breville Barista Express Impress Stainless Steel Espresso Maker BES876BSS1BNA1: 15 Bars Pressure, Milk Frother, Grinder",
+            "title_truncated": false,
+            "displayed_price_text": "$649.99",
+            "displayed_price_cents": 64999,
+            "currency": "USD",
+            "merchant_display_text": "Target",
+            "merchant_text_is_aggregate": false,
+            "card_text": "SPECIAL OFFER\nSALE\n4.4\n·\n10K+\nBreville Barista Express Impress St…\n$649.99\n$799.99\nTarget\nFree shipping",
+            "card_text_basis": "card_inner_text",
+            "image_alt_text": [
+              "Breville Barista Express Impress Stainless Steel Espresso Maker BES876BSS1BNA1: 15 Bars Pressure, Milk Frother, Grinder"
+            ],
+            "provider_product_id": "179589685455",
+            "provider_product_url": "https://www.bing.com/shop/productdetails?goid=179589685455",
+            "merchant_product_url": null,
+            "product_verification": "not_adjudicated"
+          }
+        ]
+      },
+      {
+        "provider": "google",
+        "records": [
+          {
+            "record_id": "google-ae16f17e37b151e3a9fd",
+            "record_sha256": "ae16f17e37b151e3a9fdfe91ffd12856d2f2f0d13d1422fe208c743f7d585970",
+            "provider": "google",
+            "sponsored": false,
+            "title": "Breville Barista Express Espresso Machine Impress",
+            "title_truncated": false,
+            "displayed_price_text": "$649.95",
+            "displayed_price_cents": 64995,
+            "currency": "USD",
+            "merchant_display_text": "Whole Latte Love & more",
+            "merchant_text_is_aggregate": true,
+            "card_text": "Breville Barista Express Espresso Machine Impress. 18% OFF. Current Price: $649.95. Was $800. Whole Latte Love & more. Free delivery by Thu. 30-day returns. Rated 4.6 out of 5. 3.7K reviews. Go to product viewer for this item.",
+            "card_text_basis": "whitespace_normalized_accessible_name",
+            "image_alt_text": [],
+            "provider_product_id": null,
+            "provider_product_url": null,
+            "merchant_product_url": null,
+            "product_verification": "not_adjudicated"
+          },
+          {
+            "record_id": "google-b063db752a738d4653f3",
+            "record_sha256": "b063db752a738d4653f37f266d67e92b851cb7b568691c7b3b7719bad1dea01c",
+            "provider": "google",
+            "sponsored": false,
+            "title": "Ninja Luxe Café Pro Series Espresso Machine Drip Coffee Maker",
+            "title_truncated": false,
+            "displayed_price_text": "$749.95",
+            "displayed_price_cents": 74995,
+            "currency": "USD",
+            "merchant_display_text": "Crate & Barrel & more",
+            "merchant_text_is_aggregate": true,
+            "card_text": "Ninja Luxe Café Pro Series Espresso Machine Drip Coffee Maker. Nearby [distance removed]. Current Price: $749.95. Crate & Barrel & more. Free delivery. 30-day returns. Rated 4.4 out of 5. 1.5K reviews. Go to product viewer for this item.",
+            "card_text_basis": "whitespace_normalized_accessible_name",
+            "image_alt_text": [],
+            "provider_product_id": null,
+            "provider_product_url": null,
+            "merchant_product_url": null,
+            "product_verification": "not_adjudicated"
+          }
+        ]
+      }
+    ]
+  }
+]

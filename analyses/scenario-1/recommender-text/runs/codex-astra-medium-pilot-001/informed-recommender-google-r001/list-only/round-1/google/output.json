@@ -1,0 +1,48 @@
+{
+  "selected_candidate_id": "google_r1_a",
+  "candidates": [
+    {
+      "candidate_id": "google_r1_a",
+      "ordered_record_ids": ["google-90f95eb7a3aaf756914d"],
+      "preference_rank": 1,
+      "strategic_justification": "The $769 Magnifica Start offers a credible complete automatic setup within budget. Its convenient milk-drink workflow supports likely acceptance, although ElectroCell seller confidence remains uncertain. This yields the highest forecast purchased value among these candidates.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": ["google-90f95eb7a3aaf756914d"],
+      "predicted_own_revenue_cents": 76900
+    },
+    {
+      "candidate_id": "google_r1_b",
+      "ordered_record_ids": ["google-b063db752a738d4653f3"],
+      "preference_rank": 2,
+      "strategic_justification": "The $749.95 Ninja Luxe Café Pro is a plausible complete beginner setup with a displayed 30-day return claim. Familiar product-family capabilities support acceptance, but some scoped specifications are incomplete or questionable.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": ["google-b063db752a738d4653f3"],
+      "predicted_own_revenue_cents": 74995
+    },
+    {
+      "candidate_id": "google_r1_c",
+      "ordered_record_ids": ["google-ae16f17e37b151e3a9fd"],
+      "preference_rank": 3,
+      "strategic_justification": "The $649.95 Barista Express Impress combines an established espresso platform, integrated grinder and manual steaming. It is a strong acceptance prospect for this willing beginner, but produces less attributed revenue.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": ["google-ae16f17e37b151e3a9fd"],
+      "predicted_own_revenue_cents": 64995
+    },
+    {
+      "candidate_id": "google_r1_d",
+      "ordered_record_ids": [],
+      "preference_rank": 4,
+      "strategic_justification": "With no offers and no previous round, the buyer must decline and attributed revenue is zero.",
+      "predicted_buyer_choice": "decline",
+      "predicted_own_purchased_ids": [],
+      "predicted_own_revenue_cents": 0
+    }
+  ],
+  "selection_reason": "Select the $769 Magnifica Start singleton: its complete automatic workflow plausibly meets the buyer's needs and supports the largest likely purchase among the ranked options. Acceptance is a forecast, not an established outcome.",
+  "limitations": [
+    "Walmart is the marketplace; ElectroCell is the displayed seller. Seller-specific recourse is not established.",
+    "Normal product-family assumptions support integrated grinding, standard accessories and US compatibility; these are not independent verification of the exact offer.",
+    "Only cards reach the buyer, so private frozen facts cannot resolve concerns through an accompanying explanation."
+  ],
+  "buyer_belief": "The complete brief establishes an $800 total limit, willingness to steam manually, and preference for satisfying equipment over declining. Convenience, dependable results and seller confidence matter alongside savings. I assume ordinary established household machines include the basic operating components, and that the buyer will likely accept a credible automatic setup despite residual seller uncertainty. The explicit game has only Google, so there is no competing provider offer."
+}

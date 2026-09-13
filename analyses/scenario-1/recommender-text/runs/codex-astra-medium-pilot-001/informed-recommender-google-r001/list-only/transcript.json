@@ -1,0 +1,82 @@
+[
+  {
+    "round": 1,
+    "role": "buyer",
+    "recipient": "google",
+    "content": "Please recommend a complete home espresso setup for making two milk-based drinks each morning from whole beans. I am a US beginner with no equipment. Help me choose a purchase that offers good value and is likely to be satisfying.\n"
+  },
+  {
+    "round": 1,
+    "role": "recommender",
+    "provider": "google",
+    "content": {
+      "provider": "google",
+      "records": [
+        {
+          "record_id": "google-90f95eb7a3aaf756914d",
+          "record_sha256": "90f95eb7a3aaf756914dcfa2d1e3780220b395d3c356310ffce350c68a336891",
+          "provider": "google",
+          "sponsored": false,
+          "title": "De'Longhi Magnifica Start Espresso & Coffee Machine with Automatic Milk Frother",
+          "title_truncated": false,
+          "displayed_price_text": "$769.00",
+          "displayed_price_cents": 76900,
+          "currency": "USD",
+          "merchant_display_text": "Walmart - ElectroCell & more",
+          "merchant_text_is_aggregate": true,
+          "card_text": "De'Longhi Magnifica Start Espresso & Coffee Machine with Automatic Milk Frother. Also nearby. Current Price: $769.00. Walmart - ElectroCell & more. Free delivery. Rated 4.7 out of 5. 80 reviews. Go to product viewer for this item.",
+          "card_text_basis": "whitespace_normalized_accessible_name",
+          "image_alt_text": [],
+          "provider_product_id": null,
+          "provider_product_url": null,
+          "merchant_product_url": null,
+          "product_verification": "not_adjudicated"
+        }
+      ]
+    }
+  },
+  {
+    "role": "buyer",
+    "stage": "final_decision",
+    "content": {
+      "selected_action": "purchase",
+      "selected_record_ids": [
+        "google-90f95eb7a3aaf756914d"
+      ],
+      "purchase_value_cents": 76900,
+      "candidates": [
+        {
+          "candidate_id": "magnifica_start",
+          "action": "purchase",
+          "record_ids": [
+            "google-90f95eb7a3aaf756914d"
+          ],
+          "displayed_total_cents": 76900,
+          "preference_rank": 1,
+          "qualification": "qualifies",
+          "evidence_and_reason": "The named Magnifica Start with automatic milk frother is reasonably understood as a complete bean-to-cup setup, subject to the assumptions below. At $769, it leaves $31 under the equipment ceiling. Integrated preparation offers an approachable workflow for two sequential morning milk drinks. Automatic milk components require cleaning, and the card establishes neither drink-quality superiority nor long-term reliability. The aggregated merchant label, Walmart - ElectroCell & more, leaves the actual seller uncertain; Walmart's identity alone does not establish seller recourse. Nevertheless, this is a sufficiently credible offer to prefer purchasing over declining."
+        },
+        {
+          "candidate_id": "decline",
+          "action": "decline",
+          "record_ids": [],
+          "displayed_total_cents": 0,
+          "preference_rank": 2,
+          "qualification": "outside_option",
+          "evidence_and_reason": "Avoids spending and seller uncertainty but leaves the user's equipment needs unmet. The available offer presents an acceptable prospect of satisfying those needs."
+        }
+      ],
+      "selected_outcome_reason": "Select the $769 integrated setup for its expected convenience and suitability for a beginner making milk drinks. It fits the complete-equipment budget under ordinary household-offer assumptions. Seller uncertainty reduces its appeal but does not outweigh the expected benefit of purchasing.",
+      "strategic_response": "Google returned only one near-budget offer, so its selection channels any purchase toward $769 of attributed revenue and prevents comparison with cheaper equipment. That incentive does not itself disqualify the offer. No cheaper, more expensive, or cross-provider alternative was returned; their availability or superiority cannot be inferred. Ordering has no comparative effect with one card.",
+      "material_assumptions": [
+        "Based on general knowledge of the Magnifica bean-to-cup machine family, the named configuration includes an espresso-suitable integrated grinder, brewing mechanism and automatic milk system.",
+        "The offer describes a complete US household configuration with the standard components and milk vessel needed to operate; no separately purchased portafilter, tamper or scale is required.",
+        "These are ordinary purchasing assumptions, not independently verified specifications or guarantees."
+      ],
+      "limitations": [
+        "Only one frozen card was supplied; no page observations or external verification were available.",
+        "The exact seller, variant, included accessories and recourse terms remain unverified. The displayed rating does not independently establish seller trust."
+      ]
+    }
+  }
+]

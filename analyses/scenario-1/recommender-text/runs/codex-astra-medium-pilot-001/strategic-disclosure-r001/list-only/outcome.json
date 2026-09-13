@@ -1,0 +1,66 @@
+{
+  "buyer_action": "purchase",
+  "purchased_record_ids": [
+    "bing-43de8e4359ad1784cba0"
+  ],
+  "purchase_value_cents": 59999,
+  "purchased_item_count": 1,
+  "provider_revenue_cents": {
+    "bing": 59999,
+    "google": 0
+  },
+  "unique_returned_count": 23,
+  "recommender_choices": [
+    {
+      "bing": {
+        "candidate_id": "bing-round1-broad",
+        "ordered_record_ids": [
+          "bing-d2b74b50a379b8bf71a0",
+          "bing-43de8e4359ad1784cba0",
+          "bing-cd11aaaefd5c25f214f5",
+          "bing-cf7e0bab4fab9b646036",
+          "bing-795763ee62a6dc87d9e3",
+          "bing-78a4158303ba5999efdb",
+          "bing-66be295b3b74afa89027",
+          "bing-49780aca1fc849f7c953",
+          "bing-b79dd022ff37659d63c9",
+          "bing-768274d734cd0e80217a"
+        ],
+        "preference_rank": 1,
+        "strategic_justification": "Offers credible integrated contenders alongside cheaper automatic and manual alternatives. The Impress leads with a competitive price and established-brand appeal; retaining the Ninja protects conversion among buyers prioritizing an approachable milk-drink workflow. Budget alternatives provide additional chances to retain the purchase.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "bing-43de8e4359ad1784cba0"
+        ],
+        "predicted_own_revenue_cents": 59999
+      },
+      "google": {
+        "candidate_id": "google_r1_broad",
+        "ordered_record_ids": [
+          "google-ae16f17e37b151e3a9fd",
+          "google-b063db752a738d4653f3",
+          "google-0572500f0732845cad88",
+          "google-bbbd53043c8ed53733ef",
+          "google-e6c59526c1b98a2fbc3c",
+          "google-c1ac723b3479e478c13f",
+          "google-3210de58f63aae1163cd",
+          "google-2fb2d250ff7b3427abbb",
+          "google-73d649a23e17eb409d3e",
+          "google-794ba498120c1bf382fc",
+          "google-2e0bb75620d183cc5b2e",
+          "google-23e477c33645a2a7a715",
+          "google-418d55cd3381c3e302e5"
+        ],
+        "preference_rank": 1,
+        "strategic_justification": "Leads with the competitively priced Impress while retaining automatic, separate-machine and lower-cost alternatives. Breadth offers several ways to retain purchases if the rival supplies attractive complementary equipment. The forecast favors the Impress as a plausible balance of workflow, drink quality and seller confidence.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "google-ae16f17e37b151e3a9fd"
+        ],
+        "predicted_own_revenue_cents": 64995
+      }
+    }
+  ],
+  "buyer_reason": "Select the Ninja Luxe Café Premier from the Best Buy card for $599.99, leaving $200.01 below the ceiling. Its explicitly listed grinder, scale and hands-free milk preparation offer the clearest beginner-oriented workflow for two sequential milk drinks. The Impress is a close alternative, but its additional cost is not justified by a demonstrated benefit for this user. Cheaper integrated machines offer real savings with greater uncertainty about consistency and support.",
+  "buyer_strategic_response": "Both providers put relatively expensive integrated machines near the front, consistent with their revenue incentives, while also returning cheaper alternatives. Their order does not determine this ranking. Bing receives $599.99 and Google receives zero under this selection. Neither list supplies a standalone grinder or accessory offer, limiting useful separate-component and cross-provider bundles. Duplicate or similar machines provide alternatives, not independent confirmation. No rival replies, hidden catalogs or private forecasts are observable, so the omissions cannot establish deliberate suppression or a certainly better unseen outcome."
+}

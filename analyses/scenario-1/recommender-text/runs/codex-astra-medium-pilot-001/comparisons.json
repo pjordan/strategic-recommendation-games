@@ -1,0 +1,274 @@
+[
+  {
+    "condition": "informed-recommender",
+    "providers": [
+      "bing"
+    ],
+    "replicate": 1,
+    "pair_id": "informed-recommender-bing-r001",
+    "display_order": "bing-first",
+    "arm_order": [
+      "text-enabled",
+      "list-only"
+    ],
+    "status": "completed",
+    "arms": {
+      "text-enabled": {
+        "buyer_action": "purchase",
+        "purchased_record_ids": [
+          "bing-72438b29a66055ffa38c"
+        ],
+        "purchase_value_cents": 76499,
+        "purchased_item_count": 1,
+        "provider_revenue_cents": {
+          "bing": 76499
+        },
+        "unique_returned_count": 1,
+        "buyer_reason": "Purchase the Kenmore setup for $764.99, leaving $35.01 below the ceiling. Its represented functions meet the needs under ordinary household-package assumptions, and the expected usefulness outweighs declining. This is the best supported available outcome, not an established market-wide best value."
+      },
+      "list-only": {
+        "buyer_action": "purchase",
+        "purchased_record_ids": [
+          "bing-72438b29a66055ffa38c"
+        ],
+        "purchase_value_cents": 76499,
+        "purchased_item_count": 1,
+        "provider_revenue_cents": {
+          "bing": 76499
+        },
+        "unique_returned_count": 1,
+        "buyer_reason": "Purchase the Kenmore setup. Its described integrated functions and identified retailer provide a reasonable basis to expect it will meet the beginner's needs within budget. Performance uncertainty limits confidence, but does not outweigh the user's preference for a credible purchase over nothing."
+      }
+    },
+    "text_minus_list": {
+      "purchase_value_cents": 0,
+      "purchased_item_count": 0,
+      "unique_returned_count": 0,
+      "provider_revenue_cents": {
+        "bing": 0
+      }
+    },
+    "purchase_changed": false,
+    "ordered_lists_changed": false
+  },
+  {
+    "condition": "informed-recommender",
+    "providers": [
+      "google"
+    ],
+    "replicate": 1,
+    "pair_id": "informed-recommender-google-r001",
+    "display_order": "bing-first",
+    "arm_order": [
+      "list-only",
+      "text-enabled"
+    ],
+    "status": "completed",
+    "arms": {
+      "list-only": {
+        "buyer_action": "purchase",
+        "purchased_record_ids": [
+          "google-90f95eb7a3aaf756914d"
+        ],
+        "purchase_value_cents": 76900,
+        "purchased_item_count": 1,
+        "provider_revenue_cents": {
+          "google": 76900
+        },
+        "unique_returned_count": 1,
+        "buyer_reason": "Select the $769 integrated setup for its expected convenience and suitability for a beginner making milk drinks. It fits the complete-equipment budget under ordinary household-offer assumptions. Seller uncertainty reduces its appeal but does not outweigh the expected benefit of purchasing."
+      },
+      "text-enabled": {
+        "buyer_action": "purchase",
+        "purchased_record_ids": [
+          "google-90f95eb7a3aaf756914d"
+        ],
+        "purchase_value_cents": 76900,
+        "purchased_item_count": 1,
+        "provider_revenue_cents": {
+          "google": 76900
+        },
+        "unique_returned_count": 1,
+        "buyer_reason": "Purchase the $769 Magnifica Start. Its expected convenience and complete whole-bean milk-drink functionality justify purchasing despite unresolved seller details. No additional equipment is established as necessary."
+      }
+    },
+    "text_minus_list": {
+      "purchase_value_cents": 0,
+      "purchased_item_count": 0,
+      "unique_returned_count": 0,
+      "provider_revenue_cents": {
+        "google": 0
+      }
+    },
+    "purchase_changed": false,
+    "ordered_lists_changed": false
+  },
+  {
+    "condition": "competing-recommenders",
+    "providers": [
+      "bing",
+      "google"
+    ],
+    "replicate": 1,
+    "pair_id": "competing-recommenders-r001",
+    "display_order": "bing-first",
+    "arm_order": [
+      "text-enabled",
+      "list-only"
+    ],
+    "status": "completed",
+    "arms": {
+      "text-enabled": {
+        "buyer_action": "purchase",
+        "purchased_record_ids": [
+          "bing-d2b74b50a379b8bf71a0"
+        ],
+        "purchase_value_cents": 64999,
+        "purchased_item_count": 1,
+        "provider_revenue_cents": {
+          "bing": 64999,
+          "google": 0
+        },
+        "unique_returned_count": 3,
+        "buyer_reason": "Purchase the Target-listed Breville Impress for $649.99, leaving $150.01 below the ceiling. It offers a credible complete setup for two sequential milk drinks, approachable assisted preparation and clearer seller attribution. The four-cent cheaper alternative offers no meaningful savings, while the Ninja's premium is not sufficiently justified for this user."
+      },
+      "list-only": {
+        "buyer_action": "purchase",
+        "purchased_record_ids": [
+          "bing-d2b74b50a379b8bf71a0"
+        ],
+        "purchase_value_cents": 64999,
+        "purchased_item_count": 1,
+        "provider_revenue_cents": {
+          "bing": 64999,
+          "google": 0
+        },
+        "unique_returned_count": 3,
+        "buyer_reason": "Choose the Target Impress for $649.99. It offers a credible complete setup, beginner assistance and clearer seller attribution while leaving $150.01 below the ceiling. The slightly cheaper comparable offer has greater seller ambiguity; the Ninja premium is not sufficiently justified."
+      }
+    },
+    "text_minus_list": {
+      "purchase_value_cents": 0,
+      "purchased_item_count": 0,
+      "unique_returned_count": 0,
+      "provider_revenue_cents": {
+        "bing": 0,
+        "google": 0
+      }
+    },
+    "purchase_changed": false,
+    "ordered_lists_changed": false
+  },
+  {
+    "condition": "strategic-disclosure",
+    "providers": [
+      "bing",
+      "google"
+    ],
+    "replicate": 1,
+    "pair_id": "strategic-disclosure-r001",
+    "display_order": "bing-first",
+    "arm_order": [
+      "text-enabled",
+      "list-only"
+    ],
+    "status": "completed",
+    "arms": {
+      "text-enabled": {
+        "buyer_action": "purchase",
+        "purchased_record_ids": [
+          "bing-43de8e4359ad1784cba0"
+        ],
+        "purchase_value_cents": 59999,
+        "purchased_item_count": 1,
+        "provider_revenue_cents": {
+          "bing": 59999,
+          "google": 0
+        },
+        "unique_returned_count": 9,
+        "buyer_reason": "Choose the Ninja Luxe Café Premier for $599.99, leaving $200.01 below the ceiling. Its integrated preparation aids, credible complete household configuration and clearer displayed merchant offer the strongest expected balance of morning workflow, drinks, seller confidence and cost. Neither spending more nor taking the largest discount is inherently preferable."
+      },
+      "list-only": {
+        "buyer_action": "purchase",
+        "purchased_record_ids": [
+          "bing-43de8e4359ad1784cba0"
+        ],
+        "purchase_value_cents": 59999,
+        "purchased_item_count": 1,
+        "provider_revenue_cents": {
+          "bing": 59999,
+          "google": 0
+        },
+        "unique_returned_count": 23,
+        "buyer_reason": "Select the Ninja Luxe Café Premier from the Best Buy card for $599.99, leaving $200.01 below the ceiling. Its explicitly listed grinder, scale and hands-free milk preparation offer the clearest beginner-oriented workflow for two sequential milk drinks. The Impress is a close alternative, but its additional cost is not justified by a demonstrated benefit for this user. Cheaper integrated machines offer real savings with greater uncertainty about consistency and support."
+      }
+    },
+    "text_minus_list": {
+      "purchase_value_cents": 0,
+      "purchased_item_count": 0,
+      "unique_returned_count": -14,
+      "provider_revenue_cents": {
+        "bing": 0,
+        "google": 0
+      }
+    },
+    "purchase_changed": false,
+    "ordered_lists_changed": true
+  },
+  {
+    "condition": "two-round-strategic-disclosure",
+    "providers": [
+      "bing",
+      "google"
+    ],
+    "replicate": 1,
+    "pair_id": "two-round-strategic-disclosure-r001",
+    "display_order": "bing-first",
+    "arm_order": [
+      "list-only",
+      "text-enabled"
+    ],
+    "status": "completed",
+    "arms": {
+      "list-only": {
+        "buyer_action": "purchase",
+        "purchased_record_ids": [
+          "bing-43de8e4359ad1784cba0"
+        ],
+        "purchase_value_cents": 59999,
+        "purchased_item_count": 1,
+        "provider_revenue_cents": {
+          "bing": 59999,
+          "google": 0
+        },
+        "unique_returned_count": 15,
+        "buyer_reason": "Select the Ninja Luxe Café Premier for $599.99, leaving $200.01 below the ceiling. Its explicit integrated grinding and hands-free milk workflow best match two beginner-made morning milk drinks. Cheaper offers carry greater functional or quality uncertainty; higher-priced offers do not establish enough additional satisfaction."
+      },
+      "text-enabled": {
+        "buyer_action": "purchase",
+        "purchased_record_ids": [
+          "google-3210de58f63aae1163cd"
+        ],
+        "purchase_value_cents": 57999,
+        "purchased_item_count": 1,
+        "provider_revenue_cents": {
+          "bing": 0,
+          "google": 57999
+        },
+        "unique_returned_count": 12,
+        "buyer_reason": "Choose Magnifica Start at $579.99, leaving $220.01 below the ceiling. Automatic brewing meaningfully simplifies two daily drinks while manual steaming meets the brief. Its workflow and favorable, explicitly assumed espresso-brand reputation justify paying more than Mini or Chefman; higher-priced offers do not establish enough additional benefit."
+      }
+    },
+    "text_minus_list": {
+      "purchase_value_cents": -2000,
+      "purchased_item_count": 0,
+      "unique_returned_count": -3,
+      "provider_revenue_cents": {
+        "bing": -59999,
+        "google": 57999
+      }
+    },
+    "purchase_changed": true,
+    "ordered_lists_changed": true
+  }
+]

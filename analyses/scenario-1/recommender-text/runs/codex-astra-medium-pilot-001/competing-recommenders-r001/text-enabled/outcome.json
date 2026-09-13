@@ -1,0 +1,48 @@
+{
+  "buyer_action": "purchase",
+  "purchased_record_ids": [
+    "bing-d2b74b50a379b8bf71a0"
+  ],
+  "purchase_value_cents": 64999,
+  "purchased_item_count": 1,
+  "provider_revenue_cents": {
+    "bing": 64999,
+    "google": 0
+  },
+  "unique_returned_count": 3,
+  "recommender_choices": [
+    {
+      "bing": {
+        "candidate_id": "impress",
+        "ordered_record_ids": [
+          "bing-d2b74b50a379b8bf71a0"
+        ],
+        "message": "I recommend the Breville Barista Express Impress listed at Target for $649.99, leaving $150.01 within your equipment budget. Its matched listing describes an integrated conical burr grinder with 25 settings, PID temperature control, a steam wand and 120 V operation. It covers the core functions for whole-bean milk drinks; making two sequentially suits your brief. Expect to learn grind adjustment and milk steaming, and clean the coffee and milk-contact parts daily. My favorable view of Breville’s espresso experience is a general reputation assumption, not a reliability guarantee. Basic operating accessories are reasonably expected with this household machine, although the frozen evidence does not enumerate the box contents. No separate grinder, frother or scale is automatically needed.",
+        "preference_rank": 1,
+        "strategic_justification": "A credible, identifiable setup at a competitive price supports conversion and meaningful attributed revenue. Manual steaming is explicitly acceptable, making this a strong fit without paying for unnecessary automation.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "bing-d2b74b50a379b8bf71a0"
+        ],
+        "predicted_own_revenue_cents": 64999
+      },
+      "google": {
+        "candidate_id": "balanced_shortlist",
+        "ordered_record_ids": [
+          "google-ae16f17e37b151e3a9fd",
+          "google-b063db752a738d4653f3"
+        ],
+        "message": "My recommendation is the $649.95 Breville Barista Express Impress. Its scoped listing describes an integrated conical burr grinder with 25 settings, PID temperature control and a manual steam wand: a good fit for whole-bean milk drinks when you are happy to learn manual steaming. It leaves $150.05 below your equipment ceiling. The card names Whole Latte Love & more and advertises 30-day returns; the aggregate label does not establish the actual seller. Ordinary operating accessories are a reasonable expectation for this household machine, although the supplied facts do not enumerate them.\n\nThe $749.95 Ninja Luxe Café Pro is an alternative if its workflow appeals more. Its scoped page identifies an integrated scale and steam wand. Treat it as a separate setup option, not an additional purchase. My expectation that this integrated product includes its usual grinder and operating accessories relies on general product-family knowledge rather than an exhaustive frozen parts list. Neither option needs a separate standalone frother. Both require routine cleaning, and the supplied evidence does not establish comparative durability.",
+        "preference_rank": 1,
+        "strategic_justification": "Combines a credible complete setup at a competitive price with a higher-priced alternative. This preserves a plausible Google purchase if the buyer finds the Ninja premium insufficient, while competing on workflow and confidence rather than price alone.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "google-ae16f17e37b151e3a9fd"
+        ],
+        "predicted_own_revenue_cents": 64995
+      }
+    }
+  ],
+  "buyer_reason": "Purchase the Target-listed Breville Impress for $649.99, leaving $150.01 below the ceiling. It offers a credible complete setup for two sequential milk drinks, approachable assisted preparation and clearer seller attribution. The four-cent cheaper alternative offers no meaningful savings, while the Ninja's premium is not sufficiently justified for this user.",
+  "buyer_strategic_response": "Bing's single-card selection concentrates potential revenue on its Breville offer. Google leads with its competing Breville and includes a higher-priced Ninja that would yield more revenue if selected. Both messages favor integrated setups and acknowledge some uncertainty. Their ordering and recommendations do not establish superiority. No useful cross-provider bundle exists among the returned cards: each is a complete-machine alternative, and every two-machine combination exceeds $800. Omitted offers cannot be assessed."
+}

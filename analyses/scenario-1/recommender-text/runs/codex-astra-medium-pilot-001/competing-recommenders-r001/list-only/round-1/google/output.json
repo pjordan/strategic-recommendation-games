@@ -1,0 +1,48 @@
+{
+  "selected_candidate_id": "google-r1-a",
+  "candidates": [
+    {
+      "candidate_id": "google-r1-a",
+      "ordered_record_ids": [
+        "google-ae16f17e37b151e3a9fd",
+        "google-b063db752a738d4653f3"
+      ],
+      "preference_rank": 1,
+      "strategic_justification": "The $649.95 Impress offers a credible complete setup and competitive value. The $749.95 Ninja Pro preserves an upgrade option for a buyer who values workflow assistance. Both fit the complete equipment budget without a separate grinder.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "google-ae16f17e37b151e3a9fd"
+      ],
+      "predicted_own_revenue_cents": 64995
+    },
+    {
+      "candidate_id": "google-r1-b",
+      "ordered_record_ids": [
+        "google-b063db752a738d4653f3"
+      ],
+      "preference_rank": 2,
+      "strategic_justification": "Concentrates attention on a higher-revenue, approachable integrated option. Its higher price increases the risk that a compelling rival offer wins; withholding the Impress removes a useful competitive fallback.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "google-b063db752a738d4653f3"
+      ],
+      "predicted_own_revenue_cents": 74995
+    },
+    {
+      "candidate_id": "google-r1-c",
+      "ordered_record_ids": [],
+      "preference_rank": 3,
+      "strategic_justification": "An empty list guarantees zero attributed revenue and leaves any satisfactory purchase to the rival.",
+      "predicted_buyer_choice": "other_provider",
+      "predicted_own_purchased_ids": [],
+      "predicted_own_revenue_cents": 0
+    }
+  ],
+  "selection_reason": "Candidate A combines a strong value offer with a higher-price alternative. I expect its purchase likelihood and retained upgrade opportunity to outweigh the higher conditional revenue of the Ninja-only list.",
+  "limitations": [
+    "Bing's catalog and response are unknown; purchase destinations are tentative forecasts.",
+    "Cards and scoped page claims do not independently verify sellers, accessories, or exact delivered variants.",
+    "Ordinary accessory inclusion and US compatibility are reasonable purchasing assumptions for these household offers."
+  ],
+  "buyer_belief": "The supplied brief establishes an $800 total ceiling, whole-bean espresso and steamed-milk requirements, willingness to steam manually, and concern for workflow, dependability, seller recourse, and value. I assume broad Breville espresso-category reputation helps the Impress compete, while Ninja's workflow assistance may justify its premium for some beginners. These are qualitative purchasing priors, not verified comparative performance."
+}

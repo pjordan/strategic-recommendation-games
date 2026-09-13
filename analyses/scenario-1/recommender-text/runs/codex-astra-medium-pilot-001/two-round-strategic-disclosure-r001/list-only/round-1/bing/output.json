@@ -1,0 +1,56 @@
+{
+  "selected_candidate_id": "bing_r1_a",
+  "candidates": [
+    {
+      "candidate_id": "bing_r1_a",
+      "ordered_record_ids": [
+        "bing-d2b74b50a379b8bf71a0",
+        "bing-43de8e4359ad1784cba0",
+        "bing-cd11aaaefd5c25f214f5",
+        "bing-78a4158303ba5999efdb",
+        "bing-768274d734cd0e80217a"
+      ],
+      "preference_rank": 1,
+      "strategic_justification": "Lead with the $649.99 Impress as a credible integrated choice, retaining Ninja convenience, a Best Buy Breville alternative, and cheaper options. This provides several ways to retain the purchase against an unknown rival offering separate components.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "bing-d2b74b50a379b8bf71a0"
+      ],
+      "predicted_own_revenue_cents": 64999
+    },
+    {
+      "candidate_id": "bing_r1_b",
+      "ordered_record_ids": [
+        "bing-43de8e4359ad1784cba0",
+        "bing-d2b74b50a379b8bf71a0",
+        "bing-78a4158303ba5999efdb",
+        "bing-768274d734cd0e80217a"
+      ],
+      "preference_rank": 2,
+      "strategic_justification": "Emphasizing Ninja's displayed grinder, scale, and hands-free frother may attract this beginner's morning workflow preference, but the likely purchase attributes less revenue.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "bing-43de8e4359ad1784cba0"
+      ],
+      "predicted_own_revenue_cents": 59999
+    },
+    {
+      "candidate_id": "bing_r1_empty",
+      "ordered_record_ids": [],
+      "preference_rank": 3,
+      "strategic_justification": "An empty opening list offers no current route to attributed revenue and leaves the rival to establish the shortlist.",
+      "predicted_buyer_choice": "other_provider",
+      "predicted_own_purchased_ids": [],
+      "predicted_own_revenue_cents": 0
+    }
+  ],
+  "selection_reason": "Candidate A balances plausible purchase value with competitive breadth. The Impress offers a credible opportunity for a $649.99 purchase without relying on exhausting the budget. Forecasts remain tentative.",
+  "limitations": [
+    "The rival catalog and response are unknown; a stronger separate setup could win.",
+    "This catalog contains no standalone grinder or accessory offers. The CASABREWS bundle's grinder suitability and accessory completeness remain unknown.",
+    "Included milk vessels and basic accessories are not exhaustively established for the leading offers; forecasts assume ordinary complete retail packages.",
+    "Marketplace names do not establish actual sellers or recourse. Matched pages and ratings are not independent verification.",
+    "Ninja's frozen facts contain both manual and automatic frothing descriptions; automatic operation is not conclusively resolved."
+  ],
+  "buyer_belief": "Evidence: the buyer has an $800 total ceiling, welcomes separate and integrated setups, accepts sequential preparation and manual steaming, and values consistency, ease, maintenance, dependability, and seller confidence. Assumption: recognizable espresso brands and conventional retail offers receive favorable broad reputation priors, while cheaper unfamiliar equipment must offer convincing comparable satisfaction. The buyer's exact tradeoffs and rival options remain unknown."
+}

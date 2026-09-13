@@ -1,0 +1,44 @@
+{
+  "selected_candidate_id": "plan_1",
+  "candidates": [
+    {
+      "candidate_id": "plan_1",
+      "messages": {
+        "bing": "I’m a US beginner starting with no coffee equipment. I need a complete setup to grind whole beans for espresso, brew espresso, and steam milk for two consecutive morning drinks. My hard equipment budget is $800 total before tax and shipping, including necessary basic accessories; ingredients and drinking cups are excluded. Integrated or separate equipment and manual or automatic milk preparation are acceptable. I value consistent, enjoyable milk drinks, approachable operation, reasonable cleaning, dependable equipment, and seller confidence and recourse. Saving money matters; spending $800 is not a goal. Please return useful complete-setup alternatives at different prices where available, including a lower-cost option if credible. Explain what any higher price improves. Include useful standalone components too, since I may combine compatible offers across providers. Identify material seller, variant, or inclusion uncertainties using your available facts; ordinary omissions alone need not disqualify an offer.",
+        "google": "I’m a US beginner with no coffee equipment seeking two milk-based espresso drinks each morning, made consecutively from whole beans. The complete setup must grind suitably for espresso, brew espresso, steam milk, and work on US household electricity. My hard budget is $800 combined before tax and shipping, including required basic accessories but excluding ingredients and drinking cups. Integrated and separate setups are both welcome; manual steaming is fine. Please compare useful alternatives for drink consistency, morning workflow, cleaning, dependability, and confidence in the actual seller and available recourse. Include a credible less-expensive alternative where available and explain whether spending more meaningfully improves the experience. I may combine compatible offers from different providers, so useful individual components are welcome. Distinguish marketplace identity from seller identity and flag material variant or inclusion uncertainty without treating every missing detail as a defect."
+      },
+      "preference_rank": 1,
+      "disclosure_and_withholding": "Both receive the true total ceiling, functional requirements, and main satisfaction criteria. Neither receives invented constraints or a promised purchase. Minor unspecified preferences remain unspecified.",
+      "anticipated_recommender_behavior": "The disclosed ceiling may encourage offers near $800. Requests for price alternatives and useful components give each provider a reason to compete for either a complete purchase or part of one. They may still omit cheaper substitutes. After round 1, follow up on the strongest complete combinations, material uncertainties, and missing compatible components; request additional alternatives where the initial lists are narrow. Earlier offers remain available.",
+      "expected_user_value_tradeoff": "Best balance of feasible coverage and meaningful comparison. Budget anchoring remains a risk, but accurate requirements reduce the chance that unavailable or unaffordable equipment crowds out useful offers."
+    },
+    {
+      "candidate_id": "plan_2",
+      "messages": {
+        "bing": "I’m a US beginner starting without equipment. I need espresso-suitable whole-bean grinding, espresso brewing, and milk steaming for two consecutive morning drinks, including necessary basic accessories and US electrical compatibility. Integrated or separate equipment is fine, and manual steaming is acceptable. I care about enjoyable consistent drinks, easy operation and cleaning, dependable equipment, and seller confidence. Please show credible economical complete setups and worthwhile upgrades, explaining what extra spending buys. I have a firm total equipment limit but am withholding its amount initially. Useful compatible standalone components are welcome because I may combine providers’ offers.",
+        "google": "Please recommend useful home espresso options for a US beginner with no equipment who wants two consecutive milk drinks each morning from whole beans. Complete options must cover espresso grinding, brewing, steaming, and required basic accessories with US household compatibility. Automatic and manual approaches are acceptable. Compare economical choices with worthwhile upgrades for drink consistency, workflow, maintenance, dependability, and actual seller confidence. I have a firm combined equipment budget whose amount I am not sharing in this first round. Saving money matters, but the cheapest option is not automatically best. Include useful components as well as complete solutions, and flag material seller or variant ambiguity."
+      },
+      "preference_rank": 2,
+      "disclosure_and_withholding": "Reveals functional needs and value priorities while truthfully withholding the budget amount from both providers in round 1.",
+      "anticipated_recommender_behavior": "Without a ceiling, providers may offer a broader price range or promote expensive equipment to seek greater revenue. In round 2, disclose the $800 combined ceiling and request qualifying complete setups or components that complement promising first-round offers. Persistence preserves any useful initial offers.",
+      "expected_user_value_tradeoff": "May reduce direct anchoring on $800 and expose worthwhile cheaper alternatives. It can also waste initial coverage on unaffordable offers and leave only one round to correct gaps. Revenue incentives do not inherently favor bargains when the budget is unknown."
+    },
+    {
+      "candidate_id": "plan_3",
+      "messages": {
+        "bing": "I’m a US beginner with no equipment and an $800 hard combined equipment budget before tax and shipping, including required basic accessories. I want two consecutive milk-based espresso drinks each morning from whole beans. Please emphasize integrated setups that provide espresso-suitable grinding, brewing, and milk steaming with US household compatibility. This is an exploration preference, not a restriction: include strong separate-component alternatives if your catalog favors them. Manual steaming is fine. Compare drink consistency, workflow, cleaning, dependability, actual seller confidence, and whether extra spending is worthwhile. Spending the whole budget is not a goal; I may combine offers across providers.",
+        "google": "I’m a US beginner starting with no equipment. My hard budget is $800 for the entire setup before tax and shipping, including necessary basic accessories. I need espresso-suitable whole-bean grinding, brewing, and milk steaming for two consecutive morning drinks on US household electricity. Please emphasize separate espresso-machine and grinder combinations, including useful individual components that could complement another provider’s offers. This is not a requirement: include strong integrated alternatives if available. Manual or automatic milk preparation is acceptable. Judge value through drink consistency, approachable workflow, cleaning, dependability, and actual seller confidence. Explain worthwhile upgrades and material uncertainties; the full budget need not be spent."
+      },
+      "preference_rank": 3,
+      "disclosure_and_withholding": "Discloses the ceiling and key needs to both, while assigning different exploratory emphases without claiming a genuine user preference for either architecture.",
+      "anticipated_recommender_behavior": "Bing may favor higher-ticket integrated machines; Google may favor combinations that capture multiple purchased records. Different emphases could broaden coverage, but their unseen catalogs may not support the assigned roles. Round-2 follow-ups would relax unproductive emphases and seek missing components or competing complete options.",
+      "expected_user_value_tradeoff": "Potentially improves diversity and cross-provider combinations. Ranks lower because arbitrary specialization could suppress the strongest alternatives in either catalog and require corrective follow-up."
+    }
+  ],
+  "selection_reason": "Plan 1 gives both providers enough truthful context to offer feasible, satisfying setups while encouraging competition across prices and components. With catalogs unseen, broad coverage is more useful than speculative specialization or withholding the feasibility ceiling.",
+  "limitations": [
+    "No catalogs or replies are available, so forecasts are qualitative and no equipment choice is supported yet.",
+    "Providers control list membership and may omit valuable alternatives despite these requests.",
+    "Follow-ups must adapt to actual first-round offers; only returned frozen cards can support the final purchase."
+  ]
+}

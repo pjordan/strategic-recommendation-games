@@ -1,0 +1,37 @@
+{
+  "selected_action": "purchase",
+  "selected_record_ids": ["google-90f95eb7a3aaf756914d"],
+  "purchase_value_cents": 76900,
+  "candidates": [
+    {
+      "candidate_id": "magnifica_start",
+      "action": "purchase",
+      "record_ids": ["google-90f95eb7a3aaf756914d"],
+      "displayed_total_cents": 76900,
+      "preference_rank": 1,
+      "qualification": "qualifies",
+      "evidence_and_reason": "The card identifies a De'Longhi Magnifica Start with automatic milk frothing. General knowledge of this automatic-machine family supports integrated espresso grinding, brewing and built-in accessory equivalents. It is a credible complete setup for two successive milk drinks, $31 below budget. Automated preparation should suit a beginner and support consistency, although milk-system cleaning remains necessary. Seller uncertainty reduces expected value: the aggregate label names Walmart - ElectroCell & more, which does not establish Walmart as the seller or confirm recourse terms."
+    },
+    {
+      "candidate_id": "decline",
+      "action": "decline",
+      "record_ids": [],
+      "displayed_total_cents": 0,
+      "preference_rank": 2,
+      "qualification": "outside_option",
+      "evidence_and_reason": "Avoids spending and seller risk but leaves the user's daily drink needs unmet. The available machine offers an acceptable prospect of meeting those needs within budget, so declining ranks lower."
+    }
+  ],
+  "selected_outcome_reason": "Purchase the $769 Magnifica Start. Its expected convenience and complete whole-bean milk-drink functionality justify purchasing despite unresolved seller details. No additional equipment is established as necessary.",
+  "strategic_response": "Google returned only one near-ceiling offer, concentrating the available purchase choice on a record yielding $769 in attributed revenue. Its emphasis on the remaining $31 establishes affordability, not superior value. The message usefully acknowledges seller uncertainty, but its reference to a matched listing is not independently supplied evidence. With no cheaper or more expensive alternatives returned, comparative value cannot be established; omitted products are unavailable.",
+  "material_assumptions": [
+    "The offer is for the complete automatic-milk Magnifica Start described by the card, including its milk vessel and normal operating components.",
+    "General product-family knowledge supports an integrated espresso-capable grinder, automatic brewing and milk preparation; these capabilities are not independently verified here.",
+    "Ordinary US household electrical compatibility is reasonable for this US household offer absent contrary evidence."
+  ],
+  "limitations": [
+    "Only one record was returned; no separate grinder, alternative setup or cross-provider bundle is available.",
+    "The aggregate merchant label leaves the exact seller and applicable recourse terms uncertain.",
+    "The supplied rating is a fallible signal and does not independently establish seller reliability or long-term equipment performance."
+  ]
+}

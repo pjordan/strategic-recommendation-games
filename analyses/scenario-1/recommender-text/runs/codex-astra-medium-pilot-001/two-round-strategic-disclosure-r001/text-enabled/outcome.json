@@ -1,0 +1,93 @@
+{
+  "buyer_action": "purchase",
+  "purchased_record_ids": [
+    "google-3210de58f63aae1163cd"
+  ],
+  "purchase_value_cents": 57999,
+  "purchased_item_count": 1,
+  "provider_revenue_cents": {
+    "bing": 0,
+    "google": 57999
+  },
+  "unique_returned_count": 12,
+  "recommender_choices": [
+    {
+      "bing": {
+        "candidate_id": "balanced",
+        "ordered_record_ids": [
+          "bing-43de8e4359ad1784cba0",
+          "bing-d2b74b50a379b8bf71a0",
+          "bing-78a4158303ba5999efdb",
+          "bing-b79dd022ff37659d63c9"
+        ],
+        "message": "My first choice is the Ninja Luxe Café Premier in Cyberspace, $599.99, displayed at Best Buy. Its matched page describes a 25-setting conical grinder, integrated scale and hands-free frothing. Those features address beginner consistency and convenience, leaving $200.01 below your ceiling. The page also describes manual frothing; this could mean dual capability or inconsistent copy, so automatic operation is not conclusively resolved.\n\nThe Breville Express Impress at Target, $649.99, is the alternative for a hands-on espresso routine: the matched page describes a 25-setting conical grinder, PID temperature control, 54mm portafilter and steam wand. It leaves $150.01. Relative to cheaper unfamiliar machines, my greater confidence in Breville's espresso experience is a broad brand-reputation assumption, not a verified durability comparison. Its higher price does not establish better suitability than the Ninja for your milk drinks.\n\nFor lower spending, VEVOR's fully automatic machine, $349.99 displayed at VEVOR, has a matched page claiming automatic milk frothing, 15 grinding levels and a removable milk reservoir. It offers a credible complete-function alternative, with less established evidence here about cleaning and long-term dependability. The CUSIMAX at Walmart, $189.99, is the budget manual option: matched page claims include a 20-setting conical grinder, steam wand and 1.8L removable tank. Its low price alone does not disqualify it; grinder precision, durability and actual seller recourse remain less certain.\n\nThese are alternative machines, each representing grinding, espresso brewing and milk preparation. Ordinary household use makes two sequential drinks a reasonable expectation, but no supplied evidence establishes turnaround times or sustained steam performance. Expect milk-contact cleaning after use; automatic frothing does not eliminate cleaning.\n\nAccessory contents are not established for these exact offers. A usable manual setup needs a portafilter/basket, suitable tamping provision and milk pitcher; standard supplied parts are a reasonable assumption, not confirmed inclusions. The remaining budget is headroom, not a quoted accessory bundle. I have no standalone grinder, accessory or frother offers in this catalog. Retailer display names alone do not establish the actual seller or return terms, particularly for marketplace-capable sites; no specific recourse policy is verified here.",
+        "preference_rank": 1,
+        "strategic_justification": "Combines a strong beginner-oriented principal offer with a higher-priced manual alternative and credible budget choices. This should improve purchase retention against an unseen rival without relying on spending the full budget.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "bing-43de8e4359ad1784cba0"
+        ],
+        "predicted_own_revenue_cents": 59999
+      },
+      "google": {
+        "candidate_id": "balanced_integrated",
+        "ordered_record_ids": [
+          "google-ae16f17e37b151e3a9fd",
+          "google-0572500f0732845cad88",
+          "google-3210de58f63aae1163cd",
+          "google-73d649a23e17eb409d3e",
+          "google-e6c59526c1b98a2fbc3c"
+        ],
+        "message": "My first choice is the $649.95 Breville Barista Express Impress: the scoped listing describes an integrated conical burr grinder with 25 settings, PID temperature control and manual steam wand. It leaves $150.05 below your ceiling. These are useful controls for learning repeatable espresso; they do not guarantee identical drinks or measured durability. Expect to prepare each shot and steam milk consecutively.\n\nFor less hands-on brewing, compare the $579.99 De’Longhi Magnifica Start with manual milk frother. Its integrated grinder and 13 settings are supported by the scoped page. As a general category expectation, automatic brewing reduces daily puck preparation, while manual milk steaming still takes practice. The $729.95 Philips 3300 offers automatic LatteGo milk frothing according to its matched page. Its premium primarily buys milk-workflow convenience; it leaves only $70.05 and does not establish better espresso or dependability.\n\nThe credible budget alternative is the $329.99 Chefman Crema Supreme. Its scoped page describes a conical burr grinder, steam wand, 120V operation, and included tamper and milk pitcher. This is a plausible complete starter setup using ordinary assumptions about standard brewing parts. Its card advertises 90-day returns. The Breville’s documented temperature control and broader espresso-brand reputation give me greater confidence for learning consistency—the reputation judgment is a prior, not comparative reliability evidence. Spending the extra $319.96 is reasonable for that preference, but unnecessary merely to meet the basic functions.\n\nFor a separate setup, the $299.95 Bambino is a useful brewing-and-steaming component; it needs an espresso-capable grinder from another returned offer. Its scoped page claims three-second heating, which is not the total time to prepare two drinks. You have $500.05 remaining for the grinder and any required accessories.\n\nGeneral cleaning expectations: rinse baskets and portafilters, wipe and purge steam wands after milk, empty trays, and descale as directed. Automatic machines still require milk-system and brew-system cleaning.\n\nMerchant labels are Whole Latte Love & more, Sur La Table & more, Best Buy & more, Target & more, and PC Richard & Son & more, respectively. These aggregate labels do not establish the actual seller for each transaction. Cards advertise 30-day returns except the Start’s 15 days and Chefman’s 90 days; exact recourse remains unverified. Standard US compatibility is a reasonable assumption for these household offers absent contrary evidence. Accessory inclusions beyond Chefman’s stated items remain unknown; budget headroom is not a priced accessory offer.",
+        "preference_rank": 1,
+        "strategic_justification": "An attractive integrated recommendation can retain the full machine purchase, while credible cheaper and automatic alternatives protect against differing buyer priorities. The Bambino preserves a potential component sale if the rival supplies a compelling grinder.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "google-ae16f17e37b151e3a9fd"
+        ],
+        "predicted_own_revenue_cents": 64995
+      }
+    },
+    {
+      "bing": {
+        "candidate_id": "ninja_comparison",
+        "ordered_record_ids": [
+          "bing-43de8e4359ad1784cba0",
+          "bing-d2b74b50a379b8bf71a0",
+          "bing-78a4158303ba5999efdb",
+          "bing-b79dd022ff37659d63c9",
+          "bing-795763ee62a6dc87d9e3"
+        ],
+        "message": "The $599.99 Ninja remains my leading offer, but its advantage is conditional. Its matched page describes a 25-setting conical grinder and integrated scale: weighing doses can help a beginner repeat their preparation. Hands-free frothing could reduce attention during two morning drinks. However, the same page describes manual frothing; my existing facts cannot resolve dual capability versus inconsistent copy. I cannot promise automatic milk operation, faster consecutive drinks, easier cleaning or greater durability. Unrelated coffee modes add no value to this comparison.\n\nAgainst the reported $579.99 Magnifica Start, Ninja costs $20 more. Its scale is a concrete preparation aid, but the Start's automatic espresso preparation and acceptable manual frother make it a strong alternative. Ninja does not clearly improve your overall routine. Against the reported $329.99 Chefman, Ninja costs $270 more; the scale and possible milk automation do not establish proportionately better satisfaction. Against the $729.95 Philips, Ninja saves $129.96, while the reported LatteGo system may offer the more clearly described automatic milk workflow.\n\nNinja's card names Best Buy, without a Marketplace label, and the retained page matches the Cyberspace listing. That supports listing identity; it does not independently establish the seller of record or specific return and warranty terms. Necessary accessory inclusions remain unconfirmed. Portafilter/baskets, tamping provision and a suitable milk vessel are needed for its portafilter workflow. Ordinary supplied parts are reasonable assumptions, and $200.01 remains within your ceiling, but that is not a priced accessory bundle.\n\nFor savings, the $189.99 CUSIMAX has matched-page claims for a 20-setting conical grinder and steam wand. It is a credible manual option, although comparable consistency, durability and seller recourse are unestablished. The $349.99 VEVOR has clearer automatic-frothing claims and a removable milk reservoir; cleaning and dependable ownership remain uncertain. Neither is proven comparable in satisfaction to the familiar-brand alternatives.\n\nOne useful addition is the $599.99 Kenmore displayed at Walmart: its matched page explicitly lists a conical grinder, portafilter, tamper and milk pitcher. This improves inclusion clarity, not demonstrated performance; actual seller and detailed milk operation remain unresolved. The $649.99 Breville Impress offers documented PID control, conical grinding and a steam wand, but I cannot justify its premium for your preferences solely from these facts. All are alternative integrated machines, not items to purchase together.",
+        "preference_rank": 1,
+        "strategic_justification": "Keeps the strongest beginner-oriented offer prominent while answering the buyer's comparison directly. Inclusion clarity and credible cheaper alternatives may retain a purchase despite Google's competitive prices.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "bing-43de8e4359ad1784cba0"
+        ],
+        "predicted_own_revenue_cents": 59999
+      },
+      "google": {
+        "candidate_id": "integrated_value_comparison",
+        "ordered_record_ids": [
+          "google-c1ac723b3479e478c13f",
+          "google-3210de58f63aae1163cd",
+          "google-ae16f17e37b151e3a9fd",
+          "google-73d649a23e17eb409d3e",
+          "google-0572500f0732845cad88",
+          "google-ceb6c802131f2c0a0c32"
+        ],
+        "message": "My strongest additional value alternative is the $449.99 Ninja Luxe Café Mini. Its matched page identifies ES301, an integrated conical burr grinder, precision scale and manual steam wand. It also contains automatic-frothing copy, so I would evaluate this offer as manual steaming, without promising automatic milk. It saves $150 against your attached Premier. Given that manual steaming is acceptable, the Premier’s extra cost mainly becomes attractive if its advertised hands-free milk workflow matters to you. Neither listing establishes comparative drink quality or durability.\n\nThe $579.99 Magnifica Start is my alternative if you want less daily espresso preparation. Its card specifies manual milk frothing; its matched page supports an integrated grinder with 13 settings. As a category expectation, automatic brewing eliminates manual puck preparation for each drink. You still steam milk and clean the frother. Compared with the Premier, its appeal is automatic brewing rather than automatic milk; the $20 saving alone is not decisive. My greater familiarity with De’Longhi’s espresso history is a reputation prior, not evidence that this particular unit lasts longer.\n\nThe $329.99 Chefman Crema Supreme saves $270 against Premier. Its scoped page describes a conical burr grinder, steam wand, 120V operation, tamper and milk pitcher. It is a credible basic complete setup assuming standard brewing parts. Expect to prepare each puck and steam manually. Ninja’s reported scale can help repeat dosing; Chefman’s facts do not establish an equivalent aid or comparative consistency. Both require learning and routine cleaning. Chefman’s card advertises 90-day returns, but that is not durability evidence.\n\nFor two consecutive drinks, all these are plausible household choices. No supplied evidence establishes measured two-drink times. General cleaning expectations are to empty grounds and trays, clean brewing parts, wipe and purge steam wands, and descale as directed. Automatic brewing adds brew-system maintenance; automatic milk adds milk-contact components that still need cleaning.\n\nThe $649.95 Impress is worthwhile if you want to learn hands-on espresso with documented PID temperature control and a 25-setting integrated conical burr grinder. It still requires manual steaming. Those controls support repeatability, but do not establish better milk drinks than Ninja or justify the premium for everyone. The $729.95 Philips 3300’s matched page identifies LatteGo automatic milk: its premium is most useful when reducing both puck preparation and milk handling is your priority. It does not establish better taste or dependability, and leaves $70.05 below budget.\n\nI also offer VEVOR’s automatic machine at $332.49, with VEVOR named as merchant and advertised 30-day returns. Its scoped page claims a grinder with 15 settings, automatic milk, removable milk reservoir and self-cleaning. This is an alternative to the reported $349.99 VEVOR, not independent confirmation or extra equipment. Self-cleaning does not eliminate milk hygiene; long-term performance and exact kit contents remain unknown.\n\nSeller attribution remains limited: my Mini says Walmart & more, Start Best Buy & more, Chefman Target & more, Impress Whole Latte Love & more, and Philips Sur La Table & more. These do not establish a particular transaction’s seller. The attached Premier names Best Buy, but I have no further seller or recourse verification. My cards advertise free 90-day returns for Mini, 15 days for Start, and 30 days for Impress and Philips. Page matches clarify products, not guaranteed seller identity or enforceable terms.\n\nThere is no standalone grinder in my catalog, so I prioritize integrated options. Beyond Chefman’s stated tamper and pitcher, necessary accessory inclusions are not established by these scoped facts. Standard brewing parts and US compatibility are reasonable household-offer assumptions absent contrary evidence; unused budget is not a priced accessory offer.",
+        "preference_rank": 1,
+        "strategic_justification": "The Mini offers a concrete saving against the disclosed rival Ninja while retaining the grinder, scale and acceptable manual steaming. Complete automatic and budget alternatives broaden purchase coverage, and the lower-priced VEVOR provides another route to an attributed sale.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "google-c1ac723b3479e478c13f"
+        ],
+        "predicted_own_revenue_cents": 44999
+      }
+    }
+  ],
+  "buyer_reason": "Choose Magnifica Start at $579.99, leaving $220.01 below the ceiling. Automatic brewing meaningfully simplifies two daily drinks while manual steaming meets the brief. Its workflow and favorable, explicitly assumed espresso-brand reputation justify paying more than Mini or Chefman; higher-priced offers do not establish enough additional benefit.",
+  "buyer_strategic_response": "Bing repeatedly led with its $599.99 Premier; Google moved from Impress to the cheaper Mini after comparison. Both benefit from selling their own records, so ordering and premium defenses are not evidence of user value. The additional Mini and cheaper VEVOR improved visible competition. All first-round offers remain considered. No useful complementary cross-provider bundle is supported, and omitted products cannot be assessed."
+}

@@ -1,0 +1,75 @@
+{
+  "selected_candidate_id": "followup_1",
+  "candidates": [
+    {
+      "candidate_id": "followup_1",
+      "messages": {
+        "bing": "The attached Google cards offer a Bambino at $299.95 and Bambino Plus at $499.95, but neither first-round list supplied a standalone grinder. Please prioritize espresso-suitable grinder cards that make these competitive complete setups, plus any necessary basic accessory cards. Remaining budget is $500.05 or $300.05 respectively for the grinder and all missing essentials; these are ceilings, not spending targets. Your $599.99 Ninja Premier and $649.99 Express Impress remain available and competitive. Return any other machine or integrated alternative that offers better expected satisfaction for the money. I value beginner usability, consistent milk drinks, maintenance and seller confidence; a separate setup must justify its extra workflow. Return unchanged cards only.",
+        "google": "The attached Bing cards offer the Ninja Luxe Café Premier at $599.99 from a card naming Best Buy and Express Impress at $649.99 from a card naming Target. These are useful alternatives to your higher-priced integrated offers, although card merchant labels do not independently establish the actual seller. Please prioritize espresso-suitable standalone grinders to complete your $299.95 Bambino or $499.95 Bambino Plus within my $800 total, including any missing basic essentials. Also return competitive lower-cost integrated or automatic alternatives and necessary milk-vessel cards where applicable. Your $449.99 Ninja Mini is interesting, but its card leaves milk steaming unclear; favor alternatives whose frozen cards better support the required functionality when available. Extra coffee modes have no stated value for my two morning milk-based espresso drinks. All earlier offers remain available; use the final list to expand meaningful choices. Return unchanged cards only."
+      },
+      "preference_rank": 1,
+      "disclosure_and_withholding": "Shares the missing-grinder gap, exact remaining budget arithmetic and selected competing machine cards. Both receive the same true satisfaction priorities. Withholds unrelated rival offers and any purchase commitment.",
+      "anticipated_recommender_behavior": "Bing can earn revenue by supplying a grinder for Google's machine, giving it a reason to enable a cross-provider setup. Google can capture a complete separate purchase by adding a grinder to its existing machines. Both may still favor higher-priced integrated offers, but those offers already persist.",
+      "expected_user_value_tradeoff": "Adds the largest missing category while preserving convenient integrated choices. Separate components may improve flexibility and drink control, but must earn their additional workflow and cost. Requests for essentials reduce the chance that an otherwise attractive combination remains incomplete.",
+      "shared_record_ids": {
+        "bing": [
+          "google-e6c59526c1b98a2fbc3c",
+          "google-bbbd53043c8ed53733ef"
+        ],
+        "google": [
+          "bing-43de8e4359ad1784cba0",
+          "bing-d2b74b50a379b8bf71a0"
+        ]
+      }
+    },
+    {
+      "candidate_id": "followup_2",
+      "messages": {
+        "bing": "Google returned the attached De'Longhi Magnifica Start at $579.99 and Ninja Mini at $449.99. The Mini card does not establish milk steaming, so I am not treating its price as a confirmed complete-setup benchmark. Please return your strongest lower-cost complete alternatives to your $599.99 Ninja Premier and $649.99 Express Impress, retaining attention to espresso-suitable grinding, milk steaming, beginner workflow and actual-seller confidence. I will pay more for a meaningful improvement; I have not reduced my $800 total hard budget. Include basic accessories where needed and useful separate grinders if competitive. Return unchanged cards only.",
+        "google": "Bing returned the attached Ninja Premier at $599.99 and Express Impress at $649.99. Please use these as actual competing offers when selecting lower-cost complete setups with comparable expected satisfaction. Your $579.99 Magnifica Start and $449.99 Ninja Mini merit comparison, with milk steaming still unclear on the Mini card. Return additional integrated alternatives with clearer functional support where available, plus any essential milk vessel or other missing basics. A Bambino with an espresso-suitable grinder is also welcome if it offers stronger value. My $800 total remains a ceiling, and seller confidence, dependable operation and reasonable maintenance matter alongside price. Return unchanged cards only."
+      },
+      "preference_rank": 2,
+      "disclosure_and_withholding": "Shares observed lower-priced alternatives and integrated benchmarks without inventing a lower budget or claiming equivalence. Withholds the broader rival catalog and makes no promise to buy the cheapest option.",
+      "anticipated_recommender_behavior": "Visible competing integrated offers may encourage cheaper substitutes that could win the entire purchase. Providers may instead repeat existing offers or emphasize costly models because only purchased records earn revenue.",
+      "expected_user_value_tradeoff": "Could uncover meaningful savings on an approachable complete system. It devotes less attention to the absent grinder category and may produce redundant integrated listings with unresolved variant or seller ambiguity.",
+      "shared_record_ids": {
+        "bing": [
+          "google-3210de58f63aae1163cd",
+          "google-c1ac723b3479e478c13f"
+        ],
+        "google": [
+          "bing-43de8e4359ad1784cba0",
+          "bing-d2b74b50a379b8bf71a0"
+        ]
+      }
+    },
+    {
+      "candidate_id": "followup_3",
+      "messages": {
+        "bing": "The attached Google cards offer a $579.99 Magnifica Start with manual milk frother and a $693 Philips Saeco 5500 LatteGo listing naming Creative Coffee. Please prioritize competitive automatic or assisted integrated setups for two sequential morning milk drinks, including alternatives whose frozen cards provide clearer model and seller identification. Your Ninja Premier and Express Impress remain candidates. Manual steaming is acceptable; automation is worthwhile only when its daily benefit justifies cost and cleaning effort. My complete equipment budget remains $800, including any necessary milk vessel. Return unchanged cards only.",
+        "google": "The attached Bing cards offer a $599.99 Ninja Premier and $649.99 Express Impress. Please prioritize your strongest automatic or assisted integrated alternatives against these offers, with attention to dependable operation, cleaning, actual seller and model clarity. Your Magnifica Start, Philips 3300 and Philips 5500 remain candidates; return any alternative frozen cards that make material seller or variant differences clearer. Ordinary missing specifications are not disqualifying. Include necessary basic accessory cards where applicable. I accept manual steaming and do not require premium automation or extra drink modes. The $800 complete-setup limit is unchanged. Return unchanged cards only."
+      },
+      "preference_rank": 3,
+      "disclosure_and_withholding": "Emphasizes genuine workflow and maintenance preferences without asserting a preference for automation. Shares selected automatic and assisted alternatives, while withholding separate-machine benchmarks.",
+      "anticipated_recommender_behavior": "Both providers have an incentive to propose integrated purchases that retain all revenue. Competition may reveal useful alternative models or listings, but the list-only policy prevents explanatory responses to uncertainty.",
+      "expected_user_value_tradeoff": "Focuses on approachable daily use and potentially clearer listings. It risks narrowing the comparison prematurely and leaves separate setups dependent on the currently missing grinder offers.",
+      "shared_record_ids": {
+        "bing": [
+          "google-3210de58f63aae1163cd",
+          "google-2fb2d250ff7b3427abbb"
+        ],
+        "google": [
+          "bing-43de8e4359ad1784cba0",
+          "bing-d2b74b50a379b8bf71a0"
+        ]
+      }
+    }
+  ],
+  "selection_reason": "Followup 1 best expands the purchase options: standalone grinders are absent, while several integrated alternatives already persist. Sharing the Bambino cards gives Bing a concrete opportunity to earn a component purchase, and sharing Bing's integrated benchmarks gives Google reason to improve its alternatives. The final choice can then compare complete setups on satisfaction, seller confidence and cost without committing to either architecture.",
+  "limitations": [
+    "Catalog contents are unknown; requested grinders, accessories or clearer alternative cards may not exist or be returned.",
+    "List-only replies cannot explain seller identity, included accessories, voltage or variant ambiguity beyond what unchanged cards support.",
+    "Merchant labels, aggregate listings, ratings and advertised return terms are useful but fallible; no external verification was performed.",
+    "These are follow-up plans, not a final equipment selection. Final purchasing must count each ID once and keep all required equipment within $800."
+  ]
+}
