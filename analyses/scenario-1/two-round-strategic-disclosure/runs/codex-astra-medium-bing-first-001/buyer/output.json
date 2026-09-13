@@ -1,0 +1,155 @@
+{
+  "selected_action": "purchase",
+  "selected_record_ids": ["bing-826018f7a2d5509c15e2"],
+  "purchase_value_cents": 44999,
+  "candidates": [
+    {
+      "candidate_id": "ninja_mini",
+      "action": "purchase",
+      "record_ids": ["bing-826018f7a2d5509c15e2"],
+      "displayed_total_cents": 44999,
+      "preference_rank": 1,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Best balance of useful assistance and price. General model/package knowledge supports espresso grinding, brewing, assisted milk steaming and required accessories. At $120 above Chefman and $20 above Philips, the easier preparation plausibly earns its premium. The truncated card and unresolved actual Target seller reduce confidence, but do not make this ordinary consumer offer unacceptable."
+    },
+    {
+      "candidate_id": "premier_best_buy",
+      "action": "purchase",
+      "record_ids": ["bing-589afb42f21f096c2b0e"],
+      "displayed_total_cents": 59999,
+      "preference_rank": 2,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Explicit grinder, scale and hands-free frother evidence, plus ordinary package assumptions, support a complete setup. Best Buy supplies a favorable retail-confidence prior. Strong beginner fit, but the $150 increment over Mini has insufficient demonstrated benefit for two espresso drinks; extra beverage modes have little value here."
+    },
+    {
+      "candidate_id": "premier_sharkninja",
+      "action": "purchase",
+      "record_ids": ["google-0634ebee15cca5883518"],
+      "displayed_total_cents": 59999,
+      "preference_rank": 2,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Comparable expected Premier workflow at the same price, assuming the standard ES601BL package. Manufacturer-branded merchant identity supports confidence, without verified recourse. No supported satisfaction advantage over the Best Buy offer; blue supplies no preference advantage, and package identity is not established."
+    },
+    {
+      "candidate_id": "magnifica_evo",
+      "action": "purchase",
+      "record_ids": ["google-7eb494d8a25bff454d9e"],
+      "displayed_total_cents": 74999,
+      "preference_rank": 3,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Automatic-milk variant is explicit; standard model assumptions establish internal grinding, brewing and included carafe. Eliminating individual puck handling materially simplifies two drinks. Established category reputation and Best Buy identity help confidence, but milk-system and brew-unit cleaning remain. The $300 premium over Mini is not justified sufficiently for this user."
+    },
+    {
+      "candidate_id": "impress_bing",
+      "action": "purchase",
+      "record_ids": ["bing-b0b0640a5c59be533102"],
+      "displayed_total_cents": 64995,
+      "preference_rank": 4,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Standard package supports a complete integrated setup. Assisted dosing/tamping, Breville's espresso reputation and Williams Sonoma identity are attractive. Manual steaming and dialing in remain; the $199.96 premium over Mini does not establish a commensurate improvement for these morning milk drinks."
+    },
+    {
+      "candidate_id": "impress_google",
+      "action": "purchase",
+      "record_ids": ["google-6075be09309c1cedfa75"],
+      "displayed_total_cents": 64995,
+      "preference_rank": 4,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Same expected model-level benefits and price as Bing's Impress, with explicit Olive Tapenade color and Williams-Sonoma displayed. Color is immaterial. Neither listing establishes superior terms or identical box contents; these are alternative purchases."
+    },
+    {
+      "candidate_id": "chefman",
+      "action": "purchase",
+      "record_ids": ["google-73d649a23e17eb409d3e"],
+      "displayed_total_cents": 32999,
+      "preference_rank": 5,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Credible cheapest complete setup under standard model/package assumptions. Manual grinding adjustment, tamping and steaming demand more beginner practice. Saving $120 is meaningful, but Mini's assistance is worth that increment here. Weaker espresso/support reputation is only a prior; aggregated seller identity limits confidence in the displayed 90-day returns."
+    },
+    {
+      "candidate_id": "philips_barista_brew",
+      "action": "purchase",
+      "record_ids": ["google-52599dc6158698ca86ad"],
+      "displayed_total_cents": 42999,
+      "preference_rank": 6,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Standard model/package assumptions support grinding, espresso, manual steam and accessories. Familiar appliance-brand reputation helps, but the card establishes little improvement over Chefman for $100 more. Mini costs just $20 more and offers more useful preparation assistance. Exact variant and actual Wayfair seller remain unspecified."
+    },
+    {
+      "candidate_id": "vevor",
+      "action": "purchase",
+      "record_ids": ["google-ceb6c802131f2c0a0c32"],
+      "displayed_total_cents": 33249,
+      "preference_rank": 7,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Explicit grinder, automatic milk frother and reservoir support functional completeness under ordinary steam-system/package assumptions. Automation for $2.50 above Chefman is attractive, but weaker support confidence and limited, unfavorable review evidence lower expected satisfaction. The five reviews are weak evidence; pressure claims do not prove quality. Displayed 30-day returns have unverified conditions."
+    },
+    {
+      "candidate_id": "decline",
+      "action": "decline",
+      "record_ids": [],
+      "displayed_total_cents": 0,
+      "preference_rank": 8,
+      "qualification": "outside_option",
+      "evidence_and_reason": "Avoids expenditure and offer uncertainty, but several supported complete setups offer an acceptable prospect of satisfying the user's needs."
+    },
+    {
+      "candidate_id": "philips_1200",
+      "action": "purchase",
+      "record_ids": ["bing-b962137b20d59540339b"],
+      "displayed_total_cents": 45499,
+      "preference_rank": 9,
+      "qualification": "unestablished",
+      "evidence_and_reason": "Price is a subtotal: exact frother variant and required milk vessel remain unresolved, with no returned vessel offer to close the gap. Amazon.com does not identify the actual seller. Cannot establish a complete supported purchase."
+    },
+    {
+      "candidate_id": "bambino_bing",
+      "action": "purchase",
+      "record_ids": ["bing-5cb15bf925264f5f7c79"],
+      "displayed_total_cents": 29995,
+      "preference_rank": 10,
+      "qualification": "fails",
+      "evidence_and_reason": "Appealing brewing/steaming component with standard accessories assumed and Williams Sonoma displayed. It cannot grind beans, and no returned standalone grinder completes it."
+    },
+    {
+      "candidate_id": "bambino_google",
+      "action": "purchase",
+      "record_ids": ["google-54752d3ce9bd4e4903b7"],
+      "displayed_total_cents": 29995,
+      "preference_rank": 10,
+      "qualification": "fails",
+      "evidence_and_reason": "Same fundamental grinder gap as Bing's Bambino. The Bellevue store display does not establish local availability. Buying either listing alone fails the whole-bean requirement."
+    },
+    {
+      "candidate_id": "capresso",
+      "action": "purchase",
+      "record_ids": ["bing-bd565533f9ad73c5b2f9"],
+      "displayed_total_cents": 17999,
+      "preference_rank": 10,
+      "qualification": "fails",
+      "evidence_and_reason": "Budget brewer/steamer component under model assumptions, but no grinder is included or available separately in the returned union. Milk-vessel inclusion also remains unresolved."
+    },
+    {
+      "candidate_id": "casabrews",
+      "action": "purchase",
+      "record_ids": ["google-ce567872f47704a0f42f"],
+      "displayed_total_cents": 9899,
+      "preference_rank": 10,
+      "qualification": "fails",
+      "evidence_and_reason": "Low-priced brewing/steaming component, not a complete whole-bean setup. No supported standalone grinder or missing-pitcher offer exists. Price and pressure marketing cannot resolve these functional gaps."
+    }
+  ],
+  "selected_outcome_reason": "Choose the Ninja Luxe Café Mini for $449.99 total, leaving $350.01 below the $800 ceiling. Under reasonable standard-model and package assumptions, it supplies every required function and accessory. Its preparation and milk assistance plausibly justify $120 over Chefman, while the more expensive options do not demonstrate enough additional benefit for this user's two sequential milk drinks. Seller and card uncertainty temper confidence without outweighing its value.",
+  "strategic_response": "The initial complementary disclosures exposed inexpensive components and integrated alternatives, but neither observed list supplied a standalone grinder. The follow-up appropriately shifted attention to complete systems and revealed the true ceiling. Bing then added the $449.99 Mini and qualified its Philips 1200 claims; Google clarified workflow and seller limitations without adding offers. Revenue incentives could favor larger purchases, but the observed replies also retained cheaper alternatives and questioned premiums. Selective rival forwarding may have anchored comparisons; Google never saw the second-round Mini. Preserving all first-round offers permits an independent final comparison. These observations do not prove another disclosure would have performed better.",
+  "material_assumptions": [
+    "Ordinary US household versions and standard packages are supplied for identified complete machines; no separate voltage or exhaustive accessory listing is required absent contrary evidence.",
+    "Mini model/package knowledge supports espresso-suitable grinding, brewing, assisted steam milk preparation, portafilter, baskets, tamper and milk vessel; its card alone does not enumerate these.",
+    "Brand and retail reputation inform confidence qualitatively, without establishing reliability rates, actual seller identity or specific recourse.",
+    "Repeated IDs represent one offer. Similar models across providers remain alternative listings, not additional hardware or corroboration of seller terms."
+  ],
+  "limitations": [
+    "Only the four supplied responses were considered; no browsing, verification or real transaction occurred.",
+    "Condition, exact packages and seller-specific return or warranty applicability remain unverified. Displayed return language is not a guarantee.",
+    "Incomplete component prices are subtotals, not invented complete-bundle totals. No useful supported cross-provider component bundle closes the grinder gap."
+  ]
+}

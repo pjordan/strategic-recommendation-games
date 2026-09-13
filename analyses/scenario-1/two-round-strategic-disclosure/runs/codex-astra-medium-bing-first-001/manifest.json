@@ -1,0 +1,60 @@
+{
+  "run_id": "codex-astra-medium-bing-first-001",
+  "analysis_id": "scenario-1-two-round-strategic-disclosure",
+  "providers": [
+    "bing",
+    "google"
+  ],
+  "display_order": "bing-first",
+  "scenario_version": "1.2.0",
+  "scenario_manifest_sha256": "24dd1f5188bdb20006f36cad6a021985ba92a9d7f957e313a128bae4713cbb81",
+  "base_scenario_manifest_sha256": "623603b321759c470e5facaa6308c47f7334dc57f2eb3c551904be6d8d102f56",
+  "catalog_record_counts": {
+    "bing": 279,
+    "google": 186
+  },
+  "status": "completed",
+  "harness": "codex",
+  "harness_version": "codex-cli 0.154.0",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort_requested": "medium",
+  "sampling_note": "No seed or temperature set; fresh samples need not reproduce choices.",
+  "started_at": "2026-09-13T09:11:00.790283+00:00",
+  "python_version": "3.9.6",
+  "os_family": "Darwin",
+  "buyer_access": "union_of_all_four_returned_lists",
+  "recommender_submission": "Independent sealed responses each round; own catalog, own selected prior state and addressed buyer messages/evidence only",
+  "buyer_state_policy": "Fresh disclosure, follow-up and final calls linked by selected plans/reasons and public history; true preferences supplied to all three",
+  "recommender_state_policy": "Fresh round-2 calls linked by own selected round-1 strategy/reason/belief/response and addressed buyer history only",
+  "repository_commit_at_start": "5f25b647a4d7466d9f71732f6c3e7b63b491675a",
+  "repository_dirty_at_start": true,
+  "source_sha256": {
+    "analyses/scenario-1/two-round-strategic-disclosure/run_game.py": "629b10ba3d2f8fcaa3612a41e8023a8af655e925c9dcc852db765806d05ce99e",
+    "analyses/scenario-1/two-round-strategic-disclosure/verify_runs.py": "b6cd13916e7ea40c2ea043c0daebb417ba6a6a7c019e44ca748b1c1aaa2e41fc",
+    "tests/test_two_round_disclosure.py": "4c8bc0fc92f571b9960027e57885688988626ef8743dda5c7a871a1f69d45745",
+    "analyses/scenario-1/oracle-access/run_model.py": "1d4ae87ce0e9fac52cee4cff1686152044552c9d1f358ae06929afdc8924eda9",
+    "tools/scenario.py": "4a849f382b775b8d67d85516c73312443dc4b63c7e6c29698e8775ccf2fa5525",
+    "analyses/scenario-1/two-round-strategic-disclosure/config.json": "6dfba1464b63a7c7f0087489f1e7b08274ee4e75cd054b44ee95962eb57c980e",
+    "analyses/scenario-1/two-round-strategic-disclosure/recommender-schema.json": "12c67fb810bb153511c9706ff8789d1c681342a8d66738ee055e7dbe826ecb6b",
+    "analyses/scenario-1/two-round-strategic-disclosure/buyer-schema.json": "6dc454cb6104bd1f3ceecd071932a0b753dae92cff7b26ffe3467d85c3892ace",
+    "analyses/scenario-1/two-round-strategic-disclosure/disclosure-schema.json": "5e56b6862a6e49cef86c0447d7bc3114dc18d5e887d84785119a7349c2058ce9",
+    "analyses/scenario-1/two-round-strategic-disclosure/followup-schema.json": "c76511868fce001bcdafb603524222db94d46d4bf3f353ba798995b90c66772b",
+    "analyses/scenario-1/two-round-strategic-disclosure/run.sh": "4cb31907e76b5d877a2b3fe30b92711713bf96797be06bdf7a87759d2eea92b7",
+    "analyses/scenario-1/two-round-strategic-disclosure/prompts/buyer.md": "c844e3a4fbed5906fa2e5187e89193973f4659af29e67a03d524aacd615ff615",
+    "analyses/scenario-1/two-round-strategic-disclosure/prompts/disclosure.md": "8f394cb682abf4bff13a3dd622827027b3a429ae4c9ea640c03493f0ab01b57d",
+    "analyses/scenario-1/two-round-strategic-disclosure/prompts/followup.md": "df57c6329062cbcf08b0cd4c6b996ef63d4cc22bc8904cb793f318a9fb252b8f",
+    "analyses/scenario-1/two-round-strategic-disclosure/prompts/recommender.md": "cb8a6292dddea2ebf3c897228452ea571cb2de19304378dfd3b089c3a12f8a69"
+  },
+  "artifacts_sha256": {
+    "disclosures.json": "381c77f0085c4ebfcb1e1fc1a601a8ef4025b4e57b5045b70c14877555f9f2c6",
+    "buyer-state.json": "f3e618541a9f76d2ff7b9340415fa0e086ae5b5016a672974ca1c7a0803699fc",
+    "round-1-responses.json": "937cc6e9ce7a7a99bab607f2fdc2ca1b7ef416aad41cd3b36a1c540495980a99",
+    "followups.json": "a5e3d12ce5c11b8b33d095d0285502e8ed6570b004dc2f238fc602dc07c81a43",
+    "followup-state.json": "ae710bcc3fdea860d78be343c507aca403bcdc5ca65ea6fb2c5106e2822f4a7d",
+    "round-2-responses.json": "98cc2eab47c0a5e9978bcdeaae73cd11ff98c18d36c0b24b8aa1a3485d3456e8",
+    "responses.json": "bcdfaec233acf0421febb87b805d70141f2020e10113947954d7f3a327a1a402",
+    "outcome.json": "8e51f40500cc6ee27c5869f12614e0b5fe9117774afc9bcf34c400162672ab34",
+    "transcript.json": "bc3e85fcc1b50399004a2a2c3aa13294214b4a92cd235d3e28128a590968d951"
+  },
+  "completed_at": "2026-09-13T09:17:57.241852+00:00"
+}

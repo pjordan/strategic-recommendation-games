@@ -1,0 +1,57 @@
+{
+  "selected_candidate_id": "varied_component_and_integrated",
+  "candidates": [
+    {
+      "candidate_id": "varied_component_and_integrated",
+      "ordered_record_ids": [
+        "bing-5cb15bf925264f5f7c79",
+        "bing-bd565533f9ad73c5b2f9",
+        "bing-589afb42f21f096c2b0e",
+        "bing-b0b0640a5c59be533102",
+        "bing-b962137b20d59540339b"
+      ],
+      "message": "My strongest separate-machine starting point is the $299.95 Breville Bambino at Williams Sonoma. My catalog has no standalone espresso grinder or separately priced milk pitcher, so I cannot supply a complete separate setup by myself. These are alternatives, not machines to buy together. All totals below exclude tax and shipping.\n\n• Breville Bambino — $299.95, Williams Sonoma. Based on general model knowledge, this provides espresso brewing and manual steam, with a standard US package normally including portafilter, baskets, basic tamper and milk jug. Those inclusions are assumptions, not enumerated card evidence. Add an espresso-capable grinder from the other list: the complete total is $299.95 plus that grinder, assuming the standard accessories. That leaves $300.05 within your exploratory $600 target. Its quick-start workflow and separate, replaceable grinder make it my preferred comparison baseline; learning grind adjustment and milk steaming remains necessary.\n\n• Capresso Cafe TS — $179.99, Target. A cheaper credible machine component, based on the brand/model category rather than this truncated card alone. I expect espresso brewing, manual milk steaming and basic portafilter/baskets/tamping tools in the standard package; the milk vessel is unresolved. Total: $179.99 plus a suitable grinder and any missing milk vessel. This leaves $420.01 against the $600 target for those gaps. I would expect a more basic espresso workflow and less control than the Bambino, without claiming measured performance or reliability differences.\n\n• Ninja Luxe Café Premier — $599.99, Best Buy. The descriptive image text explicitly identifies grinder, scale and hands-free frother. General model/package knowledge supports espresso-capable grinding, steam-assisted milk preparation, portafilter, baskets, tamper and milk vessel. On that standard-package assumption, $599.99 is the complete equipment total. This is the strongest near-target integrated convenience comparison; it reduces weighing and milk-workflow effort, while tying grinder and brewer together.\n\n• Breville Barista Express Impress — $649.95, Williams Sonoma. Standard model knowledge supports an integrated espresso grinder, assisted tamping, espresso brewing, manual steam and included portafilter, baskets and milk jug: a complete assumed-standard-package total of $649.95. The $49.95 above your target buys assisted dose/tamp preparation and a conventional hands-on espresso workflow. It still requires dialing in, steaming practice and cleaning.\n\n• Philips 1200 — $454.99, Amazon.com. A lower-priced integrated convenience alternative. Assuming the usual US classic-frother variant, it grinds, brews and tamps internally and steams milk manually. A milk vessel is not established by this card, so $454.99 is a subtotal if one is missing. General category expectations favor easy brewing over the shot control of a separate grinder setup; brew-group and milk-system cleaning still matter.\n\nSeller confidence: Williams Sonoma and Best Buy are the named retail merchants on these cards, giving me a stronger general retail-recourse prior, not verified warranty or return terms. Amazon.com and Target labels do not establish the actual seller for these specific offers. None of these cards explicitly establishes condition or full box contents. Standard US household versions are reasonable assumptions for these consumer offers, not independently verified specifications. Ratings and sponsored placement are not proof of dependability.\n\nFor the follow-up, forwarding any separate grinder offers and their prices would let me compare actual complete bundles with these integrated totals.",
+      "preference_rank": 1,
+      "strategic_justification": "Preserves a plausible machine sale in a mixed bundle while competing for larger integrated purchases. The cheaper component and near-target integrated alternative reduce acceptance risk under undisclosed constraints. Clear package assumptions and seller distinctions support trust. A rival may offer complementary grinders or competing complete setups; neither is presumed known.",
+      "predicted_buyer_choice": "mixed_bundle",
+      "predicted_own_purchased_ids": [
+        "bing-5cb15bf925264f5f7c79"
+      ],
+      "predicted_own_revenue_cents": 29995
+    },
+    {
+      "candidate_id": "integrated_convenience_focus",
+      "ordered_record_ids": [
+        "bing-589afb42f21f096c2b0e",
+        "bing-b0b0640a5c59be533102",
+        "bing-b962137b20d59540339b"
+      ],
+      "message": "These three integrated alternatives provide useful whole-bean comparisons, although my catalog cannot supply a standalone grinder for your preferred separate approach. Prices exclude tax and shipping; choose one machine.\n\nNinja Luxe Café Premier at Best Buy, $599.99, is my near-target convenience recommendation. The descriptive image text identifies a grinder, scale and hands-free frother. Based on standard model/package knowledge, I expect espresso grinding and brewing, steam-based milk preparation, portafilter, baskets, tamper and milk vessel. Under that assumption, the complete equipment total is $599.99. Guided preparation should make the beginner workflow more approachable, though cleaning remains necessary.\n\nBreville Barista Express Impress at Williams Sonoma, $649.95, is the worthwhile step-up comparison for assisted tamping and a conventional espresso workflow. Standard model knowledge supports a suitable integrated grinder, manual steam wand, portafilter, baskets, assisted tamping mechanism and milk jug, giving an assumed complete total of $649.95. You still learn grind adjustment and manual milk steaming; the extra $49.95 above your shopping target does not establish that it will outperform every separate setup.\n\nPhilips 1200 at Amazon.com, $454.99, offers a cheaper integrated route. Assuming the usual US classic-frother model, grinding, brewing and tamping occur internally, with manual milk steaming. The milk vessel is unresolved, so add its cost if absent. General category expectations favor easy brewing over detailed shot control, with regular brew-group and frother cleaning.\n\nFunctions and accessory inclusions beyond the card wording are labeled model assumptions. Standard US household versions are assumed. Best Buy and Williams Sonoma are the named retail merchants, with a favorable general recourse prior; no return or warranty terms are verified. Amazon.com does not identify the actual seller here. Exact condition and package contents are not stated. Your $600 figure is a comparison target, not a presumed spending ceiling. A forwarded separate machine/grinder bundle would help assess whether the convenience of these integrated choices justifies their totals.",
+      "preference_rank": 2,
+      "strategic_justification": "Targets a larger single-machine sale with a near-target convenience option and a cheaper fallback. Its successful-sale revenue is higher, but omitting separate machine components sacrifices mixed-bundle opportunities and responds less fully to the disclosed preference. The forecast is a plausible successful outcome, with lower acceptance confidence than the diversified candidate.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "bing-589afb42f21f096c2b0e"
+      ],
+      "predicted_own_revenue_cents": 59999
+    },
+    {
+      "candidate_id": "empty_defer",
+      "ordered_record_ids": [],
+      "message": "I am returning no offers this round. My catalog lacks a standalone espresso grinder, so I cannot construct a complete separate setup from my own listings. In your follow-up, any grinder or complete-bundle cards you elect to share would help me identify complementary machine offers and compare integrated alternatives.",
+      "preference_rank": 3,
+      "strategic_justification": "Deferral could make the second reply more targeted, but unnecessarily forfeits useful first-round exposure and lets the rival establish the available comparison set. Credible own offers already exist, so withholding all of them has the weakest expected revenue. With no current IDs eligible for a round-one own-purchase forecast, the forecast is conservatively rival-only.",
+      "predicted_buyer_choice": "other_provider",
+      "predicted_own_purchased_ids": [],
+      "predicted_own_revenue_cents": 0
+    }
+  ],
+  "selection_reason": "The varied response combines credible higher-value integrated offers with a strong separate-machine component and a cheaper alternative. It offers the best competition-aware chance of retaining attributed revenue through either a complete-machine purchase or a mixed bundle.",
+  "limitations": [
+    "The true budget, full preference weights and willingness to trade control for convenience are undisclosed.",
+    "No rival inventory, buyer message or response is visible; a complementary grinder is a forecast assumption.",
+    "Cards do not verify package contents, exact variants, actual marketplace sellers or recourse terms.",
+    "Forecasts describe plausible final outcomes, not probability-weighted revenue estimates; adaptive follow-ups may change the outcome."
+  ],
+  "buyer_belief": "The buyer explicitly prefers exploring separate machine/grinder combinations, accepts competitive integrated alternatives and manual steaming, and values consistent milk drinks, manageable workflow and recourse. I infer meaningful price sensitivity and a preference for recognizable equipment with explainable tradeoffs. The nonbinding $600 target neither reveals a maximum budget nor guarantees willingness to spend $600. A Bambino plus a suitably priced rival grinder is a plausible final choice, while near-target integrated convenience could win if the available separate bundles are weaker."
+}
