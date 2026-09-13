@@ -22,7 +22,7 @@ def dollars(cents):
 
 def save_csv(name,rows):
     with (HERE/name).open('w',newline='') as f:
-        writer=csv.DictWriter(f,fieldnames=list(rows[0]))
+        writer=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator='\n')
         writer.writeheader();writer.writerows(rows)
 
 
