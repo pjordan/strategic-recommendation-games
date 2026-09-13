@@ -1,0 +1,60 @@
+{
+  "buyer_action": "purchase",
+  "purchased_record_ids": [
+    "bing-43de8e4359ad1784cba0"
+  ],
+  "purchase_value_cents": 59999,
+  "purchased_item_count": 1,
+  "provider_revenue_cents": {
+    "bing": 59999,
+    "google": 0
+  },
+  "unique_returned_count": 15,
+  "recommender_choices": [
+    {
+      "bing": {
+        "candidate_id": "A",
+        "ordered_record_ids": [
+          "bing-43de8e4359ad1784cba0",
+          "bing-d2b74b50a379b8bf71a0",
+          "bing-cd11aaaefd5c25f214f5",
+          "bing-78a4158303ba5999efdb",
+          "bing-b79dd022ff37659d63c9",
+          "bing-768274d734cd0e80217a"
+        ],
+        "message": "My strongest beginner option is the $599.99 Ninja Luxe Café Premier in Cyberspace at Best Buy. Its matched page supports a 25-setting conical burr grinder, integrated scale, espresso and hands-free frothing—useful aids for repeatable morning drinks. The page also mentions manual frothing; dual capability is plausible, but the frozen evidence does not fully resolve automatic operation. Manual milk preparation is acceptable for your brief.\n\nThe $649.99 Breville Express Impress at Target is my alternative for a more hands-on espresso routine: its matched page supports a 25-setting conical burr grinder, PID temperature control, steam wand and 9-bar extraction. Its premium over budget machines buys documented temperature control and an established espresso-brand reputation; the latter is a general reputation assumption, not proof of superior durability. The $689.99 Barista Express at Best Buy remains available if you prefer that retailer; its page supports PID, a steam wand and a 16-setting conical grinder, but I see little reason to pay more than the Impress solely for those features.\n\nA credible lower-cost option is the $349.99 VEVOR automatic machine from VEVOR. Its matched listing describes 15 grinding levels, automatic milk frothing and a removable milk reservoir, providing the milk vessel within its advertised system. It offers substantial savings and less manual preparation, with less confidence in long-term espresso performance and support than my established-brand choices; that comparison is a reputation-based judgment, not a measured failure-rate claim. Automatic milk systems still need regular cleaning.\n\nFor maximum savings, the $189.99 CUSIMAX Walmart listing supports a 20-setting conical burr grinder and steam wand. Actual seller identity, recourse and supplied accessories remain unresolved. The $199.99 CASABREWS 3700 bundle at Wayfair is also available as a machine alternative alongside another provider's suitable espresso grinder: its included grinder's type and suitability are unknown, so I would not count that bundle alone as a confident whole-bean setup.\n\nThese are alternatives: buy one setup, not multiple machines. For the Ninja and Breville options, a complete setup assumes the normal retail accessory kit, including the required milk vessel and brewing/tamping tools or built-in equivalents; the frozen evidence does not itemize those kits. CUSIMAX and CASABREWS also have unresolved pitcher inclusion. I have no standalone accessory or grinder offers to fill those gaps or price them here. Retailer names identify the displayed storefront, not independently confirmed sellers or return terms. All quoted amounts are frozen equipment prices before tax and shipping; optional upgrades are unnecessary.",
+        "preference_rank": 1,
+        "strategic_justification": "Ninja bing-43de8e4359ad1784cba0 integrated_scale, burr_type and grind_settings support beginner fit, with the milk_system qualification retained. Impress bing-d2b74b50a379b8bf71a0 PID and grinder facts preserve a premium alternative. VEVOR bing-78a4158303ba5999efdb matched title establishes a removable milk reservoir; CUSIMAX burr facts support a cheaper conditional alternative. CASABREWS bing-768274d734cd0e80217a lacks grinder detail, making it chiefly a combination option. Broad availability should improve conversion against an unseen rival without forcing unnecessary spending.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "bing-43de8e4359ad1784cba0"
+        ],
+        "predicted_own_revenue_cents": 59999
+      },
+      "google": {
+        "candidate_id": "convenience_first",
+        "ordered_record_ids": [
+          "google-0572500f0732845cad88",
+          "google-ae16f17e37b151e3a9fd",
+          "google-bbbd53043c8ed53733ef",
+          "google-e6c59526c1b98a2fbc3c",
+          "google-977666da80b52a214754",
+          "google-3210de58f63aae1163cd",
+          "google-c1ac723b3479e478c13f",
+          "google-73d649a23e17eb409d3e",
+          "google-2fb2d250ff7b3427abbb"
+        ],
+        "message": "My strongest convenient integrated choice is the Philips 3300 at $729.95, leaving $70.05 under your ceiling. Its matched Sur La Table page identifies LatteGo automatic milk frothing. I regard this fully automatic whole-bean machine as a credible complete household option; exact accessory contents and electrical specifications are not established in the supplied facts. Automation should reduce daily preparation work, but milk-contact parts still require cleaning. That workflow benefit—not spending the budget—is the reason to consider its premium.\n\nFor more hands-on preparation, the $649.95 Barista Express Impress listing associated with Whole Latte Love supports an integrated 25-setting conical burr grinder, PID temperature control and manual steam wand. It covers grinding, espresso and steaming, with ordinary included basic accessories assumed rather than individually documented. It requires learning milk steaming and managing the portafilter. My preference for these established espresso brands is a broad reputation prior, not measured reliability evidence.\n\nFor separate equipment, the Bambino is my strongest clearly supported value component at $299.95: matched pages support three-second heating, and the Best Buy page explicitly supports PID control, a steam wand and no integrated grinder. The PC Richard alternative displays free 30-day returns; Best Buy displays 15-day returns. They are alternatives, not two required machines. There is no standalone espresso grinder in my catalog, so I cannot offer a complete separate-equipment bundle myself. A compatible grinder from another returned list could complete it, with $500.05 remaining for the grinder and any necessary accessories. Separates allow independent replacement and grinder upgrades, but require manual dosing and preparation. I also retain the $499.95 Bambino Plus as a standalone alternative; its supplied manufacturer facts establish fast heating and a steam wand, but do not establish enough additional workflow benefits to justify its $200 premium on this evidence alone.\n\nLess-expensive integrated alternatives: the $579.99 Magnifica Start has a supported integrated 13-setting grinder and a card specifying manual milk frothing. The $449.99 Ninja Mini has a supported conical grinder and integrated scale, useful for repeatable dosing; its page describes both manual and automatic milk operation, so treat manual steaming as supported and automation as unresolved. The $329.99 Chefman Crema Supreme has particularly useful completeness evidence: 120 V, conical grinder, steam wand, tamper and milk pitcher. Its lower price is a credible savings option; comparative consistency and durability are not established.\n\nThe $693 Philips 5500 from Creative Coffee is another automatic-milk alternative. The matched page is Canadian and identifies EP5544/90; US electrical configuration and cross-border recourse remain unknown, not proven unsuitable. Its frozen price remains $693.\n\nMerchant labels ending in '& more' aggregate offers: they do not establish the actual seller for every offer or guarantee that displayed return terms apply to each seller. Creative Coffee is the named merchant for its listing. These page matches are scoped claims, not independent SKU or seller verification. On the available evidence, I favor the Philips 3300 for your morning workflow, or the Bambino route if another returned list supplies a suitable grinder at an attractive total.",
+        "preference_rank": 1,
+        "strategic_justification": "The Philips 3300's automatic_frothing_explicit fact supports a high-value convenience purchase. Impress integrated_grinder, PID and manual_frothing_explicit facts provide a credible fallback. Bambino heating/PID facts preserve cross-provider component sales; Chefman voltage and included tamper/pitcher facts support a lower-cost complete alternative. Ninja Mini milk ambiguity and Creative Coffee's Canadian page scope are disclosed. Breadth reduces the risk of losing the buyer entirely to an unseen rival.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "google-0572500f0732845cad88"
+        ],
+        "predicted_own_revenue_cents": 72995
+      }
+    }
+  ],
+  "buyer_reason": "Select the Ninja Premier for $599.99, leaving $200.01 below the ceiling. Its supported grinding and dosing assistance, milk capability and more specific merchant attribution offer the strongest overall balance of approachable workflow, consistency, confidence and price. The $449.99 Mini is close, but its seller and milk-operation ambiguity make the Premier's premium reasonable here. No extra machine or optional accessory upgrade is warranted.",
+  "buyer_strategic_response": "Bing leads with a $599.99 integrated option; Google leads with the $729.95 automatic model. Both choices would retain the complete purchase within the recommending provider, consistent with their revenue incentives, although both also preserved meaningful cheaper alternatives. Google's Bambino route cannot be completed confidently because neither returned list contains a supported standalone espresso grinder. Combining a Bambino with another integrated machine would add redundant hardware; the CASABREWS bundled grinder is not established as a suitable substitute. I assign no priority to provider order, promotional labels or review counts. The selected purchase attributes 59999 cents to Bing and zero to Google. Unseen omissions and alternative recommender strategies cannot be evaluated."
+}

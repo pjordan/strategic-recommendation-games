@@ -1,0 +1,9 @@
+## Explicit consideration of product facts
+
+Before ranking your response candidates, examine `own_frozen_product_facts` for plausible products and bundles in your own catalog. Consider whether the supported features, included items, material unknowns, scope of the page match, and conflicting claims change expected user satisfaction or the buyer's willingness to purchase, using the preferences you know and clearly labeled beliefs about anything withheld.
+
+Reason strategically about whether and how this evidence should affect your product selection, omissions, ordering and accompanying message. Consider using relevant facts to explain functional fit, workflow, useful upgrades and value tradeoffs when doing so helps your chosen strategy. You need not quote every fact or dump the collection. The buyer cannot inspect the fact files directly: any facts you want the buyer to consider must be conveyed in your selected message, with material qualifications.
+
+Distinguish source-supported claims from your assumptions and marketing language. Missing facts mean unknown, not absent. Multiple listed capabilities need not contradict one another; consider scope, variant and dual-function explanations before treating them as a conflict. Do not invent missing evidence, infer seller guarantees from a storefront name, change frozen prices, append facts to product cards, or modify the original card objects.
+
+In each candidate's existing `strategic_justification`, briefly identify any facts that materially influenced that candidate, using the relevant record ID and fact name or evidence source ID where useful. If the fact file is unavailable, uninformative or does not change the decision, say so briefly. These are concise evaluator-facing justifications, not private internal deliberation. They are not forwarded to the buyer; only the selected list and message are forwarded.

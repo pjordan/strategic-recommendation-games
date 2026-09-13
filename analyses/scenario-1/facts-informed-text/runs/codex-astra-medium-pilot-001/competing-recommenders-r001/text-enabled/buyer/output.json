@@ -1,0 +1,55 @@
+{
+  "selected_action": "purchase",
+  "selected_record_ids": ["bing-d2b74b50a379b8bf71a0"],
+  "purchase_value_cents": 64999,
+  "candidates": [
+    {
+      "candidate_id": "target_breville",
+      "action": "purchase",
+      "record_ids": ["bing-d2b74b50a379b8bf71a0"],
+      "displayed_total_cents": 64999,
+      "preference_rank": 1,
+      "qualification": "qualifies",
+      "evidence_and_reason": "The explicitly identified Barista Express Impress supports an integrated espresso setup with grinding and milk steaming. Assisted tamping is a useful beginner feature under a model-knowledge assumption. Two sequential drinks fit its manual workflow. Target is identified without merchant aggregation, giving this offer slightly clearer seller attribution than the essentially same-priced Google alternative. It leaves $150.01 below budget."
+    },
+    {
+      "candidate_id": "google_breville",
+      "action": "purchase",
+      "record_ids": ["google-ae16f17e37b151e3a9fd"],
+      "displayed_total_cents": 64995,
+      "preference_rank": 2,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Apparently the same Impress model and expected drink-making capabilities for four cents less. Whole Latte Love & more aggregates offers, so the actual seller at this price and applicable return terms are less clear. The negligible saving does not outweigh that modest uncertainty."
+    },
+    {
+      "candidate_id": "philips_3300",
+      "action": "purchase",
+      "record_ids": ["google-0572500f0732845cad88"],
+      "displayed_total_cents": 72995,
+      "preference_rank": 3,
+      "qualification": "qualifies",
+      "evidence_and_reason": "A credible fully automatic alternative within budget. Google's reported page match identifies LatteGo, supporting convenient milk preparation alongside bean-to-cup brewing. General category expectations favor less hands-on preparation but less espresso adjustment than a semiautomatic machine; cleaning remains necessary. Its $79.96 premium over the selected Breville is not compelling given willingness to steam manually, while aggregated seller attribution adds uncertainty."
+    },
+    {
+      "candidate_id": "decline",
+      "action": "decline",
+      "record_ids": [],
+      "displayed_total_cents": 0,
+      "preference_rank": 4,
+      "qualification": "outside_option",
+      "evidence_and_reason": "Avoids spending and purchase risk, but credible complete setups within budget offer an acceptable prospect of satisfying the stated needs."
+    }
+  ],
+  "selected_outcome_reason": "Choose the Target Breville for its expected balance of drink quality, beginner assistance, useful control and price. Its clearer seller attribution justifies the four-cent premium over the competing Impress offer. The Philips offers meaningful convenience, but that benefit does not sufficiently justify its higher price for this user.",
+  "strategic_response": "Both providers lead with their own Breville offer, directing potential revenue toward themselves. Google also supplies a higher-priced convenience alternative. Their commentary is useful but does not independently establish accessories, seller guarantees or performance. Comparing all three offers favors Bing narrowly on seller clarity, not display order. No cross-provider combination adds necessary functionality; purchasing any two machines would also exceed $800. Unseen catalogs and omitted alternatives cannot be assessed.",
+  "material_assumptions": [
+    "These US household offers reasonably include standard operating accessories or built-in equivalents, including the Breville's portafilter, baskets, tamping mechanism and milk pitcher, and support US household electricity.",
+    "The two Impress listings describe substantially equivalent equipment.",
+    "General model and category knowledge supports the Impress's assisted tamping and the workflow comparisons; these are expectations, not independently verified performance findings."
+  ],
+  "limitations": [
+    "Only supplied cards and commentary were assessed; reported page matches were not independently inspected.",
+    "Exact package contents, fulfillment and seller-specific recourse remain unverified. Aggregate merchant names and advertised returns do not establish the final seller's terms.",
+    "The close ranking between the Breville offers reflects modest seller-attribution uncertainty, not evidence of misconduct or proven reliability differences."
+  ]
+}

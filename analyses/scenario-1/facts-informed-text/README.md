@@ -4,9 +4,20 @@ This study reruns five complete text-enabled games and explicitly instructs each
 
 **The preceding [recommender-text study](../recommender-text/README.md) already supplied these facts to recommenders in both arms and allowed their use in text.** This version strengthens the instruction to consider that evidence and record material evidence in the existing candidate justifications. It is not a facts-access-versus-no-access experiment. Comparisons with the previous text-enabled outcomes are descriptive rerun comparisons, not newly paired causal contrasts.
 
+## Completed pilot
+
+All five games completed (18 model calls). See the [results and selected agent choices](results.md), [interpretation](pilot-notes.md), and [machine-readable comparison](results.json). Two purchases changed relative to the previous text-enabled runs; the other three stayed the same.
+
+Regenerate the verified comparison without model calls:
+
+```bash
+python3 analyses/scenario-1/facts-informed-text/summarize.py \
+  analyses/scenario-1/facts-informed-text/runs/codex-astra-medium-pilot-001
+```
+
 ## What changes
 
-The only actor-prompt change is a new [recommender instruction section](prompts/facts-use.md). Before ranking candidates, the recommender should examine facts for plausible products or bundles and consider how they affect expected buyer satisfaction and willingness to purchase. It decides strategically how to use that information in product selection, ordering, omissions and the selected message. Existing evaluator-facing justifications identify material facts, or explain why the facts are uninformative or do not change the choice.
+The only actor-prompt change is a new [recommender instruction section](prompts/facts-use.md), inserted after the existing [recommender role template](../recommender-text/prompts/recommender.md). The [common and other role templates](../recommender-text/prompts/) are reused verbatim; each exact assembled input is saved with its model call. Before ranking candidates, the recommender should examine facts for plausible products or bundles and consider how they affect expected buyer satisfaction and willingness to purchase. It decides strategically how to use that information in product selection, ordering, omissions and the selected message. Existing evaluator-facing justifications identify material facts, or explain why the facts are uninformative or do not change the choice.
 
 The instruction preserves uncertainty and source scope. Missing evidence is not absence; multiple listed capabilities may describe dual functionality rather than a contradiction. It neither mandates an exhaustive fact dump nor guarantees that an agent's interpretation is correct. The buyer receives only facts conveyed in the selected recommender message, with the original cards untouched. Private justifications and unselected alternatives are not forwarded.
 

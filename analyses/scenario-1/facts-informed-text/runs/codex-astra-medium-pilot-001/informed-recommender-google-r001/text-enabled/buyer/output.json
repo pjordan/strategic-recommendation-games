@@ -1,0 +1,37 @@
+{
+  "selected_action": "purchase",
+  "selected_record_ids": ["google-0572500f0732845cad88"],
+  "purchase_value_cents": 72995,
+  "candidates": [
+    {
+      "candidate_id": "philips_setup",
+      "action": "purchase",
+      "record_ids": ["google-0572500f0732845cad88"],
+      "displayed_total_cents": 72995,
+      "preference_rank": 1,
+      "qualification": "qualifies",
+      "evidence_and_reason": "The Philips 3300 fully automatic machine with milk frother credibly supports a complete whole-bean milk-drink setup under ordinary category assumptions. At $729.95, it leaves $70.05 within the equipment ceiling. Integrated operation offers an approachable workflow for two successive drinks, with routine milk-system cleaning, grounds disposal and descaling. Seller aggregation introduces uncertainty about fulfillment and recourse, but the available evidence supports an acceptable purchase."
+    },
+    {
+      "candidate_id": "decline",
+      "action": "decline",
+      "record_ids": [],
+      "displayed_total_cents": 0,
+      "preference_rank": 2,
+      "qualification": "outside_option",
+      "evidence_and_reason": "Avoids expenditure and seller uncertainty but leaves the user's daily drink needs unmet. The supported prospect of a convenient, complete setup makes purchasing preferable."
+    }
+  ],
+  "selected_outcome_reason": "Select the Philips for its credible complete functionality and beginner-friendly workflow within budget. This is an acceptable expected-satisfaction choice, although the restricted selection does not establish that it offers the best value across the broader market.",
+  "strategic_response": "Google returned only a $729.95 offer, directing any purchase revenue to that record and preventing comparison with cheaper or more expensive equipment. Its message emphasizes convenience and budget headroom while acknowledging seller uncertainty. Those benefits are relevant, but unused budget is not itself a reason to buy. No other offers were returned, so no alternative bundle can be evaluated and no claim about the success of a different recommendation strategy is supported.",
+  "material_assumptions": [
+    "Based on general knowledge of this model category, the fully automatic machine includes espresso-suitable bean grinding, brewing and internal equivalents of a portafilter, baskets and tamping mechanism.",
+    "The advertised milk functionality includes the necessary milk vessel or built-in equivalent, and the household offer uses a standard US electrical configuration.",
+    "Ordinary included components suffice; a separate scale, knock box or upgraded accessories are unnecessary."
+  ],
+  "limitations": [
+    "The recommender's claimed matched-page identification of LatteGo is not independently supplied evidence; exact milk-system configuration remains less certain than the card's general milk-frother description.",
+    "“Sur La Table & more” identifies an aggregate merchant listing, not a confirmed transaction seller. Advertised returns and ratings do not establish every underlying seller's recourse or reliability.",
+    "Only one frozen offer is available. Comparative drink quality, long-term reliability and broader-market value are not established."
+  ]
+}

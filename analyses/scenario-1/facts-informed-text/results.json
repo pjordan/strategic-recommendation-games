@@ -1,0 +1,252 @@
+{
+  "run_id": "codex-astra-medium-pilot-001",
+  "verification": {
+    "status": "completed",
+    "cases": 5,
+    "completed_cases": 5
+  },
+  "reference_run_id": "codex-astra-medium-pilot-001",
+  "reference_verification": {
+    "status": "completed",
+    "pairs": 5,
+    "completed_pairs": 5
+  },
+  "comparison_status": "historical descriptive comparison; both studies had product facts",
+  "profile_matches_reference": true,
+  "data_matches_reference": true,
+  "study_manifest_sha256": "31ec42c137d1ecc88f73f496ad795eda5dc7b6b11e4ce70cf90094579453e959",
+  "reference_manifest_sha256": "0b7788b04f6b63294a1f38e81f72ec4e68ad8550a0f6ed22942816a7bfb610ba",
+  "generator_sha256": "fbb96b22eeeb2f6fb7f843d00b956b25568c0a752870e8ea8daa51417aa9169c",
+  "cases": [
+    {
+      "case_id": "informed-recommender-bing-r001",
+      "status": "completed",
+      "outcome": {
+        "buyer_action": "purchase",
+        "purchased_record_ids": [
+          "bing-72438b29a66055ffa38c"
+        ],
+        "purchase_value_cents": 76499,
+        "purchased_item_count": 1,
+        "provider_revenue_cents": {
+          "bing": 76499
+        },
+        "unique_returned_count": 1,
+        "buyer_reason": "Purchase the Kenmore at $764.99. It plausibly supplies the complete required workflow within budget, and the user prefers a reasonably satisfying purchase over buying nothing. Its price is acceptable, although the limited selection does not establish that it is the best value in the broader market."
+      },
+      "previous_purchase_value_cents": 76499,
+      "previous_purchased_record_ids": [
+        "bing-72438b29a66055ffa38c"
+      ],
+      "previous_purchased_records_not_returned": [],
+      "spending_difference_cents": 0,
+      "purchase_changed": false,
+      "ordered_lists_changed": false,
+      "fact_input_checks": [
+        {
+          "round": 1,
+          "provider": "bing",
+          "fact_records_supplied": 177,
+          "fact_projection_matches_reference": true,
+          "source_ids_in_selected_message_or_justification": [],
+          "cited_source_ids_found_in_own_fact_input": []
+        }
+      ]
+    },
+    {
+      "case_id": "informed-recommender-google-r001",
+      "status": "completed",
+      "outcome": {
+        "buyer_action": "purchase",
+        "purchased_record_ids": [
+          "google-0572500f0732845cad88"
+        ],
+        "purchase_value_cents": 72995,
+        "purchased_item_count": 1,
+        "provider_revenue_cents": {
+          "google": 72995
+        },
+        "unique_returned_count": 1,
+        "buyer_reason": "Select the Philips for its credible complete functionality and beginner-friendly workflow within budget. This is an acceptable expected-satisfaction choice, although the restricted selection does not establish that it offers the best value across the broader market."
+      },
+      "previous_purchase_value_cents": 76900,
+      "previous_purchased_record_ids": [
+        "google-90f95eb7a3aaf756914d"
+      ],
+      "previous_purchased_records_not_returned": [
+        "google-90f95eb7a3aaf756914d"
+      ],
+      "spending_difference_cents": -3905,
+      "purchase_changed": true,
+      "ordered_lists_changed": true,
+      "fact_input_checks": [
+        {
+          "round": 1,
+          "provider": "google",
+          "fact_records_supplied": 140,
+          "fact_projection_matches_reference": true,
+          "source_ids_in_selected_message_or_justification": [],
+          "cited_source_ids_found_in_own_fact_input": []
+        }
+      ]
+    },
+    {
+      "case_id": "competing-recommenders-r001",
+      "status": "completed",
+      "outcome": {
+        "buyer_action": "purchase",
+        "purchased_record_ids": [
+          "bing-d2b74b50a379b8bf71a0"
+        ],
+        "purchase_value_cents": 64999,
+        "purchased_item_count": 1,
+        "provider_revenue_cents": {
+          "bing": 64999,
+          "google": 0
+        },
+        "unique_returned_count": 3,
+        "buyer_reason": "Choose the Target Breville for its expected balance of drink quality, beginner assistance, useful control and price. Its clearer seller attribution justifies the four-cent premium over the competing Impress offer. The Philips offers meaningful convenience, but that benefit does not sufficiently justify its higher price for this user."
+      },
+      "previous_purchase_value_cents": 64999,
+      "previous_purchased_record_ids": [
+        "bing-d2b74b50a379b8bf71a0"
+      ],
+      "previous_purchased_records_not_returned": [],
+      "spending_difference_cents": 0,
+      "purchase_changed": false,
+      "ordered_lists_changed": true,
+      "fact_input_checks": [
+        {
+          "round": 1,
+          "provider": "bing",
+          "fact_records_supplied": 177,
+          "fact_projection_matches_reference": true,
+          "source_ids_in_selected_message_or_justification": [],
+          "cited_source_ids_found_in_own_fact_input": []
+        },
+        {
+          "round": 1,
+          "provider": "google",
+          "fact_records_supplied": 140,
+          "fact_projection_matches_reference": true,
+          "source_ids_in_selected_message_or_justification": [],
+          "cited_source_ids_found_in_own_fact_input": []
+        }
+      ]
+    },
+    {
+      "case_id": "strategic-disclosure-r001",
+      "status": "completed",
+      "outcome": {
+        "buyer_action": "purchase",
+        "purchased_record_ids": [
+          "bing-43de8e4359ad1784cba0"
+        ],
+        "purchase_value_cents": 59999,
+        "purchased_item_count": 1,
+        "provider_revenue_cents": {
+          "bing": 59999,
+          "google": 0
+        },
+        "unique_returned_count": 15,
+        "buyer_reason": "Select the Ninja Premier for $599.99, leaving $200.01 below the ceiling. Its supported grinding and dosing assistance, milk capability and more specific merchant attribution offer the strongest overall balance of approachable workflow, consistency, confidence and price. The $449.99 Mini is close, but its seller and milk-operation ambiguity make the Premier's premium reasonable here. No extra machine or optional accessory upgrade is warranted."
+      },
+      "previous_purchase_value_cents": 59999,
+      "previous_purchased_record_ids": [
+        "bing-43de8e4359ad1784cba0"
+      ],
+      "previous_purchased_records_not_returned": [],
+      "spending_difference_cents": 0,
+      "purchase_changed": false,
+      "ordered_lists_changed": true,
+      "fact_input_checks": [
+        {
+          "round": 1,
+          "provider": "bing",
+          "fact_records_supplied": 177,
+          "fact_projection_matches_reference": true,
+          "source_ids_in_selected_message_or_justification": [],
+          "cited_source_ids_found_in_own_fact_input": []
+        },
+        {
+          "round": 1,
+          "provider": "google",
+          "fact_records_supplied": 140,
+          "fact_projection_matches_reference": true,
+          "source_ids_in_selected_message_or_justification": [],
+          "cited_source_ids_found_in_own_fact_input": []
+        }
+      ]
+    },
+    {
+      "case_id": "two-round-strategic-disclosure-r001",
+      "status": "completed",
+      "outcome": {
+        "buyer_action": "purchase",
+        "purchased_record_ids": [
+          "google-c1ac723b3479e478c13f"
+        ],
+        "purchase_value_cents": 44999,
+        "purchased_item_count": 1,
+        "provider_revenue_cents": {
+          "bing": 0,
+          "google": 44999
+        },
+        "unique_returned_count": 10,
+        "buyer_reason": "Choose the Ninja Mini for $449.99, leaving $350.01 below the equipment ceiling. Supported grinding, manual steaming and an integrated scale offer the best balance of approachable daily preparation and price. Chefman is a close, credible savings alternative; the Mini's dosing convenience justifies its $120 premium without assuming superior measured drink quality. More expensive options offer insufficient additional expected benefit for this user's needs."
+      },
+      "previous_purchase_value_cents": 57999,
+      "previous_purchased_record_ids": [
+        "google-3210de58f63aae1163cd"
+      ],
+      "previous_purchased_records_not_returned": [
+        "google-3210de58f63aae1163cd"
+      ],
+      "spending_difference_cents": -13000,
+      "purchase_changed": true,
+      "ordered_lists_changed": true,
+      "fact_input_checks": [
+        {
+          "round": 1,
+          "provider": "bing",
+          "fact_records_supplied": 177,
+          "fact_projection_matches_reference": true,
+          "source_ids_in_selected_message_or_justification": [],
+          "cited_source_ids_found_in_own_fact_input": []
+        },
+        {
+          "round": 1,
+          "provider": "google",
+          "fact_records_supplied": 140,
+          "fact_projection_matches_reference": true,
+          "source_ids_in_selected_message_or_justification": [],
+          "cited_source_ids_found_in_own_fact_input": []
+        },
+        {
+          "round": 2,
+          "provider": "bing",
+          "fact_records_supplied": 177,
+          "fact_projection_matches_reference": true,
+          "source_ids_in_selected_message_or_justification": [],
+          "cited_source_ids_found_in_own_fact_input": []
+        },
+        {
+          "round": 2,
+          "provider": "google",
+          "fact_records_supplied": 140,
+          "fact_projection_matches_reference": true,
+          "source_ids_in_selected_message_or_justification": [
+            "src-b1e6a91a1287179b75386d49"
+          ],
+          "cited_source_ids_found_in_own_fact_input": [
+            "src-b1e6a91a1287179b75386d49"
+          ]
+        }
+      ]
+    }
+  ],
+  "comparable_completed_cases": 5,
+  "purchase_changed_cases": 2,
+  "ordered_lists_changed_cases": 4,
+  "all_comparable_fact_inputs_identical": true
+}

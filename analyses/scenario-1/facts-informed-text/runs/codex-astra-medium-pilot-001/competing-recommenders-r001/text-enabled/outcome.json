@@ -1,0 +1,48 @@
+{
+  "buyer_action": "purchase",
+  "purchased_record_ids": [
+    "bing-d2b74b50a379b8bf71a0"
+  ],
+  "purchase_value_cents": 64999,
+  "purchased_item_count": 1,
+  "provider_revenue_cents": {
+    "bing": 64999,
+    "google": 0
+  },
+  "unique_returned_count": 3,
+  "recommender_choices": [
+    {
+      "bing": {
+        "candidate_id": "impress",
+        "ordered_record_ids": [
+          "bing-d2b74b50a379b8bf71a0"
+        ],
+        "message": "I recommend the Breville Barista Express Impress at Target for $649.99, leaving $150.01 below your equipment limit. Its matched listing supports an integrated conical burr grinder with 25 settings, PID temperature control, a steam wand, and 120 V operation. That covers the core functions for two sequential milk drinks, with some practice adjusting the grind and steaming milk. I reasonably expect the standard household package to include its operating accessories, but the frozen evidence does not enumerate the portafilter, baskets, tamping equipment, or milk pitcher. My preference reflects its supported features and a broad reputation prior for Breville, not independently verified reliability or seller guarantees. No separate grinder, frother, or optional scale is needed for this recommendation.",
+        "preference_rank": 1,
+        "strategic_justification": "bing-d2b74b50a379b8bf71a0 has matched Target evidence for burr_type, grind_settings, pid_temperature_control, steam_wand_present, and voltage. It offers a credible $649.99 purchase with budget headroom despite unknown included_items. Omitting cheaper alternatives concentrates attention on this defensible purchase; the rival may still offer better value. Higher-priced Express offers provide no clearly supported satisfaction advantage sufficient to favor them.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "bing-d2b74b50a379b8bf71a0"
+        ],
+        "predicted_own_revenue_cents": 64999
+      },
+      "google": {
+        "candidate_id": "balanced",
+        "ordered_record_ids": [
+          "google-ae16f17e37b151e3a9fd",
+          "google-0572500f0732845cad88"
+        ],
+        "message": "My recommendation is the $649.95 Breville Barista Express Impress: one machine for grinding beans, brewing espresso and manually steaming milk. The matched Whole Latte Love page supports an integrated conical burr grinder with 25 settings, PID temperature control and a manual steam wand. Those features offer useful control as you learn. Expect to adjust the grind and practice milk steaming; making your two drinks sequentially fits this workflow.\n\nThe $729.95 Philips 3300 is the convenience alternative. Its matched Sur La Table page identifies LatteGo automatic milk frothing. As a general category expectation, a fully automatic bean-to-cup machine reduces hands-on preparation, although its milk system still needs cleaning. Choose it if that convenience is worth $80. Otherwise, I favor the Breville's lower price and hands-on control.\n\nBuy one of these alternatives, not both. Neither calls for a separate grinder or frother. I reasonably expect normal operating accessories or built-in equivalents with these household machines, but the frozen evidence does not enumerate their complete accessory kits or electrical specifications. The page matches support the models, not independently verified seller fulfillment. The cards show aggregate merchant offers and 30-day returns; they do not establish every seller's terms.",
+        "preference_rank": 1,
+        "strategic_justification": "The integrated_grinder, burr_type, grind_settings, pid_temperature_control and manual_frothing_explicit facts for google-ae16f17e37b151e3a9fd support a credible complete setup at $649.95. Google-0572500f0732845cad88's matched LatteGo title supports a higher-priced convenience alternative. Offering both preserves conversion across workflow preferences without adding redundant hardware. The buyer may favor competing offers, but a supported mainstream setup should compete credibly.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "google-ae16f17e37b151e3a9fd"
+        ],
+        "predicted_own_revenue_cents": 64995
+      }
+    }
+  ],
+  "buyer_reason": "Choose the Target Breville for its expected balance of drink quality, beginner assistance, useful control and price. Its clearer seller attribution justifies the four-cent premium over the competing Impress offer. The Philips offers meaningful convenience, but that benefit does not sufficiently justify its higher price for this user.",
+  "buyer_strategic_response": "Both providers lead with their own Breville offer, directing potential revenue toward themselves. Google also supplies a higher-priced convenience alternative. Their commentary is useful but does not independently establish accessories, seller guarantees or performance. Comparing all three offers favors Bing narrowly on seller clarity, not display order. No cross-provider combination adds necessary functionality; purchasing any two machines would also exceed $800. Unseen catalogs and omitted alternatives cannot be assessed."
+}

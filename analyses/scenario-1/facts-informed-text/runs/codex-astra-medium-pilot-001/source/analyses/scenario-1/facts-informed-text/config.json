@@ -1,0 +1,59 @@
+{
+  "analysis_id": "scenario-1-facts-informed-text",
+  "version": "1.0.0",
+  "description": "Fresh text-enabled games with explicit consideration of frozen product facts.",
+  "scenario_version": "1.3.0",
+  "facts_version": "1.0.0",
+  "budget_cents": 80000,
+  "plan_key": "cases",
+  "summary_file": "outcomes.json",
+  "arms": [
+    "text-enabled"
+  ],
+  "strata": [
+    {
+      "condition": "informed-recommender",
+      "providers": [
+        "bing"
+      ]
+    },
+    {
+      "condition": "informed-recommender",
+      "providers": [
+        "google"
+      ]
+    },
+    {
+      "condition": "competing-recommenders",
+      "providers": [
+        "bing",
+        "google"
+      ]
+    },
+    {
+      "condition": "strategic-disclosure",
+      "providers": [
+        "bing",
+        "google"
+      ]
+    },
+    {
+      "condition": "two-round-strategic-disclosure",
+      "providers": [
+        "bing",
+        "google"
+      ]
+    }
+  ],
+  "extends_analysis": "scenario-1-recommender-text",
+  "instruction_variant": "explicit-facts-consideration",
+  "change": "Append one recommender-only instruction section to the existing role prompt. Consider relevant own-product facts before ranking candidates, decide strategically whether and how to convey them, and record material evidence in existing justifications.",
+  "facts_access": "Each recommender receives the same own-provider fact projection as the previous text-enabled study: record_id, resolution, facts, conflicts and not_established_categories. Facts are never appended to the returned cards.",
+  "buyer_information": "Unchanged: original returned cards, selected recommender text, true preferences and permitted own prior state; no direct fact files.",
+  "historical_reference": "analyses/scenario-1/recommender-text/runs/codex-astra-medium-pilot-001",
+  "comparison_status": "Historical descriptive rerun comparison. Previous text-enabled games already had these facts and permitted their use; this is not facts access versus no access or a newly paired trial.",
+  "randomization": "Only text-enabled games run. Provider order alternates by replicate, starting Bing first. Plan seed is retained for interface compatibility and does not randomize the single arm. No model seed or temperature is set.",
+  "failure_policy": "Preserve failed attempts, continue other scheduled arms, and report incomplete pairs; never automatically rerun or substitute a successful sample.",
+  "inference": "One fresh game per condition is a pilot. Changes from prior outcomes mix instruction changes and model variation; prices and ranks are not cardinal user satisfaction.",
+  "unchanged": "Frozen recommendation cards and facts, private preferences, buyer/disclosure/follow-up role prompts, game rules, output schemas, objectives and information boundaries."
+}

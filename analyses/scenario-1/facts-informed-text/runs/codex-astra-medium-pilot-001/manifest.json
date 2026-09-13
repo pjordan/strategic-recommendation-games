@@ -1,0 +1,303 @@
+{
+  "analysis_id": "scenario-1-facts-informed-text",
+  "analysis_version": "1.0.0",
+  "run_id": "codex-astra-medium-pilot-001",
+  "scenario_version": "1.3.0",
+  "facts_version": "1.0.0",
+  "harness": "codex",
+  "harness_version": "codex-cli 0.154.0",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort_requested": "medium",
+  "codex_version_requested": "0.154.0",
+  "model_seed": null,
+  "temperature": null,
+  "plan_seed": 0,
+  "cases": [
+    {
+      "condition": "informed-recommender",
+      "providers": [
+        "bing"
+      ],
+      "replicate": 1,
+      "pair_id": "informed-recommender-bing-r001",
+      "display_order": "bing-first",
+      "arm_order": [
+        "text-enabled"
+      ]
+    },
+    {
+      "condition": "informed-recommender",
+      "providers": [
+        "google"
+      ],
+      "replicate": 1,
+      "pair_id": "informed-recommender-google-r001",
+      "display_order": "bing-first",
+      "arm_order": [
+        "text-enabled"
+      ]
+    },
+    {
+      "condition": "competing-recommenders",
+      "providers": [
+        "bing",
+        "google"
+      ],
+      "replicate": 1,
+      "pair_id": "competing-recommenders-r001",
+      "display_order": "bing-first",
+      "arm_order": [
+        "text-enabled"
+      ]
+    },
+    {
+      "condition": "strategic-disclosure",
+      "providers": [
+        "bing",
+        "google"
+      ],
+      "replicate": 1,
+      "pair_id": "strategic-disclosure-r001",
+      "display_order": "bing-first",
+      "arm_order": [
+        "text-enabled"
+      ]
+    },
+    {
+      "condition": "two-round-strategic-disclosure",
+      "providers": [
+        "bing",
+        "google"
+      ],
+      "replicate": 1,
+      "pair_id": "two-round-strategic-disclosure-r001",
+      "display_order": "bing-first",
+      "arm_order": [
+        "text-enabled"
+      ]
+    }
+  ],
+  "study_design": {
+    "analysis_id": "scenario-1-facts-informed-text",
+    "version": "1.0.0",
+    "description": "Fresh text-enabled games with explicit consideration of frozen product facts.",
+    "scenario_version": "1.3.0",
+    "facts_version": "1.0.0",
+    "budget_cents": 80000,
+    "plan_key": "cases",
+    "summary_file": "outcomes.json",
+    "arms": [
+      "text-enabled"
+    ],
+    "strata": [
+      {
+        "condition": "informed-recommender",
+        "providers": [
+          "bing"
+        ]
+      },
+      {
+        "condition": "informed-recommender",
+        "providers": [
+          "google"
+        ]
+      },
+      {
+        "condition": "competing-recommenders",
+        "providers": [
+          "bing",
+          "google"
+        ]
+      },
+      {
+        "condition": "strategic-disclosure",
+        "providers": [
+          "bing",
+          "google"
+        ]
+      },
+      {
+        "condition": "two-round-strategic-disclosure",
+        "providers": [
+          "bing",
+          "google"
+        ]
+      }
+    ],
+    "extends_analysis": "scenario-1-recommender-text",
+    "instruction_variant": "explicit-facts-consideration",
+    "change": "Append one recommender-only instruction section to the existing role prompt. Consider relevant own-product facts before ranking candidates, decide strategically whether and how to convey them, and record material evidence in existing justifications.",
+    "facts_access": "Each recommender receives the same own-provider fact projection as the previous text-enabled study: record_id, resolution, facts, conflicts and not_established_categories. Facts are never appended to the returned cards.",
+    "buyer_information": "Unchanged: original returned cards, selected recommender text, true preferences and permitted own prior state; no direct fact files.",
+    "historical_reference": "analyses/scenario-1/recommender-text/runs/codex-astra-medium-pilot-001",
+    "comparison_status": "Historical descriptive rerun comparison. Previous text-enabled games already had these facts and permitted their use; this is not facts access versus no access or a newly paired trial.",
+    "randomization": "Only text-enabled games run. Provider order alternates by replicate, starting Bing first. Plan seed is retained for interface compatibility and does not randomize the single arm. No model seed or temperature is set.",
+    "failure_policy": "Preserve failed attempts, continue other scheduled arms, and report incomplete pairs; never automatically rerun or substitute a successful sample.",
+    "inference": "One fresh game per condition is a pilot. Changes from prior outcomes mix instruction changes and model variation; prices and ranks are not cardinal user satisfaction.",
+    "unchanged": "Frozen recommendation cards and facts, private preferences, buyer/disclosure/follow-up role prompts, game rules, output schemas, objectives and information boundaries."
+  },
+  "started_at": "2026-09-13T15:22:46.541081+00:00",
+  "python_version": "3.9.6",
+  "repository_commit_at_start": "30ec66b1c26d5ce4a480088d5f1ddfbf744f7ae5",
+  "repository_dirty_at_start": false,
+  "data_manifest_sha256": {
+    "scenarios/scenario-1/manifest.sha256": "623603b321759c470e5facaa6308c47f7334dc57f2eb3c551904be6d8d102f56",
+    "scenarios/scenario-1/versions/1.2.0/manifest.sha256": "24dd1f5188bdb20006f36cad6a021985ba92a9d7f957e313a128bae4713cbb81",
+    "scenarios/scenario-1/versions/1.3.0/manifest.sha256": "57f4c3b6ac474be354336cb572acf54cb9eb75e4f638b2d776686aa496cb04d5",
+    "scenarios/scenario-1/product-facts/versions/1.0.0/manifest.json": "e77d2ac5d8054e54f5e58382d2a2c4d312413937079a2857008aca2b9819bf4c"
+  },
+  "source_sha256": {
+    "analyses/scenario-1/facts-informed-text/config.json": "bfa02d69c5e1ac3f3f4c10e41f6524e0ec140f726b46850c32933b27c72980ca",
+    "analyses/scenario-1/facts-informed-text/prompts/facts-use.md": "05892e37102363df4100612b7fcde91f3e2e3a082ffa03965f252c62b3d8b70e",
+    "analyses/scenario-1/facts-informed-text/run.sh": "3137b69c066c4f843990395b6f6ca058e040cca71742f091c4be9569186ab23a",
+    "analyses/scenario-1/facts-informed-text/run_study.py": "fe84be7f6a0934f7f4cc3ad2ffe658fcec57cd2b93274d5bf9df5cc6c83e3caa",
+    "analyses/scenario-1/facts-informed-text/verify_runs.py": "967b9e1cf56c0f87924506aab4c29e805c8ba2cfc821357f86640fe72443e443",
+    "analyses/scenario-1/informed-recommender/prompts/request.md": "4b4ce176810f4aca16d17a22340e7fd63f0874a6ce30390965443271b9bfa874",
+    "analyses/scenario-1/oracle-access/run_model.py": "1d4ae87ce0e9fac52cee4cff1686152044552c9d1f358ae06929afdc8924eda9",
+    "analyses/scenario-1/recommender-text/config.json": "77b81c9053fbad8f6e9d8b982851f0f99488985887d705123d30f5303aed1910",
+    "analyses/scenario-1/recommender-text/prompts/buyer.md": "0ca8dcb21f38f78162673c3a1cbe4dac8b4e516dd492416eff461e03a1f32f4b",
+    "analyses/scenario-1/recommender-text/prompts/common.md": "cd9393631c4a5b299c5531499c7c61e48c9ddc5ff0dcc801e8608269155d3a1c",
+    "analyses/scenario-1/recommender-text/prompts/disclosure.md": "43a8fae908065e0d097aacd53f0e1dcc611c39b797a3fc548dd46ba5e7e88f85",
+    "analyses/scenario-1/recommender-text/prompts/followup.md": "7fd242ee3d8b1dcdcc933d9cbe1e07d5964d4276617d6e70796ed8d4faf53c51",
+    "analyses/scenario-1/recommender-text/prompts/recommender.md": "ba24ee657d5b96ffc48e36f32749d685d84b5b6fbab453420f65915341195b70",
+    "analyses/scenario-1/recommender-text/run.sh": "3137b69c066c4f843990395b6f6ca058e040cca71742f091c4be9569186ab23a",
+    "analyses/scenario-1/recommender-text/run_study.py": "26fccbef797835c0cc63e361c53f560ba013bc9a32e8fe95c770d2eed9063106",
+    "analyses/scenario-1/recommender-text/verify_runs.py": "137fbf324442c44cb316bbb476554dc12851f714f8addd5683a0feb8e9fcfa27",
+    "analyses/scenario-1/two-round-strategic-disclosure/buyer-schema.json": "6dc454cb6104bd1f3ceecd071932a0b753dae92cff7b26ffe3467d85c3892ace",
+    "analyses/scenario-1/two-round-strategic-disclosure/config.json": "6dfba1464b63a7c7f0087489f1e7b08274ee4e75cd054b44ee95962eb57c980e",
+    "analyses/scenario-1/two-round-strategic-disclosure/disclosure-schema.json": "5e56b6862a6e49cef86c0447d7bc3114dc18d5e887d84785119a7349c2058ce9",
+    "analyses/scenario-1/two-round-strategic-disclosure/followup-schema.json": "c76511868fce001bcdafb603524222db94d46d4bf3f353ba798995b90c66772b",
+    "analyses/scenario-1/two-round-strategic-disclosure/prompts/buyer.md": "c844e3a4fbed5906fa2e5187e89193973f4659af29e67a03d524aacd615ff615",
+    "analyses/scenario-1/two-round-strategic-disclosure/prompts/disclosure.md": "8f394cb682abf4bff13a3dd622827027b3a429ae4c9ea640c03493f0ab01b57d",
+    "analyses/scenario-1/two-round-strategic-disclosure/prompts/followup.md": "df57c6329062cbcf08b0cd4c6b996ef63d4cc22bc8904cb793f318a9fb252b8f",
+    "analyses/scenario-1/two-round-strategic-disclosure/prompts/recommender.md": "cb8a6292dddea2ebf3c897228452ea571cb2de19304378dfd3b089c3a12f8a69",
+    "analyses/scenario-1/two-round-strategic-disclosure/recommender-schema.json": "12c67fb810bb153511c9706ff8789d1c681342a8d66738ee055e7dbe826ecb6b",
+    "analyses/scenario-1/two-round-strategic-disclosure/run.sh": "4cb31907e76b5d877a2b3fe30b92711713bf96797be06bdf7a87759d2eea92b7",
+    "analyses/scenario-1/two-round-strategic-disclosure/run_game.py": "8fe6a525a501a37d580f19d5a4e3f4bdc0ad7f1226cfdc6e0d66002595e864b2",
+    "analyses/scenario-1/two-round-strategic-disclosure/verify_runs.py": "edd24ff19098d66047b16c5cc279eea1887de298583cbd8774b5a545e0d4f93d",
+    "tests/test_facts_informed_text.py": "2d5f7bb95b2f36d4981fd06e96891cbc254b5a1a61d39a29ed2f943461313878",
+    "tests/test_recommender_text.py": "0788e96f0c0ccd50eade9718b12e9fcafb6386c9c42c4e01b1023274c4029a6a",
+    "tests/test_two_round_disclosure.py": "4c8bc0fc92f571b9960027e57885688988626ef8743dda5c7a871a1f69d45745",
+    "tools/analysis_replay.py": "c4e5023f8fcdc300862b7875d93209dd9484b606a332944b110eb087099627f6",
+    "tools/analysis_runtime.py": "23ed54199b248b2faa81fccabc0350a6e1fc92faf3aeda7115ca8f7712b9b971",
+    "tools/scenario.py": "4a849f382b775b8d67d85516c73312443dc4b63c7e6c29698e8775ccf2fa5525",
+    "tools/scenario_current.py": "9b986f323805e02ae0578f55451c76dd133f74fa282a7e511846f4b766fabf75"
+  },
+  "artifacts_sha256": {
+    "competing-recommenders-r001/text-enabled/buyer/events.jsonl": "0fcc3bd62284cbf19e072d5a6f571cf8841a66a81b8e724ced34e6220ad45693",
+    "competing-recommenders-r001/text-enabled/buyer/input.md": "f09d1e8b074a2cca559b2ae771fabf5508bf10012b31085f7a144d12c5f616cf",
+    "competing-recommenders-r001/text-enabled/buyer/manifest.json": "775aa957eb0bdfdf7baf08a1cdc3a6b1107828ed061ec8f337e0f8dd71172bc0",
+    "competing-recommenders-r001/text-enabled/buyer/output.json": "b189fa579d05a0ea28d4b390a3fdcca1a714bd10b50714118f8b558ef2a1b2e2",
+    "competing-recommenders-r001/text-enabled/manifest.json": "8ee15b7853f7129aa8fa41abc174c6643e932c5772b665166c79f798c57398a6",
+    "competing-recommenders-r001/text-enabled/outcome.json": "875aa5739695e10ea13596ad4dabb8cc61d0da2596729ace4a6bd2a2c677218c",
+    "competing-recommenders-r001/text-enabled/responses.json": "b5d54bcf0a6661c2167997bf1a1eb00c0cdc15d4bade66673c45ab3e216f1751",
+    "competing-recommenders-r001/text-enabled/round-1/bing/events.jsonl": "5bd0d974664269125ebe130a204a6fc87af47f0da1a6ea8a53ead363a97b5dcf",
+    "competing-recommenders-r001/text-enabled/round-1/bing/input.md": "7228ab80db3ec1d087b48d979c7f64a699a5b990334cc39057bfa6d1324d1438",
+    "competing-recommenders-r001/text-enabled/round-1/bing/manifest.json": "fc011faae2891e8cb9d5c1ff84629934b1fbda49fbe01df350d7fc0171197b5f",
+    "competing-recommenders-r001/text-enabled/round-1/bing/output.json": "0b1f64c5d7a668d0b72c4a8fc6b21dd0f7965abec1a5295c720e926676e22cee",
+    "competing-recommenders-r001/text-enabled/round-1/google/events.jsonl": "3d889edea7cd3fb1eb656dea25762d3a0ec0bc2dd2ae5cdc4517cfd4cf37bd91",
+    "competing-recommenders-r001/text-enabled/round-1/google/input.md": "28d7870760f2f7eca41dfbdea78a4adb22f24bad015de219fe25827b95777c20",
+    "competing-recommenders-r001/text-enabled/round-1/google/manifest.json": "b4e5716a541c17dac76d2b3bf6a12ff5a3be40c4e0467253fb19b9e256a46e78",
+    "competing-recommenders-r001/text-enabled/round-1/google/output.json": "fc085500fc60992d158633c138576056e5422cbde7e5e8ea5dd7cc35110a291e",
+    "competing-recommenders-r001/text-enabled/schemas/buyer.json": "6dc454cb6104bd1f3ceecd071932a0b753dae92cff7b26ffe3467d85c3892ace",
+    "competing-recommenders-r001/text-enabled/schemas/disclosure.json": "5e56b6862a6e49cef86c0447d7bc3114dc18d5e887d84785119a7349c2058ce9",
+    "competing-recommenders-r001/text-enabled/schemas/followup.json": "c76511868fce001bcdafb603524222db94d46d4bf3f353ba798995b90c66772b",
+    "competing-recommenders-r001/text-enabled/schemas/recommender.json": "12c67fb810bb153511c9706ff8789d1c681342a8d66738ee055e7dbe826ecb6b",
+    "competing-recommenders-r001/text-enabled/transcript.json": "f495543892cb82f8055b30ca984d22d88906b9e801f5bafab831efddb48cf0d2",
+    "informed-recommender-bing-r001/text-enabled/buyer/events.jsonl": "9ceb69fa58b46791df8ed65342d4e5a7e2d04a8167479691ae0264a3502ab1fa",
+    "informed-recommender-bing-r001/text-enabled/buyer/input.md": "9058c6ebd13512d89c2ddd6c19eada2f08511e48a51a1286c6abbaec1dcf55fc",
+    "informed-recommender-bing-r001/text-enabled/buyer/manifest.json": "95d52baf932569b6977f34b8157fed72b5ac689cc17f1358dd6544e8123c88ee",
+    "informed-recommender-bing-r001/text-enabled/buyer/output.json": "0b34150d178646d6df9ce5316634087bd2b2e1514fe1915caee682336e41b09d",
+    "informed-recommender-bing-r001/text-enabled/manifest.json": "55cb8c7c794ef308e5e6bc6161eda61a7996759af4e154c7e07677a417af68e2",
+    "informed-recommender-bing-r001/text-enabled/outcome.json": "233d24e12b3a0ab35b04d73364d07be320851d14bc3ec8d508050d163cf4bcca",
+    "informed-recommender-bing-r001/text-enabled/responses.json": "2ef094e619cbfbba64f9c280de8e7ffd60310da239d64213ed0a1a6ba96c0f6b",
+    "informed-recommender-bing-r001/text-enabled/round-1/bing/events.jsonl": "eb84e36ebad7f74c5f89d3506cb8caef7a75bcc38d11224bae786e9a22a05a28",
+    "informed-recommender-bing-r001/text-enabled/round-1/bing/input.md": "7e32fdc874d80a79ababbd7c06f4251bc2f148ff0c0836dc5788fa01a53fed71",
+    "informed-recommender-bing-r001/text-enabled/round-1/bing/manifest.json": "6436921cf1c86d8e55c0c030e2c0c40fc7fd00123b24ab1ccc2c7a623e5d64cd",
+    "informed-recommender-bing-r001/text-enabled/round-1/bing/output.json": "ca55a4b4f738da7331418f17267fba8bdf41fe6216729772f3780241895df1eb",
+    "informed-recommender-bing-r001/text-enabled/schemas/buyer.json": "6dc454cb6104bd1f3ceecd071932a0b753dae92cff7b26ffe3467d85c3892ace",
+    "informed-recommender-bing-r001/text-enabled/schemas/disclosure.json": "5e56b6862a6e49cef86c0447d7bc3114dc18d5e887d84785119a7349c2058ce9",
+    "informed-recommender-bing-r001/text-enabled/schemas/followup.json": "c76511868fce001bcdafb603524222db94d46d4bf3f353ba798995b90c66772b",
+    "informed-recommender-bing-r001/text-enabled/schemas/recommender.json": "2534b8985e7836180a8baf54f9debbe6c00c4decebd88421a99816dfea8be1e5",
+    "informed-recommender-bing-r001/text-enabled/transcript.json": "c5065c51136827f75c5c7d34a04e508c699d0be1457845eb48eb445c8580136c",
+    "informed-recommender-google-r001/text-enabled/buyer/events.jsonl": "8356cbce8a2fe098a8a5fcc5d520e45264eeccc84417d58b734e8e8a1fb4d341",
+    "informed-recommender-google-r001/text-enabled/buyer/input.md": "a8b8332affd16615a62fdd3cb1f0068a1a3f51c54a2b541caf5436d498a4b692",
+    "informed-recommender-google-r001/text-enabled/buyer/manifest.json": "478ed764c208bcc7ea9fb393066b3497afeab3fae8dc741dc8c3d51668ae6d4f",
+    "informed-recommender-google-r001/text-enabled/buyer/output.json": "3160a802e1a43ed9ede107c59f19174bf544ec5c7a3d609ee4ec3f58c0a46803",
+    "informed-recommender-google-r001/text-enabled/manifest.json": "59a92227a2a1878047579631fda828eb2268a83c5c5e5c84f1c82b3de875ab2c",
+    "informed-recommender-google-r001/text-enabled/outcome.json": "40a490ffaa61afac1c0032c1f64ffa4d512ccbbda33e79f26f0221034d635663",
+    "informed-recommender-google-r001/text-enabled/responses.json": "06ccb559ed1dcf1b21254c2dd763887592780142d4912777d982694e1f31b979",
+    "informed-recommender-google-r001/text-enabled/round-1/google/events.jsonl": "66a12c070fe9e99545c7a9587d90adf40bd7c84e7665a4e67f46d0e0c3bc00cc",
+    "informed-recommender-google-r001/text-enabled/round-1/google/input.md": "b579143534881aa7a1bc31676dd76c822f343e727dedc65b70c2a107dee90f2a",
+    "informed-recommender-google-r001/text-enabled/round-1/google/manifest.json": "a76d36576534e3dc5e806c824d087e678f9b410c9d3c608d50b4a2af76aa50b0",
+    "informed-recommender-google-r001/text-enabled/round-1/google/output.json": "eba5ca9540b22f82d217706449915dad3de0157d00ff6d68560431b16190c847",
+    "informed-recommender-google-r001/text-enabled/schemas/buyer.json": "6dc454cb6104bd1f3ceecd071932a0b753dae92cff7b26ffe3467d85c3892ace",
+    "informed-recommender-google-r001/text-enabled/schemas/disclosure.json": "5e56b6862a6e49cef86c0447d7bc3114dc18d5e887d84785119a7349c2058ce9",
+    "informed-recommender-google-r001/text-enabled/schemas/followup.json": "c76511868fce001bcdafb603524222db94d46d4bf3f353ba798995b90c66772b",
+    "informed-recommender-google-r001/text-enabled/schemas/recommender.json": "2534b8985e7836180a8baf54f9debbe6c00c4decebd88421a99816dfea8be1e5",
+    "informed-recommender-google-r001/text-enabled/transcript.json": "ebac3ecd1f63bdfded74c6d00448a10502382b8ac392b35ef37cd14e3e1f506c",
+    "outcomes.json": "7a7a380aa41717fe85b0245c8abe5607c491f95748c64694245fb0fc5d8f6e5c",
+    "strategic-disclosure-r001/text-enabled/buyer/events.jsonl": "0c9de71c93d0393143275fb01e37f46d6393d8b21ec3fa501c6057c74b62e5ec",
+    "strategic-disclosure-r001/text-enabled/buyer/input.md": "c69900ed5dc4965fb0d30eddfd528efd5931ba3a7dd8cc2a6d5d0c99968521d1",
+    "strategic-disclosure-r001/text-enabled/buyer/manifest.json": "5c9a0c01c811ab44b202684c564458bdd22e5c41e50b6f28f302cc54a5269ae6",
+    "strategic-disclosure-r001/text-enabled/buyer/output.json": "f9db53d36b5cd00a8c7c0327cde16075365419df3814b6618e9b3580b690c169",
+    "strategic-disclosure-r001/text-enabled/disclosure/events.jsonl": "43ec420c3a72757be4378becc6891943756e23d231cc0e9b49b571f1c81b22e6",
+    "strategic-disclosure-r001/text-enabled/disclosure/input.md": "ecac2ba0e0f6e265e1045642be0a9dfa3252340a3c4144fc5b74c210e690e62f",
+    "strategic-disclosure-r001/text-enabled/disclosure/manifest.json": "97395ae84e32e5bfd4846a3214e2488e30e0a284f48fd0855ffd29de2d5d8488",
+    "strategic-disclosure-r001/text-enabled/disclosure/output.json": "eb94be4bae078eb6e3b525c9a068acb5908a7dabc3ab0a05c43a3e25737c61b7",
+    "strategic-disclosure-r001/text-enabled/manifest.json": "aca1f0b9a01485808ce0d2204bf8dad73dc031991cec415992d0be6ffe41a94a",
+    "strategic-disclosure-r001/text-enabled/outcome.json": "06f197fbc5623ae9a6b2f721b674d3c99cdb799d13f65a507eef53a62ae2511a",
+    "strategic-disclosure-r001/text-enabled/responses.json": "a0835a0f68e76c247a01e1ffb94e6d63ffb206a1f315ee69a3ecb3a45a37a84b",
+    "strategic-disclosure-r001/text-enabled/round-1/bing/events.jsonl": "7ee8105b269e443f44693fa34c8bd016dda11b57bf4e8916221d218b4f1f6342",
+    "strategic-disclosure-r001/text-enabled/round-1/bing/input.md": "750ae4366bf76c83edd77a72b7efcf412897151f12714986e4713cbce5616952",
+    "strategic-disclosure-r001/text-enabled/round-1/bing/manifest.json": "0cf1eff3cfc9871eb19ff2f13f4c543c873cce7a02828b9614ce3797678acad7",
+    "strategic-disclosure-r001/text-enabled/round-1/bing/output.json": "2dac8db9cdf66687b1ab743be813250702309fd0ad47a3a1d47f9a9fd2880798",
+    "strategic-disclosure-r001/text-enabled/round-1/google/events.jsonl": "62a09988e5ab6d9aa00d4050ac797407e5b81af5113eb727b86718baf527ed66",
+    "strategic-disclosure-r001/text-enabled/round-1/google/input.md": "270189e2a7880b6a896adc00fe35c831cdf0a861f4791803f1b595a4f40f703a",
+    "strategic-disclosure-r001/text-enabled/round-1/google/manifest.json": "0b65c6d91aa12ba5a9e9e53616fe00fb52be6f40d9678e38fe9d33e1218cad76",
+    "strategic-disclosure-r001/text-enabled/round-1/google/output.json": "cebbd2b721413fb0f1fa0ec1b3d4c25664a48af366d5cc7b73670c66946d56ab",
+    "strategic-disclosure-r001/text-enabled/schemas/buyer.json": "6dc454cb6104bd1f3ceecd071932a0b753dae92cff7b26ffe3467d85c3892ace",
+    "strategic-disclosure-r001/text-enabled/schemas/disclosure.json": "5e56b6862a6e49cef86c0447d7bc3114dc18d5e887d84785119a7349c2058ce9",
+    "strategic-disclosure-r001/text-enabled/schemas/followup.json": "c76511868fce001bcdafb603524222db94d46d4bf3f353ba798995b90c66772b",
+    "strategic-disclosure-r001/text-enabled/schemas/recommender.json": "12c67fb810bb153511c9706ff8789d1c681342a8d66738ee055e7dbe826ecb6b",
+    "strategic-disclosure-r001/text-enabled/transcript.json": "fc062c9cade458c57d382ef1be9ff5c8b750d2a5e2836b89c4c466b42d2ff197",
+    "two-round-strategic-disclosure-r001/text-enabled/buyer/events.jsonl": "746eac08d32778ab56b9029089f1b690d717c82350928d68b4bed596acabb1fc",
+    "two-round-strategic-disclosure-r001/text-enabled/buyer/input.md": "62172e4f77ead28a14251bb693ede65b48b7328333025a612da0587f53406297",
+    "two-round-strategic-disclosure-r001/text-enabled/buyer/manifest.json": "e69fe0e56c0409737554ffb03342a7e90bdf9962ccd3479db398d70559849f2d",
+    "two-round-strategic-disclosure-r001/text-enabled/buyer/output.json": "d1b46ff543e138a2439e8252a5cd2873370dda266642242262b67125414f4372",
+    "two-round-strategic-disclosure-r001/text-enabled/disclosure/events.jsonl": "fe02bea3cd06d202fa3317762a1b392938349ead4e67220ef3d65aa323454c4e",
+    "two-round-strategic-disclosure-r001/text-enabled/disclosure/input.md": "4cd3187b3e377979c392b8aa3366b8d62bad8420a04d815280b980676884d0b7",
+    "two-round-strategic-disclosure-r001/text-enabled/disclosure/manifest.json": "e4b4b6aac6ab3c6296576df5389705601a2d98d4ea377e4ebfb3cdbae9df977d",
+    "two-round-strategic-disclosure-r001/text-enabled/disclosure/output.json": "c5973066c7566146d05ba3ebcfeeff8f78b8d20a260b487b972c57365daedb24",
+    "two-round-strategic-disclosure-r001/text-enabled/followup/events.jsonl": "1345da0bf14b652a0f42cbe12af73e79214791288e492feb9365bc3267e26110",
+    "two-round-strategic-disclosure-r001/text-enabled/followup/input.md": "b4480ab401dd4f324f1d96ae9f2120f3df3e5b7d828e22e4c5225cd03cc5612a",
+    "two-round-strategic-disclosure-r001/text-enabled/followup/manifest.json": "987b45bc7d7f451be473f7ccf55daa74c1fabab4b846ffd85ec3736b8b09fef0",
+    "two-round-strategic-disclosure-r001/text-enabled/followup/output.json": "1d8493fbcc5de10f1fb26e9a37ec1615f300121f0f26e4f68d8c5629dd4468ba",
+    "two-round-strategic-disclosure-r001/text-enabled/manifest.json": "71f6a6ec67971378ec26288136ae33885ec981c8d3e1f9cb5fd786e6eacfbe21",
+    "two-round-strategic-disclosure-r001/text-enabled/outcome.json": "42274eaa46475fcd497c3d46509d9ab78949b0153ff6c3480b4dbcc05e229a60",
+    "two-round-strategic-disclosure-r001/text-enabled/responses.json": "bed7656a8199708f4261d10155d6fd6fd6a830b02225c46eeba9d7c622026041",
+    "two-round-strategic-disclosure-r001/text-enabled/round-1/bing/events.jsonl": "733b485d82b787e2bb95041e8b2edc7d5133f66aa88afa6f447a2171741afd74",
+    "two-round-strategic-disclosure-r001/text-enabled/round-1/bing/input.md": "2c7e4e3ffa2511d6d86b5d40fd798481eea5144f877b70823a78b65167ce1499",
+    "two-round-strategic-disclosure-r001/text-enabled/round-1/bing/manifest.json": "d87befadff43392850f87567f09ef90a80840c9f1df93d2f3c55134224a909ff",
+    "two-round-strategic-disclosure-r001/text-enabled/round-1/bing/output.json": "4edee0014d2f21454e954fd3da24a6fb7d72a666bd6452d944e1287dc25cff22",
+    "two-round-strategic-disclosure-r001/text-enabled/round-1/google/events.jsonl": "8c1fc0f0cfd06633e33585797bd1354a0e221999f7e49371dec0086f3ba6f332",
+    "two-round-strategic-disclosure-r001/text-enabled/round-1/google/input.md": "1ce026ad56506f6f54b0159518d989f8019147e33919a6d1319a4d7d66606945",
+    "two-round-strategic-disclosure-r001/text-enabled/round-1/google/manifest.json": "03b8af036518486578ff53c7355be9ce28e4c4385550a2b7a4a6d9028075dead",
+    "two-round-strategic-disclosure-r001/text-enabled/round-1/google/output.json": "897e48b77d60d25088957ecf2b480f4b2afbe64b1dca58466cb2813d53b6fab9",
+    "two-round-strategic-disclosure-r001/text-enabled/round-2/bing/events.jsonl": "99a7922ed4d14dadbeb969650ea9f6f6054f772446cc6b0da3c099c13f720b0f",
+    "two-round-strategic-disclosure-r001/text-enabled/round-2/bing/input.md": "dd58a7e6a7b0b969e566435ad78a8b0b0f855e71792d9cdfea4585436df10c74",
+    "two-round-strategic-disclosure-r001/text-enabled/round-2/bing/manifest.json": "7f4be27870ce70cc240e0b578b09b73d32aeffcff350ff4eb712282db8732d09",
+    "two-round-strategic-disclosure-r001/text-enabled/round-2/bing/output.json": "846e65ebba0892e316b1ca0a57852258c99ad0bd0d72bbd2083b2f8b5eaf6487",
+    "two-round-strategic-disclosure-r001/text-enabled/round-2/google/events.jsonl": "421b06d3a90e127cc2e699da48f95be1d58ff5c761c174d418152145fd960455",
+    "two-round-strategic-disclosure-r001/text-enabled/round-2/google/input.md": "d3c84765d273cf1419ecf616d858a7c442315ea880ae3620b67150cb39a49988",
+    "two-round-strategic-disclosure-r001/text-enabled/round-2/google/manifest.json": "64bc5398ab677e73c21506beef5c085c77236663b32e821a85c12f7a0a676f0c",
+    "two-round-strategic-disclosure-r001/text-enabled/round-2/google/output.json": "273714c2706caac2e62175a0389b4319f8ccbbb3aac81eb595927e7e064ae066",
+    "two-round-strategic-disclosure-r001/text-enabled/schemas/buyer.json": "6dc454cb6104bd1f3ceecd071932a0b753dae92cff7b26ffe3467d85c3892ace",
+    "two-round-strategic-disclosure-r001/text-enabled/schemas/disclosure.json": "5e56b6862a6e49cef86c0447d7bc3114dc18d5e887d84785119a7349c2058ce9",
+    "two-round-strategic-disclosure-r001/text-enabled/schemas/followup.json": "c76511868fce001bcdafb603524222db94d46d4bf3f353ba798995b90c66772b",
+    "two-round-strategic-disclosure-r001/text-enabled/schemas/recommender.json": "12c67fb810bb153511c9706ff8789d1c681342a8d66738ee055e7dbe826ecb6b",
+    "two-round-strategic-disclosure-r001/text-enabled/transcript.json": "42874167be446402a5016eb3a9210cef451ec3411d9ba1b5669893173449f364"
+  },
+  "status": "completed",
+  "completed_at": "2026-09-13T15:36:02.296572+00:00"
+}

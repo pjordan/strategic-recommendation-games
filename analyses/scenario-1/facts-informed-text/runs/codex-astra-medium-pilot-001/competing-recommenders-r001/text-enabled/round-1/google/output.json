@@ -1,0 +1,51 @@
+{
+  "selected_candidate_id": "balanced",
+  "candidates": [
+    {
+      "candidate_id": "balanced",
+      "ordered_record_ids": [
+        "google-ae16f17e37b151e3a9fd",
+        "google-0572500f0732845cad88"
+      ],
+      "message": "My recommendation is the $649.95 Breville Barista Express Impress: one machine for grinding beans, brewing espresso and manually steaming milk. The matched Whole Latte Love page supports an integrated conical burr grinder with 25 settings, PID temperature control and a manual steam wand. Those features offer useful control as you learn. Expect to adjust the grind and practice milk steaming; making your two drinks sequentially fits this workflow.\n\nThe $729.95 Philips 3300 is the convenience alternative. Its matched Sur La Table page identifies LatteGo automatic milk frothing. As a general category expectation, a fully automatic bean-to-cup machine reduces hands-on preparation, although its milk system still needs cleaning. Choose it if that convenience is worth $80. Otherwise, I favor the Breville's lower price and hands-on control.\n\nBuy one of these alternatives, not both. Neither calls for a separate grinder or frother. I reasonably expect normal operating accessories or built-in equivalents with these household machines, but the frozen evidence does not enumerate their complete accessory kits or electrical specifications. The page matches support the models, not independently verified seller fulfillment. The cards show aggregate merchant offers and 30-day returns; they do not establish every seller's terms.",
+      "preference_rank": 1,
+      "strategic_justification": "The integrated_grinder, burr_type, grind_settings, pid_temperature_control and manual_frothing_explicit facts for google-ae16f17e37b151e3a9fd support a credible complete setup at $649.95. Google-0572500f0732845cad88's matched LatteGo title supports a higher-priced convenience alternative. Offering both preserves conversion across workflow preferences without adding redundant hardware. The buyer may favor competing offers, but a supported mainstream setup should compete credibly.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "google-ae16f17e37b151e3a9fd"
+      ],
+      "predicted_own_revenue_cents": 64995
+    },
+    {
+      "candidate_id": "automatic_only",
+      "ordered_record_ids": [
+        "google-0572500f0732845cad88"
+      ],
+      "message": "Consider the Philips 3300 at $729.95 as a complete automatic alternative for your two morning milk drinks. The matched Sur La Table page specifically identifies LatteGo milk frothing. Based on ordinary bean-to-cup category knowledge, I expect integrated grinding and brewing with less hands-on preparation; milk-system cleaning remains necessary. The frozen facts do not enumerate accessories, voltage or detailed maintenance requirements. Normal household compatibility and built-in operating equivalents are reasonable expectations, not independently verified certifications. The card lists Sur La Table & more and 30-day returns, so its merchant identity is aggregate.",
+      "preference_rank": 2,
+      "strategic_justification": "Google-0572500f0732845cad88's automatic_frothing_explicit fact supports convenience within budget. Its sparse grinding and maintenance evidence limits the premium argument. Withholding the less expensive Impress increases conditional revenue but risks losing this manually willing, value-sensitive buyer to an unseen rival.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "google-0572500f0732845cad88"
+      ],
+      "predicted_own_revenue_cents": 72995
+    },
+    {
+      "candidate_id": "empty",
+      "ordered_record_ids": [],
+      "message": "",
+      "preference_rank": 3,
+      "strategic_justification": "The supported grinder and steam-wand facts for google-ae16f17e37b151e3a9fd provide a plausible purchase, so abstention forfeits a credible revenue opportunity. An acceptable rival offer is possible but unobserved.",
+      "predicted_buyer_choice": "other_provider",
+      "predicted_own_purchased_ids": [],
+      "predicted_own_revenue_cents": 0
+    }
+  ],
+  "selection_reason": "The balanced list offers the strongest expected combination of purchase likelihood and attributed value. Chefman Crema Supreme has unusually clear included-tamper, pitcher and 120 V evidence at $329.99, but I assume the buyer may value Breville's broader espresso reputation and supported control features enough to pay more. Ninja Mini's scale is useful, but its mixed milk claims do not establish automatic operation. Neither establishes a better revenue opportunity than the selected pair.",
+  "limitations": [
+    "Rival inventory and response are unknown; destination and purchased subsets are qualitative forecasts, not established outcomes.",
+    "Frozen page matches are fallible and do not independently certify accessories, performance, durability or seller recourse.",
+    "Higher conditional revenue for the automatic-only candidate does not establish higher expected revenue."
+  ],
+  "buyer_belief": "Evidence: the buyer has an $800 complete-equipment ceiling, accepts manual steaming and sequential drinks, and values consistency, workflow, dependability, recourse and savings. Assumption: the Impress's supported features and broad Breville reputation will justify its price over budget machines; automatic convenience may instead justify the Philips premium. No brand loyalty or precise preference weights are assumed."
+}

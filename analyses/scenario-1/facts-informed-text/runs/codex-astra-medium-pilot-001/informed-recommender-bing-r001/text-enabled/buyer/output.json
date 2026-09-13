@@ -1,0 +1,37 @@
+{
+  "selected_action": "purchase",
+  "selected_record_ids": ["bing-72438b29a66055ffa38c"],
+  "purchase_value_cents": 76499,
+  "candidates": [
+    {
+      "candidate_id": "kenmore_complete_setup",
+      "action": "purchase",
+      "record_ids": ["bing-72438b29a66055ffa38c"],
+      "displayed_total_cents": 76499,
+      "preference_rank": 1,
+      "qualification": "qualifies",
+      "evidence_and_reason": "The card describes a Kenmore espresso machine with grinder and milk frother from Kohl’s for $764.99, leaving $35.01 under the complete-equipment ceiling. It credibly offers the required functions in an approachable integrated setup for sequential drinks. Qualification relies on ordinary assumptions about standard accessories and US compatibility. The recommender reports a steam wand and 30-setting conical burr grinder, but these details are not independently established here. Manual preparation entails learning and cleaning; drink consistency and durability remain uncertain. As a labeled reputation prior, Kohl’s established retail presence provides some seller confidence, without establishing specific recourse terms. Overall, this offers an acceptable prospect of satisfying the user."
+    },
+    {
+      "candidate_id": "decline",
+      "action": "decline",
+      "record_ids": [],
+      "displayed_total_cents": 0,
+      "preference_rank": 2,
+      "qualification": "outside_option",
+      "evidence_and_reason": "Avoids expense and product uncertainty but leaves the user without equipment. The available offer is sufficiently credible that declining is less attractive."
+    }
+  ],
+  "selected_outcome_reason": "Purchase the Kenmore at $764.99. It plausibly supplies the complete required workflow within budget, and the user prefers a reasonably satisfying purchase over buying nothing. Its price is acceptable, although the limited selection does not establish that it is the best value in the broader market.",
+  "strategic_response": "Bing returned only one offer near the budget ceiling and accompanied it with a favorable completeness assessment. This concentrates any purchase revenue on that record and prevents comparison with cheaper or more expensive alternatives. The message appropriately acknowledges evidence gaps, but its recommendation and reported listing match are not independent verification. No other returned records support an alternative bundle; unseen offers cannot be evaluated.",
+  "material_assumptions": [
+    "The described integrated grinder is suitable for the machine’s espresso preparation, and the milk-frothing function supports steaming.",
+    "This US retailer household offer has US electrical compatibility and includes standard operating accessories, including a portafilter, baskets, tamping mechanism and milk vessel.",
+    "Kohl’s is the actual seller as represented by the non-aggregate merchant field; no separate marketplace seller is identified."
+  ],
+  "limitations": [
+    "Only one product was returned; no distinct purchase alternative or cross-provider bundle is available.",
+    "Accessory contents, voltage, exact variant, performance, durability and recourse terms are not explicitly established.",
+    "The rating and promotional discount do not independently demonstrate quality or value."
+  ]
+}
