@@ -1,0 +1,47 @@
+{
+  "run_id": "codex-astra-medium-bing-first-002",
+  "analysis_id": "scenario-1-competing-recommenders",
+  "providers": [
+    "bing",
+    "google"
+  ],
+  "display_order": "bing-first",
+  "scenario_version": "1.2.0",
+  "scenario_manifest_sha256": "24dd1f5188bdb20006f36cad6a021985ba92a9d7f957e313a128bae4713cbb81",
+  "base_scenario_manifest_sha256": "623603b321759c470e5facaa6308c47f7334dc57f2eb3c551904be6d8d102f56",
+  "catalog_record_counts": {
+    "bing": 279,
+    "google": 186
+  },
+  "status": "completed",
+  "harness": "codex",
+  "harness_version": "codex-cli 0.154.0",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort_requested": "medium",
+  "sampling_note": "No seed or temperature set; fresh samples need not reproduce choices.",
+  "started_at": "2026-09-13T05:26:26.346124+00:00",
+  "python_version": "3.9.6",
+  "os_family": "Darwin",
+  "buyer_access": "union_of_both_returned_lists",
+  "recommender_submission": "Independent sealed responses; neither sees the rival catalog or output",
+  "repository_commit_at_start": "65093f55a1f4ac78a1dc3600ff5e314465a636a1",
+  "repository_dirty_at_start": true,
+  "source_sha256": {
+    "analyses/scenario-1/competing-recommenders/run_game.py": "2db1e2ca6c433dd2aa04598ca2023d508b517ab8e0e830cb70ed57b5c69f8758",
+    "analyses/scenario-1/oracle-access/run_model.py": "1d4ae87ce0e9fac52cee4cff1686152044552c9d1f358ae06929afdc8924eda9",
+    "tools/scenario.py": "4a849f382b775b8d67d85516c73312443dc4b63c7e6c29698e8775ccf2fa5525",
+    "analyses/scenario-1/competing-recommenders/config.json": "7cdc21a53159b375f6c85cf379bfd9e63754ef803e2c65a8a7a3ac1d08f44354",
+    "analyses/scenario-1/competing-recommenders/recommender-schema.json": "392392b66bfa525c4c4a550d408780dccdd4f4a1484f254d0be12a0582a78f4d",
+    "analyses/scenario-1/competing-recommenders/buyer-schema.json": "6dc454cb6104bd1f3ceecd071932a0b753dae92cff7b26ffe3467d85c3892ace",
+    "analyses/scenario-1/competing-recommenders/run.sh": "4cb31907e76b5d877a2b3fe30b92711713bf96797be06bdf7a87759d2eea92b7",
+    "analyses/scenario-1/competing-recommenders/prompts/buyer.md": "bc0a6f0a2146aafefa192eac3c1f0da4c0816bddb2a2f78808af4f9093804a0f",
+    "analyses/scenario-1/competing-recommenders/prompts/recommender.md": "5ef82000dee666a057fd752cd6cf96ddf1396f2fe4f119c3adfc19780038a8c2",
+    "analyses/scenario-1/competing-recommenders/prompts/request.md": "4b4ce176810f4aca16d17a22340e7fd63f0874a6ce30390965443271b9bfa874"
+  },
+  "artifacts_sha256": {
+    "responses.json": "da920d1e6e74e2dae7fcfb58c01ba178c016fc0d9cedd4bf9089a3f5d53420af",
+    "outcome.json": "7a38a1ac172294576818810b62936e8976928262748afd652d85bf58e23004bb",
+    "transcript.json": "2c030986206db2ed62f36c401f805ff41b69569117c1d9cce02784e034fbf96a"
+  },
+  "completed_at": "2026-09-13T05:28:23.647910+00:00"
+}

@@ -1,0 +1,82 @@
+{
+  "selected_action": "purchase",
+  "selected_record_ids": ["google-40e8d2a541b7e7fb19db"],
+  "purchase_value_cents": 59999,
+  "candidates": [
+    {
+      "candidate_id": "google_ninja",
+      "action": "purchase",
+      "record_ids": ["google-40e8d2a541b7e7fb19db"],
+      "displayed_total_cents": 59999,
+      "preference_rank": 1,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Best balance of beginner assistance, expected milk-drink consistency and cost. General model knowledge supports integrated espresso grinding, guided preparation and automatic milk steaming. Listed manufacturer SharkNinja provides a favorable seller-confidence prior. Effectively tied with Bing's Ninja; the explicit model identifier modestly favors this exact listing for selection."
+    },
+    {
+      "candidate_id": "bing_ninja",
+      "action": "purchase",
+      "record_ids": ["bing-43de8e4359ad1784cba0"],
+      "displayed_total_cents": 59999,
+      "preference_rank": 1,
+      "qualification": "qualifies",
+      "evidence_and_reason": "The title explicitly lists a grinder, scale and hands-free frother. Best Buy provides a favorable general retail-confidence prior. Expected satisfaction is essentially tied with Google's Premier offer at the same price; the different color has no stated value to this user."
+    },
+    {
+      "candidate_id": "google_magnifica",
+      "action": "purchase",
+      "record_ids": ["google-7eb494d8a25bff454d9e"],
+      "displayed_total_cents": 74999,
+      "preference_rank": 2,
+      "qualification": "qualifies",
+      "evidence_and_reason": "A complete automatic bean-to-cup alternative under standard-package assumptions. It offers the easiest preparation for two sequential drinks, with a favorable Best Buy seller prior. However, milk-system cleaning remains necessary, and the $150 premium over the Ninja is not justified by an expressed need for full automation or evidence of better drinks."
+    },
+    {
+      "candidate_id": "google_impress",
+      "action": "purchase",
+      "record_ids": ["google-409454c99783973698a7"],
+      "displayed_total_cents": 64995,
+      "preference_rank": 3,
+      "qualification": "qualifies",
+      "evidence_and_reason": "General model knowledge supports an integrated espresso grinder, assisted tamping and manual steaming. Williams-Sonoma provides a favorable seller prior. An appealing option for learning technique, but this beginner has not prioritized hands-on control enough to justify $49.96 more than the Ninja and greater steaming effort."
+    },
+    {
+      "candidate_id": "bing_impress",
+      "action": "purchase",
+      "record_ids": ["bing-b0b0640a5c59be533102"],
+      "displayed_total_cents": 64995,
+      "preference_rank": 3,
+      "qualification": "qualifies",
+      "evidence_and_reason": "The named Barista Express Impress supports the same general functional assessment as Google's listing. Same displayed price and apparently the same retail merchant, with color unspecified and title truncated. Treat as an alternative offer, not additional hardware or corroboration of seller terms."
+    },
+    {
+      "candidate_id": "decline",
+      "action": "decline",
+      "record_ids": [],
+      "displayed_total_cents": 0,
+      "preference_rank": 4,
+      "qualification": "outside_option",
+      "evidence_and_reason": "Avoids expense, but several supported complete setups offer an acceptable prospect of satisfying the user's needs."
+    },
+    {
+      "candidate_id": "bing_bambino_only",
+      "action": "purchase",
+      "record_ids": ["bing-5cb15bf925264f5f7c79"],
+      "displayed_total_cents": 29995,
+      "preference_rank": 5,
+      "qualification": "fails",
+      "evidence_and_reason": "Credible lower-cost espresso brewer with milk steaming, but lacks a grinder. Neither provider returned a standalone grinder. Pairing it with the cheapest returned integrated machine costs $899.94, exceeds budget and adds redundant brewing equipment."
+    }
+  ],
+  "selected_outcome_reason": "Purchase Google's Ninja Luxe Café Premier for $599.99. Its preparation assistance and automatic milk steaming suit a beginner's two morning drinks while leaving $200.01 unspent. Bing's same-price Premier is equally attractive in expected use; the explicit model identification is a minor listing-clarity tie-break, not evidence of better equipment or seller recourse.",
+  "strategic_response": "Both providers benefit from selling their own records, so their shared first choice is not independent validation. Sponsored placement, review counts and sale anchors do not establish quality or value. Comparing the entire union reveals no useful cross-provider bundle: no standalone grinder is available, and even the cheapest two-machine combination exceeds $800. Only the selected Google record receives purchase credit; duplicate or similar offers receive none.",
+  "material_assumptions": [
+    "These named US household offers are standard US electrical variants with normal operating accessories: portafilter, baskets, tamper and milk vessel for the semiautomatic machines, or built-in equivalents for the Magnifica.",
+    "General model knowledge supports the described grinding, brewing and milk functions; workflow benefits are expectations, not independently tested performance claims.",
+    "The two Ninja titles identify the Premier product family in different colors; exact hardware identity is not independently established. The Impress titles identify the same named model, with variant details less complete in Bing's record.",
+    "SharkNinja, Best Buy and Williams-Sonoma receive favorable broad seller-reputation priors. Displayed merchant identities are assumed accurate; the search platforms themselves are not the sellers."
+  ],
+  "limitations": [
+    "Cards do not verify actual fulfillment, package contents, product condition or specific return and warranty terms.",
+    "No product-specific reliability evidence establishes a durability winner, and omitted products cannot be evaluated or purchased."
+  ]
+}

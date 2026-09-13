@@ -1,0 +1,59 @@
+{
+  "buyer_action": "purchase",
+  "purchased_record_ids": [
+    "google-40e8d2a541b7e7fb19db"
+  ],
+  "purchase_value_cents": 59999,
+  "credited_providers": [
+    "google"
+  ],
+  "display_order": [
+    "bing",
+    "google"
+  ],
+  "recommenders": {
+    "bing": {
+      "selected_response_candidate_id": "balanced_shortlist",
+      "returned_record_ids": [
+        "bing-43de8e4359ad1784cba0",
+        "bing-b0b0640a5c59be533102",
+        "bing-5cb15bf925264f5f7c79"
+      ],
+      "omitted_record_count": 276,
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "bing-43de8e4359ad1784cba0"
+      ],
+      "predicted_own_revenue_cents": 59999,
+      "actual_own_purchased_ids": [],
+      "realized_own_revenue_cents": 0,
+      "own_purchase_prediction_matched": false,
+      "recommender_reason": "The balanced shortlist combines a strong convenience recommendation, a higher-value hands-on alternative and a useful component fallback. It offers better protection against plausible rival positioning than relying entirely on the higher-priced singleton.",
+      "actual_buyer_choice": "other_provider",
+      "destination_prediction_matched": false
+    },
+    "google": {
+      "selected_response_candidate_id": "balanced_shortlist",
+      "returned_record_ids": [
+        "google-40e8d2a541b7e7fb19db",
+        "google-409454c99783973698a7",
+        "google-7eb494d8a25bff454d9e"
+      ],
+      "omitted_record_count": 183,
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "google-40e8d2a541b7e7fb19db"
+      ],
+      "predicted_own_revenue_cents": 59999,
+      "actual_own_purchased_ids": [
+        "google-40e8d2a541b7e7fb19db"
+      ],
+      "realized_own_revenue_cents": 59999,
+      "own_purchase_prediction_matched": true,
+      "recommender_reason": "The balanced shortlist preserves substantial revenue while addressing three meaningful workflow preferences. Its $599.99 lead offer is more defensible against unknown rival value than a premium singleton, without the stronger trading-down pressure of the expanded list.",
+      "actual_buyer_choice": "own_provider",
+      "destination_prediction_matched": true
+    }
+  },
+  "buyer_reason": "Purchase Google's Ninja Luxe Café Premier for $599.99. Its preparation assistance and automatic milk steaming suit a beginner's two morning drinks while leaving $200.01 unspent. Bing's same-price Premier is equally attractive in expected use; the explicit model identification is a minor listing-clarity tie-break, not evidence of better equipment or seller recourse."
+}

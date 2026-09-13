@@ -1,0 +1,49 @@
+{
+  "selected_candidate_id": "focused_alternatives",
+  "candidates": [
+    {
+      "candidate_id": "focused_alternatives",
+      "ordered_record_ids": [
+        "bing-b0b0640a5c59be533102",
+        "bing-826018f7a2d5509c15e2",
+        "bing-319049616d40eac8f983"
+      ],
+      "message": "My shortlist offers three alternative complete setups; buy just one.\n\nThe Breville Barista Express Impress at Williams Sonoma, $649.95, is my recommendation if you want to learn espresso with assisted dosing and tamping while steaming milk manually. Its integrated grinder avoids a separate grinder purchase. You still adjust the grind, handle the portafilter and clean the steam wand after use. Two sequential morning drinks are a reasonable fit.\n\nThe Ninja Luxe Cafe Mini at Target, $449.99, is the stronger savings option. Assuming the standard US Mini package, its integrated grinding and assisted milk preparation suit a beginner's milk-drink routine. The Breville costs $199.96 more; that premium makes most sense if you value its espresso-focused workflow and room to develop your technique.\n\nThe Philips 3300 at Amazon.com, $530, is worth choosing if automated brewing matters most. Its exact milk-system variant is unclear in this truncated card, so I would not promise one-touch milk drinks. Automatic machines also require regular milk-system and brew-unit cleaning.\n\nThese completeness judgments assume standard US retail packages: espresso-suitable integrated grinders, brewing and milk-steaming capability, and the normal portafilter, baskets, tamping mechanism and milk vessel—or built-in equivalents. Accessories and voltage are not independently verified by these cards. No separate scale or upgraded tools are necessary to start. Each alternative fits the $800 equipment budget before tax and shipping.\n\nWilliams Sonoma is the named retailer on the Breville offer. Target and Amazon platform labels alone do not establish the individual seller or specific return terms. My confidence uses ordinary brand and retail reputation assumptions, not verified warranties or the cards' ratings.",
+      "preference_rank": 1,
+      "strategic_justification": "Offers credible choices across price and workflow, protecting against a rival emphasizing savings, manual espresso quality or automation. The Mini can divert purchases from the higher-revenue Breville, but retaining a competitive $449.99 option is preferable to losing the entire sale. The Breville supplies a stronger named-retailer proposition; Philips covers automated brewing without promising an unspecified milk variant.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "bing-826018f7a2d5509c15e2"
+      ],
+      "predicted_own_revenue_cents": 44999
+    },
+    {
+      "candidate_id": "breville_singleton",
+      "ordered_record_ids": [
+        "bing-b0b0640a5c59be533102"
+      ],
+      "message": "I recommend the Breville Barista Express Impress listed by Williams Sonoma for $649.95 total before tax and shipping. Assuming the standard US retail package, it provides an espresso-suitable integrated grinder, espresso brewing, manual milk steaming, portafilter, baskets, assisted tamping and milk pitcher. You do not need a separate grinder, frother or scale to start.\n\nAssisted dosing and tamping make learning more approachable, though you still adjust the grind, prepare each shot and steam milk yourself. Make your two drinks sequentially, then clean the portafilter and wipe and purge the steam wand; periodic machine cleaning remains necessary.\n\nMy recommendation rests on the model's established espresso workflow and ordinary reputation assumptions about Breville and the named retailer. The shopping card does not independently verify package contents, voltage or recourse terms. This is a worthwhile option if its hands-on workflow appeals to you; a credible cheaper setup could offer better value if it meets your needs equally well.",
+      "preference_rank": 2,
+      "strategic_justification": "Concentrates potential revenue at $649.95 and avoids internal trading down. However, a rival offering credible lower-cost equipment or easier milk preparation could win this beginner's purchase. The named retailer and assisted tamping support value, but do not ensure the premium is justified against unseen alternatives.",
+      "predicted_buyer_choice": "other_provider",
+      "predicted_own_purchased_ids": [],
+      "predicted_own_revenue_cents": 0
+    },
+    {
+      "candidate_id": "empty",
+      "ordered_record_ids": [],
+      "message": "I am submitting no equipment offers for this comparison.",
+      "preference_rank": 3,
+      "strategic_justification": "Guarantees zero attributed revenue and removes several plausible satisfying setups from consideration. A rival may still support an acceptable purchase; abstention offers no competitive benefit given the credible own-catalog options.",
+      "predicted_buyer_choice": "other_provider",
+      "predicted_own_purchased_ids": [],
+      "predicted_own_revenue_cents": 0
+    }
+  ],
+  "selection_reason": "The focused shortlist balances purchase value with resistance to competing value and convenience offers. Its lower-priced alternative can retain a sale that the Breville singleton might lose, while preserving a credible higher-value choice.",
+  "limitations": [
+    "The rival catalog and response are unknown; forecasts are qualitative scenarios, not calibrated predictions.",
+    "Cards are unverified and sometimes truncated. Standard package contents, model-family functions and US compatibility are labeled assumptions.",
+    "Actual marketplace sellers, exact variants and recourse terms are not fully established."
+  ]
+}

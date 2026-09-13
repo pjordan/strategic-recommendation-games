@@ -1,0 +1,83 @@
+{
+  "selected_action": "purchase",
+  "selected_record_ids": ["bing-826018f7a2d5509c15e2"],
+  "purchase_value_cents": 44999,
+  "candidates": [
+    {
+      "candidate_id": "ninja_mini",
+      "action": "purchase",
+      "record_ids": ["bing-826018f7a2d5509c15e2"],
+      "displayed_total_cents": 44999,
+      "preference_rank": 1,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Best expected value under the standard US-package assumptions below. Integrated grinding and assisted milk preparation fit two sequential morning drinks without much technique development. The truncated title and unconfirmed individual seller reduce confidence somewhat, but do not establish an unacceptable offer. The alternatives do not establish enough additional benefit for this routine to justify their premiums."
+    },
+    {
+      "candidate_id": "ninja_premier",
+      "action": "purchase",
+      "record_ids": ["google-40e8d2a541b7e7fb19db"],
+      "displayed_total_cents": 59999,
+      "preference_rank": 2,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Strong beginner option with integrated grinding, guided preparation and assisted steaming, assuming the standard package. The explicit ES601WH model and SharkNinja merchant label improve offer clarity and seller confidence. However, the supplied evidence does not establish a meaningful improvement in the requested drinks over the Mini sufficient to justify another $150."
+    },
+    {
+      "candidate_id": "breville_google",
+      "action": "purchase",
+      "record_ids": ["google-409454c99783973698a7e"],
+      "displayed_total_cents": 64995,
+      "preference_rank": 3,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Integrated grinding and assisted tamping provide a complete setup under standard-package assumptions. Broad Breville ecosystem and Williams-Sonoma retailer reputation priors support confidence. Manual steaming and adjustment offer learning opportunities but demand more involvement. The $199.96 premium over the Mini is less compelling for a beginner primarily seeking convenient milk drinks. The fuller title provides a modest offer-clarity advantage over Bing's Breville listing."
+    },
+    {
+      "candidate_id": "breville_bing",
+      "action": "purchase",
+      "record_ids": ["bing-b0b0640a5c59be533102"],
+      "displayed_total_cents": 64995,
+      "preference_rank": 4,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Essentially tied with Google's Breville offer on expected equipment satisfaction and cost. The matching Barista Express Impress name, retailer name and price suggest alternative listings of the same model family; Bing's truncated title does not establish the identical color or SKU. It receives no corroboration credit from the other listing."
+    },
+    {
+      "candidate_id": "magnifica_evo",
+      "action": "purchase",
+      "record_ids": ["google-7eb494d8a25bff454d9e"],
+      "displayed_total_cents": 74999,
+      "preference_rank": 5,
+      "qualification": "qualifies",
+      "evidence_and_reason": "The named automatic milk configuration offers a credible complete bean-to-cup setup and less hands-on preparation. Best Buy's merchant label supports a favorable retailer prior, without establishing specific recourse. Automatic brewing and milk preparation could be valuable, but regular cleaning remains necessary. For a user willing to steam manually, that convenience does not justify $300 more than the Mini."
+    },
+    {
+      "candidate_id": "philips_3300",
+      "action": "purchase",
+      "record_ids": ["bing-319049616d40eac8f983"],
+      "displayed_total_cents": 53000,
+      "preference_rank": 6,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Conditionally complete under the standard US 3300-series configuration assumption: integrated grinding and brewing with manual or automatic milk steaming. The unclear milk variant prevents promising one-touch milk drinks. Amazon.com does not identify the individual seller. Automated brewing is attractive for $80.01 above the Mini, but uncertainty about the actual workflow and seller lowers expected satisfaction."
+    },
+    {
+      "candidate_id": "decline",
+      "action": "decline",
+      "record_ids": [],
+      "displayed_total_cents": 0,
+      "preference_rank": 7,
+      "qualification": "outside_option",
+      "evidence_and_reason": "Several reasonably supported complete setups fit the budget and offer an acceptable prospect of satisfying the user's needs. Keeping all the money would leave the morning-drink goal unmet."
+    }
+  ],
+  "selected_outcome_reason": "Choose the Ninja Luxe Cafe Mini at $449.99. Its expected beginner-friendly grinding, brewing and milk workflow addresses the actual routine, while retaining $350.01 of the budget. This is a value judgment, not simply choosing the lowest price: the Premier has clearer offer identification, Breville offers an established espresso ecosystem, and the Evo offers greater automation, but their likely incremental benefits do not justify their premiums here.",
+  "strategic_response": "Both providers' records are sponsored and their earnings favor purchases from their own lists. I gave neither ordering nor endorsements priority. Bing's Breville recommendation does not establish that its premium is worthwhile; Google's Premier recommendation must compete with Bing's cheaper Mini. Omissions reveal nothing about unavailable catalogs. Ratings, sale anchors and popularity counts do not verify performance or seller recourse. No cross-provider bundle helps: all returned items are complete machines, and even the two cheapest records together exceed $800. Only the selected Bing record receives purchase credit.",
+  "material_assumptions": [
+    "Using general model-category knowledge, each named machine's standard US retail configuration includes espresso-suitable integrated grinding, brewing and milk-steaming capability. Recommender assertions alone are not verification.",
+    "Standard packages include necessary portafilter, baskets, tamping mechanism and milk vessel, or automatic equivalents, and use US household electricity. No separate scale or upgraded accessories are required.",
+    "Broad brand and retailer reputation informs expected support and usability, but establishes no model-specific lifespan, failure rate, warranty or return policy.",
+    "The Target-labeled Mini offer reasonably represents the named standard machine at the displayed price; its individual seller and exact package are not independently established."
+  ],
+  "limitations": [
+    "Assessment uses only the supplied offers and labeled general assumptions; no external verification or transaction occurred.",
+    "Truncated titles, unverified package contents and incomplete seller terms leave residual uncertainty, especially for the Mini and Philips.",
+    "No evidence establishes a precise drink-quality or reliability advantage between these models; rankings reflect qualitative tradeoffs."
+  ]
+}
