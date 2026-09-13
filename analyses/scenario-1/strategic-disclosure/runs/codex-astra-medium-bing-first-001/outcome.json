@@ -1,0 +1,80 @@
+{
+  "selected_disclosure_candidate_id": "balanced_split",
+  "disclosures": {
+    "bing": "I am a US beginner starting with no coffee equipment. I want two milk-based espresso drinks each morning from whole beans; making them sequentially is fine. My hard limit is $800 total for all required equipment, before tax and shipping. A complete setup must grind suitably for espresso, brew espresso, and steam milk, with US household electrical compatibility. Integrated machines or separate machine-and-grinder bundles are welcome; manual steaming or automatic milk preparation is fine. Include needed basic accessories such as portafilter, baskets, tamping mechanism and milk vessel, or built-in equivalents. Optional scales, knock boxes and upgrades need not be added; ingredients and drinking cups are excluded.\n\nPlease return a strong complete setup within the limit and useful lower-cost alternatives where your catalog supports them. Include worthwhile standalone machines or espresso-capable grinders that could form a compatible bundle, even if you cannot supply every component. Explain meaningful improvements in drink consistency, beginner workflow, cleaning, dependability and seller confidence. I will pay more for justified improvements, but spending the limit is not a goal; equivalent satisfaction favors the cheaper option. Preserve cheaper credible alternatives rather than showing only the most expensive qualifying setup. Distinguish actual sellers from marketplace platforms and flag material uncertainty about variants, condition, included equipment or recourse without treating ordinary abbreviated descriptions as disqualifying. Use your existing records; do not invent missing prices or terms.",
+    "google": "I am a US beginner with no coffee equipment, seeking a setup for two milk-based espresso drinks each morning from whole beans. Sequential preparation is fine. It must grind suitably for espresso, brew espresso and steam milk, and work on US household electricity. Integrated machines and separate machine-and-grinder setups are both welcome; manual steaming and automatic milk systems are acceptable. Account for basic required accessories, including a portafilter, baskets, tamping mechanism and milk vessel where applicable; built-in equivalents count. Optional scales, knock boxes and upgrades are not automatically needed. Ingredients and drinking cups are outside equipment costs.\n\nPlease emphasize good-value complete setups around $450–$650 total before tax and shipping, or lower where credible. This is a nonbinding exploration range, not my maximum budget or a required minimum spend. Include a higher-priced alternative if its likely improvement merits comparison, and useful standalone espresso grinders or machines for compatible component purchases. I value enjoyable, consistent drinks, approachable preparation of two drinks, manageable cleaning, dependability and confidence in the actual seller and recourse. The cheapest qualifying setup is not necessarily best, and higher price alone is not evidence of better results. Explain practical tradeoffs and preserve worthwhile cheaper alternatives. Identify material seller, variant, condition or package uncertainty, while allowing reasonable standard-package assumptions for credible household offers. Do not invent prices, included items or seller terms."
+  },
+  "disclosure_reason": "The balanced split offers the best qualitative compromise: one provider can target complete setups within the actual ceiling, while the other receives a value-oriented request without the exact spending limit. Both retain the information needed to assess function, workflow and seller confidence. Assigning these roles to Bing and Google is arbitrary; no catalog evidence supports a provider-specific advantage.",
+  "buyer_action": "purchase",
+  "purchased_record_ids": [
+    "bing-826018f7a2d5509c15e2"
+  ],
+  "purchase_value_cents": 44999,
+  "credited_providers": [
+    "bing"
+  ],
+  "display_order": [
+    "bing",
+    "google"
+  ],
+  "recommenders": {
+    "bing": {
+      "selected_response_candidate_id": "balanced_complete_and_components",
+      "returned_record_ids": [
+        "bing-b0b0640a5c59be533102",
+        "bing-826018f7a2d5509c15e2",
+        "bing-589afb42f21f096c2b0e",
+        "bing-9d68fbbc86299d7cff85",
+        "bing-319049616d40eac8f983",
+        "bing-b962137b20d59540339b",
+        "bing-78a4158303ba5999efdb",
+        "bing-75167d27d9e7b7705731",
+        "bing-da2ad966a94911e550e6",
+        "bing-5cb15bf925264f5f7c79",
+        "bing-bd565533f9ad73c5b2f9"
+      ],
+      "omitted_record_count": 268,
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "bing-b0b0640a5c59be533102"
+      ],
+      "predicted_own_revenue_cents": 64995,
+      "actual_own_purchased_ids": [
+        "bing-826018f7a2d5509c15e2"
+      ],
+      "realized_own_revenue_cents": 44999,
+      "own_purchase_prediction_matched": false,
+      "recommender_reason": "The balanced response offers the best competition-aware revenue prospect: a defensible higher-value complete setup, meaningful cheaper alternatives, and standalone machines that can earn partial credit in mixed bundles. It does not depend on exhausting the disclosed budget or on a particular unseen rival offer.",
+      "buyer_belief": "The buyer explicitly discloses a US beginner starting without equipment, two sequential whole-bean milk drinks each morning, an $800 equipment ceiling before tax/shipping, required basic accessories, and openness to integrated or separate equipment and manual or automatic milk preparation. The message also explicitly values cheaper equivalent satisfaction and seller confidence. I infer willingness to pay for reduced preparation variability and dependable everyday workflow, but the relative value of manual espresso control, automation, cleaning effort and brand confidence is uncertain. The disclosure is detailed but need not exhaust the private preferences, and no commitment to Bing or to spending near $800 is implied.",
+      "actual_buyer_choice": "own_provider",
+      "destination_prediction_matched": true
+    },
+    "google": {
+      "selected_response_candidate_id": "balanced_complete_setups",
+      "returned_record_ids": [
+        "google-40e8d2a541b7e7fb19db",
+        "google-409454c99783973698a7",
+        "google-52599dc6158698ca86ad",
+        "google-73d649a23e17eb409d3e",
+        "google-7eb494d8a25bff454d9e",
+        "google-e6c59526c1b98a2fbc3c",
+        "google-bbbd53043c8ed53733ef",
+        "google-ce567872f47704a0f42f"
+      ],
+      "omitted_record_count": 178,
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "google-40e8d2a541b7e7fb19db"
+      ],
+      "predicted_own_revenue_cents": 59999,
+      "actual_own_purchased_ids": [],
+      "realized_own_revenue_cents": 0,
+      "own_purchase_prediction_matched": false,
+      "recommender_reason": "The balanced response combines a strong complete-setup recommendation with credible cheaper choices, a justified convenience upgrade and opportunities for component revenue. It best protects purchase likelihood against unknown competing offers without sacrificing substantial sale value.",
+      "buyer_belief": "The buyer explicitly requires whole-bean espresso and steamed milk for two sequential drinks, suitable US electricity and required accessories. They disclose a nonbinding $450–$650 exploration range and willingness to compare justified upgrades, not a spending ceiling. I infer meaningful willingness to pay for approachable preparation, consistency and seller confidence, making a credible $599.99 complete setup a plausible choice. The strength of those preferences, affordability above the range, tolerance for package uncertainty and relative appeal of rival bundles remain unknown.",
+      "actual_buyer_choice": "other_provider",
+      "destination_prediction_matched": false
+    }
+  },
+  "buyer_reason": "Choose the Ninja Luxe Cafe Mini for $449.99, leaving $350.01 below the true $800 equipment ceiling. Under reasonable standard-package assumptions, it provides the complete workflow and beginner assistance needed for two sequential milk drinks. The Premier offers clearer listing information and broader beverage capabilities, while the Impress and Magnifica offer different preparation workflows; their premiums do not establish enough additional satisfaction for this user's needs. Credit goes only to the selected Bing record."
+}

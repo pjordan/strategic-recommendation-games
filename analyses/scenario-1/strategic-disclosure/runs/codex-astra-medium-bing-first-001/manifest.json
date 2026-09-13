@@ -1,0 +1,51 @@
+{
+  "run_id": "codex-astra-medium-bing-first-001",
+  "analysis_id": "scenario-1-strategic-disclosure",
+  "providers": [
+    "bing",
+    "google"
+  ],
+  "display_order": "bing-first",
+  "scenario_version": "1.2.0",
+  "scenario_manifest_sha256": "24dd1f5188bdb20006f36cad6a021985ba92a9d7f957e313a128bae4713cbb81",
+  "base_scenario_manifest_sha256": "623603b321759c470e5facaa6308c47f7334dc57f2eb3c551904be6d8d102f56",
+  "catalog_record_counts": {
+    "bing": 279,
+    "google": 186
+  },
+  "status": "completed",
+  "harness": "codex",
+  "harness_version": "codex-cli 0.154.0",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort_requested": "medium",
+  "sampling_note": "No seed or temperature set; fresh samples need not reproduce choices.",
+  "started_at": "2026-09-13T05:41:05.208428+00:00",
+  "python_version": "3.9.6",
+  "os_family": "Darwin",
+  "buyer_access": "union_of_both_returned_lists",
+  "recommender_submission": "Independent sealed responses; each sees only its addressed message and own catalog",
+  "buyer_state_policy": "Fresh planning and final-decision calls linked by the selected plan/messages and selection reason; true preferences supplied to both",
+  "repository_commit_at_start": "12f3098f99092b67d230da8976f493c398f3e079",
+  "repository_dirty_at_start": true,
+  "source_sha256": {
+    "analyses/scenario-1/strategic-disclosure/run_game.py": "01b231a71a772bfe79e188d7e1e71626eb3834c373294353477c58a64c3620d9",
+    "analyses/scenario-1/oracle-access/run_model.py": "1d4ae87ce0e9fac52cee4cff1686152044552c9d1f358ae06929afdc8924eda9",
+    "tools/scenario.py": "4a849f382b775b8d67d85516c73312443dc4b63c7e6c29698e8775ccf2fa5525",
+    "analyses/scenario-1/strategic-disclosure/config.json": "7b688c2fa7295263a314a83000e7320a68a81d66c719e67b6bb1ded0ab865509",
+    "analyses/scenario-1/strategic-disclosure/recommender-schema.json": "12c67fb810bb153511c9706ff8789d1c681342a8d66738ee055e7dbe826ecb6b",
+    "analyses/scenario-1/strategic-disclosure/buyer-schema.json": "6dc454cb6104bd1f3ceecd071932a0b753dae92cff7b26ffe3467d85c3892ace",
+    "analyses/scenario-1/strategic-disclosure/disclosure-schema.json": "5e56b6862a6e49cef86c0447d7bc3114dc18d5e887d84785119a7349c2058ce9",
+    "analyses/scenario-1/strategic-disclosure/run.sh": "4cb31907e76b5d877a2b3fe30b92711713bf96797be06bdf7a87759d2eea92b7",
+    "analyses/scenario-1/strategic-disclosure/prompts/buyer.md": "4c22e8c8143ce2a759acc3f1c92e22942843a93b13aa28dc3da600e608539709",
+    "analyses/scenario-1/strategic-disclosure/prompts/disclosure.md": "2ab98cd3f763b3855cb1bcac214cbe191da2764f88276b18b83ad7e1c22c385b",
+    "analyses/scenario-1/strategic-disclosure/prompts/recommender.md": "d991bb9a8e8b53c3dbc33acc969fe93e587f42735a2c9bd011db5971e0d95e4e"
+  },
+  "artifacts_sha256": {
+    "disclosures.json": "20d605a900eb95dc413f571e72083a4d940362af0b58cf817916b7c86b29fa2a",
+    "buyer-state.json": "f2c34140fa750169a71830a156da6da71cd7e3113bd5c5380337629560d4e946",
+    "responses.json": "4cf832c35b42691ace767949a691db8b2c013759f44991682794f4eb80557140",
+    "outcome.json": "8d1fe84bae433c9c926f23b96c5319de1914c0d46cc6c2d203adbe50635a7f1f",
+    "transcript.json": "11f352f7cab00499d13432821126be75608cb80b54f961d37f3cfc9df2afdf13"
+  },
+  "completed_at": "2026-09-13T05:46:00.788774+00:00"
+}

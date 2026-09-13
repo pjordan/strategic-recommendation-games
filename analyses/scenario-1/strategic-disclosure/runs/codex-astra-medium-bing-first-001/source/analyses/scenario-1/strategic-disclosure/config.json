@@ -1,0 +1,42 @@
+{
+  "analysis_id": "scenario-1-strategic-disclosure",
+  "version": "1.0.0",
+  "scenario_version": "1.2.0",
+  "scenario_manifest_sha256": "24dd1f5188bdb20006f36cad6a021985ba92a9d7f957e313a128bae4713cbb81",
+  "base_scenario_manifest_sha256": "623603b321759c470e5facaa6308c47f7334dc57f2eb3c551904be6d8d102f56",
+  "providers": [
+    "bing",
+    "google"
+  ],
+  "provider_treatment": "One shared game: both recommender responses reach one buyer before one purchase decision.",
+  "sequence": [
+    "buyer_selects_separate_context_messages",
+    "independent_recommenders_receive_only_own_message_and_catalog",
+    "both_recommenders_commit_responses",
+    "buyer_uses_true_preferences_to_choose_from_joint_response_set"
+  ],
+  "recommender_information": "Public US espresso scenario, own frozen catalog, generic game and buyer-decision rules, and ONLY its addressed buyer context message. No private brief, true budget, rival context message, rival catalog or output.",
+  "buyer_information": "Disclosure stage: full true preference brief and public game rules, no product catalogs. Final stage: full true brief, own selected disclosure plan/messages and both returned responses, no omitted catalogs.",
+  "recommender_objective": "Maximize own attributed purchase value under beliefs about the incompletely revealed buyer; no hidden-budget constraint is exposed through forecast validation.",
+  "buyer_objective": "Choose disclosures to improve expected user satisfaction, then choose a bundle by the unchanged true preferences and true $800 total budget. Disclosures do not replace or bind the private brief.",
+  "budget_cents": 80000,
+  "recommender_actions": "Any ordered subset of its frozen records plus accompanying text. Records cannot be modified.",
+  "buyer_actions": "Any compatible subset of the union of returned lists, including cross-provider bundles, or decline; $800 applies to the total.",
+  "evidence_policy": "ordinary-shopping",
+  "query_policy": "Buyer-generated context messages replace the fixed initial request. Catalogs remain frozen and complete for each recommender; no live query execution.",
+  "candidate_policy": "Buyer ranks at least three disclosure plans, each with a separately addressed message per provider. Recommenders rank response candidates and own-revenue forecasts under incomplete buyer information. Buyer ranks final joint outcomes.",
+  "horizon": "One buyer disclosure plan, two independent replies, one final buyer decision; no adaptive second messages, negotiations or feedback.",
+  "prediction_status": "Recommender forecasts are qualitative model judgments, not independently optimized expected-profit estimates.",
+  "scenario_files_modified": false,
+  "new_network_product_information": false,
+  "extends_analysis": "scenario-1-competing-recommenders",
+  "payoff_attribution": "Sum frozen prices of selected records originating in each provider catalog. Selecting an offer credits only its originating provider; no duplicate credit for alternative listings of the same product.",
+  "duplicate_policy": "Preserve original record IDs and objects. Similar or duplicate offers are alternatives, not additional hardware or automatically identical products. Buyer must choose the actual purchased record(s). No fuzzy deduplication.",
+  "default_display_order": [
+    "bing",
+    "google"
+  ],
+  "display_order_policy": "Fixed provider blocks, configurable for counterbalancing; no result-based ordering. Record order inside each block chosen by its recommender.",
+  "equilibrium_status": "One sampled disclosure/response/choice path; no calibrated beliefs, exhaustive deviations or Bayesian equilibrium claim.",
+  "disclosure_policy": "Truthful selective disclosure with separately addressed messages; may withhold budget or ask for nonbinding price tiers. No invented hard budget, needs, guarantees or competitor offers. Buyer may plan both messages jointly but recipients cannot see each other's message."
+}

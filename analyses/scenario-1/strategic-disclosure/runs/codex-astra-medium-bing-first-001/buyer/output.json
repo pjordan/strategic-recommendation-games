@@ -1,0 +1,200 @@
+{
+  "selected_action": "purchase",
+  "selected_record_ids": ["bing-826018f7a2d5509c15e2"],
+  "purchase_value_cents": 44999,
+  "candidates": [
+    {
+      "candidate_id": "ninja_mini",
+      "action": "purchase",
+      "record_ids": ["bing-826018f7a2d5509c15e2"],
+      "displayed_total_cents": 44999,
+      "preference_rank": 1,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Assuming the standard US Mini package, integrated espresso grinding, guided preparation, assisted steaming and basic accessories provide a complete beginner setup. Target is displayed, although seller identity is not verified. Its abbreviated title introduces some uncertainty, but no contrary variant evidence. The visible alternatives do not establish enough improvement for this user's two milk drinks to justify their premiums."
+    },
+    {
+      "candidate_id": "ninja_premier_brand_offer",
+      "action": "purchase",
+      "record_ids": ["google-40e8d2a541b7e7fb19db"],
+      "displayed_total_cents": 59999,
+      "preference_rank": 2,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Exact ES601WH identification and SharkNinja displayed as merchant provide useful offer clarity. Standard equipment includes grinding, guided espresso preparation and automatic steaming. A strong choice, but its additional beverage modes and clearer listing do not sufficiently justify $150 over the Mini here."
+    },
+    {
+      "candidate_id": "ninja_premier_best_buy",
+      "action": "purchase",
+      "record_ids": ["bing-589afb42f21f096c2b0e"],
+      "displayed_total_cents": 59999,
+      "preference_rank": 3,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Explicit grinder, scale and hands-free frother support an approachable complete setup under standard-package assumptions. Best Buy is a favorable retailer cue. Nearly tied with the SharkNinja offer; its card provides less exact variant identification."
+    },
+    {
+      "candidate_id": "ninja_premier_amazon",
+      "action": "purchase",
+      "record_ids": ["bing-9d68fbbc86299d7cff85"],
+      "displayed_total_cents": 59900,
+      "preference_rank": 4,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Expected Premier functionality and accessories satisfy the requirements. Saving $0.99 versus the clearer Premier offers is insufficient compensation for the less informative listing and unresolved Amazon seller."
+    },
+    {
+      "candidate_id": "impress_google",
+      "action": "purchase",
+      "record_ids": ["google-409454c99783973698a7"],
+      "displayed_total_cents": 64995,
+      "preference_rank": 5,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Standard package supplies all required functions and accessories. Assisted tamping and Breville's established espresso reputation are valuable, with Williams-Sonoma a favorable seller cue. Manual steaming and grind adjustment require more learning; the $199.96 premium over the Mini is not justified by a demonstrated benefit for this user."
+    },
+    {
+      "candidate_id": "impress_bing",
+      "action": "purchase",
+      "record_ids": ["bing-b0b0640a5c59be533102"],
+      "displayed_total_cents": 64995,
+      "preference_rank": 6,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Essentially the same supported model-level tradeoffs and displayed retailer as the Google Impress offer. The truncated title provides slightly less variant clarity; this is an alternative offer, not additional equipment."
+    },
+    {
+      "candidate_id": "magnifica_evo",
+      "action": "purchase",
+      "record_ids": ["google-7eb494d8a25bff454d9e"],
+      "displayed_total_cents": 74999,
+      "preference_rank": 7,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Automatic grinding, brewing, puck preparation and the identified automatic milk system support completeness. Best Buy and De'Longhi provide favorable reputation cues. Reduced hands-on preparation is attractive, but the $300 premium over the Mini and ongoing brew-unit and milk-system care do not establish better overall value."
+    },
+    {
+      "candidate_id": "philips_barista_brew",
+      "action": "purchase",
+      "record_ids": ["google-52599dc6158698ca86ad"],
+      "displayed_total_cents": 42999,
+      "preference_rank": 8,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Standard-model assumptions support an integrated espresso grinder, steam wand and required accessories. A credible conventional setup, but saving only $20 versus the Mini is less attractive than the Mini's beginner assistance. Exact variant and fulfilling seller remain less clear."
+    },
+    {
+      "candidate_id": "chefman_crema_supreme",
+      "action": "purchase",
+      "record_ids": ["google-73d649a23e17eb409d3e"],
+      "displayed_total_cents": 32999,
+      "preference_rank": 9,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Standard-model knowledge supports grinding, espresso, steaming and basic accessories. Saves $120 versus the Mini, but requires more manual preparation and carries greater uncertainty about espresso consistency and support. 'Target & more' does not identify the actual seller; the displayed 90-day return claim is not independently established for that seller."
+    },
+    {
+      "candidate_id": "decline",
+      "action": "decline",
+      "record_ids": [],
+      "displayed_total_cents": 0,
+      "preference_rank": 10,
+      "qualification": "outside_option",
+      "evidence_and_reason": "Avoids expense and purchase risk, but several complete setups offer an acceptable prospect of satisfying the user's needs."
+    },
+    {
+      "candidate_id": "philips_3300",
+      "action": "purchase",
+      "record_ids": ["bing-319049616d40eac8f983"],
+      "displayed_total_cents": 53000,
+      "preference_rank": 11,
+      "qualification": "unestablished",
+      "evidence_and_reason": "Automatic grinding and brewing are plausible, but the truncated title does not resolve the milk-system variant or complete milk equipment. Amazon's displayed identity does not establish the seller. Cannot assume this is the LatteGo package."
+    },
+    {
+      "candidate_id": "vevor_automatic",
+      "action": "purchase",
+      "record_ids": ["bing-78a4158303ba5999efdb"],
+      "displayed_total_cents": 34999,
+      "preference_rank": 12,
+      "qualification": "unestablished",
+      "evidence_and_reason": "Explicit grinding and automatic milk frothing make this a meaningful inexpensive automation candidate. The exact milk arrangement and steam function remain unclear, with less model-specific confidence in drink consistency and support. This uncertainty does not establish misconduct or failure."
+    },
+    {
+      "candidate_id": "philips_1200",
+      "action": "purchase",
+      "record_ids": ["bing-b962137b20d59540339b"],
+      "displayed_total_cents": 45499,
+      "preference_rank": 13,
+      "qualification": "unestablished",
+      "evidence_and_reason": "Standard-model knowledge supports automatic grinding and brewing with manual milk frothing. A suitable milk vessel is not established as included, and none is separately offered. It also costs $5 more than the supported Mini setup."
+    },
+    {
+      "candidate_id": "euhomy_integrated",
+      "action": "purchase",
+      "record_ids": ["bing-75167d27d9e7b7705731"],
+      "displayed_total_cents": 21054,
+      "preference_rank": 14,
+      "qualification": "unestablished",
+      "evidence_and_reason": "Substantial savings, but the abbreviated offer leaves espresso grind suitability, steam operation and package completeness insufficiently supported. Model and actual seller uncertainty reduce expected value without proving the offer unreliable."
+    },
+    {
+      "candidate_id": "yesurprise_integrated",
+      "action": "purchase",
+      "record_ids": ["bing-da2ad966a94911e550e6"],
+      "displayed_total_cents": 14999,
+      "preference_rank": 15,
+      "qualification": "unestablished",
+      "evidence_and_reason": "The title explicitly describes an integrated grinder, espresso brewing and steam wand. Espresso-suitable adjustment and required accessory inclusion remain unclear. The exceptionally low complete-machine price increases uncertainty; pump-pressure marketing does not establish extraction quality."
+    },
+    {
+      "candidate_id": "bambino_williams_sonoma",
+      "action": "purchase",
+      "record_ids": ["bing-5cb15bf925264f5f7c79"],
+      "displayed_total_cents": 29995,
+      "preference_rank": 16,
+      "qualification": "fails",
+      "evidence_and_reason": "Credible espresso and manual-steaming component with standard accessories, but no grinder. Neither returned list supplies a standalone grinder, so this cannot form a supported complete component setup."
+    },
+    {
+      "candidate_id": "bambino_google",
+      "action": "purchase",
+      "record_ids": ["google-e6c59526c1b98a2fbc3c"],
+      "displayed_total_cents": 29995,
+      "preference_rank": 17,
+      "qualification": "fails",
+      "evidence_and_reason": "Same model-level lack of grinding as the other Bambino offer. The aggregate merchant label adds seller uncertainty; displayed return terms are not independently verified for a particular seller."
+    },
+    {
+      "candidate_id": "bambino_plus",
+      "action": "purchase",
+      "record_ids": ["google-bbbd53043c8ed53733ef"],
+      "displayed_total_cents": 49995,
+      "preference_rank": 18,
+      "qualification": "fails",
+      "evidence_and_reason": "Automatic steaming is useful, but the machine has no grinder and no standalone grinder is available in the union. Its higher machine-only cost cannot solve the missing whole-bean capability."
+    },
+    {
+      "candidate_id": "capresso_cafe_ts",
+      "action": "purchase",
+      "record_ids": ["bing-bd565533f9ad73c5b2f9"],
+      "displayed_total_cents": 17999,
+      "preference_rank": 19,
+      "qualification": "fails",
+      "evidence_and_reason": "Potential low-cost brewing and steaming component, but lacks a grinder and has unresolved pitcher inclusion. No supported complete bundle is available."
+    },
+    {
+      "candidate_id": "casabrews_basic",
+      "action": "purchase",
+      "record_ids": ["google-ce567872f47704a0f42f"],
+      "displayed_total_cents": 9899,
+      "preference_rank": 20,
+      "qualification": "fails",
+      "evidence_and_reason": "Cheap standalone espresso and steaming option from a displayed brand merchant. It lacks grinding, and milk-vessel inclusion is unresolved. The price alone is not disqualifying; missing required equipment is."
+    }
+  ],
+  "selected_outcome_reason": "Choose the Ninja Luxe Cafe Mini for $449.99, leaving $350.01 below the true $800 equipment ceiling. Under reasonable standard-package assumptions, it provides the complete workflow and beginner assistance needed for two sequential milk drinks. The Premier offers clearer listing information and broader beverage capabilities, while the Impress and Magnifica offer different preparation workflows; their premiums do not establish enough additional satisfaction for this user's needs. Credit goes only to the selected Bing record.",
+  "strategic_response": "Bing emphasized the $649.95 Impress after receiving the exact ceiling, but preserved a compelling $449.99 alternative. Google led with $599.99 and $649.95 options near its exploration range, while also returning cheaper machines and a $749.99 automatic alternative. These presentations are consistent with incentives to win a valuable purchase, but do not prove manipulation or reveal omitted inventory. The disclosures produced useful overlapping comparisons and distinct alternatives. Neither list supplied a standalone grinder, limiting component shopping despite both requests. The observed replies cannot establish that another disclosure would have performed better.",
+  "material_assumptions": [
+    "Recognizable domestic models represent ordinary complete US household packages unless the cards indicate otherwise; ordinary accessory and voltage omissions are not disqualifying.",
+    "The selected Mini is the standard model with espresso-suitable integrated grinding, guided preparation, steam-based milk assistance, portafilter, baskets, tamping tool and milk vessel. These are model-based assumptions, not verified listing contents.",
+    "Brand and retailer reputation inform qualitative confidence, not guaranteed reliability, seller identity or recourse.",
+    "No optional accessories are required, and all totals use displayed prices before tax and shipping."
+  ],
+  "limitations": [
+    "Exact seller identities, condition, contents and recourse are not independently verified; the selected Mini title is truncated.",
+    "No comparative performance testing supports precise taste or durability rankings. Close alternatives could change order with better offer information.",
+    "No standalone grinder or separately priced milk vessel is available. Buying a redundant complete machine to supply a component would not improve the supported outcomes."
+  ]
+}
