@@ -1,0 +1,15 @@
+analysis,run_id,recorded_status,scenario_version_recorded,buyer_policy_recorded,selected_action_if_output_exists,selected_price_usd_if_output_exists,outcome_validated,manifest_source
+oracle-access,codex-astra-medium-bing-001,failed,1.1.0,,,,False,analyses/scenario-1/oracle-access/runs/codex-astra-medium-bing-001/manifest.json
+oracle-access,codex-astra-medium-bing-002,completed,1.1.0,,decline,0.00,True,analyses/scenario-1/oracle-access/runs/codex-astra-medium-bing-002/manifest.json
+oracle-access,codex-astra-medium-combined-001,completed,1.1.0,,decline,0.00,True,analyses/scenario-1/oracle-access/runs/codex-astra-medium-combined-001/manifest.json
+oracle-access,codex-astra-medium-combined-reasonable-001,completed,1.1.0,,purchase,3.02,True,analyses/scenario-1/oracle-access/runs/codex-astra-medium-combined-reasonable-001/manifest.json
+oracle-access,codex-astra-medium-combined-satisfaction-001,completed,1.2.0,satisfaction,purchase,649.95,True,analyses/scenario-1/oracle-access/runs/codex-astra-medium-combined-satisfaction-001/manifest.json
+oracle-access,codex-astra-medium-google-001,completed,1.1.0,,purchase,332.49,True,analyses/scenario-1/oracle-access/runs/codex-astra-medium-google-001/manifest.json
+informed-recommender,codex-astra-medium-bing-001,failed,1.2.0,,,,False,analyses/scenario-1/informed-recommender/runs/codex-astra-medium-bing-001/manifest.json
+informed-recommender,codex-astra-medium-bing-002,completed,1.2.0,,purchase,799.95,True,analyses/scenario-1/informed-recommender/runs/codex-astra-medium-bing-002/manifest.json
+informed-recommender,codex-astra-medium-google-001,failed,1.2.0,,,,False,analyses/scenario-1/informed-recommender/runs/codex-astra-medium-google-001/manifest.json
+informed-recommender,codex-astra-medium-google-002,completed,1.2.0,,purchase,749.99,True,analyses/scenario-1/informed-recommender/runs/codex-astra-medium-google-002/manifest.json
+competing-recommenders,codex-astra-medium-bing-first-001,failed,1.2.0,,purchase,449.99,False,analyses/scenario-1/competing-recommenders/runs/codex-astra-medium-bing-first-001/manifest.json
+competing-recommenders,codex-astra-medium-bing-first-002,completed,1.2.0,,purchase,599.99,True,analyses/scenario-1/competing-recommenders/runs/codex-astra-medium-bing-first-002/manifest.json
+strategic-disclosure,codex-astra-medium-bing-first-001,completed,1.2.0,,purchase,449.99,True,analyses/scenario-1/strategic-disclosure/runs/codex-astra-medium-bing-first-001/manifest.json
+two-round-strategic-disclosure,codex-astra-medium-bing-first-001,completed,1.2.0,,purchase,449.99,True,analyses/scenario-1/two-round-strategic-disclosure/runs/codex-astra-medium-bing-first-001/manifest.json

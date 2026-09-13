@@ -22,6 +22,10 @@ python3 tools/scenario.py validate --version 1.2.0
 python3 tools/scenario.py context --role buyer --version 1.2.0
 ```
 
+## Comparative report
+
+[How strategic conditions changed recommendations and purchases](reports/scenario-1-strategic-comparison/README.md) compares oracle access, sole and competing recommenders, strategic disclosure and two communication rounds, with observed spending, agent choices, limitations and reproducible evidence tables.
+
 ## Analyses
 
 - [Two rounds of strategic disclosure](analyses/scenario-1/two-round-strategic-disclosure/README.md): adaptive buyer follow-ups, selective sharing of rival offers, independent second replies, and a final choice from all four response lists.
