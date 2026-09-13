@@ -6,6 +6,8 @@ The original Bing and Google treatments are separate games: the buyer sees 279 B
 
 ## Observed results
 
+Under the revised `reasonable-representation` policy, the combined buyer selected the $3.02 AliExpress record. This uses the frozen displayed price and ordinary completeness assumptions; it does not verify an actual $3.02 purchase opportunity. The earlier stricter runs remain below for comparison.
+
 Codex CLI 0.154.0 with requested `gpt-6-astra` / `medium` declined on the Bing-only and combined inputs, and selected the $332.49 VEVOR offer on the Google-only input. The Google decision relies on a stated US-compatibility inference that the combined run did not accept. Read [the outcome analysis and limitations](outcomes.md) before treating these as a comparison.
 
 ## What the game implies
@@ -32,6 +34,25 @@ The same task prompt, private brief, public brief, schema, and source records ar
 - Public event projection: `runs/<run-id>/events.jsonl`.
 
 The input includes each frozen record unchanged as a JSON object. It does not include repeated page occurrences: those are provenance, not new offers. The source files remain intact. Record IDs and prices in outputs are checked against the source, and the chosen outcome must be among the highest-ranked reported candidates. These checks do not independently certify product suitability or prove the model exhaustively considered every combination.
+
+## Evidence interpretation
+
+The `reasonable-representation` condition implements the user's revised assumption: recommendation results are reasonably accurate descriptions of their products. It permits ordinary category and retail-context inferences, presumes US compatibility for clearly US-market consumer offers absent contrary evidence, and does not demand voltage certification or exhaustive accessory lists in abbreviated cards. Explicit conflicts and material product/variant ambiguity still matter. The fixed user preferences, budget, product records and displayed prices do not change.
+
+Only the evidence paragraph differs from the original prompt. See [the revised combined prompt](prompts/buyer-combined-reasonable.md), [the revised single-provider prompt](prompts/buyer-reasonable.md), and [the combined condition configuration](combined-reasonable-config.json). Prior runs used `card-evidence`; their exact prompts and results remain intact. Manifests now explicitly identify the evidence policy, and verification interprets older manifests as `card-evidence`.
+
+To repeat the revised combined condition:
+
+```bash
+bash analyses/scenario-1/oracle-access/run.sh \
+  --harness codex --codex-version 0.154.0 \
+  --model gpt-6-astra --effort medium \
+  --provider combined --evidence-policy reasonable-representation \
+  --run-id codex-astra-medium-combined-reasonable-repeat-001 \
+  --output-dir local-runs/codex-astra-medium-combined-reasonable-repeat-001
+```
+
+The same policy flag is supported for `--provider bing` and `--provider google`; no revised single-provider model runs have been made in this release. Omitting the flag retains the original `card-evidence` behavior so existing reproduction commands do not silently change meaning.
 
 ## Run a fresh assessment
 

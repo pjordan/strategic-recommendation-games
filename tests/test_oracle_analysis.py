@@ -44,6 +44,19 @@ class OracleAnalysisChecks(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'record IDs'):
             runner.validate_decision(result, 'bing')
 
+    def test_reasonable_policy_changes_only_evidence_paragraph(self):
+        for provider in ('bing', 'google', 'combined'):
+            original = runner.build_prompt(provider)
+            revised = runner.build_prompt(provider, 'reasonable-representation')
+            old_sections = original.split('\n\n')
+            new_sections = revised.split('\n\n')
+            self.assertEqual(len(old_sections), len(new_sections))
+            differences = [(a,b) for a,b in zip(old_sections,new_sections) if a != b]
+            self.assertEqual(len(differences), 1)
+            self.assertIn('ordinary US household compatibility', differences[0][1])
+            self.assertIn('recommendation-system results accurately represent', differences[0][1])
+            self.assertEqual(original.split('## Shared background',1)[1], revised.split('## Shared background',1)[1])
+
     def decision(self):
         records = runner.scenario.load_records('bing')[:4]
         candidates = [{'candidate_id':'decline','action':'decline','record_ids':[], 'displayed_total_cents':0,'preference_rank':1}]

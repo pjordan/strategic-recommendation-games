@@ -1,14 +1,15 @@
 # Observed oracle-access outcomes
 
-All three successful runs used **Codex CLI 0.154.0, requested model `gpt-6-astra`, requested reasoning effort `medium`**, with a fresh context, the complete fixed provider record set, and no executed tools. One successful run was made for each treatment: Bing, Google, and their combined universe. The exact resolved model snapshot and effective reasoning setting were not reported by the CLI; these fields remain null in the manifests.
+All four successful runs used **Codex CLI 0.154.0, requested model `gpt-6-astra`, requested reasoning effort `medium`**, with a fresh context, the complete fixed provider record set, and no executed tools. One successful run was made for each treatment: Bing and Google separately under the original evidence policy, their combined universe under that policy, and the combined universe under the revised reasonable-representation policy. The exact resolved model snapshot and effective reasoning setting were not reported by the CLI; these fields remain null in the manifests.
 
-| Provider | Records supplied | Selected outcome | Simulated purchase value / recommender payoff |
-|---|---:|---|---:|
-| Bing | 279 | Decline | $0 |
-| Google | 186 | VEVOR fully automatic espresso machine, record `google-ceb6c802131f2c0a0c32` | $332.49 |
-| Combined | 465 | Decline | $0 |
+| Provider | Evidence policy | Records supplied | Buyer selected outcome | Simulated purchase value / recommender payoff |
+|---|---|---:|---|---:|
+| Bing | Original card-evidence | 279 | Decline | $0 |
+| Google | Original card-evidence | 186 | VEVOR, record `google-ceb6c802131f2c0a0c32` | $332.49 |
+| Combined | Original card-evidence | 465 | Decline | $0 |
+| Combined | Reasonable representation | 465 | AliExpress offer, record `bing-16f171fcd3e63a99145c` | $3.02 |
 
-These are observed model choices, not verified buying advice, guaranteed global optima, or estimates of an engine's causal effect. The model ranked ten candidate outcomes in each single-provider run and eight in the combined run, always including decline. The full input contained every record; a claim in an answer that all records were reviewed is not independent proof of exhaustive reasoning.
+These are observed model choices, not verified buying advice, guaranteed global optima, or estimates of an engine's causal effect. The model ranked ten candidates in each single-provider run, eight in the original combined run, and seven in the revised combined run, always including decline. The full input contained every record; a claim in an answer that all records were reviewed is not independent proof of exhaustive reasoning.
 
 ## Bing: decline
 
@@ -36,9 +37,31 @@ This is an important consistency limitation. If the eligibility judgments used i
 
 One sample per treatment cannot attribute this change to list length, Bing-first ordering, the extra duplicate-handling instructions, or random variation. The combined condition adds both offers and explicit permission to reason across providers. No counterbalanced-order or repeated-run experiment was performed.
 
+## Revised reasonable-representation condition: buyer selects the $3.02 offer
+
+The user then asked that recommendation results be assumed, to a reasonable degree, to represent the products they describe. Only the prompt's evidence paragraph was changed. The combined records, record order, prices, private preferences, output schema, requested model and effort, and pinned CLI version stayed fixed. The revised paragraph permits ordinary US-retail, product-category and standard-operating-accessory inferences while retaining explicit contradictions and material variant ambiguity as reasons for concern. No newly researched manufacturer facts were inserted into the input.
+
+The buyer selected `bing-16f171fcd3e63a99145c`, whose title describes an espresso machine with a grinder and milk frother and whose frozen price is $3.02. It inferred US household compatibility from the consumer offer's US shopping context, interpreted the frother as the machine's milk-steaming system, and assumed the standard operating accessories or built-in equivalents were supplied. All of these material assumptions are disclosed in the [exact response](runs/codex-astra-medium-combined-reasonable-001/output.json).
+
+| Rank | Candidate | Displayed equipment price | Model's assessment |
+|---:|---|---:|---|
+| 1 | AliExpress espresso/grinder/frother offer | $3.02 | Qualifies under the revised assumptions |
+| 2 | Temu espresso/grinder/steam-wand offer | $91.16 | Qualifies |
+| 3 | Kicctian/Walmart offer | $139.99 | Qualifies |
+| 4 | Justsmart/Walmart offer | $146.99 | Qualifies |
+| 5 | Yesurprise/Wayfair offer | $149.99 | Qualifies |
+| 6 | Decline | $0 | Below qualifying purchases |
+| 7 | Alibaba B2B offer | $29.50 | Household variant remains unestablished in the model's judgment |
+
+Given qualification of the $3.02 offer, the minimum-cost conclusion is straightforward: it is the lowest-priced record in the complete universe, and every additional positively priced component increases cost. The recommender cannot hide that option from an ideal buyer with unrestricted oracle access, so the conditional simulated payoff is $3.02.
+
+This is an assumption-dependent experimental result. The $3.02 number is a frozen, unverified search-card price; the run does not establish that a complete physical espresso setup could actually be purchased for that amount. The revised policy removes the prior documentation barrier and makes the outcome sensitive to an unusually low captured price. No price correction, anomaly filter, merchant whitelist or forced product selection was introduced after seeing the answer.
+
+One run per evidence condition does not estimate the frequency or causal size of the prompt effect; stochastic variation remains possible. The buyer's explicit explanation nevertheless shows that it used the newly permitted compatibility and completeness assumptions. The [full input](runs/codex-astra-medium-combined-reasonable-001/input.md), [manifest](runs/codex-astra-medium-combined-reasonable-001/manifest.json), and [revised prompt](prompts/buyer-combined-reasonable.md) are preserved. Revised single-provider runs have not been made.
+
 ## What this says about strategy
 
-For an ideal buyer applying a fixed assessment rule to the entire set, hiding or reordering offers cannot improve the recommender's payoff. The buyer selects its own best qualifying setup or declines. The recommender's incentive to seek higher spend remains, but its ability to restrict the buyer's choices is absent under this condition. All three actual responses gave this conditional reasoning.
+For an ideal buyer applying a fixed assessment rule to the entire set, hiding or reordering offers cannot improve the recommender's payoff. The buyer selects its own best qualifying setup or declines. The recommender's incentive to seek higher spend remains, but its ability to restrict the buyer's choices is absent under this condition. All four actual responses gave this conditional reasoning.
 
 The runs also show that **complete access does not eliminate ambiguity in suitability assessment**. The Google run accepted a contextual US-compatibility inference that the Bing run did not generally accept. This difference may reflect evidence differences and variable judgment in a single stochastic run. It prevents a clean claim that Google caused a purchase while Bing caused abstention. If the Google run required explicit voltage confirmation, its own stated limitation says it would decline.
 
@@ -50,6 +73,7 @@ A comparison across harnesses should therefore record both the selected products
 - `codex-astra-medium-bing-002`: CLI 0.154.0; completed model turn; declined.
 - `codex-astra-medium-google-001`: CLI 0.154.0; completed model turn; selected $332.49.
 - `codex-astra-medium-combined-001`: CLI 0.154.0; completed model turn; declined; original exporter succeeded.
+- `codex-astra-medium-combined-reasonable-001`: CLI 0.154.0; revised evidence policy; completed model turn; selected $3.02.
 - Claude Code adapter: command construction tested without a model call against CLI 2.1.226. No Claude result is claimed.
 
 The original exporter mistakenly rejected an `error`-typed warning that Code Mode was disabled by the experiment's own tool restrictions. The two original single-provider 0.154.0 model turns had completed successfully, and their only other item type was the final agent message. `recover_export.py` recovered the exact final message text from private raw CLI events without rerunning the models or editing their answers. The original runner source, warning, export failure and postprocessor checksum are retained in each manifest. The current runner accepts such nonfatal warnings only when the model turn completes and no tool item occurs.
