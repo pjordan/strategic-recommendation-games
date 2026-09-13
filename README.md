@@ -39,6 +39,7 @@ The fact files are optional inputs for new analyses. Adding them does not rerun 
 
 ## Analyses
 
+- [Paired whole-game study of recommender text](analyses/scenario-1/recommender-text/README.md): fresh text-enabled and list-only games across five strategic conditions, using Scenario 1.3.0 and frozen product facts.
 - [Two rounds of strategic disclosure](analyses/scenario-1/two-round-strategic-disclosure/README.md): adaptive buyer follow-ups, selective sharing of rival offers, independent second replies, and a final choice from all four response lists.
 - [Strategic buyer disclosure](analyses/scenario-1/strategic-disclosure/README.md): separately addressed buyer context, competing replies under partial information, and a final decision using the true preferences.
 - [Competing recommenders, one shared buyer](analyses/scenario-1/competing-recommenders/README.md): independent informed Bing/Google responses, a buyer comparing both lists, and revenue attributed to purchased offers.
