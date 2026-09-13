@@ -1,0 +1,21 @@
+{"id":"cap-automatic_frothing_explicit","label":"Automatic milk frothing","meaning":"Explicit automatic frothing claim, subject to recorded qualifications.","type":"capability"}
+{"id":"cap-cleaning_brush","label":"Included cleaning brush","meaning":"Supported included-item claim.","type":"capability"}
+{"id":"cap-cold_brew_mode","label":"Cold brew mode","meaning":"Cold brew mode is reported.","type":"capability"}
+{"id":"cap-descaling_alert","label":"Descaling alert","meaning":"Source reports a descaling alert.","type":"capability"}
+{"id":"cap-dosing_funnel","label":"Included dosing funnel","meaning":"Supported included-item claim.","type":"capability"}
+{"id":"cap-double_shot_basket","label":"Included double-shot basket","meaning":"Supported included-item claim.","type":"capability"}
+{"id":"cap-drip_coffee_mode","label":"Drip coffee mode","meaning":"Drip coffee mode is reported.","type":"capability"}
+{"id":"cap-dual_boiler_claim","label":"Advertised dual boiler","meaning":"Source claim, not measured simultaneous brewing and steaming.","type":"capability"}
+{"id":"cap-integrated_grinder","label":"Integrated grinding","meaning":"A source reports an integrated grinder; espresso suitability is not independently tested.","type":"capability"}
+{"id":"cap-integrated_scale","label":"Integrated weighing","meaning":"An integrated scale is reported; better drink quality is not implied.","type":"capability"}
+{"id":"cap-manual_frothing_explicit","label":"Manual milk frothing","meaning":"Explicit manual frothing claim.","type":"capability"}
+{"id":"cap-milk_pitcher","label":"Included milk pitcher","meaning":"Supported included-item claim.","type":"capability"}
+{"id":"cap-pid_temperature_control","label":"PID temperature control","meaning":"PID control is reported; measured temperature stability is unknown.","type":"capability"}
+{"id":"cap-portafilter","label":"Included portafilter","meaning":"Supported included-item claim.","type":"capability"}
+{"id":"cap-removable_brew_unit","label":"Removable brew unit","meaning":"Removal is reported; serviceability is not otherwise established.","type":"capability"}
+{"id":"cap-removable_water_tank","label":"Removable water tank","meaning":"Removal is reported; cleaning effort is not measured.","type":"capability"}
+{"id":"cap-self_cleaning_claim","label":"Advertised self-cleaning","meaning":"Source claim, not verified cleaning performance.","type":"capability"}
+{"id":"cap-single_shot_basket","label":"Included single-shot basket","meaning":"Supported included-item claim.","type":"capability"}
+{"id":"cap-steam_wand_present","label":"Steam wand","meaning":"A source reports a steam wand.","type":"capability"}
+{"id":"cap-tamper","label":"Included tamper","meaning":"Supported included-item claim.","type":"capability"}
+{"id":"cap-voltage_120v","label":"Reported 120 V supply","meaning":"Exact 120 V specification; does not certify all aspects of US compatibility.","type":"capability"}

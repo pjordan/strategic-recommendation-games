@@ -1,0 +1,124 @@
+{
+  "analysis_id": "scenario-1-graph-access",
+  "artifacts_sha256": {
+    "bing/facts-json/queries.jsonl": "1d550482149152975e1f1a7dac0cb73a2b777bb6c8db87c9dbff9501f89c99e9",
+    "bing/facts-json/responses/000.json": "c093632cd49876c293ddb783c2deb2de9ada2409ee2eb924953ee367e3de9724",
+    "bing/facts-json/responses/001.json": "7f4e1eb7b780f260e62b1cd2edf497fbcc2eff1f62e76dde32423149f084444b",
+    "bing/facts-json/responses/002.json": "30daa27e3685f6213b4db785d1d2ece17e77bff163ffedeaf082f3250e61e8b2",
+    "bing/facts-json/responses/003.json": "c52f3426a11ef4c596ce597aabe367dc1cc5c8a4a094739a0a1417eff38242f8",
+    "bing/graph/queries.jsonl": "6635355c8ba425eb275630edcad75f5c464e82c0ad57f5c07bacf2174d113a4c",
+    "bing/graph/responses/000.json": "b735d62b2189d4c35cb8cfcdbcefe2917dd5d892917137aef1eb3faf847bbeee",
+    "bing/graph/responses/001.json": "c2068349dc74f9a703f060e6c76afa986e7d3e5fc7f615252673b1aa1a835c97",
+    "bing/graph/responses/002.json": "e869c7bcdfde889ef3f16c0433782eaa5359cf10968762adec44dc9ca667ee9a",
+    "bing/graph/responses/003.json": "3d07c635e44aebd43a160276db8c8924c840f7f255dded876e0cee84a13092fc",
+    "bing/table/queries.jsonl": "c33415f8f8073c22cef8d6a9017a4c4fe1c7775609fbe4fa072ad182a5a32ac1",
+    "bing/table/responses/000.json": "ef25e3326f13d69c24599918968c64df0b736a285955e8202a0289a6d84358d2",
+    "bing/table/responses/001.json": "66ff3a88946eed097c6f1a6e4b984ebf0578aa9a110c105b1bab630b2f3260b0",
+    "bing/table/responses/002.json": "8ee2844a420b53ccfe38f4a9e8307445488a8bcec382fec0f9cf510dd41b3a3d",
+    "bing/table/responses/003.json": "797e11573e75236dd823577641c49ff2ed9851eaac410a005a936b3dab40bd93",
+    "google/facts-json/queries.jsonl": "dcf8c9fac6a5b5377f7b37c1565ad1d6a30e664e22a0136e6eccc3c58fc1655b",
+    "google/facts-json/responses/000.json": "9e158128b2ca59a2020ddc4332b7271c31ec930a28e5efae6f5bc3ec431e7cc7",
+    "google/facts-json/responses/001.json": "e97e9c36f1cbb70a0fa1483684df830e146303d2e2953aa4e26ed5a8daa8bd2c",
+    "google/facts-json/responses/002.json": "5257a511e776bcb021cf5b52a572916aee08af24db868540d535998e977da1e5",
+    "google/facts-json/responses/003.json": "5e3499bf4242a85d2c0b153b42f1ecbd343893e1c75aeb45fd6065321dd1c5a4",
+    "google/facts-json/responses/004.json": "4f6a99f5e4d5568d6fa4aa51b6a81555c485767a3be46972541ab7e80ee0dbe7",
+    "google/graph/queries.jsonl": "3a4ab506967df1a2da6b74c0d0ad732bb54bdb0d9675be6e60b96111c4d29a0c",
+    "google/graph/responses/000.json": "be259dbd7566787a42c11c381520b797716c4c70cab562e1025e59aea8d044c4",
+    "google/graph/responses/001.json": "f66ed9be77fcc40c2956731ae9ff115e00e8201642cb9e34dcf425a2740474a8",
+    "google/graph/responses/002.json": "c295c020cbb804ebdfeafda3212e946a0bb4a770c0908f62adb815f7dd180d84",
+    "google/graph/responses/003.json": "2573eb393d5ff37459824ceaf4adac6377178c907b8fb41db2c2cff60e091962",
+    "google/graph/responses/004.json": "bc7785e25b22baa37e7123b4c59a8468e91501557efa3869e6fe94bea1deba21",
+    "google/table/queries.jsonl": "510ae0cb60e02835ac4af53f06f6dc992b805896bb3108d1741c21a8be2c1d0f",
+    "google/table/responses/000.json": "07d17a70abb0ce215c5b036cc6e57a2963f33ba15c111b3141732faa7a7357be",
+    "google/table/responses/001.json": "4c3f569a0589ef93fd7604eddaeeeda5b41799ead9e372f7658d856ed878f132",
+    "google/table/responses/002.json": "12dad70b289de7660684ce81dbda9167912dc6d5f00083c76daf9aba27e790c1",
+    "google/table/responses/003.json": "e1c9cd2e904d45d00d3499f6ed12ab580c1c2c37f28af5d9ce2c61048c8bcd0b",
+    "google/table/responses/004.json": "9873491c90c74737357f8c670fc5636d8e09230254d17ff0acfd355e52a1fdd0",
+    "results.json": "da225a0515c113e89cbe4d7c2bef4633b85fa9c03a8b22e0c2f845d319905f5f"
+  },
+  "design": {
+    "actor_boundary": "Each recommender is limited to its own provider. Buyer access, when integrated, requires explicit visible IDs. No hidden preference brief is loaded.",
+    "analysis_id": "scenario-1-graph-access",
+    "arms": [
+      "facts-json",
+      "table",
+      "graph"
+    ],
+    "comparison_limit": "This audit measures retrieval coverage, equality and serialized size, not model behavior, revenue, satisfaction or a graph treatment effect. Queries are fixed examples, not selected by an agent.",
+    "design": "Equivalent-evidence representation audit. All three views include identical normalized capabilities, identity annotations and source metadata. facts-json retains the original fact structures plus shared annotations; it is not the exact older raw-facts baseline.",
+    "facts_version": "1.0.0",
+    "graph_version": "1.0.0",
+    "page_size": 100,
+    "phase": "offline_access_audit",
+    "providers": [
+      "bing",
+      "google"
+    ],
+    "queries": {
+      "bing": [
+        {
+          "capabilities": [
+            "cap-integrated_grinder",
+            "cap-steam_wand_present"
+          ],
+          "include_qualified": true,
+          "limit": 100,
+          "max_price_cents": 80000,
+          "operation": "find"
+        },
+        {
+          "limit": 100,
+          "operation": "compare",
+          "record_ids": [
+            "bing-d2b74b50a379b8bf71a0",
+            "bing-43de8e4359ad1784cba0"
+          ]
+        }
+      ],
+      "google": [
+        {
+          "capabilities": [
+            "cap-integrated_scale"
+          ],
+          "limit": 100,
+          "max_price_cents": 80000,
+          "operation": "find"
+        },
+        {
+          "limit": 100,
+          "operation": "compare",
+          "record_ids": [
+            "google-c1ac723b3479e478c13f",
+            "google-73d649a23e17eb409d3e"
+          ]
+        },
+        {
+          "limit": 100,
+          "operation": "compare",
+          "record_ids": [
+            "google-586496d12e24aac97026",
+            "google-ceb6c802131f2c0a0c32"
+          ]
+        }
+      ]
+    },
+    "scenario_version": "1.3.0",
+    "version": "1.0.0"
+  },
+  "graph_manifest_sha256": "b19d82c21312fb12ddc1489c54b3c4265fa8f5c05c0918e4a7a0d823ef4cc7c2",
+  "harness": "python-standard-library",
+  "model": null,
+  "model_calls": 0,
+  "python_version": "3.9.6",
+  "run_id": "access-audit-001",
+  "source_sha256": {
+    "analyses/scenario-1/graph-access/config.json": "a5366b609f905a4afaf34d11e8591e6a709ae86175841af59e19e823b9df99e4",
+    "analyses/scenario-1/graph-access/prompts/agent-access.md": "26f05b61d8e36a1243752b6c1a73d54b250f15a0a79e3087c73b2cf90a465e79",
+    "analyses/scenario-1/graph-access/run.sh": "f6d81bf698234e9d17ffdf43a1910820f80a05176dc22eeddf167483da97a2ac",
+    "analyses/scenario-1/graph-access/run_analysis.py": "a8e1fbe42249e71ee7ef2dd213205efb4880ae85c4b4847e74a19d54f242852e",
+    "analyses/scenario-1/graph-access/verify_runs.py": "b14763c09c259d31b4fd0a5a4a6be1a9af7b03bf0404b08d2502fea7c67dce8f",
+    "tools/commerce_graph.py": "3cad9d8aa95d1ad68064d0a802e53a7f46b96a266d4cc532c438dfda60575888"
+  },
+  "status": "completed_access_audit",
+  "version": "1.0.0"
+}

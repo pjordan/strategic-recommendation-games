@@ -1,0 +1,69 @@
+{
+  "analysis_id": "scenario-1-graph-access",
+  "version": "1.0.0",
+  "phase": "offline_access_audit",
+  "scenario_version": "1.3.0",
+  "facts_version": "1.0.0",
+  "graph_version": "1.0.0",
+  "providers": [
+    "bing",
+    "google"
+  ],
+  "arms": [
+    "facts-json",
+    "table",
+    "graph"
+  ],
+  "page_size": 100,
+  "design": "Equivalent-evidence representation audit. All three views include identical normalized capabilities, identity annotations and source metadata. facts-json retains the original fact structures plus shared annotations; it is not the exact older raw-facts baseline.",
+  "actor_boundary": "Each recommender is limited to its own provider. Buyer access, when integrated, requires explicit visible IDs. No hidden preference brief is loaded.",
+  "comparison_limit": "This audit measures retrieval coverage, equality and serialized size, not model behavior, revenue, satisfaction or a graph treatment effect. Queries are fixed examples, not selected by an agent.",
+  "queries": {
+    "bing": [
+      {
+        "operation": "find",
+        "capabilities": [
+          "cap-integrated_grinder",
+          "cap-steam_wand_present"
+        ],
+        "max_price_cents": 80000,
+        "include_qualified": true,
+        "limit": 100
+      },
+      {
+        "operation": "compare",
+        "record_ids": [
+          "bing-d2b74b50a379b8bf71a0",
+          "bing-43de8e4359ad1784cba0"
+        ],
+        "limit": 100
+      }
+    ],
+    "google": [
+      {
+        "operation": "find",
+        "capabilities": [
+          "cap-integrated_scale"
+        ],
+        "max_price_cents": 80000,
+        "limit": 100
+      },
+      {
+        "operation": "compare",
+        "record_ids": [
+          "google-c1ac723b3479e478c13f",
+          "google-73d649a23e17eb409d3e"
+        ],
+        "limit": 100
+      },
+      {
+        "operation": "compare",
+        "record_ids": [
+          "google-586496d12e24aac97026",
+          "google-ceb6c802131f2c0a0c32"
+        ],
+        "limit": 100
+      }
+    ]
+  }
+}

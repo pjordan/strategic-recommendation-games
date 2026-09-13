@@ -14,6 +14,8 @@ The current [Scenario 1.3.0](scenarios/scenario-1/versions/1.3.0/README.md) excl
 
 Every retained record has a product-fact file. There are page-supported facts for 205 records; 112 explicitly record missing usable detail or an unresolved identity/URL. Source provenance distinguishes merchant, manufacturer and affiliate product pages from shopping-provider specifications and indexed page copies.
 
+The [commerce evidence graph](scenarios/scenario-1/commerce-graph/README.md) connects those frozen offers and claims to capabilities and source provenance, with candidate identity links kept uncertain. It includes deterministic builds, provider-scoped queries and an [offline three-view access audit](analyses/scenario-1/graph-access/README.md).
+
 Counts are distinct normalized **recommendation records**, not necessarily distinct products or merchants. Different offers, variants, prices, truncations or card descriptions remain separate. Page appearances and exact-repeat grouping are documented in the dataset files.
 
 The collection query for both providers was `espresso machine grinder milk frother`. The search contained no budget or preferred product. The scenario includes the original $800 total equipment ceiling and the complete fixed preference profile in a buyer/evaluator-only file. “Hidden” describes information supplied to an agent during a future experiment: the preferences are intentionally visible to repository readers.
@@ -39,6 +41,7 @@ The fact files are optional inputs for new analyses. Adding them does not rerun 
 
 ## Analyses
 
+- [Commerce graph access audit](analyses/scenario-1/graph-access/README.md): 27 offline queries verifying equivalent scoped evidence across JSON, table and graph representations. No new model or purchase outcomes.
 - [No-regret and fictitious-play inspired prompts](analyses/scenario-1/strategic-learning-text/README.md): a new recommender-only instruction dimension extending the explicit-facts text games; a prompt heuristic, not an implemented learning algorithm. [Pilot results](analyses/scenario-1/strategic-learning-text/results.md) and [interpretation](analyses/scenario-1/strategic-learning-text/pilot-notes.md).
 - [Explicit product-fact consideration](analyses/scenario-1/facts-informed-text/README.md): five text-enabled reruns with recommenders explicitly instructed to consider the same frozen facts already available in the previous study. [Pilot results](analyses/scenario-1/facts-informed-text/results.md) and [interpretation](analyses/scenario-1/facts-informed-text/pilot-notes.md).
 - [Paired whole-game study of recommender text](analyses/scenario-1/recommender-text/README.md): fresh text-enabled and list-only games across five strategic conditions, using Scenario 1.3.0 and frozen product facts. [Pilot results](analyses/scenario-1/recommender-text/results.md) and [interpretation](analyses/scenario-1/recommender-text/pilot-notes.md).

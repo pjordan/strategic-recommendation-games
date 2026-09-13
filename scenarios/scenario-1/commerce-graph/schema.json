@@ -1,0 +1,337 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "One JSONL node or edge. Cross-record identity, evidence and checksum constraints are additionally checked by the deterministic builder/verifier.",
+  "oneOf": [
+    {
+      "additionalProperties": false,
+      "properties": {
+        "card_reference": {
+          "type": "string"
+        },
+        "conflicts": {
+          "type": "array"
+        },
+        "currency": {
+          "type": "string"
+        },
+        "facts_reference": {
+          "type": "string"
+        },
+        "frozen_price_cents": {
+          "type": "integer"
+        },
+        "frozen_record_sha256": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "merchant_display_text": {
+          "type": "string"
+        },
+        "merchant_text_is_aggregate": {
+          "type": "boolean"
+        },
+        "not_established_categories": {
+          "type": "array"
+        },
+        "provider": {
+          "type": "string"
+        },
+        "resolution": {
+          "type": "object"
+        },
+        "title": {
+          "type": "string"
+        },
+        "type": {
+          "const": "offer"
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "provider",
+        "title",
+        "frozen_price_cents",
+        "currency",
+        "merchant_display_text",
+        "merchant_text_is_aggregate",
+        "frozen_record_sha256",
+        "card_reference",
+        "facts_reference",
+        "resolution",
+        "conflicts",
+        "not_established_categories"
+      ],
+      "type": "object"
+    },
+    {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "identity_scope": {
+          "type": "string"
+        },
+        "identity_status": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "record_id": {
+          "type": "string"
+        },
+        "type": {
+          "const": "product_reference"
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "record_id",
+        "label",
+        "identity_scope",
+        "identity_status"
+      ],
+      "type": "object"
+    },
+    {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "identity_scope": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "type": {
+          "const": "seller_reference"
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "label",
+        "identity_scope",
+        "source_id"
+      ],
+      "type": "object"
+    },
+    {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "meaning": {
+          "type": "string"
+        },
+        "type": {
+          "const": "capability"
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "label",
+        "meaning"
+      ],
+      "type": "object"
+    },
+    {
+      "additionalProperties": false,
+      "properties": {
+        "fact": {
+          "type": "object"
+        },
+        "fact_index": {
+          "type": "integer"
+        },
+        "id": {
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "product_fact",
+            "landing_page_observation"
+          ],
+          "type": "string"
+        },
+        "normalized": {
+          "type": "array"
+        },
+        "observation": {
+          "type": "object"
+        },
+        "observation_index": {
+          "type": "integer"
+        },
+        "qualifications": {
+          "type": "array"
+        },
+        "record_id": {
+          "type": "string"
+        },
+        "scope": {
+          "type": "string"
+        },
+        "type": {
+          "const": "claim"
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "record_id",
+        "kind",
+        "scope"
+      ],
+      "type": "object"
+    },
+    {
+      "additionalProperties": false,
+      "properties": {
+        "content_sha256": {
+          "type": "string"
+        },
+        "hash_scope": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "method": {
+          "type": "string"
+        },
+        "page_title": {
+          "type": "string"
+        },
+        "parent_response_sha256": {
+          "type": "string"
+        },
+        "reference": {
+          "type": "string"
+        },
+        "reference_sha256": {
+          "type": "string"
+        },
+        "representation": {
+          "type": "string"
+        },
+        "retrieved_at": {
+          "type": "string"
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "source_kind": {
+          "type": "string"
+        },
+        "type": {
+          "const": "source"
+        },
+        "url": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "source_id",
+        "reference",
+        "reference_sha256",
+        "url",
+        "retrieved_at",
+        "content_sha256",
+        "source_kind"
+      ],
+      "type": "object"
+    },
+    {
+      "additionalProperties": false,
+      "properties": {
+        "basis": {
+          "enum": [
+            "source_link",
+            "derived"
+          ],
+          "type": "string"
+        },
+        "decision_id": {
+          "type": "string"
+        },
+        "evidence_claim_ids": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "id": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "object": {
+          "type": "string"
+        },
+        "predicate": {
+          "enum": [
+            "describes_product",
+            "about_product",
+            "supported_by",
+            "reports_capability",
+            "capability_evidence",
+            "observed_for_listing",
+            "observed_seller",
+            "candidate_same_product"
+          ],
+          "type": "string"
+        },
+        "qualification": {
+          "type": "string"
+        },
+        "qualified": {
+          "type": "boolean"
+        },
+        "record_id": {
+          "type": "string"
+        },
+        "related_record_id": {
+          "type": "string"
+        },
+        "rule_id": {
+          "type": "string"
+        },
+        "subject": {
+          "type": "string"
+        },
+        "value": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "subject",
+        "predicate",
+        "object",
+        "record_id",
+        "basis"
+      ],
+      "type": "object"
+    }
+  ],
+  "title": "Scenario 1 commerce graph record"
+}

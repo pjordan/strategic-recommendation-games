@@ -1,0 +1,28 @@
+{
+  "prohibited_inferences": [
+    "same title means same variant",
+    "storefront label guarantees seller identity or recourse",
+    "missing fact means absent feature",
+    "matching portafilter sizes prove compatibility",
+    "capability coverage alone proves complete setup"
+  ],
+  "rules": [
+    {
+      "id": "shared-page-candidate-v1",
+      "meaning": "Two matched listings resolve to the same exact URL. Emit a candidate link only; never merge identities or propagate evidence."
+    },
+    {
+      "id": "capability-support-v1",
+      "meaning": "A normalized source claim supports a capability-evidence edge scoped to its original listing. Missing is unknown, explicit false remains false."
+    },
+    {
+      "id": "qualified-milk-v1",
+      "meaning": "Retain recorded milk_system qualifications on milk claims; no automatic contradiction from coexisting manual and automatic modes."
+    },
+    {
+      "id": "observation-seller-v1",
+      "meaning": "Connect a landing-page observation to its explicitly recorded seller name, source-scoped. This is not the seller of the frozen offer."
+    }
+  ],
+  "version": "1.0.0"
+}

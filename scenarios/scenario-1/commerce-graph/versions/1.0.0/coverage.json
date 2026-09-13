@@ -1,0 +1,37 @@
+{
+  "accepted_identity_merges": 0,
+  "candidate_identity_pairs": 4,
+  "capability_evidence_edges": 513,
+  "compatibility_edges": 0,
+  "edge_count": 4834,
+  "frozen_offer_seller_edges": 0,
+  "graph_version": "1.0.0",
+  "limits": [
+    "No compatibility inferred from shared dimensions or names.",
+    "Missing evidence is unknown, not false.",
+    "Later offer observations never replace frozen prices.",
+    "Manual and automatic milk claims can coexist; flagged ambiguity is retained.",
+    "No preference brief or satisfaction score is loaded."
+  ],
+  "node_counts": {
+    "capabilities": 21,
+    "claims": 1660,
+    "offers": 317,
+    "products": 317,
+    "sellers": 19,
+    "sources": 269
+  },
+  "offer_count": 317,
+  "offers_with_product_facts": 205,
+  "offers_without_product_facts": 112,
+  "product_reference_count": 317,
+  "resolution_status": {
+    "ambiguous": 19,
+    "matched_listing": 150,
+    "matched_page_without_extracted_specs": 1,
+    "provider_page_only": 55,
+    "unavailable": 72,
+    "unresolved": 20
+  },
+  "unique_physical_products": null
+}

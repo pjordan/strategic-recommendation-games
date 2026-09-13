@@ -1,0 +1,591 @@
+{
+  "capabilities": [
+    {
+      "id": "cap-integrated_grinder",
+      "label": "Integrated grinding",
+      "meaning": "A source reports an integrated grinder; espresso suitability is not independently tested."
+    },
+    {
+      "id": "cap-steam_wand_present",
+      "label": "Steam wand",
+      "meaning": "A source reports a steam wand."
+    },
+    {
+      "id": "cap-manual_frothing_explicit",
+      "label": "Manual milk frothing",
+      "meaning": "Explicit manual frothing claim."
+    },
+    {
+      "id": "cap-automatic_frothing_explicit",
+      "label": "Automatic milk frothing",
+      "meaning": "Explicit automatic frothing claim, subject to recorded qualifications."
+    },
+    {
+      "id": "cap-integrated_scale",
+      "label": "Integrated weighing",
+      "meaning": "An integrated scale is reported; better drink quality is not implied."
+    },
+    {
+      "id": "cap-pid_temperature_control",
+      "label": "PID temperature control",
+      "meaning": "PID control is reported; measured temperature stability is unknown."
+    },
+    {
+      "id": "cap-cold_brew_mode",
+      "label": "Cold brew mode",
+      "meaning": "Cold brew mode is reported."
+    },
+    {
+      "id": "cap-drip_coffee_mode",
+      "label": "Drip coffee mode",
+      "meaning": "Drip coffee mode is reported."
+    },
+    {
+      "id": "cap-removable_water_tank",
+      "label": "Removable water tank",
+      "meaning": "Removal is reported; cleaning effort is not measured."
+    },
+    {
+      "id": "cap-removable_brew_unit",
+      "label": "Removable brew unit",
+      "meaning": "Removal is reported; serviceability is not otherwise established."
+    },
+    {
+      "id": "cap-self_cleaning_claim",
+      "label": "Advertised self-cleaning",
+      "meaning": "Source claim, not verified cleaning performance."
+    },
+    {
+      "id": "cap-dual_boiler_claim",
+      "label": "Advertised dual boiler",
+      "meaning": "Source claim, not measured simultaneous brewing and steaming."
+    },
+    {
+      "id": "cap-tamper",
+      "label": "Included tamper",
+      "meaning": "Supported included-item claim."
+    },
+    {
+      "id": "cap-milk_pitcher",
+      "label": "Included milk pitcher",
+      "meaning": "Supported included-item claim."
+    },
+    {
+      "id": "cap-portafilter",
+      "label": "Included portafilter",
+      "meaning": "Supported included-item claim."
+    },
+    {
+      "id": "cap-single_shot_basket",
+      "label": "Included single-shot basket",
+      "meaning": "Supported included-item claim."
+    },
+    {
+      "id": "cap-double_shot_basket",
+      "label": "Included double-shot basket",
+      "meaning": "Supported included-item claim."
+    },
+    {
+      "id": "cap-cleaning_brush",
+      "label": "Included cleaning brush",
+      "meaning": "Supported included-item claim."
+    },
+    {
+      "id": "cap-dosing_funnel",
+      "label": "Included dosing funnel",
+      "meaning": "Supported included-item claim."
+    },
+    {
+      "id": "cap-descaling_alert",
+      "label": "Descaling alert",
+      "meaning": "Source reports a descaling alert."
+    },
+    {
+      "id": "cap-voltage_120v",
+      "label": "Reported 120 V supply",
+      "meaning": "Exact 120 V specification; does not certify all aspects of US compatibility."
+    }
+  ],
+  "policy": "Exact typed-value mapping only. No broad synonym inference, unit conversion or product-identity propagation. Unmapped claims are retained verbatim.",
+  "rules": [
+    {
+      "capability_id": "cap-integrated_grinder",
+      "categories": [
+        "grinding"
+      ],
+      "fact_names": [
+        "integrated_grinder"
+      ],
+      "id": "normalize-integrated_grinder-v1",
+      "value_map": [
+        [
+          true,
+          true
+        ],
+        [
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-steam_wand_present",
+      "categories": [
+        "milk"
+      ],
+      "fact_names": [
+        "steam_wand_present"
+      ],
+      "id": "normalize-steam_wand_present-v1",
+      "value_map": [
+        [
+          true,
+          true
+        ],
+        [
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-manual_frothing_explicit",
+      "categories": [
+        "milk"
+      ],
+      "fact_names": [
+        "manual_frothing_explicit"
+      ],
+      "id": "normalize-manual_frothing_explicit-v1",
+      "value_map": [
+        [
+          true,
+          true
+        ],
+        [
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-automatic_frothing_explicit",
+      "categories": [
+        "milk"
+      ],
+      "fact_names": [
+        "automatic_frothing_explicit"
+      ],
+      "id": "normalize-automatic_frothing_explicit-v1",
+      "value_map": [
+        [
+          true,
+          true
+        ],
+        [
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-integrated_scale",
+      "categories": [
+        "brewing"
+      ],
+      "fact_names": [
+        "integrated_scale"
+      ],
+      "id": "normalize-integrated_scale-v1",
+      "value_map": [
+        [
+          true,
+          true
+        ],
+        [
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-pid_temperature_control",
+      "categories": [
+        "brewing"
+      ],
+      "fact_names": [
+        "pid_temperature_control"
+      ],
+      "id": "normalize-pid_temperature_control-v1",
+      "value_map": [
+        [
+          true,
+          true
+        ],
+        [
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-cold_brew_mode",
+      "categories": [
+        "brewing"
+      ],
+      "fact_names": [
+        "cold_brew_mode"
+      ],
+      "id": "normalize-cold_brew_mode-v1",
+      "value_map": [
+        [
+          true,
+          true
+        ],
+        [
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-drip_coffee_mode",
+      "categories": [
+        "brewing"
+      ],
+      "fact_names": [
+        "drip_coffee_mode"
+      ],
+      "id": "normalize-drip_coffee_mode-v1",
+      "value_map": [
+        [
+          true,
+          true
+        ],
+        [
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-removable_water_tank",
+      "categories": [
+        "physical"
+      ],
+      "fact_names": [
+        "removable_water_tank"
+      ],
+      "id": "normalize-removable_water_tank-v1",
+      "value_map": [
+        [
+          true,
+          true
+        ],
+        [
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-removable_brew_unit",
+      "categories": [
+        "maintenance"
+      ],
+      "fact_names": [
+        "removable_brew_unit"
+      ],
+      "id": "normalize-removable_brew_unit-v1",
+      "value_map": [
+        [
+          true,
+          true
+        ],
+        [
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-self_cleaning_claim",
+      "categories": [
+        "maintenance"
+      ],
+      "fact_names": [
+        "self_cleaning_claim"
+      ],
+      "id": "normalize-self_cleaning_claim-v1",
+      "value_map": [
+        [
+          true,
+          true
+        ],
+        [
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-dual_boiler_claim",
+      "categories": [
+        "brewing"
+      ],
+      "fact_names": [
+        "dual_boiler_claim"
+      ],
+      "id": "normalize-dual_boiler_claim-v1",
+      "value_map": [
+        [
+          true,
+          true
+        ],
+        [
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-tamper",
+      "categories": [
+        "included_items"
+      ],
+      "fact_names": [
+        "tamper"
+      ],
+      "id": "normalize-tamper-v1",
+      "value_map": [
+        [
+          true,
+          true
+        ],
+        [
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-milk_pitcher",
+      "categories": [
+        "included_items"
+      ],
+      "fact_names": [
+        "milk_pitcher"
+      ],
+      "id": "normalize-milk_pitcher-v1",
+      "value_map": [
+        [
+          true,
+          true
+        ],
+        [
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-portafilter",
+      "categories": [
+        "included_items"
+      ],
+      "fact_names": [
+        "portafilter"
+      ],
+      "id": "normalize-portafilter-v1",
+      "value_map": [
+        [
+          true,
+          true
+        ],
+        [
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-single_shot_basket",
+      "categories": [
+        "included_items"
+      ],
+      "fact_names": [
+        "single_shot_basket"
+      ],
+      "id": "normalize-single_shot_basket-v1",
+      "value_map": [
+        [
+          true,
+          true
+        ],
+        [
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-double_shot_basket",
+      "categories": [
+        "included_items"
+      ],
+      "fact_names": [
+        "double_shot_basket"
+      ],
+      "id": "normalize-double_shot_basket-v1",
+      "value_map": [
+        [
+          true,
+          true
+        ],
+        [
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-cleaning_brush",
+      "categories": [
+        "included_items"
+      ],
+      "fact_names": [
+        "cleaning_brush"
+      ],
+      "id": "normalize-cleaning_brush-v1",
+      "value_map": [
+        [
+          true,
+          true
+        ],
+        [
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-dosing_funnel",
+      "categories": [
+        "included_items"
+      ],
+      "fact_names": [
+        "dosing_funnel"
+      ],
+      "id": "normalize-dosing_funnel-v1",
+      "value_map": [
+        [
+          true,
+          true
+        ],
+        [
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-descaling_alert",
+      "categories": [
+        "maintenance"
+      ],
+      "fact_names": [
+        "descaling_alert"
+      ],
+      "id": "normalize-descaling_alert-v1",
+      "value_map": [
+        [
+          true,
+          true
+        ],
+        [
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-voltage_120v",
+      "categories": [
+        "electrical",
+        "provider_specification"
+      ],
+      "fact_names": [
+        "voltage",
+        "Voltage"
+      ],
+      "id": "normalize-voltage-120-v1",
+      "value_map": [
+        [
+          "120",
+          true
+        ],
+        [
+          "120 V",
+          true
+        ],
+        [
+          "220",
+          false
+        ],
+        [
+          "220 V",
+          false
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-steam_wand_present",
+      "categories": [
+        "provider_specification"
+      ],
+      "fact_names": [
+        "Milk Frother"
+      ],
+      "id": "normalize-provider-steam-wand-v1",
+      "value_map": [
+        [
+          "Steam Wand",
+          true
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-automatic_frothing_explicit",
+      "categories": [
+        "provider_specification"
+      ],
+      "fact_names": [
+        "Milk Frother"
+      ],
+      "id": "normalize-provider-automatic-milk-v1",
+      "value_map": [
+        [
+          "Automatic Frother",
+          true
+        ]
+      ]
+    },
+    {
+      "capability_id": "cap-manual_frothing_explicit",
+      "categories": [
+        "provider_specification"
+      ],
+      "fact_names": [
+        "Milk Frother"
+      ],
+      "id": "normalize-provider-manual-milk-v1",
+      "value_map": [
+        [
+          "Manual Frother",
+          true
+        ]
+      ]
+    }
+  ],
+  "version": "1.0.0"
+}

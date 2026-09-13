@@ -1,0 +1,50 @@
+{
+  "evidence_equivalence_checked": true,
+  "interpretation": "All views retrieve the same scoped evidence; no recommendation or purchase outcome was measured.",
+  "metrics": [
+    {
+      "distinct_offers": 177,
+      "provider": "bing",
+      "queries": 4,
+      "representation": "facts-json",
+      "serialized_response_bytes": 4020610
+    },
+    {
+      "distinct_offers": 177,
+      "provider": "bing",
+      "queries": 4,
+      "representation": "table",
+      "serialized_response_bytes": 3258331
+    },
+    {
+      "distinct_offers": 177,
+      "provider": "bing",
+      "queries": 4,
+      "representation": "graph",
+      "serialized_response_bytes": 3750943
+    },
+    {
+      "distinct_offers": 140,
+      "provider": "google",
+      "queries": 5,
+      "representation": "facts-json",
+      "serialized_response_bytes": 2554368
+    },
+    {
+      "distinct_offers": 140,
+      "provider": "google",
+      "queries": 5,
+      "representation": "table",
+      "serialized_response_bytes": 2121337
+    },
+    {
+      "distinct_offers": 140,
+      "provider": "google",
+      "queries": 5,
+      "representation": "graph",
+      "serialized_response_bytes": 2428108
+    }
+  ],
+  "model_calls": 0,
+  "status": "completed_access_audit"
+}

@@ -1,0 +1,1820 @@
+{
+  "capability_definitions": [
+    {
+      "id": "cap-automatic_frothing_explicit",
+      "label": "Automatic milk frothing",
+      "meaning": "Explicit automatic frothing claim, subject to recorded qualifications.",
+      "type": "capability"
+    },
+    {
+      "id": "cap-cleaning_brush",
+      "label": "Included cleaning brush",
+      "meaning": "Supported included-item claim.",
+      "type": "capability"
+    },
+    {
+      "id": "cap-cold_brew_mode",
+      "label": "Cold brew mode",
+      "meaning": "Cold brew mode is reported.",
+      "type": "capability"
+    },
+    {
+      "id": "cap-descaling_alert",
+      "label": "Descaling alert",
+      "meaning": "Source reports a descaling alert.",
+      "type": "capability"
+    },
+    {
+      "id": "cap-dosing_funnel",
+      "label": "Included dosing funnel",
+      "meaning": "Supported included-item claim.",
+      "type": "capability"
+    },
+    {
+      "id": "cap-double_shot_basket",
+      "label": "Included double-shot basket",
+      "meaning": "Supported included-item claim.",
+      "type": "capability"
+    },
+    {
+      "id": "cap-drip_coffee_mode",
+      "label": "Drip coffee mode",
+      "meaning": "Drip coffee mode is reported.",
+      "type": "capability"
+    },
+    {
+      "id": "cap-dual_boiler_claim",
+      "label": "Advertised dual boiler",
+      "meaning": "Source claim, not measured simultaneous brewing and steaming.",
+      "type": "capability"
+    },
+    {
+      "id": "cap-integrated_grinder",
+      "label": "Integrated grinding",
+      "meaning": "A source reports an integrated grinder; espresso suitability is not independently tested.",
+      "type": "capability"
+    },
+    {
+      "id": "cap-integrated_scale",
+      "label": "Integrated weighing",
+      "meaning": "An integrated scale is reported; better drink quality is not implied.",
+      "type": "capability"
+    },
+    {
+      "id": "cap-manual_frothing_explicit",
+      "label": "Manual milk frothing",
+      "meaning": "Explicit manual frothing claim.",
+      "type": "capability"
+    },
+    {
+      "id": "cap-milk_pitcher",
+      "label": "Included milk pitcher",
+      "meaning": "Supported included-item claim.",
+      "type": "capability"
+    },
+    {
+      "id": "cap-pid_temperature_control",
+      "label": "PID temperature control",
+      "meaning": "PID control is reported; measured temperature stability is unknown.",
+      "type": "capability"
+    },
+    {
+      "id": "cap-portafilter",
+      "label": "Included portafilter",
+      "meaning": "Supported included-item claim.",
+      "type": "capability"
+    },
+    {
+      "id": "cap-removable_brew_unit",
+      "label": "Removable brew unit",
+      "meaning": "Removal is reported; serviceability is not otherwise established.",
+      "type": "capability"
+    },
+    {
+      "id": "cap-removable_water_tank",
+      "label": "Removable water tank",
+      "meaning": "Removal is reported; cleaning effort is not measured.",
+      "type": "capability"
+    },
+    {
+      "id": "cap-self_cleaning_claim",
+      "label": "Advertised self-cleaning",
+      "meaning": "Source claim, not verified cleaning performance.",
+      "type": "capability"
+    },
+    {
+      "id": "cap-single_shot_basket",
+      "label": "Included single-shot basket",
+      "meaning": "Supported included-item claim.",
+      "type": "capability"
+    },
+    {
+      "id": "cap-steam_wand_present",
+      "label": "Steam wand",
+      "meaning": "A source reports a steam wand.",
+      "type": "capability"
+    },
+    {
+      "id": "cap-tamper",
+      "label": "Included tamper",
+      "meaning": "Supported included-item claim.",
+      "type": "capability"
+    },
+    {
+      "id": "cap-voltage_120v",
+      "label": "Reported 120 V supply",
+      "meaning": "Exact 120 V specification; does not certify all aspects of US compatibility.",
+      "type": "capability"
+    }
+  ],
+  "capability_status": {
+    "google-73d649a23e17eb409d3e": {
+      "cap-automatic_frothing_explicit": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-cleaning_brush": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-cold_brew_mode": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-descaling_alert": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-dosing_funnel": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-double_shot_basket": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-drip_coffee_mode": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-dual_boiler_claim": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-integrated_grinder": {
+        "claim_ids": [
+          "claim-fc9d0eadde3b239bbfee35f7"
+        ],
+        "reported_values": [
+          true
+        ],
+        "status": "reported_true"
+      },
+      "cap-integrated_scale": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-manual_frothing_explicit": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-milk_pitcher": {
+        "claim_ids": [
+          "claim-d7e30be9b5ba54dde0fa7161"
+        ],
+        "reported_values": [
+          true
+        ],
+        "status": "reported_true"
+      },
+      "cap-pid_temperature_control": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-portafilter": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-removable_brew_unit": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-removable_water_tank": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-self_cleaning_claim": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-single_shot_basket": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-steam_wand_present": {
+        "claim_ids": [
+          "claim-160e85f0555aeb72aa5b24fe"
+        ],
+        "reported_values": [
+          true
+        ],
+        "status": "reported_true"
+      },
+      "cap-tamper": {
+        "claim_ids": [
+          "claim-67ad068112233eb16c3cb31f"
+        ],
+        "reported_values": [
+          true
+        ],
+        "status": "reported_true"
+      },
+      "cap-voltage_120v": {
+        "claim_ids": [
+          "claim-fb3378af27715fd6e1541bad"
+        ],
+        "reported_values": [
+          true
+        ],
+        "status": "reported_true"
+      }
+    },
+    "google-c1ac723b3479e478c13f": {
+      "cap-automatic_frothing_explicit": {
+        "claim_ids": [
+          "claim-e28910356f3570aaa9eb311d"
+        ],
+        "reported_values": [
+          true
+        ],
+        "status": "qualified"
+      },
+      "cap-cleaning_brush": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-cold_brew_mode": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-descaling_alert": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-dosing_funnel": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-double_shot_basket": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-drip_coffee_mode": {
+        "claim_ids": [
+          "claim-057a392eb9b8419b94f7fcf9"
+        ],
+        "reported_values": [
+          true
+        ],
+        "status": "reported_true"
+      },
+      "cap-dual_boiler_claim": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-integrated_grinder": {
+        "claim_ids": [
+          "claim-4e004d1d6935bf08e52e4f04"
+        ],
+        "reported_values": [
+          true
+        ],
+        "status": "reported_true"
+      },
+      "cap-integrated_scale": {
+        "claim_ids": [
+          "claim-1c440b2c5f84070c4be3f1fb"
+        ],
+        "reported_values": [
+          true
+        ],
+        "status": "reported_true"
+      },
+      "cap-manual_frothing_explicit": {
+        "claim_ids": [
+          "claim-9ba2dabb14810907f5802096"
+        ],
+        "reported_values": [
+          true
+        ],
+        "status": "qualified"
+      },
+      "cap-milk_pitcher": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-pid_temperature_control": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-portafilter": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-removable_brew_unit": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-removable_water_tank": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-self_cleaning_claim": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-single_shot_basket": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-steam_wand_present": {
+        "claim_ids": [
+          "claim-ce010cda37d5832f8a950b91"
+        ],
+        "reported_values": [
+          true
+        ],
+        "status": "qualified"
+      },
+      "cap-tamper": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      },
+      "cap-voltage_120v": {
+        "claim_ids": [],
+        "reported_values": [],
+        "status": "unknown"
+      }
+    }
+  },
+  "normalization_and_identity_annotations": {
+    "claims": [
+      {
+        "fact": {
+          "category": "brewing",
+          "evidence": [
+            {
+              "locator": "page title",
+              "source_id": "src-b1e6a91a1287179b75386d49"
+            }
+          ],
+          "name": "drip_coffee_mode",
+          "value": true
+        },
+        "fact_index": 3,
+        "id": "claim-057a392eb9b8419b94f7fcf9",
+        "kind": "product_fact",
+        "normalized": [
+          {
+            "capability_id": "cap-drip_coffee_mode",
+            "rule_id": "normalize-drip_coffee_mode-v1",
+            "value": true
+          }
+        ],
+        "qualifications": [],
+        "record_id": "google-c1ac723b3479e478c13f",
+        "scope": "Source claim applied only to this resolved listing; not independently tested.",
+        "type": "claim"
+      },
+      {
+        "fact": {
+          "category": "brewing",
+          "evidence": [
+            {
+              "locator": "page title",
+              "source_id": "src-b1e6a91a1287179b75386d49"
+            }
+          ],
+          "name": "integrated_scale",
+          "value": true
+        },
+        "fact_index": 4,
+        "id": "claim-1c440b2c5f84070c4be3f1fb",
+        "kind": "product_fact",
+        "normalized": [
+          {
+            "capability_id": "cap-integrated_scale",
+            "rule_id": "normalize-integrated_scale-v1",
+            "value": true
+          }
+        ],
+        "qualifications": [],
+        "record_id": "google-c1ac723b3479e478c13f",
+        "scope": "Source claim applied only to this resolved listing; not independently tested.",
+        "type": "claim"
+      },
+      {
+        "fact": {
+          "category": "grinding",
+          "evidence": [
+            {
+              "locator": "page title",
+              "source_id": "src-b1e6a91a1287179b75386d49"
+            }
+          ],
+          "name": "integrated_grinder",
+          "value": true
+        },
+        "fact_index": 0,
+        "id": "claim-4e004d1d6935bf08e52e4f04",
+        "kind": "product_fact",
+        "normalized": [
+          {
+            "capability_id": "cap-integrated_grinder",
+            "rule_id": "normalize-integrated_grinder-v1",
+            "value": true
+          }
+        ],
+        "qualifications": [],
+        "record_id": "google-c1ac723b3479e478c13f",
+        "scope": "Source claim applied only to this resolved listing; not independently tested.",
+        "type": "claim"
+      },
+      {
+        "fact": {
+          "category": "milk",
+          "evidence": [
+            {
+              "locator": "page title",
+              "source_id": "src-b1e6a91a1287179b75386d49"
+            }
+          ],
+          "name": "manual_frothing_explicit",
+          "value": true
+        },
+        "fact_index": 2,
+        "id": "claim-9ba2dabb14810907f5802096",
+        "kind": "product_fact",
+        "normalized": [
+          {
+            "capability_id": "cap-manual_frothing_explicit",
+            "rule_id": "normalize-manual_frothing_explicit-v1",
+            "value": true
+          }
+        ],
+        "qualifications": [
+          {
+            "note": "Source text describes both manual and automatic frothing. This may indicate dual capability or inconsistent copy; automatic operation is not resolved by these claims alone.",
+            "topic": "milk_system"
+          }
+        ],
+        "record_id": "google-c1ac723b3479e478c13f",
+        "scope": "Source claim applied only to this resolved listing; not independently tested.",
+        "type": "claim"
+      },
+      {
+        "fact": {
+          "category": "milk",
+          "evidence": [
+            {
+              "locator": "page title",
+              "source_id": "src-b1e6a91a1287179b75386d49"
+            }
+          ],
+          "name": "steam_wand_present",
+          "value": true
+        },
+        "fact_index": 1,
+        "id": "claim-ce010cda37d5832f8a950b91",
+        "kind": "product_fact",
+        "normalized": [
+          {
+            "capability_id": "cap-steam_wand_present",
+            "rule_id": "normalize-steam_wand_present-v1",
+            "value": true
+          }
+        ],
+        "qualifications": [
+          {
+            "note": "Source text describes both manual and automatic frothing. This may indicate dual capability or inconsistent copy; automatic operation is not resolved by these claims alone.",
+            "topic": "milk_system"
+          }
+        ],
+        "record_id": "google-c1ac723b3479e478c13f",
+        "scope": "Source claim applied only to this resolved listing; not independently tested.",
+        "type": "claim"
+      },
+      {
+        "fact": {
+          "category": "milk",
+          "evidence": [
+            {
+              "locator": "web text line 300",
+              "source_id": "src-b1e6a91a1287179b75386d49"
+            }
+          ],
+          "name": "automatic_frothing_explicit",
+          "value": true
+        },
+        "fact_index": 5,
+        "id": "claim-e28910356f3570aaa9eb311d",
+        "kind": "product_fact",
+        "normalized": [
+          {
+            "capability_id": "cap-automatic_frothing_explicit",
+            "rule_id": "normalize-automatic_frothing_explicit-v1",
+            "value": true
+          }
+        ],
+        "qualifications": [
+          {
+            "note": "Source text describes both manual and automatic frothing. This may indicate dual capability or inconsistent copy; automatic operation is not resolved by these claims alone.",
+            "topic": "milk_system"
+          }
+        ],
+        "record_id": "google-c1ac723b3479e478c13f",
+        "scope": "Source claim applied only to this resolved listing; not independently tested.",
+        "type": "claim"
+      },
+      {
+        "fact": {
+          "category": "grinding",
+          "evidence": [
+            {
+              "locator": "web text line 304",
+              "source_id": "src-b1e6a91a1287179b75386d49"
+            }
+          ],
+          "name": "burr_type",
+          "value": "conical"
+        },
+        "fact_index": 6,
+        "id": "claim-f654980a682e95ffae78a7d0",
+        "kind": "product_fact",
+        "normalized": [],
+        "qualifications": [],
+        "record_id": "google-c1ac723b3479e478c13f",
+        "scope": "Source claim applied only to this resolved listing; not independently tested.",
+        "type": "claim"
+      },
+      {
+        "fact": {
+          "category": "grinding",
+          "evidence": [
+            {
+              "locator": "web text line 58",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "burr_type",
+          "value": "conical"
+        },
+        "fact_index": 1,
+        "id": "claim-0370792ad2a405826212e262",
+        "kind": "product_fact",
+        "normalized": [],
+        "qualifications": [],
+        "record_id": "google-73d649a23e17eb409d3e",
+        "scope": "Source claim applied only to this resolved listing; not independently tested.",
+        "type": "claim"
+      },
+      {
+        "fact": {
+          "category": "milk",
+          "evidence": [
+            {
+              "locator": "web text line 69",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "steam_wand_present",
+          "value": true
+        },
+        "fact_index": 9,
+        "id": "claim-160e85f0555aeb72aa5b24fe",
+        "kind": "product_fact",
+        "normalized": [
+          {
+            "capability_id": "cap-steam_wand_present",
+            "rule_id": "normalize-steam_wand_present-v1",
+            "value": true
+          }
+        ],
+        "qualifications": [],
+        "record_id": "google-73d649a23e17eb409d3e",
+        "scope": "Source claim applied only to this resolved listing; not independently tested.",
+        "type": "claim"
+      },
+      {
+        "fact": {
+          "category": "physical",
+          "evidence": [
+            {
+              "locator": "web text line 74",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "dimensions",
+          "value": "16.34 Inches (H) x 16.14 Inches (W) x 13.39 Inches (D)"
+        },
+        "fact_index": 10,
+        "id": "claim-5578926b1e356497995d90e4",
+        "kind": "product_fact",
+        "normalized": [],
+        "qualifications": [],
+        "record_id": "google-73d649a23e17eb409d3e",
+        "scope": "Source claim applied only to this resolved listing; not independently tested.",
+        "type": "claim"
+      },
+      {
+        "fact": {
+          "category": "electrical",
+          "evidence": [
+            {
+              "locator": "web text line 67",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "power",
+          "unit": "W",
+          "value": "1450"
+        },
+        "fact_index": 8,
+        "id": "claim-65a40f8aecb3693fa63b6399",
+        "kind": "product_fact",
+        "normalized": [],
+        "qualifications": [],
+        "record_id": "google-73d649a23e17eb409d3e",
+        "scope": "Source claim applied only to this resolved listing; not independently tested.",
+        "type": "claim"
+      },
+      {
+        "fact": {
+          "category": "included_items",
+          "evidence": [
+            {
+              "locator": "web text line 65",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "tamper",
+          "value": true
+        },
+        "fact_index": 5,
+        "id": "claim-67ad068112233eb16c3cb31f",
+        "kind": "product_fact",
+        "normalized": [
+          {
+            "capability_id": "cap-tamper",
+            "rule_id": "normalize-tamper-v1",
+            "value": true
+          }
+        ],
+        "qualifications": [],
+        "record_id": "google-73d649a23e17eb409d3e",
+        "scope": "Source claim applied only to this resolved listing; not independently tested.",
+        "type": "claim"
+      },
+      {
+        "fact": {
+          "category": "brewing",
+          "evidence": [
+            {
+              "locator": "web text line 59",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "pump_pressure_bar",
+          "unit": "bar",
+          "value": "15"
+        },
+        "fact_index": 2,
+        "id": "claim-9d51b17d89326128fddfbe32",
+        "kind": "product_fact",
+        "normalized": [],
+        "qualifications": [],
+        "record_id": "google-73d649a23e17eb409d3e",
+        "scope": "Source claim applied only to this resolved listing; not independently tested.",
+        "type": "claim"
+      },
+      {
+        "fact": {
+          "category": "brewing",
+          "evidence": [
+            {
+              "locator": "web text line 61",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "portafilter_diameter",
+          "unit": "mm",
+          "value": "58"
+        },
+        "fact_index": 3,
+        "id": "claim-ace54bbf5a494d5bba03f6bf",
+        "kind": "product_fact",
+        "normalized": [],
+        "qualifications": [],
+        "record_id": "google-73d649a23e17eb409d3e",
+        "scope": "Source claim applied only to this resolved listing; not independently tested.",
+        "type": "claim"
+      },
+      {
+        "fact": {
+          "category": "physical",
+          "evidence": [
+            {
+              "locator": "web text line 64",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "water_tank_capacity",
+          "unit": "L",
+          "value": "3"
+        },
+        "fact_index": 4,
+        "id": "claim-c22e4fc5e38003d5ee99cd96",
+        "kind": "product_fact",
+        "normalized": [],
+        "qualifications": [],
+        "record_id": "google-73d649a23e17eb409d3e",
+        "scope": "Source claim applied only to this resolved listing; not independently tested.",
+        "type": "claim"
+      },
+      {
+        "fact": {
+          "category": "included_items",
+          "evidence": [
+            {
+              "locator": "web text line 65",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "milk_pitcher",
+          "value": true
+        },
+        "fact_index": 6,
+        "id": "claim-d7e30be9b5ba54dde0fa7161",
+        "kind": "product_fact",
+        "normalized": [
+          {
+            "capability_id": "cap-milk_pitcher",
+            "rule_id": "normalize-milk_pitcher-v1",
+            "value": true
+          }
+        ],
+        "qualifications": [],
+        "record_id": "google-73d649a23e17eb409d3e",
+        "scope": "Source claim applied only to this resolved listing; not independently tested.",
+        "type": "claim"
+      },
+      {
+        "fact": {
+          "category": "electrical",
+          "evidence": [
+            {
+              "locator": "web text line 67",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "voltage",
+          "unit": "V",
+          "value": "120"
+        },
+        "fact_index": 7,
+        "id": "claim-fb3378af27715fd6e1541bad",
+        "kind": "product_fact",
+        "normalized": [
+          {
+            "capability_id": "cap-voltage_120v",
+            "rule_id": "normalize-voltage-120-v1",
+            "value": true
+          }
+        ],
+        "qualifications": [],
+        "record_id": "google-73d649a23e17eb409d3e",
+        "scope": "Source claim applied only to this resolved listing; not independently tested.",
+        "type": "claim"
+      },
+      {
+        "fact": {
+          "category": "grinding",
+          "evidence": [
+            {
+              "locator": "web text line 58",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "integrated_grinder",
+          "value": true
+        },
+        "fact_index": 0,
+        "id": "claim-fc9d0eadde3b239bbfee35f7",
+        "kind": "product_fact",
+        "normalized": [
+          {
+            "capability_id": "cap-integrated_grinder",
+            "rule_id": "normalize-integrated_grinder-v1",
+            "value": true
+          }
+        ],
+        "qualifications": [],
+        "record_id": "google-73d649a23e17eb409d3e",
+        "scope": "Source claim applied only to this resolved listing; not independently tested.",
+        "type": "claim"
+      }
+    ],
+    "relationships": [
+      {
+        "basis": "source_link",
+        "id": "edge-04fd512c0cee96d40d9c0934",
+        "object": "product-google-73d649a23e17eb409d3e",
+        "predicate": "about_product",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-ace54bbf5a494d5bba03f6bf"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-07f490f51cf918b09eddad78",
+        "object": "product-google-73d649a23e17eb409d3e",
+        "predicate": "about_product",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-fb3378af27715fd6e1541bad"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-0b554790a8f18355b3d4ff2f",
+        "object": "product-google-c1ac723b3479e478c13f",
+        "predicate": "about_product",
+        "record_id": "google-c1ac723b3479e478c13f",
+        "subject": "claim-ce010cda37d5832f8a950b91"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-0cc49563cbb502a8e1e00a90",
+        "object": "product-google-c1ac723b3479e478c13f",
+        "predicate": "about_product",
+        "record_id": "google-c1ac723b3479e478c13f",
+        "subject": "claim-9ba2dabb14810907f5802096"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-0e96038f4eb0da281ad892b5",
+        "locator": "web text line 64",
+        "object": "src-8d0f2f8a610a7f7d34b7c936",
+        "predicate": "supported_by",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-c22e4fc5e38003d5ee99cd96"
+      },
+      {
+        "basis": "derived",
+        "evidence_claim_ids": [
+          "claim-ce010cda37d5832f8a950b91"
+        ],
+        "id": "edge-1211ce94c2188da83dfc9f7b",
+        "object": "cap-steam_wand_present",
+        "predicate": "capability_evidence",
+        "qualified": true,
+        "record_id": "google-c1ac723b3479e478c13f",
+        "rule_id": "capability-support-v1",
+        "subject": "product-google-c1ac723b3479e478c13f",
+        "value": true
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-132c91f2feeb4d6266a41a17",
+        "object": "product-google-73d649a23e17eb409d3e",
+        "predicate": "about_product",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-c22e4fc5e38003d5ee99cd96"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-160b1b31af11bf098c5037b6",
+        "object": "product-google-c1ac723b3479e478c13f",
+        "predicate": "about_product",
+        "record_id": "google-c1ac723b3479e478c13f",
+        "subject": "claim-e28910356f3570aaa9eb311d"
+      },
+      {
+        "basis": "derived",
+        "id": "edge-182ee9163f9fe4de8d00e944",
+        "object": "cap-manual_frothing_explicit",
+        "predicate": "reports_capability",
+        "record_id": "google-c1ac723b3479e478c13f",
+        "rule_id": "normalize-manual_frothing_explicit-v1",
+        "subject": "claim-9ba2dabb14810907f5802096",
+        "value": true
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-1a0303ec1c10d0247bc34aaa",
+        "locator": "page title",
+        "object": "src-b1e6a91a1287179b75386d49",
+        "predicate": "supported_by",
+        "record_id": "google-c1ac723b3479e478c13f",
+        "subject": "claim-1c440b2c5f84070c4be3f1fb"
+      },
+      {
+        "basis": "derived",
+        "id": "edge-1af521c51e4eb2382b20b102",
+        "object": "cap-integrated_scale",
+        "predicate": "reports_capability",
+        "record_id": "google-c1ac723b3479e478c13f",
+        "rule_id": "normalize-integrated_scale-v1",
+        "subject": "claim-1c440b2c5f84070c4be3f1fb",
+        "value": true
+      },
+      {
+        "basis": "derived",
+        "id": "edge-1c5159433fd772891e1ea701",
+        "object": "cap-tamper",
+        "predicate": "reports_capability",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "rule_id": "normalize-tamper-v1",
+        "subject": "claim-67ad068112233eb16c3cb31f",
+        "value": true
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-21ded2445f7af93ca1d18eab",
+        "locator": "web text line 304",
+        "object": "src-b1e6a91a1287179b75386d49",
+        "predicate": "supported_by",
+        "record_id": "google-c1ac723b3479e478c13f",
+        "subject": "claim-f654980a682e95ffae78a7d0"
+      },
+      {
+        "basis": "derived",
+        "evidence_claim_ids": [
+          "claim-fc9d0eadde3b239bbfee35f7"
+        ],
+        "id": "edge-237669b99aed3ba3a868b210",
+        "object": "cap-integrated_grinder",
+        "predicate": "capability_evidence",
+        "qualified": false,
+        "record_id": "google-73d649a23e17eb409d3e",
+        "rule_id": "capability-support-v1",
+        "subject": "product-google-73d649a23e17eb409d3e",
+        "value": true
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-2e1b36f8e322a38ee0b85314",
+        "object": "product-google-73d649a23e17eb409d3e",
+        "predicate": "about_product",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-0370792ad2a405826212e262"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-36430a7a6e8112b1deb1f4e2",
+        "locator": "web text line 67",
+        "object": "src-8d0f2f8a610a7f7d34b7c936",
+        "predicate": "supported_by",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-65a40f8aecb3693fa63b6399"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-38004bbb7712dfae47a7b942",
+        "locator": "web text line 58",
+        "object": "src-8d0f2f8a610a7f7d34b7c936",
+        "predicate": "supported_by",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-fc9d0eadde3b239bbfee35f7"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-38370956094bc6907bcd4479",
+        "locator": "web text line 65",
+        "object": "src-8d0f2f8a610a7f7d34b7c936",
+        "predicate": "supported_by",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-d7e30be9b5ba54dde0fa7161"
+      },
+      {
+        "basis": "derived",
+        "id": "edge-3ead4b0347309f3470b13619",
+        "object": "cap-drip_coffee_mode",
+        "predicate": "reports_capability",
+        "record_id": "google-c1ac723b3479e478c13f",
+        "rule_id": "normalize-drip_coffee_mode-v1",
+        "subject": "claim-057a392eb9b8419b94f7fcf9",
+        "value": true
+      },
+      {
+        "basis": "derived",
+        "id": "edge-3f1fb5b51cb6e3723b2c6b48",
+        "object": "cap-integrated_grinder",
+        "predicate": "reports_capability",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "rule_id": "normalize-integrated_grinder-v1",
+        "subject": "claim-fc9d0eadde3b239bbfee35f7",
+        "value": true
+      },
+      {
+        "basis": "derived",
+        "evidence_claim_ids": [
+          "claim-67ad068112233eb16c3cb31f"
+        ],
+        "id": "edge-406cbf2b3b6442cb4bcb0d77",
+        "object": "cap-tamper",
+        "predicate": "capability_evidence",
+        "qualified": false,
+        "record_id": "google-73d649a23e17eb409d3e",
+        "rule_id": "capability-support-v1",
+        "subject": "product-google-73d649a23e17eb409d3e",
+        "value": true
+      },
+      {
+        "basis": "derived",
+        "id": "edge-4ea734c767a066d7c4318b4a",
+        "object": "cap-steam_wand_present",
+        "predicate": "reports_capability",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "rule_id": "normalize-steam_wand_present-v1",
+        "subject": "claim-160e85f0555aeb72aa5b24fe",
+        "value": true
+      },
+      {
+        "basis": "derived",
+        "id": "edge-5955dd255416d11a7f9ac214",
+        "object": "cap-milk_pitcher",
+        "predicate": "reports_capability",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "rule_id": "normalize-milk_pitcher-v1",
+        "subject": "claim-d7e30be9b5ba54dde0fa7161",
+        "value": true
+      },
+      {
+        "basis": "derived",
+        "evidence_claim_ids": [
+          "claim-160e85f0555aeb72aa5b24fe"
+        ],
+        "id": "edge-5c01c1832e42868360339a25",
+        "object": "cap-steam_wand_present",
+        "predicate": "capability_evidence",
+        "qualified": false,
+        "record_id": "google-73d649a23e17eb409d3e",
+        "rule_id": "capability-support-v1",
+        "subject": "product-google-73d649a23e17eb409d3e",
+        "value": true
+      },
+      {
+        "basis": "derived",
+        "evidence_claim_ids": [
+          "claim-9ba2dabb14810907f5802096"
+        ],
+        "id": "edge-62d7b161e9a1e346076f5f13",
+        "object": "cap-manual_frothing_explicit",
+        "predicate": "capability_evidence",
+        "qualified": true,
+        "record_id": "google-c1ac723b3479e478c13f",
+        "rule_id": "capability-support-v1",
+        "subject": "product-google-c1ac723b3479e478c13f",
+        "value": true
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-678209b12adf78968c82ed87",
+        "locator": "web text line 58",
+        "object": "src-8d0f2f8a610a7f7d34b7c936",
+        "predicate": "supported_by",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-0370792ad2a405826212e262"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-6d29a9b67dfb9cd688ef0ad9",
+        "object": "product-google-73d649a23e17eb409d3e",
+        "predicate": "about_product",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-9d51b17d89326128fddfbe32"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-6e923161748c24072f5401c0",
+        "object": "product-google-c1ac723b3479e478c13f",
+        "predicate": "describes_product",
+        "record_id": "google-c1ac723b3479e478c13f",
+        "subject": "google-c1ac723b3479e478c13f"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-71ceb9893d0877ac6486ca1d",
+        "object": "product-google-73d649a23e17eb409d3e",
+        "predicate": "about_product",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-67ad068112233eb16c3cb31f"
+      },
+      {
+        "basis": "derived",
+        "id": "edge-7eb2da70ef42c4a5d0cc0884",
+        "object": "cap-steam_wand_present",
+        "predicate": "reports_capability",
+        "record_id": "google-c1ac723b3479e478c13f",
+        "rule_id": "normalize-steam_wand_present-v1",
+        "subject": "claim-ce010cda37d5832f8a950b91",
+        "value": true
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-8247bfca7996be24bd6ec6bd",
+        "object": "product-google-73d649a23e17eb409d3e",
+        "predicate": "describes_product",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "google-73d649a23e17eb409d3e"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-87cf770692bbab79417e374a",
+        "locator": "web text line 61",
+        "object": "src-8d0f2f8a610a7f7d34b7c936",
+        "predicate": "supported_by",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-ace54bbf5a494d5bba03f6bf"
+      },
+      {
+        "basis": "derived",
+        "evidence_claim_ids": [
+          "claim-fb3378af27715fd6e1541bad"
+        ],
+        "id": "edge-8a3de337fb0fbdba7b16f36b",
+        "object": "cap-voltage_120v",
+        "predicate": "capability_evidence",
+        "qualified": false,
+        "record_id": "google-73d649a23e17eb409d3e",
+        "rule_id": "capability-support-v1",
+        "subject": "product-google-73d649a23e17eb409d3e",
+        "value": true
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-8dfc6fe7b4d2406451766cd9",
+        "locator": "web text line 59",
+        "object": "src-8d0f2f8a610a7f7d34b7c936",
+        "predicate": "supported_by",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-9d51b17d89326128fddfbe32"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-92bcb2334c27e273cd103938",
+        "object": "product-google-c1ac723b3479e478c13f",
+        "predicate": "about_product",
+        "record_id": "google-c1ac723b3479e478c13f",
+        "subject": "claim-1c440b2c5f84070c4be3f1fb"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-9fec29c472447592e3ea7a6c",
+        "object": "product-google-c1ac723b3479e478c13f",
+        "predicate": "about_product",
+        "record_id": "google-c1ac723b3479e478c13f",
+        "subject": "claim-057a392eb9b8419b94f7fcf9"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-a073b2e6c24e679f88b3030c",
+        "locator": "page title",
+        "object": "src-b1e6a91a1287179b75386d49",
+        "predicate": "supported_by",
+        "record_id": "google-c1ac723b3479e478c13f",
+        "subject": "claim-ce010cda37d5832f8a950b91"
+      },
+      {
+        "basis": "derived",
+        "evidence_claim_ids": [
+          "claim-057a392eb9b8419b94f7fcf9"
+        ],
+        "id": "edge-a161f39552047315ab79869c",
+        "object": "cap-drip_coffee_mode",
+        "predicate": "capability_evidence",
+        "qualified": false,
+        "record_id": "google-c1ac723b3479e478c13f",
+        "rule_id": "capability-support-v1",
+        "subject": "product-google-c1ac723b3479e478c13f",
+        "value": true
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-a6ace7b3bc325119cbe39218",
+        "object": "product-google-73d649a23e17eb409d3e",
+        "predicate": "about_product",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-d7e30be9b5ba54dde0fa7161"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-a7ad5922f8b3f2717dee83e0",
+        "object": "product-google-c1ac723b3479e478c13f",
+        "predicate": "about_product",
+        "record_id": "google-c1ac723b3479e478c13f",
+        "subject": "claim-4e004d1d6935bf08e52e4f04"
+      },
+      {
+        "basis": "derived",
+        "id": "edge-af1b23f7785fdc209ef43034",
+        "object": "cap-automatic_frothing_explicit",
+        "predicate": "reports_capability",
+        "record_id": "google-c1ac723b3479e478c13f",
+        "rule_id": "normalize-automatic_frothing_explicit-v1",
+        "subject": "claim-e28910356f3570aaa9eb311d",
+        "value": true
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-b51f18d250970bf4309e6f2d",
+        "locator": "page title",
+        "object": "src-b1e6a91a1287179b75386d49",
+        "predicate": "supported_by",
+        "record_id": "google-c1ac723b3479e478c13f",
+        "subject": "claim-4e004d1d6935bf08e52e4f04"
+      },
+      {
+        "basis": "derived",
+        "evidence_claim_ids": [
+          "claim-4e004d1d6935bf08e52e4f04"
+        ],
+        "id": "edge-b6da37742937522a9320f078",
+        "object": "cap-integrated_grinder",
+        "predicate": "capability_evidence",
+        "qualified": false,
+        "record_id": "google-c1ac723b3479e478c13f",
+        "rule_id": "capability-support-v1",
+        "subject": "product-google-c1ac723b3479e478c13f",
+        "value": true
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-bd34091f5cb3267c91571963",
+        "object": "product-google-73d649a23e17eb409d3e",
+        "predicate": "about_product",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-fc9d0eadde3b239bbfee35f7"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-bf2a14bac48fd63bdfaeed41",
+        "object": "product-google-73d649a23e17eb409d3e",
+        "predicate": "about_product",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-65a40f8aecb3693fa63b6399"
+      },
+      {
+        "basis": "derived",
+        "evidence_claim_ids": [
+          "claim-1c440b2c5f84070c4be3f1fb"
+        ],
+        "id": "edge-bff4040e0bd6c97d91401680",
+        "object": "cap-integrated_scale",
+        "predicate": "capability_evidence",
+        "qualified": false,
+        "record_id": "google-c1ac723b3479e478c13f",
+        "rule_id": "capability-support-v1",
+        "subject": "product-google-c1ac723b3479e478c13f",
+        "value": true
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-c2f21366f38f49698e40d6c5",
+        "locator": "web text line 65",
+        "object": "src-8d0f2f8a610a7f7d34b7c936",
+        "predicate": "supported_by",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-67ad068112233eb16c3cb31f"
+      },
+      {
+        "basis": "derived",
+        "id": "edge-c30bec44e3f1b958929ae4ab",
+        "object": "cap-integrated_grinder",
+        "predicate": "reports_capability",
+        "record_id": "google-c1ac723b3479e478c13f",
+        "rule_id": "normalize-integrated_grinder-v1",
+        "subject": "claim-4e004d1d6935bf08e52e4f04",
+        "value": true
+      },
+      {
+        "basis": "derived",
+        "evidence_claim_ids": [
+          "claim-d7e30be9b5ba54dde0fa7161"
+        ],
+        "id": "edge-c893f476f823fe71cb466484",
+        "object": "cap-milk_pitcher",
+        "predicate": "capability_evidence",
+        "qualified": false,
+        "record_id": "google-73d649a23e17eb409d3e",
+        "rule_id": "capability-support-v1",
+        "subject": "product-google-73d649a23e17eb409d3e",
+        "value": true
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-c8b99cb46dd505ef1a6a268e",
+        "object": "product-google-c1ac723b3479e478c13f",
+        "predicate": "about_product",
+        "record_id": "google-c1ac723b3479e478c13f",
+        "subject": "claim-f654980a682e95ffae78a7d0"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-c9f38ab347cc9db64d6d97ff",
+        "object": "product-google-73d649a23e17eb409d3e",
+        "predicate": "about_product",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-160e85f0555aeb72aa5b24fe"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-cb66823d39bc34097c8b11a2",
+        "locator": "page title",
+        "object": "src-b1e6a91a1287179b75386d49",
+        "predicate": "supported_by",
+        "record_id": "google-c1ac723b3479e478c13f",
+        "subject": "claim-057a392eb9b8419b94f7fcf9"
+      },
+      {
+        "basis": "derived",
+        "evidence_claim_ids": [
+          "claim-e28910356f3570aaa9eb311d"
+        ],
+        "id": "edge-d7612682e70343853f924c58",
+        "object": "cap-automatic_frothing_explicit",
+        "predicate": "capability_evidence",
+        "qualified": true,
+        "record_id": "google-c1ac723b3479e478c13f",
+        "rule_id": "capability-support-v1",
+        "subject": "product-google-c1ac723b3479e478c13f",
+        "value": true
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-d99f7c82205444a5288007f3",
+        "locator": "web text line 67",
+        "object": "src-8d0f2f8a610a7f7d34b7c936",
+        "predicate": "supported_by",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-fb3378af27715fd6e1541bad"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-e3484203726f06e5b86d9d7f",
+        "locator": "page title",
+        "object": "src-b1e6a91a1287179b75386d49",
+        "predicate": "supported_by",
+        "record_id": "google-c1ac723b3479e478c13f",
+        "subject": "claim-9ba2dabb14810907f5802096"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-e5103dd7e5f7c49f8cb87931",
+        "locator": "web text line 69",
+        "object": "src-8d0f2f8a610a7f7d34b7c936",
+        "predicate": "supported_by",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-160e85f0555aeb72aa5b24fe"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-e5be7c54b8b6735abb5ac09a",
+        "locator": "web text line 300",
+        "object": "src-b1e6a91a1287179b75386d49",
+        "predicate": "supported_by",
+        "record_id": "google-c1ac723b3479e478c13f",
+        "subject": "claim-e28910356f3570aaa9eb311d"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-ec09f28baeeba1f471442407",
+        "object": "product-google-73d649a23e17eb409d3e",
+        "predicate": "about_product",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-5578926b1e356497995d90e4"
+      },
+      {
+        "basis": "source_link",
+        "id": "edge-ec39a33226c165abec8ce874",
+        "locator": "web text line 74",
+        "object": "src-8d0f2f8a610a7f7d34b7c936",
+        "predicate": "supported_by",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "subject": "claim-5578926b1e356497995d90e4"
+      },
+      {
+        "basis": "derived",
+        "id": "edge-f90d3b32738f1ac2b2017217",
+        "object": "cap-voltage_120v",
+        "predicate": "reports_capability",
+        "record_id": "google-73d649a23e17eb409d3e",
+        "rule_id": "normalize-voltage-120-v1",
+        "subject": "claim-fb3378af27715fd6e1541bad",
+        "value": true
+      }
+    ]
+  },
+  "offers": [
+    {
+      "card_reference": "scenarios/scenario-1/versions/1.3.0/recommendations/google.json",
+      "conflicts": [
+        {
+          "note": "Source text describes both manual and automatic frothing. This may indicate dual capability or inconsistent copy; automatic operation is not resolved by these claims alone.",
+          "topic": "milk_system"
+        }
+      ],
+      "currency": "USD",
+      "facts_reference": "scenarios/scenario-1/product-facts/versions/1.0.0/products/google-c1ac723b3479e478c13f.json",
+      "frozen_price_cents": 44999,
+      "frozen_record_sha256": "c1ac723b3479e478c13fe78a9945ed46a6045f45c0890f9e90b3992a2a884607",
+      "id": "google-c1ac723b3479e478c13f",
+      "merchant_display_text": "Walmart & more",
+      "merchant_text_is_aggregate": true,
+      "not_established_categories": [
+        "electrical",
+        "included_items",
+        "maintenance",
+        "physical"
+      ],
+      "provider": "google",
+      "resolution": {
+        "method": "reviewed_search_resolution",
+        "note": "Exact model/product landing page found in targeted search.",
+        "page_title": "Ninja Luxe Café Mini Espresso Machine & Drip Coffee Maker with Built-in Grinder, Precision Scale & Manual Steam Wand for Lattes, Cappuccinos & More, ES301 Black",
+        "product_url": "https://www.walmart.com/ip/19258703085",
+        "reasons": [],
+        "status": "matched_listing",
+        "token_overlap": 0.8
+      },
+      "title": "Ninja Luxe Caf Mini Espresso Machine & Drip Coffee Maker with Built-in Grinder",
+      "type": "offer"
+    },
+    {
+      "card_reference": "scenarios/scenario-1/versions/1.3.0/recommendations/google.json",
+      "conflicts": [],
+      "currency": "USD",
+      "facts_reference": "scenarios/scenario-1/product-facts/versions/1.0.0/products/google-73d649a23e17eb409d3e.json",
+      "frozen_price_cents": 32999,
+      "frozen_record_sha256": "73d649a23e17eb409d3e7b3ac29262e15a0fd9b832a47ca4fd1e52324b442027",
+      "id": "google-73d649a23e17eb409d3e",
+      "merchant_display_text": "Target & more",
+      "merchant_text_is_aggregate": true,
+      "not_established_categories": [
+        "maintenance"
+      ],
+      "provider": "google",
+      "resolution": {
+        "method": "title_and_merchant_search_candidate",
+        "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity.",
+        "page_title": "Chefman Crema Supreme Espresso Machine Stainless Steel : Target",
+        "product_url": "https://www.target.com/p/-/A-95054106",
+        "reasons": [],
+        "status": "matched_listing",
+        "token_overlap": 1.0
+      },
+      "title": "Chefman Crema Supreme Espresso Machine",
+      "type": "offer"
+    }
+  ],
+  "product_facts": [
+    {
+      "conflicts": [
+        {
+          "note": "Source text describes both manual and automatic frothing. This may indicate dual capability or inconsistent copy; automatic operation is not resolved by these claims alone.",
+          "topic": "milk_system"
+        }
+      ],
+      "facts": [
+        {
+          "category": "grinding",
+          "evidence": [
+            {
+              "locator": "page title",
+              "source_id": "src-b1e6a91a1287179b75386d49"
+            }
+          ],
+          "name": "integrated_grinder",
+          "value": true
+        },
+        {
+          "category": "milk",
+          "evidence": [
+            {
+              "locator": "page title",
+              "source_id": "src-b1e6a91a1287179b75386d49"
+            }
+          ],
+          "name": "steam_wand_present",
+          "value": true
+        },
+        {
+          "category": "milk",
+          "evidence": [
+            {
+              "locator": "page title",
+              "source_id": "src-b1e6a91a1287179b75386d49"
+            }
+          ],
+          "name": "manual_frothing_explicit",
+          "value": true
+        },
+        {
+          "category": "brewing",
+          "evidence": [
+            {
+              "locator": "page title",
+              "source_id": "src-b1e6a91a1287179b75386d49"
+            }
+          ],
+          "name": "drip_coffee_mode",
+          "value": true
+        },
+        {
+          "category": "brewing",
+          "evidence": [
+            {
+              "locator": "page title",
+              "source_id": "src-b1e6a91a1287179b75386d49"
+            }
+          ],
+          "name": "integrated_scale",
+          "value": true
+        },
+        {
+          "category": "milk",
+          "evidence": [
+            {
+              "locator": "web text line 300",
+              "source_id": "src-b1e6a91a1287179b75386d49"
+            }
+          ],
+          "name": "automatic_frothing_explicit",
+          "value": true
+        },
+        {
+          "category": "grinding",
+          "evidence": [
+            {
+              "locator": "web text line 304",
+              "source_id": "src-b1e6a91a1287179b75386d49"
+            }
+          ],
+          "name": "burr_type",
+          "value": "conical"
+        }
+      ],
+      "not_established_categories": [
+        "electrical",
+        "included_items",
+        "maintenance",
+        "physical"
+      ],
+      "record_id": "google-c1ac723b3479e478c13f",
+      "resolution": {
+        "method": "reviewed_search_resolution",
+        "note": "Exact model/product landing page found in targeted search.",
+        "page_title": "Ninja Luxe Café Mini Espresso Machine & Drip Coffee Maker with Built-in Grinder, Precision Scale & Manual Steam Wand for Lattes, Cappuccinos & More, ES301 Black",
+        "product_url": "https://www.walmart.com/ip/19258703085",
+        "reasons": [],
+        "status": "matched_listing",
+        "token_overlap": 0.8
+      }
+    },
+    {
+      "conflicts": [],
+      "facts": [
+        {
+          "category": "grinding",
+          "evidence": [
+            {
+              "locator": "web text line 58",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "integrated_grinder",
+          "value": true
+        },
+        {
+          "category": "grinding",
+          "evidence": [
+            {
+              "locator": "web text line 58",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "burr_type",
+          "value": "conical"
+        },
+        {
+          "category": "brewing",
+          "evidence": [
+            {
+              "locator": "web text line 59",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "pump_pressure_bar",
+          "unit": "bar",
+          "value": "15"
+        },
+        {
+          "category": "brewing",
+          "evidence": [
+            {
+              "locator": "web text line 61",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "portafilter_diameter",
+          "unit": "mm",
+          "value": "58"
+        },
+        {
+          "category": "physical",
+          "evidence": [
+            {
+              "locator": "web text line 64",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "water_tank_capacity",
+          "unit": "L",
+          "value": "3"
+        },
+        {
+          "category": "included_items",
+          "evidence": [
+            {
+              "locator": "web text line 65",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "tamper",
+          "value": true
+        },
+        {
+          "category": "included_items",
+          "evidence": [
+            {
+              "locator": "web text line 65",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "milk_pitcher",
+          "value": true
+        },
+        {
+          "category": "electrical",
+          "evidence": [
+            {
+              "locator": "web text line 67",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "voltage",
+          "unit": "V",
+          "value": "120"
+        },
+        {
+          "category": "electrical",
+          "evidence": [
+            {
+              "locator": "web text line 67",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "power",
+          "unit": "W",
+          "value": "1450"
+        },
+        {
+          "category": "milk",
+          "evidence": [
+            {
+              "locator": "web text line 69",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "steam_wand_present",
+          "value": true
+        },
+        {
+          "category": "physical",
+          "evidence": [
+            {
+              "locator": "web text line 74",
+              "source_id": "src-8d0f2f8a610a7f7d34b7c936"
+            }
+          ],
+          "name": "dimensions",
+          "value": "16.34 Inches (H) x 16.14 Inches (W) x 13.39 Inches (D)"
+        }
+      ],
+      "not_established_categories": [
+        "maintenance"
+      ],
+      "record_id": "google-73d649a23e17eb409d3e",
+      "resolution": {
+        "method": "title_and_merchant_search_candidate",
+        "note": "Matched using product title and retained URL lineage or merchant-scoped search; not independently verified SKU identity.",
+        "page_title": "Chefman Crema Supreme Espresso Machine Stainless Steel : Target",
+        "product_url": "https://www.target.com/p/-/A-95054106",
+        "reasons": [],
+        "status": "matched_listing",
+        "token_overlap": 1.0
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "product-google-73d649a23e17eb409d3e",
+      "identity_scope": "offer_scoped_not_deduplicated",
+      "identity_status": "matched_listing",
+      "label": "Chefman Crema Supreme Espresso Machine Stainless Steel : Target",
+      "record_id": "google-73d649a23e17eb409d3e",
+      "type": "product_reference"
+    },
+    {
+      "id": "product-google-c1ac723b3479e478c13f",
+      "identity_scope": "offer_scoped_not_deduplicated",
+      "identity_status": "matched_listing",
+      "label": "Ninja Luxe Café Mini Espresso Machine & Drip Coffee Maker with Built-in Grinder, Precision Scale & Manual Steam Wand for Lattes, Cappuccinos & More, ES301 Black",
+      "record_id": "google-c1ac723b3479e478c13f",
+      "type": "product_reference"
+    }
+  ],
+  "query": {
+    "capabilities": [],
+    "include_qualified": false,
+    "interpretation": "Evidence retrieval, not suitability or utility ranking.",
+    "limit": 100,
+    "max_price_cents": null,
+    "next_offset": null,
+    "offset": 0,
+    "operation": "compare",
+    "ordering": "requested_order",
+    "total_in_scope": 2
+  },
+  "sellers": [],
+  "sources": [
+    {
+      "content_sha256": "582f09573ed9690cd01098ae58bae9e29341f6c8adc96ce366517548e522fa4a",
+      "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+      "id": "src-8d0f2f8a610a7f7d34b7c936",
+      "method": "web.open",
+      "page_title": "Chefman Crema Supreme Espresso Machine Stainless Steel : Target",
+      "reference": "scenarios/scenario-1/product-facts/versions/1.0.0/sources/src-8d0f2f8a610a7f7d34b7c936.json",
+      "reference_sha256": "60b34e6bfb6da58edd49b391a16cb544992ae007d4bd05806fac1249ebf37222",
+      "representation": "web_tool_text",
+      "retrieved_at": "2026-09-13T10:55:42.398Z",
+      "source_id": "src-8d0f2f8a610a7f7d34b7c936",
+      "source_kind": "merchant_product_page",
+      "type": "source",
+      "url": "https://www.target.com/p/-/A-95054106"
+    },
+    {
+      "content_sha256": "556222d61f8885568ec05f9b1883c62b89744a6252f706e747928ca08c409c14",
+      "hash_scope": "UTF-8 cached web tool text; concatenated page-range responses when needed",
+      "id": "src-b1e6a91a1287179b75386d49",
+      "method": "web.open",
+      "page_title": "Ninja Luxe Café Mini Espresso Machine & Drip Coffee Maker with Built-in Grinder, Precision Scale & Manual Steam Wand for Lattes, Cappuccinos & More, ES301 Black",
+      "reference": "scenarios/scenario-1/product-facts/versions/1.0.0/sources/src-b1e6a91a1287179b75386d49.json",
+      "reference_sha256": "9944344f0c8530454513fd9cc7f56bca2b2a0afa913968d942722ce7d0a74e9e",
+      "representation": "web_tool_text",
+      "retrieved_at": "2026-09-13T10:55:36.440Z",
+      "source_id": "src-b1e6a91a1287179b75386d49",
+      "source_kind": "merchant_product_page",
+      "type": "source",
+      "url": "https://www.walmart.com/ip/19258703085"
+    }
+  ]
+}
