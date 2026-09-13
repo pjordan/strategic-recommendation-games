@@ -1,0 +1,60 @@
+{
+  "analysis_id": "scenario-1-strategic-learning-text",
+  "version": "1.0.0",
+  "description": "Fresh text-enabled games with no-regret and fictitious-play inspired recommender reasoning.",
+  "scenario_version": "1.3.0",
+  "facts_version": "1.0.0",
+  "budget_cents": 80000,
+  "plan_key": "cases",
+  "summary_file": "outcomes.json",
+  "arms": [
+    "text-enabled"
+  ],
+  "strata": [
+    {
+      "condition": "informed-recommender",
+      "providers": [
+        "bing"
+      ]
+    },
+    {
+      "condition": "informed-recommender",
+      "providers": [
+        "google"
+      ]
+    },
+    {
+      "condition": "competing-recommenders",
+      "providers": [
+        "bing",
+        "google"
+      ]
+    },
+    {
+      "condition": "strategic-disclosure",
+      "providers": [
+        "bing",
+        "google"
+      ]
+    },
+    {
+      "condition": "two-round-strategic-disclosure",
+      "providers": [
+        "bing",
+        "google"
+      ]
+    }
+  ],
+  "extends_analysis": "scenario-1-facts-informed-text",
+  "instruction_variant": "no-regret-fictitious-play-inspired",
+  "change": "Append one recommender-only instruction section after explicit product-fact consideration. Reason from revealed preferences, compare candidate opportunity costs against plausible opposing behavior, and consider a subjective mixture without inventing empirical play history.",
+  "facts_access": "Each recommender receives the same own-provider fact projection as the previous text-enabled study: record_id, resolution, facts, conflicts and not_established_categories. Facts are never appended to the returned cards.",
+  "buyer_information": "Unchanged: original returned cards, selected recommender text, true preferences and permitted own prior state; no direct fact files.",
+  "historical_reference": "analyses/scenario-1/facts-informed-text/runs/codex-astra-medium-pilot-001",
+  "comparison_status": "Historical descriptive rerun comparison against explicit-facts text games. This combined prompt treatment does not separately identify no-regret wording, fictitious-play wording, or extra prompt length.",
+  "randomization": "Only text-enabled games run. Provider order alternates by replicate, starting Bing first. Plan seed is retained for interface compatibility and does not randomize the single arm. No model seed or temperature is set.",
+  "failure_policy": "Preserve failed attempts, continue other scheduled cases, and report incomplete cases; never automatically rerun or substitute a successful sample.",
+  "inference": "One fresh game per condition is a pilot. Differences mix prompt changes and model variation. No causal effect, no-regret guarantee or equilibrium is established; spending and ranks are not cardinal user satisfaction.",
+  "unchanged": "Frozen recommendation cards and facts, private preferences, buyer/disclosure/follow-up role prompts, game rules, output schemas, objectives and information boundaries.",
+  "algorithm_status": "Prompt heuristic only: no repeated-game update rule, observed opponent-frequency estimator, payoff matrix, computed regret or convergence certificate."
+}

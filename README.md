@@ -39,6 +39,7 @@ The fact files are optional inputs for new analyses. Adding them does not rerun 
 
 ## Analyses
 
+- [No-regret and fictitious-play inspired prompts](analyses/scenario-1/strategic-learning-text/README.md): a new recommender-only instruction dimension extending the explicit-facts text games; a prompt heuristic, not an implemented learning algorithm.
 - [Explicit product-fact consideration](analyses/scenario-1/facts-informed-text/README.md): five text-enabled reruns with recommenders explicitly instructed to consider the same frozen facts already available in the previous study. [Pilot results](analyses/scenario-1/facts-informed-text/results.md) and [interpretation](analyses/scenario-1/facts-informed-text/pilot-notes.md).
 - [Paired whole-game study of recommender text](analyses/scenario-1/recommender-text/README.md): fresh text-enabled and list-only games across five strategic conditions, using Scenario 1.3.0 and frozen product facts. [Pilot results](analyses/scenario-1/recommender-text/results.md) and [interpretation](analyses/scenario-1/recommender-text/pilot-notes.md).
 - [Two rounds of strategic disclosure](analyses/scenario-1/two-round-strategic-disclosure/README.md): adaptive buyer follow-ups, selective sharing of rival offers, independent second replies, and a final choice from all four response lists.
