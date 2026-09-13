@@ -10,7 +10,14 @@ game = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(game)
 
 
-def verify(directory):
+replay = game.runtime.load_module('analysis_replay', game.REPO/'tools/analysis_replay.py')
+
+
+def verify(directory, *, implementation='recorded'):
+    return replay.verify(directory, game, _verify_game, implementation)
+
+
+def _verify_game(directory, *, game, HERE, check_source=True):
     meta = json.loads((directory/'manifest.json').read_text())
     game.adapter.scenario.validate_version('1.2.0')
     if meta['scenario_manifest_sha256'] != game.sha(game.adapter.scenario_manifest_path('satisfaction').read_bytes()):
@@ -20,7 +27,7 @@ def verify(directory):
     for relative, digest in meta['source_sha256'].items():
         if game.sha((directory/'source'/relative).read_bytes()) != digest:
             raise ValueError('Archived source hash mismatch')
-        if meta['status'] == 'completed' and game.sha((game.REPO/relative).read_bytes()) != digest:
+        if check_source and meta['status'] == 'completed' and game.sha((game.REPO/relative).read_bytes()) != digest:
             raise ValueError('Source changed: verify with the recorded repository version')
     if meta['status'] != 'completed':
         return {'run_id':meta['run_id'],'status':meta['status']}
@@ -56,6 +63,8 @@ def verify(directory):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('directories', nargs='*')
+    parser.add_argument('--implementation', choices=['recorded', 'current'], default='recorded',
+                        help='Recorded-source replay (default) or current-code compatibility check')
     args = parser.parse_args()
     directories = list(map(Path,args.directories)) if args.directories else sorted((HERE/'runs').iterdir())
-    print(json.dumps([verify(p) for p in directories],indent=2))
+    print(json.dumps([verify(p, implementation=args.implementation) for p in directories],indent=2))

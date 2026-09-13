@@ -47,6 +47,33 @@ The fact files are optional inputs for new analyses. Adding them does not rerun 
 
 The frozen Scenario 1 manifest remains a data-only snapshot. Analysis conditions and results are versioned separately under `analyses/`.
 
+## Analysis implementation and offline replay
+
+The four strategic game runners share [model execution and response validation](tools/analysis_runtime.py). Each condition still defines its own move sequence, information boundaries, prompt assembly and revenue attribution. Harness commands remain in the existing oracle adapter. This refactor preserves the prompt text, output schemas, $800 budget rule and version 1.2.0 inputs used by those games; it does not adopt the newer product-fact release or change model choices.
+
+Strategic run verifiers now load the run's archived runner and dependencies into a temporary repository copy, after checking their source hashes. They check the frozen scenario, exact actor inputs, response schemas, artifact hashes, selected cards, transcripts and reconstructed outcomes. Failed runs receive provenance checks but have no completed outcome to replay. Only use this feature with trusted repository archives: hash consistency does not make arbitrary Python safe to execute.
+
+For example, from the repository root:
+
+```bash
+# Replay the recorded implementation, without calling a model.
+python3 analyses/scenario-1/two-round-strategic-disclosure/verify_runs.py
+
+# Separately test whether the current implementation reproduces saved inputs/results.
+python3 analyses/scenario-1/two-round-strategic-disclosure/verify_runs.py --implementation current
+
+# Test every strategic archive under both implementations, execution with mocked
+# Codex/Claude responses, information boundaries, and scenario data validation.
+python3 -m unittest discover -s tests
+
+# Verify the unchanged oracle runs using their existing verifier.
+python3 analyses/scenario-1/oracle-access/verify_runs.py
+```
+
+The same `--implementation` option is available in the informed-recommender, competing-recommenders and strategic-disclosure verifiers. A current-code compatibility check intentionally allows active source hashes to differ; it still checks archived source integrity and exact saved inputs/results. New strategic runs snapshot the shared modules and condition verifier along with the existing source files. Historical run archives remain unchanged.
+
+Offline replay reuses saved model outputs. A fresh model run can choose differently even with the same harness, model and effort settings. Configuration consolidation, shared Markdown prompt sections and smaller response contracts are deferred; changes to agent-facing inputs or outputs should be versioned separately.
+
 ## Use the archived fixed data offline
 
 Python 3.9+ is sufficient; there are no external dependencies or service calls.
