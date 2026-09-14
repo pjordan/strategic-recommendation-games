@@ -1,0 +1,35 @@
+{
+  "analysis_id": "scenario-1-preference-elicitation",
+  "version": "1.0.0",
+  "description": "Two-round strategic sales discovery followed by tailored final recommendations.",
+  "scenario_version": "1.3.0",
+  "facts_version": "1.0.0",
+  "budget_cents": 80000,
+  "plan_key": "cases",
+  "summary_file": "outcomes.json",
+  "arms": [
+    "text-enabled"
+  ],
+  "strata": [
+    {
+      "condition": "two-round-strategic-disclosure",
+      "providers": [
+        "bing",
+        "google"
+      ]
+    }
+  ],
+  "extends_analysis": "scenario-1-strategic-learning-text",
+  "instruction_variant": "discovery-then-tailored-offer",
+  "change": "Add staged recommender discovery/final-offer instructions, buyer opening and truthful answer instructions; permit round-1 private conditional forecasts over the own catalog.",
+  "facts_access": "Each recommender receives the same own-provider fact projection as the previous text-enabled study: record_id, resolution, facts, conflicts and not_established_categories. Facts are never appended to the returned cards.",
+  "buyer_information": "Same cards and true preference brief; new opening and answer instructions. Buyer sees all returned cards from both rounds and selected public text.",
+  "historical_reference": "analyses/scenario-1/strategic-learning-text/runs/codex-astra-medium-pilot-001/two-round-strategic-disclosure-r001/text-enabled",
+  "comparison_status": "Historical descriptive comparison of a combined discovery protocol treatment and fresh model draws, not an isolated causal test.",
+  "randomization": "Only text-enabled games run. Provider order alternates by replicate, starting Bing first. Plan seed is retained for interface compatibility and does not randomize the single arm. No model seed or temperature is set.",
+  "failure_policy": "Preserve failed attempts, continue other scheduled cases, and report incomplete cases; never automatically rerun or substitute a successful sample.",
+  "inference": "One fresh game per condition is a pilot. Differences mix prompt changes and model variation. No causal effect, no-regret guarantee or equilibrium is established; spending and ranks are not cardinal user satisfaction.",
+  "unchanged": "Frozen cards, facts, private preferences, final buyer prompt, schemas, revenue objective, sealed replies and final availability/budget validation.",
+  "algorithm_status": "Prompt heuristic only: no repeated-game update rule, observed opponent-frequency estimator, payoff matrix, computed regret or convergence certificate.",
+  "forecast_semantics": "Round-1 private forecasts may reference any own-catalog offer as a conditional eventual purchase after discovery. Forecasts do not expose cards or grant purchase availability. Round-2 forecasts remain limited to current candidate plus own previously returned cards."
+}
