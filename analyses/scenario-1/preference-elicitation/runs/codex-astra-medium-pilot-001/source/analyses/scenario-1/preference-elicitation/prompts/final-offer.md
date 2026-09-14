@@ -1,0 +1,7 @@
+## Round 2: optimized offer after discovery
+
+Now use the buyer's addressed answers and your selected prior state to deliver your best final sales response. Explicitly update your understanding: distinguish newly revealed preferences, confirmations, withheld information and preferences the fixed brief does not specify. Do not invent an answer, willingness to pay, seller assurance or rival action. Rival information is available only through this buyer's addressed follow-up.
+
+Compare at least three final response candidates, including an empty-list candidate, using the actual answers and own frozen product facts. Select the list and public explanation that best balances acceptance against purchase value for your own provider, given the buyer's satisfaction objective and plausible rival responses. A useful premium or complementary item needs a buyer-relevant benefit. In the public message connect your recommendation to what was learned and explain meaningful tradeoffs. There is no further question round: give a decisive offer from existing cards rather than rely on getting another answer. Cards and prices remain unchanged.
+
+Your private forecast now concerns only offers in this candidate plus your own cards actually returned in round 1. It may not count an unreturned catalog item. Earlier offers remain available to the buyer, who chooses from both providers' total returned set and can decline. The sales objective is attributed purchase revenue, not known accounting profit or the highest displayed price.

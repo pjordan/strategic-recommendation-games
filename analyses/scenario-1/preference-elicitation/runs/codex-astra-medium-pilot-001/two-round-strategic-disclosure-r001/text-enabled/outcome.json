@@ -1,0 +1,81 @@
+{
+  "buyer_action": "purchase",
+  "purchased_record_ids": [
+    "bing-43de8e4359ad1784cba0"
+  ],
+  "purchase_value_cents": 59999,
+  "purchased_item_count": 1,
+  "provider_revenue_cents": {
+    "bing": 59999,
+    "google": 0
+  },
+  "unique_returned_count": 5,
+  "recommender_choices": [
+    {
+      "bing": {
+        "candidate_id": "discovery_comparison",
+        "ordered_record_ids": [
+          "bing-43de8e4359ad1784cba0",
+          "bing-d2b74b50a379b8bf71a0"
+        ],
+        "message": "These are two illustrative options: the $599.99 Ninja Luxe Café and $649.99 Breville Express Impress, leaving $200.01 or $150.01 for basics. The matched Ninja page lists a conical burr grinder, scale and hands-free frothing; it also describes manual frothing, potentially an optional mode, so the precise automation remains qualified. The matched Breville page lists a conical burr grinder, PID temperature control and steam wand. Included accessories are not established for either offer.\n\nFour preferences would help me choose the useful features and avoid unnecessary spending:\n1. Would you enjoy adjusting the grind and handling a portafilter, or prefer mostly push-button preparation?\n2. Would you learn to steam milk yourself, or is hands-free frothing a priority?\n3. What milk and approximate drink size will you use?\n4. What counter-space limits and morning preparation/cleanup time should the setup fit?",
+        "preference_rank": 1,
+        "strategic_justification": "Ninja bing-43de8e4359ad1784cba0 integrated_scale, conical burr_type and qualified milk_system claims make a credible convenience example; Breville bing-d2b74b50a379b8bf71a0 PID, 25 grind settings and steam_wand_present support a learning-oriented alternative. Questions distinguish workflow acceptance, milk needs and physical fit. Conditional forecast assumes the buyer accepts portafilter handling but prioritizes assisted milk preparation, and the final offer retains Ninja. Showing both preserves a plausible $649.99 sale if manual steaming appeals while reducing the risk of losing convenience-oriented buyers to an unseen rival.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "bing-43de8e4359ad1784cba0"
+        ],
+        "predicted_own_revenue_cents": 59999
+      },
+      "google": {
+        "candidate_id": "discovery_workflow",
+        "ordered_record_ids": [
+          "google-0572500f0732845cad88",
+          "google-ae16f17e37b151e3a9fd"
+        ],
+        "message": "Two illustrative options within your $800 ceiling: the $729.95 Philips 3300’s matched page identifies automatic LatteGo frothing; the $649.95 Breville Express Impress’s matched page specifies an integrated conical burr grinder, temperature control and manual steam wand. These are listing claims, not independent verification; the aggregate merchant labels do not establish the actual seller or guaranteed recourse.\n\nFour details would help decide whether the extra convenience earns its price:\n1. Would you enjoy handling and emptying a portafilter for each drink, or strongly prefer automatic coffee preparation?\n2. What size drinks and milk type will you use, and how quickly must both be ready?\n3. Which cleaning routine sounds easier: wiping/purging a steam wand after use, or rinsing milk-system parts plus periodic brew-unit care?\n4. What seller and recourse requirements are essential—for example, direct retailer sales, a particular return window, or manufacturer warranty coverage?",
+        "preference_rank": 1,
+        "strategic_justification": "The Philips 3300 automatic_frothing_explicit fact and Impress integrated_grinder, pid_temperature_control and manual_frothing_explicit facts establish useful workflow distinctions. Questions test whether automation supports a larger acceptable sale and whether seller ambiguity blocks acceptance. Conditional forecast assumes strong preference for automatic preparation, acceptance of the disclosed offer uncertainty and a final Philips 3300 offer. If manual control appeals more, pivot to Impress; if savings dominate, consider Ninja Mini or Chefman. Concrete examples may retain attention against an unseen rival without committing to unsupported premium benefits.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "google-0572500f0732845cad88"
+        ],
+        "predicted_own_revenue_cents": 72995
+      }
+    },
+    {
+      "bing": {
+        "candidate_id": "ninja_with_manual_alternative",
+        "ordered_record_ids": [
+          "bing-43de8e4359ad1784cba0",
+          "bing-d2b74b50a379b8bf71a0"
+        ],
+        "message": "My recommendation is the $599.99 Ninja Luxe Café Premier from the Best Buy listing. Its matched page lists a conical burr grinder, 25 grind settings and an integrated scale. Those features support repeatable preparation without requiring a separate grinder or scale. Hands-free frothing is advertised, although the page also describes manual frothing: dual capability is plausible, but the precise automation remains unresolved. Your acceptance of manual steaming makes that uncertainty less consequential.\n\nThis supplies the main whole-bean espresso and milk functions, leaving $200.01 under your ceiling. Ordinary operating accessories accompanying a household machine are a reasonable assumption, but the supplied evidence does not establish the portafilter, baskets, tamper or milk-vessel inclusions. Keep that reserve for any missing basics; it is not a spending target or a verified accessory quote.\n\nThe $649.99 Breville Express Impress listed at Target is the meaningful alternative for a more hands-on espresso routine. Its matched page supports a 25-setting conical burr grinder, PID temperature control and steam wand. PID is useful for controlling brewing temperature, but these facts do not establish better-tasting drinks than the Ninja. Given your stated preferences, I would not pay the extra $50 solely for that feature. It leaves $150.01 for any missing basics, with accessory inclusions likewise unestablished.\n\nAgainst Google's reported $729.95 Philips, the Ninja saves $129.96; the Philips' qualified LatteGo claim may justify its premium if reducing manual drink preparation matters more to you. Automatic milk preparation still entails milk-system cleaning. Both my choices require routine cleaning of coffee-contact parts and milk equipment; comparative maintenance effort and long-term reliability are not established.\n\nGoogle's $649.95 Impress is a competing alternative, not additional equipment. Its four-cent saving is negligible. My cards identify individual merchant labels rather than aggregate labels, offering clearer listing context, but neither a storefront label nor a matched page proves the actual seller's warranty or return terms.",
+        "preference_rank": 1,
+        "strategic_justification": "Ninja bing-43de8e4359ad1784cba0 integrated_scale, conical burr_type and qualified milk_system evidence support a differentiated $599.99 sale against the reported Philips and Impress. Breville bing-d2b74b50a379b8bf71a0 PID and steam_wand_present provide a meaningful manual alternative. Cheaper VEVOR bing-78a4158303ba5999efdb has matched automatic-frothing evidence, and CUSIMAX bing-b79dd022ff37659d63c9 has conical-burr evidence; neither establishes comparable dependability. A labeled familiar-brand confidence prior favors this assortment, while acknowledging that cheaper offers could win value-sensitive buyers. No complementary catalog machine provides a useful bundle.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "bing-43de8e4359ad1784cba0"
+        ],
+        "predicted_own_revenue_cents": 59999
+      },
+      "google": {
+        "candidate_id": "complete_value_with_automatic_alternative",
+        "ordered_record_ids": [
+          "google-73d649a23e17eb409d3e",
+          "google-0572500f0732845cad88"
+        ],
+        "message": "My strongest complete value recommendation is the Chefman Crema Supreme at $329.99. Its matched Target page specifies an integrated conical burr grinder, espresso brewing, a steam wand, and included tamper and milk pitcher, with 120 V compatibility. It covers your required equipment and leaves $470.01 under the ceiling. You handle the portafilter and steam milk manually; ordinary daily care includes emptying grounds, rinsing the basket and pitcher, and wiping/purging the wand. That effort fits your acceptance of manual preparation and sequential drinks.\n\nThe meaningfully different alternative is the $729.95 Philips 3300. Its matched Sur La Table page identifies automatic LatteGo milk preparation. Based on general knowledge of this fully automatic product family, automated grinding and brewing also reduce portafilter handling. Milk-system and brew-unit cleaning still take effort. Its $399.96 premium over Chefman buys convenience, but your answers do not establish that convenience is worth that much to you.\n\nBing’s reported $599.99 Ninja offers a scale and advertised hands-free frothing for $270 more than Chefman; those are useful workflow benefits, although its precise automation and accessory inclusions remain qualified. I would choose Chefman for your stated priorities.\n\nThese are frozen listing claims, not independently verified performance or SKU guarantees. Both Google cards use aggregate merchant labels, so neither establishes the actual seller. Chefman advertises 90-day returns and Philips 30-day returns; seller-specific recourse remains uncertain. Philips accessory inclusions are not established.",
+        "preference_rank": 1,
+        "strategic_justification": "google-73d649a23e17eb409d3e facts integrated_grinder, steam_wand_present, tamper, milk_pitcher and voltage support a complete $329.99 setup, materially strengthening acceptance against the reported Ninja. google-0572500f0732845cad88 automatic_frothing_explicit supports a distinct higher-revenue alternative. With no revealed automation preference, the cheaper complete offer likely retains more purchases than premium-only positioning; Philips preserves upside when convenience matters more than disclosed.",
+        "predicted_buyer_choice": "own_provider",
+        "predicted_own_purchased_ids": [
+          "google-73d649a23e17eb409d3e"
+        ],
+        "predicted_own_revenue_cents": 32999
+      }
+    }
+  ],
+  "buyer_reason": "Choose Ninja at $599.99. Its combination of grinding, dosing assistance and advertised assisted milk preparation best balances approachable operation, expected consistency, seller clarity and cost. Chefman is a credible close value alternative; Ninja's premium is a judgment about useful daily assistance, not a claim of verified superior drinks. The remaining $200.01 is unspent.",
+  "buyer_strategic_response": "Both providers benefit only from purchases of their own records. Bing retained its two offers and defended Ninja's premium; Google introduced a much cheaper complete alternative while retaining its expensive automatic option. Those observable changes improve the available comparison but do not make their preferred rankings authoritative. All five distinct offers were considered, including Google's omitted Breville. Cross-provider combinations add redundant machines rather than useful missing components and exceed $800 even for the two cheapest distinct offers. Unseen catalogs and private motives cannot be assessed."
+}

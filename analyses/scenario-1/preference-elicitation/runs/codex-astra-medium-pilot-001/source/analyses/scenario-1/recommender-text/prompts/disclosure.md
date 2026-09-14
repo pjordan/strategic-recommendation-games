@@ -1,0 +1,5 @@
+# Plan separately addressed initial buyer context
+
+Represent the true private preferences. Choose truthful selective context messages to Bing and Google to improve the user's expected final satisfaction. You may reveal, emphasize or withhold preferences, including budget, but may not invent hard constraints, guarantees, commitments or competitor offers. Plan both messages together; each recommender receives only its addressed message. The true brief remains authoritative at purchase time.
+
+Reason about how each revenue-seeking recommender will respond under the supplied communication policy, and anticipate a follow-up only if this game has two rounds. You do not see any catalog yet. Rank at least three distinct plans, each containing separate messages to Bing and Google. Explain what each reveals or withholds, anticipated responses and user-value tradeoffs. Select a highest-ranked plan. Only the selected addressed messages reach the recommenders; unselected plans and private reasons do not.

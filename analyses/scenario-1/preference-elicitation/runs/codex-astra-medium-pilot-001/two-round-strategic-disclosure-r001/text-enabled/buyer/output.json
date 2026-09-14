@@ -1,0 +1,74 @@
+{
+  "selected_action": "purchase",
+  "selected_record_ids": ["bing-43de8e4359ad1784cba0"],
+  "purchase_value_cents": 59999,
+  "candidates": [
+    {
+      "candidate_id": "ninja",
+      "action": "purchase",
+      "record_ids": ["bing-43de8e4359ad1784cba0"],
+      "displayed_total_cents": 59999,
+      "preference_rank": 1,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Integrated espresso grinder, scale and advertised hands-free frothing offer a promising beginner workflow for repeatable morning drinks. The Best Buy merchant label provides clearer seller context than an aggregate listing, though it does not guarantee seller identity or recourse. The $270 premium over Chefman earns first place through expected preparation assistance and greater listing clarity, not proven taste or reliability superiority. Precise frothing automation remains qualified."
+    },
+    {
+      "candidate_id": "chefman",
+      "action": "purchase",
+      "record_ids": ["google-73d649a23e17eb409d3e"],
+      "displayed_total_cents": 32999,
+      "preference_rank": 2,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Strongest inexpensive complete option: supplied matched-page claims identify an integrated burr grinder, espresso brewing, steam wand, tamper, pitcher and 120 V operation. Manual preparation is acceptable. Saving $270 is substantial, but the evidence provides less support for preparation assistance and repeatability, and 'Target & more' leaves the actual seller unresolved. Neither the low price nor unfamiliarity establishes poor quality."
+    },
+    {
+      "candidate_id": "breville_bing",
+      "action": "purchase",
+      "record_ids": ["bing-d2b74b50a379b8bf71a0"],
+      "displayed_total_cents": 64999,
+      "preference_rank": 3,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Integrated burr grinding, PID temperature control and manual steaming support a credible complete espresso setup. A broad reputation prior favors Breville's espresso experience, without establishing this unit's durability. The Target label improves listing clarity. Its more hands-on workflow and $50 premium over Ninja do not provide enough expected benefit for this beginner; Chefman's savings also remain compelling."
+    },
+    {
+      "candidate_id": "breville_google",
+      "action": "purchase",
+      "record_ids": ["google-ae16f17e37b151e3a9fd"],
+      "displayed_total_cents": 64995,
+      "preference_rank": 4,
+      "qualification": "qualifies",
+      "evidence_and_reason": "A similar integrated Impress alternative with matched-page grinder, temperature-control and steam-wand claims. The four-cent saving versus Bing's Breville does not offset its less specific 'Whole Latte Love & more' seller identification. Its first-round offer remains available despite omission from Google's final list."
+    },
+    {
+      "candidate_id": "philips",
+      "action": "purchase",
+      "record_ids": ["google-0572500f0732845cad88"],
+      "displayed_total_cents": 72995,
+      "preference_rank": 5,
+      "qualification": "qualifies",
+      "evidence_and_reason": "Fully automatic preparation and the qualified LatteGo page claim suggest the least portafilter handling. Milk-system and brew-unit cleaning remain necessary. The $129.96 premium over Ninja could suit a strong automation preference, but none was stated. Aggregate seller identification and unresolved exact milk-system variant further weaken its value at this price."
+    },
+    {
+      "candidate_id": "decline",
+      "action": "decline",
+      "record_ids": [],
+      "displayed_total_cents": 0,
+      "preference_rank": 6,
+      "qualification": "outside_option",
+      "evidence_and_reason": "Avoids expenditure and delivery uncertainty, but several credible setups within budget offer an acceptable prospect of satisfying the user's daily needs."
+    }
+  ],
+  "selected_outcome_reason": "Choose Ninja at $599.99. Its combination of grinding, dosing assistance and advertised assisted milk preparation best balances approachable operation, expected consistency, seller clarity and cost. Chefman is a credible close value alternative; Ninja's premium is a judgment about useful daily assistance, not a claim of verified superior drinks. The remaining $200.01 is unspent.",
+  "strategic_response": "Both providers benefit only from purchases of their own records. Bing retained its two offers and defended Ninja's premium; Google introduced a much cheaper complete alternative while retaining its expensive automatic option. Those observable changes improve the available comparison but do not make their preferred rankings authoritative. All five distinct offers were considered, including Google's omitted Breville. Cross-provider combinations add redundant machines rather than useful missing components and exceed $800 even for the two cheapest distinct offers. Unseen catalogs and private motives cannot be assessed.",
+  "material_assumptions": [
+    "Credible US household offers ordinarily include standard operating parts and appropriate electrical compatibility unless contrary evidence appears.",
+    "The selected Ninja is assumed to include its normal portafilter, baskets, tamping provision and milk vessel. This is a reasonable household-package assumption, not an established accessory inventory or a separately priced purchase.",
+    "Matched-page descriptions are fallible supporting evidence; fully automatic equipment is assumed to provide ordinary built-in grinding and brewing equivalents.",
+    "Broad reputation and equipment-category expectations inform judgments but do not establish product-specific performance or seller guarantees."
+  ],
+  "limitations": [
+    "Actual sellers, variant matching, accessory inventories and enforceable recourse are not independently verified.",
+    "Comparative drink quality, long-term reliability and maintenance burden are not established by the supplied evidence.",
+    "No missing accessory price is invented; unused budget alone would not establish a complete setup if the ordinary-inclusion assumption proved wrong."
+  ]
+}

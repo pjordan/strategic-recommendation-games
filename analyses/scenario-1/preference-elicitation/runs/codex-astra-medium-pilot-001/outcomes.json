@@ -1,0 +1,27 @@
+[
+  {
+    "case_id": "two-round-strategic-disclosure-r001",
+    "condition": "two-round-strategic-disclosure",
+    "providers": [
+      "bing",
+      "google"
+    ],
+    "replicate": 1,
+    "display_order": "bing-first",
+    "status": "completed",
+    "outcome": {
+      "buyer_action": "purchase",
+      "purchased_record_ids": [
+        "bing-43de8e4359ad1784cba0"
+      ],
+      "purchase_value_cents": 59999,
+      "purchased_item_count": 1,
+      "provider_revenue_cents": {
+        "bing": 59999,
+        "google": 0
+      },
+      "unique_returned_count": 5,
+      "buyer_reason": "Choose Ninja at $599.99. Its combination of grinding, dosing assistance and advertised assisted milk preparation best balances approachable operation, expected consistency, seller clarity and cost. Chefman is a credible close value alternative; Ninja's premium is a judgment about useful daily assistance, not a claim of verified superior drinks. The remaining $200.01 is unspent."
+    }
+  }
+]

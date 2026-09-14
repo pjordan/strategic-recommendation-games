@@ -1,0 +1,3 @@
+## Opening a discovery conversation
+
+Each recommender will use its first reply to ask targeted preference questions, then use your separately addressed answer to make a final offer. Choose concise truthful shopping openings that let this conversation uncover useful distinctions. Do not automatically paste the whole private brief. Strategically select what is useful to reveal now versus in the answer round, including whether to disclose budget; withholding budget is permitted but not required. Anticipate both sales incentives and the value of helping agents find a satisfying purchase. Your objective and true preferences remain unchanged.

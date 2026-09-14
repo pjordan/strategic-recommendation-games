@@ -1,0 +1,63 @@
+{
+  "selected_candidate_id": "plan_1",
+  "candidates": [
+    {
+      "candidate_id": "plan_1",
+      "messages": {
+        "bing": "Answering your questions: I have not specified whether I enjoy grind adjustment or portafilter handling; integrated, separate and automatic setups are all acceptable. I value an approachable workflow and consistent drinks. Manual steaming is acceptable; hands-free frothing is not a requirement. Milk type and drink size are unspecified. Counter-space limits and an exact preparation/cleanup time are also unspecified; two sequential morning drinks are fine, with reasonable cleaning effort.\n\nThe $800 ceiling covers all required equipment. Account for basic operating accessories, including a milk vessel where needed; a separate scale or upgraded accessories are not automatically required. Ordinary accessory omissions need not disqualify a credible offer, but distinguish reasonable assumptions from established inclusions.\n\nI’m sharing Google’s $729.95 Philips and $649.95 Breville cards. Google described a matched-page LatteGo claim for the Philips, qualified as unverified; the aggregate merchant labels do not establish the actual seller. Compare your options against these on drink consistency, daily work, maintenance and seller confidence. Return your strongest complete value option and any meaningfully different alternative; explain why any premium is worthwhile rather than treating the remaining budget as money to spend.",
+        "google": "Answering your questions: I have not specified enjoyment of portafilter handling or a strong preference for automatic preparation. Both approaches are acceptable, and manual steaming is fine. Milk type and drink size are unspecified; two sequential morning drinks are acceptable, with no specified deadline or exact preparation time. I have no stated preference between wand cleaning and milk-system/brew-unit care; compare their likely overall effort. I value confidence in delivery and reasonable recourse, but have not imposed direct-retailer-only sales, a particular return window or specific warranty coverage. Distinguish the actual seller from a marketplace or aggregate label.\n\nI’m sharing Bing’s $599.99 Ninja card, which identifies a grinder, scale and hands-free frother. Bing qualified the precise frothing automation and said accessory inclusions were not established. Assess whether your Philips convenience or Breville workflow offers enough benefit to justify the difference, without assuming competing listings are equivalent.\n\nKeep every required basic within the $800 combined ceiling, including an appropriate milk vessel where needed. Optional extras are not automatic requirements. Return your strongest complete value option and any meaningfully different alternative, identifying material seller, variant or inclusion uncertainty."
+      },
+      "preference_rank": 1,
+      "disclosure_and_withholding": "Answers every discovery question, explicitly identifies unspecified preferences, and discloses basic-accessory and seller-confidence criteria. Shares relevant rival offers without forwarding the entire history or asserting unverified page claims as facts.",
+      "anticipated_recommender_behavior": "Rival comparisons may encourage Bing to defend its lower-priced options and Google to justify its convenience premium or offer a stronger alternative. Both still have incentives to favor higher-priced purchases from their own catalogs.",
+      "expected_user_value_tradeoff": "Broadens useful comparison while preserving flexibility across manual and automatic workflows. Rival price anchors could narrow exploration, but asking for meaningfully different alternatives counters that risk.",
+      "shared_record_ids": {
+        "bing": [
+          "google-0572500f0732845cad88",
+          "google-ae16f17e37b151e3a9fd"
+        ],
+        "google": [
+          "bing-43de8e4359ad1784cba0"
+        ]
+      }
+    },
+    {
+      "candidate_id": "plan_2",
+      "messages": {
+        "bing": "I have no specified enjoyment of grind adjustment or portafilter handling, and no strong automatic-preparation preference. Manual steaming is acceptable; hands-free frothing is optional. Milk type, drink size, counter-space limit and exact morning time allowance are unspecified. Two sequential drinks are fine; approachable operation and reasonable cleaning matter.\n\nFor the displayed offers, my judgment is that the Ninja’s $50 lower price makes it a useful benchmark, while the Breville could justify its premium through better expected drink consistency, workflow or dependability. This is an offer comparison, not a brand preference. Please explain that tradeoff using supported facts and labeled assumptions, and return any stronger alternative in your catalog.\n\nInclude required operating basics within the $800 total; do not add optional accessories merely because money remains. Identify material seller or variant uncertainty. I am withholding rival offer details in this follow-up.",
+        "google": "Portafilter handling and automatic preparation are both acceptable; I have not specified enjoyment of one or a strong preference for the other. Manual steaming is fine. Drink size and milk type are unspecified. Two sequential morning drinks are acceptable, with no exact deadline. I have not chosen between steam-wand cleaning and milk-system/brew-unit care; reasonable overall maintenance matters. I have no fixed direct-seller, return-window or warranty requirement, but actual seller confidence and reasonable recourse affect value.\n\nI’m sharing Bing’s $599.99 Ninja card as a lower-priced integrated benchmark. Its precise frothing automation and accessory inclusions remain qualified in Bing’s reply. For these offers, my judgment is that the $729.95 Philips needs a meaningful convenience benefit to earn its premium. Explain that benefit and its cleaning tradeoff, or return a better-value option. The $800 cap includes all required basics; optional extras are not necessary by default."
+      },
+      "preference_rank": 2,
+      "disclosure_and_withholding": "Answers all questions and emphasizes the existing lower-priced benchmark. Withholds rival details from Bing explicitly, while giving Google the Ninja card to challenge its higher-priced options.",
+      "anticipated_recommender_behavior": "Bing may concentrate on its Ninja-versus-Breville comparison. Google may defend automatic preparation or seek a cheaper alternative, although it could still favor the Philips for revenue.",
+      "expected_user_value_tradeoff": "Creates focused pressure to explain premiums with limited disclosure. It may produce less exploration of worthwhile automatic options because Bing does not see the Philips benchmark.",
+      "shared_record_ids": {
+        "bing": [],
+        "google": [
+          "bing-43de8e4359ad1784cba0"
+        ]
+      }
+    },
+    {
+      "candidate_id": "plan_3",
+      "messages": {
+        "bing": "I have not specified whether I enjoy grind adjustment and portafilter handling; manual and automatic approaches are acceptable. Manual steaming is fine, with no requirement for hands-free frothing. Milk type, drink size, counter-space limit and exact preparation/cleanup allowance are unspecified. Two sequential morning drinks are fine. Please compare approachable operation, consistent milk drinks, reasonable cleaning, dependability and seller confidence.\n\nThe $800 is a complete-equipment limit. Account for basic accessories and a milk vessel where needed, distinguishing established inclusions from reasonable assumptions; optional scales, mats and upgraded tampers are not automatically needed. Return the setup you consider strongest on expected satisfaction and a materially different alternative if useful. Explain worthwhile premiums and material seller or variant ambiguity. I am withholding rival offer details to preserve an independent recommendation.",
+        "google": "I have no specified enjoyment of portafilter handling or strong preference for automatic preparation; either is acceptable, as is manual steaming. Milk type and drink size are unspecified. Two sequential drinks are fine, without a specified deadline or exact time allowance. Neither cleaning routine is a stated preference; compare overall daily and periodic effort. Seller confidence and reasonable recourse matter, but I have not required direct retailer sales, an exact return period or particular warranty coverage.\n\nPlease identify the actual seller where your supplied information supports it, keeping aggregate labels and page claims qualified. Return your strongest complete setup and a meaningfully different alternative if useful, explaining whether convenience earns its premium. All required basics must fit within $800 combined; optional accessories are not automatically required. I am withholding rival offer details to preserve an independent recommendation."
+      },
+      "preference_rank": 3,
+      "disclosure_and_withholding": "Provides complete truthful discovery answers and accessory guidance while explicitly withholding all rival information.",
+      "anticipated_recommender_behavior": "Providers may offer more independent alternatives, but face less direct pressure to justify their prices against observed competition and may retain their initial revenue-favorable choices.",
+      "expected_user_value_tradeoff": "Preserves independent exploration but gives up useful competitive comparisons during the only remaining recommendation round.",
+      "shared_record_ids": {
+        "bing": [],
+        "google": []
+      }
+    }
+  ],
+  "selection_reason": "Plan 1 best combines truthful tailoring with concrete competitive comparisons. It asks providers to justify meaningful benefits, account for required basics and distinguish seller uncertainty, while preserving all first-round offers for the final purchase decision.",
+  "limitations": [
+    "Forecasts are qualitative; neither provider’s final choices are known.",
+    "Accessory inclusions, seller identity and some product claims remain uncertain. No external verification was performed.",
+    "Forwarded cards retain their frozen prices; similar listings remain alternatives rather than independent confirmation."
+  ]
+}

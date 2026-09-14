@@ -2,6 +2,8 @@
 
 Scenario 1, cards 1.3.0, facts 1.0.0. This two-round game extends the two-round case of [strategic-learning-text](../strategic-learning-text/README.md). Each recommender uses its initial selected text to ask 2–4 targeted questions, then uses the separately addressed buyer answer to tailor its final offer. Bing and Google agents maximize attributed purchase revenue (costs and margins are unavailable), while the buyer maximizes satisfaction under the unchanged $800 equipment budget.
 
+The [completed pilot](results.md) selected Bing’s Ninja Premier at **$599.99**, compared with Google’s Ninja Mini at $449.99 in the prior two-round pilot. See the [interpretation and question audit](pilot-notes.md); the changed available set prevents treating this as an isolated preference reversal.
+
 ## Protocol
 
 1. Buyer ranks truthful opening plans and sends a selected, separately addressed message to each provider.

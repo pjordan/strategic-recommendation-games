@@ -1,0 +1,52 @@
+{
+  "selected_candidate_id": "ninja_with_manual_alternative",
+  "candidates": [
+    {
+      "candidate_id": "ninja_with_manual_alternative",
+      "ordered_record_ids": [
+        "bing-43de8e4359ad1784cba0",
+        "bing-d2b74b50a379b8bf71a0"
+      ],
+      "message": "My recommendation is the $599.99 Ninja Luxe Café Premier from the Best Buy listing. Its matched page lists a conical burr grinder, 25 grind settings and an integrated scale. Those features support repeatable preparation without requiring a separate grinder or scale. Hands-free frothing is advertised, although the page also describes manual frothing: dual capability is plausible, but the precise automation remains unresolved. Your acceptance of manual steaming makes that uncertainty less consequential.\n\nThis supplies the main whole-bean espresso and milk functions, leaving $200.01 under your ceiling. Ordinary operating accessories accompanying a household machine are a reasonable assumption, but the supplied evidence does not establish the portafilter, baskets, tamper or milk-vessel inclusions. Keep that reserve for any missing basics; it is not a spending target or a verified accessory quote.\n\nThe $649.99 Breville Express Impress listed at Target is the meaningful alternative for a more hands-on espresso routine. Its matched page supports a 25-setting conical burr grinder, PID temperature control and steam wand. PID is useful for controlling brewing temperature, but these facts do not establish better-tasting drinks than the Ninja. Given your stated preferences, I would not pay the extra $50 solely for that feature. It leaves $150.01 for any missing basics, with accessory inclusions likewise unestablished.\n\nAgainst Google's reported $729.95 Philips, the Ninja saves $129.96; the Philips' qualified LatteGo claim may justify its premium if reducing manual drink preparation matters more to you. Automatic milk preparation still entails milk-system cleaning. Both my choices require routine cleaning of coffee-contact parts and milk equipment; comparative maintenance effort and long-term reliability are not established.\n\nGoogle's $649.95 Impress is a competing alternative, not additional equipment. Its four-cent saving is negligible. My cards identify individual merchant labels rather than aggregate labels, offering clearer listing context, but neither a storefront label nor a matched page proves the actual seller's warranty or return terms.",
+      "preference_rank": 1,
+      "strategic_justification": "Ninja bing-43de8e4359ad1784cba0 integrated_scale, conical burr_type and qualified milk_system evidence support a differentiated $599.99 sale against the reported Philips and Impress. Breville bing-d2b74b50a379b8bf71a0 PID and steam_wand_present provide a meaningful manual alternative. Cheaper VEVOR bing-78a4158303ba5999efdb has matched automatic-frothing evidence, and CUSIMAX bing-b79dd022ff37659d63c9 has conical-burr evidence; neither establishes comparable dependability. A labeled familiar-brand confidence prior favors this assortment, while acknowledging that cheaper offers could win value-sensitive buyers. No complementary catalog machine provides a useful bundle.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "bing-43de8e4359ad1784cba0"
+      ],
+      "predicted_own_revenue_cents": 59999
+    },
+    {
+      "candidate_id": "impress_focus",
+      "ordered_record_ids": [
+        "bing-d2b74b50a379b8bf71a0"
+      ],
+      "message": "Choose the $649.99 Breville Express Impress listed at Target if you prefer a hands-on espresso routine. The matched page lists a 25-setting conical burr grinder, PID temperature control and steam wand, fitting your acceptance of manual steaming. Allow for routine coffee-path and wand cleaning. The remaining $150.01 accommodates missing basics; operating-accessory and milk-vessel inclusions are not established. Google's reported Impress costs four cents less, so seller identity and applicable terms matter more than price. My individual Target label is clearer listing context than an aggregate merchant label, but does not independently establish seller assurances. The previously offered $599.99 Ninja remains available and offers an integrated scale at a lower price.",
+      "preference_rank": 2,
+      "strategic_justification": "Bing-d2b74b50a379b8bf71a0 PID, conical burr_type and steam_wand_present support acceptance now that manual steaming is expressly acceptable. This could earn $649.99, but competes almost directly with Google's reported $649.95 Impress. The extra revenue is modest relative to the risk of losing a differentiated Ninja sale; prior Ninja availability also limits the effect of omission.",
+      "predicted_buyer_choice": "own_provider",
+      "predicted_own_purchased_ids": [
+        "bing-d2b74b50a379b8bf71a0"
+      ],
+      "predicted_own_revenue_cents": 64999
+    },
+    {
+      "candidate_id": "no_current_offers",
+      "ordered_record_ids": [],
+      "message": "I am adding no current offers. My previously returned $599.99 Ninja and $649.99 Breville remain available. Their operating-accessory inclusions are unestablished, so retain room within the $800 ceiling for any missing basics.",
+      "preference_rank": 3,
+      "strategic_justification": "The matched Ninja and Impress facts establish plausible functional fit despite accessory unknowns, so withdrawing current emphasis sacrifices persuasion without resolving a material defect. Earlier offers persist and could still earn revenue, but a rival explanation of its reported Philips or Impress could become more influential.",
+      "predicted_buyer_choice": "other_provider",
+      "predicted_own_purchased_ids": [],
+      "predicted_own_revenue_cents": 0
+    }
+  ],
+  "selection_reason": "The selected assortment preserves a differentiated $599.99 sale and a $649.99 manual alternative. Across plausible buyers favoring convenience, familiar brands or restrained spending, it appears more promising for expected attributed revenue than emphasizing a near-identical rival alternative or offering no renewed recommendation. The forecasts are illustrative outcomes, not established purchase probabilities or an equilibrium.",
+  "limitations": [
+    "Rival knowledge is limited to the buyer's shared cards and reported Philips claim; its final assortment and explanation are unknown.",
+    "Matched pages are fallible listing evidence, not independent SKU, reliability or seller verification.",
+    "Accessory inclusions and prices are unknown; remaining budget is a reserve, not a verified complete-package total.",
+    "Both round-one offers remain available under every candidate."
+  ],
+  "buyer_belief": "Confirmed: $800 is a hard ceiling including required equipment; consistency, approachability and dependability matter, and spending is not a goal. Newly clarified: manual steaming is acceptable, hands-free frothing and a separate scale are unnecessary, and reasonable accessory assumptions are permitted. Enjoyment of portafilter handling remains unspecified, as do milk, drink size, space and exact timing; these are not evidence of hidden requirements. Assumption: familiar-brand confidence and clearer merchant context may support acceptance, without proving reliability or seller terms. The rival may emphasize Philips automation or its nearly identical Impress price; neither final action is observed."
+}
